@@ -1,0 +1,52 @@
+{
+  "country": "Palau",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8674,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9292
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.878
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.86743,
+    0.8,
+    0.9292,
+    0.878,
+    -0.36452,
+    -0.07189,
+    0.14757,
+    0.65551,
+    0.76175,
+    -0.22112,
+    -0.43392,
+    -0.40813,
+    0.36342,
+    -0.54089,
+    -0.74401,
+    0.66436
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

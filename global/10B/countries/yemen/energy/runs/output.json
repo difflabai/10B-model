@@ -1,0 +1,84 @@
+{
+  "country": "Yemen",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6923076923076923,
+  "indicators_scored": 9,
+  "indicators_total": 13,
+  "composite_score": 0.5821,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.6367
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9037
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.5687
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2867
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.7932
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.58211,
+    0.69231,
+    0.6367,
+    0.9037,
+    0.2007,
+    0.25447,
+    0.24883,
+    -0.79229,
+    0.79406,
+    0.13759,
+    -0.11666,
+    0.25844,
+    -0.67233,
+    0.94067,
+    0.17079,
+    0.90286
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

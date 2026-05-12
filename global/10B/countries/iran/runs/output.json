@@ -1,0 +1,47 @@
+{
+  "country": "iran",
+  "category_scores": {
+    "agency": 0.7865,
+    "belonging": 0.7066,
+    "communications": 0.7255,
+    "education": 0.727,
+    "energy": 0.4958,
+    "environment": 0.4457,
+    "food": 0.6691,
+    "governance": 0.6571,
+    "health": 0.6548,
+    "meaning": 0.63,
+    "mobility": 0.6241,
+    "safety": 0.6367,
+    "shelter": 0.7052,
+    "water": 0.7,
+    "work": 0.5924
+  },
+  "country_score": 0.6504,
+  "tier_scores": {
+    "subsistence": 0.6732,
+    "development": 0.633,
+    "agency": 0.6452
+  },
+  "country_embedding": [
+    0.65043,
+    0.87509,
+    0.70104,
+    0.70074,
+    0.03709,
+    -0.10842,
+    -0.37482,
+    -0.15721,
+    -0.09151,
+    -0.09797,
+    -0.05293,
+    -0.14477,
+    0.21238,
+    0.18347,
+    -0.06752,
+    0.1776
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Iran, the three needs areas with the largest gaps are: environment (0.45), energy (0.50), work (0.59).\nThe three strongest areas are: agency (0.79), education (0.73), communications (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Romania",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "54.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.776 million BUCHAREST (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "urbanization is not particularly high, and a fairly even population distribution can be found throughout most of the country, with urban areas attracting larger and denser populations; Hungarians, the country's largest minority, have a particularly strong presence in eastern Transylvania",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; cold, cloudy winters with frequent snow and fog; sunny summers with frequent showers and thunderstorms",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; cold, cloudy winters with frequent snow and fog; sunny summers with frequent showers and thunderstorms",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

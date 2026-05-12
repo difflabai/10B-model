@@ -1,0 +1,72 @@
+{
+  "country": "Vanuatu",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 4,
+  "indicators_total": 10,
+  "composite_score": 0.3327,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.212
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5083
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3105
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.3327,
+    0.4,
+    0.212,
+    0.5083,
+    0.96854,
+    -0.42947,
+    -0.96094,
+    -0.76361,
+    -0.28902,
+    0.72668,
+    -0.68521,
+    -0.46621,
+    0.53454,
+    -0.08653,
+    0.2293,
+    0.24739
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

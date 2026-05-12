@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.christmas-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Christmas Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.christmas-island.food",
+        "global.10B.countries.christmas-island.water",
+        "global.10B.countries.christmas-island.shelter",
+        "global.10B.countries.christmas-island.health",
+        "global.10B.countries.christmas-island.safety",
+        "global.10B.countries.christmas-island.education",
+        "global.10B.countries.christmas-island.work",
+        "global.10B.countries.christmas-island.energy",
+        "global.10B.countries.christmas-island.mobility",
+        "global.10B.countries.christmas-island.communications",
+        "global.10B.countries.christmas-island.governance",
+        "global.10B.countries.christmas-island.environment",
+        "global.10B.countries.christmas-island.belonging",
+        "global.10B.countries.christmas-island.meaning",
+        "global.10B.countries.christmas-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

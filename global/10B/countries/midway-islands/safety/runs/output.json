@@ -1,0 +1,56 @@
+{
+  "country": "Midway Islands",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": null
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.42467,
+    -0.68551,
+    0.23214,
+    0.11653,
+    -0.69287,
+    0.30929,
+    -0.28139,
+    -0.48299,
+    0.88077,
+    -0.29845,
+    0.02333,
+    0.59689
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

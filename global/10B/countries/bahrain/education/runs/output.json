@@ -1,0 +1,52 @@
+{
+  "country": "Bahrain",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6966,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.94
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.368
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6966,
+    1.0,
+    0.94,
+    0.368,
+    0.77154,
+    -0.03038,
+    -0.45159,
+    -0.85177,
+    -0.1725,
+    -0.03291,
+    0.84338,
+    0.60327,
+    -0.66052,
+    -0.41772,
+    -0.85043,
+    -0.9042
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

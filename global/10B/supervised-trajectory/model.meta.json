@@ -1,0 +1,91 @@
+{
+  "id": "global.10B.supervised-trajectory",
+  "name": "10B supervised trajectory — hold-out predictor",
+  "kind": "forecast_harness",
+  "blurb": "Supervised head: predicts hold-out sociodemographic characteristics from the 10B macro-embedding. Validates that the embedding meaningfully captures the human needs of populations beyond the indicators it was trained on.",
+  "mechanism": "For each held-out indicator (e.g. life expectancy, fertility rate, internet penetration) trains a quintile predictor on 80% of countries using only the 10B macro-embedding as features, evaluates on the remaining 20%, and reports area under the curve.\n\nReproduces the project's stated supervised trajectory: the embedding model that captures the human needs of a population is validated by predicting hold-outs.",
+  "components": [
+    {
+      "id": "splitter",
+      "name": "Hold-out splitter",
+      "role": "Stratified 80/20 split with deterministic seed.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "trainer",
+      "name": "Quintile predictor trainer",
+      "role": "Logistic regression per indicator over the embedding.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "scorer",
+      "name": "AUC scorer",
+      "role": "Macro-averaged AUC across hold-out indicators.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "embedding",
+      "kind": "embedding",
+      "description": "10B macro-embedding (country-level)."
+    },
+    {
+      "name": "holdout-indicators",
+      "kind": "indicator-set",
+      "description": "Sociodemographic targets withheld from the scoring step."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "auc-by-indicator",
+      "kind": "table",
+      "description": "Per-indicator AUC scores."
+    },
+    {
+      "name": "aggregate-auc",
+      "kind": "scalar",
+      "description": "Macro-averaged AUC."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "split",
+      "value": "80/20"
+    },
+    {
+      "key": "seed",
+      "value": "42"
+    },
+    {
+      "key": "classifier",
+      "value": "logistic-regression"
+    },
+    {
+      "key": "targets",
+      "value": "life-expectancy, fertility-rate, internet-penetration, gdp-quintile, gini-quintile"
+    }
+  ],
+  "references": [
+    {
+      "label": "OECD Better Life Index",
+      "kind": "url",
+      "location": "https://www.oecdbetterlifeindex.org/"
+    },
+    {
+      "label": "ROC AUC — Hanley & McNeil 1982",
+      "kind": "paper",
+      "location": "hanley-mcneil-1982"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B",
+      "kind": "depends_on",
+      "note": "Supervised head of the top-level 10B model."
+    }
+  ]
+}

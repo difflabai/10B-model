@@ -1,0 +1,34 @@
+{
+  "country": "Eswatini",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "24.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "68,000 MBABANE (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "because of its mountainous terrain, the population distribution is uneven throughout the country, concentrating primarily in valleys and plains as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from tropical to near temperate",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical to near temperate",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Montenegro",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "9,825 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "250 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "565,522 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "130,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Brazil",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8223,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9064
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.83
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.82228,
+    1.0,
+    0.9064,
+    0.83,
+    0.07732,
+    0.97751,
+    -0.53329,
+    -0.8789,
+    0.28026,
+    0.74807,
+    0.36242,
+    -0.14339,
+    0.56088,
+    -0.35232,
+    0.02486,
+    0.69799
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

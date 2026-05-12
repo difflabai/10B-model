@@ -1,0 +1,39 @@
+{
+  "country": "Saint Lucia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Saint Lucia Labor Party or SLPUnited Workers Party or UWP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "74% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "3 privately owned TV stations; 1 public TV station operating on a cable network; multi-channel cable TV service available; a mix of state-owned and privately owned broadcasters operate nearly 25 radio stations including repeater transmission stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,47 @@
+{
+  "country": "equatorial-guinea",
+  "category_scores": {
+    "agency": 0.8079,
+    "belonging": 0.6846,
+    "communications": 0.6587,
+    "education": 0.8045,
+    "energy": 0.5126,
+    "environment": 0.537,
+    "food": 0.6375,
+    "governance": 0.7,
+    "health": 0.3836,
+    "meaning": 0.63,
+    "mobility": 0.4372,
+    "safety": 0.7217,
+    "shelter": 0.6331,
+    "water": 0.55,
+    "work": 0.5847
+  },
+  "country_score": 0.6189,
+  "tier_scores": {
+    "subsistence": 0.5852,
+    "development": 0.5995,
+    "agency": 0.6719
+  },
+  "country_embedding": [
+    0.61887,
+    0.73155,
+    0.61827,
+    0.54913,
+    0.07876,
+    -0.16224,
+    0.14232,
+    -0.07274,
+    0.18726,
+    0.12197,
+    0.07447,
+    0.05316,
+    0.01648,
+    -0.07568,
+    0.02457,
+    0.17342
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Equatorial Guinea, the three needs areas with the largest gaps are: health (0.38), mobility (0.44), energy (0.51).\nThe three strongest areas are: agency (0.81), education (0.80), safety (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Tokelau",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "0% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the country's small population is fairly evenly distributed amongst the three atolls",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; moderated by trade winds (April to November)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; moderated by trade winds (April to November)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.shelter",
+  "name": "Asia — Shelter and habitat",
+  "kind": "sector_economic",
+  "blurb": "Region-level shelter and habitat for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country shelter models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "shelter-country-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "shelter-region-mean",
+      "kind": "scalar",
+      "description": "Mean shelter score across the region."
+    },
+    {
+      "name": "shelter-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Shelter and habitat"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.shelter",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

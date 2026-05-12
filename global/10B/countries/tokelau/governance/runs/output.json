@@ -1,0 +1,60 @@
+{
+  "country": "Tokelau",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7083,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.75
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.70833,
+    0.85714,
+    0.8,
+    0.55,
+    -0.68331,
+    -0.95428,
+    -0.03166,
+    -0.67117,
+    0.33462,
+    -0.92773,
+    0.3062,
+    0.11217,
+    -0.18685,
+    -0.32494,
+    0.03642,
+    -0.67108
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

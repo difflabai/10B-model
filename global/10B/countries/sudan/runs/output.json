@@ -1,0 +1,47 @@
+{
+  "country": "sudan",
+  "category_scores": {
+    "agency": 0.7225,
+    "belonging": 0.6595,
+    "communications": 0.6923,
+    "education": 0.572,
+    "energy": 0.5488,
+    "environment": 0.4505,
+    "food": 0.6093,
+    "governance": 0.7857,
+    "health": 0.4119,
+    "meaning": 0.59,
+    "mobility": 0.4912,
+    "safety": 0.5944,
+    "shelter": 0.6813,
+    "water": 0.7167,
+    "work": 0.3777
+  },
+  "country_score": 0.5936,
+  "tier_scores": {
+    "subsistence": 0.6027,
+    "development": 0.5364,
+    "agency": 0.6416
+  },
+  "country_embedding": [
+    0.59359,
+    0.84689,
+    0.56114,
+    0.59108,
+    -0.1391,
+    -0.00599,
+    0.15347,
+    0.23142,
+    -0.1577,
+    0.1176,
+    0.21562,
+    0.02657,
+    0.02632,
+    0.1036,
+    -0.12633,
+    -0.13048
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Sudan, the three needs areas with the largest gaps are: work (0.38), health (0.41), environment (0.45).\nThe three strongest areas are: governance (0.79), agency (0.72), water (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

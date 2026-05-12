@@ -1,0 +1,34 @@
+{
+  "country": "Brazil",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "87.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "22.620 million São Paulo, 13.728 million Rio de Janeiro, 6.248 million Belo Horizonte, 4.873 million BRASÍLIA (capital), 4.264 million Recife, 4.212 million Porto Alegre (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of people live along, or relatively near, the Atlantic coast in the east; the population core is in the southeast, anchored by the cities of São Paolo, Brasília, and Rio de Janeiro",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly tropical, but temperate in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly tropical, but temperate in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

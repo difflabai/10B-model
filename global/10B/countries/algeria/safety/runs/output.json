@@ -1,0 +1,56 @@
+{
+  "country": "Algeria",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.4722,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.2667
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.47222,
+    0.5,
+    0.75,
+    0.2667,
+    0.97263,
+    -0.71307,
+    0.90689,
+    -0.37908,
+    0.95981,
+    -0.13921,
+    -0.37954,
+    0.07674,
+    -0.63577,
+    0.24282,
+    0.63314,
+    0.47527
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

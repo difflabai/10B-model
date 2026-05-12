@@ -1,0 +1,44 @@
+{
+  "country": "Eritrea",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$1,600 (2017 est.)$1,500 (2016 est.)$1,500 (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "5% (2017 est.)1.9% (2016 est.)2.6% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "9% (2017 est.)9% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "1.666 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "5.87% (2023 est.)5.94% (2022 est.)6.34% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

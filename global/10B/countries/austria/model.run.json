@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.austria",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Austria"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.austria.food",
+        "global.10B.countries.austria.water",
+        "global.10B.countries.austria.shelter",
+        "global.10B.countries.austria.health",
+        "global.10B.countries.austria.safety",
+        "global.10B.countries.austria.education",
+        "global.10B.countries.austria.work",
+        "global.10B.countries.austria.energy",
+        "global.10B.countries.austria.mobility",
+        "global.10B.countries.austria.communications",
+        "global.10B.countries.austria.governance",
+        "global.10B.countries.austria.environment",
+        "global.10B.countries.austria.belonging",
+        "global.10B.countries.austria.meaning",
+        "global.10B.countries.austria.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

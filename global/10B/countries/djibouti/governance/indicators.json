@@ -1,0 +1,44 @@
+{
+  "country": "Djibouti",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system based primarily on the French civil code (as it existed in 1997), Islamic religious law (in matters of family law and successions), and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "approved by referendum 4 September 1992",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Ismail Omar GUELLEH (since 8 May 1999)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AFESD, AMF, ATMIS, AU, CAEU (candidates), COMESA, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

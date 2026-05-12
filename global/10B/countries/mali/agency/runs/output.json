@@ -1,0 +1,56 @@
+{
+  "country": "Mali",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6985,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.38
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6625
+    }
+  ],
+  "embedding": [
+    0.6985,
+    0.83333,
+    0.85,
+    0.85,
+    -0.24172,
+    0.34713,
+    0.86255,
+    0.45141,
+    -0.64971,
+    -0.55566,
+    -0.21767,
+    -0.58502,
+    0.41161,
+    0.46877,
+    -0.47475,
+    -0.3301
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

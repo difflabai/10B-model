@@ -1,0 +1,39 @@
+{
+  "country": "Poland",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Polish Armed Forces (Polskie Siły Zbrojne): Land Forces (Wojska Ladowe), Navy (Marynarka Wojenna), Air Force (Sily Powietrzne), Special Forces (Wojska Specjalne), Territorial Defense Forces (Wojska Obrony Terytorialnej), Cyberspace Defense Forces (Wojska Obrony Cyberprzestrzeni)Ministry of Interior and Administration: Polish National Police (Policja); Border Guard (Straż Graniczna or SG) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4.1% of GDP (2024 est.)3.9% of GDP (2023 est.)2.2% of GDP (2022)2.2% of GDP (2021)2.2% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "956,635 (Ukraine) (as of 15 December 2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

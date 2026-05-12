@@ -1,0 +1,39 @@
+{
+  "country": "Bolivia",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lago Poopo - 1,340 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Amazon (6,145,186 sq km), Paraná (2,582,704 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies with altitude; humid and tropical to cold and semiarid",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

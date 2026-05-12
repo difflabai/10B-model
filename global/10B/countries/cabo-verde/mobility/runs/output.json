@@ -1,0 +1,72 @@
+{
+  "country": "Cabo Verde",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.4101,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2021
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2066
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.45
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2395
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.8121
+    }
+  ],
+  "embedding": [
+    0.41007,
+    0.6,
+    0.2021,
+    0.2066,
+    -0.36156,
+    0.42669,
+    -0.51821,
+    0.53454,
+    -0.86819,
+    -0.88782,
+    -0.08028,
+    -0.092,
+    0.6466,
+    0.86984,
+    -0.7564,
+    -0.04091
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

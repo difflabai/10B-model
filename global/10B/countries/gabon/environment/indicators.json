@@ -1,0 +1,44 @@
+{
+  "country": "Gabon",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "deforestation (the forests that cover three-quarters of the country are threatened by excessive logging); burgeoning population exacerbating disposal of solid waste; oil industry contributing to water pollution; wildlife poaching",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "26.29 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "5.32 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "1.13 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "81% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "238,102 tons (1995 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

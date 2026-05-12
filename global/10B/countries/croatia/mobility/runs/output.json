@@ -1,0 +1,72 @@
+{
+  "country": "Croatia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5249,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3589
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5333
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4395
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7373
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4041
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5067
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.6694
+    }
+  ],
+  "embedding": [
+    0.52491,
+    0.8,
+    0.3589,
+    0.5333,
+    -0.80148,
+    0.92319,
+    0.71798,
+    0.13921,
+    -0.5595,
+    0.73175,
+    -0.00252,
+    0.13143,
+    0.73721,
+    0.42431,
+    -0.62621,
+    0.65493
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

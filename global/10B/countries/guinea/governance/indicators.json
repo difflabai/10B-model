@@ -1,0 +1,44 @@
+{
+  "country": "Guinea",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the French model",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1958, 1990; 2010 and a referendum in 2020, which was suspended on 5 September 2021 via a coup d’etat; on 27 September, the Transitional Charter was released, which supersedes the constitution until a new constitution is promulgated",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Col. Mamady DOUMBOUYA (since 1 October 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

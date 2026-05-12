@@ -1,0 +1,59 @@
+{
+  "country": "Burundi",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "12,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "1,500 km (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "6 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "673 km (2022) (mainly on Lake Tanganyika between Bujumbura, Burundi's principal port, and lake ports in Tanzania, Zambia, and the Democratic Republic of the Congo)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.4
+}

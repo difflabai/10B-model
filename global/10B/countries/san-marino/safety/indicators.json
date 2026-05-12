@@ -1,0 +1,39 @@
+{
+  "country": "San Marino",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Military Corps (National Guard): Guard of the Rock (or Fortress Guard), Uniformed Militia, Guard of the Great and General Council, Corps of the GendarmerieMinistry of Internal Affairs: Civil Police Corps (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.16666666666666666
+}

@@ -1,0 +1,74 @@
+{
+  "country": "Solomon Islands",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "76% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "79%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "75.4%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "37,000 kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "89.565 million kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "93.8% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "2.7% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": "3.5% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "6.172 million Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "322,000 metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.7692307692307693
+}

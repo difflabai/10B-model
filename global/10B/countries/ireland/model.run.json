@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ireland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ireland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ireland.food",
+        "global.10B.countries.ireland.water",
+        "global.10B.countries.ireland.shelter",
+        "global.10B.countries.ireland.health",
+        "global.10B.countries.ireland.safety",
+        "global.10B.countries.ireland.education",
+        "global.10B.countries.ireland.work",
+        "global.10B.countries.ireland.energy",
+        "global.10B.countries.ireland.mobility",
+        "global.10B.countries.ireland.communications",
+        "global.10B.countries.ireland.governance",
+        "global.10B.countries.ireland.environment",
+        "global.10B.countries.ireland.belonging",
+        "global.10B.countries.ireland.meaning",
+        "global.10B.countries.ireland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

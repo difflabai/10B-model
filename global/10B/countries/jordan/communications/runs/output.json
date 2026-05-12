@@ -1,0 +1,76 @@
+{
+  "country": "Jordan",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 11,
+  "indicators_total": 11,
+  "composite_score": 0.6433,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.56
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.5167
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.9
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.35
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.64333,
+    1.0,
+    0.56,
+    0.55,
+    -0.69616,
+    0.66128,
+    0.0161,
+    -0.43172,
+    0.52267,
+    -0.002,
+    0.5075,
+    0.98947,
+    -0.29146,
+    0.56603,
+    0.95669,
+    0.02147
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Estonia",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.5722,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.5667
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.57222,
+    0.5,
+    0.75,
+    0.5667,
+    0.37722,
+    0.51623,
+    -0.89853,
+    0.13109,
+    -0.82632,
+    -0.66513,
+    -0.19438,
+    -0.67257,
+    0.66299,
+    -0.84619,
+    -0.95682,
+    0.72668
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

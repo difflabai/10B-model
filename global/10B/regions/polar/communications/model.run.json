@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.communications",
+        "global.10B.countries.antarctica.communications",
+        "global.10B.countries.canada.communications",
+        "global.10B.countries.dhekelia.communications",
+        "global.10B.countries.france.communications",
+        "global.10B.countries.french-southern-and-antarctic-lands.communications",
+        "global.10B.countries.greenland.communications",
+        "global.10B.countries.heard-island-and-mcdonald-islands.communications",
+        "global.10B.countries.russia.communications",
+        "global.10B.countries.svalbard.communications"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.4,
+    0.55,
+    0.75,
+    -0.30697,
+    0.41045,
+    0.54104,
+    0.87222,
+    -0.49596,
+    -0.65869,
+    -0.6896,
+    0.84479,
+    -0.36706,
+    0.74221,
+    -0.10668,
+    0.10857
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "New Zealand",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "94,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "61,600 km (includes 199 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "32,400 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "202 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "62 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "331 km condensate, 2,500 km gas, 172 km liquid petroleum gas, 288 km oil, 198 km refined products (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "4,128 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "17,249,049 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,349,300,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

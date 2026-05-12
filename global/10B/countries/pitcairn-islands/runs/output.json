@@ -1,0 +1,47 @@
+{
+  "country": "pitcairn-islands",
+  "category_scores": {
+    "agency": 0.75,
+    "belonging": 0.625,
+    "communications": 0.73,
+    "education": 0.65,
+    "energy": null,
+    "environment": 0.6556,
+    "food": 0.4667,
+    "governance": 0.6917,
+    "health": null,
+    "meaning": 0.6167,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.6486,
+  "tier_scores": {
+    "subsistence": 0.5889,
+    "development": 0.69,
+    "agency": 0.6678
+  },
+  "country_embedding": [
+    0.43238,
+    0.32681,
+    0.46,
+    0.31409,
+    0.21676,
+    0.14824,
+    0.14545,
+    0.059,
+    -0.02789,
+    0.05249,
+    0.03176,
+    0.0548,
+    -0.15722,
+    -0.1592,
+    0.06976,
+    -0.17993
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Pitcairn Islands, the three needs areas with the largest gaps are: food (0.47), meaning (0.62), belonging (0.62).\nThe three strongest areas are: agency (0.75), communications (0.73), governance (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

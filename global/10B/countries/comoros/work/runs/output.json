@@ -1,0 +1,60 @@
+{
+  "country": "Comoros",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6434,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.3063
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.75
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.76
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.494
+    }
+  ],
+  "embedding": [
+    0.64338,
+    0.85714,
+    0.3063,
+    0.75,
+    0.50555,
+    -0.75579,
+    -0.05986,
+    -0.03313,
+    0.82824,
+    0.88788,
+    -0.33822,
+    0.35888,
+    -0.87848,
+    0.52718,
+    -0.54726,
+    -0.75717
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Rwanda",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6696,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6855
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6696,
+    1.0,
+    0.6855,
+    0.5875,
+    -0.86496,
+    0.58254,
+    -0.78531,
+    0.22567,
+    -0.98453,
+    0.91992,
+    0.28585,
+    -0.47463,
+    0.10527,
+    0.46737,
+    0.06069,
+    -0.39623
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

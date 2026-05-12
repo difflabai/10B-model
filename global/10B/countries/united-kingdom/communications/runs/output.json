@@ -1,0 +1,76 @@
+{
+  "country": "United Kingdom",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 11,
+  "indicators_total": 11,
+  "composite_score": 0.7661,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.8525
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.845
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.86
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.76614,
+    1.0,
+    0.8525,
+    0.55,
+    -0.50179,
+    -0.93262,
+    0.27581,
+    -0.19609,
+    0.41686,
+    0.39037,
+    -0.10042,
+    -0.70446,
+    -0.4135,
+    -0.15804,
+    -0.81735,
+    -0.06667
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Namibia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "48,875 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "7,893 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "40,982 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "255 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,628 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "602,893 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "26.29 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.7
+}

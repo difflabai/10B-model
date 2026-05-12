@@ -1,0 +1,72 @@
+{
+  "country": "Cyprus",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.4206,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2736
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4583
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7044
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3186
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.348
+    }
+  ],
+  "embedding": [
+    0.4206,
+    0.5,
+    0.2736,
+    0.4583,
+    -0.84741,
+    0.96365,
+    0.32009,
+    -0.03398,
+    0.73404,
+    -0.70925,
+    -0.12975,
+    -0.3261,
+    0.62982,
+    0.24913,
+    0.59707,
+    0.39501
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

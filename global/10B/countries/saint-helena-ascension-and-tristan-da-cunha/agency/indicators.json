@@ -1,0 +1,39 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "37.6% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Saint Helena has no local TV station; 2 local radio stations, one of which is relayed to Ascension Island; satellite TV stations rebroadcast terrestrially; Ascension Island has no local TV station but has 1 local radio station and receives relays of broadcasts from 1 radio station on Saint Helena; broadcasts from the British Forces Broadcasting Service (BFBS) are available, as well as TV services for the US military; Tristan da Cunha has 1 local radio station and receives BFBS TV and radio broadcasts",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

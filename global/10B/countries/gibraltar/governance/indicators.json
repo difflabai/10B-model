@@ -1,0 +1,44 @@
+{
+  "country": "Gibraltar",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Parliament); self-governing overseas territory of the UK",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of the UK, where applicable, apply",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1969; latest passed by referendum 30 November 2006, entered into effect 14 December 2006, entered into force 2 January 2007",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; and British citizens with six months residence or more",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor Sir David STEEL (since 11 June 2020)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ICC (NGOs), Interpol (subbureau), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

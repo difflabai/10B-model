@@ -1,0 +1,59 @@
+{
+  "country": "Slovakia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "45,106 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "114 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "2 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "2,270 km gas transmission pipelines, 6,278 km high-pressure gas distribution pipelines, 27,023 km mid- and low-pressure gas distribution pipelines (2016), 510 km oil (2015) (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "172 km (2012) (on Danube River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,627 km (2020) 1,585 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.energy",
+        "global.10B.countries.antarctica.energy",
+        "global.10B.countries.canada.energy",
+        "global.10B.countries.dhekelia.energy",
+        "global.10B.countries.france.energy",
+        "global.10B.countries.french-southern-and-antarctic-lands.energy",
+        "global.10B.countries.greenland.energy",
+        "global.10B.countries.heard-island-and-mcdonald-islands.energy",
+        "global.10B.countries.russia.energy",
+        "global.10B.countries.svalbard.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

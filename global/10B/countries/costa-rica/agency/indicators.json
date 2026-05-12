@@ -1,0 +1,39 @@
+{
+  "country": "Costa Rica",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Accessibility Without Exclusion or PASEBroad Front (Frente Amplio) or PFACitizen Action Party or PACCosta Rican Renewal Party or PRCHere Costa Rica Commands Party or ACRMLiberal Progressive Party or PLP Libertarian Movement Party or MLNational Integration Party or PINNational Liberation Party or PLNNational Restoration Party or PRNNew Generation or PNGNew Republic Party or PNRSocial Christian Republican Party or PRSCSocial Christian Unity Party or PUSC of UNIDADSocial Democratic Progress Party or PPSD",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "over two dozen privately owned TV stations and 1 publicly owned TV station nationwide; cable network services are widely available; more than 100 privately owned radio stations and a public radio network (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

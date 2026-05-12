@@ -1,0 +1,52 @@
+{
+  "country": "Gibraltar",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.2,
+    0.65,
+    0.0,
+    0.61718,
+    -0.55453,
+    -0.85611,
+    0.68685,
+    0.53997,
+    -0.49126,
+    -0.99954,
+    0.3861,
+    0.61498,
+    -0.43224,
+    -0.00389,
+    0.76895
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

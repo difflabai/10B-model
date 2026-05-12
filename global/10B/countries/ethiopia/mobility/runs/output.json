@@ -1,0 +1,72 @@
+{
+  "country": "Ethiopia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.561,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5867
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5806
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2842
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5643
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.56096,
+    0.6,
+    0.5867,
+    0.5806,
+    0.35207,
+    0.11052,
+    0.47991,
+    0.17656,
+    -0.09795,
+    0.29079,
+    0.71829,
+    0.93497,
+    -0.49297,
+    -0.81115,
+    -0.28179,
+    -0.75598
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

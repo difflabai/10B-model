@@ -1,0 +1,44 @@
+{
+  "country": "Canada",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law system except in Quebec, where civil law based on the French civil code prevails",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "consists of unwritten and written acts, customs, judicial decisions, and traditions dating from 1763; the written part of the constitution consists of the Constitution Act of 29 March 1867, which created a federation of four provinces, and the Constitution Act of 17 April 1982",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor General Mary SIMON (since 26 July 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (nonregional member), AfDB (nonregional member), APEC, Arctic Council, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CDB, CE (observer), EAPC, EBRD, EITI (implementing country), FAO, FATF, G-7, G-8, G-10, G-20, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSTAH, MONUSCO, NAFTA, NATO, NEA, NSG, OAS, OECD, OIF, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), UN, UNCTAD, UNESCO, UNFICYP, UNHCR, UNMISS, UNRWA, UNTSO, UPU, USMCA, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

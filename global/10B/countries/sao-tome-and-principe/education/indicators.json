@@ -1,0 +1,34 @@
+{
+  "country": "Sao Tome and Principe",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "94.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "12 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Portuguese 98.4% (official), Forro 36.2%, Cabo Verdian 8.5%, French 6.8%, Angolar 6.6%, English 4.9%, Lunguie 1%, other (including sign language) 2.4%; other Portuguese-based Creoles are also spoken (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

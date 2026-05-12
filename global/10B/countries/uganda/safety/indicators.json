@@ -1,0 +1,39 @@
+{
+  "country": "Uganda",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Uganda People's Defense Force (UPDF): Land Force (includes marines), Air Force, Special Forces Command, Reserve Force Ministry of Internal Affairs: Uganda Police Force (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2% of GDP (2023 est.)2.2% of GDP (2022 est.)2.5% of GDP (2021 est.)2.5% of GDP (2020 est.)1.7% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "34,368 (Eritrea), 23,388 (Rwanda), 8,936 (Ethiopia), 5,776 (Sudan) (2023); 931,666 (South Sudan) (refugees and asylum seekers), 512,445 (Democratic Republic of the Congo), 40,326 (Somalia), 40,326 (Burundi) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

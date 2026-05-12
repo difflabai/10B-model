@@ -1,0 +1,44 @@
+{
+  "country": "Equatorial Guinea",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed system of civil and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1968, 1973, 1982; approved by referendum 17 November 1991",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President OBIANG Nguema Mbasogo (since 3 August 1979)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU, BDEAC, CEMAC, CPLP, FAO, Francophonie, FZ, G-77, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IPU, ITSO, ITU, MIGA, NAM, OAS (observer), OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WHO, WIPO, WTO (observer)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

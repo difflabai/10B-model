@@ -1,0 +1,64 @@
+{
+  "country": "Niue",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "52 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "1,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "79.6% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "in 2020, the Manatua One Polynesia Fiber Cable provided Niue with high speed Internet access for the first time replacing a 4 megabit satellite link with gigabit fiber connectivity; the government set out a strategy to upgrade to a new infrastructure that would be robust enough to operate reliably in a challenging climate: 40 40°C heat, 40% humidity, salty air, frequent power outages during storms, and no air conditioning (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "single-line (fixed line) telephone system connects all villages on island; fixed teledensity at nearly 52 per 100 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 683; landing point for the Manatua submarine cable linking Niue to several South Pacific Ocean Islands; expansion of satellite services (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 government-owned TV station with many of the programs supplied by Television New Zealand; 1 government-owned radio station broadcasting in AM and FM (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6363636363636364
+}

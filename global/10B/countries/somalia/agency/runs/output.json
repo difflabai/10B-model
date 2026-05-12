@@ -1,0 +1,56 @@
+{
+  "country": "Somalia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.616,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.33
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.2
+    }
+  ],
+  "embedding": [
+    0.616,
+    0.83333,
+    0.85,
+    0.85,
+    -0.73809,
+    0.87335,
+    -0.51235,
+    -0.69271,
+    -0.46847,
+    -0.88269,
+    0.72323,
+    -0.75451,
+    -0.61065,
+    -0.80008,
+    0.5523,
+    0.2224
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

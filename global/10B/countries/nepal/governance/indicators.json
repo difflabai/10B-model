@@ -1,0 +1,44 @@
+{
+  "country": "Nepal",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "English common law and Hindu legal concepts; note - new criminal and civil codes came into effect on 17 August 2018",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest approved by the Second Constituent Assembly 16 September 2015, signed by the president and effective 20 September 2015",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Ram Chandra POUDEL (since 13 March 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, BIMSTEC, CD, CP, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, NAM, OPCW, SAARC, SACEP, UN, UNAMID, UNCTAD, UNDOF, UNESCO, UNIDO, UNIFIL, UNISFA, UNMIL, UNMISS, UNOCI, UNSOM, UNTSO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

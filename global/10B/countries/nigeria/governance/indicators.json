@@ -1,0 +1,44 @@
+{
+  "country": "Nigeria",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law, Islamic law (in 12 northern states), and traditional law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 5 May 1999, effective 29 May 1999",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Bola Ahmed Adekunle TINUBU (since 29 May 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, ATMIS, AU, C, CD, D-8, ECOWAS, EITI (compliant country), FAO, G-15, G-24, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MINURSO, MNJTF, MONUSCO, NAM, OAS (observer), OIC, OPCW, OPEC, PCA, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNISFA, UNITAR, UNMIL, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

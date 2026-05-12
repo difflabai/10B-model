@@ -1,0 +1,60 @@
+{
+  "country": "Mauritius",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7391,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7428
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.948
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6282
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.747
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.794
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.664
+    }
+  ],
+  "embedding": [
+    0.73915,
+    1.0,
+    0.7428,
+    0.948,
+    0.62982,
+    -0.7135,
+    0.84393,
+    0.05708,
+    -0.59866,
+    -0.88913,
+    -0.20955,
+    -0.92566,
+    0.6596,
+    -0.8265,
+    0.07106,
+    -0.10185
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

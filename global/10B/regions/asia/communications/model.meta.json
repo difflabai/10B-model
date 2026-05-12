@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.communications",
+  "name": "Asia — Communications and connectivity",
+  "kind": "sector_economic",
+  "blurb": "Region-level communications and connectivity for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country communications models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "communications-country-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "communications-region-mean",
+      "kind": "scalar",
+      "description": "Mean communications score across the region."
+    },
+    {
+      "name": "communications-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Communications and connectivity"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.communications",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Guyana",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.4072,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2183
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2046
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5639
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.499
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.40717,
+    0.5,
+    0.2183,
+    0.2046,
+    -0.98175,
+    0.64221,
+    -0.66085,
+    0.97516,
+    -0.73342,
+    -0.31957,
+    -0.55499,
+    0.60198,
+    -0.51217,
+    -0.71411,
+    -0.70022,
+    0.09142
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

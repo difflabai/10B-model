@@ -1,0 +1,52 @@
+{
+  "country": "Niue",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6191,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.5574
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.61913,
+    0.6,
+    0.75,
+    0.5574,
+    0.47265,
+    -0.9115,
+    0.34054,
+    0.08528,
+    0.95001,
+    -0.08104,
+    0.23613,
+    -0.41796,
+    0.31344,
+    -0.22484,
+    -0.75158,
+    -0.84817
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Cayman Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.6899,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9414
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.818
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.05
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.68986,
+    0.57143,
+    0.9414,
+    0.818,
+    0.65991,
+    -0.12786,
+    -0.01167,
+    0.66598,
+    -0.25582,
+    0.84741,
+    0.88641,
+    0.41698,
+    -0.99902,
+    0.6282,
+    0.37945,
+    0.96826
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

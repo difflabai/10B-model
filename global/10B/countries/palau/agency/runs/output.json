@@ -1,0 +1,56 @@
+{
+  "country": "Palau",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.69,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.422
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.878
+    }
+  ],
+  "embedding": [
+    0.69,
+    0.83333,
+    0.85,
+    0.55,
+    -0.32021,
+    0.97253,
+    0.53912,
+    0.12569,
+    -0.7749,
+    -0.85769,
+    -0.78384,
+    0.71048,
+    0.41418,
+    0.46212,
+    -0.64981,
+    -0.69201
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

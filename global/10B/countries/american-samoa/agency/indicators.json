@@ -1,0 +1,39 @@
+{
+  "country": "American Samoa",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic PartyRepublican Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "40.3% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "3 TV stations; multi-channel pay TV services are available; about a dozen radio stations, some of which are repeater stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

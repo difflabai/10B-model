@@ -1,0 +1,47 @@
+{
+  "country": "sri-lanka",
+  "category_scores": {
+    "agency": 0.6763,
+    "belonging": 0.6821,
+    "communications": 0.6597,
+    "education": 0.6634,
+    "energy": 0.6032,
+    "environment": 0.5087,
+    "food": 0.7183,
+    "governance": 0.7286,
+    "health": 0.6899,
+    "meaning": 0.63,
+    "mobility": 0.4586,
+    "safety": 0.7217,
+    "shelter": 0.6278,
+    "water": 0.65,
+    "work": 0.5811
+  },
+  "country_score": 0.64,
+  "tier_scores": {
+    "subsistence": 0.6815,
+    "development": 0.5932,
+    "agency": 0.6451
+  },
+  "country_embedding": [
+    0.63996,
+    0.82684,
+    0.70737,
+    0.5824,
+    0.15159,
+    0.0962,
+    0.10722,
+    -0.01394,
+    0.13396,
+    0.17542,
+    -0.13837,
+    0.06211,
+    0.07308,
+    0.10604,
+    0.13107,
+    0.03125
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Sri Lanka, the three needs areas with the largest gaps are: mobility (0.46), environment (0.51), work (0.58).\nThe three strongest areas are: governance (0.73), safety (0.72), food (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

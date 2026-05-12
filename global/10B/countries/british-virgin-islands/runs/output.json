@@ -1,0 +1,47 @@
+{
+  "country": "british-virgin-islands",
+  "category_scores": {
+    "agency": 0.7108,
+    "belonging": 0.6659,
+    "communications": 0.703,
+    "education": 0.5747,
+    "energy": 0.4945,
+    "environment": 0.4483,
+    "food": 0.6137,
+    "governance": 0.6917,
+    "health": 0.7179,
+    "meaning": 0.65,
+    "mobility": 0.2639,
+    "safety": null,
+    "shelter": 0.6456,
+    "water": 0.65,
+    "work": 0.7813
+  },
+  "country_score": 0.6151,
+  "tier_scores": {
+    "subsistence": 0.6568,
+    "development": 0.5635,
+    "agency": 0.6333
+  },
+  "country_embedding": [
+    0.57408,
+    0.63658,
+    0.62521,
+    0.52519,
+    -0.08581,
+    -0.19456,
+    -0.11204,
+    0.06267,
+    0.14148,
+    -0.05964,
+    0.25633,
+    0.13531,
+    0.08616,
+    0.18594,
+    0.22918,
+    -0.10012
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in British Virgin Islands, the three needs areas with the largest gaps are: mobility (0.26), environment (0.45), energy (0.49).\nThe three strongest areas are: work (0.78), health (0.72), agency (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.belonging",
+        "global.10B.countries.antarctica.belonging",
+        "global.10B.countries.canada.belonging",
+        "global.10B.countries.dhekelia.belonging",
+        "global.10B.countries.france.belonging",
+        "global.10B.countries.french-southern-and-antarctic-lands.belonging",
+        "global.10B.countries.greenland.belonging",
+        "global.10B.countries.heard-island-and-mcdonald-islands.belonging",
+        "global.10B.countries.russia.belonging",
+        "global.10B.countries.svalbard.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

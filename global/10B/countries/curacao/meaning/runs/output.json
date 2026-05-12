@@ -1,0 +1,56 @@
+{
+  "country": "Curacao",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.725,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.75
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.725,
+    0.66667,
+    0.75,
+    0.65,
+    0.0135,
+    -0.38579,
+    -0.45342,
+    0.14,
+    0.94714,
+    -0.48434,
+    0.46493,
+    0.12117,
+    0.77246,
+    -0.71298,
+    0.6351,
+    0.19539
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

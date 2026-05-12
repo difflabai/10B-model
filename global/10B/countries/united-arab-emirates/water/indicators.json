@@ -1,0 +1,39 @@
+{
+  "country": "United Arab Emirates",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; cooler in eastern mountains",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.16666666666666666
+}

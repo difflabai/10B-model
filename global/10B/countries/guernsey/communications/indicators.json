@@ -1,0 +1,64 @@
+{
+  "country": "Guernsey",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "112 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "71,485 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "53 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "33,930 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "86.6% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "40 (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "25,336 (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "fixed network broadband services are those delivered over physical copper connections, fiber connections and fixed wireless communications links (e.g. WiMax); they do not include services delivered over 2G, 3G and 4G mobile networks (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line 53 per 100 and mobile-cellular 112 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 44; landing points for Guernsey-Jersey, HUGO, INGRID, Channel Islands -9 Liberty and UK-Channel Islands-7 submarine cable to UK and France (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple UK terrestrial TV broadcasts are received via a transmitter in Jersey with relays in Jersey, Guernsey, and Alderney; satellite packages are available; BBC Radio Guernsey and 1 other radio station operating",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Rwanda",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Green Party of Rwanda or DGPR Liberal Party or PL Party for Progress and Concord or PPC Rwandan Patriotic Front or RPF Rwandan Patriotic Front Coalition (includes RPF, PPC, PSP, UDPR, PDI, PSR, PDC) Social Democratic Party or PSD Social Party Imberakuri or PS-Imberakuri",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "34% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "13 TV stations; 35 radio stations registered, including international broadcasters, government owns most popular TV and radio stations; regional satellite-based TV services available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.8% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

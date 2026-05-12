@@ -1,0 +1,47 @@
+{
+  "country": "cabo-verde",
+  "category_scores": {
+    "agency": 0.8001,
+    "belonging": 0.7046,
+    "communications": 0.6509,
+    "education": 0.7902,
+    "energy": 0.6198,
+    "environment": 0.4955,
+    "food": 0.6665,
+    "governance": 0.7,
+    "health": 0.6324,
+    "meaning": 0.63,
+    "mobility": 0.4101,
+    "safety": 0.665,
+    "shelter": 0.6858,
+    "water": 0.65,
+    "work": 0.6083
+  },
+  "country_score": 0.6473,
+  "tier_scores": {
+    "subsistence": 0.6599,
+    "development": 0.6159,
+    "agency": 0.666
+  },
+  "country_embedding": [
+    0.64728,
+    0.79573,
+    0.67055,
+    0.62014,
+    -0.33458,
+    0.21075,
+    -0.00569,
+    -0.07911,
+    -0.16177,
+    -0.14992,
+    -0.05291,
+    -0.03738,
+    0.23516,
+    -0.09248,
+    -0.15078,
+    -0.15569
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cabo Verde, the three needs areas with the largest gaps are: mobility (0.41), environment (0.50), work (0.61).\nThe three strongest areas are: agency (0.80), education (0.79), belonging (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "monaco",
+  "category_scores": {
+    "agency": 0.7056,
+    "belonging": 0.6504,
+    "communications": 0.7425,
+    "education": 0.5427,
+    "energy": 0.97,
+    "environment": 0.5158,
+    "food": 0.44,
+    "governance": 0.7,
+    "health": 0.8931,
+    "meaning": 0.63,
+    "mobility": 0.4263,
+    "safety": 0.75,
+    "shelter": 0.6125,
+    "water": 0.65,
+    "work": 0.7907
+  },
+  "country_score": 0.668,
+  "tier_scores": {
+    "subsistence": 0.6691,
+    "development": 0.6944,
+    "agency": 0.6404
+  },
+  "country_embedding": [
+    0.66797,
+    0.61306,
+    0.69212,
+    0.48791,
+    0.20162,
+    -0.1882,
+    0.02397,
+    0.11378,
+    -0.10905,
+    -0.09407,
+    0.03172,
+    -0.01344,
+    0.25415,
+    -0.08619,
+    0.21817,
+    0.18063
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Monaco, the three needs areas with the largest gaps are: mobility (0.43), food (0.44), environment (0.52).\nThe three strongest areas are: energy (0.97), health (0.89), work (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

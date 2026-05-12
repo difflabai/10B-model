@@ -1,0 +1,74 @@
+{
+  "country": "Lesotho",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "50% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "83.6%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "37.7%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "75,000 kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "828.817 million kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "0.1% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "0.3% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": "99.6% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "5.975 million Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "752,000 metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.7692307692307693
+}

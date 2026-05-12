@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.monaco",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Monaco"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.monaco.food",
+        "global.10B.countries.monaco.water",
+        "global.10B.countries.monaco.shelter",
+        "global.10B.countries.monaco.health",
+        "global.10B.countries.monaco.safety",
+        "global.10B.countries.monaco.education",
+        "global.10B.countries.monaco.work",
+        "global.10B.countries.monaco.energy",
+        "global.10B.countries.monaco.mobility",
+        "global.10B.countries.monaco.communications",
+        "global.10B.countries.monaco.governance",
+        "global.10B.countries.monaco.environment",
+        "global.10B.countries.monaco.belonging",
+        "global.10B.countries.monaco.meaning",
+        "global.10B.countries.monaco.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Sint Maarten",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.862,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8618
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.79
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9342
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.86198,
+    0.42857,
+    0.8618,
+    0.79,
+    -0.49383,
+    0.0931,
+    0.11174,
+    0.31469,
+    -0.79553,
+    0.64163,
+    0.85275,
+    -0.13033,
+    -0.91629,
+    -0.41741,
+    0.78244,
+    -0.74218
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

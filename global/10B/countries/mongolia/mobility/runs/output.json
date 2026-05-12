@@ -1,0 +1,72 @@
+{
+  "country": "Mongolia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.447,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5421
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3554
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5194
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5536
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.355
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.4001
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.44695,
+    0.8,
+    0.5421,
+    0.3554,
+    0.42181,
+    -0.7919,
+    -0.8797,
+    0.78985,
+    -0.10851,
+    0.70877,
+    0.58053,
+    0.87463,
+    -0.3991,
+    0.71109,
+    0.22152,
+    0.24721
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

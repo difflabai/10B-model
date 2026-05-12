@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.energy",
+        "global.10B.countries.angola.energy",
+        "global.10B.countries.benin.energy",
+        "global.10B.countries.botswana.energy",
+        "global.10B.countries.bouvet-island.energy",
+        "global.10B.countries.british-indian-ocean-territory.energy",
+        "global.10B.countries.burkina-faso.energy",
+        "global.10B.countries.burundi.energy",
+        "global.10B.countries.cabo-verde.energy",
+        "global.10B.countries.cameroon.energy",
+        "global.10B.countries.central-african-republic.energy",
+        "global.10B.countries.chad.energy",
+        "global.10B.countries.comoros.energy",
+        "global.10B.countries.congo-democratic-republic-of-the.energy",
+        "global.10B.countries.congo-republic-of-the.energy",
+        "global.10B.countries.djibouti.energy",
+        "global.10B.countries.egypt.energy",
+        "global.10B.countries.equatorial-guinea.energy",
+        "global.10B.countries.eritrea.energy",
+        "global.10B.countries.eswatini.energy",
+        "global.10B.countries.ethiopia.energy",
+        "global.10B.countries.gabon.energy",
+        "global.10B.countries.gambia-the.energy",
+        "global.10B.countries.ghana.energy",
+        "global.10B.countries.guinea.energy",
+        "global.10B.countries.guinea-bissau.energy",
+        "global.10B.countries.kenya.energy",
+        "global.10B.countries.lesotho.energy",
+        "global.10B.countries.liberia.energy",
+        "global.10B.countries.libya.energy",
+        "global.10B.countries.madagascar.energy",
+        "global.10B.countries.malawi.energy",
+        "global.10B.countries.mali.energy",
+        "global.10B.countries.mauritania.energy",
+        "global.10B.countries.mauritius.energy",
+        "global.10B.countries.morocco.energy",
+        "global.10B.countries.mozambique.energy",
+        "global.10B.countries.namibia.energy",
+        "global.10B.countries.niger.energy",
+        "global.10B.countries.nigeria.energy",
+        "global.10B.countries.rwanda.energy",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.energy",
+        "global.10B.countries.sao-tome-and-principe.energy",
+        "global.10B.countries.senegal.energy",
+        "global.10B.countries.seychelles.energy",
+        "global.10B.countries.sierra-leone.energy",
+        "global.10B.countries.somalia.energy",
+        "global.10B.countries.south-africa.energy",
+        "global.10B.countries.south-sudan.energy",
+        "global.10B.countries.sudan.energy",
+        "global.10B.countries.tanzania.energy",
+        "global.10B.countries.togo.energy",
+        "global.10B.countries.tunisia.energy",
+        "global.10B.countries.uganda.energy",
+        "global.10B.countries.zambia.energy",
+        "global.10B.countries.zimbabwe.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

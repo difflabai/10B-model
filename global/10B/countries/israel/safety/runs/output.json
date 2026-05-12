@@ -1,0 +1,56 @@
+{
+  "country": "Israel",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.5417,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.475
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.54167,
+    0.5,
+    0.75,
+    0.475,
+    -0.64129,
+    -0.68865,
+    0.82284,
+    0.05095,
+    0.30266,
+    0.23333,
+    0.65948,
+    0.29174,
+    -0.76104,
+    -0.14723,
+    0.74496,
+    0.93194
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

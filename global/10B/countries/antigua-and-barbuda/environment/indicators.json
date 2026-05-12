@@ -1,0 +1,44 @@
+{
+  "country": "Antigua and Barbuda",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "water management - a major concern because of limited natural freshwater resources - is further hampered by the clearing of trees to increase crop production, causing rainfall to run off quickly",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "8.3 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "0.56 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "0.22 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "18.8% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "30,585 tons (2012 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

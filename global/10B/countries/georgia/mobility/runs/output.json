@@ -1,0 +1,72 @@
+{
+  "country": "Georgia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4735,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.439
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.475
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4395
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3273
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3533
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7306
+    }
+  ],
+  "embedding": [
+    0.47353,
+    0.7,
+    0.439,
+    0.475,
+    0.07588,
+    -0.40752,
+    -0.20833,
+    -0.00591,
+    0.8558,
+    -0.58358,
+    0.62033,
+    0.23964,
+    -0.38045,
+    -0.27425,
+    -0.77813,
+    0.01335
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

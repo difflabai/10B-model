@@ -1,0 +1,47 @@
+{
+  "country": "iraq",
+  "category_scores": {
+    "agency": 0.788,
+    "belonging": 0.7374,
+    "communications": 0.6815,
+    "education": 0.7497,
+    "energy": 0.5229,
+    "environment": 0.4221,
+    "food": 0.5827,
+    "governance": 0.7143,
+    "health": 0.5907,
+    "meaning": 0.67,
+    "mobility": 0.5293,
+    "safety": 0.64,
+    "shelter": 0.7359,
+    "water": 0.7167,
+    "work": 0.4835
+  },
+  "country_score": 0.6376,
+  "tier_scores": {
+    "subsistence": 0.6532,
+    "development": 0.5934,
+    "agency": 0.6664
+  },
+  "country_embedding": [
+    0.63763,
+    0.84479,
+    0.6922,
+    0.64711,
+    -0.18328,
+    -0.02861,
+    0.15219,
+    0.09132,
+    0.00811,
+    -0.0335,
+    0.18284,
+    -0.02743,
+    -0.17296,
+    0.17335,
+    0.0067,
+    -0.02462
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Iraq, the three needs areas with the largest gaps are: environment (0.42), work (0.48), energy (0.52).\nThe three strongest areas are: agency (0.79), education (0.75), belonging (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

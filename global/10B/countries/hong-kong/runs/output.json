@@ -1,0 +1,47 @@
+{
+  "country": "hong-kong",
+  "category_scores": {
+    "agency": 0.8225,
+    "belonging": 0.624,
+    "communications": 0.7714,
+    "education": 0.7312,
+    "energy": 0.505,
+    "environment": 0.35,
+    "food": 0.5,
+    "governance": 0.7333,
+    "health": 0.8687,
+    "meaning": 0.725,
+    "mobility": 0.5256,
+    "safety": 0.75,
+    "shelter": 0.5875,
+    "water": 0.65,
+    "work": 0.7203
+  },
+  "country_score": 0.6576,
+  "tier_scores": {
+    "subsistence": 0.6712,
+    "development": 0.6507,
+    "agency": 0.651
+  },
+  "country_embedding": [
+    0.65763,
+    0.70737,
+    0.70146,
+    0.54217,
+    -0.01793,
+    0.01309,
+    -0.19552,
+    -0.10688,
+    -0.02059,
+    0.13583,
+    0.02232,
+    0.02783,
+    -0.10887,
+    0.02375,
+    0.16376,
+    0.13828
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Hong Kong, the three needs areas with the largest gaps are: environment (0.35), food (0.50), energy (0.51).\nThe three strongest areas are: health (0.87), agency (0.82), communications (0.77).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

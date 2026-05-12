@@ -1,0 +1,47 @@
+{
+  "country": "taiwan",
+  "category_scores": {
+    "agency": 0.7875,
+    "belonging": 0.6761,
+    "communications": 0.73,
+    "education": 0.7507,
+    "energy": 0.4839,
+    "environment": 0.4,
+    "food": 0.6444,
+    "governance": 0.7,
+    "health": 0.8376,
+    "meaning": 0.67,
+    "mobility": 0.5399,
+    "safety": 0.6917,
+    "shelter": 0.7024,
+    "water": 0.65,
+    "work": 0.7677
+  },
+  "country_score": 0.6688,
+  "tier_scores": {
+    "subsistence": 0.7052,
+    "development": 0.6544,
+    "agency": 0.6467
+  },
+  "country_embedding": [
+    0.6688,
+    0.69858,
+    0.72982,
+    0.58687,
+    -0.04803,
+    0.08281,
+    0.12682,
+    -0.13219,
+    0.45172,
+    0.25305,
+    0.06808,
+    0.18197,
+    0.25192,
+    0.10212,
+    -0.07511,
+    0.08912
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Taiwan, the three needs areas with the largest gaps are: environment (0.40), energy (0.48), mobility (0.54).\nThe three strongest areas are: health (0.84), agency (0.79), work (0.77).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

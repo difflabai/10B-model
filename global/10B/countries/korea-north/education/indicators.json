@@ -1,0 +1,34 @@
+{
+  "country": "Korea, North",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "100%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "11 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Korean",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "월드 팩트북, 필수적인 기본 정보 제공처 (Korean)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.guam",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Guam"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.guam.food",
+        "global.10B.countries.guam.water",
+        "global.10B.countries.guam.shelter",
+        "global.10B.countries.guam.health",
+        "global.10B.countries.guam.safety",
+        "global.10B.countries.guam.education",
+        "global.10B.countries.guam.work",
+        "global.10B.countries.guam.energy",
+        "global.10B.countries.guam.mobility",
+        "global.10B.countries.guam.communications",
+        "global.10B.countries.guam.governance",
+        "global.10B.countries.guam.environment",
+        "global.10B.countries.guam.belonging",
+        "global.10B.countries.guam.meaning",
+        "global.10B.countries.guam.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

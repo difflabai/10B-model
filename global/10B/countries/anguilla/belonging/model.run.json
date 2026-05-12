@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.anguilla.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Anguilla"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "belonging"
+    }
+  },
+  "output": "./runs/output.json"
+}

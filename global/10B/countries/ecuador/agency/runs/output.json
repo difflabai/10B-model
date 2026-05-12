@@ -1,0 +1,56 @@
+{
+  "country": "Ecuador",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.752,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7329
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.575
+    }
+  ],
+  "embedding": [
+    0.75196,
+    0.66667,
+    0.85,
+    0.7329,
+    0.07796,
+    0.96307,
+    -0.16341,
+    -0.40743,
+    -0.67013,
+    0.93329,
+    0.56844,
+    -0.26598,
+    0.23961,
+    0.17455,
+    -0.05141,
+    0.85553
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

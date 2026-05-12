@@ -1,0 +1,56 @@
+{
+  "country": "Syria",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.4954,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.3361
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.49537,
+    0.5,
+    0.75,
+    0.3361,
+    -0.87597,
+    -0.41787,
+    -0.57559,
+    -0.69598,
+    -0.69357,
+    -0.69586,
+    -0.27858,
+    0.22396,
+    0.47393,
+    0.76068,
+    0.38839,
+    0.67724
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

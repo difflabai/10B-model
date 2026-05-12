@@ -1,0 +1,56 @@
+{
+  "country": "Tunisia",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6917,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6333
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.69167,
+    0.33333,
+    0.75,
+    0.6333,
+    -0.2434,
+    -0.82364,
+    -0.92697,
+    -0.43612,
+    -0.34874,
+    -0.34835,
+    0.03453,
+    0.04414,
+    -0.57922,
+    0.96905,
+    0.42168,
+    -0.02635
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

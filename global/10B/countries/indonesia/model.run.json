@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.indonesia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Indonesia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.indonesia.food",
+        "global.10B.countries.indonesia.water",
+        "global.10B.countries.indonesia.shelter",
+        "global.10B.countries.indonesia.health",
+        "global.10B.countries.indonesia.safety",
+        "global.10B.countries.indonesia.education",
+        "global.10B.countries.indonesia.work",
+        "global.10B.countries.indonesia.energy",
+        "global.10B.countries.indonesia.mobility",
+        "global.10B.countries.indonesia.communications",
+        "global.10B.countries.indonesia.governance",
+        "global.10B.countries.indonesia.environment",
+        "global.10B.countries.indonesia.belonging",
+        "global.10B.countries.indonesia.meaning",
+        "global.10B.countries.indonesia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

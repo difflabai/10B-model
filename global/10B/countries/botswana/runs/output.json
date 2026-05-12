@@ -1,0 +1,47 @@
+{
+  "country": "botswana",
+  "category_scores": {
+    "agency": 0.834,
+    "belonging": 0.7228,
+    "communications": 0.6612,
+    "education": 0.7956,
+    "energy": 0.4777,
+    "environment": 0.5216,
+    "food": 0.6921,
+    "governance": 0.7143,
+    "health": 0.5219,
+    "meaning": 0.67,
+    "mobility": 0.4445,
+    "safety": 0.6383,
+    "shelter": 0.6346,
+    "water": 0.6833,
+    "work": 0.5685
+  },
+  "country_score": 0.6387,
+  "tier_scores": {
+    "subsistence": 0.634,
+    "development": 0.5895,
+    "agency": 0.6925
+  },
+  "country_embedding": [
+    0.63869,
+    0.81949,
+    0.67733,
+    0.68697,
+    0.2709,
+    0.08212,
+    0.12145,
+    0.03681,
+    0.0544,
+    -0.05759,
+    -0.0554,
+    0.04975,
+    0.1805,
+    -0.07885,
+    -0.00931,
+    0.01438
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Botswana, the three needs areas with the largest gaps are: mobility (0.44), energy (0.48), environment (0.52).\nThe three strongest areas are: agency (0.83), education (0.80), belonging (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

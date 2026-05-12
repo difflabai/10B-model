@@ -1,0 +1,52 @@
+{
+  "country": "Namibia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.8592,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8776
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8592,
+    0.6,
+    0.8776,
+    0.95,
+    0.79168,
+    -0.40465,
+    -0.46126,
+    0.68936,
+    -0.4685,
+    0.03166,
+    0.61224,
+    -0.23015,
+    0.17519,
+    -0.25405,
+    -0.42556,
+    -0.05614
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

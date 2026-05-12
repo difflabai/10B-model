@@ -1,0 +1,60 @@
+{
+  "country": "Isle of Man",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.8685,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.957
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.792
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.775
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.86851,
+    0.57143,
+    0.957,
+    0.792,
+    0.71908,
+    0.06551,
+    -0.06612,
+    0.04244,
+    0.16884,
+    -0.10994,
+    0.25048,
+    0.70629,
+    -0.83847,
+    -0.72894,
+    -0.14617,
+    -0.28899
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

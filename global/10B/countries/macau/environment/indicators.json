@@ -1,0 +1,44 @@
+{
+  "country": "Macau",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "air pollution; coastal waters pollution; insufficient policies in reducing and recycling solid wastes; increasing population density worsening noise pollution",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "2.07 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "377,942 tons (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

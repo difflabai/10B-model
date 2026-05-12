@@ -1,0 +1,56 @@
+{
+  "country": "Djibouti",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.5694,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.5583
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.56944,
+    0.5,
+    0.75,
+    0.5583,
+    0.98029,
+    -0.01326,
+    -0.92847,
+    0.80056,
+    0.22856,
+    -0.3261,
+    0.48205,
+    0.32714,
+    -0.8403,
+    -0.7752,
+    -0.4508,
+    0.65905
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

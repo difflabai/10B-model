@@ -1,0 +1,56 @@
+{
+  "country": "Djibouti",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7354,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.6643
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    }
+  ],
+  "embedding": [
+    0.73536,
+    0.83333,
+    0.85,
+    0.85,
+    -0.99994,
+    0.17946,
+    0.15059,
+    -0.79043,
+    -0.39568,
+    0.27483,
+    -0.81924,
+    0.94574,
+    0.37536,
+    0.32601,
+    -0.7323,
+    -0.61898
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

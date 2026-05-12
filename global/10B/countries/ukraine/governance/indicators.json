@@ -1,0 +1,44 @@
+{
+  "country": "Ukraine",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; judicial review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted and ratified 28 June 1996",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Volodymyr ZELENSKYY (since 20 May 2019)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Australia Group, BSEC, CBSS (observer), CD, CE, CEI, CICA (observer), CIS (participating member, has not signed the 1993 CIS charter), EAEC (observer), EAPC, EBRD, FAO, GCTU, GUAM, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MONUSCO, NAM (observer), NSG, OAS (observer), OIF (observer), OPCW, OSCE, PCA, PFP, SELEC (observer), UN, UNCTAD, UNESCO, UNFICYP, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

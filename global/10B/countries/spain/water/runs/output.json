@@ -1,0 +1,56 @@
+{
+  "country": "Spain",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.33333,
+    0.65,
+    0.75,
+    0.18868,
+    -0.22057,
+    0.43987,
+    0.12844,
+    0.15361,
+    -0.29799,
+    -0.9924,
+    -0.88421,
+    -0.46777,
+    -0.68161,
+    -0.48861,
+    0.16875
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

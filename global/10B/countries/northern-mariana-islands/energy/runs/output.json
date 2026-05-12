@@ -1,0 +1,84 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.23076923076923078,
+  "indicators_scored": 3,
+  "indicators_total": 13,
+  "composite_score": 0.64,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64,
+    0.23077,
+    0.97,
+    0.55,
+    0.07927,
+    0.39577,
+    -0.54162,
+    0.19603,
+    0.1989,
+    -0.60696,
+    0.23571,
+    -0.62222,
+    0.44833,
+    0.2781,
+    -0.62109,
+    -0.1346
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Hong Kong",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.35,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.2
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.35,
+    0.57143,
+    0.4,
+    0.4,
+    -0.54925,
+    -0.62243,
+    -0.45183,
+    -0.08998,
+    0.13799,
+    -0.62118,
+    0.60809,
+    0.828,
+    -0.32988,
+    0.96271,
+    0.98218,
+    0.57357
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

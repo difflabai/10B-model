@@ -1,0 +1,44 @@
+{
+  "country": "Denmark",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law; judicial review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 5 June 1953",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King FREDERIK X (since 14 January 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (nonregional member), AfDB (nonregional member), Arctic Council, Australia Group, BIS, CBSS, CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), ESA, EU, FAO, FATF, G-9, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO, NC, NEA, NIB, NSG, OAS (observer), OECD, OPCW, OSCE, Paris Club, PCA, Schengen Convention, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNMIL, UNMISS, UNOOSA, UNRWA, UNTSO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

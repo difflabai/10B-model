@@ -1,0 +1,34 @@
+{
+  "country": "Uganda",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "79%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.7% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official), Ganda or Luganda (most widely used of the Niger-Congo languages and the language used most often in the capital), other Niger-Congo languages, Nilo-Saharan languages, Swahili (official), Arabic",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

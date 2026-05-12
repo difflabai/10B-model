@@ -1,0 +1,72 @@
+{
+  "country": "Eswatini",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.3433,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.222
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2154
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4667
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2623
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.34327,
+    0.5,
+    0.222,
+    0.2154,
+    0.60031,
+    -0.17971,
+    -0.48498,
+    0.59789,
+    0.63122,
+    -0.96365,
+    -0.84836,
+    0.72903,
+    0.27315,
+    0.25154,
+    0.78173,
+    0.24602
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

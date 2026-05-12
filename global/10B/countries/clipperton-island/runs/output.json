@@ -1,0 +1,47 @@
+{
+  "country": "clipperton-island",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.3,
+    "food": 0.375,
+    "governance": 0.55,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.505,
+  "tier_scores": {
+    "subsistence": 0.5583,
+    "development": null,
+    "agency": 0.425
+  },
+  "country_embedding": [
+    0.16833,
+    0.09302,
+    0.16333,
+    0.05,
+    -0.12669,
+    0.32239,
+    -0.22072,
+    -0.03159,
+    -0.08672,
+    -0.18205,
+    -0.23091,
+    -0.11743,
+    0.00577,
+    -0.21922,
+    0.27179,
+    0.11013
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Clipperton Island, the three needs areas with the largest gaps are: environment (0.30), food (0.38), governance (0.55).\nThe three strongest areas are: water (0.65), shelter (0.65), governance (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

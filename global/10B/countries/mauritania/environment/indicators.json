@@ -1,0 +1,44 @@
+{
+  "country": "Mauritania",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "overgrazing, deforestation, and soil erosion aggravated by drought are contributing to desertification; limited natural freshwater resources away from the Senegal, which is the only perennial river; locust infestation",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "41.98 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "2.74 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "6.16 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "0.2% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "454,000 tons (2009 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

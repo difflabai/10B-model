@@ -1,0 +1,34 @@
+{
+  "country": "Guam",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "fruits, copra, vegetables; eggs, pork, poultry, beef",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "33.4% (2018 est.)agricultural land: arable land: 1.9% (2018 est.)agricultural land: permanent crops: 16.7% (2018 est.)agricultural land: permanent pasture: 14.8% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "169,532",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

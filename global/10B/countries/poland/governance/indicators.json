@@ -1,0 +1,44 @@
+{
+  "country": "Poland",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; judicial review of legislative, administrative, and other governmental acts; constitutional law rulings of the Constitutional Tribunal are final",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 2 April 1997, approved by referendum 25 May 1997, effective 17 October 1997",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Andrzej DUDA (since 6 August 2015)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Arctic Council (observer), Australia Group, BIS, BSEC (observer), CBSS, CD, CE, CEI, CERN, EAPC, EBRD, ECB, EIB, ESA, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NATO, NEA, NSG, OAS (observer), OECD, OIF (observer), OPCW, OSCE, PCA, Schengen Convention, UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UNMIL, UNMISS, UNOCI, UN Security Council (temporary), UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

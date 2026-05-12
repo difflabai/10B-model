@@ -1,0 +1,52 @@
+{
+  "country": "Barbados",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.8251,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9652
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.86
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.82507,
+    0.6,
+    0.9652,
+    0.86,
+    -0.67111,
+    -0.78128,
+    -0.30275,
+    -0.58929,
+    -0.50713,
+    0.38531,
+    -0.5537,
+    -0.11196,
+    -0.27001,
+    -0.53204,
+    -0.74609,
+    -0.52847
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

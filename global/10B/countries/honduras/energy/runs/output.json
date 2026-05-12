@@ -1,0 +1,84 @@
+{
+  "country": "Honduras",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.6739,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.8748
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.814
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.681
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6225
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.625
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.7456
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.704
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.67391,
+    0.92308,
+    0.8748,
+    0.97,
+    0.37755,
+    -0.40844,
+    -0.10423,
+    0.86557,
+    -0.06508,
+    -0.70462,
+    -0.57208,
+    0.04387,
+    0.90558,
+    -0.93198,
+    -0.7164,
+    0.38311
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

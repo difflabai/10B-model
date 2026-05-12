@@ -1,0 +1,64 @@
+{
+  "country": "Yemen",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "46 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "20 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "2 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "728,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "18% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "1 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "486,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Yemen continues to provide an exceptionally challenging market for telcos; civil unrest has caused havoc and devastation across most parts of the country, while the threat of sanctions has also made it a challenging environment in which to operate; a large proportion of the population requires humanitarian assistance, and there is little disposable income for services upon which telcos can generate revenue; essential telecom infrastructure, such as mobile towers and fiber cabling, has often been targeted, destroyed, or damaged by the opposing sides in the ongoing conflict; these difficulties have proved to be a disincentive to telcos investing in infrastructure, with the result that the country lacks basic fixed-line infrastructure, and mobile services are based on outdated GSM; this has prevented the development of a mobile broadband sector, or the evolution of mobile data services; the ownership of telecommunication services, and the scrutiny of associated revenues and taxes, have become a political issue in Yemen; until telecom infrastructure can be improved across Yemen, and until civil unrest eases, there will be little progress for the sector (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is 4 per 100 but mobile cellular is 46 per 100 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 967; landing points for the FALCON, SeaMeWe-5, Aden-Djibouti, and the AAE-1 international submarine cable connecting Europe, Africa, the Middle East, Asia and Southeast Asia; satellite earth stations - 3 Intelsat (2 Indian Ocean and 1 Atlantic Ocean), 1 Intersputnik (Atlantic Ocean region), and 2 Arabsat; microwave radio relay to Saudi Arabia and Djibouti (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run TV with 2 stations; state-run radio with 2 national radio stations and 5 local stations; stations from Oman and Saudi Arabia can be accessed",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Vanuatu",
+  "category": "health",
+  "label": "Health and longevity",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "People and Society: Life expectancy at birth - total population",
+      "value": "75.7 years (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - male",
+      "value": "74 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - female",
+      "value": "77.4 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - total",
+      "value": "13.7 deaths/1,000 live births (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - male",
+      "value": "15 deaths/1,000 live births",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - female",
+      "value": "12.3 deaths/1,000 live births",
+      "present": true
+    },
+    {
+      "field": "People and Society: Maternal mortality ratio",
+      "value": "94 deaths/100,000 live births (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Physicians density",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Hospital bed density",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major infectious diseases - degree of risk",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Obesity - adult prevalence rate",
+      "value": "25.2% (2016)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Tobacco use - total",
+      "value": "17.8% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Children under the age of 5 years underweight",
+      "value": "11.7% (2013)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Currently married women (ages 15-49)",
+      "value": "69.2% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Current health expenditure",
+      "value": "4.4% of GDP (2021)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

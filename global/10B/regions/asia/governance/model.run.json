@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.governance",
+        "global.10B.countries.ashmore-and-cartier-islands.governance",
+        "global.10B.countries.bahrain.governance",
+        "global.10B.countries.bangladesh.governance",
+        "global.10B.countries.bhutan.governance",
+        "global.10B.countries.brunei.governance",
+        "global.10B.countries.burma.governance",
+        "global.10B.countries.cambodia.governance",
+        "global.10B.countries.china.governance",
+        "global.10B.countries.christmas-island.governance",
+        "global.10B.countries.cocos-keeling-islands.governance",
+        "global.10B.countries.gaza-strip.governance",
+        "global.10B.countries.hong-kong.governance",
+        "global.10B.countries.india.governance",
+        "global.10B.countries.indonesia.governance",
+        "global.10B.countries.iran.governance",
+        "global.10B.countries.iraq.governance",
+        "global.10B.countries.israel.governance",
+        "global.10B.countries.japan.governance",
+        "global.10B.countries.jordan.governance",
+        "global.10B.countries.korea-north.governance",
+        "global.10B.countries.korea-south.governance",
+        "global.10B.countries.kuwait.governance",
+        "global.10B.countries.kyrgyzstan.governance",
+        "global.10B.countries.laos.governance",
+        "global.10B.countries.lebanon.governance",
+        "global.10B.countries.macau.governance",
+        "global.10B.countries.malaysia.governance",
+        "global.10B.countries.maldives.governance",
+        "global.10B.countries.mongolia.governance",
+        "global.10B.countries.nepal.governance",
+        "global.10B.countries.oman.governance",
+        "global.10B.countries.pakistan.governance",
+        "global.10B.countries.paracel-islands.governance",
+        "global.10B.countries.philippines.governance",
+        "global.10B.countries.qatar.governance",
+        "global.10B.countries.saudi-arabia.governance",
+        "global.10B.countries.singapore.governance",
+        "global.10B.countries.spratly-islands.governance",
+        "global.10B.countries.sri-lanka.governance",
+        "global.10B.countries.syria.governance",
+        "global.10B.countries.taiwan.governance",
+        "global.10B.countries.tajikistan.governance",
+        "global.10B.countries.thailand.governance",
+        "global.10B.countries.timor-leste.governance",
+        "global.10B.countries.turkmenistan.governance",
+        "global.10B.countries.united-arab-emirates.governance",
+        "global.10B.countries.uzbekistan.governance",
+        "global.10B.countries.vietnam.governance",
+        "global.10B.countries.west-bank.governance",
+        "global.10B.countries.yemen.governance"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

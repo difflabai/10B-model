@@ -1,0 +1,60 @@
+{
+  "country": "San Marino",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.594,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.794
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.57
+    }
+  ],
+  "embedding": [
+    0.594,
+    0.85714,
+    0.55,
+    0.55,
+    0.95233,
+    0.29928,
+    -0.51516,
+    -0.15642,
+    -0.55306,
+    -0.38421,
+    -0.01122,
+    0.67565,
+    0.29973,
+    -0.37017,
+    0.90329,
+    -0.31868
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

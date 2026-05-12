@@ -1,0 +1,39 @@
+{
+  "country": "Saint Martin",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "AlternativeFuture Saint Martin (Avenir Saint Martin)Generation Hope or HOPERassemblement Saint-Martinois or RSM (formerly Movement for Justice and Prosperity or MJP)Saint Martin with YouUnion for Democracy or UD",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "48.5% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 local TV station; access to about 20 radio stations, including RFO Guadeloupe radio broadcasts via repeater",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

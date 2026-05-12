@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.work",
+  "name": "Oceania — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country work models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

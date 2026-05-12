@@ -1,0 +1,47 @@
+{
+  "country": "malawi",
+  "category_scores": {
+    "agency": 0.6292,
+    "belonging": 0.6925,
+    "communications": 0.6727,
+    "education": 0.569,
+    "energy": 0.5222,
+    "environment": 0.5266,
+    "food": 0.6313,
+    "governance": 0.7571,
+    "health": 0.562,
+    "meaning": 0.65,
+    "mobility": 0.3707,
+    "safety": 0.5811,
+    "shelter": 0.6013,
+    "water": 0.625,
+    "work": 0.4761
+  },
+  "country_score": 0.5911,
+  "tier_scores": {
+    "subsistence": 0.6001,
+    "development": 0.5221,
+    "agency": 0.6511
+  },
+  "country_embedding": [
+    0.59114,
+    0.86308,
+    0.55777,
+    0.60355,
+    -0.01499,
+    -0.1331,
+    -0.04386,
+    -0.20462,
+    0.12719,
+    0.23369,
+    0.11725,
+    0.17133,
+    0.11368,
+    0.18434,
+    0.07364,
+    -0.11539
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Malawi, the three needs areas with the largest gaps are: mobility (0.37), work (0.48), energy (0.52).\nThe three strongest areas are: governance (0.76), belonging (0.69), communications (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Angola",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.5918,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6295
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.396
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.59183,
+    0.6,
+    0.6295,
+    0.396,
+    0.87259,
+    0.98642,
+    0.51861,
+    0.16268,
+    -0.44289,
+    -0.30736,
+    -0.83743,
+    -0.65231,
+    0.84622,
+    -0.38543,
+    0.88128,
+    0.33519
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Azerbaijan",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 11,
+  "indicators_total": 11,
+  "composite_score": 0.7117,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.8175
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.6967
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.88
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.615
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.71174,
+    1.0,
+    0.8175,
+    0.55,
+    -0.47893,
+    -0.25908,
+    0.24404,
+    -0.92084,
+    0.94244,
+    0.78943,
+    -0.16448,
+    -0.73571,
+    -0.08949,
+    -0.71356,
+    -0.65542,
+    -0.20452
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

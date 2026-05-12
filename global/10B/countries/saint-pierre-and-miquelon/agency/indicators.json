@@ -1,0 +1,39 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Archipelago Tomorrow (Archipel Domain) or AD (affiliated with The Republicans)Focus on the Future (Cap sur l'Avenir) (affiliated with Left Radical Party)Together to Build (Ensemble pour Construire)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "88.7% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "8 TV stations, all part of the French Overseas Network, and local cable provided by SPM Telecom; 3 of 4 radio stations on St. Pierre and on Miquelon are part of the French Overseas Network (2021)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

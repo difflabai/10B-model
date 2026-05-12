@@ -1,0 +1,59 @@
+{
+  "country": "Costa Rica",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "5,035 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "129 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "8 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "662 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "730 km (2011) (seasonally navigable by small craft)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "278 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,948,546 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "11.13 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

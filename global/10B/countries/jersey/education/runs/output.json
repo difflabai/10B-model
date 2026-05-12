@@ -1,0 +1,52 @@
+{
+  "country": "Jersey",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.2,
+    0.65,
+    0.0,
+    -0.46929,
+    0.74871,
+    0.2278,
+    -0.81155,
+    0.5859,
+    -0.14525,
+    0.50988,
+    0.4331,
+    -0.58108,
+    -0.49007,
+    0.71817,
+    -0.22454
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Nicaragua",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.4739,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.341
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2453
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5306
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6264
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.47389,
+    0.6,
+    0.341,
+    0.2453,
+    -0.94443,
+    0.64047,
+    0.82785,
+    -0.95236,
+    -0.65698,
+    0.07555,
+    0.37359,
+    0.35253,
+    0.28472,
+    0.50347,
+    0.19576,
+    -0.41466
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

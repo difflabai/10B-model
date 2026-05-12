@@ -1,0 +1,64 @@
+{
+  "country": "Switzerland",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "120 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "10.9 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "34 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "3.003 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "49 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "4.33 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Switzerland has one of the highest broadband penetration rates within Europe, with a focus on services of at least 1Gb/s; this has been supported by sympathetic regulatory measures as well as by cooperative agreements between the main telcos, and with local utilities; fast fiber is complemented by 5G services reaching about 97% of the population by early 2021; together, these networks will soon enable the telcos to provide ultra-fast broadband services nationally, ahead of most other countries in the region; the competitive mobile market is served by three network operators and a small number of MVNOs; 5G services offered by the MNOs offer data rates of up to 2Gb/s, and although various cantons have called a halt to extensions of 5G, citing health concerns, the regulator and environment ministry have put in place measures aimed at ensuring that network roll outs can continue without disruption; with the migration of subscribers to LTE and 5G networks, the MNOs have been able to begin closing down their GSM networks and repurpose physical assets and spectrum; although not a member of the EU, the country’s economic integration has meant that its telecom market deregulation has followed the EU’s liberalization framework, including the recent regulations on international voice roaming; this report presents an analysis of Switzerland’s fixed-line telecom market, including an assessment of network infrastructure (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line is 33 per 100 and mobile-cellular subscribership is 120 per 100 persons (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 41; satellite earth stations - 2 Intelsat (Atlantic Ocean and Indian Ocean)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the publicly owned radio and TV broadcaster, Swiss Broadcasting Corporation (SRG/SSR), operates 8 national TV networks, 3 broadcasting in German, 3 in French, and 2 in Italian; private commercial TV stations broadcast regionally and locally; TV broadcasts from stations in Germany, Italy, and France are widely available via multi-channel cable and satellite TV services; SRG/SSR operates 17 radio stations that, along with private broadcasters, provide national to local coverage ) (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Somalia",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "0.3% of GDP (2019) NA",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Somali (official), Arabic (official), Italian, English",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "Buugga Xaqiiqda Aduunka, waa laga maarmaanka macluumaadka assasiga. (Somali)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

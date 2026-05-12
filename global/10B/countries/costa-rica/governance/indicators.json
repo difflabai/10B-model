@@ -1,0 +1,44 @@
+{
+  "country": "Costa Rica",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on Spanish civil code; judicial review of legislative acts in the Supreme Court",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "many previous; latest effective 8 November 1949",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Rodrigo CHAVES Robles (since 8 May 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACS, BCIE, CACM, CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, NAM (observer), OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

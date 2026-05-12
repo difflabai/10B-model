@@ -1,0 +1,60 @@
+{
+  "country": "Dhekelia",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": null
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.823,
+    -0.88321,
+    0.23571,
+    0.76849,
+    -0.49691,
+    0.94543,
+    -0.77273,
+    0.0345,
+    -0.36449,
+    -0.74621,
+    0.14675,
+    -0.51833
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "saint-kitts-and-nevis",
+  "category_scores": {
+    "agency": 0.704,
+    "belonging": 0.659,
+    "communications": 0.7175,
+    "education": 0.6242,
+    "energy": 0.5331,
+    "environment": 0.571,
+    "food": 0.6308,
+    "governance": 0.7,
+    "health": 0.7263,
+    "meaning": 0.63,
+    "mobility": 0.3046,
+    "safety": 0.75,
+    "shelter": 0.5977,
+    "water": 0.65,
+    "work": 0.7571
+  },
+  "country_score": 0.637,
+  "tier_scores": {
+    "subsistence": 0.671,
+    "development": 0.5873,
+    "agency": 0.6528
+  },
+  "country_embedding": [
+    0.63702,
+    0.70891,
+    0.66105,
+    0.55397,
+    0.1034,
+    0.01016,
+    0.09211,
+    0.22232,
+    0.02617,
+    -0.22659,
+    -0.10888,
+    -0.00972,
+    0.01277,
+    0.1766,
+    0.29876,
+    -0.11509
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Kitts And Nevis, the three needs areas with the largest gaps are: mobility (0.30), energy (0.53), environment (0.57).\nThe three strongest areas are: work (0.76), safety (0.75), health (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

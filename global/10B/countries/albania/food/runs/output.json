@@ -1,0 +1,52 @@
+{
+  "country": "Albania",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6905,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.8395
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.6225
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6905,
+    0.8,
+    0.75,
+    0.8395,
+    0.04305,
+    0.8678,
+    -0.88159,
+    -0.86957,
+    -0.40484,
+    0.27025,
+    -0.17513,
+    0.40783,
+    -0.59268,
+    -0.88168,
+    -0.58056,
+    0.35302
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Egypt",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Al-NourArab Democratic Nasserist PartyCongress PartyConservative PartyDemocratic Peace PartyEgyptian National Movement PartyEgyptian Social Democratic PartyEl Ghad PartyEl Serh El Masry el HorEradet Geel PartyFree Egyptians PartyFreedom PartyJustice PartyHomeland’s Protector PartyModern Egypt PartyMy Homeland Egypt PartyNation's Future Party (Mostaqbal Watan)National Progressive Unionist (Tagammu) PartyReform and Development PartyRepublican People’s PartyRevolutionary Guards PartyWafd Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "72% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "mix of state-run and private broadcast media; state-run TV operates 2 national and 6 regional terrestrial networks, as well as a few satellite channels; dozens of private satellite channels and a large number of Arabic satellite channels are available for free; some limited satellite services are also available via subscription; state-run radio operates about 30 stations belonging to 8 networks; privately-owned radio includes 8 major stations, 4 of which belong to 1 network (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

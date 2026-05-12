@@ -1,0 +1,52 @@
+{
+  "country": "Liechtenstein",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6904,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.424
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.69037,
+    0.8,
+    0.424,
+    0.8375,
+    -0.29213,
+    0.21999,
+    0.64181,
+    -0.45895,
+    -0.55502,
+    -0.14467,
+    -0.092,
+    -0.1202,
+    -0.91757,
+    -0.58788,
+    -0.4956,
+    -0.66332
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

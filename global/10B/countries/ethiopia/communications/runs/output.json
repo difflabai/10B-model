@@ -1,0 +1,76 @@
+{
+  "country": "Ethiopia",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 11,
+  "indicators_total": 11,
+  "composite_score": 0.6115,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.47
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.4167
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.24
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.61152,
+    1.0,
+    0.47,
+    0.55,
+    -0.55435,
+    -0.86728,
+    0.69027,
+    0.26549,
+    -0.2213,
+    -0.1837,
+    -0.23513,
+    0.72909,
+    0.79287,
+    -0.04427,
+    -0.4978,
+    0.31279
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.papua-new-guinea",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Papua New Guinea"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.papua-new-guinea.food",
+        "global.10B.countries.papua-new-guinea.water",
+        "global.10B.countries.papua-new-guinea.shelter",
+        "global.10B.countries.papua-new-guinea.health",
+        "global.10B.countries.papua-new-guinea.safety",
+        "global.10B.countries.papua-new-guinea.education",
+        "global.10B.countries.papua-new-guinea.work",
+        "global.10B.countries.papua-new-guinea.energy",
+        "global.10B.countries.papua-new-guinea.mobility",
+        "global.10B.countries.papua-new-guinea.communications",
+        "global.10B.countries.papua-new-guinea.governance",
+        "global.10B.countries.papua-new-guinea.environment",
+        "global.10B.countries.papua-new-guinea.belonging",
+        "global.10B.countries.papua-new-guinea.meaning",
+        "global.10B.countries.papua-new-guinea.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

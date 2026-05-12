@@ -1,0 +1,60 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": null
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.40627,
+    -0.0042,
+    0.02095,
+    0.34203,
+    0.68051,
+    -0.80877,
+    -0.58853,
+    0.07314,
+    0.52996,
+    -0.65789,
+    0.43593,
+    0.31395
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

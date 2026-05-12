@@ -1,0 +1,52 @@
+{
+  "country": "Clipperton Island",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.4,
+    0.65,
+    0.0,
+    0.04079,
+    0.17742,
+    -0.42361,
+    -0.26879,
+    -0.04399,
+    -0.68457,
+    -0.53204,
+    -0.55978,
+    0.09886,
+    0.12651,
+    0.40496,
+    0.67098
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

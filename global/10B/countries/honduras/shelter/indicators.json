@@ -1,0 +1,34 @@
+{
+  "country": "Honduras",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "60.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.568 million TEGUCIGALPA (capital), 982,000 San Pedro Sula (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most residents live in the mountainous western half of the country; unlike other Central American nations, Honduras is the only one with an urban population that is distributed between two large centers - the capital of Tegucigalpa and the city of San Pedro Sula; the Rio Ulua valley in the north is the only densely populated lowland area",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "subtropical in lowlands, temperate in mountains",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical in lowlands, temperate in mountains",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

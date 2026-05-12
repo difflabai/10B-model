@@ -1,0 +1,34 @@
+{
+  "country": "Mauritius",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "40.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "149,000 PORT LOUIS (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population density is one of the highest in the world; urban clusters are found throughout the main island, with a greater density in and around Port Luis; population on Rodrigues Island is spread across the island with a slightly denser cluster on the north coast as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical, modified by southeast trade winds; warm, dry winter (May to November); hot, wet, humid summer (November to May)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical, modified by southeast trade winds; warm, dry winter (May to November); hot, wet, humid summer (November to May)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

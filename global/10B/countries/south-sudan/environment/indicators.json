@@ -1,0 +1,44 @@
+{
+  "country": "South Sudan",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "water pollution; inadequate supplies of potable water; wildlife conservation and loss of biodiversity; deforestation; soil erosion; desertification; periodic drought",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Paris Agreement, Desertification, Ozone Layer Protection, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "20.18 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "1.73 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "7.61 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "11.3% (2018)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "2,680,681 tons (2013 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

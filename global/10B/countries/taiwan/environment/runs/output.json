@@ -1,0 +1,60 @@
+{
+  "country": "Taiwan",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.2857142857142857,
+  "indicators_scored": 2,
+  "indicators_total": 7,
+  "composite_score": 0.4,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.4,
+    0.28571,
+    0.4,
+    0.4,
+    -0.88992,
+    0.35232,
+    -0.48699,
+    -0.76886,
+    -0.70568,
+    -0.38802,
+    -0.282,
+    -0.3579,
+    -0.14824,
+    0.38427,
+    -0.33031,
+    0.02654
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Serbia",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9090909090909091,
+  "indicators_scored": 10,
+  "indicators_total": 11,
+  "composite_score": 0.7075,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.86
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.835
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.76
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7075,
+    0.90909,
+    0.86,
+    0.55,
+    0.12197,
+    -0.96139,
+    0.65826,
+    0.93521,
+    -0.27453,
+    -0.04302,
+    0.46706,
+    0.7442,
+    0.91476,
+    0.5339,
+    -0.35683,
+    0.75247
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

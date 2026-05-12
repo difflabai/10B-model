@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.morocco",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Morocco"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.morocco.food",
+        "global.10B.countries.morocco.water",
+        "global.10B.countries.morocco.shelter",
+        "global.10B.countries.morocco.health",
+        "global.10B.countries.morocco.safety",
+        "global.10B.countries.morocco.education",
+        "global.10B.countries.morocco.work",
+        "global.10B.countries.morocco.energy",
+        "global.10B.countries.morocco.mobility",
+        "global.10B.countries.morocco.communications",
+        "global.10B.countries.morocco.governance",
+        "global.10B.countries.morocco.environment",
+        "global.10B.countries.morocco.belonging",
+        "global.10B.countries.morocco.meaning",
+        "global.10B.countries.morocco.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

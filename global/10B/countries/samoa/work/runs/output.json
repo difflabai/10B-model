@@ -1,0 +1,60 @@
+{
+  "country": "Samoa",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6246,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.4325
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5908
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.5625
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.562
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.62463,
+    0.85714,
+    0.4325,
+    0.95,
+    0.19042,
+    -0.5834,
+    0.07637,
+    -0.7948,
+    -0.31441,
+    0.42559,
+    -0.98895,
+    0.92139,
+    -0.34676,
+    0.62048,
+    -0.82605,
+    0.99374
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

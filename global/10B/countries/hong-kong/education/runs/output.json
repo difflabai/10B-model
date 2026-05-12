@@ -1,0 +1,52 @@
+{
+  "country": "Hong Kong",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7312,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6125
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.73125,
+    0.8,
+    0.6125,
+    0.9125,
+    0.45211,
+    -0.11196,
+    -0.73321,
+    0.50616,
+    -0.53997,
+    -0.56634,
+    0.16417,
+    0.98611,
+    -0.28621,
+    0.14345,
+    -0.31054,
+    0.0428
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

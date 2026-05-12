@@ -1,0 +1,44 @@
+{
+  "country": "Paraguay",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system with influences from Argentine, Spanish, Roman, and French civil law models; judicial review of legislative acts in Supreme Court of Justice",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest approved and promulgated 20 June 1992",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory until the age of 75",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Santiago PEÑA Palacios (since 15 August 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "CAN (associate), CD, CELAC, FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, MONUSCO, NAM (observer), OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, PROSUR, UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHRC, UNIDO, Union Latina, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

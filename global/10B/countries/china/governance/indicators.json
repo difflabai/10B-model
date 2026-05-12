@@ -1,0 +1,44 @@
+{
+  "country": "China",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "communist party-led state",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law influenced by Soviet and continental European civil law systems; legislature retains power to interpret statutes; note - on 28 May 2020, the National People's Congress adopted the PRC Civil Code, which codifies personal relations and property relations",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest promulgated 4 December 1982",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President XI Jinping (since 14 March 2013)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, AfDB (nonregional member), APEC, Arctic Council (observer), ARF, ASEAN (dialogue partner), BIS, BRICS, CDB, CICA, EAS, FAO, FATF, G-20, G-24 (observer), G-5, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IPU, ISO, ITSO, ITU, LAIA (observer), MIGA, MINURSO, MONUSCO, NAM (observer), NSG, OAS (observer), OPCW, Pacific Alliance (observer), PCA, PIF (partner), SAARC (observer), SCO, SICA (observer), UN, UNAMID, UNCTAD, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNMISS, UNOCI, UNOOSA, UN Security Council (permanent), UNTSO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

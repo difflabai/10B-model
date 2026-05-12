@@ -1,0 +1,47 @@
+{
+  "country": "romania",
+  "category_scores": {
+    "agency": 0.803,
+    "belonging": 0.6451,
+    "communications": 0.7274,
+    "education": 0.7464,
+    "energy": 0.6183,
+    "environment": 0.5471,
+    "food": 0.7258,
+    "governance": 0.7143,
+    "health": 0.7331,
+    "meaning": 0.63,
+    "mobility": 0.5454,
+    "safety": 0.6322,
+    "shelter": 0.6747,
+    "water": 0.6833,
+    "work": 0.6815
+  },
+  "country_score": 0.6738,
+  "tier_scores": {
+    "subsistence": 0.6898,
+    "development": 0.6638,
+    "agency": 0.6679
+  },
+  "country_embedding": [
+    0.67385,
+    0.86085,
+    0.75003,
+    0.66294,
+    0.09675,
+    0.24413,
+    0.033,
+    -0.07764,
+    -0.05596,
+    -0.25731,
+    0.21858,
+    -0.14593,
+    0.08848,
+    0.07309,
+    -0.06375,
+    -0.05607
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Romania, the three needs areas with the largest gaps are: mobility (0.55), environment (0.55), energy (0.62).\nThe three strongest areas are: agency (0.80), education (0.75), health (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

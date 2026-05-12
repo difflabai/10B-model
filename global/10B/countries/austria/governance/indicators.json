@@ -1,0 +1,44 @@
+{
+  "country": "Austria",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; judicial review of legislative acts by the Constitutional Court",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 1 October 1920, revised 1929, replaced May 1934, replaced by German Weimar constitution in 1938 following German annexation, reinstated 1 May 1945",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Alexander VAN DER BELLEN (since 26 January 2017)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (nonregional member), AfDB (nonregional member), Australia Group, BIS, BSEC (observer), CD, CE, CEI, CERN, EAPC, EBRD, ECB, EIB, EMU, ESA, EU, FAO, FATF, G-9, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, NEA, NSG, OAS (observer), OECD, OIF (observer), OPCW, OSCE, Paris Club, PCA, PFP, Schengen Convention, SELEC (observer), UN, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, UNIFIL, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

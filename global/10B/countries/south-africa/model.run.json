@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.south-africa",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "South Africa"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.south-africa.food",
+        "global.10B.countries.south-africa.water",
+        "global.10B.countries.south-africa.shelter",
+        "global.10B.countries.south-africa.health",
+        "global.10B.countries.south-africa.safety",
+        "global.10B.countries.south-africa.education",
+        "global.10B.countries.south-africa.work",
+        "global.10B.countries.south-africa.energy",
+        "global.10B.countries.south-africa.mobility",
+        "global.10B.countries.south-africa.communications",
+        "global.10B.countries.south-africa.governance",
+        "global.10B.countries.south-africa.environment",
+        "global.10B.countries.south-africa.belonging",
+        "global.10B.countries.south-africa.meaning",
+        "global.10B.countries.south-africa.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

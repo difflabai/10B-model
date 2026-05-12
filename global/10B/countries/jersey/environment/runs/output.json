@@ -1,0 +1,60 @@
+{
+  "country": "Jersey",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.3333,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.2
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.33333,
+    0.42857,
+    0.4,
+    0.2,
+    0.64681,
+    0.83935,
+    -0.00468,
+    -0.87784,
+    -0.82599,
+    0.95883,
+    0.09364,
+    0.08052,
+    -0.48263,
+    0.56497,
+    -0.02684,
+    -0.22506
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

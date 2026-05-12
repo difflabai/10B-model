@@ -1,0 +1,56 @@
+{
+  "country": "North Macedonia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.865,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.84
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.865,
+    0.66667,
+    0.85,
+    0.92,
+    0.33465,
+    -0.03362,
+    -0.3481,
+    0.93219,
+    -0.06148,
+    0.94452,
+    0.76452,
+    0.91412,
+    0.13811,
+    0.7611,
+    0.47655,
+    -0.68606
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

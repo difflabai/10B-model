@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.isle-of-man",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Isle of Man"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.isle-of-man.food",
+        "global.10B.countries.isle-of-man.water",
+        "global.10B.countries.isle-of-man.shelter",
+        "global.10B.countries.isle-of-man.health",
+        "global.10B.countries.isle-of-man.safety",
+        "global.10B.countries.isle-of-man.education",
+        "global.10B.countries.isle-of-man.work",
+        "global.10B.countries.isle-of-man.energy",
+        "global.10B.countries.isle-of-man.mobility",
+        "global.10B.countries.isle-of-man.communications",
+        "global.10B.countries.isle-of-man.governance",
+        "global.10B.countries.isle-of-man.environment",
+        "global.10B.countries.isle-of-man.belonging",
+        "global.10B.countries.isle-of-man.meaning",
+        "global.10B.countries.isle-of-man.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

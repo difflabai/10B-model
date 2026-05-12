@@ -1,0 +1,74 @@
+{
+  "country": "Marshall Islands",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "100% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "96.1%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "100%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "293,700 metric tonnes of CO2 (2017 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.3076923076923077
+}

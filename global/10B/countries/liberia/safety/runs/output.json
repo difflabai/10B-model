@@ -1,0 +1,56 @@
+{
+  "country": "Liberia",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6783,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6067
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.67833,
+    0.33333,
+    0.75,
+    0.6067,
+    0.14577,
+    -0.32461,
+    -0.84567,
+    0.3098,
+    -0.79773,
+    -0.89578,
+    0.90945,
+    -0.83767,
+    -0.72244,
+    -0.15425,
+    -0.51092,
+    -0.32924
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

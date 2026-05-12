@@ -1,0 +1,34 @@
+{
+  "country": "Eritrea",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "76.6%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "8 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Tigrinya (official), Arabic (official), English (official), Tigre, Kunama, Afar, other Cushitic languages",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

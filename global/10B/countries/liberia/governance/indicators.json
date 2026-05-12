@@ -1,0 +1,44 @@
+{
+  "country": "Liberia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of common law, based on Anglo-American law, and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1847 (at independence); latest drafted 19 October 1983, revision adopted by referendum 3 July 1984, effective 6 January 1986",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph BOAKAI (since 22 January 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU, ECOWAS, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNISFA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

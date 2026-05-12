@@ -1,0 +1,39 @@
+{
+  "country": "Grenada",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "National Democratic Congress or NDCNew National Party or NNP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "80% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple publicly and privately owned television and radio stations; Grenada Information Service (GIS) is government-owned and provides television and radio services; the Grenada Broadcasting Network, jointly owned by the government and the Caribbean Communications Network of Trinidad and Tobago, operates a TV station and 2 radio stations; Meaningful Television (MTV) broadcasts island-wide and is part of a locally-owned media house, Moving Target Company, that also includes an FM radio station and a weekly newspaper; multi-channel cable TV subscription service is provided by Columbus Communications Grenada (FLOW GRENADA) and is available island wide; approximately 25 private radio stations also broadcast throughout the country (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

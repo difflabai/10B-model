@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cameroon",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cameroon"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cameroon.food",
+        "global.10B.countries.cameroon.water",
+        "global.10B.countries.cameroon.shelter",
+        "global.10B.countries.cameroon.health",
+        "global.10B.countries.cameroon.safety",
+        "global.10B.countries.cameroon.education",
+        "global.10B.countries.cameroon.work",
+        "global.10B.countries.cameroon.energy",
+        "global.10B.countries.cameroon.mobility",
+        "global.10B.countries.cameroon.communications",
+        "global.10B.countries.cameroon.governance",
+        "global.10B.countries.cameroon.environment",
+        "global.10B.countries.cameroon.belonging",
+        "global.10B.countries.cameroon.meaning",
+        "global.10B.countries.cameroon.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

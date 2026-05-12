@@ -1,0 +1,52 @@
+{
+  "country": "Sierra Leone",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.7001,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.4002
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.70008,
+    0.6,
+    0.4002,
+    0.95,
+    0.5516,
+    0.42892,
+    0.60757,
+    0.92715,
+    0.60122,
+    -0.78302,
+    0.38225,
+    0.60558,
+    0.73263,
+    -0.62603,
+    0.34365,
+    -0.93271
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

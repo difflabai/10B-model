@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.water",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "water"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.water",
+        "global.10B.countries.australia.water",
+        "global.10B.countries.baker-island.water",
+        "global.10B.countries.chile.water",
+        "global.10B.countries.clipperton-island.water",
+        "global.10B.countries.colombia.water",
+        "global.10B.countries.cook-islands.water",
+        "global.10B.countries.coral-sea-islands.water",
+        "global.10B.countries.costa-rica.water",
+        "global.10B.countries.ecuador.water",
+        "global.10B.countries.el-salvador.water",
+        "global.10B.countries.fiji.water",
+        "global.10B.countries.french-polynesia.water",
+        "global.10B.countries.guam.water",
+        "global.10B.countries.guatemala.water",
+        "global.10B.countries.honduras.water",
+        "global.10B.countries.howland-island.water",
+        "global.10B.countries.jarvis-island.water",
+        "global.10B.countries.johnston-atoll.water",
+        "global.10B.countries.kingman-reef.water",
+        "global.10B.countries.kiribati.water",
+        "global.10B.countries.marshall-islands.water",
+        "global.10B.countries.mexico.water",
+        "global.10B.countries.micronesia-federated-states-of.water",
+        "global.10B.countries.midway-islands.water",
+        "global.10B.countries.nauru.water",
+        "global.10B.countries.new-caledonia.water",
+        "global.10B.countries.new-zealand.water",
+        "global.10B.countries.nicaragua.water",
+        "global.10B.countries.niue.water",
+        "global.10B.countries.norfolk-island.water",
+        "global.10B.countries.northern-mariana-islands.water",
+        "global.10B.countries.palau.water",
+        "global.10B.countries.palmyra-atoll.water",
+        "global.10B.countries.panama.water",
+        "global.10B.countries.papua-new-guinea.water",
+        "global.10B.countries.peru.water",
+        "global.10B.countries.pitcairn-islands.water",
+        "global.10B.countries.samoa.water",
+        "global.10B.countries.solomon-islands.water",
+        "global.10B.countries.tokelau.water",
+        "global.10B.countries.tonga.water",
+        "global.10B.countries.tuvalu.water",
+        "global.10B.countries.united-states.water",
+        "global.10B.countries.vanuatu.water",
+        "global.10B.countries.wake-island.water",
+        "global.10B.countries.wallis-and-futuna.water"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

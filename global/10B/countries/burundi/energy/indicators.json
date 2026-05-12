@@ -1,0 +1,74 @@
+{
+  "country": "Burundi",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "10.3% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "64%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "1.7%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "114,000 kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "415.198 million kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "33.9% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "2.3% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": "62.1% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": "1.7% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "961,000 Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "800,000 metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8461538461538461
+}

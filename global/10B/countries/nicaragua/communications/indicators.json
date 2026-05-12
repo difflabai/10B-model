@@ -1,0 +1,64 @@
+{
+  "country": "Nicaragua",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "97 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "7.22 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "3 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "234,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "61% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "5 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "371,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Nicaragua’s telecoms market has mirrored the country’s poor economic achievements, with fixed-line teledensity and mobile penetration also being the lowest in Central America; the fixed line broadband market remains nascent, with population penetration below 4%; most internet users are concentrated in the largest cities, given that rural and marginal areas lack access to the most basic telecom infrastructure; internet cafés provide public access to internet and email services, but these also tend to be restricted to the larger population centers; to address poor infrastructure, the World Bank has funded a project aimed at improving connectivity via a national fiber broadband network; there are separate schemes to improve broadband in eastern regions and provide links to Caribbean submarine cables; the number of mobile subscribers overtook the number of fixed lines in early 2002, and the mobile sector now accounts for most lines in service (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is 3 per 100 persons; mobile-cellular telephone subscribership is 91 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 505; landing point for the ARCOS fiber-optic submarine cable which provides connectivity to South and Central America, parts of the Caribbean, and the US; satellite earth stations - 1 Intersputnik (Atlantic Ocean region) and 1 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple terrestrial TV stations, supplemented by cable TV in most urban areas; nearly all are government-owned or affiliated; more than 300 radio stations, both government-affiliated and privately owned (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Venezuela",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "sewage pollution of Lago de Valencia; oil and urban pollution of Lago de Maracaibo; deforestation; soil degradation; urban and industrial pollution, especially along the Caribbean coast; threat to the rainforest ecosystem from irresponsible mining operations",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Antarctic-Environmental Protection, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "16.21 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "164.18 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "68.66 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "52.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "9,779,093 tons (2010 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$18,300 (2023 est.)$17,200 (2022 est.)$15,900 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "6.02% (2023 est.)7.16% (2022 est.)0.75% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "4.56% (2023 est.)5.66% (2022 est.)1.57% (2021 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "52,000 (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "18.67% (2023 est.)19.51% (2022 est.)20.28% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

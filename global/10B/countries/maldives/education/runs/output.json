@@ -1,0 +1,52 @@
+{
+  "country": "Maldives",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8095,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9448
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.818
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.80945,
+    0.8,
+    0.9448,
+    0.818,
+    -0.45864,
+    -0.47152,
+    -0.68087,
+    0.00685,
+    0.71221,
+    -0.264,
+    0.1068,
+    -0.87106,
+    0.39217,
+    0.39074,
+    -0.65881,
+    0.37414
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

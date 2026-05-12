@@ -1,0 +1,34 @@
+{
+  "country": "Australia",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.1% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "21 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English 72%, Mandarin 2.7%, Arabic 1.4%, Vietnamese 1.3%, Cantonese 1.2%, other 15.7%, unspecified 5.7% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

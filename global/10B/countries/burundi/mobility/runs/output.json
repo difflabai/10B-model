@@ -1,0 +1,72 @@
+{
+  "country": "Burundi",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 4,
+  "indicators_total": 10,
+  "composite_score": 0.3448,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2673
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2154
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.3389
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5577
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.34483,
+    0.4,
+    0.2673,
+    0.2154,
+    -0.43532,
+    0.39245,
+    -0.22509,
+    -0.33004,
+    -0.54354,
+    0.32409,
+    0.48162,
+    0.90652,
+    -0.15245,
+    0.70028,
+    0.53729,
+    0.54479
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

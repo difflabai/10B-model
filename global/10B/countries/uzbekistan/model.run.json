@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.uzbekistan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Uzbekistan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.uzbekistan.food",
+        "global.10B.countries.uzbekistan.water",
+        "global.10B.countries.uzbekistan.shelter",
+        "global.10B.countries.uzbekistan.health",
+        "global.10B.countries.uzbekistan.safety",
+        "global.10B.countries.uzbekistan.education",
+        "global.10B.countries.uzbekistan.work",
+        "global.10B.countries.uzbekistan.energy",
+        "global.10B.countries.uzbekistan.mobility",
+        "global.10B.countries.uzbekistan.communications",
+        "global.10B.countries.uzbekistan.governance",
+        "global.10B.countries.uzbekistan.environment",
+        "global.10B.countries.uzbekistan.belonging",
+        "global.10B.countries.uzbekistan.meaning",
+        "global.10B.countries.uzbekistan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

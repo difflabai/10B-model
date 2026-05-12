@@ -1,0 +1,72 @@
+{
+  "country": "Pitcairn Islands",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 10,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.19167,
+    -0.19588,
+    0.76233,
+    -0.17418,
+    -0.17217,
+    -0.07649,
+    -0.95343,
+    0.88537,
+    0.13051,
+    -0.76623,
+    0.88009,
+    0.0443
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

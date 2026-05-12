@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.governance",
+  "name": "Asia — Governance and rule of law",
+  "kind": "sector_economic",
+  "blurb": "Region-level governance and rule of law for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country governance models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "governance-country-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "governance-region-mean",
+      "kind": "scalar",
+      "description": "Mean governance score across the region."
+    },
+    {
+      "name": "governance-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Governance and rule of law"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.governance",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

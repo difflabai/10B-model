@@ -1,0 +1,56 @@
+{
+  "country": "Comoros",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6188,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.32
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.424
+    }
+  ],
+  "embedding": [
+    0.6188,
+    0.83333,
+    0.85,
+    0.65,
+    -0.96143,
+    0.96872,
+    0.2,
+    -0.86749,
+    0.46249,
+    -0.17867,
+    -0.82889,
+    -0.01564,
+    0.50539,
+    -0.05122,
+    -0.39754,
+    -0.93573
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

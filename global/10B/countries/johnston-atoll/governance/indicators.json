@@ -1,0 +1,44 @@
+{
+  "country": "Johnston Atoll",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of the US apply where applicable",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.14285714285714285
+}

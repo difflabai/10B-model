@@ -1,0 +1,47 @@
+{
+  "country": "saint-lucia",
+  "category_scores": {
+    "agency": 0.7108,
+    "belonging": 0.6481,
+    "communications": 0.6619,
+    "education": 0.6125,
+    "energy": 0.5074,
+    "environment": 0.5883,
+    "food": 0.5997,
+    "governance": 0.7143,
+    "health": 0.6675,
+    "meaning": 0.61,
+    "mobility": 0.2961,
+    "safety": 0.65,
+    "shelter": 0.6028,
+    "water": 0.65,
+    "work": 0.6013
+  },
+  "country_score": 0.608,
+  "tier_scores": {
+    "subsistence": 0.634,
+    "development": 0.5358,
+    "agency": 0.6543
+  },
+  "country_embedding": [
+    0.60805,
+    0.73812,
+    0.65387,
+    0.52557,
+    0.11368,
+    0.15947,
+    -0.0656,
+    -0.14309,
+    0.06101,
+    0.09955,
+    -0.10575,
+    0.13272,
+    0.01168,
+    -0.17421,
+    -0.11422,
+    -0.12673
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Lucia, the three needs areas with the largest gaps are: mobility (0.30), energy (0.51), environment (0.59).\nThe three strongest areas are: governance (0.71), agency (0.71), health (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

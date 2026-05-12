@@ -1,0 +1,44 @@
+{
+  "country": "Eswatini",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$10,100 (2023 est.)$9,700 (2022 est.)$9,800 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "5.01% (2023 est.)-0.07% (2022 est.)10.68% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "2.6% (2019 est.)4.82% (2018 est.)6.22% (2017 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "416,000 (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "37.64% (2023 est.)37.85% (2022 est.)35.71% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "58.9% (2016 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "54.6 (2016 est.)note: index (0-100) of income distribution; higher values represent greater inequality",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

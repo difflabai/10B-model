@@ -1,0 +1,52 @@
+{
+  "country": "Libya",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.7873,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.862
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.78733,
+    0.6,
+    0.862,
+    0.75,
+    -0.34264,
+    0.54849,
+    0.01897,
+    -0.21434,
+    -0.14757,
+    -0.68411,
+    0.13265,
+    0.80282,
+    0.05702,
+    0.7933,
+    0.11974,
+    0.5426
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

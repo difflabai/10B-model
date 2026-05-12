@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.australia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Australia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.australia.food",
+        "global.10B.countries.australia.water",
+        "global.10B.countries.australia.shelter",
+        "global.10B.countries.australia.health",
+        "global.10B.countries.australia.safety",
+        "global.10B.countries.australia.education",
+        "global.10B.countries.australia.work",
+        "global.10B.countries.australia.energy",
+        "global.10B.countries.australia.mobility",
+        "global.10B.countries.australia.communications",
+        "global.10B.countries.australia.governance",
+        "global.10B.countries.australia.environment",
+        "global.10B.countries.australia.belonging",
+        "global.10B.countries.australia.meaning",
+        "global.10B.countries.australia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

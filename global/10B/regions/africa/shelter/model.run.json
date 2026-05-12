@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.shelter",
+        "global.10B.countries.angola.shelter",
+        "global.10B.countries.benin.shelter",
+        "global.10B.countries.botswana.shelter",
+        "global.10B.countries.bouvet-island.shelter",
+        "global.10B.countries.british-indian-ocean-territory.shelter",
+        "global.10B.countries.burkina-faso.shelter",
+        "global.10B.countries.burundi.shelter",
+        "global.10B.countries.cabo-verde.shelter",
+        "global.10B.countries.cameroon.shelter",
+        "global.10B.countries.central-african-republic.shelter",
+        "global.10B.countries.chad.shelter",
+        "global.10B.countries.comoros.shelter",
+        "global.10B.countries.congo-democratic-republic-of-the.shelter",
+        "global.10B.countries.congo-republic-of-the.shelter",
+        "global.10B.countries.djibouti.shelter",
+        "global.10B.countries.egypt.shelter",
+        "global.10B.countries.equatorial-guinea.shelter",
+        "global.10B.countries.eritrea.shelter",
+        "global.10B.countries.eswatini.shelter",
+        "global.10B.countries.ethiopia.shelter",
+        "global.10B.countries.gabon.shelter",
+        "global.10B.countries.gambia-the.shelter",
+        "global.10B.countries.ghana.shelter",
+        "global.10B.countries.guinea.shelter",
+        "global.10B.countries.guinea-bissau.shelter",
+        "global.10B.countries.kenya.shelter",
+        "global.10B.countries.lesotho.shelter",
+        "global.10B.countries.liberia.shelter",
+        "global.10B.countries.libya.shelter",
+        "global.10B.countries.madagascar.shelter",
+        "global.10B.countries.malawi.shelter",
+        "global.10B.countries.mali.shelter",
+        "global.10B.countries.mauritania.shelter",
+        "global.10B.countries.mauritius.shelter",
+        "global.10B.countries.morocco.shelter",
+        "global.10B.countries.mozambique.shelter",
+        "global.10B.countries.namibia.shelter",
+        "global.10B.countries.niger.shelter",
+        "global.10B.countries.nigeria.shelter",
+        "global.10B.countries.rwanda.shelter",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.shelter",
+        "global.10B.countries.sao-tome-and-principe.shelter",
+        "global.10B.countries.senegal.shelter",
+        "global.10B.countries.seychelles.shelter",
+        "global.10B.countries.sierra-leone.shelter",
+        "global.10B.countries.somalia.shelter",
+        "global.10B.countries.south-africa.shelter",
+        "global.10B.countries.south-sudan.shelter",
+        "global.10B.countries.sudan.shelter",
+        "global.10B.countries.tanzania.shelter",
+        "global.10B.countries.togo.shelter",
+        "global.10B.countries.tunisia.shelter",
+        "global.10B.countries.uganda.shelter",
+        "global.10B.countries.zambia.shelter",
+        "global.10B.countries.zimbabwe.shelter"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

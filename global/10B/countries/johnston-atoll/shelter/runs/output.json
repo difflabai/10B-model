@@ -1,0 +1,52 @@
+{
+  "country": "Johnston Atoll",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 5,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.86111,
+    0.22405,
+    -0.21221,
+    0.53307,
+    -0.07991,
+    -0.26662,
+    -0.00014,
+    -0.43239,
+    0.36074,
+    0.90069,
+    0.72229,
+    -0.14955
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5667,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5682
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2392
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7382
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7833
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4892
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.4794
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7694
+    }
+  ],
+  "embedding": [
+    0.5667,
+    1.0,
+    0.5682,
+    0.2392,
+    -0.03792,
+    0.41054,
+    -0.3286,
+    0.30043,
+    0.76678,
+    -0.62744,
+    -0.81662,
+    -0.4327,
+    0.4631,
+    0.62115,
+    -0.88,
+    -0.83957
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

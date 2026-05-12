@@ -1,0 +1,44 @@
+{
+  "country": "Angola",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil legal system based on Portuguese civil law; no judicial review of legislation",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1975, 1992; latest passed by National Assembly 21 January 2010, adopted 5 February 2010",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joao Manuel Goncalves LOURENCO (since 26 September 2017)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU, CEMAC, CPLP, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OAS (observer), SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNMISS, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

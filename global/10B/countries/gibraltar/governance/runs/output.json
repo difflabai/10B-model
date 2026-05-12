@@ -1,0 +1,60 @@
+{
+  "country": "Gibraltar",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7083,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.75
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.70833,
+    0.85714,
+    0.8,
+    0.65,
+    0.54473,
+    -0.36995,
+    -0.95282,
+    0.45983,
+    -0.36129,
+    0.03423,
+    0.7174,
+    -0.13219,
+    0.77835,
+    0.26976,
+    -0.3037,
+    -0.54974
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

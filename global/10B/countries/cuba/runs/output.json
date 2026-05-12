@@ -1,0 +1,47 @@
+{
+  "country": "cuba",
+  "category_scores": {
+    "agency": 0.7632,
+    "belonging": 0.6417,
+    "communications": 0.6518,
+    "education": 0.7666,
+    "energy": 0.497,
+    "environment": 0.545,
+    "food": 0.6485,
+    "governance": 0.6714,
+    "health": 0.7937,
+    "meaning": 0.63,
+    "mobility": 0.4963,
+    "safety": 0.675,
+    "shelter": 0.655,
+    "water": 0.65,
+    "work": 0.6537
+  },
+  "country_score": 0.6493,
+  "tier_scores": {
+    "subsistence": 0.6844,
+    "development": 0.6131,
+    "agency": 0.6503
+  },
+  "country_embedding": [
+    0.64925,
+    0.79668,
+    0.68009,
+    0.59049,
+    -0.06244,
+    -0.03449,
+    -0.04642,
+    0.00066,
+    0.03079,
+    -0.03907,
+    0.19768,
+    -0.1096,
+    0.07931,
+    0.24001,
+    -0.38427,
+    -0.16314
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cuba, the three needs areas with the largest gaps are: mobility (0.50), energy (0.50), environment (0.55).\nThe three strongest areas are: health (0.79), education (0.77), agency (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

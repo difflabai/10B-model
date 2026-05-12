@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.namibia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Namibia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.namibia.food",
+        "global.10B.countries.namibia.water",
+        "global.10B.countries.namibia.shelter",
+        "global.10B.countries.namibia.health",
+        "global.10B.countries.namibia.safety",
+        "global.10B.countries.namibia.education",
+        "global.10B.countries.namibia.work",
+        "global.10B.countries.namibia.energy",
+        "global.10B.countries.namibia.mobility",
+        "global.10B.countries.namibia.communications",
+        "global.10B.countries.namibia.governance",
+        "global.10B.countries.namibia.environment",
+        "global.10B.countries.namibia.belonging",
+        "global.10B.countries.namibia.meaning",
+        "global.10B.countries.namibia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

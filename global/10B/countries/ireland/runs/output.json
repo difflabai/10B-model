@@ -1,0 +1,47 @@
+{
+  "country": "ireland",
+  "category_scores": {
+    "agency": 0.7788,
+    "belonging": 0.7149,
+    "communications": 0.7425,
+    "education": 0.7313,
+    "energy": 0.5756,
+    "environment": 0.5301,
+    "food": 0.6468,
+    "governance": 0.7429,
+    "health": 0.7773,
+    "meaning": 0.75,
+    "mobility": 0.4569,
+    "safety": 0.5256,
+    "shelter": 0.6829,
+    "water": 0.75,
+    "work": 0.699
+  },
+  "country_score": 0.6736,
+  "tier_scores": {
+    "subsistence": 0.6765,
+    "development": 0.6411,
+    "agency": 0.7033
+  },
+  "country_embedding": [
+    0.67363,
+    0.80684,
+    0.74553,
+    0.62985,
+    -0.08193,
+    0.19885,
+    -0.36156,
+    0.16578,
+    0.05206,
+    -0.07235,
+    0.03177,
+    -0.23381,
+    -0.22979,
+    -0.0195,
+    0.16992,
+    -0.15451
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Ireland, the three needs areas with the largest gaps are: mobility (0.46), safety (0.53), environment (0.53).\nThe three strongest areas are: agency (0.78), health (0.78), water (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

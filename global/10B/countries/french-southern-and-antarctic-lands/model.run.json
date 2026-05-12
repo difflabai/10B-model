@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.french-southern-and-antarctic-lands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "French Southern and Antarctic Lands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.french-southern-and-antarctic-lands.food",
+        "global.10B.countries.french-southern-and-antarctic-lands.water",
+        "global.10B.countries.french-southern-and-antarctic-lands.shelter",
+        "global.10B.countries.french-southern-and-antarctic-lands.health",
+        "global.10B.countries.french-southern-and-antarctic-lands.safety",
+        "global.10B.countries.french-southern-and-antarctic-lands.education",
+        "global.10B.countries.french-southern-and-antarctic-lands.work",
+        "global.10B.countries.french-southern-and-antarctic-lands.energy",
+        "global.10B.countries.french-southern-and-antarctic-lands.mobility",
+        "global.10B.countries.french-southern-and-antarctic-lands.communications",
+        "global.10B.countries.french-southern-and-antarctic-lands.governance",
+        "global.10B.countries.french-southern-and-antarctic-lands.environment",
+        "global.10B.countries.french-southern-and-antarctic-lands.belonging",
+        "global.10B.countries.french-southern-and-antarctic-lands.meaning",
+        "global.10B.countries.french-southern-and-antarctic-lands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

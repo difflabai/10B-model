@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.governance",
+        "global.10B.countries.angola.governance",
+        "global.10B.countries.benin.governance",
+        "global.10B.countries.botswana.governance",
+        "global.10B.countries.bouvet-island.governance",
+        "global.10B.countries.british-indian-ocean-territory.governance",
+        "global.10B.countries.burkina-faso.governance",
+        "global.10B.countries.burundi.governance",
+        "global.10B.countries.cabo-verde.governance",
+        "global.10B.countries.cameroon.governance",
+        "global.10B.countries.central-african-republic.governance",
+        "global.10B.countries.chad.governance",
+        "global.10B.countries.comoros.governance",
+        "global.10B.countries.congo-democratic-republic-of-the.governance",
+        "global.10B.countries.congo-republic-of-the.governance",
+        "global.10B.countries.djibouti.governance",
+        "global.10B.countries.egypt.governance",
+        "global.10B.countries.equatorial-guinea.governance",
+        "global.10B.countries.eritrea.governance",
+        "global.10B.countries.eswatini.governance",
+        "global.10B.countries.ethiopia.governance",
+        "global.10B.countries.gabon.governance",
+        "global.10B.countries.gambia-the.governance",
+        "global.10B.countries.ghana.governance",
+        "global.10B.countries.guinea.governance",
+        "global.10B.countries.guinea-bissau.governance",
+        "global.10B.countries.kenya.governance",
+        "global.10B.countries.lesotho.governance",
+        "global.10B.countries.liberia.governance",
+        "global.10B.countries.libya.governance",
+        "global.10B.countries.madagascar.governance",
+        "global.10B.countries.malawi.governance",
+        "global.10B.countries.mali.governance",
+        "global.10B.countries.mauritania.governance",
+        "global.10B.countries.mauritius.governance",
+        "global.10B.countries.morocco.governance",
+        "global.10B.countries.mozambique.governance",
+        "global.10B.countries.namibia.governance",
+        "global.10B.countries.niger.governance",
+        "global.10B.countries.nigeria.governance",
+        "global.10B.countries.rwanda.governance",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.governance",
+        "global.10B.countries.sao-tome-and-principe.governance",
+        "global.10B.countries.senegal.governance",
+        "global.10B.countries.seychelles.governance",
+        "global.10B.countries.sierra-leone.governance",
+        "global.10B.countries.somalia.governance",
+        "global.10B.countries.south-africa.governance",
+        "global.10B.countries.south-sudan.governance",
+        "global.10B.countries.sudan.governance",
+        "global.10B.countries.tanzania.governance",
+        "global.10B.countries.togo.governance",
+        "global.10B.countries.tunisia.governance",
+        "global.10B.countries.uganda.governance",
+        "global.10B.countries.zambia.governance",
+        "global.10B.countries.zimbabwe.governance"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

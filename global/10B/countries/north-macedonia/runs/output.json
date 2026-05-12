@@ -1,0 +1,47 @@
+{
+  "country": "north-macedonia",
+  "category_scores": {
+    "agency": 0.865,
+    "belonging": 0.6681,
+    "communications": 0.7032,
+    "education": 0.794,
+    "energy": 0.5393,
+    "environment": 0.5351,
+    "food": 0.7267,
+    "governance": 0.7286,
+    "health": 0.7787,
+    "meaning": 0.67,
+    "mobility": 0.4148,
+    "safety": 0.6011,
+    "shelter": 0.6287,
+    "water": 0.65,
+    "work": 0.6178
+  },
+  "country_score": 0.6614,
+  "tier_scores": {
+    "subsistence": 0.677,
+    "development": 0.6138,
+    "agency": 0.6934
+  },
+  "country_embedding": [
+    0.6614,
+    0.80017,
+    0.71614,
+    0.67707,
+    0.07954,
+    0.08811,
+    -0.10036,
+    0.14694,
+    -0.26444,
+    0.03048,
+    0.21949,
+    0.10007,
+    0.06459,
+    0.23081,
+    0.25227,
+    -0.03657
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in North Macedonia, the three needs areas with the largest gaps are: mobility (0.41), environment (0.54), energy (0.54).\nThe three strongest areas are: agency (0.86), education (0.79), health (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

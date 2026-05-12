@@ -1,0 +1,34 @@
+{
+  "country": "Micronesia, Federated States of",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "23.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "7,000 PALIKIR (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the majority of the populaton lives in the coastal areas of the high islands; the mountainous interior is largely uninhabited; less than half of the population lives in urban areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; heavy year-round rainfall, especially in the eastern islands; located on southern edge of the typhoon belt with occasionally severe damage",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; heavy year-round rainfall, especially in the eastern islands; located on southern edge of the typhoon belt with occasionally severe damage",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

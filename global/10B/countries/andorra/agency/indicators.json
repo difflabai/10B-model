@@ -1,0 +1,39 @@
+{
+  "country": "Andorra",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Action for Andorra or ACCIO Committed Citizens or CC Concord or CDemocrats for Andorra or DA Forward Andorra or AE Liberals of Andorra or L'A Social Democratic Party or PS Social Democracy and Progress or SDP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Andorran media scene is partly shaped by the proximity to France and Spain, Andorrans have access to broadcasts from both countries, and for many years Andorra was home to Sud Radio, a powerful station broadcasting to southwest France (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.9% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

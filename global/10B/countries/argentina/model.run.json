@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.argentina",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Argentina"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.argentina.food",
+        "global.10B.countries.argentina.water",
+        "global.10B.countries.argentina.shelter",
+        "global.10B.countries.argentina.health",
+        "global.10B.countries.argentina.safety",
+        "global.10B.countries.argentina.education",
+        "global.10B.countries.argentina.work",
+        "global.10B.countries.argentina.energy",
+        "global.10B.countries.argentina.mobility",
+        "global.10B.countries.argentina.communications",
+        "global.10B.countries.argentina.governance",
+        "global.10B.countries.argentina.environment",
+        "global.10B.countries.argentina.belonging",
+        "global.10B.countries.argentina.meaning",
+        "global.10B.countries.argentina.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

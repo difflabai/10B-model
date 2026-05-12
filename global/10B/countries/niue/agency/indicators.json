@@ -1,0 +1,39 @@
+{
+  "country": "Niue",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "79.6% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 government-owned TV station with many of the programs supplied by Television New Zealand; 1 government-owned radio station broadcasting in AM and FM (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

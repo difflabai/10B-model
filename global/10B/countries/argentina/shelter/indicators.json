@@ -1,0 +1,34 @@
+{
+  "country": "Argentina",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "92.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "15.490 million BUENOS AIRES (capital), 1.612 million Córdoba, 1.594 million Rosario, 1.226 million Mendoza, 1.027 million San Miguel de Tucumán, 914,000 La Plata (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "one-third of the population lives in Buenos Aires; pockets of agglomeration occur throughout the northern and central parts of the country; Patagonia to the south remains sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly temperate; arid in southeast; subantarctic in southwest",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly temperate; arid in southeast; subantarctic in southwest",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

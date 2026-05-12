@@ -1,0 +1,59 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "4,400 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "453 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "3,947 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "7 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,367 km (2022) major rivers Geba- 550km, Corubal 560 km, Cacheu 257 km (rivers are partially navigable; many inlets and creeks provide shallow-water access to much of interior)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

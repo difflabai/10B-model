@@ -1,0 +1,52 @@
+{
+  "country": "Iran",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.727,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8348
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.72697,
+    1.0,
+    0.8348,
+    0.5625,
+    0.30929,
+    -0.69265,
+    -0.77191,
+    0.68463,
+    -0.08199,
+    0.69967,
+    0.44775,
+    -0.77414,
+    0.32461,
+    0.23787,
+    -0.09007,
+    0.77765
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Ashmore and Cartier Islands",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 11,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.64349,
+    -0.73489,
+    0.06316,
+    -0.07448,
+    -0.40789,
+    -0.90365,
+    -0.47115,
+    -0.11974,
+    0.18941,
+    -0.91336,
+    0.31643,
+    -0.8251
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

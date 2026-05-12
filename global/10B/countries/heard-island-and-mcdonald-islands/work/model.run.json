@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.heard-island-and-mcdonald-islands.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Heard Island and McDonald Islands"
+    },
+    "category": {
+      "value": "work"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "work"
+    }
+  },
+  "output": "./runs/output.json"
+}

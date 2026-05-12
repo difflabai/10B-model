@@ -1,0 +1,39 @@
+{
+  "country": "Brazil",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "voluntary between 16 to 18 years of age, over 70, and if illiterate; compulsory between 18 to 70 years of age; note - military conscripts by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Act (Agir) (formerly Christian Labor Party or PTC)Avante (formerly Labor Party of Brazil or PTdoB)Brazil Union (União Brasil); note - founded from a merger between the Democrats (DEM) and the Social Liberal Party (PSL)  Brazilian Communist Party or PCBBrazilian Democratic Movement or MDBBrazilian Labor Party or PTBBrazilian Renewal Labor Party or PRTBBrazilian Labor Party or PTBBrazilian Social Democracy Party or PSDBBrazilian Socialist Party or PSBChristian Democracy or DC (formerly Christian Social Democratic Party)Cidadania (formerly Popular Socialist Party or PPS)Communist Party of Brazil or PCdoBDemocratic Labor Party or PDTDemocratic Party or PSDCDemocrats or DEM (formerly Liberal Front Party or PFL); note - dissolved in February 2022Green Party or PVLiberal Party or PL [Valdemar Costa Neto] (formerly Party of the Republic or PR)National Mobilization Party or PMNNew Party or NOVOPatriota (formerly National Ecologic Party or PEN)Podemos (formerly National Labor Party or PTN) Progressive Party (Progressistas) or PPRepublican Social Order Party or PROSRepublicans (Republicanos) (formerly Brazilian Republican Party or PRB)Social Christian Party or PSCSocial Democratic Party or PSDSocial Liberal Party or PSLSocialism and Freedom Party or PSOLSolidarity or SDSustainability Network or REDEUnited Socialist Workers' Party or PSTUWorkers' Cause Party or PCOWorkers' Party or PT",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "84% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run Radiobras operates a radio and a TV network; more than 1,000 radio stations and more than 100 TV channels operating - mostly privately owned; private media ownership highly concentrated (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

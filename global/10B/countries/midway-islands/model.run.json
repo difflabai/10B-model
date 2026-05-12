@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.midway-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Midway Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.midway-islands.food",
+        "global.10B.countries.midway-islands.water",
+        "global.10B.countries.midway-islands.shelter",
+        "global.10B.countries.midway-islands.health",
+        "global.10B.countries.midway-islands.safety",
+        "global.10B.countries.midway-islands.education",
+        "global.10B.countries.midway-islands.work",
+        "global.10B.countries.midway-islands.energy",
+        "global.10B.countries.midway-islands.mobility",
+        "global.10B.countries.midway-islands.communications",
+        "global.10B.countries.midway-islands.governance",
+        "global.10B.countries.midway-islands.environment",
+        "global.10B.countries.midway-islands.belonging",
+        "global.10B.countries.midway-islands.meaning",
+        "global.10B.countries.midway-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "jersey",
+  "category_scores": {
+    "agency": 0.82,
+    "belonging": 0.638,
+    "communications": 0.7305,
+    "education": 0.65,
+    "energy": 0.685,
+    "environment": 0.3333,
+    "food": 0.6106,
+    "governance": 0.6917,
+    "health": 0.9028,
+    "meaning": 0.6,
+    "mobility": 0.2,
+    "safety": null,
+    "shelter": 0.5978,
+    "water": 0.65,
+    "work": 0.8254
+  },
+  "country_score": 0.6382,
+  "tier_scores": {
+    "subsistence": 0.6903,
+    "development": 0.6182,
+    "agency": 0.6166
+  },
+  "country_embedding": [
+    0.59567,
+    0.55026,
+    0.63752,
+    0.4599,
+    0.07312,
+    0.12863,
+    0.01704,
+    -0.05692,
+    -0.00665,
+    -0.08177,
+    0.13149,
+    0.13163,
+    -0.15691,
+    -0.10849,
+    -0.05335,
+    0.13598
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Jersey, the three needs areas with the largest gaps are: mobility (0.20), environment (0.33), shelter (0.60).\nThe three strongest areas are: health (0.90), work (0.83), agency (0.82).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Baker Island",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.69918,
+    -0.20855,
+    0.93182,
+    0.1657,
+    -0.02516,
+    0.22856,
+    0.83819,
+    0.67022,
+    0.74044,
+    -0.45492,
+    -0.19432,
+    0.29772
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

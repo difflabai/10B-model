@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.korea-south",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Korea, South"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.korea-south.food",
+        "global.10B.countries.korea-south.water",
+        "global.10B.countries.korea-south.shelter",
+        "global.10B.countries.korea-south.health",
+        "global.10B.countries.korea-south.safety",
+        "global.10B.countries.korea-south.education",
+        "global.10B.countries.korea-south.work",
+        "global.10B.countries.korea-south.energy",
+        "global.10B.countries.korea-south.mobility",
+        "global.10B.countries.korea-south.communications",
+        "global.10B.countries.korea-south.governance",
+        "global.10B.countries.korea-south.environment",
+        "global.10B.countries.korea-south.belonging",
+        "global.10B.countries.korea-south.meaning",
+        "global.10B.countries.korea-south.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

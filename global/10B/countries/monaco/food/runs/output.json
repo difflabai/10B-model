@@ -1,0 +1,52 @@
+{
+  "country": "Monaco",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.44,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.22
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.44,
+    0.6,
+    0.55,
+    0.22,
+    0.42907,
+    0.04237,
+    0.30822,
+    -0.20232,
+    0.00819,
+    0.50704,
+    0.67758,
+    -0.86099,
+    0.09902,
+    0.38164,
+    0.49068,
+    0.79937
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

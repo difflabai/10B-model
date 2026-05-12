@@ -1,0 +1,44 @@
+{
+  "country": "Sweden",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system influenced by Roman-Germanic law and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "Sweden has four fundamental laws which together make up the Constitution: The Instrument of Government (several previous; latest 1974); The Act of Succession (enacted 1810; changed in 1937 and 1980); The Freedom of the Press Act (many previous; latest in 1949); The Fundamental Law on Freedom of Expression (adopted 1991)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CARL XVI GUSTAF (since 15 September 1973)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (nonregional member), AfDB (nonregional member), Arctic Council, Australia Group, BIS, CBSS, CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), EMU, ESA, EU, FAO, FATF, G-9, G-10, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NATO, NC, NEA, NIB, NSG, OAS (observer), OECD, OPCW, OSCE, Paris Club, PCA, PFP, Schengen Convention, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNMISS, UNMOGIP, UNOOSA, UNRWA, UN Security Council (temporary), UNSOM, UNTSO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

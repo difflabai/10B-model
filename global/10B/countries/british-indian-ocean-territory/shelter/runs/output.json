@@ -1,0 +1,52 @@
+{
+  "country": "British Indian Ocean Territory",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.4,
+    0.65,
+    0.0,
+    0.02593,
+    -0.60858,
+    0.08675,
+    -0.9198,
+    -0.70556,
+    0.77481,
+    0.19982,
+    -0.09834,
+    0.77588,
+    -0.94476,
+    -0.49389,
+    -0.69787
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Sint Maarten",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6375,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6375,
+    1.0,
+    0.6,
+    0.55,
+    0.56332,
+    0.11473,
+    0.90249,
+    0.16356,
+    -0.38756,
+    0.36526,
+    -0.61791,
+    0.64532,
+    -0.59936,
+    0.81588,
+    -0.92898,
+    0.31554
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

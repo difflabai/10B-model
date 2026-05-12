@@ -1,0 +1,39 @@
+{
+  "country": "Mali",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Niger (shared with Guinea [s], Niger, and Nigeria [m]) - 4,200 km; Senegal (shared with Guinea [s], Senegal, and Mauritania [m]) - 1,641 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Niger (2,261,741 sq km), Senegal (456,397 sq km), Volta (410,991 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical to arid; hot and dry (February to June); rainy, humid, and mild (June to November); cool and dry (November to February)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

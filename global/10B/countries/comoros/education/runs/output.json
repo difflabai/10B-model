@@ -1,0 +1,52 @@
+{
+  "country": "Comoros",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5431,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5233
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.424
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54308,
+    0.8,
+    0.5233,
+    0.424,
+    -0.17653,
+    0.74459,
+    0.39275,
+    -0.28377,
+    0.75778,
+    -0.37383,
+    -0.88669,
+    0.80691,
+    0.27315,
+    -0.34331,
+    -0.81811,
+    0.05678
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

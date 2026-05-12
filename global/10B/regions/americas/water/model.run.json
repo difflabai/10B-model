@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.water",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "water"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.water",
+        "global.10B.countries.antigua-and-barbuda.water",
+        "global.10B.countries.argentina.water",
+        "global.10B.countries.aruba.water",
+        "global.10B.countries.bahamas-the.water",
+        "global.10B.countries.barbados.water",
+        "global.10B.countries.belize.water",
+        "global.10B.countries.bermuda.water",
+        "global.10B.countries.bolivia.water",
+        "global.10B.countries.brazil.water",
+        "global.10B.countries.british-virgin-islands.water",
+        "global.10B.countries.cayman-islands.water",
+        "global.10B.countries.cuba.water",
+        "global.10B.countries.curacao.water",
+        "global.10B.countries.dominica.water",
+        "global.10B.countries.dominican-republic.water",
+        "global.10B.countries.falkland-islands-islas-malvinas.water",
+        "global.10B.countries.grenada.water",
+        "global.10B.countries.guyana.water",
+        "global.10B.countries.haiti.water",
+        "global.10B.countries.jamaica.water",
+        "global.10B.countries.montserrat.water",
+        "global.10B.countries.navassa-island.water",
+        "global.10B.countries.paraguay.water",
+        "global.10B.countries.puerto-rico.water",
+        "global.10B.countries.saint-barthelemy.water",
+        "global.10B.countries.saint-kitts-and-nevis.water",
+        "global.10B.countries.saint-lucia.water",
+        "global.10B.countries.saint-martin.water",
+        "global.10B.countries.saint-pierre-and-miquelon.water",
+        "global.10B.countries.saint-vincent-and-the-grenadines.water",
+        "global.10B.countries.sint-maarten.water",
+        "global.10B.countries.suriname.water",
+        "global.10B.countries.trinidad-and-tobago.water",
+        "global.10B.countries.turks-and-caicos-islands.water",
+        "global.10B.countries.uruguay.water",
+        "global.10B.countries.venezuela.water",
+        "global.10B.countries.virgin-islands.water"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

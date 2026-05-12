@@ -1,0 +1,34 @@
+{
+  "country": "Nauru",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.1% of GDP (2021) NA",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Nauruan 93% (official, a distinct Pacific Island language), English 2% (widely understood, spoken, and used for most government and commercial purposes), other 5% (includes Gilbertese 2% and Chinese 2%) (2011 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.4
+}

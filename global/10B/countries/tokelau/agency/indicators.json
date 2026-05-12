@@ -1,0 +1,39 @@
+{
+  "country": "Tokelau",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "58.3% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Sky TV access for around 30% of the population; each atoll operates a radio service that provides shipping news and weather reports (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

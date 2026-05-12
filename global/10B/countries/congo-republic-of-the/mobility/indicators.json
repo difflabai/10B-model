@@ -1,0 +1,59 @@
+{
+  "country": "Congo, Republic of the",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "23,324 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "3,111 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "20,213 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "56 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "232 km gas, 4 km liquid petroleum gas, 982 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,120 km (2011) (commercially navigable on Congo and Oubangui Rivers above Brazzaville; there are many ferries across the river to Kinshasa; the Congo south of Brazzaville-Kinshasa to the coast is not navigable because of rapids, necessitating a rail connection to Pointe-Noire; other rivers are used for local traffic only)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "510 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "333,899 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "4.6 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

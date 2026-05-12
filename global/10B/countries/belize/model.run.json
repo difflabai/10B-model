@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.belize",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Belize"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.belize.food",
+        "global.10B.countries.belize.water",
+        "global.10B.countries.belize.shelter",
+        "global.10B.countries.belize.health",
+        "global.10B.countries.belize.safety",
+        "global.10B.countries.belize.education",
+        "global.10B.countries.belize.work",
+        "global.10B.countries.belize.energy",
+        "global.10B.countries.belize.mobility",
+        "global.10B.countries.belize.communications",
+        "global.10B.countries.belize.governance",
+        "global.10B.countries.belize.environment",
+        "global.10B.countries.belize.belonging",
+        "global.10B.countries.belize.meaning",
+        "global.10B.countries.belize.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

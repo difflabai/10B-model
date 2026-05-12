@@ -1,0 +1,52 @@
+{
+  "country": "Svalbard",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.6,
+    0.75,
+    0.75,
+    -0.43435,
+    0.53579,
+    -0.06249,
+    -0.84106,
+    -0.0728,
+    -0.42034,
+    0.23381,
+    -0.3167,
+    0.85882,
+    0.73687,
+    -0.36376,
+    0.47539
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

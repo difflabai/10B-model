@@ -1,0 +1,72 @@
+{
+  "country": "Norway",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.6135,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5301
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.71
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7133
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5979
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4795
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.61346,
+    0.6,
+    0.5301,
+    0.71,
+    0.21099,
+    -0.35769,
+    0.96951,
+    -0.43093,
+    -0.8757,
+    -0.62899,
+    -0.40188,
+    -0.18758,
+    -0.70407,
+    0.34551,
+    0.06175,
+    0.89285
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.safety",
+        "global.10B.countries.australia.safety",
+        "global.10B.countries.baker-island.safety",
+        "global.10B.countries.chile.safety",
+        "global.10B.countries.clipperton-island.safety",
+        "global.10B.countries.colombia.safety",
+        "global.10B.countries.cook-islands.safety",
+        "global.10B.countries.coral-sea-islands.safety",
+        "global.10B.countries.costa-rica.safety",
+        "global.10B.countries.ecuador.safety",
+        "global.10B.countries.el-salvador.safety",
+        "global.10B.countries.fiji.safety",
+        "global.10B.countries.french-polynesia.safety",
+        "global.10B.countries.guam.safety",
+        "global.10B.countries.guatemala.safety",
+        "global.10B.countries.honduras.safety",
+        "global.10B.countries.howland-island.safety",
+        "global.10B.countries.jarvis-island.safety",
+        "global.10B.countries.johnston-atoll.safety",
+        "global.10B.countries.kingman-reef.safety",
+        "global.10B.countries.kiribati.safety",
+        "global.10B.countries.marshall-islands.safety",
+        "global.10B.countries.mexico.safety",
+        "global.10B.countries.micronesia-federated-states-of.safety",
+        "global.10B.countries.midway-islands.safety",
+        "global.10B.countries.nauru.safety",
+        "global.10B.countries.new-caledonia.safety",
+        "global.10B.countries.new-zealand.safety",
+        "global.10B.countries.nicaragua.safety",
+        "global.10B.countries.niue.safety",
+        "global.10B.countries.norfolk-island.safety",
+        "global.10B.countries.northern-mariana-islands.safety",
+        "global.10B.countries.palau.safety",
+        "global.10B.countries.palmyra-atoll.safety",
+        "global.10B.countries.panama.safety",
+        "global.10B.countries.papua-new-guinea.safety",
+        "global.10B.countries.peru.safety",
+        "global.10B.countries.pitcairn-islands.safety",
+        "global.10B.countries.samoa.safety",
+        "global.10B.countries.solomon-islands.safety",
+        "global.10B.countries.tokelau.safety",
+        "global.10B.countries.tonga.safety",
+        "global.10B.countries.tuvalu.safety",
+        "global.10B.countries.united-states.safety",
+        "global.10B.countries.vanuatu.safety",
+        "global.10B.countries.wake-island.safety",
+        "global.10B.countries.wallis-and-futuna.safety"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

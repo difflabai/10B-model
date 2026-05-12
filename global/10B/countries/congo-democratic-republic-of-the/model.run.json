@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.congo-democratic-republic-of-the",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Congo, Democratic Republic of the"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.congo-democratic-republic-of-the.food",
+        "global.10B.countries.congo-democratic-republic-of-the.water",
+        "global.10B.countries.congo-democratic-republic-of-the.shelter",
+        "global.10B.countries.congo-democratic-republic-of-the.health",
+        "global.10B.countries.congo-democratic-republic-of-the.safety",
+        "global.10B.countries.congo-democratic-republic-of-the.education",
+        "global.10B.countries.congo-democratic-republic-of-the.work",
+        "global.10B.countries.congo-democratic-republic-of-the.energy",
+        "global.10B.countries.congo-democratic-republic-of-the.mobility",
+        "global.10B.countries.congo-democratic-republic-of-the.communications",
+        "global.10B.countries.congo-democratic-republic-of-the.governance",
+        "global.10B.countries.congo-democratic-republic-of-the.environment",
+        "global.10B.countries.congo-democratic-republic-of-the.belonging",
+        "global.10B.countries.congo-democratic-republic-of-the.meaning",
+        "global.10B.countries.congo-democratic-republic-of-the.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

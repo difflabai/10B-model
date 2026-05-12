@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.meaning",
+        "global.10B.countries.andorra.meaning",
+        "global.10B.countries.armenia.meaning",
+        "global.10B.countries.austria.meaning",
+        "global.10B.countries.azerbaijan.meaning",
+        "global.10B.countries.belarus.meaning",
+        "global.10B.countries.belgium.meaning",
+        "global.10B.countries.bosnia-and-herzegovina.meaning",
+        "global.10B.countries.bulgaria.meaning",
+        "global.10B.countries.croatia.meaning",
+        "global.10B.countries.cyprus.meaning",
+        "global.10B.countries.czechia.meaning",
+        "global.10B.countries.denmark.meaning",
+        "global.10B.countries.estonia.meaning",
+        "global.10B.countries.faroe-islands.meaning",
+        "global.10B.countries.finland.meaning",
+        "global.10B.countries.georgia.meaning",
+        "global.10B.countries.germany.meaning",
+        "global.10B.countries.gibraltar.meaning",
+        "global.10B.countries.greece.meaning",
+        "global.10B.countries.guernsey.meaning",
+        "global.10B.countries.holy-see-vatican-city.meaning",
+        "global.10B.countries.hungary.meaning",
+        "global.10B.countries.iceland.meaning",
+        "global.10B.countries.ireland.meaning",
+        "global.10B.countries.isle-of-man.meaning",
+        "global.10B.countries.italy.meaning",
+        "global.10B.countries.jan-mayen.meaning",
+        "global.10B.countries.jersey.meaning",
+        "global.10B.countries.kazakhstan.meaning",
+        "global.10B.countries.kosovo.meaning",
+        "global.10B.countries.latvia.meaning",
+        "global.10B.countries.liechtenstein.meaning",
+        "global.10B.countries.lithuania.meaning",
+        "global.10B.countries.luxembourg.meaning",
+        "global.10B.countries.malta.meaning",
+        "global.10B.countries.moldova.meaning",
+        "global.10B.countries.monaco.meaning",
+        "global.10B.countries.montenegro.meaning",
+        "global.10B.countries.netherlands.meaning",
+        "global.10B.countries.north-macedonia.meaning",
+        "global.10B.countries.norway.meaning",
+        "global.10B.countries.poland.meaning",
+        "global.10B.countries.portugal.meaning",
+        "global.10B.countries.romania.meaning",
+        "global.10B.countries.san-marino.meaning",
+        "global.10B.countries.serbia.meaning",
+        "global.10B.countries.slovakia.meaning",
+        "global.10B.countries.slovenia.meaning",
+        "global.10B.countries.spain.meaning",
+        "global.10B.countries.sweden.meaning",
+        "global.10B.countries.switzerland.meaning",
+        "global.10B.countries.turkey-turkiye.meaning",
+        "global.10B.countries.ukraine.meaning",
+        "global.10B.countries.united-kingdom.meaning"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

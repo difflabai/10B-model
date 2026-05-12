@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.algeria",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Algeria"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.algeria.food",
+        "global.10B.countries.algeria.water",
+        "global.10B.countries.algeria.shelter",
+        "global.10B.countries.algeria.health",
+        "global.10B.countries.algeria.safety",
+        "global.10B.countries.algeria.education",
+        "global.10B.countries.algeria.work",
+        "global.10B.countries.algeria.energy",
+        "global.10B.countries.algeria.mobility",
+        "global.10B.countries.algeria.communications",
+        "global.10B.countries.algeria.governance",
+        "global.10B.countries.algeria.environment",
+        "global.10B.countries.algeria.belonging",
+        "global.10B.countries.algeria.meaning",
+        "global.10B.countries.algeria.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

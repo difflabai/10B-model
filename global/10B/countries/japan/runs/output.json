@@ -1,0 +1,47 @@
+{
+  "country": "japan",
+  "category_scores": {
+    "agency": 0.7672,
+    "belonging": 0.6601,
+    "communications": 0.7591,
+    "education": 0.6434,
+    "energy": 0.5653,
+    "environment": 0.5929,
+    "food": 0.575,
+    "governance": 0.7286,
+    "health": 0.8809,
+    "meaning": 0.61,
+    "mobility": 0.766,
+    "safety": 0.7183,
+    "shelter": 0.6905,
+    "water": 0.65,
+    "work": 0.7796
+  },
+  "country_score": 0.6925,
+  "tier_scores": {
+    "subsistence": 0.7029,
+    "development": 0.7027,
+    "agency": 0.6718
+  },
+  "country_embedding": [
+    0.69247,
+    0.80847,
+    0.75295,
+    0.66412,
+    -0.01192,
+    -0.12395,
+    -0.24767,
+    -0.06255,
+    0.29848,
+    -0.12767,
+    -0.26381,
+    -0.46683,
+    -0.06069,
+    0.22933,
+    0.05282,
+    -0.02964
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Japan, the three needs areas with the largest gaps are: energy (0.57), food (0.57), environment (0.59).\nThe three strongest areas are: health (0.88), work (0.78), agency (0.77).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

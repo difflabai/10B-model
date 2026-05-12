@@ -1,0 +1,56 @@
+{
+  "country": "Iceland",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.9004,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.932
+    }
+  ],
+  "embedding": [
+    0.9004,
+    0.83333,
+    0.85,
+    0.85,
+    -0.89401,
+    0.48583,
+    0.22115,
+    0.71542,
+    0.00972,
+    -0.3015,
+    0.90762,
+    -0.44097,
+    0.97836,
+    0.95709,
+    -0.47289,
+    0.15401
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

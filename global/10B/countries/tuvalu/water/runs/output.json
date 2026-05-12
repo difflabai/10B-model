@@ -1,0 +1,56 @@
+{
+  "country": "Tuvalu",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.16667,
+    0.65,
+    0.0,
+    -0.79608,
+    -0.82562,
+    -0.99185,
+    -0.40874,
+    -0.31099,
+    -0.30791,
+    0.72699,
+    -0.24926,
+    -0.51095,
+    -0.93603,
+    -0.9288,
+    -0.55691
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

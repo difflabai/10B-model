@@ -1,0 +1,52 @@
+{
+  "country": "Moldova",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8238,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9652
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.854
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.82384,
+    1.0,
+    0.9652,
+    0.854,
+    -0.983,
+    0.68643,
+    -0.11574,
+    0.77392,
+    0.49059,
+    -0.04808,
+    0.8732,
+    -0.78604,
+    -0.46413,
+    0.32009,
+    -0.39806,
+    -0.22945
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

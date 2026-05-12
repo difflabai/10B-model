@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.united-states.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "United States"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "energy"
+    }
+  },
+  "output": "./runs/output.json"
+}

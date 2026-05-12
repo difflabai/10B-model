@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.north-macedonia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "North Macedonia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.north-macedonia.food",
+        "global.10B.countries.north-macedonia.water",
+        "global.10B.countries.north-macedonia.shelter",
+        "global.10B.countries.north-macedonia.health",
+        "global.10B.countries.north-macedonia.safety",
+        "global.10B.countries.north-macedonia.education",
+        "global.10B.countries.north-macedonia.work",
+        "global.10B.countries.north-macedonia.energy",
+        "global.10B.countries.north-macedonia.mobility",
+        "global.10B.countries.north-macedonia.communications",
+        "global.10B.countries.north-macedonia.governance",
+        "global.10B.countries.north-macedonia.environment",
+        "global.10B.countries.north-macedonia.belonging",
+        "global.10B.countries.north-macedonia.meaning",
+        "global.10B.countries.north-macedonia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

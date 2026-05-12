@@ -1,0 +1,72 @@
+{
+  "country": "Sudan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4912,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3776
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3154
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5361
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4395
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7086
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.565
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2788
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.49121,
+    0.9,
+    0.3776,
+    0.3154,
+    0.62954,
+    -0.13762,
+    -0.96204,
+    0.59649,
+    -0.63497,
+    0.82989,
+    0.41775,
+    -0.41762,
+    0.74932,
+    -0.34002,
+    -0.04988,
+    -0.69323
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

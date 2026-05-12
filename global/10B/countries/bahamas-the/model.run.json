@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bahamas-the",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bahamas, The"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bahamas-the.food",
+        "global.10B.countries.bahamas-the.water",
+        "global.10B.countries.bahamas-the.shelter",
+        "global.10B.countries.bahamas-the.health",
+        "global.10B.countries.bahamas-the.safety",
+        "global.10B.countries.bahamas-the.education",
+        "global.10B.countries.bahamas-the.work",
+        "global.10B.countries.bahamas-the.energy",
+        "global.10B.countries.bahamas-the.mobility",
+        "global.10B.countries.bahamas-the.communications",
+        "global.10B.countries.bahamas-the.governance",
+        "global.10B.countries.bahamas-the.environment",
+        "global.10B.countries.bahamas-the.belonging",
+        "global.10B.countries.bahamas-the.meaning",
+        "global.10B.countries.bahamas-the.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "152,373 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "3,047 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "149,326 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "272 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "62 km gas, 77 km oil, 756 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "15,000 km (2011) (including the Congo River, its tributaries, and unconnected lakes)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "4,007 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "932,043 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "890,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

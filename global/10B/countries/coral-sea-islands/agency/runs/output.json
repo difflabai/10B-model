@@ -1,0 +1,56 @@
+{
+  "country": "Coral Sea Islands",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.80935,
+    -0.10359,
+    0.84134,
+    -0.77285,
+    0.74408,
+    -0.18056,
+    0.33462,
+    -0.01518,
+    -0.87918,
+    0.57488,
+    0.76162,
+    -0.49709
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

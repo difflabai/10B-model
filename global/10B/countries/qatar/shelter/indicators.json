@@ -1,0 +1,34 @@
+{
+  "country": "Qatar",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "99.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "798,000 Ar-Rayyan, 658,000 DOHA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is clustered in or around the capital of Doha on the eastern side of the peninsula",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "arid; mild, pleasant winters; very hot, humid summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "arid; mild, pleasant winters; very hot, humid summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

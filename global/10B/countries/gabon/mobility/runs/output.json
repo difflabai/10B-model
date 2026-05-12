@@ -1,0 +1,72 @@
+{
+  "country": "Gabon",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4433,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2814
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2062
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5333
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5989
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2836
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.44335,
+    0.7,
+    0.2814,
+    0.2062,
+    -0.99817,
+    0.85202,
+    0.16307,
+    0.43258,
+    0.36434,
+    -0.17937,
+    0.44573,
+    -0.87555,
+    0.31066,
+    0.75006,
+    0.04192,
+    -0.1284
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.health",
+  "name": "Europe — Health and longevity",
+  "kind": "forecast_harness",
+  "blurb": "Region-level health and longevity for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country health models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "health-country-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "health-region-mean",
+      "kind": "scalar",
+      "description": "Mean health score across the region."
+    },
+    {
+      "name": "health-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.health",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

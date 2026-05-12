@@ -1,0 +1,63 @@
+{
+  "country_slug": "heard-island-and-mcdonald-islands",
+  "country_label": "Heard Island And Mcdonald Islands",
+  "country_score": 0.4897,
+  "tier_scores": {
+    "subsistence": 0.4917,
+    "development": 0.4132,
+    "agency": 0.525
+  },
+  "cluster_id": null,
+  "cluster_label": null,
+  "connect": {
+    "question": "How can I connect with my neighbors?",
+    "categories_consulted": [
+      "belonging",
+      "meaning",
+      "communications"
+    ],
+    "category_scores": {
+      "belonging": null,
+      "meaning": null,
+      "communications": null
+    },
+    "weakest_category": null,
+    "narrative": "Insufficient data."
+  },
+  "contribute": {
+    "question": "What economic value can I bring to my community?",
+    "categories_consulted": [
+      "work",
+      "education",
+      "energy",
+      "communications"
+    ],
+    "category_scores": {
+      "work": null,
+      "education": null,
+      "energy": null,
+      "communications": null
+    },
+    "above_world_mean": [],
+    "below_world_mean": [],
+    "narrative": "Personal-agent guidance: in an AI economic transition, the work/education/communications complement is the lever — pursue value at the intersection of your strengths and your community's gaps."
+  },
+  "advocate": {
+    "question": "How can I effectively advocate for change?",
+    "categories_consulted": [
+      "agency",
+      "governance",
+      "environment",
+      "safety"
+    ],
+    "category_scores": {
+      "agency": null,
+      "governance": 0.65,
+      "environment": 0.4,
+      "safety": null
+    },
+    "highest_leverage": "environment",
+    "narrative": "Highest-leverage advocacy dimension: **environment** (country 0.40 vs world 0.50). Approach: pair the strongest agency/governance score (gives you the institutional surface to operate within) with the highest-leverage gap (gives you the change to push for)."
+  },
+  "scored_with": "scripts/10b/agent_context.py v0.1.0"
+}

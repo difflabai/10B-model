@@ -1,0 +1,47 @@
+{
+  "country": "guatemala",
+  "category_scores": {
+    "agency": 0.7028,
+    "belonging": 0.7147,
+    "communications": 0.6583,
+    "education": 0.6682,
+    "energy": 0.6719,
+    "environment": 0.5357,
+    "food": 0.7124,
+    "governance": 0.7286,
+    "health": 0.5654,
+    "meaning": 0.63,
+    "mobility": 0.4362,
+    "safety": 0.6517,
+    "shelter": 0.6734,
+    "water": 0.65,
+    "work": 0.5959
+  },
+  "country_score": 0.6397,
+  "tier_scores": {
+    "subsistence": 0.6506,
+    "development": 0.6061,
+    "agency": 0.6624
+  },
+  "country_embedding": [
+    0.63968,
+    0.85043,
+    0.68373,
+    0.62461,
+    0.12457,
+    0.06061,
+    0.10432,
+    0.00752,
+    0.25753,
+    -0.22063,
+    -0.13702,
+    -0.10399,
+    0.03721,
+    0.09077,
+    -0.11052,
+    -0.17034
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Guatemala, the three needs areas with the largest gaps are: mobility (0.44), environment (0.54), health (0.57).\nThe three strongest areas are: governance (0.73), belonging (0.71), food (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

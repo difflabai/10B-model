@@ -1,0 +1,72 @@
+{
+  "country": "Panama",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4671,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6333
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5633
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.25
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5731
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.46711,
+    0.7,
+    0.6333,
+    0.4,
+    0.52151,
+    0.73242,
+    0.22527,
+    0.3514,
+    0.97034,
+    -0.8883,
+    -0.21904,
+    0.12517,
+    0.48785,
+    0.06041,
+    -0.44179,
+    0.71481
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.brazil",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Brazil"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.brazil.food",
+        "global.10B.countries.brazil.water",
+        "global.10B.countries.brazil.shelter",
+        "global.10B.countries.brazil.health",
+        "global.10B.countries.brazil.safety",
+        "global.10B.countries.brazil.education",
+        "global.10B.countries.brazil.work",
+        "global.10B.countries.brazil.energy",
+        "global.10B.countries.brazil.mobility",
+        "global.10B.countries.brazil.communications",
+        "global.10B.countries.brazil.governance",
+        "global.10B.countries.brazil.environment",
+        "global.10B.countries.brazil.belonging",
+        "global.10B.countries.brazil.meaning",
+        "global.10B.countries.brazil.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

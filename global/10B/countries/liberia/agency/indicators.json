@@ -1,0 +1,39 @@
+{
+  "country": "Liberia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "All Liberian Party or ALP Alliance for Peace and Democracy or APD Alternative National Congress or ANC Coalition for Democratic Change (includes CDC, NPP, and LPDP)Collaborating Political Parties or CPP (coalition includes ANC, LP; CPP dissolved in April 2024)Congress for Democratic Change or CDC Liberia Destiny Party or LDP Liberia National Union or LINU Liberia Transformation Party or LTP Liberian People Democratic Party or LPDP Liberian People's Party or LPP Liberian Restoration Party or LRP Liberty Party or LP Movement for Democracy and Reconstruction or MDR Movement for Economic Empowerment Movement for Progressive Change or MPC National Democratic Coalition or NDC National Democratic Party of Liberia or NDPL National Patriotic Party or NPP National Reformist Party or NRP National Union for Democratic Progress or NUDP People's Unification Party or PUP Unity Party or UP United People's Party Victory for Change Party or VCP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "30% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "8 private and 1 government-owned TV station; satellite TV service available; 1 state-owned radio station; approximately 20 independent radio stations broadcasting in Monrovia, with approximately 80 more local stations operating in other areas; transmissions of 4 international (including the British Broadcasting Corporation and Radio France Internationale) broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Switzerland",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.67,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.67,
+    0.83333,
+    0.65,
+    0.65,
+    -0.83005,
+    0.10115,
+    -0.23351,
+    0.28011,
+    -0.62731,
+    -0.67437,
+    -0.74771,
+    -0.75735,
+    -0.59936,
+    0.29757,
+    0.20259,
+    0.42394
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

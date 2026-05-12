@@ -1,0 +1,47 @@
+{
+  "country": "gaza-strip",
+  "category_scores": {
+    "agency": 0.765,
+    "belonging": 0.618,
+    "communications": 0.6195,
+    "education": 0.768,
+    "energy": 0.5905,
+    "environment": 0.4157,
+    "food": 0.6974,
+    "governance": null,
+    "health": 0.656,
+    "meaning": 0.65,
+    "mobility": null,
+    "safety": 0.625,
+    "shelter": 0.6299,
+    "water": 0.65,
+    "work": 0.4972
+  },
+  "country_score": 0.6294,
+  "tier_scores": {
+    "subsistence": 0.6517,
+    "development": 0.6188,
+    "agency": 0.6122
+  },
+  "country_embedding": [
+    0.54548,
+    0.59177,
+    0.60376,
+    0.46463,
+    -0.20108,
+    0.01267,
+    -0.21314,
+    0.19647,
+    -0.19164,
+    0.01346,
+    0.13208,
+    -0.0645,
+    0.01001,
+    0.09883,
+    0.0397,
+    -0.30347
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Gaza Strip, the three needs areas with the largest gaps are: environment (0.42), work (0.50), energy (0.59).\nThe three strongest areas are: education (0.77), agency (0.77), food (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

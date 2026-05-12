@@ -1,0 +1,39 @@
+{
+  "country": "Pakistan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Indus river mouth (shared with China [s] and India) - 3,610 km; Sutlej river mouth (shared with China [s] and India) - 1,372 km; Chenab river mouth (shared with India [s]) - 1,086 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: Indus (1,081,718 sq km)Internal (endorheic basin) drainage: Tarim Basin (1,152,448 sq km), (Aral Sea basin) Amu Darya (534,739 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly hot, dry desert; temperate in northwest; arctic in north",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

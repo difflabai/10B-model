@@ -1,0 +1,39 @@
+{
+  "country": "Burundi",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Council for Democracy and the Sustainable Development of Burundi or CODEBU Front for Democracy in Burundi-Sahwanya or FRODEBU-Sahwanya National Council for the Defense of Democracy - Front for the Defense of Democracy or CNDD-FDD National Congress for Liberty or CNL National Liberation Forces or FNL Union for National Progress (Union pour le Progress Nationale) or UPRONA",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "11% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-controlled Radio Television Nationale de Burundi (RTNB) operates a TV station and a national radio network; 3 private TV stations and about 10 privately owned radio stations; transmissions of several international broadcasters are available in Bujumbura (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

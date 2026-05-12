@@ -1,0 +1,72 @@
+{
+  "country": "Belize",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.4102,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.214
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2016
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4972
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4526
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5644
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5018
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.4102,
+    0.8,
+    0.214,
+    0.2016,
+    -0.67987,
+    0.63589,
+    0.9758,
+    -0.81537,
+    -0.52602,
+    0.83487,
+    -0.15886,
+    -0.56271,
+    -0.32512,
+    -0.7012,
+    -0.96072,
+    -0.53957
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

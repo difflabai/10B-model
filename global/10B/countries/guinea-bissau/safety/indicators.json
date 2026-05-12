@@ -1,0 +1,39 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "People's Revolutionary Armed Force (Forcas Armadas Revolucionarias do Povo or FARP): Army, Navy, Air ForceMinistry of Internal Administration: National Guard (a gendarmerie force), Public Order Police, Border Police, Rapid Intervention Police, Maritime Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.4% of GDP (2023 est.)1.6% of GDP (2022 est.)1.8% of GDP (2021 est.)1.7% of GDP (2020 est.)1.9% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "7,757 (Senegal) (2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

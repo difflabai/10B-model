@@ -1,0 +1,34 @@
+{
+  "country": "Aruba",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "97.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "14 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Papiamento (official) (a creole language that mixes Portuguese, Spanish, Dutch, English, French, African languages, and Arawak) 69.4%, Spanish 13.7%, English (widely spoken) 7.1%, Dutch (official) 6.1%, Chinese 1.5%, other 1.7%, unspecified 0.4% (2010 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

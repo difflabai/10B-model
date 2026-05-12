@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.peru",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Peru"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.peru.food",
+        "global.10B.countries.peru.water",
+        "global.10B.countries.peru.shelter",
+        "global.10B.countries.peru.health",
+        "global.10B.countries.peru.safety",
+        "global.10B.countries.peru.education",
+        "global.10B.countries.peru.work",
+        "global.10B.countries.peru.energy",
+        "global.10B.countries.peru.mobility",
+        "global.10B.countries.peru.communications",
+        "global.10B.countries.peru.governance",
+        "global.10B.countries.peru.environment",
+        "global.10B.countries.peru.belonging",
+        "global.10B.countries.peru.meaning",
+        "global.10B.countries.peru.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

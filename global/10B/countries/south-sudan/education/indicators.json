@@ -1,0 +1,34 @@
+{
+  "country": "South Sudan",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "34.5%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.5% of GDP (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official), Arabic (includes Juba and Sudanese variants), ethnic languages include Dinka, Nuer, Bari, Zande, Shilluk",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "The World Factbook, the indispensable source for basic information. (English)كتاب حقائق العالم، المصدر الذي لا يمكن الاستغناء عنه للمعلومات الأساسية (Arabic)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

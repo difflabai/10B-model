@@ -1,0 +1,52 @@
+{
+  "country": "Belgium",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6637,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.8346
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.52
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.66366,
+    0.8,
+    0.75,
+    0.8346,
+    0.06358,
+    -0.27529,
+    0.54971,
+    -0.56942,
+    0.60394,
+    0.0742,
+    -0.81982,
+    -0.62264,
+    -0.66226,
+    -0.69546,
+    -0.4446,
+    -0.49496
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

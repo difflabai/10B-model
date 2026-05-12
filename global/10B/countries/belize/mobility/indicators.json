@@ -1,0 +1,59 @@
+{
+  "country": "Belize",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "3,281 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "601 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "2,680 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "27 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "825 km (2011) (navigable only by small craft)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,297,533 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "3.78 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

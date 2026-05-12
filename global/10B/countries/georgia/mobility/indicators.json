@@ -1,0 +1,59 @@
+{
+  "country": "Georgia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "40,044 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "19 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "4 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,596 km gas, 1,175 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,363 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "516,034 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "750,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.7
+}

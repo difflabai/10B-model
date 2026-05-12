@@ -1,0 +1,56 @@
+{
+  "country": "Burma",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7057,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.4843
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.354
+    }
+  ],
+  "embedding": [
+    0.70566,
+    0.83333,
+    0.85,
+    0.92,
+    -0.59844,
+    0.02275,
+    -0.01155,
+    0.99808,
+    0.03578,
+    -0.0793,
+    0.30773,
+    0.81933,
+    0.00423,
+    -0.96893,
+    -0.94159,
+    -0.49834
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

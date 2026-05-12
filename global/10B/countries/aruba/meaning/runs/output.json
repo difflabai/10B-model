@@ -1,0 +1,56 @@
+{
+  "country": "Aruba",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.66667,
+    0.65,
+    0.65,
+    -0.82321,
+    0.24062,
+    0.299,
+    0.41491,
+    0.22444,
+    -0.69735,
+    0.58398,
+    -0.43041,
+    0.71417,
+    -0.61581,
+    0.75018,
+    -0.09197
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

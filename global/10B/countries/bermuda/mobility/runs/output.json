@@ -1,0 +1,72 @@
+{
+  "country": "Bermuda",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3,
+  "indicators_scored": 3,
+  "indicators_total": 10,
+  "composite_score": 0.2,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.2,
+    0.3,
+    0.2,
+    0.2,
+    -0.27721,
+    0.07277,
+    -0.67947,
+    0.20342,
+    0.70678,
+    -0.90161,
+    0.27156,
+    -0.18071,
+    -0.39242,
+    -0.34679,
+    -0.72964,
+    0.12844
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

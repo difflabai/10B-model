@@ -1,0 +1,84 @@
+{
+  "country": "Russia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 13,
+  "indicators_total": 13,
+  "composite_score": 0.6174,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9547
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.4475
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.308
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.412
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.6575
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.748
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.509
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.61744,
+    1.0,
+    0.97,
+    0.9547,
+    -0.78634,
+    -0.06517,
+    0.63708,
+    0.54717,
+    -0.79361,
+    0.53494,
+    -0.19368,
+    -0.31951,
+    0.66549,
+    -0.33288,
+    0.67559,
+    -0.78921
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

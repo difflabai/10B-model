@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.environment",
+  "name": "Africa — Environmental sustainability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level environmental sustainability for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country environment models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "environment-country-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "environment-region-mean",
+      "kind": "scalar",
+      "description": "Mean environment score across the region."
+    },
+    {
+      "name": "environment-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Environmental sustainability"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.environment",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

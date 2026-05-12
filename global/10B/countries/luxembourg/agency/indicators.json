@@ -1,0 +1,39 @@
+{
+  "country": "Luxembourg",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alternative Democratic Reform Party or ADR Christian Social People's Party or CSV Democratic Party or DP Green Party Luxembourg Socialist Workers' Party or LSAP Pirate Party The Left (dei Lenk/la Gauche)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "99% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Luxembourg has a long tradition of operating radio and TV services for pan-European audiences and is home to Europe's largest privately owned broadcast media group, the RTL Group, which operates 46 TV stations and 29 radio stations in Europe; also home to Europe's largest satellite operator, Societe Europeenne des Satellites (SES); domestically, the RTL Group operates TV and radio networks; other domestic private radio and TV operators and French and German stations available; satellite and cable TV services available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

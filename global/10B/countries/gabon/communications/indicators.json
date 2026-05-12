@@ -1,0 +1,64 @@
+{
+  "country": "Gabon",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "125 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "3 million (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "2 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "43,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "74% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "3 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "80,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "the telecom market was liberalized in 1999 when the government awarded three mobile telephony licenses and two ISP licenses and established an independent regulatory authority; in contrast with the mobile market, Gabon’s fixed-line and internet sectors have remained underdeveloped due to a lack of competition and high prices; the country has sufficient international bandwidth on the SAT-3/WASC/SAFE submarine cable; the arrival of the ACE submarine cable, combined with progressing work on the CAB cable, has increased back haul capacity supporting mobile data traffic (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line 1 per 100 subscriptions; mobile cellular subscriptions are 134 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 241; landing points for the SAT-3/WASC, ACE and Libreville-Port Gentil Cable fiber-optic submarine cable that provides connectivity to Europe and West Africa; satellite earth stations - 3 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state owns and operates 2 TV stations and 2 radio broadcast stations; a few private radio and TV stations; transmissions of at least 2 international broadcasters are accessible; satellite service subscriptions are available",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

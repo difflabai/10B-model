@@ -1,0 +1,52 @@
+{
+  "country": "Egypt",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.563,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.272
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.68
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.563,
+    0.8,
+    0.75,
+    0.272,
+    0.06914,
+    -0.07045,
+    -0.57314,
+    -0.91321,
+    -0.90677,
+    -0.35805,
+    -0.23018,
+    -0.58148,
+    0.82968,
+    -0.44063,
+    0.86133,
+    0.11382
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

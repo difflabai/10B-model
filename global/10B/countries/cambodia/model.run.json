@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cambodia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cambodia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cambodia.food",
+        "global.10B.countries.cambodia.water",
+        "global.10B.countries.cambodia.shelter",
+        "global.10B.countries.cambodia.health",
+        "global.10B.countries.cambodia.safety",
+        "global.10B.countries.cambodia.education",
+        "global.10B.countries.cambodia.work",
+        "global.10B.countries.cambodia.energy",
+        "global.10B.countries.cambodia.mobility",
+        "global.10B.countries.cambodia.communications",
+        "global.10B.countries.cambodia.governance",
+        "global.10B.countries.cambodia.environment",
+        "global.10B.countries.cambodia.belonging",
+        "global.10B.countries.cambodia.meaning",
+        "global.10B.countries.cambodia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Ashmore and Cartier Islands",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": null
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.78198,
+    -0.24593,
+    -0.03893,
+    -0.42293,
+    -0.95923,
+    0.8526,
+    0.96243,
+    0.21309,
+    -0.19512,
+    -0.38692,
+    -0.93594,
+    0.6867
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

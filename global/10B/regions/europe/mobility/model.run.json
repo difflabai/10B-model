@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.mobility",
+        "global.10B.countries.andorra.mobility",
+        "global.10B.countries.armenia.mobility",
+        "global.10B.countries.austria.mobility",
+        "global.10B.countries.azerbaijan.mobility",
+        "global.10B.countries.belarus.mobility",
+        "global.10B.countries.belgium.mobility",
+        "global.10B.countries.bosnia-and-herzegovina.mobility",
+        "global.10B.countries.bulgaria.mobility",
+        "global.10B.countries.croatia.mobility",
+        "global.10B.countries.cyprus.mobility",
+        "global.10B.countries.czechia.mobility",
+        "global.10B.countries.denmark.mobility",
+        "global.10B.countries.estonia.mobility",
+        "global.10B.countries.faroe-islands.mobility",
+        "global.10B.countries.finland.mobility",
+        "global.10B.countries.georgia.mobility",
+        "global.10B.countries.germany.mobility",
+        "global.10B.countries.gibraltar.mobility",
+        "global.10B.countries.greece.mobility",
+        "global.10B.countries.guernsey.mobility",
+        "global.10B.countries.holy-see-vatican-city.mobility",
+        "global.10B.countries.hungary.mobility",
+        "global.10B.countries.iceland.mobility",
+        "global.10B.countries.ireland.mobility",
+        "global.10B.countries.isle-of-man.mobility",
+        "global.10B.countries.italy.mobility",
+        "global.10B.countries.jan-mayen.mobility",
+        "global.10B.countries.jersey.mobility",
+        "global.10B.countries.kazakhstan.mobility",
+        "global.10B.countries.kosovo.mobility",
+        "global.10B.countries.latvia.mobility",
+        "global.10B.countries.liechtenstein.mobility",
+        "global.10B.countries.lithuania.mobility",
+        "global.10B.countries.luxembourg.mobility",
+        "global.10B.countries.malta.mobility",
+        "global.10B.countries.moldova.mobility",
+        "global.10B.countries.monaco.mobility",
+        "global.10B.countries.montenegro.mobility",
+        "global.10B.countries.netherlands.mobility",
+        "global.10B.countries.north-macedonia.mobility",
+        "global.10B.countries.norway.mobility",
+        "global.10B.countries.poland.mobility",
+        "global.10B.countries.portugal.mobility",
+        "global.10B.countries.romania.mobility",
+        "global.10B.countries.san-marino.mobility",
+        "global.10B.countries.serbia.mobility",
+        "global.10B.countries.slovakia.mobility",
+        "global.10B.countries.slovenia.mobility",
+        "global.10B.countries.spain.mobility",
+        "global.10B.countries.sweden.mobility",
+        "global.10B.countries.switzerland.mobility",
+        "global.10B.countries.turkey-turkiye.mobility",
+        "global.10B.countries.ukraine.mobility",
+        "global.10B.countries.united-kingdom.mobility"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

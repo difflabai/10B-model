@@ -1,0 +1,64 @@
+{
+  "country": "Vanuatu",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "78 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "256,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "1 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "3,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "70% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "1 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "4,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "for many years, 2G Global System for Mobile Communications was the primary mobile technology for Vanuatu’s 300,000 people; recent infrastructure projects have improved access technologies, with a transition to 3G and 4G; Vanuatu has also benefited from the ICN1 submarine cable and the launch of the Kacific-1 satellite, both of which have considerably improved access to telecom services in recent years; Vanuatu’s telecom sector is liberalized, with the two prominent mobile operators; while fixed broadband penetration remains low, the incumbent operator is slowly exchanging copper fixed-lines for fiber; a number of ongoing submarine cable developments will also assist in increasing data rates and reduce internet pricing in coming years (2023)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is 1 per 100 and mobile-cellular 78 per 100 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 678; landing points for the ICN1 & ICN2 submarine cables providing connectivity to the Solomon Islands and Fiji; cables helped end-users with Internet bandwidth; satellite earth station - 1 Intelsat (Pacific Ocean) (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-owned TV station; multi-channel pay TV is available; state-owned Radio Vanuatu operates 2 radio stations; 2 privately owned radio broadcasters (Capital FM 107 and Laef FM); programming from multiple international broadcasters is available (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

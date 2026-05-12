@@ -1,0 +1,39 @@
+{
+  "country": "North Macedonia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Army of the Republic of North Macedonia (ARSM or ARNM): joint force with air, ground, reserve, special operations, and support forces (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.2% of GDP (2024 est.)1.7% of GDP (2023)1.6% of GDP (2022)1.5% of GDP (2021)1.2% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "18,915 (Ukraine) (as of 22 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

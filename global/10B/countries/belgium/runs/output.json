@@ -1,0 +1,47 @@
+{
+  "country": "belgium",
+  "category_scores": {
+    "agency": 0.8805,
+    "belonging": 0.7,
+    "communications": 0.7573,
+    "education": 0.8055,
+    "energy": 0.6343,
+    "environment": 0.5454,
+    "food": 0.6637,
+    "governance": 0.7429,
+    "health": 0.8287,
+    "meaning": 0.65,
+    "mobility": 0.6418,
+    "safety": 0.6078,
+    "shelter": 0.6625,
+    "water": 0.65,
+    "work": 0.756
+  },
+  "country_score": 0.7018,
+  "tier_scores": {
+    "subsistence": 0.6825,
+    "development": 0.719,
+    "agency": 0.7038
+  },
+  "country_embedding": [
+    0.70174,
+    0.83641,
+    0.74028,
+    0.72541,
+    -0.08134,
+    0.32908,
+    0.07237,
+    -0.1169,
+    0.2922,
+    0.11699,
+    -0.12189,
+    -0.05148,
+    0.0866,
+    -0.17444,
+    -0.07546,
+    0.07449
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Belgium, the three needs areas with the largest gaps are: environment (0.55), safety (0.61), energy (0.63).\nThe three strongest areas are: agency (0.88), health (0.83), education (0.81).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Micronesia, Federated States of",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.38461538461538464,
+  "indicators_scored": 5,
+  "indicators_total": 13,
+  "composite_score": 0.6744,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.7452
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9462
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.7308
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.67442,
+    0.38462,
+    0.7452,
+    0.9462,
+    -0.26088,
+    0.333,
+    0.20189,
+    0.76928,
+    -0.57876,
+    -0.49816,
+    -0.23754,
+    -0.20851,
+    0.29812,
+    -0.45592,
+    0.40652,
+    -0.81299
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

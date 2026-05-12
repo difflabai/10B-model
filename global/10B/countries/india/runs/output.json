@@ -1,0 +1,47 @@
+{
+  "country": "india",
+  "category_scores": {
+    "agency": 0.7401,
+    "belonging": 0.7454,
+    "communications": 0.6079,
+    "education": 0.7186,
+    "energy": 0.6183,
+    "environment": 0.4757,
+    "food": 0.6745,
+    "governance": 0.7571,
+    "health": 0.4618,
+    "meaning": 0.67,
+    "mobility": 0.8423,
+    "safety": 0.6322,
+    "shelter": 0.7065,
+    "water": 0.7,
+    "work": 0.728
+  },
+  "country_score": 0.6719,
+  "tier_scores": {
+    "subsistence": 0.635,
+    "development": 0.703,
+    "agency": 0.6777
+  },
+  "country_embedding": [
+    0.6719,
+    0.87714,
+    0.70286,
+    0.72995,
+    0.08864,
+    -0.22477,
+    -0.00791,
+    -0.00278,
+    0.35416,
+    0.22817,
+    0.22468,
+    -0.0101,
+    -0.07434,
+    0.09029,
+    -0.10737,
+    0.27544
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in India, the three needs areas with the largest gaps are: health (0.46), environment (0.48), communications (0.61).\nThe three strongest areas are: mobility (0.84), governance (0.76), belonging (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Armenia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "7,700 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "11 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "3,838 km gas (high and medium pressure) (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "686 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

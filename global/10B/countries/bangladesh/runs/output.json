@@ -1,0 +1,47 @@
+{
+  "country": "bangladesh",
+  "category_scores": {
+    "agency": 0.6594,
+    "belonging": 0.683,
+    "communications": 0.6826,
+    "education": 0.6156,
+    "energy": 0.5877,
+    "environment": 0.4387,
+    "food": 0.5949,
+    "governance": 0.7714,
+    "health": 0.5036,
+    "meaning": 0.65,
+    "mobility": 0.5586,
+    "safety": 0.5944,
+    "shelter": 0.7006,
+    "water": 0.7167,
+    "work": 0.6719
+  },
+  "country_score": 0.6286,
+  "tier_scores": {
+    "subsistence": 0.622,
+    "development": 0.6233,
+    "agency": 0.6405
+  },
+  "country_embedding": [
+    0.6286,
+    0.86398,
+    0.67641,
+    0.69995,
+    -0.08044,
+    -0.02867,
+    0.07018,
+    0.05407,
+    0.21622,
+    0.04376,
+    0.12418,
+    0.07944,
+    0.06421,
+    -0.10044,
+    0.33159,
+    0.37769
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bangladesh, the three needs areas with the largest gaps are: environment (0.44), health (0.50), mobility (0.56).\nThe three strongest areas are: governance (0.77), water (0.72), shelter (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

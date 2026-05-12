@@ -1,0 +1,60 @@
+{
+  "country": "Faroe Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7937,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.923
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.699
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.85
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.94
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.8
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79366,
+    0.85714,
+    0.923,
+    0.699,
+    -0.89023,
+    0.83612,
+    0.66082,
+    -0.8659,
+    0.73532,
+    -0.23781,
+    0.74554,
+    -0.94522,
+    -0.01268,
+    0.40206,
+    -0.71276,
+    0.97327
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

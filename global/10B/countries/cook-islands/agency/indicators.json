@@ -1,0 +1,39 @@
+{
+  "country": "Cook Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Cook Islands Party or CIPCook Islands United Party Democratic Party or DemoOne Cook Islands Movement or OCI",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "64.8% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 privately owned TV station broadcasts from Rarotonga providing a mix of local news and overseas-sourced programs (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

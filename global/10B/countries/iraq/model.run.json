@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.iraq",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Iraq"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.iraq.food",
+        "global.10B.countries.iraq.water",
+        "global.10B.countries.iraq.shelter",
+        "global.10B.countries.iraq.health",
+        "global.10B.countries.iraq.safety",
+        "global.10B.countries.iraq.education",
+        "global.10B.countries.iraq.work",
+        "global.10B.countries.iraq.energy",
+        "global.10B.countries.iraq.mobility",
+        "global.10B.countries.iraq.communications",
+        "global.10B.countries.iraq.governance",
+        "global.10B.countries.iraq.environment",
+        "global.10B.countries.iraq.belonging",
+        "global.10B.countries.iraq.meaning",
+        "global.10B.countries.iraq.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

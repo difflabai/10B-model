@@ -1,0 +1,56 @@
+{
+  "country": "Bhutan",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.16667,
+    0.75,
+    0.0,
+    -0.9212,
+    -0.26876,
+    -0.96991,
+    0.54586,
+    -0.01738,
+    -0.01787,
+    0.24981,
+    0.00954,
+    0.83316,
+    -0.50304,
+    0.51397,
+    0.23445
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

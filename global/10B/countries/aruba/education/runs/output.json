@@ -1,0 +1,52 @@
+{
+  "country": "Aruba",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8234,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9436
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8234,
+    0.8,
+    0.9436,
+    0.8,
+    -0.20656,
+    0.95886,
+    0.42208,
+    -0.6376,
+    0.2976,
+    0.98712,
+    0.69241,
+    0.52294,
+    0.80795,
+    0.25991,
+    -0.92309,
+    0.94858
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Liberia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "53.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.678 million MONROVIA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "more than half of the population lives in urban areas, with approximately one-third living within an 80-km radius of Monrovia as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

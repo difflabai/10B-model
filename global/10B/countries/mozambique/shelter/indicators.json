@@ -1,0 +1,34 @@
+{
+  "country": "Mozambique",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "38.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.852 million Matola, 1.163 million MAPUTO (capital), 969,000 Nampula (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "three large populations clusters are found along the southern coast between Maputo and Inhambane, in the central area between Beira and Chimoio along the Zambezi River, and in and around the northern cities of Nampula, Cidade de Nacala, and Pemba; the northwest and southwest are the least populated areas as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical to subtropical",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical to subtropical",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

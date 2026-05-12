@@ -1,0 +1,39 @@
+{
+  "country": "Russia",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Yenisey-Angara - 5,539 km; Ob-Irtysh - 5,410 km;  Amur river mouth (shared with China [s] and Mongolia) - 4,444 km; Lena - 4,400 km; Volga - 3,645 km; Kolyma - 2,513 km; Ural river source (shared with Kazakhstan [m]) - 2,428 km; Dnepr (Dnieper) river source (shared with Belarus and Ukraine [m]) - 2,287 km; Don - 1,870 km; Pechora - 1,809 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Caspian Sea (shared with Iran, Azerbaijan, Turkmenistan, and Kazakhstan) - 374,000 sq km; Ozero Malyye Chany - 2,500 sq km; Curonian Lagoon (shared with Lithuania) - 1,620 sq kmnote - the Caspian Sea is the World's largest lake",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Arctic Ocean drainage: Kolyma (679,934 sq km), Lena (2,306,743 sq km), Ob (2,972,493 sq km), Pechora (289,532 sq km), Yenisei (2,554,388 sq km)Atlantic Ocean drainage: (Black Sea) Don (458,694 sq km), Dnieper (533,966 sq km)Pacific Ocean drainage: Amur (1,929,955 sq km)Internal (endorheic basin) drainage: (Caspian Sea basin) Volga (1,410,951 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "ranges from steppes in the south through humid continental in much of European Russia; subarctic in Siberia to tundra climate in the polar north; winters vary from cool along Black Sea coast to frigid in Siberia; summers vary from warm in the steppes to cool along Arctic coast",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

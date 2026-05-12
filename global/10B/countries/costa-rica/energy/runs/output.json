@@ -1,0 +1,84 @@
+{
+  "country": "Costa Rica",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6923076923076923,
+  "indicators_scored": 9,
+  "indicators_total": 13,
+  "composite_score": 0.6113,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.324
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.7
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.9125
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.545
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.61128,
+    0.69231,
+    0.97,
+    0.55,
+    -0.95117,
+    0.33083,
+    0.5736,
+    0.53082,
+    -0.99173,
+    -0.66705,
+    0.36214,
+    -0.59841,
+    0.44683,
+    0.74713,
+    -0.98395,
+    -0.70416
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

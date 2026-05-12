@@ -1,0 +1,60 @@
+{
+  "country": "Midway Islands",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.91095,
+    0.41109,
+    -0.52386,
+    0.6878,
+    -0.50823,
+    -0.88391,
+    -0.0316,
+    0.70651,
+    -0.99374,
+    -0.60287,
+    0.34905,
+    -0.46737
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "malaysia",
+  "category_scores": {
+    "agency": 0.8125,
+    "belonging": 0.7014,
+    "communications": 0.7307,
+    "education": 0.747,
+    "energy": 0.533,
+    "environment": 0.5617,
+    "food": 0.6655,
+    "governance": 0.7429,
+    "health": 0.6779,
+    "meaning": 0.69,
+    "mobility": 0.6746,
+    "safety": 0.59,
+    "shelter": 0.6538,
+    "water": 0.65,
+    "work": 0.779
+  },
+  "country_score": 0.6807,
+  "tier_scores": {
+    "subsistence": 0.6474,
+    "development": 0.6929,
+    "agency": 0.7017
+  },
+  "country_embedding": [
+    0.68067,
+    0.83504,
+    0.74991,
+    0.64487,
+    0.45536,
+    0.12515,
+    0.07664,
+    -0.10496,
+    -0.23352,
+    0.12597,
+    0.08651,
+    -0.16161,
+    0.05232,
+    -0.25467,
+    0.05504,
+    -0.0843
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Malaysia, the three needs areas with the largest gaps are: energy (0.53), environment (0.56), safety (0.59).\nThe three strongest areas are: agency (0.81), work (0.78), education (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

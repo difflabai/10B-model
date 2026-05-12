@@ -1,0 +1,34 @@
+{
+  "country": "Guam",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "95.2% of total population (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "147,000 HAGATNA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "no large cities exist on the island, though large villages (municipalities) attract much of the population; the largest of these is Dededo",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (July to December); little seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (July to December); little seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

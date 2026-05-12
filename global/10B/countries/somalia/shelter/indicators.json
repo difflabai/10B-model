@@ -1,0 +1,34 @@
+{
+  "country": "Somalia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "47.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.610 million MOGADISHU (capital), 1.127 million Hargeysa (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "distribution varies greatly throughout the country; least densely populated areas are in the northeast and central regions, as well as areas along the Kenyan border; most populated areas are in and around the cities of Mogadishu, Marka, Boorama, Hargeysa, and Baidoa as shown on this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "principally desert; northeast monsoon (December to February), moderate temperatures in north and hot in south; southwest monsoon (May to October), torrid in the north and hot in the south, irregular rainfall, hot and humid periods (tangambili) between monsoons",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "principally desert; northeast monsoon (December to February), moderate temperatures in north and hot in south; southwest monsoon (May to October), torrid in the north and hot in the south, irregular rainfall, hot and humid periods (tangambili) between monsoons",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

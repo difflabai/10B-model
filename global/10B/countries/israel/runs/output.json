@@ -1,0 +1,47 @@
+{
+  "country": "israel",
+  "category_scores": {
+    "agency": 0.8732,
+    "belonging": 0.7066,
+    "communications": 0.7477,
+    "education": 0.8029,
+    "energy": 0.5307,
+    "environment": 0.4725,
+    "food": 0.6258,
+    "governance": 0.7429,
+    "health": 0.7993,
+    "meaning": 0.65,
+    "mobility": 0.4626,
+    "safety": 0.5417,
+    "shelter": 0.6646,
+    "water": 0.7,
+    "work": 0.7227
+  },
+  "country_score": 0.6695,
+  "tier_scores": {
+    "subsistence": 0.6663,
+    "development": 0.6533,
+    "agency": 0.689
+  },
+  "country_embedding": [
+    0.66954,
+    0.83436,
+    0.75691,
+    0.66741,
+    -0.01783,
+    -0.02406,
+    0.07536,
+    0.05259,
+    -0.03643,
+    -0.02332,
+    -0.18502,
+    0.06362,
+    -0.04927,
+    -0.21034,
+    -0.08991,
+    0.21594
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Israel, the three needs areas with the largest gaps are: mobility (0.46), environment (0.47), energy (0.53).\nThe three strongest areas are: agency (0.87), education (0.80), health (0.80).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

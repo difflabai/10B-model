@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.montenegro",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Montenegro"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.montenegro.food",
+        "global.10B.countries.montenegro.water",
+        "global.10B.countries.montenegro.shelter",
+        "global.10B.countries.montenegro.health",
+        "global.10B.countries.montenegro.safety",
+        "global.10B.countries.montenegro.education",
+        "global.10B.countries.montenegro.work",
+        "global.10B.countries.montenegro.energy",
+        "global.10B.countries.montenegro.mobility",
+        "global.10B.countries.montenegro.communications",
+        "global.10B.countries.montenegro.governance",
+        "global.10B.countries.montenegro.environment",
+        "global.10B.countries.montenegro.belonging",
+        "global.10B.countries.montenegro.meaning",
+        "global.10B.countries.montenegro.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

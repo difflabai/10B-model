@@ -1,0 +1,59 @@
+{
+  "country": "Rwanda",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "7,797 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "2,652 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "5,145 km (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "8 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "90 km (2022) (Lake Kivu navigable by shallow-draft barges and native craft)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,073,528 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

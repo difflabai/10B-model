@@ -1,0 +1,52 @@
+{
+  "country": "Liberia",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5289,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": 0.25
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.6834
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.4113
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.52895,
+    1.0,
+    0.25,
+    0.75,
+    -0.73504,
+    -0.62057,
+    0.38262,
+    -0.59774,
+    -0.49456,
+    0.62942,
+    -0.93829,
+    0.93503,
+    -0.62698,
+    -0.68072,
+    -0.63565,
+    -0.63146
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Armenia",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$19,200 (2023 est.)$17,900 (2022 est.)$15,900 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "8.3% (2023 est.)12.6% (2022 est.)5.8% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "1.98% (2023 est.)8.64% (2022 est.)7.18% (2021 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "1.475 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "8.59% (2023 est.)8.61% (2022 est.)10.01% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "24.8% (2022 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "27.9 (2022 est.)note: index (0-100) of income distribution; higher values represent greater inequality",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

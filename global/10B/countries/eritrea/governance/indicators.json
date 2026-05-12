@@ -1,0 +1,44 @@
+{
+  "country": "Eritrea",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of civil, customary, and Islamic religious law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "ratified by the Constituent Assembly 23 May 1997 (never implemented)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President ISAIAS Afwerki (since 24 May 1993)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU, COMESA, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), IDA, IFAD, IFC, IFRCS (observer), IGAD, ILO, IMF, IMO, Interpol, IOC, ISO (correspondent), ITU, ITUC (NGOs), LAS (observer), MIGA, NAM, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

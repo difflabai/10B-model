@@ -1,0 +1,44 @@
+{
+  "country": "Syria",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "Arab ~50%, Alawite ~15%, Kurd ~10%, Levantine ~10%, other ~15% (includes Druze, Ismaili, Imami, Nusairi, Assyrian, Turkoman, Armenian)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Muslim 87% (official; includes Sunni 74% and Alawi, Ismaili, and Shia 13%), Christian 10% (includes Orthodox, Uniate, and Nestorian), Druze 3%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Arabic (official), Kurdish, Armenian, Aramaic, Circassian, French, English",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.585 million DAMASCUS (capital), 2.203 million Aleppo, 1.443 million Hims (Homs), 996,000 Hamah (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "significant population density along the Mediterranean coast; larger concentrations found in the major cities of Damascus, Aleppo (the country's largest city), and Hims (Homs); more than half of the population lives in the coastal plain, the province of Halab, and the Euphrates River valley",
+      "present": true
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": "-1.1 migrant(s)/1,000 population (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": "2.69 children born/woman (2024 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

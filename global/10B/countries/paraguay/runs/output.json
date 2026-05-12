@@ -1,0 +1,47 @@
+{
+  "country": "paraguay",
+  "category_scores": {
+    "agency": 0.7304,
+    "belonging": 0.691,
+    "communications": 0.6526,
+    "education": 0.7315,
+    "energy": 0.6399,
+    "environment": 0.5579,
+    "food": 0.6955,
+    "governance": 0.7429,
+    "health": 0.6548,
+    "meaning": 0.65,
+    "mobility": 0.4763,
+    "safety": 0.6189,
+    "shelter": 0.6567,
+    "water": 0.6833,
+    "work": 0.6625
+  },
+  "country_score": 0.6563,
+  "tier_scores": {
+    "subsistence": 0.6618,
+    "development": 0.6326,
+    "agency": 0.6744
+  },
+  "country_embedding": [
+    0.65628,
+    0.83812,
+    0.74035,
+    0.6514,
+    0.05163,
+    -0.09212,
+    0.00301,
+    -0.18442,
+    0.06811,
+    -0.01834,
+    -0.0318,
+    0.01243,
+    0.00635,
+    0.06237,
+    0.19008,
+    -0.03688
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Paraguay, the three needs areas with the largest gaps are: mobility (0.48), environment (0.56), safety (0.62).\nThe three strongest areas are: governance (0.74), education (0.73), agency (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

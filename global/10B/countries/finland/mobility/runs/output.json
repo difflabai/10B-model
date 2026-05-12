@@ -1,0 +1,72 @@
+{
+  "country": "Finland",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5824,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5391
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6944
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5842
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.76
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5561
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5757
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.58245,
+    0.8,
+    0.5391,
+    0.6944,
+    -0.84024,
+    0.8309,
+    0.90454,
+    -0.75616,
+    -0.53771,
+    -0.22475,
+    0.81222,
+    0.8515,
+    0.37124,
+    0.74093,
+    0.93426,
+    0.06133
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

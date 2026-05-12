@@ -1,0 +1,44 @@
+{
+  "country": "Kiribati",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "English common law supplemented by customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "The Gilbert and Ellice Islands Order in Council 1915, The Gilbert Islands Order in Council 1975 (preindependence); latest promulgated 12 July 1979 (at independence)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Taneti MAAMAU (since 11 March 2016)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ABEDA, ACP, ADB, AOSIS, C, FAO, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IOC, ITU, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNDP, UNESCO, UPU, WHO, WIPO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

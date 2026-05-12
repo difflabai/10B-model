@@ -1,0 +1,52 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.4,
+    0.65,
+    0.75,
+    -0.25316,
+    -0.47405,
+    -0.35076,
+    -0.85641,
+    0.06105,
+    0.03734,
+    -0.25441,
+    -0.08913,
+    -0.70001,
+    -0.55898,
+    -0.50365,
+    -0.60882
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

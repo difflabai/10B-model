@@ -1,0 +1,59 @@
+{
+  "country": "Afghanistan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "34,903 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "17,903 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "17,000 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "67 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "8 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "466 km gas (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,200 km (2011) (chiefly Amu Darya, which handles vessels up to 500 DWT)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,722,612 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "29.56 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

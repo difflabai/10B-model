@@ -1,0 +1,39 @@
+{
+  "country": "Isle of Man",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Green Party Liberal Vannin Party or LVP Manx Labor PartyMec Vannin (sometimes referred to as the Manx Nationalist Party)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national public radio broadcasts over 3 FM stations and 1 AM station; 2 commercial broadcasters operating with 1 having multiple FM stations; receives radio and TV services via relays from British TV and radio broadcasters",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

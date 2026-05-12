@@ -1,0 +1,52 @@
+{
+  "country": "Vietnam",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7611,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9196
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76115,
+    0.8,
+    0.9196,
+    0.625,
+    -0.13619,
+    -0.08788,
+    0.86361,
+    0.60345,
+    -0.14907,
+    -0.19478,
+    0.1339,
+    0.09297,
+    0.77762,
+    -0.57342,
+    -0.36349,
+    0.29711
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Belarus",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Belaya Rus or BRRepublican Party of Labour and Justice or RPTSCommunist Party of Belarus or CBPLiberal Democratic Party of Belarus or LDPB",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "92% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "7 state-controlled national TV channels; Polish and Russian TV broadcasts are available in some areas; state-run Belarusian Radio operates 5 national networks and an external service; Russian and Polish radio broadcasts are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

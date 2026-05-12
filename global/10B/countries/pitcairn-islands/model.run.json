@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.pitcairn-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Pitcairn Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.pitcairn-islands.food",
+        "global.10B.countries.pitcairn-islands.water",
+        "global.10B.countries.pitcairn-islands.shelter",
+        "global.10B.countries.pitcairn-islands.health",
+        "global.10B.countries.pitcairn-islands.safety",
+        "global.10B.countries.pitcairn-islands.education",
+        "global.10B.countries.pitcairn-islands.work",
+        "global.10B.countries.pitcairn-islands.energy",
+        "global.10B.countries.pitcairn-islands.mobility",
+        "global.10B.countries.pitcairn-islands.communications",
+        "global.10B.countries.pitcairn-islands.governance",
+        "global.10B.countries.pitcairn-islands.environment",
+        "global.10B.countries.pitcairn-islands.belonging",
+        "global.10B.countries.pitcairn-islands.meaning",
+        "global.10B.countries.pitcairn-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

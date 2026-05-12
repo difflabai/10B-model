@@ -1,0 +1,52 @@
+{
+  "country": "Nepal",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6986,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6307
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.69863,
+    1.0,
+    0.6307,
+    0.6375,
+    0.66165,
+    -0.99551,
+    -0.15993,
+    0.39837,
+    -0.74786,
+    0.4789,
+    0.55517,
+    -0.14827,
+    -0.34725,
+    -0.12615,
+    -0.87488,
+    0.51055
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

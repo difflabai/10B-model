@@ -1,0 +1,60 @@
+{
+  "country": "Akrotiri",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": null
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.27645,
+    0.89111,
+    0.61846,
+    -0.97705,
+    0.07857,
+    -0.39532,
+    -0.67776,
+    -0.75845,
+    0.4396,
+    0.02705,
+    0.51812,
+    -0.764
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

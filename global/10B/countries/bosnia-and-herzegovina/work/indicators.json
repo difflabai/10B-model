@@ -1,0 +1,44 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$20,100 (2023 est.)$19,600 (2022 est.)$18,500 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "2.21% (2023 est.)4.23% (2022 est.)7.39% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "6.11% (2023 est.)14.02% (2022 est.)1.98% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "1.382 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "10.42% (2023 est.)12.66% (2022 est.)14.9% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "16.9% (2015 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.meaning",
+        "global.10B.countries.angola.meaning",
+        "global.10B.countries.benin.meaning",
+        "global.10B.countries.botswana.meaning",
+        "global.10B.countries.bouvet-island.meaning",
+        "global.10B.countries.british-indian-ocean-territory.meaning",
+        "global.10B.countries.burkina-faso.meaning",
+        "global.10B.countries.burundi.meaning",
+        "global.10B.countries.cabo-verde.meaning",
+        "global.10B.countries.cameroon.meaning",
+        "global.10B.countries.central-african-republic.meaning",
+        "global.10B.countries.chad.meaning",
+        "global.10B.countries.comoros.meaning",
+        "global.10B.countries.congo-democratic-republic-of-the.meaning",
+        "global.10B.countries.congo-republic-of-the.meaning",
+        "global.10B.countries.djibouti.meaning",
+        "global.10B.countries.egypt.meaning",
+        "global.10B.countries.equatorial-guinea.meaning",
+        "global.10B.countries.eritrea.meaning",
+        "global.10B.countries.eswatini.meaning",
+        "global.10B.countries.ethiopia.meaning",
+        "global.10B.countries.gabon.meaning",
+        "global.10B.countries.gambia-the.meaning",
+        "global.10B.countries.ghana.meaning",
+        "global.10B.countries.guinea.meaning",
+        "global.10B.countries.guinea-bissau.meaning",
+        "global.10B.countries.kenya.meaning",
+        "global.10B.countries.lesotho.meaning",
+        "global.10B.countries.liberia.meaning",
+        "global.10B.countries.libya.meaning",
+        "global.10B.countries.madagascar.meaning",
+        "global.10B.countries.malawi.meaning",
+        "global.10B.countries.mali.meaning",
+        "global.10B.countries.mauritania.meaning",
+        "global.10B.countries.mauritius.meaning",
+        "global.10B.countries.morocco.meaning",
+        "global.10B.countries.mozambique.meaning",
+        "global.10B.countries.namibia.meaning",
+        "global.10B.countries.niger.meaning",
+        "global.10B.countries.nigeria.meaning",
+        "global.10B.countries.rwanda.meaning",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.meaning",
+        "global.10B.countries.sao-tome-and-principe.meaning",
+        "global.10B.countries.senegal.meaning",
+        "global.10B.countries.seychelles.meaning",
+        "global.10B.countries.sierra-leone.meaning",
+        "global.10B.countries.somalia.meaning",
+        "global.10B.countries.south-africa.meaning",
+        "global.10B.countries.south-sudan.meaning",
+        "global.10B.countries.sudan.meaning",
+        "global.10B.countries.tanzania.meaning",
+        "global.10B.countries.togo.meaning",
+        "global.10B.countries.tunisia.meaning",
+        "global.10B.countries.uganda.meaning",
+        "global.10B.countries.zambia.meaning",
+        "global.10B.countries.zimbabwe.meaning"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

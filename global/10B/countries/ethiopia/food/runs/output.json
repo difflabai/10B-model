@@ -1,0 +1,52 @@
+{
+  "country": "Ethiopia",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6274,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7982
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.4113
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.62738,
+    0.8,
+    0.75,
+    0.7982,
+    0.01024,
+    -0.15816,
+    0.84903,
+    -0.87277,
+    0.56902,
+    0.97772,
+    -0.22853,
+    -0.28737,
+    0.29625,
+    -0.21877,
+    0.36513,
+    0.76873
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

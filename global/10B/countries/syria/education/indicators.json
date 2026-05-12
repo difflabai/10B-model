@@ -1,0 +1,34 @@
+{
+  "country": "Syria",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "86.4%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "9 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Arabic (official), Kurdish, Armenian, Aramaic, Circassian, French, English",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "كتاب حقائق العالم، المصدر الذي لا يمكن الاستغناء عنه للمعلومات الأساسية (Arabic)ڕاستییەکانی جیهان، باشترین سەرچاوەیە بۆ زانیارییە بنەڕەتییەکان (Kurdish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

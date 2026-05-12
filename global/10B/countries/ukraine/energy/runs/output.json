@@ -1,0 +1,84 @@
+{
+  "country": "Ukraine",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5996,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.724
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.464
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.472
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.53
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.8707
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.515
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.59961,
+    0.84615,
+    0.97,
+    0.55,
+    0.63183,
+    0.67245,
+    -0.06041,
+    0.71872,
+    -0.73849,
+    0.14168,
+    0.76648,
+    0.3771,
+    0.4237,
+    -0.23619,
+    -0.34649,
+    0.97049
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

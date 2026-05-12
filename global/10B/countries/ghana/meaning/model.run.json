@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.ghana.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ghana"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "meaning"
+    }
+  },
+  "output": "./runs/output.json"
+}

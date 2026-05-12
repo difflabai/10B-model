@@ -1,0 +1,56 @@
+{
+  "country": "Singapore",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.63,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.55
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.63,
+    0.83333,
+    0.55,
+    0.65,
+    -0.1884,
+    -0.45495,
+    0.62506,
+    0.85953,
+    0.89331,
+    -0.11473,
+    -0.33169,
+    0.8508,
+    0.01024,
+    -0.50091,
+    -0.54415,
+    -0.58337
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,64 @@
+{
+  "country": "Afghanistan",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "57 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "23 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "182,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "18% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "33,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Afghanistan's telecom sector is facing challenges providing adequate coverage to all of the population; prior to the Taliban regaining power, the World Bank and other donors supported the development of a nationwide fiber backbone and there is terrestrial cable connectivity to five neighboring countries; work on the 'Wakhan Corridor Fiber Optic Survey Project' to connect to China has faced obstacles because of Afghanistan's economic issues. (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "before the Taliban takeover in August 2021, less than 1 per 100 for fixed-line teledensity; 57 per 100 for mobile-cellular subscriptions (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 93; multiple VSAT's provide international and domestic voice and data connectivity (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "under the Taliban government, independent media outlets have decreased in number and are probably self-censoring criticism of the Taliban and the Ministry of Information and Culture monitors all mass media in Afghanistan; television and radio are key media platforms; only about a fifth of Afghans use the internet, mostly through smartphones (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

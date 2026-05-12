@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.meaning",
+  "name": "World — Meaning, identity, and culture",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **meaning, identity, and culture** across 257 countries — the cross-country slice of the 10B model along the meaning dimension.",
+  "mechanism": "Aggregates the per-country meaning models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the meaning dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Meaning, identity, and culture world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Meaning, identity, and culture country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Meaning, identity, and culture macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "meaning-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for meaning, identity, and culture."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "meaning-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for meaning, identity, and culture."
+    },
+    {
+      "name": "meaning-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on meaning, identity, and culture."
+    },
+    {
+      "name": "meaning-macro-embedding",
+      "kind": "embedding",
+      "description": "Meaning, identity, and culture contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Meaning, identity, and culture"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:self-actualization, MaxNeef:identity, SDG-4.7",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country meaning model."
+    }
+  ]
+}

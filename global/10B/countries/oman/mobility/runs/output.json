@@ -1,0 +1,72 @@
+{
+  "country": "Oman",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5316,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5068
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.5161
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5222
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5578
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.53162,
+    0.8,
+    0.5068,
+    0.5161,
+    -0.60891,
+    0.89056,
+    0.05385,
+    -0.99155,
+    -0.3785,
+    0.37783,
+    -0.50991,
+    -0.75485,
+    -0.97903,
+    -0.90112,
+    0.98914,
+    -0.06181
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

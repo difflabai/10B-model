@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.burundi",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Burundi"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.burundi.food",
+        "global.10B.countries.burundi.water",
+        "global.10B.countries.burundi.shelter",
+        "global.10B.countries.burundi.health",
+        "global.10B.countries.burundi.safety",
+        "global.10B.countries.burundi.education",
+        "global.10B.countries.burundi.work",
+        "global.10B.countries.burundi.energy",
+        "global.10B.countries.burundi.mobility",
+        "global.10B.countries.burundi.communications",
+        "global.10B.countries.burundi.governance",
+        "global.10B.countries.burundi.environment",
+        "global.10B.countries.burundi.belonging",
+        "global.10B.countries.burundi.meaning",
+        "global.10B.countries.burundi.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

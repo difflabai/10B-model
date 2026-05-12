@@ -1,0 +1,56 @@
+{
+  "country": "Sierra Leone",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.665,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.58
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.665,
+    0.33333,
+    0.75,
+    0.58,
+    -0.87161,
+    0.19924,
+    -0.80594,
+    0.69085,
+    -0.6166,
+    -0.91983,
+    -0.13396,
+    0.28453,
+    -0.96136,
+    -0.90683,
+    0.34469,
+    0.96753
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

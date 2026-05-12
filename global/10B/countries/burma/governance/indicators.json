@@ -1,0 +1,44 @@
+{
+  "country": "Burma",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "military regime",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law (as introduced in codifications designed for colonial India) and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1947, 1974 (suspended until 2008); latest drafted 9 April 2008, approved by referendum 29 May 2008",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Prime Minister, State Administration Council Chair, Sr. Gen. MIN AUNG HLAING (since 1 August 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, ARF, ASEAN, BIMSTEC, CP, EAS, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), NAM, OPCW (signatory), SAARC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

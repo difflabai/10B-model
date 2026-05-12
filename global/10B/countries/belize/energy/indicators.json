@@ -1,0 +1,74 @@
+{
+  "country": "Belize",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "98.6% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "98.4%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "97.1%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "217,000 kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "443.175 million kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "18.7% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "3.6% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": "26.4% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": "51.3% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "30.71 million Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "690,000 metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8461538461538461
+}

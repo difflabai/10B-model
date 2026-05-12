@@ -1,0 +1,60 @@
+{
+  "country": "Burundi",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.5613,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.15
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.72
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.2477
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.56128,
+    0.85714,
+    0.15,
+    0.72,
+    0.57189,
+    -0.2448,
+    0.66796,
+    0.12767,
+    0.49349,
+    -0.29128,
+    -0.73501,
+    -0.51656,
+    -0.40963,
+    -0.40777,
+    0.57675,
+    0.14934
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.energy",
+  "name": "Europe — Energy access",
+  "kind": "sector_economic",
+  "blurb": "Region-level energy access for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country energy models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "energy-country-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "energy-region-mean",
+      "kind": "scalar",
+      "description": "Mean energy score across the region."
+    },
+    {
+      "name": "energy-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Energy access"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.energy",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

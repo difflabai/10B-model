@@ -1,0 +1,52 @@
+{
+  "country": "Dominica",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.675,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.675,
+    0.4,
+    0.8,
+    0.55,
+    0.31936,
+    -0.51321,
+    0.53753,
+    0.84698,
+    -0.8547,
+    0.99741,
+    -0.26873,
+    -8e-05,
+    0.37658,
+    0.8901,
+    0.6072,
+    0.94031
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

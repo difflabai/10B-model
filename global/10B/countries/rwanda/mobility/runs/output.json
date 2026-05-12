@@ -1,0 +1,72 @@
+{
+  "country": "Rwanda",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.3911,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2416
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2331
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.3944
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.427
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5005
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.3911,
+    0.6,
+    0.2416,
+    0.2331,
+    0.52749,
+    0.34435,
+    0.73874,
+    0.98029,
+    -0.83758,
+    -0.79315,
+    0.08031,
+    0.63452,
+    0.27849,
+    -0.84979,
+    -0.48907,
+    -0.76736
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

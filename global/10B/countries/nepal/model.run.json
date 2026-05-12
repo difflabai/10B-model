@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.nepal",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Nepal"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.nepal.food",
+        "global.10B.countries.nepal.water",
+        "global.10B.countries.nepal.shelter",
+        "global.10B.countries.nepal.health",
+        "global.10B.countries.nepal.safety",
+        "global.10B.countries.nepal.education",
+        "global.10B.countries.nepal.work",
+        "global.10B.countries.nepal.energy",
+        "global.10B.countries.nepal.mobility",
+        "global.10B.countries.nepal.communications",
+        "global.10B.countries.nepal.governance",
+        "global.10B.countries.nepal.environment",
+        "global.10B.countries.nepal.belonging",
+        "global.10B.countries.nepal.meaning",
+        "global.10B.countries.nepal.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

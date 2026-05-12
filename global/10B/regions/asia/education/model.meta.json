@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.education",
+  "name": "Asia — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "Region-level education and learning for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country education models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-region-mean",
+      "kind": "scalar",
+      "description": "Mean education score across the region."
+    },
+    {
+      "name": "education-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.education",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

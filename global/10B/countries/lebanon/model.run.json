@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.lebanon",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Lebanon"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.lebanon.food",
+        "global.10B.countries.lebanon.water",
+        "global.10B.countries.lebanon.shelter",
+        "global.10B.countries.lebanon.health",
+        "global.10B.countries.lebanon.safety",
+        "global.10B.countries.lebanon.education",
+        "global.10B.countries.lebanon.work",
+        "global.10B.countries.lebanon.energy",
+        "global.10B.countries.lebanon.mobility",
+        "global.10B.countries.lebanon.communications",
+        "global.10B.countries.lebanon.governance",
+        "global.10B.countries.lebanon.environment",
+        "global.10B.countries.lebanon.belonging",
+        "global.10B.countries.lebanon.meaning",
+        "global.10B.countries.lebanon.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

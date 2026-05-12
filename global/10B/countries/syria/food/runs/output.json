@@ -1,0 +1,52 @@
+{
+  "country": "Syria",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5946,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7157
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.3627
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.5946,
+    0.8,
+    0.75,
+    0.7157,
+    0.19353,
+    -0.66748,
+    -0.82782,
+    -0.36147,
+    0.1284,
+    -0.73361,
+    -0.9856,
+    0.01796,
+    -0.78375,
+    -0.31685,
+    0.74636,
+    0.64303
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

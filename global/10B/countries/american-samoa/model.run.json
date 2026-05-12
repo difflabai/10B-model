@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.american-samoa",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "American Samoa"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.american-samoa.food",
+        "global.10B.countries.american-samoa.water",
+        "global.10B.countries.american-samoa.shelter",
+        "global.10B.countries.american-samoa.health",
+        "global.10B.countries.american-samoa.safety",
+        "global.10B.countries.american-samoa.education",
+        "global.10B.countries.american-samoa.work",
+        "global.10B.countries.american-samoa.energy",
+        "global.10B.countries.american-samoa.mobility",
+        "global.10B.countries.american-samoa.communications",
+        "global.10B.countries.american-samoa.governance",
+        "global.10B.countries.american-samoa.environment",
+        "global.10B.countries.american-samoa.belonging",
+        "global.10B.countries.american-samoa.meaning",
+        "global.10B.countries.american-samoa.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

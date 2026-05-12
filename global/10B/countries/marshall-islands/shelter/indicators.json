@@ -1,0 +1,34 @@
+{
+  "country": "Marshall Islands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "78.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "31,000 MAJURO (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most people live in urban clusters found on many of the country's islands; more than two-thirds of the population lives on the atolls of Majuro and Ebeye",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot and humid; wet season May to November; islands border typhoon belt",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot and humid; wet season May to November; islands border typhoon belt",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

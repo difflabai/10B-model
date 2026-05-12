@@ -1,0 +1,39 @@
+{
+  "country": "Switzerland",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Swiss Armed Forces (aka Swiss Army or Schweizer Armee); Army (Heer; aka Land Forces), Swiss Air Force (Schweizer Luftwaffe) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.7% of GDP (2023)0.7% of GDP (2022)0.7% of GDP (2021)0.7% of GDP (2020)0.7% of GDP (2019)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "14,726 (Eritrea), 11,441 (Afghanistan), 8,039 (Syria), (mid-year 2022); 65,615 (Ukraine) (as of 5 March 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

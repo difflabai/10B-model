@@ -1,0 +1,44 @@
+{
+  "country": "Saint Martin",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "excessive population pressure (increasing settlement); waste management; salinity intrusions into the mainland of the island; fresh water supply is dependent on desalination of sea water; over-exploitation of marine resources (reef fisheries, coral and shell); indiscriminate anchoring of boats damages coral reefs, causing underwater pollution and sedimentation",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "15,480 tons (2012 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.2857142857142857
+}

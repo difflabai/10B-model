@@ -1,0 +1,76 @@
+{
+  "country": "Saint Martin",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6363636363636364,
+  "indicators_scored": 7,
+  "indicators_total": 11,
+  "composite_score": 0.689,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5229
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.68898,
+    0.63636,
+    0.95,
+    0.55,
+    0.47695,
+    -0.8316,
+    0.17217,
+    -0.25209,
+    0.4121,
+    0.8808,
+    0.31444,
+    0.64938,
+    -0.33913,
+    0.41817,
+    -0.00243,
+    -0.09886
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

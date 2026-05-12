@@ -1,0 +1,47 @@
+{
+  "country": "paracel-islands",
+  "category_scores": {
+    "agency": null,
+    "belonging": 0.6901,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.55,
+    "governance": null,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.568,
+  "tier_scores": {
+    "subsistence": 0.5833,
+    "development": null,
+    "agency": 0.5451
+  },
+  "country_embedding": [
+    0.18934,
+    0.09302,
+    0.2,
+    0.07868,
+    -0.13248,
+    0.12441,
+    -0.2459,
+    0.1136,
+    -0.39761,
+    0.13775,
+    -0.27188,
+    0.1585,
+    -0.15956,
+    -0.08329,
+    -0.01986,
+    0.09831
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Paracel Islands, the three needs areas with the largest gaps are: environment (0.40), food (0.55), water (0.55).\nThe three strongest areas are: belonging (0.69), shelter (0.65), water (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Montserrat",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.6311,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.2132
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.91
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.77
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.63106,
+    0.42857,
+    0.2132,
+    0.91,
+    0.76898,
+    -0.95142,
+    -0.47082,
+    -0.98245,
+    0.29534,
+    -0.59026,
+    -0.51409,
+    -0.35711,
+    0.95132,
+    0.43389,
+    0.17919,
+    -0.7359
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

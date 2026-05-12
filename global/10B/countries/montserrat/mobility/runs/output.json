@@ -1,0 +1,72 @@
+{
+  "country": "Montserrat",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.1,
+  "indicators_scored": 1,
+  "indicators_total": 10,
+  "composite_score": 0.2,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.2,
+    0.1,
+    0.2,
+    0.0,
+    -0.5606,
+    -0.36672,
+    0.94403,
+    -0.79992,
+    -0.63082,
+    -0.46197,
+    -0.22634,
+    0.32262,
+    -0.64855,
+    0.84085,
+    0.96002,
+    0.40627
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

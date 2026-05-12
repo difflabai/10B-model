@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.jarvis-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Jarvis Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.jarvis-island.food",
+        "global.10B.countries.jarvis-island.water",
+        "global.10B.countries.jarvis-island.shelter",
+        "global.10B.countries.jarvis-island.health",
+        "global.10B.countries.jarvis-island.safety",
+        "global.10B.countries.jarvis-island.education",
+        "global.10B.countries.jarvis-island.work",
+        "global.10B.countries.jarvis-island.energy",
+        "global.10B.countries.jarvis-island.mobility",
+        "global.10B.countries.jarvis-island.communications",
+        "global.10B.countries.jarvis-island.governance",
+        "global.10B.countries.jarvis-island.environment",
+        "global.10B.countries.jarvis-island.belonging",
+        "global.10B.countries.jarvis-island.meaning",
+        "global.10B.countries.jarvis-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.382,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2466
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4583
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5718
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.303
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.382,
+    0.8,
+    0.2466,
+    0.4583,
+    -0.67285,
+    0.74047,
+    -0.65603,
+    -0.39861,
+    0.48293,
+    0.80826,
+    -0.33996,
+    0.28664,
+    0.32976,
+    -0.57116,
+    0.44665,
+    0.75463
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

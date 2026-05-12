@@ -1,0 +1,59 @@
+{
+  "country": "Kuwait",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "5,749 km (201)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "4,887 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "862 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "6 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "20 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "261 km gas, 540 km oil, 57 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "6,464,847 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "392.36 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

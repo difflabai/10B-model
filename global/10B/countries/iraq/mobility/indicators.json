@@ -1,0 +1,59 @@
+{
+  "country": "Iraq",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "58,592 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "71 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "10 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "2,455 km gas, 913 km liquid petroleum gas, 5,432 km oil, 1,637 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "5,279 km (2012) (the Euphrates River (2,815 km), Tigris River (1,899 km), and Third River (565 km) are the principal waterways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,272 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "2,075,065 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "16.2 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

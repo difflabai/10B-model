@@ -1,0 +1,34 @@
+{
+  "country": "Colombia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "82.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "11.508 million BOGOTA (capital), 4.102 million Medellin, 2.864 million Cali, 2.349 million Barranquilla, 1.381 million Bucaramanga, 1.088 million Cartagena (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the majority of people live in the north and west where agricultural opportunities and natural resources are found; the vast grasslands of the llanos to the south and east, which make up approximately 60% of the country, are sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical along coast and eastern plains; cooler in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical along coast and eastern plains; cooler in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

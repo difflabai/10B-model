@@ -1,0 +1,52 @@
+{
+  "country": "Costa Rica",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8061,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.946
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.872
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.8061,
+    1.0,
+    0.946,
+    0.872,
+    -0.78173,
+    -0.91046,
+    0.94876,
+    0.19704,
+    -0.3005,
+    0.64288,
+    0.73574,
+    -0.69067,
+    0.437,
+    0.39654,
+    -0.06874,
+    -0.96152
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

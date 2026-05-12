@@ -1,0 +1,76 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8181818181818182,
+  "indicators_scored": 9,
+  "indicators_total": 11,
+  "composite_score": 0.6134,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.26
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.86
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.301
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.61344,
+    0.81818,
+    0.26,
+    0.55,
+    0.16484,
+    0.25719,
+    0.69964,
+    -0.49923,
+    0.53515,
+    -0.1924,
+    0.55312,
+    0.45226,
+    0.84091,
+    -0.45766,
+    -0.94125,
+    -0.23626
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

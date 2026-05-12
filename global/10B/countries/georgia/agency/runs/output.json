@@ -1,0 +1,56 @@
+{
+  "country": "Georgia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7805,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.82
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    }
+  ],
+  "embedding": [
+    0.7805,
+    0.83333,
+    0.85,
+    0.75,
+    -0.14955,
+    0.91983,
+    -0.93069,
+    -0.11055,
+    -0.83154,
+    -0.79635,
+    -0.5313,
+    0.98431,
+    0.01353,
+    0.18773,
+    -0.34026,
+    0.70224
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

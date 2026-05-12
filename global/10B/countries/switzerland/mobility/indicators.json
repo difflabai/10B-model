@@ -1,0 +1,59 @@
+{
+  "country": "Switzerland",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "83,131 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "62 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "51 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,800 km gas, 94 km oil (of which 60 are inactive), 17 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,292 km (2010) (there are 1,227 km of waterways on lakes and rivers for public transport and 65 km on the Rhine River between Basel-Rheinfelden and Schaffhausen-Bodensee for commercial goods transport)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,296 km (2020) 5,296 km electrified; Switzerland remains the only country with a fully electrified network",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "28,857,994 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,841,310,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

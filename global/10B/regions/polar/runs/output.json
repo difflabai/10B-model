@@ -1,0 +1,236 @@
+{
+  "region": "polar",
+  "label": "Polar / extra-territorial",
+  "country_count": 10,
+  "category_means": {
+    "food": 0.4902,
+    "water": 0.7262,
+    "shelter": 0.7064,
+    "health": 0.7595,
+    "safety": 0.5753,
+    "education": 0.7648,
+    "work": 0.7256,
+    "energy": 0.6076,
+    "mobility": 0.5458,
+    "communications": 0.7501,
+    "governance": 0.6845,
+    "environment": 0.4633,
+    "belonging": 0.681,
+    "meaning": 0.632,
+    "agency": 0.8189
+  },
+  "region_score": 0.6621,
+  "country_scores": [
+    {
+      "country": "france",
+      "country_score": 0.7224,
+      "category_scores": {
+        "agency": 0.844,
+        "belonging": 0.7261,
+        "communications": 0.7707,
+        "education": 0.7937,
+        "energy": 0.6437,
+        "environment": 0.5842,
+        "food": 0.6893,
+        "governance": 0.7386,
+        "health": 0.807,
+        "meaning": 0.71,
+        "mobility": 0.803,
+        "safety": 0.6033,
+        "shelter": 0.7176,
+        "water": 0.7,
+        "work": 0.7051
+      }
+    },
+    {
+      "country": "canada",
+      "country_score": 0.7087,
+      "category_scores": {
+        "agency": 0.8305,
+        "belonging": 0.7339,
+        "communications": 0.7511,
+        "education": 0.7937,
+        "energy": 0.6315,
+        "environment": 0.5795,
+        "food": 0.5765,
+        "governance": 0.7429,
+        "health": 0.7949,
+        "meaning": 0.65,
+        "mobility": 0.7077,
+        "safety": 0.6122,
+        "shelter": 0.7006,
+        "water": 0.7833,
+        "work": 0.7423
+      }
+    },
+    {
+      "country": "russia",
+      "country_score": 0.7066,
+      "category_scores": {
+        "agency": 0.789,
+        "belonging": 0.6834,
+        "communications": 0.7408,
+        "education": 0.7633,
+        "energy": 0.6174,
+        "environment": 0.5924,
+        "food": 0.6514,
+        "governance": 0.7429,
+        "health": 0.7027,
+        "meaning": 0.65,
+        "mobility": 0.8183,
+        "safety": 0.5611,
+        "shelter": 0.7322,
+        "water": 0.8,
+        "work": 0.7544
+      }
+    },
+    {
+      "country": "greenland",
+      "country_score": 0.6438,
+      "category_scores": {
+        "agency": 0.7997,
+        "belonging": 0.6276,
+        "communications": 0.6879,
+        "education": 0.8233,
+        "energy": 0.6702,
+        "environment": 0.35,
+        "food": 0.5046,
+        "governance": 0.725,
+        "health": 0.7332,
+        "meaning": 0.6,
+        "mobility": 0.5903,
+        "safety": 0.55,
+        "shelter": 0.6446,
+        "water": 0.65,
+        "work": 0.7006
+      }
+    },
+    {
+      "country": "antarctica",
+      "country_score": 0.6238,
+      "category_scores": {
+        "agency": 0.95,
+        "belonging": null,
+        "communications": 0.8,
+        "education": null,
+        "energy": 0.475,
+        "environment": 0.4,
+        "food": 0.2,
+        "governance": 0.61,
+        "health": null,
+        "meaning": null,
+        "mobility": 0.4791,
+        "safety": null,
+        "shelter": 0.85,
+        "water": 0.85,
+        "work": null
+      }
+    },
+    {
+      "country": "svalbard",
+      "country_score": 0.5799,
+      "category_scores": {
+        "agency": 0.7,
+        "belonging": 0.6339,
+        "communications": 0.75,
+        "education": 0.65,
+        "energy": null,
+        "environment": 0.4,
+        "food": 0.375,
+        "governance": 0.65,
+        "health": null,
+        "meaning": 0.55,
+        "mobility": 0.2,
+        "safety": 0.55,
+        "shelter": 0.75,
+        "water": 0.75,
+        "work": null
+      }
+    },
+    {
+      "country": "heard-island-and-mcdonald-islands",
+      "country_score": 0.4897,
+      "category_scores": {
+        "agency": null,
+        "belonging": null,
+        "communications": null,
+        "education": null,
+        "energy": null,
+        "environment": 0.4,
+        "food": 0.375,
+        "governance": 0.65,
+        "health": null,
+        "meaning": null,
+        "mobility": 0.4132,
+        "safety": null,
+        "shelter": 0.55,
+        "water": 0.55,
+        "work": null
+      }
+    },
+    {
+      "country": "french-southern-and-antarctic-lands",
+      "country_score": 0.4804,
+      "category_scores": {
+        "agency": null,
+        "belonging": null,
+        "communications": null,
+        "education": null,
+        "energy": null,
+        "environment": 0.4,
+        "food": 0.55,
+        "governance": 0.6167,
+        "health": null,
+        "meaning": null,
+        "mobility": 0.3548,
+        "safety": null,
+        "shelter": null,
+        "water": null,
+        "work": null
+      }
+    },
+    {
+      "country": "akrotiri",
+      "country_score": null,
+      "category_scores": {
+        "agency": null,
+        "belonging": null,
+        "communications": null,
+        "education": null,
+        "energy": null,
+        "environment": null,
+        "food": null,
+        "governance": null,
+        "health": null,
+        "meaning": null,
+        "mobility": null,
+        "safety": null,
+        "shelter": null,
+        "water": null,
+        "work": null
+      }
+    },
+    {
+      "country": "dhekelia",
+      "country_score": null,
+      "category_scores": {
+        "agency": null,
+        "belonging": null,
+        "communications": null,
+        "education": null,
+        "energy": null,
+        "environment": null,
+        "food": null,
+        "governance": null,
+        "health": null,
+        "meaning": null,
+        "mobility": null,
+        "safety": null,
+        "shelter": null,
+        "water": null,
+        "work": null
+      }
+    }
+  ],
+  "scored_with": "scripts/10b/regions.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Netherlands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "93.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.174 million AMSTERDAM (capital), 1.018 million Rotterdam (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "an area known as the Randstad, anchored by the cities of Amsterdam, Rotterdam, the Hague, and Utrecht, is the most densely populated region; the north tends to be less dense, though sizeable communities can be found throughout the entire country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; marine; cool summers and mild winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; marine; cool summers and mild winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Mongolia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7796,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9604
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.77958,
+    1.0,
+    0.9604,
+    0.7,
+    0.16704,
+    0.04167,
+    0.16075,
+    -0.31334,
+    -0.28777,
+    -0.90008,
+    -0.06007,
+    0.90118,
+    -0.18734,
+    -0.54781,
+    -0.74746,
+    0.28917
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

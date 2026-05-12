@@ -1,0 +1,59 @@
+{
+  "country": "Cambodia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "61,810 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "15,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "46,810 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "13 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "3,700 km (2012) (mainly on Mekong River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "642 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,411,059 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "680,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.mobility",
+        "global.10B.countries.angola.mobility",
+        "global.10B.countries.benin.mobility",
+        "global.10B.countries.botswana.mobility",
+        "global.10B.countries.bouvet-island.mobility",
+        "global.10B.countries.british-indian-ocean-territory.mobility",
+        "global.10B.countries.burkina-faso.mobility",
+        "global.10B.countries.burundi.mobility",
+        "global.10B.countries.cabo-verde.mobility",
+        "global.10B.countries.cameroon.mobility",
+        "global.10B.countries.central-african-republic.mobility",
+        "global.10B.countries.chad.mobility",
+        "global.10B.countries.comoros.mobility",
+        "global.10B.countries.congo-democratic-republic-of-the.mobility",
+        "global.10B.countries.congo-republic-of-the.mobility",
+        "global.10B.countries.djibouti.mobility",
+        "global.10B.countries.egypt.mobility",
+        "global.10B.countries.equatorial-guinea.mobility",
+        "global.10B.countries.eritrea.mobility",
+        "global.10B.countries.eswatini.mobility",
+        "global.10B.countries.ethiopia.mobility",
+        "global.10B.countries.gabon.mobility",
+        "global.10B.countries.gambia-the.mobility",
+        "global.10B.countries.ghana.mobility",
+        "global.10B.countries.guinea.mobility",
+        "global.10B.countries.guinea-bissau.mobility",
+        "global.10B.countries.kenya.mobility",
+        "global.10B.countries.lesotho.mobility",
+        "global.10B.countries.liberia.mobility",
+        "global.10B.countries.libya.mobility",
+        "global.10B.countries.madagascar.mobility",
+        "global.10B.countries.malawi.mobility",
+        "global.10B.countries.mali.mobility",
+        "global.10B.countries.mauritania.mobility",
+        "global.10B.countries.mauritius.mobility",
+        "global.10B.countries.morocco.mobility",
+        "global.10B.countries.mozambique.mobility",
+        "global.10B.countries.namibia.mobility",
+        "global.10B.countries.niger.mobility",
+        "global.10B.countries.nigeria.mobility",
+        "global.10B.countries.rwanda.mobility",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.mobility",
+        "global.10B.countries.sao-tome-and-principe.mobility",
+        "global.10B.countries.senegal.mobility",
+        "global.10B.countries.seychelles.mobility",
+        "global.10B.countries.sierra-leone.mobility",
+        "global.10B.countries.somalia.mobility",
+        "global.10B.countries.south-africa.mobility",
+        "global.10B.countries.south-sudan.mobility",
+        "global.10B.countries.sudan.mobility",
+        "global.10B.countries.tanzania.mobility",
+        "global.10B.countries.togo.mobility",
+        "global.10B.countries.tunisia.mobility",
+        "global.10B.countries.uganda.mobility",
+        "global.10B.countries.zambia.mobility",
+        "global.10B.countries.zimbabwe.mobility"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

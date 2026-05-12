@@ -1,0 +1,47 @@
+{
+  "country": "gibraltar",
+  "category_scores": {
+    "agency": 0.8225,
+    "belonging": 0.6498,
+    "communications": 0.7409,
+    "education": 0.65,
+    "energy": 0.5367,
+    "environment": 0.4,
+    "food": 0.4333,
+    "governance": 0.7083,
+    "health": 0.8004,
+    "meaning": 0.7,
+    "mobility": 0.2,
+    "safety": 0.55,
+    "shelter": 0.6,
+    "water": 0.65,
+    "work": 0.8007
+  },
+  "country_score": 0.6162,
+  "tier_scores": {
+    "subsistence": 0.6067,
+    "development": 0.5857,
+    "agency": 0.6561
+  },
+  "country_embedding": [
+    0.61618,
+    0.53775,
+    0.68138,
+    0.43924,
+    0.02975,
+    -0.04873,
+    -0.10059,
+    0.14933,
+    0.08196,
+    0.10011,
+    0.0224,
+    -0.04978,
+    0.10349,
+    -0.12282,
+    0.02311,
+    0.10192
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Gibraltar, the three needs areas with the largest gaps are: mobility (0.20), environment (0.40), food (0.43).\nThe three strongest areas are: agency (0.82), work (0.80), health (0.80).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

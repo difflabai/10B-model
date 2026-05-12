@@ -1,0 +1,74 @@
+{
+  "country": "Peru",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "96.2% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": "99%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": "85.1%",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "15.504 million kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "50.868 billion kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "38.6% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "1.4% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": "3.1% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": "55.8% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": "1% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "24.932 million Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "45.504 million metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.9230769230769231
+}

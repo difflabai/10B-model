@@ -1,0 +1,56 @@
+{
+  "country": "Guyana",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.795,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.675
+    }
+  ],
+  "embedding": [
+    0.795,
+    0.83333,
+    0.85,
+    0.75,
+    -0.21263,
+    0.40084,
+    -0.99591,
+    0.31566,
+    0.86908,
+    -0.84936,
+    0.25908,
+    0.26958,
+    -0.19075,
+    0.3597,
+    0.00499,
+    -0.22246
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

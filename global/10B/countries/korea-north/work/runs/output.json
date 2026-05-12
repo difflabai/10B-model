@@ -1,0 +1,60 @@
+{
+  "country": "Korea, North",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.5472,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.1937
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.445
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.9
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54719,
+    0.57143,
+    0.1937,
+    0.445,
+    -0.28939,
+    -0.38372,
+    0.1906,
+    0.63302,
+    -0.03978,
+    -0.36822,
+    0.6733,
+    0.17324,
+    -0.06014,
+    0.74768,
+    -0.53545,
+    -0.32326
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

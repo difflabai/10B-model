@@ -1,0 +1,56 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.675,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.675,
+    0.66667,
+    0.55,
+    0.55,
+    0.35799,
+    -0.30849,
+    -0.25191,
+    0.9563,
+    0.91312,
+    0.41588,
+    -0.27913,
+    -0.21559,
+    -0.2061,
+    0.5108,
+    -0.21273,
+    0.01421
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

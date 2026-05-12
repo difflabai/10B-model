@@ -1,0 +1,39 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "African Party for the Independence of Guinea and Cabo Verde or PAIGC Democratic Convergence Party or PCD Movement for Democratic Alternation Group of 15 or MADEM-G15 National People’s Assembly – Democratic Party of Guinea Bissau or APU-PDGB New Democracy Party or PND Party for Social Renewal or PRS Republican Party for Independence and Development or PRID Union for Change or UM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "32% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-owned TV station, Televisao da Guine-Bissau (TGB) and a second station, Radio e Televisao de Portugal (RTP) Africa, is operated by Portuguese public broadcaster (RTP); 1 state-owned radio station, several private radio stations, and some community radio stations; multiple international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

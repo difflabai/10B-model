@@ -1,0 +1,84 @@
+{
+  "country": "Somalia",
+  "category": "health",
+  "label": "Health and longevity",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "People and Society: Life expectancy at birth - total population",
+      "value": "56.5 years (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - male",
+      "value": "54.1 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - female",
+      "value": "59 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - total",
+      "value": "83.6 deaths/1,000 live births (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - male",
+      "value": "93.2 deaths/1,000 live births",
+      "present": true
+    },
+    {
+      "field": "People and Society: Infant mortality rate - female",
+      "value": "73.7 deaths/1,000 live births",
+      "present": true
+    },
+    {
+      "field": "People and Society: Maternal mortality ratio",
+      "value": "621 deaths/100,000 live births (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Physicians density",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Hospital bed density",
+      "value": "0.9 beds/1,000 population (2017)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major infectious diseases - degree of risk",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Obesity - adult prevalence rate",
+      "value": "8.3% (2016)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Tobacco use - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Children under the age of 5 years underweight",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Currently married women (ages 15-49)",
+      "value": "62.9% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Current health expenditure",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

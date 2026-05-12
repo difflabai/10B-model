@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.education",
+  "name": "Oceania — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "Region-level education and learning for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country education models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-region-mean",
+      "kind": "scalar",
+      "description": "Mean education score across the region."
+    },
+    {
+      "name": "education-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.education",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

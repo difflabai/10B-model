@@ -1,0 +1,47 @@
+{
+  "country": "turkey-turkiye",
+  "category_scores": {
+    "agency": 0.7692,
+    "belonging": 0.7007,
+    "communications": 0.705,
+    "education": 0.7633,
+    "energy": 0.5892,
+    "environment": 0.4839,
+    "food": 0.7238,
+    "governance": 0.7286,
+    "health": 0.6289,
+    "meaning": 0.61,
+    "mobility": 0.662,
+    "safety": 0.6367,
+    "shelter": 0.73,
+    "water": 0.675,
+    "work": 0.5951
+  },
+  "country_score": 0.6668,
+  "tier_scores": {
+    "subsistence": 0.6789,
+    "development": 0.6629,
+    "agency": 0.6585
+  },
+  "country_embedding": [
+    0.66675,
+    0.88462,
+    0.73688,
+    0.67379,
+    0.04323,
+    -0.15951,
+    0.03742,
+    -0.2114,
+    0.16843,
+    -0.09955,
+    0.27912,
+    -0.13261,
+    -0.21352,
+    -0.02775,
+    -0.08244,
+    0.20365
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Turkey Turkiye, the three needs areas with the largest gaps are: environment (0.48), energy (0.59), work (0.60).\nThe three strongest areas are: agency (0.77), education (0.76), shelter (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

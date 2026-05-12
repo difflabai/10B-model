@@ -1,0 +1,72 @@
+{
+  "country": "Cayman Islands",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 4,
+  "indicators_total": 10,
+  "composite_score": 0.2781,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2044
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2556
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4526
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.27814,
+    0.4,
+    0.2,
+    0.2044,
+    -0.96622,
+    0.77078,
+    -0.47366,
+    0.13845,
+    -0.70465,
+    0.42992,
+    0.95471,
+    0.8428,
+    -0.75998,
+    -0.12303,
+    -0.42965,
+    0.85092
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

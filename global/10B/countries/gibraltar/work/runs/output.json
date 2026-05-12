@@ -1,0 +1,60 @@
+{
+  "country": "Gibraltar",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.8007,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9021
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.80069,
+    0.42857,
+    0.9021,
+    0.55,
+    -0.52175,
+    -0.18972,
+    -0.34737,
+    -0.10158,
+    0.89233,
+    -0.31609,
+    0.68127,
+    0.11336,
+    0.07808,
+    -0.99329,
+    -0.11879,
+    0.1256
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

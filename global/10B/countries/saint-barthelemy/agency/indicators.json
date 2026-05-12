@@ -1,0 +1,39 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "All for Saint Barth (Tous pour Saint-Barth)Saint Barth Action EquilibreSaint Barth First! (Saint-Barth d'Abord!) or SBA (affiliated with France's Republican party, Les Republicans)Saint Barth United (Unis pour Saint-Barthelemy)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "71.3% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 local TV broadcasters; 5 FM radio channels (2021)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

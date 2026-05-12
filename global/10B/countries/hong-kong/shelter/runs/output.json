@@ -1,0 +1,52 @@
+{
+  "country": "Hong Kong",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5875,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.5875,
+    1.0,
+    0.6,
+    0.55,
+    -0.24834,
+    0.97861,
+    -0.31579,
+    -0.70132,
+    -0.96143,
+    0.64511,
+    0.22487,
+    -0.71292,
+    -0.72982,
+    -0.09578,
+    0.8884,
+    -0.78253
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

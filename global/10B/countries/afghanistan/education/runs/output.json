@@ -1,0 +1,52 @@
+{
+  "country": "Afghanistan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5535,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3014
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.466
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.5
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.55347,
+    1.0,
+    0.3014,
+    0.466,
+    0.84512,
+    -0.60638,
+    -0.1787,
+    0.04225,
+    0.92697,
+    -0.53259,
+    0.32992,
+    -0.31975,
+    0.25551,
+    0.84247,
+    0.4594,
+    -0.72406
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Andorra",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 2,
+  "indicators_total": 10,
+  "composite_score": 0.3066,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4132
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.30658,
+    0.2,
+    0.2,
+    0.4132,
+    -0.67877,
+    -0.07344,
+    -0.30056,
+    0.56408,
+    0.67163,
+    0.71554,
+    -0.21639,
+    0.9902,
+    0.70855,
+    0.61309,
+    -0.07042,
+    -0.30886
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

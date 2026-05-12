@@ -1,0 +1,76 @@
+{
+  "country": "Faroe Islands",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 11,
+  "indicators_total": 11,
+  "composite_score": 0.7291,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.83
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.79
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": 0.8
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.72909,
+    1.0,
+    0.83,
+    0.55,
+    0.40511,
+    -0.75906,
+    0.6336,
+    -0.71728,
+    -0.78656,
+    -0.1989,
+    -0.17971,
+    -0.09847,
+    -0.98221,
+    -0.3048,
+    0.38216,
+    -0.54821
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

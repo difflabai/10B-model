@@ -1,0 +1,56 @@
+{
+  "country": "Dominican Republic",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.59,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.55
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.59,
+    0.83333,
+    0.55,
+    0.65,
+    0.53506,
+    0.01109,
+    -0.75406,
+    -0.58996,
+    -0.0298,
+    -0.72805,
+    0.92541,
+    -0.209,
+    -0.91141,
+    -0.80844,
+    0.47274,
+    0.88824
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

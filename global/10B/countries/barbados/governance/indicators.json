@@ -1,0 +1,44 @@
+{
+  "country": "Barbados",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic; a Commonwealth realm",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "English common law; no judicial review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "adopted 22 November 1966, effective 30 November 1966; Constitution (Amendment) (No. 2) Bill, 2021 establishes Barbados as a republic and revokes the earlier Order in Council",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Sandra MASON (since 30 November 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IADB, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ISO, ITSO, ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OPANAL, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Peru",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.6278,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.85
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6333
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.62778,
+    0.5,
+    0.85,
+    0.6333,
+    -0.53118,
+    -0.77841,
+    -0.52398,
+    0.11501,
+    -0.37221,
+    0.39318,
+    0.53576,
+    -0.29717,
+    -0.14525,
+    -0.78985,
+    -0.34838,
+    -0.92834
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

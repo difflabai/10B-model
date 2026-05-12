@@ -1,0 +1,60 @@
+{
+  "country": "Jarvis Island",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": null
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.4305,
+    -0.38418,
+    -0.9884,
+    0.28484,
+    -0.04237,
+    -0.09667,
+    -0.96033,
+    0.1548,
+    0.06059,
+    -0.86252,
+    0.23497,
+    0.78003
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

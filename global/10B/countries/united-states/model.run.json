@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.united-states",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "United States"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.united-states.food",
+        "global.10B.countries.united-states.water",
+        "global.10B.countries.united-states.shelter",
+        "global.10B.countries.united-states.health",
+        "global.10B.countries.united-states.safety",
+        "global.10B.countries.united-states.education",
+        "global.10B.countries.united-states.work",
+        "global.10B.countries.united-states.energy",
+        "global.10B.countries.united-states.mobility",
+        "global.10B.countries.united-states.communications",
+        "global.10B.countries.united-states.governance",
+        "global.10B.countries.united-states.environment",
+        "global.10B.countries.united-states.belonging",
+        "global.10B.countries.united-states.meaning",
+        "global.10B.countries.united-states.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

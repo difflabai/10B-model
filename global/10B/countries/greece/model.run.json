@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.greece",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Greece"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.greece.food",
+        "global.10B.countries.greece.water",
+        "global.10B.countries.greece.shelter",
+        "global.10B.countries.greece.health",
+        "global.10B.countries.greece.safety",
+        "global.10B.countries.greece.education",
+        "global.10B.countries.greece.work",
+        "global.10B.countries.greece.energy",
+        "global.10B.countries.greece.mobility",
+        "global.10B.countries.greece.communications",
+        "global.10B.countries.greece.governance",
+        "global.10B.countries.greece.environment",
+        "global.10B.countries.greece.belonging",
+        "global.10B.countries.greece.meaning",
+        "global.10B.countries.greece.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

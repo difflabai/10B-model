@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cuba",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cuba"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cuba.food",
+        "global.10B.countries.cuba.water",
+        "global.10B.countries.cuba.shelter",
+        "global.10B.countries.cuba.health",
+        "global.10B.countries.cuba.safety",
+        "global.10B.countries.cuba.education",
+        "global.10B.countries.cuba.work",
+        "global.10B.countries.cuba.energy",
+        "global.10B.countries.cuba.mobility",
+        "global.10B.countries.cuba.communications",
+        "global.10B.countries.cuba.governance",
+        "global.10B.countries.cuba.environment",
+        "global.10B.countries.cuba.belonging",
+        "global.10B.countries.cuba.meaning",
+        "global.10B.countries.cuba.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

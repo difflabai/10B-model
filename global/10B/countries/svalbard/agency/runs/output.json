@@ -1,0 +1,56 @@
+{
+  "country": "Svalbard",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.33333,
+    0.65,
+    0.75,
+    -0.28551,
+    -0.33419,
+    0.19905,
+    0.83578,
+    0.15419,
+    -0.91449,
+    0.9209,
+    0.98132,
+    0.91403,
+    0.55859,
+    0.29305,
+    -0.64089
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

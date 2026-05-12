@@ -1,0 +1,72 @@
+{
+  "country": "Maldives",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.3352,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.475
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5009
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.33518,
+    0.5,
+    0.2,
+    0.2,
+    -0.28057,
+    -0.23052,
+    -0.16292,
+    0.05678,
+    0.0631,
+    -0.18346,
+    -0.47369,
+    -0.44454,
+    0.73077,
+    0.49279,
+    -0.32256,
+    -0.26567
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

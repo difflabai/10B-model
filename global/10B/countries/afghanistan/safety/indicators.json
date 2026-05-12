@@ -1,0 +1,39 @@
+{
+  "country": "Afghanistan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "the Taliban claims authority over a Ministry of Defense and a National Army (aka Army of the Islamic Emirate of Afghanistan, Islamic Emirate Army, or Afghan Army); it has also formed police forces under a Ministry of Interior (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.3% of GDP (2019)3.2% of GDP (2018)3.3% of GDP (2017)3.1% of GDP (2016)2.9% of GDP (2015)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "59,486 (Pakistan) (mid-year 2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,47 @@
+{
+  "country": "albania",
+  "category_scores": {
+    "agency": 0.7548,
+    "belonging": 0.6684,
+    "communications": 0.7053,
+    "education": 0.749,
+    "energy": 0.6134,
+    "environment": 0.5384,
+    "food": 0.6905,
+    "governance": 0.7429,
+    "health": 0.7352,
+    "meaning": 0.67,
+    "mobility": 0.3711,
+    "safety": 0.6056,
+    "shelter": 0.658,
+    "water": 0.65,
+    "work": 0.6735
+  },
+  "country_score": 0.6551,
+  "tier_scores": {
+    "subsistence": 0.6679,
+    "development": 0.6225,
+    "agency": 0.6749
+  },
+  "country_embedding": [
+    0.65507,
+    0.82701,
+    0.71461,
+    0.65123,
+    0.17239,
+    0.09924,
+    -0.18041,
+    -0.04714,
+    -0.04106,
+    0.06755,
+    0.19279,
+    -0.00989,
+    -0.13202,
+    -0.16269,
+    -0.01404,
+    0.14225
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Albania, the three needs areas with the largest gaps are: mobility (0.37), environment (0.54), safety (0.61).\nThe three strongest areas are: agency (0.75), education (0.75), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

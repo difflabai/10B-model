@@ -1,0 +1,39 @@
+{
+  "country": "Zambia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Zambia Defense Force (ZDF): Zambia Army, Zambia Air Force, Zambia National Service; Defense Force Medical ServiceMinistry of Home Affairs and Internal Security: Zambia Police (includes a paramilitary battalion) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.4% of GDP (2023 est.)1.2% of GDP (2022 est.)1.3% of GDP (2021 est.)1.3% of GDP (2020 est.)1.3% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "8,436 (Burundi) (2023); 62,660 (Democratic Republic of the Congo) (refugees and asylum seekers) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

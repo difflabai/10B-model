@@ -1,0 +1,39 @@
+{
+  "country": "Maldives",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Adhaalath (Justice) Party or APDhivehi Rayyithunge Party or DRPMaldives Development Alliance or MDAMaldivian Democratic Party or MDPMaldives Third Way Democrats or MTDPeople's National Congress or PNCPeople's National FrontRepublican (Jumhooree) Party or JP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "84% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned radio and TV monopoly until recently; 4 state-operated and 7 privately owned TV stations and 4 state-operated and 7 privately owned radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.8% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

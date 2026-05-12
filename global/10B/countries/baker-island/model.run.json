@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.baker-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Baker Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.baker-island.food",
+        "global.10B.countries.baker-island.water",
+        "global.10B.countries.baker-island.shelter",
+        "global.10B.countries.baker-island.health",
+        "global.10B.countries.baker-island.safety",
+        "global.10B.countries.baker-island.education",
+        "global.10B.countries.baker-island.work",
+        "global.10B.countries.baker-island.energy",
+        "global.10B.countries.baker-island.mobility",
+        "global.10B.countries.baker-island.communications",
+        "global.10B.countries.baker-island.governance",
+        "global.10B.countries.baker-island.environment",
+        "global.10B.countries.baker-island.belonging",
+        "global.10B.countries.baker-island.meaning",
+        "global.10B.countries.baker-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

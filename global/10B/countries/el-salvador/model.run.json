@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.el-salvador",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "El Salvador"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.el-salvador.food",
+        "global.10B.countries.el-salvador.water",
+        "global.10B.countries.el-salvador.shelter",
+        "global.10B.countries.el-salvador.health",
+        "global.10B.countries.el-salvador.safety",
+        "global.10B.countries.el-salvador.education",
+        "global.10B.countries.el-salvador.work",
+        "global.10B.countries.el-salvador.energy",
+        "global.10B.countries.el-salvador.mobility",
+        "global.10B.countries.el-salvador.communications",
+        "global.10B.countries.el-salvador.governance",
+        "global.10B.countries.el-salvador.environment",
+        "global.10B.countries.el-salvador.belonging",
+        "global.10B.countries.el-salvador.meaning",
+        "global.10B.countries.el-salvador.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

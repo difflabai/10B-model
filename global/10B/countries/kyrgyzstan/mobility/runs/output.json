@@ -1,0 +1,72 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4713,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.402
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.5043
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5534
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2698
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.4119
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.47127,
+    0.9,
+    0.402,
+    0.5043,
+    0.1725,
+    0.83413,
+    -0.51754,
+    -0.03667,
+    -0.71725,
+    -0.19622,
+    -0.07616,
+    -0.58846,
+    0.95898,
+    -0.94385,
+    0.50634,
+    0.59213
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

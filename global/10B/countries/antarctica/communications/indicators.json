@@ -1,0 +1,64 @@
+{
+  "country": "Antarctica",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "general assessment: scientists with the United States Antarctic Program at McMurdo Station have a designated Starlink terminal, which has improved connectivity to carry out research; this was made possible through laser links between the SpaceX satellites in orbit that eliminate the need for ground stations at the poles, and makes Antarctica the seventh and final continent to receive Starlink internet coverage (2022) (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "commercial cellular networks operating in a small number of locations (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - none allocated; via satellite (including mobile Inmarsat and Iridium systems) to and from all research stations, ships, aircraft, and most field parties",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.36363636363636365
+}

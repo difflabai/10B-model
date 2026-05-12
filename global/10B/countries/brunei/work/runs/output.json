@@ -1,0 +1,60 @@
+{
+  "country": "Brunei",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.7668,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9383
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.591
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.868
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.7865
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.76676,
+    0.71429,
+    0.9383,
+    0.591,
+    0.00841,
+    -0.74392,
+    0.37002,
+    0.3546,
+    0.78582,
+    0.58541,
+    0.57043,
+    -0.03404,
+    -0.44332,
+    0.42391,
+    -0.14894,
+    -0.99902
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

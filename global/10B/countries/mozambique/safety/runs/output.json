@@ -1,0 +1,56 @@
+{
+  "country": "Mozambique",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.85
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.7
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.5,
+    0.85,
+    0.7,
+    0.33126,
+    0.33718,
+    -0.76468,
+    -0.96179,
+    0.36098,
+    0.35415,
+    -0.20922,
+    -0.39022,
+    0.11412,
+    -0.41057,
+    0.79614,
+    -0.88962
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

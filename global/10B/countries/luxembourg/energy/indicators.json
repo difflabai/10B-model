@@ -1,0 +1,74 @@
+{
+  "country": "Luxembourg",
+  "category": "energy",
+  "label": "Energy access",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "value": "100% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "value": "2.002 million kW (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "value": "6.122 billion kWh (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "value": "13.6% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "value": "28% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "value": "43.4% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "value": "-40.1% of total installed capacity (2022 est.) note: Luxembourg has negative net hydroelectric power generation based on losses from use of pumped storage hydropower",
+      "present": true
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "value": "55.1% of total installed capacity (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "value": "232.384 million Btu/person (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "value": "8.694 million metric tonnes of CO2 (2022 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.7692307692307693
+}

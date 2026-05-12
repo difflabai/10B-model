@@ -1,0 +1,34 @@
+{
+  "country": "Estonia",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "99.9%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "16 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Estonian (official) 67.2%, Russian 28.5%, other 3.7%, unspecified 0.6% (2021est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

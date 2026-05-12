@@ -1,0 +1,56 @@
+{
+  "country": "Baker Island",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.46154,
+    -0.10771,
+    0.85501,
+    0.58462,
+    -0.06471,
+    -0.86426,
+    0.20012,
+    -0.42321,
+    -0.96756,
+    0.41741,
+    -0.46682,
+    -0.57556
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

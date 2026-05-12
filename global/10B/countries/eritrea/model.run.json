@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.eritrea",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Eritrea"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.eritrea.food",
+        "global.10B.countries.eritrea.water",
+        "global.10B.countries.eritrea.shelter",
+        "global.10B.countries.eritrea.health",
+        "global.10B.countries.eritrea.safety",
+        "global.10B.countries.eritrea.education",
+        "global.10B.countries.eritrea.work",
+        "global.10B.countries.eritrea.energy",
+        "global.10B.countries.eritrea.mobility",
+        "global.10B.countries.eritrea.communications",
+        "global.10B.countries.eritrea.governance",
+        "global.10B.countries.eritrea.environment",
+        "global.10B.countries.eritrea.belonging",
+        "global.10B.countries.eritrea.meaning",
+        "global.10B.countries.eritrea.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

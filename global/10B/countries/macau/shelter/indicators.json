@@ -1,0 +1,34 @@
+{
+  "country": "Macau",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "682,000 Macau (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population fairly equally distributed",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "subtropical; marine with cool winters, warm summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical; marine with cool winters, warm summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

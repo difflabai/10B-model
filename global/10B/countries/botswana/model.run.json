@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.botswana",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Botswana"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.botswana.food",
+        "global.10B.countries.botswana.water",
+        "global.10B.countries.botswana.shelter",
+        "global.10B.countries.botswana.health",
+        "global.10B.countries.botswana.safety",
+        "global.10B.countries.botswana.education",
+        "global.10B.countries.botswana.work",
+        "global.10B.countries.botswana.energy",
+        "global.10B.countries.botswana.mobility",
+        "global.10B.countries.botswana.communications",
+        "global.10B.countries.botswana.governance",
+        "global.10B.countries.botswana.environment",
+        "global.10B.countries.botswana.belonging",
+        "global.10B.countries.botswana.meaning",
+        "global.10B.countries.botswana.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

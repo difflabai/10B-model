@@ -1,0 +1,52 @@
+{
+  "country": "San Marino",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.691,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9688
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.536
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.69096,
+    1.0,
+    0.9688,
+    0.536,
+    -0.72882,
+    -0.61169,
+    -0.9238,
+    -0.26683,
+    0.80526,
+    -0.83328,
+    -0.79193,
+    -0.21743,
+    -0.41122,
+    0.3962,
+    -0.9021,
+    0.40468
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

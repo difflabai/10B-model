@@ -1,0 +1,39 @@
+{
+  "country": "Spain",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Spanish Armed Forces (Fuerzas Armadas de España): Army (Ejército de Tierra), Spanish Navy (Armada Espanola; includes Marine Corps), Air and Space Force (Ejército del Aire y del Espacio), Emergency Response Unit (Unidad Militar de Emergencias); Civil Guard (Guardia Civil) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.3% of GDP (2024 est.)1.2% of GDP (2023)1.2% of GDP (2022)1% of GDP (2021)1% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "14,994 (Syria) (mid-year 2022); 438,400 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2022); 192,390 (Ukraine) (as of 29 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

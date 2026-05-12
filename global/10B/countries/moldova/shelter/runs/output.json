@@ -1,0 +1,52 @@
+{
+  "country": "Moldova",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6153,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6113
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.61533,
+    1.0,
+    0.6113,
+    0.55,
+    -0.2123,
+    0.50869,
+    -0.109,
+    0.2314,
+    -0.71518,
+    -0.55425,
+    0.5957,
+    0.411,
+    0.52337,
+    0.53881,
+    0.9389,
+    0.44936
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

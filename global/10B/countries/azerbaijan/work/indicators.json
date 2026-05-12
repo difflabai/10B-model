@@ -1,0 +1,44 @@
+{
+  "country": "Azerbaijan",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$21,300 (2023 est.)$21,100 (2022 est.)$20,100 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "1.12% (2023 est.)4.71% (2022 est.)5.62% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "8.79% (2023 est.)13.85% (2022 est.)6.65% (2021 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "5.537 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "5.64% (2023 est.)5.65% (2022 est.)6.04% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "4.9% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

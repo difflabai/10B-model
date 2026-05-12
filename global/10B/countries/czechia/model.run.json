@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.czechia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Czechia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.czechia.food",
+        "global.10B.countries.czechia.water",
+        "global.10B.countries.czechia.shelter",
+        "global.10B.countries.czechia.health",
+        "global.10B.countries.czechia.safety",
+        "global.10B.countries.czechia.education",
+        "global.10B.countries.czechia.work",
+        "global.10B.countries.czechia.energy",
+        "global.10B.countries.czechia.mobility",
+        "global.10B.countries.czechia.communications",
+        "global.10B.countries.czechia.governance",
+        "global.10B.countries.czechia.environment",
+        "global.10B.countries.czechia.belonging",
+        "global.10B.countries.czechia.meaning",
+        "global.10B.countries.czechia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "global.10B.regions.polar.communications",
+  "name": "Polar / extra-territorial — Communications and connectivity",
+  "kind": "sector_economic",
+  "blurb": "Region-level communications and connectivity for Polar / extra-territorial, aggregated across 10 countries.",
+  "mechanism": "Aggregates the per-country communications models for the 10 Polar / extra-territorial countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "communications-country-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "communications-region-mean",
+      "kind": "scalar",
+      "description": "Mean communications score across the region."
+    },
+    {
+      "name": "communications-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "category",
+      "value": "Communications and connectivity"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for svalbard"
+    },
+    {
+      "target_model_id": "global.10B.regions.polar",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.communications",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

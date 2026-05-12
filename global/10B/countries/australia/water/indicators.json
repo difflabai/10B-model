@@ -1,0 +1,39 @@
+{
+  "country": "Australia",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "River Murray - 2,508 km; Darling River - 1,545 km; Murrumbidgee River - 1,485 km; Lachlan River - 1,339 km; Cooper Creek - 1,113 km; Flinders River - 1,004 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Eyre - 9,690 sq km; Lake Torrens (ephemeral) - 5,780 sq km; Lake Gairdner - 4,470 sq km; Lake Mackay (ephemeral) - 3,494 sq km; Lake Frome - 2,410 sq km; Lake Amadeus (ephemeral) - 1,032 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: (Great Australian Bight) Murray-Darling (1,050,116 sq km)Internal (endorheic basin) drainage: Lake Eyre (1,212,198 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "generally arid to semiarid; temperate in south and east; tropical in north",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

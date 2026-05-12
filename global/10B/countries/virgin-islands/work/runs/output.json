@@ -1,0 +1,60 @@
+{
+  "country": "Virgin Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6675,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8656
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.4345
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.4873
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66748,
+    0.71429,
+    0.8656,
+    0.4345,
+    -0.44375,
+    0.34871,
+    0.14827,
+    0.70022,
+    0.70535,
+    0.99402,
+    0.45183,
+    0.6191,
+    -0.67861,
+    0.34597,
+    -0.46886,
+    0.9129
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

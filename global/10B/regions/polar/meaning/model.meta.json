@@ -1,0 +1,118 @@
+{
+  "id": "global.10B.regions.polar.meaning",
+  "name": "Polar / extra-territorial — Meaning, identity, and culture",
+  "kind": "sector_economic",
+  "blurb": "Region-level meaning, identity, and culture for Polar / extra-territorial, aggregated across 10 countries.",
+  "mechanism": "Aggregates the per-country meaning models for the 10 Polar / extra-territorial countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "meaning-country-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "meaning-region-mean",
+      "kind": "scalar",
+      "description": "Mean meaning score across the region."
+    },
+    {
+      "name": "meaning-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "category",
+      "value": "Meaning, identity, and culture"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for svalbard"
+    },
+    {
+      "target_model_id": "global.10B.regions.polar",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.meaning",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

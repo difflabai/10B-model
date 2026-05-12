@@ -1,0 +1,60 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.6967,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": null
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.925
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.615
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.69667,
+    0.42857,
+    0.925,
+    0.55,
+    -0.04045,
+    0.83145,
+    0.28527,
+    0.09184,
+    -0.79037,
+    -0.7752,
+    0.79107,
+    0.81265,
+    -0.87283,
+    -0.58035,
+    0.87024,
+    -0.54171
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

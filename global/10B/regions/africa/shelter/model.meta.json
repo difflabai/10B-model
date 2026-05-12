@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.shelter",
+  "name": "Africa — Shelter and habitat",
+  "kind": "sector_economic",
+  "blurb": "Region-level shelter and habitat for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country shelter models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "shelter-country-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "shelter-region-mean",
+      "kind": "scalar",
+      "description": "Mean shelter score across the region."
+    },
+    {
+      "name": "shelter-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Shelter and habitat"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.shelter",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

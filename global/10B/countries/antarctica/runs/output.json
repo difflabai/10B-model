@@ -1,0 +1,47 @@
+{
+  "country": "antarctica",
+  "category_scores": {
+    "agency": 0.95,
+    "belonging": null,
+    "communications": 0.8,
+    "education": null,
+    "energy": 0.475,
+    "environment": 0.4,
+    "food": 0.2,
+    "governance": 0.61,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.4791,
+    "safety": null,
+    "shelter": 0.85,
+    "water": 0.85,
+    "work": null
+  },
+  "country_score": 0.6238,
+  "tier_scores": {
+    "subsistence": 0.6333,
+    "development": 0.5847,
+    "agency": 0.6533
+  },
+  "country_embedding": [
+    0.37427,
+    0.13863,
+    0.37037,
+    0.17484,
+    -0.11276,
+    -0.09099,
+    -0.01783,
+    0.21919,
+    -0.10355,
+    0.07495,
+    -0.20702,
+    -0.0654,
+    0.02492,
+    0.16849,
+    0.11863,
+    0.16986
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Antarctica, the three needs areas with the largest gaps are: food (0.20), environment (0.40), energy (0.47).\nThe three strongest areas are: agency (0.95), water (0.85), shelter (0.85).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

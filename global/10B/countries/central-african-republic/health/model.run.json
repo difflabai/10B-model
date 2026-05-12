@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.central-african-republic.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Central African Republic"
+    },
+    "category": {
+      "value": "health"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "health"
+    }
+  },
+  "output": "./runs/output.json"
+}

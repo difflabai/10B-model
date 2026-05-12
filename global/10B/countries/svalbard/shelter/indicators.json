@@ -1,0 +1,34 @@
+{
+  "country": "Svalbard",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the small population is primarily concentrated on the island of Spitsbergen in a handful of settlements on the south side of the Isfjorden, with Longyearbyen being the largest",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "arctic, tempered by warm North Atlantic Current; cool summers, cold winters; North Atlantic Current flows along west and north coasts of Spitsbergen, keeping water open and navigable most of the year",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "arctic, tempered by warm North Atlantic Current; cool summers, cold winters; North Atlantic Current flows along west and north coasts of Spitsbergen, keeping water open and navigable most of the year",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Kenya",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "161,451 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "18,603 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "157,596 km (2023)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "370 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "4 km oil, 1,432 km refined products (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "(2011) none specifically; the only significant inland waterway is the part of Lake Victoria within the boundaries of Kenya; Kisumu is the main port and has ferry connections to Uganda and Tanzania",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,819 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "5,935,831 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "294.97 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

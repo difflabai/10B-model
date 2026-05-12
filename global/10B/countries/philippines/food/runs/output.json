@@ -1,0 +1,52 @@
+{
+  "country": "Philippines",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7148,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.8462
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.7129
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.71478,
+    0.8,
+    0.75,
+    0.8462,
+    0.8945,
+    0.98862,
+    -0.3817,
+    0.17806,
+    0.54287,
+    -0.50466,
+    -0.72445,
+    -0.14348,
+    -0.24102,
+    -0.36678,
+    -0.29775,
+    -0.19756
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Turkmenistan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Amu Darya (shared with Tajikistan [s], Afghanistan, and Uzbekistan [m]) - 2,620 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Caspian Sea (shared with Iran, Azerbaijan, Russia, and Kazakhstan) - 374,000 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Internal (endorheic basin) drainage: (Aral Sea basin) Amu Darya (534,739 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical desert",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

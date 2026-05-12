@@ -1,0 +1,72 @@
+{
+  "country": "Djibouti",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 4,
+  "indicators_total": 10,
+  "composite_score": 0.3443,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2116
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.45
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4658
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.25
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.34434,
+    0.4,
+    0.2116,
+    0.45,
+    -0.89123,
+    0.34026,
+    -0.34899,
+    -0.26784,
+    0.52377,
+    0.09621,
+    -0.53014,
+    -0.44775,
+    0.80478,
+    0.0782,
+    -0.02489,
+    0.96567
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

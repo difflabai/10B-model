@@ -1,0 +1,52 @@
+{
+  "country": "Niger",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.4497,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3014
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.26
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.44972,
+    0.8,
+    0.3014,
+    0.5875,
+    0.71633,
+    -0.87424,
+    -0.92569,
+    -0.2286,
+    -0.99854,
+    -0.09871,
+    0.88925,
+    0.40008,
+    0.81415,
+    -0.03563,
+    -0.11202,
+    0.45165
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

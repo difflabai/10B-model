@@ -1,0 +1,34 @@
+{
+  "country": "Finland",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "85.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.338 million HELSINKI (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of people are found in the south; the northern interior areas remain sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "cold temperate; potentially subarctic but comparatively mild because of moderating influence of the North Atlantic Current, Baltic Sea, and more than 60,000 lakes",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "cold temperate; potentially subarctic but comparatively mild because of moderating influence of the North Atlantic Current, Baltic Sea, and more than 60,000 lakes",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

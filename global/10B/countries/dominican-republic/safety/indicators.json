@@ -1,0 +1,39 @@
+{
+  "country": "Dominican Republic",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of the Dominican Republic: Army of the Dominican Republic (Ejercito de la República Dominicana, ERD), Navy (Armada de República Dominicana or ARD; includes naval infantry), Dominican Air Force (Fuerza Aerea de la República Dominicana, FARD) (2025)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.6% of GDP (2023 est.)0.7% of GDP (2022 est.)0.7% of GDP (2021 est.)0.8% of GDP (2020 est.)0.7% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "121,141 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum or have received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

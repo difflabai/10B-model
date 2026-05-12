@@ -1,0 +1,52 @@
+{
+  "country": "Pakistan",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6592,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.5867
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65917,
+    1.0,
+    0.5867,
+    0.75,
+    -0.03682,
+    -0.4406,
+    -0.84637,
+    -0.97592,
+    -0.76474,
+    -0.25396,
+    0.67285,
+    -0.37432,
+    0.10271,
+    -0.02528,
+    0.23946,
+    0.64572
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "belize",
+  "category_scores": {
+    "agency": 0.8014,
+    "belonging": 0.7407,
+    "communications": 0.6335,
+    "education": 0.7937,
+    "energy": 0.6951,
+    "environment": 0.577,
+    "food": 0.5947,
+    "governance": 0.7143,
+    "health": 0.6316,
+    "meaning": 0.69,
+    "mobility": 0.4102,
+    "safety": 0.635,
+    "shelter": 0.643,
+    "water": 0.65,
+    "work": 0.6381
+  },
+  "country_score": 0.6566,
+  "tier_scores": {
+    "subsistence": 0.6309,
+    "development": 0.6341,
+    "agency": 0.7047
+  },
+  "country_embedding": [
+    0.65655,
+    0.79958,
+    0.66981,
+    0.57883,
+    0.16773,
+    0.01904,
+    0.07135,
+    0.16813,
+    0.16787,
+    -0.10397,
+    -0.02083,
+    -0.04537,
+    0.17351,
+    0.08352,
+    0.02862,
+    -0.09032
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Belize, the three needs areas with the largest gaps are: mobility (0.41), environment (0.58), food (0.59).\nThe three strongest areas are: agency (0.80), education (0.79), belonging (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

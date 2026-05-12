@@ -1,0 +1,47 @@
+{
+  "country": "virgin-islands",
+  "category_scores": {
+    "agency": 0.7264,
+    "belonging": 0.6682,
+    "communications": 0.6642,
+    "education": 0.65,
+    "energy": 0.5123,
+    "environment": 0.5562,
+    "food": 0.5433,
+    "governance": 0.65,
+    "health": 0.7842,
+    "meaning": 0.65,
+    "mobility": 0.2852,
+    "safety": 0.75,
+    "shelter": 0.6875,
+    "water": 0.75,
+    "work": 0.6675
+  },
+  "country_score": 0.6363,
+  "tier_scores": {
+    "subsistence": 0.703,
+    "development": 0.5558,
+    "agency": 0.6502
+  },
+  "country_embedding": [
+    0.63633,
+    0.56855,
+    0.67667,
+    0.46567,
+    0.02684,
+    -0.04589,
+    -0.15465,
+    0.12926,
+    0.21042,
+    0.15364,
+    0.11124,
+    0.16109,
+    -0.12096,
+    -0.11525,
+    -0.38476,
+    -0.04782
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Virgin Islands, the three needs areas with the largest gaps are: mobility (0.29), energy (0.51), food (0.54).\nThe three strongest areas are: health (0.78), water (0.75), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

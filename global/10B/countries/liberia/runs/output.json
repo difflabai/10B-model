@@ -1,0 +1,47 @@
+{
+  "country": "liberia",
+  "category_scores": {
+    "agency": 0.6816,
+    "belonging": 0.6594,
+    "communications": 0.6582,
+    "education": 0.4952,
+    "energy": 0.467,
+    "environment": 0.5058,
+    "food": 0.5289,
+    "governance": 0.7286,
+    "health": 0.4858,
+    "meaning": 0.61,
+    "mobility": 0.3844,
+    "safety": 0.6783,
+    "shelter": 0.6738,
+    "water": 0.75,
+    "work": 0.5694
+  },
+  "country_score": 0.5918,
+  "tier_scores": {
+    "subsistence": 0.6234,
+    "development": 0.5148,
+    "agency": 0.6371
+  },
+  "country_embedding": [
+    0.59176,
+    0.79573,
+    0.49839,
+    0.55083,
+    -0.13339,
+    -0.01728,
+    -0.00891,
+    -0.09269,
+    -0.13557,
+    -0.26814,
+    0.04279,
+    0.08071,
+    -0.11599,
+    0.09937,
+    0.07696,
+    0.12161
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Liberia, the three needs areas with the largest gaps are: mobility (0.38), energy (0.47), health (0.49).\nThe three strongest areas are: water (0.75), governance (0.73), agency (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

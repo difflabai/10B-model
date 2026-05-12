@@ -1,0 +1,47 @@
+{
+  "country": "uganda",
+  "category_scores": {
+    "agency": 0.5876,
+    "belonging": 0.6533,
+    "communications": 0.6568,
+    "education": 0.6366,
+    "energy": 0.5655,
+    "environment": 0.4656,
+    "food": 0.5614,
+    "governance": 0.7286,
+    "health": 0.5374,
+    "meaning": 0.65,
+    "mobility": 0.3928,
+    "safety": 0.6056,
+    "shelter": 0.6155,
+    "water": 0.65,
+    "work": 0.6451
+  },
+  "country_score": 0.5968,
+  "tier_scores": {
+    "subsistence": 0.594,
+    "development": 0.5794,
+    "agency": 0.617
+  },
+  "country_embedding": [
+    0.59678,
+    0.8453,
+    0.55303,
+    0.62447,
+    0.04048,
+    0.00191,
+    0.07414,
+    -0.03908,
+    -0.02113,
+    -0.14123,
+    0.1463,
+    -0.15986,
+    0.11566,
+    0.35392,
+    -0.0361,
+    0.05687
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Uganda, the three needs areas with the largest gaps are: mobility (0.39), environment (0.47), health (0.54).\nThe three strongest areas are: governance (0.73), communications (0.66), belonging (0.65).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Tunisia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8199,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7414
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.908
+    }
+  ],
+  "embedding": [
+    0.81989,
+    0.83333,
+    0.85,
+    0.85,
+    -0.39257,
+    -0.31438,
+    0.70459,
+    -0.50759,
+    0.62405,
+    0.10127,
+    -0.26616,
+    -0.4312,
+    -0.4959,
+    0.16472,
+    -0.54089,
+    0.78253
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

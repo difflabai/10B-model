@@ -1,0 +1,72 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.3382,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4132
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.33819,
+    0.5,
+    0.2,
+    0.2,
+    -0.23314,
+    -0.67227,
+    -0.25817,
+    0.9888,
+    -0.45168,
+    0.69839,
+    -0.97137,
+    -0.16332,
+    0.62188,
+    0.81955,
+    -0.58022,
+    -0.24733
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

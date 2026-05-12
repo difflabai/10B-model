@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.nauru",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Nauru"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.nauru.food",
+        "global.10B.countries.nauru.water",
+        "global.10B.countries.nauru.shelter",
+        "global.10B.countries.nauru.health",
+        "global.10B.countries.nauru.safety",
+        "global.10B.countries.nauru.education",
+        "global.10B.countries.nauru.work",
+        "global.10B.countries.nauru.energy",
+        "global.10B.countries.nauru.mobility",
+        "global.10B.countries.nauru.communications",
+        "global.10B.countries.nauru.governance",
+        "global.10B.countries.nauru.environment",
+        "global.10B.countries.nauru.belonging",
+        "global.10B.countries.nauru.meaning",
+        "global.10B.countries.nauru.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

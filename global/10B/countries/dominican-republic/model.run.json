@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.dominican-republic",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Dominican Republic"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.dominican-republic.food",
+        "global.10B.countries.dominican-republic.water",
+        "global.10B.countries.dominican-republic.shelter",
+        "global.10B.countries.dominican-republic.health",
+        "global.10B.countries.dominican-republic.safety",
+        "global.10B.countries.dominican-republic.education",
+        "global.10B.countries.dominican-republic.work",
+        "global.10B.countries.dominican-republic.energy",
+        "global.10B.countries.dominican-republic.mobility",
+        "global.10B.countries.dominican-republic.communications",
+        "global.10B.countries.dominican-republic.governance",
+        "global.10B.countries.dominican-republic.environment",
+        "global.10B.countries.dominican-republic.belonging",
+        "global.10B.countries.dominican-republic.meaning",
+        "global.10B.countries.dominican-republic.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

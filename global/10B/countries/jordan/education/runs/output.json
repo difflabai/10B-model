@@ -1,0 +1,52 @@
+{
+  "country": "Jordan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6868,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9508
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.508
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.68676,
+    1.0,
+    0.9508,
+    0.508,
+    -0.97507,
+    0.07756,
+    0.81546,
+    -0.97916,
+    -0.99716,
+    -0.64553,
+    0.67446,
+    0.71133,
+    -0.55608,
+    -0.11244,
+    -0.93057,
+    0.9288
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

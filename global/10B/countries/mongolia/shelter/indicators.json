@@ -1,0 +1,34 @@
+{
+  "country": "Mongolia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "69.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.673 million ULAANBAATAR (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "sparsely distributed population throughout the country; the capital of Ulaanbaatar and the northern city of Darhan support the highest population densities",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "desert; continental (large daily and seasonal temperature ranges)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; continental (large daily and seasonal temperature ranges)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

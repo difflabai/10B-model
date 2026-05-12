@@ -1,0 +1,52 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.4,
+    0.65,
+    0.75,
+    0.54833,
+    -0.5967,
+    -0.62606,
+    -0.19136,
+    0.94705,
+    -0.91199,
+    -0.35467,
+    0.66036,
+    -0.0107,
+    -0.78607,
+    0.81955,
+    0.8024
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

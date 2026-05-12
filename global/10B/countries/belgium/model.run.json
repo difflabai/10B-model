@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.belgium",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Belgium"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.belgium.food",
+        "global.10B.countries.belgium.water",
+        "global.10B.countries.belgium.shelter",
+        "global.10B.countries.belgium.health",
+        "global.10B.countries.belgium.safety",
+        "global.10B.countries.belgium.education",
+        "global.10B.countries.belgium.work",
+        "global.10B.countries.belgium.energy",
+        "global.10B.countries.belgium.mobility",
+        "global.10B.countries.belgium.communications",
+        "global.10B.countries.belgium.governance",
+        "global.10B.countries.belgium.environment",
+        "global.10B.countries.belgium.belonging",
+        "global.10B.countries.belgium.meaning",
+        "global.10B.countries.belgium.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

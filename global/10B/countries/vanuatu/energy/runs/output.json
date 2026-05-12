@@ -1,0 +1,84 @@
+{
+  "country": "Vanuatu",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5559,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.5667
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.919
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.5204
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2683
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6625
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.625
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.503
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.5559,
+    0.84615,
+    0.5667,
+    0.919,
+    0.74429,
+    -0.10555,
+    -0.41717,
+    0.01253,
+    0.21758,
+    0.10039,
+    0.73626,
+    -0.53246,
+    0.99707,
+    -0.65606,
+    0.67193,
+    0.18483
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

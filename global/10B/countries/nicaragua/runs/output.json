@@ -1,0 +1,47 @@
+{
+  "country": "nicaragua",
+  "category_scores": {
+    "agency": 0.7294,
+    "belonging": 0.6659,
+    "communications": 0.6267,
+    "education": 0.7128,
+    "energy": 0.6353,
+    "environment": 0.5197,
+    "food": 0.6939,
+    "governance": 0.7286,
+    "health": 0.6187,
+    "meaning": 0.63,
+    "mobility": 0.4739,
+    "safety": 0.665,
+    "shelter": 0.654,
+    "water": 0.65,
+    "work": 0.6158
+  },
+  "country_score": 0.6413,
+  "tier_scores": {
+    "subsistence": 0.6563,
+    "development": 0.6129,
+    "agency": 0.6547
+  },
+  "country_embedding": [
+    0.64131,
+    0.79043,
+    0.65749,
+    0.62253,
+    -0.06554,
+    0.22449,
+    0.0393,
+    -0.08358,
+    -0.27246,
+    -0.00475,
+    0.00879,
+    0.04954,
+    0.03771,
+    -0.03862,
+    -0.10845,
+    -0.13681
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Nicaragua, the three needs areas with the largest gaps are: mobility (0.47), environment (0.52), work (0.62).\nThe three strongest areas are: agency (0.73), governance (0.73), education (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

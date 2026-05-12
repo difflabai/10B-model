@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.uganda",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Uganda"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.uganda.food",
+        "global.10B.countries.uganda.water",
+        "global.10B.countries.uganda.shelter",
+        "global.10B.countries.uganda.health",
+        "global.10B.countries.uganda.safety",
+        "global.10B.countries.uganda.education",
+        "global.10B.countries.uganda.work",
+        "global.10B.countries.uganda.energy",
+        "global.10B.countries.uganda.mobility",
+        "global.10B.countries.uganda.communications",
+        "global.10B.countries.uganda.governance",
+        "global.10B.countries.uganda.environment",
+        "global.10B.countries.uganda.belonging",
+        "global.10B.countries.uganda.meaning",
+        "global.10B.countries.uganda.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

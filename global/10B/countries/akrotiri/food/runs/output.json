@@ -1,0 +1,52 @@
+{
+  "country": "Akrotiri",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 5,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": null
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.28231,
+    -0.34792,
+    0.72436,
+    -0.96811,
+    0.43661,
+    0.64373,
+    -0.65328,
+    -0.61828,
+    0.26656,
+    -0.72988,
+    -0.8041,
+    0.85119
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

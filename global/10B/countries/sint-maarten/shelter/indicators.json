@@ -1,0 +1,34 @@
+{
+  "country": "Sint Maarten",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1,327 PHILIPSBURG (capital) (2011)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most populous areas are Lower Prince's Quarter (north of Philipsburg), followed closely by Cul de Sac",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine climate, ameliorated by northeast trade winds, results in moderate temperatures; average rainfall of 150 cm/year; hurricane season stretches from July to November",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine climate, ameliorated by northeast trade winds, results in moderate temperatures; average rainfall of 150 cm/year; hurricane season stretches from July to November",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

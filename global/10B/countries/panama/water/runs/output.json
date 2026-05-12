@@ -1,0 +1,56 @@
+{
+  "country": "Panama",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6,
+    0.33333,
+    0.55,
+    0.65,
+    0.52508,
+    -0.0732,
+    0.79168,
+    -0.62353,
+    -0.06389,
+    -0.3116,
+    0.82644,
+    -0.70205,
+    -0.13268,
+    -0.51925,
+    -0.25039,
+    -0.40929
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.costa-rica",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Costa Rica"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.costa-rica.food",
+        "global.10B.countries.costa-rica.water",
+        "global.10B.countries.costa-rica.shelter",
+        "global.10B.countries.costa-rica.health",
+        "global.10B.countries.costa-rica.safety",
+        "global.10B.countries.costa-rica.education",
+        "global.10B.countries.costa-rica.work",
+        "global.10B.countries.costa-rica.energy",
+        "global.10B.countries.costa-rica.mobility",
+        "global.10B.countries.costa-rica.communications",
+        "global.10B.countries.costa-rica.governance",
+        "global.10B.countries.costa-rica.environment",
+        "global.10B.countries.costa-rica.belonging",
+        "global.10B.countries.costa-rica.meaning",
+        "global.10B.countries.costa-rica.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

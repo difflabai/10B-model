@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.micronesia-federated-states-of",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Micronesia, Federated States of"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.micronesia-federated-states-of.food",
+        "global.10B.countries.micronesia-federated-states-of.water",
+        "global.10B.countries.micronesia-federated-states-of.shelter",
+        "global.10B.countries.micronesia-federated-states-of.health",
+        "global.10B.countries.micronesia-federated-states-of.safety",
+        "global.10B.countries.micronesia-federated-states-of.education",
+        "global.10B.countries.micronesia-federated-states-of.work",
+        "global.10B.countries.micronesia-federated-states-of.energy",
+        "global.10B.countries.micronesia-federated-states-of.mobility",
+        "global.10B.countries.micronesia-federated-states-of.communications",
+        "global.10B.countries.micronesia-federated-states-of.governance",
+        "global.10B.countries.micronesia-federated-states-of.environment",
+        "global.10B.countries.micronesia-federated-states-of.belonging",
+        "global.10B.countries.micronesia-federated-states-of.meaning",
+        "global.10B.countries.micronesia-federated-states-of.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

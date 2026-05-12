@@ -1,0 +1,52 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6308,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.6134
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.61
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.63085,
+    0.8,
+    0.75,
+    0.6134,
+    0.092,
+    0.23235,
+    0.48461,
+    -0.52303,
+    0.80218,
+    0.58059,
+    -0.72045,
+    -0.81628,
+    -0.72622,
+    0.99854,
+    -0.61892,
+    -0.38393
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

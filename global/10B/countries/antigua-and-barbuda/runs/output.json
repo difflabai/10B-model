@@ -1,0 +1,47 @@
+{
+  "country": "antigua-and-barbuda",
+  "category_scores": {
+    "agency": 0.7695,
+    "belonging": 0.6893,
+    "communications": 0.7064,
+    "education": 0.7582,
+    "energy": 0.5343,
+    "environment": 0.5495,
+    "food": 0.6405,
+    "governance": 0.7143,
+    "health": 0.687,
+    "meaning": 0.63,
+    "mobility": 0.3708,
+    "safety": 0.75,
+    "shelter": 0.6113,
+    "water": 0.65,
+    "work": 0.6931
+  },
+  "country_score": 0.6503,
+  "tier_scores": {
+    "subsistence": 0.6678,
+    "development": 0.6126,
+    "agency": 0.6705
+  },
+  "country_embedding": [
+    0.65028,
+    0.74288,
+    0.70204,
+    0.53926,
+    0.24495,
+    -0.03651,
+    0.23401,
+    0.02154,
+    0.19592,
+    -0.12596,
+    0.0825,
+    -0.19948,
+    -0.0063,
+    -0.02071,
+    0.16232,
+    -0.14981
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Antigua And Barbuda, the three needs areas with the largest gaps are: mobility (0.37), energy (0.53), environment (0.55).\nThe three strongest areas are: agency (0.77), education (0.76), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Indonesia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "496,607 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "283,102 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "213,505 km (2011)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "513 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "24 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,064 km condensate, 150 km condensate/gas, 11,702 km gas, 119 km liquid petroleum gas, 7,767 km oil, 77 km oil/gas/water, 728 km refined products, 53 km unknown, 44 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "21,579 km (2011)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "8,159 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "115,154,100 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,131,910,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

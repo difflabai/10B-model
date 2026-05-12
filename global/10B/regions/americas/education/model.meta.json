@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.education",
+  "name": "Americas — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "Region-level education and learning for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country education models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-region-mean",
+      "kind": "scalar",
+      "description": "Mean education score across the region."
+    },
+    {
+      "name": "education-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.education",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

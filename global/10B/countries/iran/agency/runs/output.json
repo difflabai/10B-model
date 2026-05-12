@@ -1,0 +1,56 @@
+{
+  "country": "Iran",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7865,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.82
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    }
+  ],
+  "embedding": [
+    0.7865,
+    0.83333,
+    0.85,
+    0.85,
+    0.82937,
+    0.82916,
+    -0.93365,
+    -0.92313,
+    -0.59313,
+    -0.19664,
+    0.0363,
+    0.35961,
+    0.72708,
+    -0.52148,
+    0.83227,
+    0.8732
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

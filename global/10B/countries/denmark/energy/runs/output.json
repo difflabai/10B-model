@@ -1,0 +1,84 @@
+{
+  "country": "Denmark",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6923076923076923,
+  "indicators_scored": 9,
+  "indicators_total": 13,
+  "composite_score": 0.6864,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8753
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.5325
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.95
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.8
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.68643,
+    0.69231,
+    0.97,
+    0.55,
+    0.41332,
+    -0.83066,
+    -0.94446,
+    0.96399,
+    0.09032,
+    0.7879,
+    0.01805,
+    -0.53338,
+    -0.20043,
+    0.03883,
+    0.9863,
+    0.90643
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

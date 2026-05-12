@@ -1,0 +1,56 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6716,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.37
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    }
+  ],
+  "embedding": [
+    0.6716,
+    0.83333,
+    0.85,
+    0.85,
+    0.0276,
+    0.40685,
+    0.36703,
+    -0.55996,
+    0.24096,
+    -0.23259,
+    -0.63165,
+    -0.58947,
+    0.51177,
+    0.80908,
+    0.01976,
+    0.63726
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

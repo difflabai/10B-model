@@ -1,0 +1,52 @@
+{
+  "country": "Bolivia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8325,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.88
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.8325,
+    0.8,
+    0.88,
+    0.95,
+    -0.87436,
+    0.12264,
+    -0.98914,
+    -0.01418,
+    -0.04997,
+    -0.46557,
+    0.66711,
+    -0.16783,
+    0.1093,
+    -0.26601,
+    0.29848,
+    0.27807
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

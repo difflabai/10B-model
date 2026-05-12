@@ -1,0 +1,69 @@
+{
+  "country_slug": "gaza-strip",
+  "country_label": "Gaza Strip",
+  "country_score": 0.6294,
+  "tier_scores": {
+    "subsistence": 0.6517,
+    "development": 0.6188,
+    "agency": 0.6122
+  },
+  "cluster_id": null,
+  "cluster_label": null,
+  "connect": {
+    "question": "How can I connect with my neighbors?",
+    "categories_consulted": [
+      "belonging",
+      "meaning",
+      "communications"
+    ],
+    "category_scores": {
+      "belonging": 0.618,
+      "meaning": 0.65,
+      "communications": 0.6195
+    },
+    "weakest_category": "belonging",
+    "narrative": "Your country's biggest community-building gap is in **belonging** (score 0.62, world mean 0.68, -0.06 vs world)."
+  },
+  "contribute": {
+    "question": "What economic value can I bring to my community?",
+    "categories_consulted": [
+      "work",
+      "education",
+      "energy",
+      "communications"
+    ],
+    "category_scores": {
+      "work": 0.4972,
+      "education": 0.768,
+      "energy": 0.5905,
+      "communications": 0.6195
+    },
+    "above_world_mean": [
+      "education",
+      "energy"
+    ],
+    "below_world_mean": [
+      "work",
+      "communications"
+    ],
+    "narrative": "Below-world-mean economic capability dimensions you can plausibly close: work, communications. Above-world-mean dimensions you can leverage as sources of value: education, energy. Personal-agent guidance: in an AI economic transition, the work/education/communications complement is the lever — pursue value at the intersection of your strengths and your community's gaps."
+  },
+  "advocate": {
+    "question": "How can I effectively advocate for change?",
+    "categories_consulted": [
+      "agency",
+      "governance",
+      "environment",
+      "safety"
+    ],
+    "category_scores": {
+      "agency": 0.765,
+      "governance": null,
+      "environment": 0.4157,
+      "safety": 0.625
+    },
+    "highest_leverage": "environment",
+    "narrative": "Highest-leverage advocacy dimension: **environment** (country 0.42 vs world 0.50). Approach: pair the strongest agency/governance score (gives you the institutional surface to operate within) with the highest-leverage gap (gives you the change to push for)."
+  },
+  "scored_with": "scripts/10b/agent_context.py v0.1.0"
+}

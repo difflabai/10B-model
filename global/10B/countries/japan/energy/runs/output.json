@@ -1,0 +1,84 @@
+{
+  "country": "Japan",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5653,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.3525
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.61
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.44
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.536
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.604
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.656
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.56532,
+    0.84615,
+    0.97,
+    0.55,
+    -0.00725,
+    -0.06593,
+    0.47161,
+    -0.09682,
+    0.80487,
+    -0.62695,
+    0.1064,
+    -0.87356,
+    0.10295,
+    -0.43999,
+    0.3051,
+    -0.66412
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

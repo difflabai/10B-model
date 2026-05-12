@@ -1,0 +1,52 @@
+{
+  "country": "Saint Lucia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6125,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6125,
+    0.6,
+    0.5625,
+    0.725,
+    0.35055,
+    0.99829,
+    -0.93448,
+    0.38723,
+    0.32628,
+    -0.78689,
+    -0.63134,
+    0.68148,
+    0.61227,
+    0.24239,
+    -0.03023,
+    0.36092
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.2857142857142857,
+  "indicators_scored": 2,
+  "indicators_total": 7,
+  "composite_score": 0.4094,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.4188
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.40938,
+    0.28571,
+    0.4,
+    0.4188,
+    0.11107,
+    -0.83673,
+    -0.76858,
+    -0.33574,
+    0.15782,
+    0.8667,
+    0.49807,
+    0.21788,
+    -0.49764,
+    0.37829,
+    -0.57366,
+    0.55157
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

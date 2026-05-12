@@ -1,0 +1,72 @@
+{
+  "country": "Kuwait",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.4399,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2291
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2675
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.3389
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5335
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.43986,
+    0.8,
+    0.2291,
+    0.2675,
+    0.40179,
+    0.4862,
+    -0.26616,
+    0.99258,
+    -0.65658,
+    -0.08736,
+    -0.88531,
+    -0.91208,
+    0.342,
+    0.19249,
+    0.05653,
+    -0.07829
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Germany",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Federal Armed Forces (Bundeswehr): Army (Heer), Navy (Deutsche Marine, includes naval air arm), Air Force (Luftwaffe, includes air defense), Joint Support and Enabling Service (Streitkraeftebasis, SKB), Central Medical Service (Zentraler Sanitaetsdienst, ZSanDstBw), Cyber and Information Space Command (Kommando Cyber und Informationsraum, Kdo CIR) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.1% of GDP (2024 est.)1.7% of GDP (2023)1.5% of GDP (2022)1.5% of GDP (2021)1.5% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "664,238 (Syria), 183,631 (Afghanistan), 151,254 (Iraq), 64,496 (Eritrea), 47,658 (Iran), 38,755 (Turkey), 32,155 (Somalia), 13,334 (Russia), 12,155 (Nigeria), 9,250 (Pakistan), 6,257 (Serbia and Kosovo), 6,912 (Ethiopia), 5,532 (Azerbaijan) (mid-year 2022); 1,139,690 (Ukraine) (as of 3 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

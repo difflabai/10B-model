@@ -1,0 +1,34 @@
+{
+  "country": "Dhekelia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Geography: Climate",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.0
+}

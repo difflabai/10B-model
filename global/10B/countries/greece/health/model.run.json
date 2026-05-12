@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.greece.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Greece"
+    },
+    "category": {
+      "value": "health"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "health"
+    }
+  },
+  "output": "./runs/output.json"
+}

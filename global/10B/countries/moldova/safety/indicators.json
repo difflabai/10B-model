@@ -1,0 +1,39 @@
+{
+  "country": "Moldova",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of the Republic of Moldova (Forțele Armate ale Republicii Moldova): National Army (comprised of a General Staff, a Land Forces Command, and an Air Force Command)Ministry of Internal Affairs: General Carabinieri Inspectorate (aka Carabinieri Troops or Trupele de Carabinieri), General Police Inspectorate (GPI), General Inspectorate of the Border Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.5% of GDP (2023 est.)0.4% of GDP (2022 est.)0.4% of GDP (2021 est.)0.4% of GDP (2020 est.)0.4% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "116,855 (Ukraine) (as of 7 April 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

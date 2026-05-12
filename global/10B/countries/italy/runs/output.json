@@ -1,0 +1,47 @@
+{
+  "country": "italy",
+  "category_scores": {
+    "agency": 0.794,
+    "belonging": 0.7046,
+    "communications": 0.7439,
+    "education": 0.7971,
+    "energy": 0.5973,
+    "environment": 0.5723,
+    "food": 0.7021,
+    "governance": 0.7429,
+    "health": 0.8036,
+    "meaning": 0.65,
+    "mobility": 0.6407,
+    "safety": 0.6167,
+    "shelter": 0.7105,
+    "water": 0.7,
+    "work": 0.6737
+  },
+  "country_score": 0.6966,
+  "tier_scores": {
+    "subsistence": 0.7066,
+    "development": 0.6905,
+    "agency": 0.6928
+  },
+  "country_embedding": [
+    0.69662,
+    0.83509,
+    0.76785,
+    0.70936,
+    0.10611,
+    0.0612,
+    -0.06203,
+    -0.08451,
+    -0.03377,
+    0.05275,
+    -0.19475,
+    -0.20581,
+    0.13262,
+    0.05971,
+    -0.15969,
+    0.09242
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Italy, the three needs areas with the largest gaps are: environment (0.57), energy (0.60), safety (0.62).\nThe three strongest areas are: health (0.80), education (0.80), agency (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Tuvalu",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3076923076923077,
+  "indicators_scored": 4,
+  "indicators_total": 13,
+  "composite_score": 0.8623,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9592
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8623,
+    0.30769,
+    0.97,
+    0.97,
+    -0.43105,
+    -0.80844,
+    0.56979,
+    0.9108,
+    -0.92691,
+    0.742,
+    -0.935,
+    0.75665,
+    -0.42446,
+    0.85022,
+    -0.24208,
+    -0.22496
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

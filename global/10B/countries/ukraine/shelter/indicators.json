@@ -1,0 +1,34 @@
+{
+  "country": "Ukraine",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "70.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.017 million KYIV (capital), 1.421 million Kharkiv, 1.008 million Odesa, 942,000 Dnipropetrovsk, 888,000 Donetsk (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "densest settlement in the eastern (Donbas) and western regions; noteable concentrations in and around major urban areas of Kyiv, Kharkiv, Donets'k, Dnipropetrovs'k, and Odesa",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate continental; Mediterranean only on the southern Crimean coast; precipitation disproportionately distributed, highest in west and north, lesser in east and southeast; winters vary from cool along the Black Sea to cold farther inland; warm summers across the greater part of the country, hot in the south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate continental; Mediterranean only on the southern Crimean coast; precipitation disproportionately distributed, highest in west and north, lesser in east and southeast; winters vary from cool along the Black Sea to cold farther inland; warm summers across the greater part of the country, hot in the south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

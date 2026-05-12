@@ -1,0 +1,56 @@
+{
+  "country": "Clipperton Island",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": null
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.38851,
+    0.86404,
+    0.19655,
+    -0.25966,
+    -0.33227,
+    -0.77148,
+    -0.92667,
+    0.95041,
+    0.70175,
+    -0.89987,
+    -0.67922,
+    -0.86377
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

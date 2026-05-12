@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bouvet-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bouvet Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bouvet-island.food",
+        "global.10B.countries.bouvet-island.water",
+        "global.10B.countries.bouvet-island.shelter",
+        "global.10B.countries.bouvet-island.health",
+        "global.10B.countries.bouvet-island.safety",
+        "global.10B.countries.bouvet-island.education",
+        "global.10B.countries.bouvet-island.work",
+        "global.10B.countries.bouvet-island.energy",
+        "global.10B.countries.bouvet-island.mobility",
+        "global.10B.countries.bouvet-island.communications",
+        "global.10B.countries.bouvet-island.governance",
+        "global.10B.countries.bouvet-island.environment",
+        "global.10B.countries.bouvet-island.belonging",
+        "global.10B.countries.bouvet-island.meaning",
+        "global.10B.countries.bouvet-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

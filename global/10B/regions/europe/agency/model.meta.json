@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.agency",
+  "name": "Europe — Agency and self-determination",
+  "kind": "sector_economic",
+  "blurb": "Region-level agency and self-determination for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country agency models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "agency-country-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "agency-region-mean",
+      "kind": "scalar",
+      "description": "Mean agency score across the region."
+    },
+    {
+      "name": "agency-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Agency and self-determination"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.agency",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

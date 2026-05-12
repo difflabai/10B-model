@@ -1,0 +1,59 @@
+{
+  "country": "Belgium",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "118,414 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "118,414 km (2015) (includes 1,747 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "49 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "108 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "3,139 km gas, 154 km oil, 535 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "2,043 km (2012) (1,528 km in regular commercial use)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,602 km (2020) 3,160 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "13,639,487 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,285,340,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

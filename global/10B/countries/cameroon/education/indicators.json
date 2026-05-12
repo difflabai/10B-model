@@ -1,0 +1,34 @@
+{
+  "country": "Cameroon",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "77.1%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "12 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "24 major African language groups, English (official), French (official)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "The World Factbook, the indispensable source for basic information. (English)The World Factbook, une source indispensable d'informations de base. (French)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

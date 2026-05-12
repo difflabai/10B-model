@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.palmyra-atoll",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Palmyra Atoll"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.palmyra-atoll.food",
+        "global.10B.countries.palmyra-atoll.water",
+        "global.10B.countries.palmyra-atoll.shelter",
+        "global.10B.countries.palmyra-atoll.health",
+        "global.10B.countries.palmyra-atoll.safety",
+        "global.10B.countries.palmyra-atoll.education",
+        "global.10B.countries.palmyra-atoll.work",
+        "global.10B.countries.palmyra-atoll.energy",
+        "global.10B.countries.palmyra-atoll.mobility",
+        "global.10B.countries.palmyra-atoll.communications",
+        "global.10B.countries.palmyra-atoll.governance",
+        "global.10B.countries.palmyra-atoll.environment",
+        "global.10B.countries.palmyra-atoll.belonging",
+        "global.10B.countries.palmyra-atoll.meaning",
+        "global.10B.countries.palmyra-atoll.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

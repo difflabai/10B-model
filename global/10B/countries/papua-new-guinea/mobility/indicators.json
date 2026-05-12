@@ -1,0 +1,59 @@
+{
+  "country": "Papua New Guinea",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "24,862 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "2,647 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "22,215 km (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "535 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "3 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "264 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "11,000 km (2011)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "964,713 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "30.93 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

@@ -1,0 +1,59 @@
+{
+  "country": "China",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "5.2 million km (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "4.578 million km (2020) (includes 168000 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "622,000 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "531 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "104 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "76,000 km gas, 30,400 km crude oil, 27,700 km refined petroleum products, 797,000 km water (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "27,700 km (2020) (navigable waterways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "150,000 km (2021) 1.435-m gauge (100,000 km electrified); 104,0000 traditional, 40,000 high-speed",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "436,183,969 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "611,439,830 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

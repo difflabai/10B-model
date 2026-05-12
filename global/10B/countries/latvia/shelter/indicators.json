@@ -1,0 +1,34 @@
+{
+  "country": "Latvia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "68.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "621,000 RIGA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "largest concentration of people is found in and around the port and capital city of Riga; small agglomerations are scattered throughout the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "maritime; wet, moderate winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "maritime; wet, moderate winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

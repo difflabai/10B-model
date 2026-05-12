@@ -1,0 +1,52 @@
+{
+  "country": "Marshall Islands",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7599,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9496
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.5
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.75992,
+    1.0,
+    0.9496,
+    0.95,
+    0.86584,
+    -0.10069,
+    0.488,
+    0.57324,
+    -0.45232,
+    -0.33434,
+    0.75494,
+    -0.47985,
+    -0.85791,
+    0.26293,
+    -0.57,
+    0.24416
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

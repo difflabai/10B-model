@@ -1,0 +1,34 @@
+{
+  "country": "Puerto Rico",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "92.4%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "16 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish, English",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

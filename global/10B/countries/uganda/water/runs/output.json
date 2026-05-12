@@ -1,0 +1,56 @@
+{
+  "country": "Uganda",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.65
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.5,
+    0.65,
+    0.65,
+    -0.16262,
+    0.34871,
+    -0.1964,
+    -0.48864,
+    0.37725,
+    -0.98114,
+    0.67706,
+    -0.33965,
+    0.47262,
+    0.45129,
+    -0.44646,
+    0.30791
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

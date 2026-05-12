@@ -1,0 +1,60 @@
+{
+  "country": "Clipperton Island",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": null
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.8208,
+    0.3113,
+    -0.82541,
+    -0.11363,
+    0.8443,
+    -0.8941,
+    0.50048,
+    0.45623,
+    -0.01665,
+    -0.1913,
+    -0.23955,
+    0.922
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

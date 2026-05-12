@@ -1,0 +1,39 @@
+{
+  "country": "New Zealand",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "New Zealand Defense Force (NZDF): New Zealand Army, Royal New Zealand Navy, Royal New Zealand Air Force (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.3% of GDP (2023)1.3% of GDP (2022)1.3% of GDP (2021)1.5% of GDP (2020)1.4% of GDP (2019)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

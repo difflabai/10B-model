@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.turks-and-caicos-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Turks and Caicos Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.turks-and-caicos-islands.food",
+        "global.10B.countries.turks-and-caicos-islands.water",
+        "global.10B.countries.turks-and-caicos-islands.shelter",
+        "global.10B.countries.turks-and-caicos-islands.health",
+        "global.10B.countries.turks-and-caicos-islands.safety",
+        "global.10B.countries.turks-and-caicos-islands.education",
+        "global.10B.countries.turks-and-caicos-islands.work",
+        "global.10B.countries.turks-and-caicos-islands.energy",
+        "global.10B.countries.turks-and-caicos-islands.mobility",
+        "global.10B.countries.turks-and-caicos-islands.communications",
+        "global.10B.countries.turks-and-caicos-islands.governance",
+        "global.10B.countries.turks-and-caicos-islands.environment",
+        "global.10B.countries.turks-and-caicos-islands.belonging",
+        "global.10B.countries.turks-and-caicos-islands.meaning",
+        "global.10B.countries.turks-and-caicos-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

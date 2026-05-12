@@ -1,0 +1,34 @@
+{
+  "country": "Madagascar",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": "due to the effects of extreme weather events and slow economic recovery - according to the latest May 2022 analysis, the prevalence of food insecurity in the southern regions is projected to peak at 2.1 million people by December 2022 until at least March 2023; overall, the number of people requiring humanitarian assistance by the end of 2022 is expected to be about 30 percent higher compared to the peak number in 2021; the poor food security situation is mainly the consequence of six consecutive poor agricultural seasons that culminated in very tight food supplies for rural households and curbed incomes from crop sales; high rates of poverty and increased prices of essential food commodities, combined with a high reliance on market supplies due to low harvests for own consumption, are also contributing to the high rates of food insecurity across the southern regions (2022)",
+      "present": true
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "rice, sugarcane, cassava, sweet potatoes, milk, bananas, vegetables, mangoes/guavas, maize, potatoes (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "71.1% (2018 est.)agricultural land: arable land: 6% (2018 est.)agricultural land: permanent crops: 1% (2018 est.)agricultural land: permanent pasture: 64.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "22.6% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "29,452,714",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.mobility",
+        "global.10B.countries.antarctica.mobility",
+        "global.10B.countries.canada.mobility",
+        "global.10B.countries.dhekelia.mobility",
+        "global.10B.countries.france.mobility",
+        "global.10B.countries.french-southern-and-antarctic-lands.mobility",
+        "global.10B.countries.greenland.mobility",
+        "global.10B.countries.heard-island-and-mcdonald-islands.mobility",
+        "global.10B.countries.russia.mobility",
+        "global.10B.countries.svalbard.mobility"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

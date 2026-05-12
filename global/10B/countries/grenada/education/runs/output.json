@@ -1,0 +1,52 @@
+{
+  "country": "Grenada",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7539,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9532
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75392,
+    0.8,
+    0.9532,
+    0.5625,
+    0.08486,
+    -0.82434,
+    0.33541,
+    0.6387,
+    -0.76049,
+    0.55395,
+    0.83752,
+    0.13371,
+    0.72647,
+    0.10985,
+    0.59792,
+    -0.97964
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

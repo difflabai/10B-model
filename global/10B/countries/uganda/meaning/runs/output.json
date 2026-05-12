@@ -1,0 +1,56 @@
+{
+  "country": "Uganda",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.55
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.83333,
+    0.55,
+    0.65,
+    -0.3669,
+    -0.75583,
+    -0.39202,
+    -0.89648,
+    0.41842,
+    -0.11644,
+    -0.29653,
+    0.46123,
+    0.49999,
+    0.74957,
+    -0.77841,
+    -0.24096
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Spain",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6423,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.672
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.67
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.8567
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.512
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.7505
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.584
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64229,
+    0.84615,
+    0.97,
+    0.55,
+    0.3243,
+    0.34673,
+    -0.47158,
+    -0.55242,
+    0.38579,
+    0.95529,
+    -0.82821,
+    -0.7442,
+    -0.6336,
+    0.95764,
+    0.84451,
+    0.96393
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

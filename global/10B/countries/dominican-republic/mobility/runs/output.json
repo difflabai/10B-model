@@ -1,0 +1,72 @@
+{
+  "country": "Dominican Republic",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4262,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3145
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3442
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5111
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4395
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2742
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.42622,
+    0.7,
+    0.3145,
+    0.3442,
+    0.40972,
+    -0.45895,
+    0.67965,
+    -0.18379,
+    0.18618,
+    0.40453,
+    0.38015,
+    -0.76892,
+    -0.50655,
+    -0.35067,
+    -0.85379,
+    -0.25856
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

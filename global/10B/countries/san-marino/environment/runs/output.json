@@ -1,0 +1,60 @@
+{
+  "country": "San Marino",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.4965,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.8287
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.2
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.49646,
+    0.85714,
+    0.4,
+    0.75,
+    -0.76425,
+    0.63339,
+    0.92758,
+    0.43209,
+    -0.41027,
+    0.77029,
+    -0.60049,
+    -0.77453,
+    0.35869,
+    -0.80026,
+    -0.31838,
+    -0.92541
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

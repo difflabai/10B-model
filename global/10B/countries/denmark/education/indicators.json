@@ -1,0 +1,34 @@
+{
+  "country": "Denmark",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.4% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "19 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Danish, Faroese, Greenlandic (an Inuit dialect), German (small minority); note - English is the predominant second language",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "Verdens Faktabog, den uundværlig kilde til grundlæggende oplysninger. (Danish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

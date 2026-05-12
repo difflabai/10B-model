@@ -1,0 +1,47 @@
+{
+  "country": "solomon-islands",
+  "category_scores": {
+    "agency": 0.7786,
+    "belonging": 0.6953,
+    "communications": 0.6484,
+    "education": 0.85,
+    "energy": 0.5248,
+    "environment": 0.5931,
+    "food": 0.5007,
+    "governance": 0.7286,
+    "health": 0.5616,
+    "meaning": 0.65,
+    "mobility": 0.3569,
+    "safety": 0.75,
+    "shelter": 0.6142,
+    "water": 0.65,
+    "work": 0.5611
+  },
+  "country_score": 0.6309,
+  "tier_scores": {
+    "subsistence": 0.6153,
+    "development": 0.5882,
+    "agency": 0.6891
+  },
+  "country_embedding": [
+    0.63088,
+    0.75954,
+    0.61699,
+    0.53897,
+    0.06742,
+    0.04788,
+    -0.11241,
+    -0.13496,
+    -0.07899,
+    -0.12102,
+    0.14906,
+    -0.09232,
+    -0.05201,
+    -0.08601,
+    0.03615,
+    0.05679
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Solomon Islands, the three needs areas with the largest gaps are: mobility (0.36), food (0.50), energy (0.52).\nThe three strongest areas are: education (0.85), agency (0.78), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

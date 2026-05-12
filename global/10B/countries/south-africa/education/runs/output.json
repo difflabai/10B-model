@@ -1,0 +1,52 @@
+{
+  "country": "South Africa",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8202,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.91
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.866
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.8202,
+    1.0,
+    0.91,
+    0.866,
+    -0.41073,
+    0.04118,
+    -0.8833,
+    0.19576,
+    0.65444,
+    -0.32274,
+    0.34835,
+    -0.19832,
+    -0.9129,
+    0.91788,
+    -0.63821,
+    -0.86474
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "saint-barthelemy",
+  "category_scores": {
+    "agency": 0.7421,
+    "belonging": 0.64,
+    "communications": 0.6837,
+    "education": 0.65,
+    "energy": 0.97,
+    "environment": 0.4,
+    "food": 0.55,
+    "governance": 0.6583,
+    "health": 0.8371,
+    "meaning": 0.6,
+    "mobility": 0.2,
+    "safety": null,
+    "shelter": 0.7,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.637,
+  "tier_scores": {
+    "subsistence": 0.6843,
+    "development": 0.6259,
+    "agency": 0.6081
+  },
+  "country_embedding": [
+    0.55208,
+    0.37924,
+    0.57398,
+    0.36905,
+    -0.06606,
+    -0.27729,
+    -0.02016,
+    -0.23831,
+    -0.11276,
+    0.01373,
+    -0.07208,
+    0.02582,
+    0.1264,
+    -0.05326,
+    0.21603,
+    0.16824
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Barthelemy, the three needs areas with the largest gaps are: mobility (0.20), environment (0.40), food (0.55).\nThe three strongest areas are: energy (0.97), health (0.84), agency (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

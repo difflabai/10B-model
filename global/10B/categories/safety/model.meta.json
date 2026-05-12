@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.safety",
+  "name": "World — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **safety and protection from violence** across 257 countries — the cross-country slice of the 10B model along the safety dimension.",
+  "mechanism": "Aggregates the per-country safety models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the safety dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Safety and protection from violence world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Safety and protection from violence country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Safety and protection from violence macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for safety and protection from violence."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for safety and protection from violence."
+    },
+    {
+      "name": "safety-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on safety and protection from violence."
+    },
+    {
+      "name": "safety-macro-embedding",
+      "kind": "embedding",
+      "description": "Safety and protection from violence contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:safety, MaxNeef:protection, DoyalGough:security, SDG-16",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.safety",
+      "kind": "consumes_from",
+      "note": "Per-country safety model."
+    }
+  ]
+}

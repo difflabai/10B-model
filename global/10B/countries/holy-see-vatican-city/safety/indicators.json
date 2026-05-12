@@ -1,0 +1,39 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "the Pontifical Swiss Guard Corps (Corpo della Guardia Svizzera Pontificia) serves as the de facto military force of Vatican City; the Gendarmerie Corps of Vatican City (Corpo della Gendarmeriais) is a police force that helps augment the Pontifical Swiss Guard Corps during the Pope’s appearances, as well as providing general security, traffic direction, and investigative duties for the Vatican City State (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.16666666666666666
+}

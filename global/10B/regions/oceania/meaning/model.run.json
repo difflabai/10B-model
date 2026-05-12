@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.meaning",
+        "global.10B.countries.australia.meaning",
+        "global.10B.countries.baker-island.meaning",
+        "global.10B.countries.chile.meaning",
+        "global.10B.countries.clipperton-island.meaning",
+        "global.10B.countries.colombia.meaning",
+        "global.10B.countries.cook-islands.meaning",
+        "global.10B.countries.coral-sea-islands.meaning",
+        "global.10B.countries.costa-rica.meaning",
+        "global.10B.countries.ecuador.meaning",
+        "global.10B.countries.el-salvador.meaning",
+        "global.10B.countries.fiji.meaning",
+        "global.10B.countries.french-polynesia.meaning",
+        "global.10B.countries.guam.meaning",
+        "global.10B.countries.guatemala.meaning",
+        "global.10B.countries.honduras.meaning",
+        "global.10B.countries.howland-island.meaning",
+        "global.10B.countries.jarvis-island.meaning",
+        "global.10B.countries.johnston-atoll.meaning",
+        "global.10B.countries.kingman-reef.meaning",
+        "global.10B.countries.kiribati.meaning",
+        "global.10B.countries.marshall-islands.meaning",
+        "global.10B.countries.mexico.meaning",
+        "global.10B.countries.micronesia-federated-states-of.meaning",
+        "global.10B.countries.midway-islands.meaning",
+        "global.10B.countries.nauru.meaning",
+        "global.10B.countries.new-caledonia.meaning",
+        "global.10B.countries.new-zealand.meaning",
+        "global.10B.countries.nicaragua.meaning",
+        "global.10B.countries.niue.meaning",
+        "global.10B.countries.norfolk-island.meaning",
+        "global.10B.countries.northern-mariana-islands.meaning",
+        "global.10B.countries.palau.meaning",
+        "global.10B.countries.palmyra-atoll.meaning",
+        "global.10B.countries.panama.meaning",
+        "global.10B.countries.papua-new-guinea.meaning",
+        "global.10B.countries.peru.meaning",
+        "global.10B.countries.pitcairn-islands.meaning",
+        "global.10B.countries.samoa.meaning",
+        "global.10B.countries.solomon-islands.meaning",
+        "global.10B.countries.tokelau.meaning",
+        "global.10B.countries.tonga.meaning",
+        "global.10B.countries.tuvalu.meaning",
+        "global.10B.countries.united-states.meaning",
+        "global.10B.countries.vanuatu.meaning",
+        "global.10B.countries.wake-island.meaning",
+        "global.10B.countries.wallis-and-futuna.meaning"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

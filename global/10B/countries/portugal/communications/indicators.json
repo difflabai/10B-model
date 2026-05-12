@@ -1,0 +1,64 @@
+{
+  "country": "Portugal",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "125 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "12.8 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "53 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "5.505 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "86% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "44 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "4.6 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Portugal has a medium-sized telecom market with a strong mobile sector and a growing broadband customer base; before the pandemic, the country had seen improving economic growth, following several years of austerity measures; revenue among some operators remains under pressure, though investments in network upgrades are continuing in an effort to attract customers to high-end services; Portugal’s broadband services have grown steadily in recent years, largely the result of joint efforts between the regulator and the key market operators which have invested in significant infrastructure upgrades; these operators are focused on fiber-based services, resulting in a migration of subscribers from digital subscriber line DSL infrastructure; the government has also supported open-access wholesale networks; the mobile virtual network operator (MVNO) market remains largely undeveloped, partly because network operators have their own low-cost brands; collectively, MVNOs have about 2.9% share of the market; population coverage by 3G infrastructure is universal, and most investment in the sector is being directed to LTE and 5G technologies; the MNOs have trialed 5G and are looking to launch commercial services (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-lineis 52 per 100 persons and mobile-cellular is 121 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 351; landing points for the Ella Link, BUGIO, EIG, SAT-3/WASC, SeaMeWe-3, Equino, MainOne, Tat TGN-Western Europe, WACS, ACE, Atlantis2 and Columbus-III submarine cables provide connectivity to Europe, Africa, the Middle East, Asia, Southeast Asia, Australia, South America and the US; satellite earth stations - 3 Intelsat (2 Atlantic Ocean and 1 Indian Ocean), NA Eutelsat; tropospheric scatter to Azores (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Radio e Televisao de Portugal, the publicly owned TV broadcaster, operates 4 domestic channels and external service channels to Africa; overall, roughly 40 domestic TV stations; viewers have widespread access to international broadcasters with more than half of all households connected to multi-channel cable or satellite TV systems; publicly owned radio operates 3 national networks and provides regional and external services; several privately owned national radio stations and some 300 regional and local commercial radio stations",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

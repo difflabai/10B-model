@@ -1,0 +1,44 @@
+{
+  "country": "Bangladesh",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law; since independence, statutory law enacted by the Parliament of Bangladesh has been the primary form of legislation; Bangladeshi law incorporates elements of English common law; Islamic law applies to Bangladeshi Muslims in family and inheritance laws, with Hindu personal law applying to Bangladeshi Hindus and Buddhists",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1935, 1956, 1962 (preindependence); latest enacted 4 November 1972, effective 16 December 1972, suspended March 1982, restored November 1986",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Mohammad Shahabuddin CHUPPI (since 24 April 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, ARF, BIMSTEC, C, CD, CICA (observer), CP, D-8, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSCA, MONUSCO, NAM, OIC, OPCW, PCA, SAARC, SACEP, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNIFIL, UNMISS, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

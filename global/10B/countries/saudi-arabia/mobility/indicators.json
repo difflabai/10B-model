@@ -1,0 +1,59 @@
+{
+  "country": "Saudi Arabia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "221,372 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "47,529 km (includes 3,891 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "173,843 km (2006)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "86 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "67 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "209 km condensate, 2,940 km gas, 1,183 km liquid petroleum gas, 5,117 km oil, 1,151 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,410 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "39,141,660 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,085,470,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

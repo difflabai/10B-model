@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.dominica",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Dominica"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.dominica.food",
+        "global.10B.countries.dominica.water",
+        "global.10B.countries.dominica.shelter",
+        "global.10B.countries.dominica.health",
+        "global.10B.countries.dominica.safety",
+        "global.10B.countries.dominica.education",
+        "global.10B.countries.dominica.work",
+        "global.10B.countries.dominica.energy",
+        "global.10B.countries.dominica.mobility",
+        "global.10B.countries.dominica.communications",
+        "global.10B.countries.dominica.governance",
+        "global.10B.countries.dominica.environment",
+        "global.10B.countries.dominica.belonging",
+        "global.10B.countries.dominica.meaning",
+        "global.10B.countries.dominica.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

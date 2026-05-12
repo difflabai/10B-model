@@ -1,0 +1,59 @@
+{
+  "country": "Bolivia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "90,568 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "9,792 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "80,776 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "200 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "3 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "5,457 km gas, 51 km liquid petroleum gas, 2,511 km oil, 1,627 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "10,000 km (2012) (commercially navigable almost exclusively in the northern and eastern parts of the country)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,960 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "4,122,113 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "13.73 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

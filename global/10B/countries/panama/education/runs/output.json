@@ -1,0 +1,52 @@
+{
+  "country": "Panama",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7687,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9184
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76868,
+    1.0,
+    0.9184,
+    0.6,
+    0.36748,
+    0.7742,
+    0.11806,
+    0.72369,
+    0.04793,
+    0.42217,
+    0.66699,
+    -0.4551,
+    0.01341,
+    -0.94086,
+    -0.57034,
+    0.52453
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

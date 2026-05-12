@@ -1,0 +1,60 @@
+{
+  "country": "Cayman Islands",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.5143,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.8572
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.51431,
+    0.57143,
+    0.4,
+    0.4,
+    -0.01979,
+    -0.69271,
+    0.56353,
+    -0.63964,
+    0.52136,
+    0.76522,
+    -0.62353,
+    -0.70251,
+    0.55416,
+    -0.53194,
+    0.0652,
+    -0.89816
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

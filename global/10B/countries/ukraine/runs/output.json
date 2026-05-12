@@ -1,0 +1,47 @@
+{
+  "country": "ukraine",
+  "category_scores": {
+    "agency": 0.8535,
+    "belonging": 0.6943,
+    "communications": 0.7077,
+    "education": 0.819,
+    "energy": 0.5996,
+    "environment": 0.5259,
+    "food": 0.6077,
+    "governance": 0.7286,
+    "health": 0.6813,
+    "meaning": 0.69,
+    "mobility": 0.6014,
+    "safety": 0.6833,
+    "shelter": 0.7374,
+    "water": 0.75,
+    "work": 0.7133
+  },
+  "country_score": 0.6929,
+  "tier_scores": {
+    "subsistence": 0.6919,
+    "development": 0.6882,
+    "agency": 0.6985
+  },
+  "country_embedding": [
+    0.69286,
+    0.87641,
+    0.72344,
+    0.69625,
+    0.30963,
+    0.14913,
+    -0.23368,
+    0.03351,
+    -0.0446,
+    -0.26554,
+    -0.06539,
+    0.03571,
+    0.14201,
+    -0.08348,
+    -0.16113,
+    0.01913
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Ukraine, the three needs areas with the largest gaps are: environment (0.53), energy (0.60), mobility (0.60).\nThe three strongest areas are: agency (0.85), education (0.82), water (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

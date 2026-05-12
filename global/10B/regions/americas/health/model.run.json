@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "health"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.health",
+        "global.10B.countries.antigua-and-barbuda.health",
+        "global.10B.countries.argentina.health",
+        "global.10B.countries.aruba.health",
+        "global.10B.countries.bahamas-the.health",
+        "global.10B.countries.barbados.health",
+        "global.10B.countries.belize.health",
+        "global.10B.countries.bermuda.health",
+        "global.10B.countries.bolivia.health",
+        "global.10B.countries.brazil.health",
+        "global.10B.countries.british-virgin-islands.health",
+        "global.10B.countries.cayman-islands.health",
+        "global.10B.countries.cuba.health",
+        "global.10B.countries.curacao.health",
+        "global.10B.countries.dominica.health",
+        "global.10B.countries.dominican-republic.health",
+        "global.10B.countries.falkland-islands-islas-malvinas.health",
+        "global.10B.countries.grenada.health",
+        "global.10B.countries.guyana.health",
+        "global.10B.countries.haiti.health",
+        "global.10B.countries.jamaica.health",
+        "global.10B.countries.montserrat.health",
+        "global.10B.countries.navassa-island.health",
+        "global.10B.countries.paraguay.health",
+        "global.10B.countries.puerto-rico.health",
+        "global.10B.countries.saint-barthelemy.health",
+        "global.10B.countries.saint-kitts-and-nevis.health",
+        "global.10B.countries.saint-lucia.health",
+        "global.10B.countries.saint-martin.health",
+        "global.10B.countries.saint-pierre-and-miquelon.health",
+        "global.10B.countries.saint-vincent-and-the-grenadines.health",
+        "global.10B.countries.sint-maarten.health",
+        "global.10B.countries.suriname.health",
+        "global.10B.countries.trinidad-and-tobago.health",
+        "global.10B.countries.turks-and-caicos-islands.health",
+        "global.10B.countries.uruguay.health",
+        "global.10B.countries.venezuela.health",
+        "global.10B.countries.virgin-islands.health"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

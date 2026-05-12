@@ -1,0 +1,84 @@
+{
+  "country": "Indonesia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.5967,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9484
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2842
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.304
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.404
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.562
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.668
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.59671,
+    0.92308,
+    0.97,
+    0.97,
+    -0.34179,
+    -0.58669,
+    -0.51611,
+    -0.83716,
+    -0.9314,
+    0.28682,
+    -0.88647,
+    -0.60528,
+    -0.90512,
+    0.21563,
+    -0.89664,
+    -0.36663
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

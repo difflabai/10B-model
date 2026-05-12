@@ -1,0 +1,56 @@
+{
+  "country": "France",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.75
+    },
+    {
+      "field": "Geography: Climate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.33333,
+    0.65,
+    0.75,
+    0.43346,
+    -0.89129,
+    0.36345,
+    -0.41149,
+    -0.74694,
+    -0.02034,
+    0.5729,
+    -0.81604,
+    -0.35335,
+    0.47564,
+    -0.5064,
+    -0.4912
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tuvalu",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tuvalu"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tuvalu.food",
+        "global.10B.countries.tuvalu.water",
+        "global.10B.countries.tuvalu.shelter",
+        "global.10B.countries.tuvalu.health",
+        "global.10B.countries.tuvalu.safety",
+        "global.10B.countries.tuvalu.education",
+        "global.10B.countries.tuvalu.work",
+        "global.10B.countries.tuvalu.energy",
+        "global.10B.countries.tuvalu.mobility",
+        "global.10B.countries.tuvalu.communications",
+        "global.10B.countries.tuvalu.governance",
+        "global.10B.countries.tuvalu.environment",
+        "global.10B.countries.tuvalu.belonging",
+        "global.10B.countries.tuvalu.meaning",
+        "global.10B.countries.tuvalu.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

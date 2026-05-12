@@ -1,0 +1,39 @@
+{
+  "country": "Mali",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Malian Armed Forces (Forces Armées Maliennes or FAMa): Land Forces (l’Armée de Terre), Air Force (l’Armée de l’Air); National Guard (la Garde Nationale du Mali or GNM); General Directorate of the National Gendarmerie (la Direction Générale de la Gendarmerie Nationale or DGGN) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4% of GDP (2023 est.)3.5% of GDP (2022 est.)3.5% of GDP (2021 est.)3.4% of GDP (2020 est.)3.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "29,138 (Burkina Faso) (refugees and asylum seekers), 20,617 (Niger) (refugees and asylum seekers), 14,956 (Mauritania) (refugees and asylum seekers) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

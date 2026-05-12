@@ -1,0 +1,84 @@
+{
+  "country": "Slovakia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.6414,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8313
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.4
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.6112
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.8796
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.672
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64142,
+    0.76923,
+    0.97,
+    0.55,
+    0.72277,
+    -0.31121,
+    -0.48391,
+    0.91214,
+    -0.40417,
+    0.97848,
+    0.01241,
+    -0.63864,
+    0.33538,
+    0.44674,
+    0.64373,
+    0.30343
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

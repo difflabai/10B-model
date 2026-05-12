@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.mobility",
+  "name": "Americas — Mobility and transportation",
+  "kind": "sector_economic",
+  "blurb": "Region-level mobility and transportation for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country mobility models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "mobility-country-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mobility-region-mean",
+      "kind": "scalar",
+      "description": "Mean mobility score across the region."
+    },
+    {
+      "name": "mobility-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Mobility and transportation"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.mobility",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.haiti",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Haiti"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.haiti.food",
+        "global.10B.countries.haiti.water",
+        "global.10B.countries.haiti.shelter",
+        "global.10B.countries.haiti.health",
+        "global.10B.countries.haiti.safety",
+        "global.10B.countries.haiti.education",
+        "global.10B.countries.haiti.work",
+        "global.10B.countries.haiti.energy",
+        "global.10B.countries.haiti.mobility",
+        "global.10B.countries.haiti.communications",
+        "global.10B.countries.haiti.governance",
+        "global.10B.countries.haiti.environment",
+        "global.10B.countries.haiti.belonging",
+        "global.10B.countries.haiti.meaning",
+        "global.10B.countries.haiti.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

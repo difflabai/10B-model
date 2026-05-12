@@ -1,0 +1,56 @@
+{
+  "country": "Spratly Islands",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.46893,
+    -0.88394,
+    -0.97458,
+    -0.6733,
+    0.60629,
+    -0.77691,
+    -0.79239,
+    0.7337,
+    0.4013,
+    0.17879,
+    -0.48525,
+    0.20723
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

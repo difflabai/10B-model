@@ -1,0 +1,34 @@
+{
+  "country": "Norway",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "84% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.086 million OSLO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most Norwegians live in the south where the climate is milder and there is better connectivity to mainland Europe; population clusters are found all along the North Sea coast in the southwest, and Skaggerak in the southeast; the interior areas of the north remain sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate along coast, modified by North Atlantic Current; colder interior with increased precipitation and colder summers; rainy year-round on west coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate along coast, modified by North Atlantic Current; colder interior with increased precipitation and colder summers; rainy year-round on west coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

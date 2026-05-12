@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.environment",
+        "global.10B.countries.angola.environment",
+        "global.10B.countries.benin.environment",
+        "global.10B.countries.botswana.environment",
+        "global.10B.countries.bouvet-island.environment",
+        "global.10B.countries.british-indian-ocean-territory.environment",
+        "global.10B.countries.burkina-faso.environment",
+        "global.10B.countries.burundi.environment",
+        "global.10B.countries.cabo-verde.environment",
+        "global.10B.countries.cameroon.environment",
+        "global.10B.countries.central-african-republic.environment",
+        "global.10B.countries.chad.environment",
+        "global.10B.countries.comoros.environment",
+        "global.10B.countries.congo-democratic-republic-of-the.environment",
+        "global.10B.countries.congo-republic-of-the.environment",
+        "global.10B.countries.djibouti.environment",
+        "global.10B.countries.egypt.environment",
+        "global.10B.countries.equatorial-guinea.environment",
+        "global.10B.countries.eritrea.environment",
+        "global.10B.countries.eswatini.environment",
+        "global.10B.countries.ethiopia.environment",
+        "global.10B.countries.gabon.environment",
+        "global.10B.countries.gambia-the.environment",
+        "global.10B.countries.ghana.environment",
+        "global.10B.countries.guinea.environment",
+        "global.10B.countries.guinea-bissau.environment",
+        "global.10B.countries.kenya.environment",
+        "global.10B.countries.lesotho.environment",
+        "global.10B.countries.liberia.environment",
+        "global.10B.countries.libya.environment",
+        "global.10B.countries.madagascar.environment",
+        "global.10B.countries.malawi.environment",
+        "global.10B.countries.mali.environment",
+        "global.10B.countries.mauritania.environment",
+        "global.10B.countries.mauritius.environment",
+        "global.10B.countries.morocco.environment",
+        "global.10B.countries.mozambique.environment",
+        "global.10B.countries.namibia.environment",
+        "global.10B.countries.niger.environment",
+        "global.10B.countries.nigeria.environment",
+        "global.10B.countries.rwanda.environment",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.environment",
+        "global.10B.countries.sao-tome-and-principe.environment",
+        "global.10B.countries.senegal.environment",
+        "global.10B.countries.seychelles.environment",
+        "global.10B.countries.sierra-leone.environment",
+        "global.10B.countries.somalia.environment",
+        "global.10B.countries.south-africa.environment",
+        "global.10B.countries.south-sudan.environment",
+        "global.10B.countries.sudan.environment",
+        "global.10B.countries.tanzania.environment",
+        "global.10B.countries.togo.environment",
+        "global.10B.countries.tunisia.environment",
+        "global.10B.countries.uganda.environment",
+        "global.10B.countries.zambia.environment",
+        "global.10B.countries.zimbabwe.environment"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

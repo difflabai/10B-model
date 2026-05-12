@@ -1,0 +1,52 @@
+{
+  "country": "Mauritania",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5495,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5817
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.326
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.44
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.54953,
+    1.0,
+    0.5817,
+    0.326,
+    0.83801,
+    -0.18096,
+    0.07158,
+    0.66189,
+    0.96664,
+    0.48092,
+    -0.95422,
+    -0.53964,
+    -0.8717,
+    0.87466,
+    -0.03593,
+    0.21178
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

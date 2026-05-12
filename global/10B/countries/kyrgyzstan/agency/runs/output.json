@@ -1,0 +1,56 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8184,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.8
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.842
+    }
+  ],
+  "embedding": [
+    0.8184,
+    0.83333,
+    0.85,
+    0.75,
+    0.29326,
+    0.67141,
+    -0.27791,
+    0.8761,
+    0.56017,
+    -0.03572,
+    0.40188,
+    0.82934,
+    0.40856,
+    -0.0898,
+    0.58712,
+    -0.06526
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

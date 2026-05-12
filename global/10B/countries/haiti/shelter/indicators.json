@@ -1,0 +1,34 @@
+{
+  "country": "Haiti",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "59.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.987 million PORT-AU-PRINCE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "fairly even distribution; largest concentrations located near coastal areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; semiarid where mountains in east cut off trade winds",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; semiarid where mountains in east cut off trade winds",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

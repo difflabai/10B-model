@@ -1,0 +1,47 @@
+{
+  "country": "united-states",
+  "category_scores": {
+    "agency": 0.8272,
+    "belonging": 0.7443,
+    "communications": 0.7614,
+    "education": 0.787,
+    "energy": 0.5866,
+    "environment": 0.5755,
+    "food": 0.667,
+    "governance": 0.7671,
+    "health": 0.7629,
+    "meaning": 0.63,
+    "mobility": 0.801,
+    "safety": 0.5722,
+    "shelter": 0.7742,
+    "water": 0.8,
+    "work": 0.7563
+  },
+  "country_score": 0.7208,
+  "tier_scores": {
+    "subsistence": 0.7153,
+    "development": 0.7385,
+    "agency": 0.7088
+  },
+  "country_embedding": [
+    0.72085,
+    0.85355,
+    0.78196,
+    0.72797,
+    -0.11786,
+    -0.14867,
+    -0.09858,
+    -0.11449,
+    0.11091,
+    0.089,
+    0.01805,
+    -0.03035,
+    0.09905,
+    -0.00568,
+    -0.28766,
+    -0.03735
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in United States, the three needs areas with the largest gaps are: safety (0.57), environment (0.58), energy (0.59).\nThe three strongest areas are: agency (0.83), mobility (0.80), water (0.80).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

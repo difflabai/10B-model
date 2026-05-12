@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.health",
+  "name": "Oceania — Health and longevity",
+  "kind": "forecast_harness",
+  "blurb": "Region-level health and longevity for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country health models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "health-country-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "health-region-mean",
+      "kind": "scalar",
+      "description": "Mean health score across the region."
+    },
+    {
+      "name": "health-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.health",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

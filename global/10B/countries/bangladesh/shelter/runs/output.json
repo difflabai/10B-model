@@ -1,0 +1,52 @@
+{
+  "country": "Bangladesh",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.7006,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6017
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.70056,
+    0.8,
+    0.6017,
+    0.75,
+    -0.15636,
+    0.17507,
+    0.32192,
+    -0.4446,
+    0.05928,
+    -0.44613,
+    0.60226,
+    0.72024,
+    -0.09862,
+    -0.20812,
+    0.98462,
+    -0.87387
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

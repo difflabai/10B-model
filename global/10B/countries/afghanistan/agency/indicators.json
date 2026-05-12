@@ -1,0 +1,39 @@
+{
+  "country": "Afghanistan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "the Taliban Government enforces an authoritarian state and has banned other political parties; note - before 15 August 2021, the Ministry of Justice had licensed 72 political parties as of April 2019the Taliban have banned other political parties but have allowed some party leaders, including the head of Hezb-e-Islami, Gulbuddin Hekmatyar, to continue to live and work in Afghanistan; Hekmatyar likely continues to enjoy some political support from loyalists; leaders of other parties, including Jamiat-e-Islami’s Salahuddin Rabbani and Jumbesh’s Rashid Dostum, operate from abroad but likely also command some following within Afghanistan; note - before 15 August 2021, the Ministry of Justice had licensed 72 political parties as of April 2019",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "18% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "under the Taliban government, independent media outlets have decreased in number and are probably self-censoring criticism of the Taliban and the Ministry of Information and Culture monitors all mass media in Afghanistan; television and radio are key media platforms; only about a fifth of Afghans use the internet, mostly through smartphones (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

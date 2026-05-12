@@ -1,0 +1,34 @@
+{
+  "country": "Gabon",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "85.5%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "French (official), Fang, Myene, Nzebi, Bapounou/Eschira, Bandjabi",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

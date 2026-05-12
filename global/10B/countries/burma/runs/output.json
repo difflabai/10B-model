@@ -1,0 +1,47 @@
+{
+  "country": "burma",
+  "category_scores": {
+    "agency": 0.7057,
+    "belonging": 0.6633,
+    "communications": 0.6141,
+    "education": 0.6137,
+    "energy": 0.5735,
+    "environment": 0.5285,
+    "food": 0.53,
+    "governance": 0.6429,
+    "health": 0.4816,
+    "meaning": 0.61,
+    "mobility": 0.5466,
+    "safety": 0.6375,
+    "shelter": 0.6743,
+    "water": 0.75,
+    "work": 0.6246
+  },
+  "country_score": 0.6131,
+  "tier_scores": {
+    "subsistence": 0.6147,
+    "development": 0.5945,
+    "agency": 0.6301
+  },
+  "country_embedding": [
+    0.61308,
+    0.88085,
+    0.59853,
+    0.64759,
+    -0.0055,
+    0.09966,
+    -0.01035,
+    -0.13814,
+    0.06008,
+    0.02173,
+    -0.07611,
+    -0.02149,
+    0.13928,
+    0.19631,
+    0.02067,
+    0.07182
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Burma, the three needs areas with the largest gaps are: health (0.48), environment (0.53), food (0.53).\nThe three strongest areas are: water (0.75), agency (0.71), shelter (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

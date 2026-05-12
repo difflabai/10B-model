@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.sao-tome-and-principe",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sao Tome and Principe"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.sao-tome-and-principe.food",
+        "global.10B.countries.sao-tome-and-principe.water",
+        "global.10B.countries.sao-tome-and-principe.shelter",
+        "global.10B.countries.sao-tome-and-principe.health",
+        "global.10B.countries.sao-tome-and-principe.safety",
+        "global.10B.countries.sao-tome-and-principe.education",
+        "global.10B.countries.sao-tome-and-principe.work",
+        "global.10B.countries.sao-tome-and-principe.energy",
+        "global.10B.countries.sao-tome-and-principe.mobility",
+        "global.10B.countries.sao-tome-and-principe.communications",
+        "global.10B.countries.sao-tome-and-principe.governance",
+        "global.10B.countries.sao-tome-and-principe.environment",
+        "global.10B.countries.sao-tome-and-principe.belonging",
+        "global.10B.countries.sao-tome-and-principe.meaning",
+        "global.10B.countries.sao-tome-and-principe.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

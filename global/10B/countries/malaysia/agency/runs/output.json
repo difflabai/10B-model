@@ -1,0 +1,56 @@
+{
+  "country": "Malaysia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.8125,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    }
+  ],
+  "embedding": [
+    0.8125,
+    0.66667,
+    0.85,
+    0.95,
+    0.43294,
+    -0.41067,
+    0.35338,
+    -0.04527,
+    -0.19826,
+    -0.53719,
+    0.52645,
+    -0.54598,
+    -0.14952,
+    -0.66113,
+    -0.8146,
+    -0.35558
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

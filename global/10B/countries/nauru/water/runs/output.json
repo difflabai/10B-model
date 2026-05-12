@@ -1,0 +1,56 @@
+{
+  "country": "Nauru",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.16667,
+    0.65,
+    0.0,
+    0.777,
+    0.5176,
+    0.80478,
+    -0.4797,
+    -0.86035,
+    0.73294,
+    -0.82446,
+    -0.34511,
+    -0.85791,
+    0.57012,
+    0.80917,
+    0.04271
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

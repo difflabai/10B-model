@@ -1,0 +1,39 @@
+{
+  "country": "Ireland",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Irish Defense Forces (Oglaigh na h-Eireannn): Army, Air Corps, Naval Service, Reserve Defense Forces (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.2% of GDP (2023 est.)0.3% of GDP (2022)0.3% of GDP (2021)0.3% of GDP (2020)0.3% of GDP (2019)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "105,210 (Ukraine) (as of 8 March 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

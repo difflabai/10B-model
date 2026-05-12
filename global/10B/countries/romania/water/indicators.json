@@ -1,0 +1,39 @@
+{
+  "country": "Romania",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Dunărea (Danube) river mouth (shared with Germany [s], Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Moldova, and Ukraine) - 2,888 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Black Sea) Danube (795,656 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; cold, cloudy winters with frequent snow and fog; sunny summers with frequent showers and thunderstorms",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

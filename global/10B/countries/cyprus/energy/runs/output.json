@@ -1,0 +1,84 @@
+{
+  "country": "Cyprus",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6923076923076923,
+  "indicators_scored": 9,
+  "indicators_total": 13,
+  "composite_score": 0.56,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2558
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6625
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.572
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.53
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.56004,
+    0.69231,
+    0.97,
+    0.55,
+    0.95892,
+    0.69497,
+    -0.83438,
+    0.25277,
+    -0.71505,
+    0.69485,
+    0.91174,
+    0.88669,
+    -0.14275,
+    0.65747,
+    0.56429,
+    -0.83429
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

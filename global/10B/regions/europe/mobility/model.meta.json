@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.mobility",
+  "name": "Europe — Mobility and transportation",
+  "kind": "sector_economic",
+  "blurb": "Region-level mobility and transportation for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country mobility models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "mobility-country-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mobility-region-mean",
+      "kind": "scalar",
+      "description": "Mean mobility score across the region."
+    },
+    {
+      "name": "mobility-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Mobility and transportation"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.mobility",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

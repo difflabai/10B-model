@@ -1,0 +1,47 @@
+{
+  "country": "costa-rica",
+  "category_scores": {
+    "agency": 0.8344,
+    "belonging": 0.6531,
+    "communications": 0.7092,
+    "education": 0.8061,
+    "energy": 0.6113,
+    "environment": 0.573,
+    "food": 0.7356,
+    "governance": 0.7286,
+    "health": 0.7414,
+    "meaning": 0.61,
+    "mobility": 0.45,
+    "safety": 0.61,
+    "shelter": 0.6499,
+    "water": 0.65,
+    "work": 0.6739
+  },
+  "country_score": 0.6691,
+  "tier_scores": {
+    "subsistence": 0.6774,
+    "development": 0.6501,
+    "agency": 0.6798
+  },
+  "country_embedding": [
+    0.66911,
+    0.83282,
+    0.72747,
+    0.66669,
+    0.11169,
+    -0.00091,
+    0.06591,
+    0.04163,
+    -0.0647,
+    -0.01481,
+    0.20541,
+    0.00199,
+    0.14836,
+    0.22985,
+    0.0465,
+    -0.34854
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Costa Rica, the three needs areas with the largest gaps are: mobility (0.45), environment (0.57), meaning (0.61).\nThe three strongest areas are: agency (0.83), education (0.81), health (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

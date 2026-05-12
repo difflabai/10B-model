@@ -1,0 +1,72 @@
+{
+  "country": "Luxembourg",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.472,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2107
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2556
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5316
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.4111
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2605
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5067
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.47202,
+    0.8,
+    0.2107,
+    0.2556,
+    0.26104,
+    -0.07594,
+    -0.35338,
+    -0.83954,
+    -0.64529,
+    -0.30401,
+    0.27297,
+    -0.77575,
+    -0.23192,
+    -0.69656,
+    -0.80423,
+    0.98538
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

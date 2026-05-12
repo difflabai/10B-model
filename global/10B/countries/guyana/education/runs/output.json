@@ -1,0 +1,52 @@
+{
+  "country": "Guyana",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.709,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.836
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.675
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.709,
+    0.8,
+    0.836,
+    0.675,
+    -0.96744,
+    -0.90335,
+    -0.58047,
+    0.79095,
+    0.36947,
+    0.02147,
+    0.38939,
+    0.7471,
+    -0.5454,
+    0.54473,
+    0.70968,
+    0.41479
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

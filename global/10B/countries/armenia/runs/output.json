@@ -1,0 +1,47 @@
+{
+  "country": "armenia",
+  "category_scores": {
+    "agency": 0.7344,
+    "belonging": 0.6386,
+    "communications": 0.7111,
+    "education": 0.7289,
+    "energy": 0.6187,
+    "environment": 0.446,
+    "food": 0.7021,
+    "governance": 0.7143,
+    "health": 0.7175,
+    "meaning": 0.63,
+    "mobility": 0.4059,
+    "safety": 0.4861,
+    "shelter": 0.6573,
+    "water": 0.65,
+    "work": 0.7412
+  },
+  "country_score": 0.6388,
+  "tier_scores": {
+    "subsistence": 0.6426,
+    "development": 0.6412,
+    "agency": 0.6327
+  },
+  "country_embedding": [
+    0.63881,
+    0.81282,
+    0.69849,
+    0.57995,
+    -0.17747,
+    -0.14093,
+    0.03095,
+    0.12218,
+    0.13151,
+    -0.05994,
+    -0.01297,
+    0.0226,
+    0.02341,
+    -0.18647,
+    0.12907,
+    -0.32572
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Armenia, the three needs areas with the largest gaps are: mobility (0.41), environment (0.45), safety (0.49).\nThe three strongest areas are: work (0.74), agency (0.73), education (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

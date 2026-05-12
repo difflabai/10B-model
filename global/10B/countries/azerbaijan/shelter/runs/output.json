@@ -1,0 +1,52 @@
+{
+  "country": "Azerbaijan",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6272,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6587
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.62717,
+    1.0,
+    0.6587,
+    0.55,
+    0.56005,
+    0.52816,
+    0.2976,
+    -0.67645,
+    -0.11617,
+    -0.18831,
+    -0.57879,
+    -0.43957,
+    -0.41442,
+    -0.54745,
+    -0.4591,
+    -0.54296
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Cook Islands",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law similar to New Zealand common law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "4 August 1965 (Cook Islands Constitution Act 1964)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Sir Tom J. MARSTERS (since 9 August 2013); New Zealand High Commissioner Catherine GRAHAM (since 8 September 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration (New Zealand normally retains responsibility for external affairs); accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ADB, AOSIS, FAO, ICAO, ICCt, ICRM, IFAD, IFRCS, IMO, IMSO, IOC, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UNESCO, UPU, WHO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

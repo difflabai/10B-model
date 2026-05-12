@@ -1,0 +1,56 @@
+{
+  "country": "Maldives",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8016,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.84
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.818
+    }
+  ],
+  "embedding": [
+    0.8016,
+    0.83333,
+    0.85,
+    0.75,
+    0.11003,
+    -0.03453,
+    0.82492,
+    0.38622,
+    -0.78485,
+    0.1657,
+    0.62524,
+    -0.39779,
+    -0.884,
+    -0.90842,
+    -0.2481,
+    -0.77609
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Denmark",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.5314,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5157
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6972
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6556
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.52
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4081
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3733
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.53142,
+    0.8,
+    0.5157,
+    0.6972,
+    -0.19219,
+    -0.93011,
+    -0.05214,
+    -0.86813,
+    -0.44952,
+    -0.68722,
+    -0.64749,
+    -0.07399,
+    0.86609,
+    0.62383,
+    0.45589,
+    -0.53927
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

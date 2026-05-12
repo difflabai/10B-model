@@ -1,0 +1,34 @@
+{
+  "country": "Spain",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "81.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "6.751 million MADRID (capital), 5.687 million Barcelona, 838,000 Valencia (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "with the notable exception of Madrid, Sevilla, and Zaragoza, the largest urban agglomerations are found along the Mediterranean and Atlantic coasts; numerous smaller cities are spread throughout the interior reflecting Spain's agrarian heritage; very dense settlement around the capital of Madrid, as well as the port city of Barcelona",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

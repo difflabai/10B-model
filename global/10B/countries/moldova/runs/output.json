@@ -1,0 +1,47 @@
+{
+  "country": "moldova",
+  "category_scores": {
+    "agency": 0.7519,
+    "belonging": 0.6329,
+    "communications": 0.7035,
+    "education": 0.8238,
+    "energy": 0.5017,
+    "environment": 0.5177,
+    "food": 0.6926,
+    "governance": 0.7286,
+    "health": 0.6466,
+    "meaning": 0.63,
+    "mobility": 0.4748,
+    "safety": 0.6056,
+    "shelter": 0.6153,
+    "water": 0.65,
+    "work": 0.6418
+  },
+  "country_score": 0.6411,
+  "tier_scores": {
+    "subsistence": 0.642,
+    "development": 0.6291,
+    "agency": 0.6522
+  },
+  "country_embedding": [
+    0.64112,
+    0.84906,
+    0.70005,
+    0.62394,
+    -0.07104,
+    0.16146,
+    -0.03287,
+    0.1567,
+    -0.00798,
+    -0.04583,
+    0.12582,
+    0.04674,
+    0.20106,
+    0.03572,
+    -0.05874,
+    0.01209
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Moldova, the three needs areas with the largest gaps are: mobility (0.47), energy (0.50), environment (0.52).\nThe three strongest areas are: education (0.82), agency (0.75), governance (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

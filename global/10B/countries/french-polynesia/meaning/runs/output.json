@@ -1,0 +1,56 @@
+{
+  "country": "French Polynesia",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.66667,
+    0.65,
+    0.65,
+    0.89276,
+    -0.62979,
+    -0.33285,
+    0.97507,
+    -0.31298,
+    -0.21038,
+    -0.85782,
+    -0.05495,
+    0.57229,
+    0.27651,
+    0.98932,
+    -0.45525
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Uzbekistan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "50.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.603 million TASHKENT (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is concentrated in the fertile Fergana Valley in the easternmost arm of the country; the south has significant clusters of people, while the central and western deserts are sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.agency",
+  "name": "Oceania — Agency and self-determination",
+  "kind": "sector_economic",
+  "blurb": "Region-level agency and self-determination for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country agency models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "agency-country-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "agency-region-mean",
+      "kind": "scalar",
+      "description": "Mean agency score across the region."
+    },
+    {
+      "name": "agency-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Agency and self-determination"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.agency",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

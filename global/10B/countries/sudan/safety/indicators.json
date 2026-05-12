@@ -1,0 +1,39 @@
+{
+  "country": "Sudan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Sudanese Armed Forces (SAF): Ground Force, Navy, Sudanese Air Force; Rapid Support Forces (RSF); Border GuardsMinistry of Interior: security police, special forces police, traffic police, Central Reserve Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2021 est.)1% of GDP (2020 est.)2.4% of GDP (2019 est.)2% of GDP (2018 est.)3.6% of GDP (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "696,246 (South Sudan) (refugees and asylum seekers), 137,402 (Eritrea) (refugees and asylum seekers), 93,477 (Syria) (refugees and asylum seekers), 72,334 (Ethiopia) (refugees and asylum seekers), 18,279 (Central African Republic) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

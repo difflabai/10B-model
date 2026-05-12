@@ -1,0 +1,44 @@
+{
+  "country": "Kazakhstan",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "radioactive or toxic chemical sites associated with former defense industries and test ranges scattered throughout the country pose health risks for humans and animals; industrial pollution is severe in some cities; because the two main rivers that flowed into the Aral Sea have been diverted for irrigation, it is drying up and leaving behind a harmful layer of chemical pesticides and natural salts; these substances are then picked up by the wind and blown into noxious dust storms; pollution in the Caspian Sea; desertification; soil pollution from overuse of agricultural chemicals and salination from poor infrastructure and wasteful irrigation practices",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Air Pollution, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Ozone Layer Protection, Ship Pollution, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "26.5 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "247.21 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "45.03 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "1.2% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "4,659,740 tons (2012 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

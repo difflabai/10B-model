@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.oman",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Oman"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.oman.food",
+        "global.10B.countries.oman.water",
+        "global.10B.countries.oman.shelter",
+        "global.10B.countries.oman.health",
+        "global.10B.countries.oman.safety",
+        "global.10B.countries.oman.education",
+        "global.10B.countries.oman.work",
+        "global.10B.countries.oman.energy",
+        "global.10B.countries.oman.mobility",
+        "global.10B.countries.oman.communications",
+        "global.10B.countries.oman.governance",
+        "global.10B.countries.oman.environment",
+        "global.10B.countries.oman.belonging",
+        "global.10B.countries.oman.meaning",
+        "global.10B.countries.oman.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

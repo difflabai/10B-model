@@ -1,0 +1,64 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "71.3% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "fully integrated access; 4G and LTE services (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "direct dial capability with both fixed and wireless systems, 3 FM channels, no broadcasting (2018)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 590; landing points for the SSCS and the Southern Caribbean Fiber submarine cables providing voice and data connectivity to numerous Caribbean Islands (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 local TV broadcasters; 5 FM radio channels (2021)",
+      "present": true
+    }
+  ],
+  "coverage": 0.45454545454545453
+}

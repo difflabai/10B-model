@@ -1,0 +1,59 @@
+{
+  "country": "Togo",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "9,951 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "1,794 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "8,157 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "7 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "62 km gas",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "50 km (2011) (seasonally navigable by small craft on the Mono River depending on rainfall)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "568 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "566,295 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "10.89 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

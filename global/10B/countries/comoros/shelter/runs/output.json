@@ -1,0 +1,52 @@
+{
+  "country": "Comoros",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.621,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.534
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.621,
+    1.0,
+    0.534,
+    0.55,
+    -0.63494,
+    0.75775,
+    0.60943,
+    0.20003,
+    0.53927,
+    0.06856,
+    -0.7706,
+    -0.60293,
+    -0.28258,
+    0.11345,
+    0.974,
+    -0.08269
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

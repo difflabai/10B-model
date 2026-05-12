@@ -1,0 +1,47 @@
+{
+  "country": "suriname",
+  "category_scores": {
+    "agency": 0.7695,
+    "belonging": 0.7171,
+    "communications": 0.6959,
+    "education": 0.7869,
+    "energy": 0.647,
+    "environment": 0.5958,
+    "food": 0.5659,
+    "governance": 0.7143,
+    "health": 0.5679,
+    "meaning": 0.65,
+    "mobility": 0.4073,
+    "safety": 0.705,
+    "shelter": 0.6095,
+    "water": 0.6,
+    "work": 0.5612
+  },
+  "country_score": 0.6396,
+  "tier_scores": {
+    "subsistence": 0.6097,
+    "development": 0.6197,
+    "agency": 0.6893
+  },
+  "country_embedding": [
+    0.63955,
+    0.82244,
+    0.70805,
+    0.6294,
+    0.11043,
+    -0.08069,
+    0.23932,
+    0.00966,
+    0.25844,
+    -0.04606,
+    -0.10105,
+    0.14696,
+    0.22329,
+    -0.05618,
+    0.04421,
+    -0.14576
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Suriname, the three needs areas with the largest gaps are: mobility (0.41), work (0.56), food (0.57).\nThe three strongest areas are: education (0.79), agency (0.77), belonging (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

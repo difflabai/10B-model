@@ -1,0 +1,59 @@
+{
+  "country": "Venezuela",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "96,189 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "502 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "88 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "981 km extra heavy crude, 5941 km gas, 7,588 km oil, 1,778 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "7,100 km (2011) (Orinoco River (400 km) and Lake de Maracaibo navigable by oceangoing vessels)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "447 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "2,137,771 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1.55 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

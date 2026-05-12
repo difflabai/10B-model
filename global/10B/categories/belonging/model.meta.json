@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.belonging",
+  "name": "World — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **belonging and social cohesion** across 257 countries — the cross-country slice of the 10B model along the belonging dimension.",
+  "mechanism": "Aggregates the per-country belonging models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the belonging dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Belonging and social cohesion world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Belonging and social cohesion country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Belonging and social cohesion macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for belonging and social cohesion."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for belonging and social cohesion."
+    },
+    {
+      "name": "belonging-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on belonging and social cohesion."
+    },
+    {
+      "name": "belonging-macro-embedding",
+      "kind": "embedding",
+      "description": "Belonging and social cohesion contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:belonging, MaxNeef:affection, SDG-10",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country belonging model."
+    }
+  ]
+}

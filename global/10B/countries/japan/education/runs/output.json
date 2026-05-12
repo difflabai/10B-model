@@ -1,0 +1,52 @@
+{
+  "country": "Japan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6434,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.536
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.64338,
+    0.8,
+    0.536,
+    0.8375,
+    -0.83902,
+    0.19585,
+    0.34054,
+    0.28673,
+    0.32201,
+    -0.85211,
+    0.34575,
+    -0.80612,
+    -0.78103,
+    0.89947,
+    0.28396,
+    0.47619
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

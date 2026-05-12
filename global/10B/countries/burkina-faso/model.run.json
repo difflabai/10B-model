@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.burkina-faso",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Burkina Faso"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.burkina-faso.food",
+        "global.10B.countries.burkina-faso.water",
+        "global.10B.countries.burkina-faso.shelter",
+        "global.10B.countries.burkina-faso.health",
+        "global.10B.countries.burkina-faso.safety",
+        "global.10B.countries.burkina-faso.education",
+        "global.10B.countries.burkina-faso.work",
+        "global.10B.countries.burkina-faso.energy",
+        "global.10B.countries.burkina-faso.mobility",
+        "global.10B.countries.burkina-faso.communications",
+        "global.10B.countries.burkina-faso.governance",
+        "global.10B.countries.burkina-faso.environment",
+        "global.10B.countries.burkina-faso.belonging",
+        "global.10B.countries.burkina-faso.meaning",
+        "global.10B.countries.burkina-faso.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

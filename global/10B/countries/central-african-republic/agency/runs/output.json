@@ -1,0 +1,56 @@
+{
+  "country": "Central African Republic",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.557,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.16
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.368
+    }
+  ],
+  "embedding": [
+    0.557,
+    0.66667,
+    0.85,
+    0.16,
+    0.79129,
+    -0.50747,
+    -0.33797,
+    0.14083,
+    0.45766,
+    0.27355,
+    0.22136,
+    -0.30025,
+    -0.89029,
+    -0.59365,
+    -0.4674,
+    -0.66323
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

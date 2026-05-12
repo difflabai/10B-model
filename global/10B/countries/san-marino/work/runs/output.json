@@ -1,0 +1,60 @@
+{
+  "country": "San Marino",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.8554,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9242
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9025
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.645
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.85541,
+    0.57143,
+    0.9242,
+    0.95,
+    0.7503,
+    0.6965,
+    -0.60186,
+    0.97949,
+    -0.30898,
+    -0.86172,
+    0.9068,
+    0.01619,
+    0.84628,
+    -0.15615,
+    -0.08217,
+    0.15496
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

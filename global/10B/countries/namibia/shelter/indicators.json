@@ -1,0 +1,34 @@
+{
+  "country": "Namibia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "54.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "477,000 WINDHOEK (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population density is very low, with the largest clustering found in the extreme north-central area along the border with Angola as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "desert; hot, dry; rainfall sparse and erratic",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; hot, dry; rainfall sparse and erratic",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

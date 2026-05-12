@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "health"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.health",
+        "global.10B.countries.australia.health",
+        "global.10B.countries.baker-island.health",
+        "global.10B.countries.chile.health",
+        "global.10B.countries.clipperton-island.health",
+        "global.10B.countries.colombia.health",
+        "global.10B.countries.cook-islands.health",
+        "global.10B.countries.coral-sea-islands.health",
+        "global.10B.countries.costa-rica.health",
+        "global.10B.countries.ecuador.health",
+        "global.10B.countries.el-salvador.health",
+        "global.10B.countries.fiji.health",
+        "global.10B.countries.french-polynesia.health",
+        "global.10B.countries.guam.health",
+        "global.10B.countries.guatemala.health",
+        "global.10B.countries.honduras.health",
+        "global.10B.countries.howland-island.health",
+        "global.10B.countries.jarvis-island.health",
+        "global.10B.countries.johnston-atoll.health",
+        "global.10B.countries.kingman-reef.health",
+        "global.10B.countries.kiribati.health",
+        "global.10B.countries.marshall-islands.health",
+        "global.10B.countries.mexico.health",
+        "global.10B.countries.micronesia-federated-states-of.health",
+        "global.10B.countries.midway-islands.health",
+        "global.10B.countries.nauru.health",
+        "global.10B.countries.new-caledonia.health",
+        "global.10B.countries.new-zealand.health",
+        "global.10B.countries.nicaragua.health",
+        "global.10B.countries.niue.health",
+        "global.10B.countries.norfolk-island.health",
+        "global.10B.countries.northern-mariana-islands.health",
+        "global.10B.countries.palau.health",
+        "global.10B.countries.palmyra-atoll.health",
+        "global.10B.countries.panama.health",
+        "global.10B.countries.papua-new-guinea.health",
+        "global.10B.countries.peru.health",
+        "global.10B.countries.pitcairn-islands.health",
+        "global.10B.countries.samoa.health",
+        "global.10B.countries.solomon-islands.health",
+        "global.10B.countries.tokelau.health",
+        "global.10B.countries.tonga.health",
+        "global.10B.countries.tuvalu.health",
+        "global.10B.countries.united-states.health",
+        "global.10B.countries.vanuatu.health",
+        "global.10B.countries.wake-island.health",
+        "global.10B.countries.wallis-and-futuna.health"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

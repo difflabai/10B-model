@@ -1,0 +1,60 @@
+{
+  "country": "Anguilla",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.915,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": null
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.915
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.915,
+    0.14286,
+    0.915,
+    0.0,
+    0.44579,
+    -0.66778,
+    0.21996,
+    -0.58029,
+    -0.8967,
+    0.84503,
+    -0.09853,
+    -0.10478,
+    0.28164,
+    0.89844,
+    -0.59405,
+    -0.85461
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

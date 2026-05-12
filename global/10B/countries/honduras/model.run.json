@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.honduras",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Honduras"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.honduras.food",
+        "global.10B.countries.honduras.water",
+        "global.10B.countries.honduras.shelter",
+        "global.10B.countries.honduras.health",
+        "global.10B.countries.honduras.safety",
+        "global.10B.countries.honduras.education",
+        "global.10B.countries.honduras.work",
+        "global.10B.countries.honduras.energy",
+        "global.10B.countries.honduras.mobility",
+        "global.10B.countries.honduras.communications",
+        "global.10B.countries.honduras.governance",
+        "global.10B.countries.honduras.environment",
+        "global.10B.countries.honduras.belonging",
+        "global.10B.countries.honduras.meaning",
+        "global.10B.countries.honduras.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

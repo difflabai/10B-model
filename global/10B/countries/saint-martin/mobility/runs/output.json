@@ -1,0 +1,72 @@
+{
+  "country": "Saint Martin",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.1,
+  "indicators_scored": 1,
+  "indicators_total": 10,
+  "composite_score": 0.2,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.2,
+    0.1,
+    0.2,
+    0.0,
+    -0.74331,
+    0.58074,
+    0.35448,
+    -0.75396,
+    0.65701,
+    -0.23677,
+    0.7323,
+    -0.58773,
+    -0.50637,
+    0.48098,
+    0.32485,
+    0.13915
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

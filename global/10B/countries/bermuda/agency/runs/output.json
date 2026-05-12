@@ -1,0 +1,56 @@
+{
+  "country": "Bermuda",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6852,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.326
+    }
+  ],
+  "embedding": [
+    0.6852,
+    0.83333,
+    0.85,
+    0.65,
+    -0.3033,
+    0.1761,
+    -0.40645,
+    0.31466,
+    0.96454,
+    0.77914,
+    0.34942,
+    0.47472,
+    -0.74112,
+    0.01671,
+    0.4912,
+    -0.26198
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

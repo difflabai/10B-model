@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.somalia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Somalia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.somalia.food",
+        "global.10B.countries.somalia.water",
+        "global.10B.countries.somalia.shelter",
+        "global.10B.countries.somalia.health",
+        "global.10B.countries.somalia.safety",
+        "global.10B.countries.somalia.education",
+        "global.10B.countries.somalia.work",
+        "global.10B.countries.somalia.energy",
+        "global.10B.countries.somalia.mobility",
+        "global.10B.countries.somalia.communications",
+        "global.10B.countries.somalia.governance",
+        "global.10B.countries.somalia.environment",
+        "global.10B.countries.somalia.belonging",
+        "global.10B.countries.somalia.meaning",
+        "global.10B.countries.somalia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

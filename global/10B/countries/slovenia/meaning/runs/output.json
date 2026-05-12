@@ -1,0 +1,56 @@
+{
+  "country": "Slovenia",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.67,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.67,
+    0.83333,
+    0.65,
+    0.65,
+    -0.57363,
+    -0.18099,
+    0.88699,
+    -0.96158,
+    0.38939,
+    -0.18151,
+    -0.26314,
+    0.6416,
+    -0.66217,
+    0.14714,
+    -0.12963,
+    -0.59194
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

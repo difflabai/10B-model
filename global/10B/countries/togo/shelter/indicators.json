@@ -1,0 +1,34 @@
+{
+  "country": "Togo",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "44.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.982 million LOME (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "one of the more densely populated African nations with most of the population residing in rural communities, density is highest in the south on or near the Atlantic coast as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid in south; semiarid in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid in south; semiarid in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

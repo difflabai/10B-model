@@ -1,0 +1,72 @@
+{
+  "country": "Sint Maarten",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 2,
+  "indicators_total": 10,
+  "composite_score": 0.2,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    -0.1375,
+    -0.05177,
+    0.91559,
+    -0.3883,
+    -0.23113,
+    -0.44851,
+    0.76052,
+    -0.19991,
+    0.67144,
+    -0.96039,
+    -0.61251,
+    -0.49712
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

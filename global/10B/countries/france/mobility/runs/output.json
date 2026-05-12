@@ -1,0 +1,72 @@
+{
+  "country": "France",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.803,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.8197
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.8309
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8612
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.7024
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8067
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.80299,
+    0.7,
+    0.8197,
+    0.8309,
+    -0.39593,
+    0.81073,
+    0.4378,
+    -0.13851,
+    -0.57961,
+    -0.55047,
+    -0.60824,
+    0.27544,
+    0.13121,
+    -0.85071,
+    -0.71203,
+    -0.60845
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

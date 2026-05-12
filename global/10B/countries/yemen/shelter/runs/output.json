@@ -1,0 +1,52 @@
+{
+  "country": "Yemen",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6872,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.5987
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.68717,
+    1.0,
+    0.5987,
+    0.65,
+    -0.68362,
+    -0.76944,
+    -0.05037,
+    0.46059,
+    0.54034,
+    0.40078,
+    -0.94934,
+    0.49191,
+    0.23937,
+    0.36184,
+    0.30294,
+    -0.65234
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

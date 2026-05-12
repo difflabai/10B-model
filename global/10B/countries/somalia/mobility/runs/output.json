@@ -1,0 +1,72 @@
+{
+  "country": "Somalia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3,
+  "indicators_scored": 3,
+  "indicators_total": 10,
+  "composite_score": 0.3378,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2857
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.33783,
+    0.3,
+    0.2857,
+    0.5278,
+    0.53976,
+    0.09758,
+    0.17919,
+    -0.58666,
+    0.16713,
+    0.28212,
+    -0.41759,
+    -0.10576,
+    -0.20201,
+    -0.518,
+    -0.27166,
+    -0.30159
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

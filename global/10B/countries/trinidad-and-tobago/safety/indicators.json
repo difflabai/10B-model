@@ -1,0 +1,39 @@
+{
+  "country": "Trinidad and Tobago",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Trinidad and Tobago Defense Force (TTDF): Trinidad and Tobago Regiment (Army/Land Forces), Trinidad and Tobago Coast Guard, Trinidad and Tobago Air Guard, Trinidad and Tobago Defense Force ReservesTrinidad and Tobago Police Service (TTPS) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2023 est.)1.1% of GDP (2022 est.)1% of GDP (2021 est.)1% of GDP (2020 est.)1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "36,218 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

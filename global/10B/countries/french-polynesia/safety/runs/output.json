@@ -1,0 +1,56 @@
+{
+  "country": "French Polynesia",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.55
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.16667,
+    0.55,
+    0.0,
+    -0.94913,
+    0.00548,
+    -0.63198,
+    -0.7022,
+    0.80273,
+    0.86593,
+    -0.60525,
+    0.90536,
+    -0.78131,
+    0.37716,
+    0.42101,
+    0.41646
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

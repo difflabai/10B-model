@@ -1,0 +1,52 @@
+{
+  "country": "Cambodia",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6635,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.504
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6635,
+    1.0,
+    0.504,
+    0.65,
+    0.50399,
+    -0.72531,
+    -0.77444,
+    0.61892,
+    0.87359,
+    -0.38338,
+    0.03908,
+    0.23,
+    0.22383,
+    -0.50021,
+    0.75763,
+    -0.93906
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

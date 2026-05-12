@@ -1,0 +1,64 @@
+{
+  "country": "Rwanda",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "80 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "12.8 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "8,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "34% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "62,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Rwanda was slow to liberalize the mobile sector; there was effective competition among three operators; the fixed broadband sector has suffered from limited fixed-line infrastructure and high prices; operators are rolling out national backbone networks which also allow them to connect to the international submarine cables on Africa’s east coast; these cables gave the entire region greater internet bandwidth and ended the dependency on satellites; while the country also has a new cable link with Tanzania, and via Tanzania’s national broadband backbone it has gained connectivity to the networks of several other countries in the region; the number of subscribers on LTE infrastructure has increased sharply, helped by national LTE coverage achieved in mid-2018; mobile remains the dominant platform for voice and data services; the regulator noted that the number of mobile subscribers increased 2.7% in 2021, year-on-year; there was a slight fall in the beginning of 2022 (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 1 per 100 and mobile-cellular telephone density is 81 telephones per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 250; international connections employ microwave radio relay to neighboring countries and satellite communications to more distant countries; satellite earth stations - 1 Intelsat (Indian Ocean) in Kigali (includes telex and telefax service); international submarine fiber-optic cables on the African east coast has brought international bandwidth and lessened the dependency on satellites",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "13 TV stations; 35 radio stations registered, including international broadcasters, government owns most popular TV and radio stations; regional satellite-based TV services available",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

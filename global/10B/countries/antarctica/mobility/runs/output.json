@@ -1,0 +1,72 @@
+{
+  "country": "Antarctica",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 2,
+  "indicators_total": 10,
+  "composite_score": 0.4791,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5056
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4526
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.47909,
+    0.2,
+    0.5056,
+    0.4526,
+    0.18032,
+    -0.95029,
+    0.96442,
+    -0.51397,
+    -0.87414,
+    0.73419,
+    -0.75216,
+    0.83221,
+    0.37838,
+    0.94336,
+    -0.02058,
+    -0.98141
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

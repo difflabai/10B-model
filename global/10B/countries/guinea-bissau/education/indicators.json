@@ -1,0 +1,34 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "52.9%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.7% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Portuguese-based Creole, Portuguese (official; largely used as a second or third language), Pular (a Fula language), Mandingo",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

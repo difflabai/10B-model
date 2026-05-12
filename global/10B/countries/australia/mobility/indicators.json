@@ -1,0 +1,59 @@
+{
+  "country": "Australia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "873,573 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "2,180 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "368 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "637 km condensate/gas, 30,054 km gas, 240 km liquid petroleum gas, 3,609 km oil, 110 km oil/gas/water, 72 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "2,000 km (2011) (mainly used for recreation on Murray and Murray-Darling River systems)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "32,606 km (2022) 3,448 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "75,667,645 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "2,027,640,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

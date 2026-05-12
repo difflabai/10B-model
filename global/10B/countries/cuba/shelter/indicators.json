@@ -1,0 +1,34 @@
+{
+  "country": "Cuba",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "77.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.149 million HAVANA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "large population clusters found throughout the country, the more significant ones being in the larger towns and cities, particularly the capital of Havana",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Kosovo",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.65
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.33333,
+    0.65,
+    0.75,
+    -0.87027,
+    0.29247,
+    0.89545,
+    -0.04125,
+    0.64825,
+    0.63177,
+    0.62542,
+    0.28023,
+    -0.90057,
+    -0.38344,
+    0.6025,
+    0.57412
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

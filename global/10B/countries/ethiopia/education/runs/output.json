@@ -1,0 +1,52 @@
+{
+  "country": "Ethiopia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6287,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.4283
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.675
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.44
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.62865,
+    1.0,
+    0.4283,
+    0.675,
+    0.73504,
+    0.78454,
+    0.58944,
+    0.48421,
+    -0.4248,
+    -0.2379,
+    -0.97772,
+    0.58938,
+    -0.34285,
+    -0.98288,
+    0.92877,
+    0.07866
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

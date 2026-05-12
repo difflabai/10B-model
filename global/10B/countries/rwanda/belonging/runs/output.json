@@ -1,0 +1,60 @@
+{
+  "country": "Rwanda",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6661,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.557
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.7554
+    }
+  ],
+  "embedding": [
+    0.66605,
+    1.0,
+    0.55,
+    0.75,
+    0.64157,
+    0.36129,
+    -0.6828,
+    -0.37038,
+    -0.93518,
+    0.4103,
+    0.32528,
+    0.38805,
+    -0.39892,
+    -0.75476,
+    0.02367,
+    0.27868
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

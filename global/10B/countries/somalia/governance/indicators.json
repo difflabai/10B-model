@@ -1,0 +1,44 @@
+{
+  "country": "Somalia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of civil law, Islamic (sharia) law, and customary law (referred to as Xeer)",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1961, 1979; latest drafted 12 June 2012, adopted 1 August 2012 (provisional)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal suffrage starting with 24 June 2024 local elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President HASSAN SHEIKH Mohamud (since 23 May 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AFESD, AMF, AU, CAEU (candidate), EAC, FAO, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, LAS, NAM, OIC, OPCW, OPCW (signatory), UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

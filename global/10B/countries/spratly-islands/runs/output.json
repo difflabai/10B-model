@@ -1,0 +1,47 @@
+{
+  "country": "spratly-islands",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.65,
+    "governance": null,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.5375,
+  "tier_scores": {
+    "subsistence": 0.5833,
+    "development": null,
+    "agency": 0.4
+  },
+  "country_embedding": [
+    0.14333,
+    0.06064,
+    0.14333,
+    0.0,
+    0.02814,
+    -0.1189,
+    0.04721,
+    -0.0073,
+    -0.0244,
+    -0.25673,
+    -0.1408,
+    0.17046,
+    0.19953,
+    0.01573,
+    0.14505,
+    0.02855
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Spratly Islands, the three needs areas with the largest gaps are: environment (0.40), shelter (0.55), water (0.55).\nThe three strongest areas are: food (0.65), water (0.55), shelter (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Legislative Assembly); self-governing overseas territory of the UK",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "English common law and local statutes",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1985; latest entered into force 1 January 2009 (The Falkland Islands Constitution Order 2008)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor Alison BLAKE (since 23 July 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

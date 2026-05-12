@@ -1,0 +1,56 @@
+{
+  "country": "China",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.69,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.69,
+    0.83333,
+    0.65,
+    0.65,
+    -0.12538,
+    0.51934,
+    -0.63104,
+    0.41057,
+    0.73452,
+    0.535,
+    0.52349,
+    0.91867,
+    0.20632,
+    -0.44594,
+    -0.40249,
+    0.43175
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

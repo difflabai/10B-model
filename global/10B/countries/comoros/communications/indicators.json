@@ -1,0 +1,64 @@
+{
+  "country": "Comoros",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "100 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "934,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "1 (2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "9,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "27% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "3,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Comoros launched a special program for the construction of a wireless network to inter connect the 3 islands of the archipelago; telephone service limited to the islands' few towns (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line connections less than 1 per 100 persons; mobile-cellular usage about 104 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 269; landing point for the EASSy, Comoros Domestic Cable System, Avassa, and FLY-LION3 fiber-optic submarine cable system connecting East Africa with Europe; HF radiotelephone communications to Madagascar and Reunion (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national state-owned TV station and a TV station run by Anjouan regional government; national state-owned radio; regional governments on the islands of Grande Comore and Anjouan each operate a radio station; a few independent and small community radio stations operate on the islands of Grande Comore and Moheli, and these two islands have access to Mayotte Radio and French TV",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Korea, North",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "63.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.158 million PYONGYANG (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in the plains and lowlands; least populated regions are the mountainous provinces adjacent to the Chinese border; largest concentrations are in the western provinces, particularly the municipal district of Pyongyang, and around Hungnam and Wonsan in the east",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate, with rainfall concentrated in summer; long, bitter winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate, with rainfall concentrated in summer; long, bitter winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

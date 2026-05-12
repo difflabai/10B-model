@@ -1,0 +1,44 @@
+{
+  "country": "Zimbabwe",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$3,400 (2023 est.)$3,300 (2022 est.)$3,200 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "5.34% (2023 est.)6.52% (2022 est.)8.47% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "104.71% (2022 est.)98.55% (2021 est.)557.2% (2020 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "6.32 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "8.76% (2023 est.)10.09% (2022 est.)9.54% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "38.3% (2019 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "50.3 (2020 est.)note: index (0-100) of income distribution; higher values represent greater inequality",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

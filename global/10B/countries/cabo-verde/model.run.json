@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cabo-verde",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cabo Verde"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cabo-verde.food",
+        "global.10B.countries.cabo-verde.water",
+        "global.10B.countries.cabo-verde.shelter",
+        "global.10B.countries.cabo-verde.health",
+        "global.10B.countries.cabo-verde.safety",
+        "global.10B.countries.cabo-verde.education",
+        "global.10B.countries.cabo-verde.work",
+        "global.10B.countries.cabo-verde.energy",
+        "global.10B.countries.cabo-verde.mobility",
+        "global.10B.countries.cabo-verde.communications",
+        "global.10B.countries.cabo-verde.governance",
+        "global.10B.countries.cabo-verde.environment",
+        "global.10B.countries.cabo-verde.belonging",
+        "global.10B.countries.cabo-verde.meaning",
+        "global.10B.countries.cabo-verde.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Howland Island",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": null
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.6332,
+    0.15355,
+    -0.73965,
+    -0.83279,
+    0.041,
+    -0.98257,
+    -0.9473,
+    -0.13588,
+    -0.7706,
+    -0.46987,
+    0.89471,
+    0.09505
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

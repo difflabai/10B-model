@@ -1,0 +1,44 @@
+{
+  "country": "Yemen",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$2,500 (2017 est.)$2,700 (2016 est.)$3,200 (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "0.75% (2018 est.)-5.07% (2017 est.)-9.38% (2016 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "24.7% (2017 est.)-12.6% (2016 est.)8.1% (2014 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "7.592 million (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "17.22% (2023 est.)17.52% (2022 est.)18.25% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "48.6% (2014 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "36.7 (2014 est.)note: index (0-100) of income distribution; higher values represent greater inequality",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

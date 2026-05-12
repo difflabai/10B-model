@@ -1,0 +1,72 @@
+{
+  "country": "Libya",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 4,
+  "indicators_total": 10,
+  "composite_score": 0.5339,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.402
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6056
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.4779
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.53388,
+    0.4,
+    0.402,
+    0.6056,
+    -0.46773,
+    -0.45684,
+    -0.03807,
+    0.23113,
+    -0.14159,
+    0.92776,
+    0.81549,
+    0.84784,
+    0.59252,
+    -0.49499,
+    -0.6181,
+    -0.17607
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

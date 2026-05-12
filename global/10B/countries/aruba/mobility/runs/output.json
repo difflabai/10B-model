@@ -1,0 +1,72 @@
+{
+  "country": "Aruba",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3,
+  "indicators_scored": 3,
+  "indicators_total": 10,
+  "composite_score": 0.2267,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2801
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.22669,
+    0.3,
+    0.2,
+    0.2,
+    0.81704,
+    -0.59277,
+    0.22899,
+    0.93588,
+    -0.32601,
+    0.59826,
+    -0.29314,
+    0.97842,
+    0.60967,
+    0.77868,
+    0.80099,
+    -0.78582
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

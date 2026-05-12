@@ -1,0 +1,34 @@
+{
+  "country": "Australia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "86.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "5.235 million Melbourne, 5.121 million Sydney, 2.505 million Brisbane, 2.118 million Perth, 1.367 million Adelaide, 472,000 CANBERRA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population is primarily located on the periphery, with the highest concentration of people residing in the east and southeast; a secondary population center is located in and around Perth in the west; of the States and Territories, New South Wales has, by far, the largest population; the interior, or \"outback\", has a very sparse population",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "generally arid to semiarid; temperate in south and east; tropical in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "generally arid to semiarid; temperate in south and east; tropical in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

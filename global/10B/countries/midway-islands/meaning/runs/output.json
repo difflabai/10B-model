@@ -1,0 +1,56 @@
+{
+  "country": "Midway Islands",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": null
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.64617,
+    0.96231,
+    -0.44146,
+    0.59542,
+    0.37823,
+    -0.08714,
+    0.96548,
+    0.48153,
+    -0.97989,
+    0.62341,
+    -0.84796,
+    -0.93124
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Paraguay",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Río de la Plata/Paraná (shared with Brazil [s], Argentina, and Uruguay [m]) - 4,880 km; Paraguay river mouth (shared with Brazil [s] and Argentina) - 2,549 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Paraná (2,582,704 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical to temperate; substantial rainfall in the eastern portions, becoming semiarid in the far west",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

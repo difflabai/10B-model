@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.belonging",
+  "name": "Asia — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "Region-level belonging and social cohesion for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country belonging models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-region-mean",
+      "kind": "scalar",
+      "description": "Mean belonging score across the region."
+    },
+    {
+      "name": "belonging-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.belonging",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Micronesia, Federated States of",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "no formal parties",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "41% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no TV broadcast stations; each state has a multi-channel cable service with TV transmissions carrying roughly 95% imported programming and 5% local programming; about a half-dozen radio stations (2009)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "9.7% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

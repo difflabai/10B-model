@@ -1,0 +1,92 @@
+{
+  "country": "angola",
+  "cluster_id": 4,
+  "cluster_label": "avg 0.60; strongest in [governance, agency, belonging], weakest in [mobility, health, environment]",
+  "nearest_peers": [
+    {
+      "country": "congo-democratic-republic-of-the",
+      "distance": 0.1656
+    },
+    {
+      "country": "sudan",
+      "distance": 0.1851
+    },
+    {
+      "country": "mozambique",
+      "distance": 0.2241
+    },
+    {
+      "country": "yemen",
+      "distance": 0.2345
+    },
+    {
+      "country": "zambia",
+      "distance": 0.2366
+    },
+    {
+      "country": "zimbabwe",
+      "distance": 0.2408
+    },
+    {
+      "country": "guinea-bissau",
+      "distance": 0.2419
+    },
+    {
+      "country": "burundi",
+      "distance": 0.2488
+    },
+    {
+      "country": "madagascar",
+      "distance": 0.2536
+    },
+    {
+      "country": "nigeria",
+      "distance": 0.2538
+    }
+  ],
+  "most_different": [
+    {
+      "country": "monaco",
+      "distance": 0.8207
+    },
+    {
+      "country": "san-marino",
+      "distance": 0.8246
+    },
+    {
+      "country": "saint-martin",
+      "distance": 0.8418
+    },
+    {
+      "country": "curacao",
+      "distance": 0.8478
+    },
+    {
+      "country": "sint-maarten",
+      "distance": 0.8706
+    }
+  ],
+  "cluster_peers": [
+    "afghanistan",
+    "bangladesh",
+    "benin",
+    "burkina-faso",
+    "burma",
+    "burundi",
+    "cameroon",
+    "central-african-republic",
+    "chad",
+    "comoros",
+    "congo-democratic-republic-of-the",
+    "congo-republic-of-the",
+    "djibouti",
+    "egypt",
+    "equatorial-guinea",
+    "eritrea",
+    "eswatini",
+    "ethiopia",
+    "gabon",
+    "gambia-the"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

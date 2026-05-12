@@ -1,0 +1,39 @@
+{
+  "country": "Antigua and Barbuda",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Antigua Labor Party or ABLPBarbuda People's Movement or BPMDemocratic National Alliance or DNAGo Green for Life or GGLUnited Progressive Party or UPP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "91% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-controlled Antigua and Barbuda Broadcasting Service (ABS) operates 1 TV station; multi-channel cable TV subscription services are available; ABS operates 1 radio station; roughly 20 radio stations (2024)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.8% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

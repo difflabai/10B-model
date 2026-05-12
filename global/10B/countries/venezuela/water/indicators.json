@@ -1,0 +1,39 @@
+{
+  "country": "Venezuela",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Rio Negro (shared with Colombia [s] and Brazil [m]) - 2,250 km; Orinoco river source and mouth (shared with Colombia) - 2,101 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lago de Maracaibo - 13,010 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Amazon (6,145,186 sq km), Orinoco (953,675 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid; more moderate in highlands",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

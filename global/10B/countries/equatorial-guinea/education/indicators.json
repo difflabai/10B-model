@@ -1,0 +1,34 @@
+{
+  "country": "Equatorial Guinea",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "95.3%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish (official) 67.6%, other (includes Fang, Bubi, Portuguese (official), French (official), Fa d'Ambo spoken in Annobon) 32.4% (1994 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Laos",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "59,647 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "13,718 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "45,929 km (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "18 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "540 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "4,600 km (2012) (primarily on the Mekong River and its tributaries; 2,900 additional km are intermittently navigable by craft drawing less than 0.5 m)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "422 km (2023)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,251,961 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1.53 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

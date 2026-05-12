@@ -1,0 +1,39 @@
+{
+  "country": "Liechtenstein",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democrats for Liechtenstein (Demokraten pro Liechtenstein) or DpL Fatherland Union (Vaterlaendische Union) or VU Progressive Citizens' Party (Fortschrittliche Buergerpartei) or FBP The Free List (Die Freie Liste) or FL The Independents (Die Unabhaengigen) or DU",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "relies on foreign terrestrial and satellite broadcasters for most broadcast media services; first Liechtenstein-based TV station established August 2008; Radio Liechtenstein operates multiple radio stations; a Swiss-based broadcaster operates one radio station in Liechtenstein",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.6% of GDP (2011 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

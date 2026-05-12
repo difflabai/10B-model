@@ -1,0 +1,56 @@
+{
+  "country": "Montserrat",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.75
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.16667,
+    0.75,
+    0.0,
+    -0.33114,
+    0.88171,
+    0.68008,
+    -0.02974,
+    0.11037,
+    -0.64398,
+    0.29445,
+    -0.77673,
+    0.21035,
+    0.06331,
+    -0.1014,
+    0.91727
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

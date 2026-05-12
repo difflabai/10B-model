@@ -1,0 +1,47 @@
+{
+  "country": "indonesia",
+  "category_scores": {
+    "agency": 0.7397,
+    "belonging": 0.7513,
+    "communications": 0.6566,
+    "education": 0.7544,
+    "energy": 0.5967,
+    "environment": 0.5484,
+    "food": 0.6739,
+    "governance": 0.7429,
+    "health": 0.5305,
+    "meaning": 0.65,
+    "mobility": 0.7499,
+    "safety": 0.5856,
+    "shelter": 0.728,
+    "water": 0.65,
+    "work": 0.7579
+  },
+  "country_score": 0.6744,
+  "tier_scores": {
+    "subsistence": 0.6336,
+    "development": 0.7031,
+    "agency": 0.6865
+  },
+  "country_embedding": [
+    0.67439,
+    0.87265,
+    0.73178,
+    0.70803,
+    0.22889,
+    0.04337,
+    -0.24914,
+    0.08822,
+    -0.42422,
+    -0.17399,
+    -0.10055,
+    -0.28368,
+    -0.15558,
+    -0.22191,
+    0.04935,
+    -0.06031
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Indonesia, the three needs areas with the largest gaps are: health (0.53), environment (0.55), safety (0.59).\nThe three strongest areas are: work (0.76), education (0.75), belonging (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,1550 @@
+{
+  "country_count": 257,
+  "files": [
+    "afghanistan.json",
+    "akrotiri.json",
+    "albania.json",
+    "algeria.json",
+    "american-samoa.json",
+    "andorra.json",
+    "angola.json",
+    "anguilla.json",
+    "antarctica.json",
+    "antigua-and-barbuda.json",
+    "argentina.json",
+    "armenia.json",
+    "aruba.json",
+    "ashmore-and-cartier-islands.json",
+    "australia.json",
+    "austria.json",
+    "azerbaijan.json",
+    "bahamas-the.json",
+    "bahrain.json",
+    "baker-island.json",
+    "bangladesh.json",
+    "barbados.json",
+    "belarus.json",
+    "belgium.json",
+    "belize.json",
+    "benin.json",
+    "bermuda.json",
+    "bhutan.json",
+    "bolivia.json",
+    "bosnia-and-herzegovina.json",
+    "botswana.json",
+    "bouvet-island.json",
+    "brazil.json",
+    "british-indian-ocean-territory.json",
+    "british-virgin-islands.json",
+    "brunei.json",
+    "bulgaria.json",
+    "burkina-faso.json",
+    "burma.json",
+    "burundi.json",
+    "cabo-verde.json",
+    "cambodia.json",
+    "cameroon.json",
+    "canada.json",
+    "cayman-islands.json",
+    "central-african-republic.json",
+    "chad.json",
+    "chile.json",
+    "china.json",
+    "christmas-island.json",
+    "clipperton-island.json",
+    "cocos-keeling-islands.json",
+    "colombia.json",
+    "comoros.json",
+    "congo-democratic-republic-of-the.json",
+    "congo-republic-of-the.json",
+    "cook-islands.json",
+    "coral-sea-islands.json",
+    "costa-rica.json",
+    "croatia.json",
+    "cuba.json",
+    "curacao.json",
+    "cyprus.json",
+    "czechia.json",
+    "denmark.json",
+    "dhekelia.json",
+    "djibouti.json",
+    "dominica.json",
+    "dominican-republic.json",
+    "ecuador.json",
+    "egypt.json",
+    "el-salvador.json",
+    "equatorial-guinea.json",
+    "eritrea.json",
+    "estonia.json",
+    "eswatini.json",
+    "ethiopia.json",
+    "falkland-islands-islas-malvinas.json",
+    "faroe-islands.json",
+    "fiji.json",
+    "finland.json",
+    "france.json",
+    "french-polynesia.json",
+    "french-southern-and-antarctic-lands.json",
+    "gabon.json",
+    "gambia-the.json",
+    "gaza-strip.json",
+    "georgia.json",
+    "germany.json",
+    "ghana.json",
+    "gibraltar.json",
+    "greece.json",
+    "greenland.json",
+    "grenada.json",
+    "guam.json",
+    "guatemala.json",
+    "guernsey.json",
+    "guinea.json",
+    "guinea-bissau.json",
+    "guyana.json",
+    "haiti.json",
+    "heard-island-and-mcdonald-islands.json",
+    "holy-see-vatican-city.json",
+    "honduras.json",
+    "hong-kong.json",
+    "howland-island.json",
+    "hungary.json",
+    "iceland.json",
+    "india.json",
+    "indonesia.json",
+    "iran.json",
+    "iraq.json",
+    "ireland.json",
+    "isle-of-man.json",
+    "israel.json",
+    "italy.json",
+    "jamaica.json",
+    "jan-mayen.json",
+    "japan.json",
+    "jarvis-island.json",
+    "jersey.json",
+    "johnston-atoll.json",
+    "jordan.json",
+    "kazakhstan.json",
+    "kenya.json",
+    "kingman-reef.json",
+    "kiribati.json",
+    "korea-north.json",
+    "korea-south.json",
+    "kosovo.json",
+    "kuwait.json",
+    "kyrgyzstan.json",
+    "laos.json",
+    "latvia.json",
+    "lebanon.json",
+    "lesotho.json",
+    "liberia.json",
+    "libya.json",
+    "liechtenstein.json",
+    "lithuania.json",
+    "luxembourg.json",
+    "macau.json",
+    "madagascar.json",
+    "malawi.json",
+    "malaysia.json",
+    "maldives.json",
+    "mali.json",
+    "malta.json",
+    "marshall-islands.json",
+    "mauritania.json",
+    "mauritius.json",
+    "mexico.json",
+    "micronesia-federated-states-of.json",
+    "midway-islands.json",
+    "moldova.json",
+    "monaco.json",
+    "mongolia.json",
+    "montenegro.json",
+    "montserrat.json",
+    "morocco.json",
+    "mozambique.json",
+    "namibia.json",
+    "nauru.json",
+    "navassa-island.json",
+    "nepal.json",
+    "netherlands.json",
+    "new-caledonia.json",
+    "new-zealand.json",
+    "nicaragua.json",
+    "niger.json",
+    "nigeria.json",
+    "niue.json",
+    "norfolk-island.json",
+    "north-macedonia.json",
+    "northern-mariana-islands.json",
+    "norway.json",
+    "oman.json",
+    "pakistan.json",
+    "palau.json",
+    "palmyra-atoll.json",
+    "panama.json",
+    "papua-new-guinea.json",
+    "paracel-islands.json",
+    "paraguay.json",
+    "peru.json",
+    "philippines.json",
+    "pitcairn-islands.json",
+    "poland.json",
+    "portugal.json",
+    "puerto-rico.json",
+    "qatar.json",
+    "romania.json",
+    "russia.json",
+    "rwanda.json",
+    "saint-barthelemy.json",
+    "saint-helena-ascension-and-tristan-da-cunha.json",
+    "saint-kitts-and-nevis.json",
+    "saint-lucia.json",
+    "saint-martin.json",
+    "saint-pierre-and-miquelon.json",
+    "saint-vincent-and-the-grenadines.json",
+    "samoa.json",
+    "san-marino.json",
+    "sao-tome-and-principe.json",
+    "saudi-arabia.json",
+    "senegal.json",
+    "serbia.json",
+    "seychelles.json",
+    "sierra-leone.json",
+    "singapore.json",
+    "sint-maarten.json",
+    "slovakia.json",
+    "slovenia.json",
+    "solomon-islands.json",
+    "somalia.json",
+    "south-africa.json",
+    "south-sudan.json",
+    "spain.json",
+    "spratly-islands.json",
+    "sri-lanka.json",
+    "sudan.json",
+    "suriname.json",
+    "svalbard.json",
+    "sweden.json",
+    "switzerland.json",
+    "syria.json",
+    "taiwan.json",
+    "tajikistan.json",
+    "tanzania.json",
+    "thailand.json",
+    "timor-leste.json",
+    "togo.json",
+    "tokelau.json",
+    "tonga.json",
+    "trinidad-and-tobago.json",
+    "tunisia.json",
+    "turkey-turkiye.json",
+    "turkmenistan.json",
+    "turks-and-caicos-islands.json",
+    "tuvalu.json",
+    "uganda.json",
+    "ukraine.json",
+    "united-arab-emirates.json",
+    "united-kingdom.json",
+    "united-states.json",
+    "uruguay.json",
+    "uzbekistan.json",
+    "vanuatu.json",
+    "venezuela.json",
+    "vietnam.json",
+    "virgin-islands.json",
+    "wake-island.json",
+    "wallis-and-futuna.json",
+    "west-bank.json",
+    "yemen.json",
+    "zambia.json",
+    "zimbabwe.json"
+  ],
+  "by_country": {
+    "afghanistan": {
+      "country": "afghanistan",
+      "country_score": 0.5855,
+      "cluster_id": 4
+    },
+    "akrotiri": {
+      "country": "akrotiri",
+      "country_score": null,
+      "cluster_id": null
+    },
+    "albania": {
+      "country": "albania",
+      "country_score": 0.6551,
+      "cluster_id": 3
+    },
+    "algeria": {
+      "country": "algeria",
+      "country_score": 0.6506,
+      "cluster_id": 3
+    },
+    "american-samoa": {
+      "country": "american-samoa",
+      "country_score": 0.6135,
+      "cluster_id": null
+    },
+    "andorra": {
+      "country": "andorra",
+      "country_score": 0.6799,
+      "cluster_id": 0
+    },
+    "angola": {
+      "country": "angola",
+      "country_score": 0.6076,
+      "cluster_id": 4
+    },
+    "anguilla": {
+      "country": "anguilla",
+      "country_score": 0.6809,
+      "cluster_id": null
+    },
+    "antarctica": {
+      "country": "antarctica",
+      "country_score": 0.6238,
+      "cluster_id": null
+    },
+    "antigua-and-barbuda": {
+      "country": "antigua-and-barbuda",
+      "country_score": 0.6503,
+      "cluster_id": 3
+    },
+    "argentina": {
+      "country": "argentina",
+      "country_score": 0.6774,
+      "cluster_id": 1
+    },
+    "armenia": {
+      "country": "armenia",
+      "country_score": 0.6388,
+      "cluster_id": 2
+    },
+    "aruba": {
+      "country": "aruba",
+      "country_score": 0.6421,
+      "cluster_id": 5
+    },
+    "ashmore-and-cartier-islands": {
+      "country": "ashmore-and-cartier-islands",
+      "country_score": 0.505,
+      "cluster_id": null
+    },
+    "australia": {
+      "country": "australia",
+      "country_score": 0.7274,
+      "cluster_id": 1
+    },
+    "austria": {
+      "country": "austria",
+      "country_score": 0.6963,
+      "cluster_id": 1
+    },
+    "azerbaijan": {
+      "country": "azerbaijan",
+      "country_score": 0.6411,
+      "cluster_id": 3
+    },
+    "bahamas-the": {
+      "country": "bahamas-the",
+      "country_score": 0.6242,
+      "cluster_id": 2
+    },
+    "bahrain": {
+      "country": "bahrain",
+      "country_score": 0.6358,
+      "cluster_id": 2
+    },
+    "baker-island": {
+      "country": "baker-island",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "bangladesh": {
+      "country": "bangladesh",
+      "country_score": 0.6286,
+      "cluster_id": 4
+    },
+    "barbados": {
+      "country": "barbados",
+      "country_score": 0.6514,
+      "cluster_id": 3
+    },
+    "belarus": {
+      "country": "belarus",
+      "country_score": 0.6789,
+      "cluster_id": 2
+    },
+    "belgium": {
+      "country": "belgium",
+      "country_score": 0.7018,
+      "cluster_id": 1
+    },
+    "belize": {
+      "country": "belize",
+      "country_score": 0.6566,
+      "cluster_id": 3
+    },
+    "benin": {
+      "country": "benin",
+      "country_score": 0.6053,
+      "cluster_id": 4
+    },
+    "bermuda": {
+      "country": "bermuda",
+      "country_score": 0.6106,
+      "cluster_id": 5
+    },
+    "bhutan": {
+      "country": "bhutan",
+      "country_score": 0.6571,
+      "cluster_id": 3
+    },
+    "bolivia": {
+      "country": "bolivia",
+      "country_score": 0.6709,
+      "cluster_id": 3
+    },
+    "bosnia-and-herzegovina": {
+      "country": "bosnia-and-herzegovina",
+      "country_score": 0.6675,
+      "cluster_id": 3
+    },
+    "botswana": {
+      "country": "botswana",
+      "country_score": 0.6387,
+      "cluster_id": 3
+    },
+    "bouvet-island": {
+      "country": "bouvet-island",
+      "country_score": 0.485,
+      "cluster_id": null
+    },
+    "brazil": {
+      "country": "brazil",
+      "country_score": 0.6954,
+      "cluster_id": 1
+    },
+    "british-indian-ocean-territory": {
+      "country": "british-indian-ocean-territory",
+      "country_score": 0.5333,
+      "cluster_id": null
+    },
+    "british-virgin-islands": {
+      "country": "british-virgin-islands",
+      "country_score": 0.6151,
+      "cluster_id": null
+    },
+    "brunei": {
+      "country": "brunei",
+      "country_score": 0.6466,
+      "cluster_id": 2
+    },
+    "bulgaria": {
+      "country": "bulgaria",
+      "country_score": 0.6644,
+      "cluster_id": 3
+    },
+    "burkina-faso": {
+      "country": "burkina-faso",
+      "country_score": 0.6024,
+      "cluster_id": 4
+    },
+    "burma": {
+      "country": "burma",
+      "country_score": 0.6131,
+      "cluster_id": 4
+    },
+    "burundi": {
+      "country": "burundi",
+      "country_score": 0.5984,
+      "cluster_id": 4
+    },
+    "cabo-verde": {
+      "country": "cabo-verde",
+      "country_score": 0.6473,
+      "cluster_id": 3
+    },
+    "cambodia": {
+      "country": "cambodia",
+      "country_score": 0.6525,
+      "cluster_id": 3
+    },
+    "cameroon": {
+      "country": "cameroon",
+      "country_score": 0.6088,
+      "cluster_id": 4
+    },
+    "canada": {
+      "country": "canada",
+      "country_score": 0.7087,
+      "cluster_id": 1
+    },
+    "cayman-islands": {
+      "country": "cayman-islands",
+      "country_score": 0.6272,
+      "cluster_id": 5
+    },
+    "central-african-republic": {
+      "country": "central-african-republic",
+      "country_score": 0.5609,
+      "cluster_id": 4
+    },
+    "chad": {
+      "country": "chad",
+      "country_score": 0.575,
+      "cluster_id": 4
+    },
+    "chile": {
+      "country": "chile",
+      "country_score": 0.6896,
+      "cluster_id": 1
+    },
+    "china": {
+      "country": "china",
+      "country_score": 0.7018,
+      "cluster_id": 1
+    },
+    "christmas-island": {
+      "country": "christmas-island",
+      "country_score": 0.5898,
+      "cluster_id": null
+    },
+    "clipperton-island": {
+      "country": "clipperton-island",
+      "country_score": 0.505,
+      "cluster_id": null
+    },
+    "cocos-keeling-islands": {
+      "country": "cocos-keeling-islands",
+      "country_score": 0.5471,
+      "cluster_id": null
+    },
+    "colombia": {
+      "country": "colombia",
+      "country_score": 0.675,
+      "cluster_id": 1
+    },
+    "comoros": {
+      "country": "comoros",
+      "country_score": 0.5967,
+      "cluster_id": 4
+    },
+    "congo-democratic-republic-of-the": {
+      "country": "congo-democratic-republic-of-the",
+      "country_score": 0.6039,
+      "cluster_id": 4
+    },
+    "congo-republic-of-the": {
+      "country": "congo-republic-of-the",
+      "country_score": 0.6149,
+      "cluster_id": 4
+    },
+    "cook-islands": {
+      "country": "cook-islands",
+      "country_score": 0.661,
+      "cluster_id": 3
+    },
+    "coral-sea-islands": {
+      "country": "coral-sea-islands",
+      "country_score": 0.505,
+      "cluster_id": null
+    },
+    "costa-rica": {
+      "country": "costa-rica",
+      "country_score": 0.6691,
+      "cluster_id": 3
+    },
+    "croatia": {
+      "country": "croatia",
+      "country_score": 0.6896,
+      "cluster_id": 1
+    },
+    "cuba": {
+      "country": "cuba",
+      "country_score": 0.6493,
+      "cluster_id": 2
+    },
+    "curacao": {
+      "country": "curacao",
+      "country_score": 0.6819,
+      "cluster_id": 0
+    },
+    "cyprus": {
+      "country": "cyprus",
+      "country_score": 0.6662,
+      "cluster_id": 2
+    },
+    "czechia": {
+      "country": "czechia",
+      "country_score": 0.6814,
+      "cluster_id": 1
+    },
+    "denmark": {
+      "country": "denmark",
+      "country_score": 0.6977,
+      "cluster_id": 1
+    },
+    "dhekelia": {
+      "country": "dhekelia",
+      "country_score": null,
+      "cluster_id": null
+    },
+    "djibouti": {
+      "country": "djibouti",
+      "country_score": 0.5759,
+      "cluster_id": 4
+    },
+    "dominica": {
+      "country": "dominica",
+      "country_score": 0.6466,
+      "cluster_id": 5
+    },
+    "dominican-republic": {
+      "country": "dominican-republic",
+      "country_score": 0.6433,
+      "cluster_id": 3
+    },
+    "ecuador": {
+      "country": "ecuador",
+      "country_score": 0.6666,
+      "cluster_id": 3
+    },
+    "egypt": {
+      "country": "egypt",
+      "country_score": 0.6214,
+      "cluster_id": 4
+    },
+    "el-salvador": {
+      "country": "el-salvador",
+      "country_score": 0.6558,
+      "cluster_id": 3
+    },
+    "equatorial-guinea": {
+      "country": "equatorial-guinea",
+      "country_score": 0.6189,
+      "cluster_id": 4
+    },
+    "eritrea": {
+      "country": "eritrea",
+      "country_score": 0.5796,
+      "cluster_id": 4
+    },
+    "estonia": {
+      "country": "estonia",
+      "country_score": 0.6671,
+      "cluster_id": 3
+    },
+    "eswatini": {
+      "country": "eswatini",
+      "country_score": 0.5972,
+      "cluster_id": 4
+    },
+    "ethiopia": {
+      "country": "ethiopia",
+      "country_score": 0.6092,
+      "cluster_id": 4
+    },
+    "falkland-islands-islas-malvinas": {
+      "country": "falkland-islands-islas-malvinas",
+      "country_score": 0.6296,
+      "cluster_id": 2
+    },
+    "faroe-islands": {
+      "country": "faroe-islands",
+      "country_score": 0.6577,
+      "cluster_id": 5
+    },
+    "fiji": {
+      "country": "fiji",
+      "country_score": 0.6631,
+      "cluster_id": 3
+    },
+    "finland": {
+      "country": "finland",
+      "country_score": 0.6843,
+      "cluster_id": 1
+    },
+    "france": {
+      "country": "france",
+      "country_score": 0.7224,
+      "cluster_id": 1
+    },
+    "french-polynesia": {
+      "country": "french-polynesia",
+      "country_score": 0.6338,
+      "cluster_id": 2
+    },
+    "french-southern-and-antarctic-lands": {
+      "country": "french-southern-and-antarctic-lands",
+      "country_score": 0.4804,
+      "cluster_id": null
+    },
+    "gabon": {
+      "country": "gabon",
+      "country_score": 0.6248,
+      "cluster_id": 4
+    },
+    "gambia-the": {
+      "country": "gambia-the",
+      "country_score": 0.5887,
+      "cluster_id": 4
+    },
+    "gaza-strip": {
+      "country": "gaza-strip",
+      "country_score": 0.6294,
+      "cluster_id": null
+    },
+    "georgia": {
+      "country": "georgia",
+      "country_score": 0.6698,
+      "cluster_id": 3
+    },
+    "germany": {
+      "country": "germany",
+      "country_score": 0.7108,
+      "cluster_id": 1
+    },
+    "ghana": {
+      "country": "ghana",
+      "country_score": 0.6238,
+      "cluster_id": 4
+    },
+    "gibraltar": {
+      "country": "gibraltar",
+      "country_score": 0.6162,
+      "cluster_id": 5
+    },
+    "greece": {
+      "country": "greece",
+      "country_score": 0.6739,
+      "cluster_id": 1
+    },
+    "greenland": {
+      "country": "greenland",
+      "country_score": 0.6438,
+      "cluster_id": 2
+    },
+    "grenada": {
+      "country": "grenada",
+      "country_score": 0.6389,
+      "cluster_id": 3
+    },
+    "guam": {
+      "country": "guam",
+      "country_score": 0.6426,
+      "cluster_id": 5
+    },
+    "guatemala": {
+      "country": "guatemala",
+      "country_score": 0.6397,
+      "cluster_id": 3
+    },
+    "guernsey": {
+      "country": "guernsey",
+      "country_score": 0.6613,
+      "cluster_id": null
+    },
+    "guinea": {
+      "country": "guinea",
+      "country_score": 0.5963,
+      "cluster_id": 4
+    },
+    "guinea-bissau": {
+      "country": "guinea-bissau",
+      "country_score": 0.5974,
+      "cluster_id": 4
+    },
+    "guyana": {
+      "country": "guyana",
+      "country_score": 0.6399,
+      "cluster_id": 3
+    },
+    "haiti": {
+      "country": "haiti",
+      "country_score": 0.572,
+      "cluster_id": 4
+    },
+    "heard-island-and-mcdonald-islands": {
+      "country": "heard-island-and-mcdonald-islands",
+      "country_score": 0.4897,
+      "cluster_id": null
+    },
+    "holy-see-vatican-city": {
+      "country": "holy-see-vatican-city",
+      "country_score": 0.6291,
+      "cluster_id": null
+    },
+    "honduras": {
+      "country": "honduras",
+      "country_score": 0.6411,
+      "cluster_id": 3
+    },
+    "hong-kong": {
+      "country": "hong-kong",
+      "country_score": 0.6576,
+      "cluster_id": 2
+    },
+    "howland-island": {
+      "country": "howland-island",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "hungary": {
+      "country": "hungary",
+      "country_score": 0.6876,
+      "cluster_id": 1
+    },
+    "iceland": {
+      "country": "iceland",
+      "country_score": 0.7006,
+      "cluster_id": 2
+    },
+    "india": {
+      "country": "india",
+      "country_score": 0.6719,
+      "cluster_id": 1
+    },
+    "indonesia": {
+      "country": "indonesia",
+      "country_score": 0.6744,
+      "cluster_id": 1
+    },
+    "iran": {
+      "country": "iran",
+      "country_score": 0.6504,
+      "cluster_id": 1
+    },
+    "iraq": {
+      "country": "iraq",
+      "country_score": 0.6376,
+      "cluster_id": 4
+    },
+    "ireland": {
+      "country": "ireland",
+      "country_score": 0.6736,
+      "cluster_id": 2
+    },
+    "isle-of-man": {
+      "country": "isle-of-man",
+      "country_score": 0.6709,
+      "cluster_id": null
+    },
+    "israel": {
+      "country": "israel",
+      "country_score": 0.6695,
+      "cluster_id": 2
+    },
+    "italy": {
+      "country": "italy",
+      "country_score": 0.6966,
+      "cluster_id": 1
+    },
+    "jamaica": {
+      "country": "jamaica",
+      "country_score": 0.6485,
+      "cluster_id": 3
+    },
+    "jan-mayen": {
+      "country": "jan-mayen",
+      "country_score": 0.575,
+      "cluster_id": null
+    },
+    "japan": {
+      "country": "japan",
+      "country_score": 0.6925,
+      "cluster_id": 1
+    },
+    "jarvis-island": {
+      "country": "jarvis-island",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "jersey": {
+      "country": "jersey",
+      "country_score": 0.6382,
+      "cluster_id": null
+    },
+    "johnston-atoll": {
+      "country": "johnston-atoll",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "jordan": {
+      "country": "jordan",
+      "country_score": 0.626,
+      "cluster_id": 3
+    },
+    "kazakhstan": {
+      "country": "kazakhstan",
+      "country_score": 0.6766,
+      "cluster_id": 1
+    },
+    "kenya": {
+      "country": "kenya",
+      "country_score": 0.6425,
+      "cluster_id": 3
+    },
+    "kingman-reef": {
+      "country": "kingman-reef",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "kiribati": {
+      "country": "kiribati",
+      "country_score": 0.6288,
+      "cluster_id": 3
+    },
+    "korea-north": {
+      "country": "korea-north",
+      "country_score": 0.6274,
+      "cluster_id": 3
+    },
+    "korea-south": {
+      "country": "korea-south",
+      "country_score": 0.6965,
+      "cluster_id": 1
+    },
+    "kosovo": {
+      "country": "kosovo",
+      "country_score": 0.631,
+      "cluster_id": 3
+    },
+    "kuwait": {
+      "country": "kuwait",
+      "country_score": 0.6304,
+      "cluster_id": 2
+    },
+    "kyrgyzstan": {
+      "country": "kyrgyzstan",
+      "country_score": 0.6731,
+      "cluster_id": 3
+    },
+    "laos": {
+      "country": "laos",
+      "country_score": 0.6111,
+      "cluster_id": 4
+    },
+    "latvia": {
+      "country": "latvia",
+      "country_score": 0.6694,
+      "cluster_id": 3
+    },
+    "lebanon": {
+      "country": "lebanon",
+      "country_score": 0.6019,
+      "cluster_id": 4
+    },
+    "lesotho": {
+      "country": "lesotho",
+      "country_score": 0.6077,
+      "cluster_id": 4
+    },
+    "liberia": {
+      "country": "liberia",
+      "country_score": 0.5918,
+      "cluster_id": 4
+    },
+    "libya": {
+      "country": "libya",
+      "country_score": 0.646,
+      "cluster_id": 2
+    },
+    "liechtenstein": {
+      "country": "liechtenstein",
+      "country_score": 0.6895,
+      "cluster_id": 0
+    },
+    "lithuania": {
+      "country": "lithuania",
+      "country_score": 0.6738,
+      "cluster_id": 3
+    },
+    "luxembourg": {
+      "country": "luxembourg",
+      "country_score": 0.678,
+      "cluster_id": 2
+    },
+    "macau": {
+      "country": "macau",
+      "country_score": 0.6627,
+      "cluster_id": 5
+    },
+    "madagascar": {
+      "country": "madagascar",
+      "country_score": 0.595,
+      "cluster_id": 4
+    },
+    "malawi": {
+      "country": "malawi",
+      "country_score": 0.5911,
+      "cluster_id": 4
+    },
+    "malaysia": {
+      "country": "malaysia",
+      "country_score": 0.6807,
+      "cluster_id": 1
+    },
+    "maldives": {
+      "country": "maldives",
+      "country_score": 0.6555,
+      "cluster_id": 5
+    },
+    "mali": {
+      "country": "mali",
+      "country_score": 0.5884,
+      "cluster_id": 4
+    },
+    "malta": {
+      "country": "malta",
+      "country_score": 0.66,
+      "cluster_id": 5
+    },
+    "marshall-islands": {
+      "country": "marshall-islands",
+      "country_score": 0.6562,
+      "cluster_id": 3
+    },
+    "mauritania": {
+      "country": "mauritania",
+      "country_score": 0.5967,
+      "cluster_id": 4
+    },
+    "mauritius": {
+      "country": "mauritius",
+      "country_score": 0.6861,
+      "cluster_id": 3
+    },
+    "mexico": {
+      "country": "mexico",
+      "country_score": 0.6831,
+      "cluster_id": 1
+    },
+    "micronesia-federated-states-of": {
+      "country": "micronesia-federated-states-of",
+      "country_score": 0.6396,
+      "cluster_id": 3
+    },
+    "midway-islands": {
+      "country": "midway-islands",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "moldova": {
+      "country": "moldova",
+      "country_score": 0.6411,
+      "cluster_id": 3
+    },
+    "monaco": {
+      "country": "monaco",
+      "country_score": 0.668,
+      "cluster_id": 0
+    },
+    "mongolia": {
+      "country": "mongolia",
+      "country_score": 0.6478,
+      "cluster_id": 3
+    },
+    "montenegro": {
+      "country": "montenegro",
+      "country_score": 0.6689,
+      "cluster_id": 3
+    },
+    "montserrat": {
+      "country": "montserrat",
+      "country_score": 0.6209,
+      "cluster_id": 5
+    },
+    "morocco": {
+      "country": "morocco",
+      "country_score": 0.66,
+      "cluster_id": 3
+    },
+    "mozambique": {
+      "country": "mozambique",
+      "country_score": 0.6122,
+      "cluster_id": 4
+    },
+    "namibia": {
+      "country": "namibia",
+      "country_score": 0.6353,
+      "cluster_id": 3
+    },
+    "nauru": {
+      "country": "nauru",
+      "country_score": 0.6373,
+      "cluster_id": 3
+    },
+    "navassa-island": {
+      "country": "navassa-island",
+      "country_score": 0.56,
+      "cluster_id": null
+    },
+    "nepal": {
+      "country": "nepal",
+      "country_score": 0.626,
+      "cluster_id": 3
+    },
+    "netherlands": {
+      "country": "netherlands",
+      "country_score": 0.6992,
+      "cluster_id": 1
+    },
+    "new-caledonia": {
+      "country": "new-caledonia",
+      "country_score": 0.6594,
+      "cluster_id": 5
+    },
+    "new-zealand": {
+      "country": "new-zealand",
+      "country_score": 0.7056,
+      "cluster_id": 1
+    },
+    "nicaragua": {
+      "country": "nicaragua",
+      "country_score": 0.6413,
+      "cluster_id": 3
+    },
+    "niger": {
+      "country": "niger",
+      "country_score": 0.5693,
+      "cluster_id": 4
+    },
+    "nigeria": {
+      "country": "nigeria",
+      "country_score": 0.5904,
+      "cluster_id": 4
+    },
+    "niue": {
+      "country": "niue",
+      "country_score": 0.6276,
+      "cluster_id": 3
+    },
+    "norfolk-island": {
+      "country": "norfolk-island",
+      "country_score": 0.6088,
+      "cluster_id": null
+    },
+    "north-macedonia": {
+      "country": "north-macedonia",
+      "country_score": 0.6614,
+      "cluster_id": 3
+    },
+    "northern-mariana-islands": {
+      "country": "northern-mariana-islands",
+      "country_score": 0.6402,
+      "cluster_id": null
+    },
+    "norway": {
+      "country": "norway",
+      "country_score": 0.693,
+      "cluster_id": 1
+    },
+    "oman": {
+      "country": "oman",
+      "country_score": 0.6384,
+      "cluster_id": 2
+    },
+    "pakistan": {
+      "country": "pakistan",
+      "country_score": 0.6114,
+      "cluster_id": 4
+    },
+    "palau": {
+      "country": "palau",
+      "country_score": 0.6772,
+      "cluster_id": 0
+    },
+    "palmyra-atoll": {
+      "country": "palmyra-atoll",
+      "country_score": 0.457,
+      "cluster_id": null
+    },
+    "panama": {
+      "country": "panama",
+      "country_score": 0.6765,
+      "cluster_id": 3
+    },
+    "papua-new-guinea": {
+      "country": "papua-new-guinea",
+      "country_score": 0.5999,
+      "cluster_id": 4
+    },
+    "paracel-islands": {
+      "country": "paracel-islands",
+      "country_score": 0.568,
+      "cluster_id": null
+    },
+    "paraguay": {
+      "country": "paraguay",
+      "country_score": 0.6563,
+      "cluster_id": 3
+    },
+    "peru": {
+      "country": "peru",
+      "country_score": 0.6612,
+      "cluster_id": 3
+    },
+    "philippines": {
+      "country": "philippines",
+      "country_score": 0.6689,
+      "cluster_id": 3
+    },
+    "pitcairn-islands": {
+      "country": "pitcairn-islands",
+      "country_score": 0.6486,
+      "cluster_id": null
+    },
+    "poland": {
+      "country": "poland",
+      "country_score": 0.6807,
+      "cluster_id": 1
+    },
+    "portugal": {
+      "country": "portugal",
+      "country_score": 0.6964,
+      "cluster_id": 1
+    },
+    "puerto-rico": {
+      "country": "puerto-rico",
+      "country_score": 0.6568,
+      "cluster_id": 2
+    },
+    "qatar": {
+      "country": "qatar",
+      "country_score": 0.6445,
+      "cluster_id": 2
+    },
+    "romania": {
+      "country": "romania",
+      "country_score": 0.6738,
+      "cluster_id": 1
+    },
+    "russia": {
+      "country": "russia",
+      "country_score": 0.7066,
+      "cluster_id": 1
+    },
+    "rwanda": {
+      "country": "rwanda",
+      "country_score": 0.6023,
+      "cluster_id": 4
+    },
+    "saint-barthelemy": {
+      "country": "saint-barthelemy",
+      "country_score": 0.637,
+      "cluster_id": null
+    },
+    "saint-helena-ascension-and-tristan-da-cunha": {
+      "country": "saint-helena-ascension-and-tristan-da-cunha",
+      "country_score": 0.58,
+      "cluster_id": null
+    },
+    "saint-kitts-and-nevis": {
+      "country": "saint-kitts-and-nevis",
+      "country_score": 0.637,
+      "cluster_id": 5
+    },
+    "saint-lucia": {
+      "country": "saint-lucia",
+      "country_score": 0.608,
+      "cluster_id": 5
+    },
+    "saint-martin": {
+      "country": "saint-martin",
+      "country_score": 0.6736,
+      "cluster_id": 0
+    },
+    "saint-pierre-and-miquelon": {
+      "country": "saint-pierre-and-miquelon",
+      "country_score": 0.6014,
+      "cluster_id": null
+    },
+    "saint-vincent-and-the-grenadines": {
+      "country": "saint-vincent-and-the-grenadines",
+      "country_score": 0.6468,
+      "cluster_id": 3
+    },
+    "samoa": {
+      "country": "samoa",
+      "country_score": 0.6276,
+      "cluster_id": 3
+    },
+    "san-marino": {
+      "country": "san-marino",
+      "country_score": 0.6663,
+      "cluster_id": 0
+    },
+    "sao-tome-and-principe": {
+      "country": "sao-tome-and-principe",
+      "country_score": 0.6107,
+      "cluster_id": 4
+    },
+    "saudi-arabia": {
+      "country": "saudi-arabia",
+      "country_score": 0.6697,
+      "cluster_id": 1
+    },
+    "senegal": {
+      "country": "senegal",
+      "country_score": 0.6216,
+      "cluster_id": 4
+    },
+    "serbia": {
+      "country": "serbia",
+      "country_score": 0.6618,
+      "cluster_id": 3
+    },
+    "seychelles": {
+      "country": "seychelles",
+      "country_score": 0.6734,
+      "cluster_id": 3
+    },
+    "sierra-leone": {
+      "country": "sierra-leone",
+      "country_score": 0.6021,
+      "cluster_id": 4
+    },
+    "singapore": {
+      "country": "singapore",
+      "country_score": 0.6595,
+      "cluster_id": 2
+    },
+    "sint-maarten": {
+      "country": "sint-maarten",
+      "country_score": 0.6979,
+      "cluster_id": 0
+    },
+    "slovakia": {
+      "country": "slovakia",
+      "country_score": 0.6785,
+      "cluster_id": 1
+    },
+    "slovenia": {
+      "country": "slovenia",
+      "country_score": 0.6928,
+      "cluster_id": 1
+    },
+    "solomon-islands": {
+      "country": "solomon-islands",
+      "country_score": 0.6309,
+      "cluster_id": 3
+    },
+    "somalia": {
+      "country": "somalia",
+      "country_score": 0.5634,
+      "cluster_id": 4
+    },
+    "south-africa": {
+      "country": "south-africa",
+      "country_score": 0.6579,
+      "cluster_id": 1
+    },
+    "south-sudan": {
+      "country": "south-sudan",
+      "country_score": 0.5628,
+      "cluster_id": 4
+    },
+    "spain": {
+      "country": "spain",
+      "country_score": 0.705,
+      "cluster_id": 1
+    },
+    "spratly-islands": {
+      "country": "spratly-islands",
+      "country_score": 0.5375,
+      "cluster_id": null
+    },
+    "sri-lanka": {
+      "country": "sri-lanka",
+      "country_score": 0.64,
+      "cluster_id": 3
+    },
+    "sudan": {
+      "country": "sudan",
+      "country_score": 0.5936,
+      "cluster_id": 4
+    },
+    "suriname": {
+      "country": "suriname",
+      "country_score": 0.6396,
+      "cluster_id": 3
+    },
+    "svalbard": {
+      "country": "svalbard",
+      "country_score": 0.5799,
+      "cluster_id": null
+    },
+    "sweden": {
+      "country": "sweden",
+      "country_score": 0.6861,
+      "cluster_id": 1
+    },
+    "switzerland": {
+      "country": "switzerland",
+      "country_score": 0.711,
+      "cluster_id": 1
+    },
+    "syria": {
+      "country": "syria",
+      "country_score": 0.6104,
+      "cluster_id": 4
+    },
+    "taiwan": {
+      "country": "taiwan",
+      "country_score": 0.6688,
+      "cluster_id": 2
+    },
+    "tajikistan": {
+      "country": "tajikistan",
+      "country_score": 0.6409,
+      "cluster_id": 3
+    },
+    "tanzania": {
+      "country": "tanzania",
+      "country_score": 0.6252,
+      "cluster_id": 4
+    },
+    "thailand": {
+      "country": "thailand",
+      "country_score": 0.6909,
+      "cluster_id": 1
+    },
+    "timor-leste": {
+      "country": "timor-leste",
+      "country_score": 0.6175,
+      "cluster_id": 4
+    },
+    "togo": {
+      "country": "togo",
+      "country_score": 0.5985,
+      "cluster_id": 4
+    },
+    "tokelau": {
+      "country": "tokelau",
+      "country_score": 0.6045,
+      "cluster_id": null
+    },
+    "tonga": {
+      "country": "tonga",
+      "country_score": 0.637,
+      "cluster_id": 3
+    },
+    "trinidad-and-tobago": {
+      "country": "trinidad-and-tobago",
+      "country_score": 0.637,
+      "cluster_id": 2
+    },
+    "tunisia": {
+      "country": "tunisia",
+      "country_score": 0.6539,
+      "cluster_id": 3
+    },
+    "turkey-turkiye": {
+      "country": "turkey-turkiye",
+      "country_score": 0.6668,
+      "cluster_id": 1
+    },
+    "turkmenistan": {
+      "country": "turkmenistan",
+      "country_score": 0.6272,
+      "cluster_id": 3
+    },
+    "turks-and-caicos-islands": {
+      "country": "turks-and-caicos-islands",
+      "country_score": 0.6223,
+      "cluster_id": null
+    },
+    "tuvalu": {
+      "country": "tuvalu",
+      "country_score": 0.6297,
+      "cluster_id": 0
+    },
+    "uganda": {
+      "country": "uganda",
+      "country_score": 0.5968,
+      "cluster_id": 4
+    },
+    "ukraine": {
+      "country": "ukraine",
+      "country_score": 0.6929,
+      "cluster_id": 1
+    },
+    "united-arab-emirates": {
+      "country": "united-arab-emirates",
+      "country_score": 0.6494,
+      "cluster_id": 2
+    },
+    "united-kingdom": {
+      "country": "united-kingdom",
+      "country_score": 0.7092,
+      "cluster_id": 1
+    },
+    "united-states": {
+      "country": "united-states",
+      "country_score": 0.7208,
+      "cluster_id": 1
+    },
+    "uruguay": {
+      "country": "uruguay",
+      "country_score": 0.6778,
+      "cluster_id": 3
+    },
+    "uzbekistan": {
+      "country": "uzbekistan",
+      "country_score": 0.6464,
+      "cluster_id": 2
+    },
+    "vanuatu": {
+      "country": "vanuatu",
+      "country_score": 0.6268,
+      "cluster_id": 3
+    },
+    "venezuela": {
+      "country": "venezuela",
+      "country_score": 0.6281,
+      "cluster_id": 4
+    },
+    "vietnam": {
+      "country": "vietnam",
+      "country_score": 0.6775,
+      "cluster_id": 1
+    },
+    "virgin-islands": {
+      "country": "virgin-islands",
+      "country_score": 0.6363,
+      "cluster_id": 5
+    },
+    "wake-island": {
+      "country": "wake-island",
+      "country_score": 0.5128,
+      "cluster_id": null
+    },
+    "wallis-and-futuna": {
+      "country": "wallis-and-futuna",
+      "country_score": 0.6443,
+      "cluster_id": null
+    },
+    "west-bank": {
+      "country": "west-bank",
+      "country_score": 0.6207,
+      "cluster_id": null
+    },
+    "yemen": {
+      "country": "yemen",
+      "country_score": 0.5903,
+      "cluster_id": 4
+    },
+    "zambia": {
+      "country": "zambia",
+      "country_score": 0.6249,
+      "cluster_id": 4
+    },
+    "zimbabwe": {
+      "country": "zimbabwe",
+      "country_score": 0.6159,
+      "cluster_id": 4
+    }
+  },
+  "scored_with": "scripts/10b/agent_context.py v0.1.0"
+}

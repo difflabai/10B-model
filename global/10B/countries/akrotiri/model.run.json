@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.akrotiri",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Akrotiri"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.akrotiri.food",
+        "global.10B.countries.akrotiri.water",
+        "global.10B.countries.akrotiri.shelter",
+        "global.10B.countries.akrotiri.health",
+        "global.10B.countries.akrotiri.safety",
+        "global.10B.countries.akrotiri.education",
+        "global.10B.countries.akrotiri.work",
+        "global.10B.countries.akrotiri.energy",
+        "global.10B.countries.akrotiri.mobility",
+        "global.10B.countries.akrotiri.communications",
+        "global.10B.countries.akrotiri.governance",
+        "global.10B.countries.akrotiri.environment",
+        "global.10B.countries.akrotiri.belonging",
+        "global.10B.countries.akrotiri.meaning",
+        "global.10B.countries.akrotiri.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

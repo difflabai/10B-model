@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bosnia-and-herzegovina",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bosnia and Herzegovina"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bosnia-and-herzegovina.food",
+        "global.10B.countries.bosnia-and-herzegovina.water",
+        "global.10B.countries.bosnia-and-herzegovina.shelter",
+        "global.10B.countries.bosnia-and-herzegovina.health",
+        "global.10B.countries.bosnia-and-herzegovina.safety",
+        "global.10B.countries.bosnia-and-herzegovina.education",
+        "global.10B.countries.bosnia-and-herzegovina.work",
+        "global.10B.countries.bosnia-and-herzegovina.energy",
+        "global.10B.countries.bosnia-and-herzegovina.mobility",
+        "global.10B.countries.bosnia-and-herzegovina.communications",
+        "global.10B.countries.bosnia-and-herzegovina.governance",
+        "global.10B.countries.bosnia-and-herzegovina.environment",
+        "global.10B.countries.bosnia-and-herzegovina.belonging",
+        "global.10B.countries.bosnia-and-herzegovina.meaning",
+        "global.10B.countries.bosnia-and-herzegovina.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

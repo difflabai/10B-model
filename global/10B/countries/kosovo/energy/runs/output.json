@@ -1,0 +1,84 @@
+{
+  "country": "Kosovo",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6153846153846154,
+  "indicators_scored": 8,
+  "indicators_total": 13,
+  "composite_score": 0.4547,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.308
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.6033
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.476
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.45467,
+    0.61538,
+    0.55,
+    0.55,
+    -0.2047,
+    0.43517,
+    0.40774,
+    -0.22524,
+    -0.9537,
+    0.09642,
+    0.59542,
+    -0.02614,
+    -0.93079,
+    0.80722,
+    -0.12807,
+    -0.02818
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

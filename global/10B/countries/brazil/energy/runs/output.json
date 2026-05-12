@@ -1,0 +1,84 @@
+{
+  "country": "Brazil",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 13,
+  "indicators_total": 13,
+  "composite_score": 0.7001,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9376
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.884
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.46
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.7183
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8832
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.544
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.684
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.70009,
+    1.0,
+    0.97,
+    0.97,
+    0.5324,
+    -0.72644,
+    -0.42443,
+    -0.37578,
+    0.82358,
+    -0.93698,
+    0.54739,
+    0.729,
+    0.07628,
+    -0.92575,
+    0.70416,
+    -0.91083
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

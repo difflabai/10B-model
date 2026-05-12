@@ -1,0 +1,72 @@
+{
+  "country": "Bhutan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 5,
+  "indicators_total": 10,
+  "composite_score": 0.4077,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2686
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2833
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4921
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2806
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7139
+    }
+  ],
+  "embedding": [
+    0.4077,
+    0.5,
+    0.2686,
+    0.2833,
+    -0.20507,
+    0.01057,
+    0.77868,
+    0.35888,
+    0.81274,
+    0.96963,
+    0.73355,
+    0.35137,
+    0.36248,
+    -0.54183,
+    0.03401,
+    -0.85177
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

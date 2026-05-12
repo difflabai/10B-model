@@ -1,0 +1,56 @@
+{
+  "country": "Johnston Atoll",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 6,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": null
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.32891,
+    0.1331,
+    0.5628,
+    0.93094,
+    0.18688,
+    0.3164,
+    0.0678,
+    0.65542,
+    -0.59432,
+    -0.13729,
+    0.69012,
+    -0.24666
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

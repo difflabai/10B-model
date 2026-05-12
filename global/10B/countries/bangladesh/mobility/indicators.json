@@ -1,0 +1,59 @@
+{
+  "country": "Bangladesh",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "369,105 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "110,311 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "258,794 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "17 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "35 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "2,950 km gas (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "8,370 km (2011) (includes up to 3,060 km of main cargo routes; network reduced to 5,200 km in the dry season)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,460 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "5,984,155 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "63.82 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

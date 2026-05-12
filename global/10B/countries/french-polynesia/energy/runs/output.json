@@ -1,0 +1,84 @@
+{
+  "country": "French Polynesia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6153846153846154,
+  "indicators_scored": 8,
+  "indicators_total": 13,
+  "composite_score": 0.5811,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.3875
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.5425
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.6987
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.58109,
+    0.61538,
+    0.97,
+    0.55,
+    0.17134,
+    0.62524,
+    0.68576,
+    0.65167,
+    0.33071,
+    0.11687,
+    -0.06139,
+    -0.7355,
+    0.99799,
+    0.38085,
+    -0.77874,
+    -0.36916
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

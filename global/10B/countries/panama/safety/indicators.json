@@ -1,0 +1,39 @@
+{
+  "country": "Panama",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "no regular military forces; the paramilitary Panamanian Public Forces are under the Ministry of Public Security and include the Panama National Police (La Policía Nacional de Panamá, PNP), National Aeronaval Service (Servicio Nacional Aeronaval, SENAN), and National Border Service (Servicio Nacional de Fronteras, SENAFRONT) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.1% of GDP (2023 est.)1.2% of GDP (2022 est.)1.3% of GDP (2021 est.)1.4% of GDP (2020 est.)1.2% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "58,158 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum or have received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

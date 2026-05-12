@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.energy",
+  "name": "Africa — Energy access",
+  "kind": "sector_economic",
+  "blurb": "Region-level energy access for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country energy models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "energy-country-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "energy-region-mean",
+      "kind": "scalar",
+      "description": "Mean energy score across the region."
+    },
+    {
+      "name": "energy-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Energy access"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.energy",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

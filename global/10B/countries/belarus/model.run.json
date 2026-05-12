@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.belarus",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Belarus"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.belarus.food",
+        "global.10B.countries.belarus.water",
+        "global.10B.countries.belarus.shelter",
+        "global.10B.countries.belarus.health",
+        "global.10B.countries.belarus.safety",
+        "global.10B.countries.belarus.education",
+        "global.10B.countries.belarus.work",
+        "global.10B.countries.belarus.energy",
+        "global.10B.countries.belarus.mobility",
+        "global.10B.countries.belarus.communications",
+        "global.10B.countries.belarus.governance",
+        "global.10B.countries.belarus.environment",
+        "global.10B.countries.belarus.belonging",
+        "global.10B.countries.belarus.meaning",
+        "global.10B.countries.belarus.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

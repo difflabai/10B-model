@@ -1,0 +1,47 @@
+{
+  "country": "eritrea",
+  "category_scores": {
+    "agency": 0.6425,
+    "belonging": 0.624,
+    "communications": 0.6059,
+    "education": 0.5746,
+    "energy": 0.4421,
+    "environment": 0.4854,
+    "food": 0.6743,
+    "governance": 0.7143,
+    "health": 0.4779,
+    "meaning": 0.61,
+    "mobility": 0.3332,
+    "safety": 0.4944,
+    "shelter": 0.6653,
+    "water": 0.75,
+    "work": 0.6008
+  },
+  "country_score": 0.5796,
+  "tier_scores": {
+    "subsistence": 0.6124,
+    "development": 0.5113,
+    "agency": 0.6152
+  },
+  "country_embedding": [
+    0.57965,
+    0.75223,
+    0.57541,
+    0.52808,
+    -0.07459,
+    0.1177,
+    0.1761,
+    -0.11594,
+    0.16611,
+    -0.04779,
+    0.1123,
+    -0.00882,
+    -0.37878,
+    0.00566,
+    -0.14913,
+    -0.13108
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Eritrea, the three needs areas with the largest gaps are: mobility (0.33), energy (0.44), health (0.48).\nThe three strongest areas are: water (0.75), governance (0.71), food (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

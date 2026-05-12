@@ -1,0 +1,47 @@
+{
+  "country": "wallis-and-futuna",
+  "category_scores": {
+    "agency": 0.7124,
+    "belonging": 0.5828,
+    "communications": 0.62,
+    "education": 0.65,
+    "energy": null,
+    "environment": 0.5845,
+    "food": 0.6798,
+    "governance": 0.675,
+    "health": 0.8325,
+    "meaning": 0.6,
+    "mobility": 0.2278,
+    "safety": null,
+    "shelter": 0.5667,
+    "water": 0.75,
+    "work": 0.895
+  },
+  "country_score": 0.6443,
+  "tier_scores": {
+    "subsistence": 0.7072,
+    "development": 0.5982,
+    "agency": 0.6309
+  },
+  "country_embedding": [
+    0.55843,
+    0.44185,
+    0.51981,
+    0.39999,
+    -0.04836,
+    -0.36233,
+    -0.11747,
+    0.10041,
+    0.0101,
+    0.1223,
+    0.1425,
+    -0.00814,
+    -0.01456,
+    -0.06066,
+    0.3064,
+    -0.06409
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Wallis And Futuna, the three needs areas with the largest gaps are: mobility (0.23), shelter (0.57), belonging (0.58).\nThe three strongest areas are: work (0.90), health (0.83), water (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

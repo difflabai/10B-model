@@ -1,0 +1,34 @@
+{
+  "country": "Ecuador",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "64.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.142 million Guayaquil, 1.957 million QUITO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "nearly half of the population is concentrated in the interior in the Andean intermontane basins and valleys, with large concentrations also found along the western coastal strip; the rainforests of the east remain sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical along coast, becoming cooler inland at higher elevations; tropical in Amazonian jungle lowlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical along coast, becoming cooler inland at higher elevations; tropical in Amazonian jungle lowlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

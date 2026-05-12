@@ -1,0 +1,72 @@
+{
+  "country": "Spain",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.63,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5667
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7584
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7622
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5722
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6199
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8102
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.62997,
+    0.8,
+    0.5667,
+    0.7584,
+    -0.85229,
+    -0.6629,
+    0.26644,
+    0.58734,
+    -0.73272,
+    0.77844,
+    0.99344,
+    0.63958,
+    0.22896,
+    0.47741,
+    0.58062,
+    -0.03423
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

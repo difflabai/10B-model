@@ -1,0 +1,44 @@
+{
+  "country": "Haiti",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "extensive deforestation (much of the remaining forested land is being cleared for agriculture and used as fuel); soil erosion; overpopulation leads to inadequate supplies of potable water and a lack of sanitation; natural disasters",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Life Conservation, Ozone Layer Protection",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "9.69 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "2.98 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "6.12 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "3.6% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "2,309,852 tons (2015 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

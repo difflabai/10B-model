@@ -1,0 +1,44 @@
+{
+  "country": "Monaco",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$115,700 (2015 est.)$109,200 (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "5.04% (2023 est.)11.05% (2022 est.)21.87% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "52,000 (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

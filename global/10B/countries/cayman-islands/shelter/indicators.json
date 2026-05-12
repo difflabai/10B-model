@@ -1,0 +1,34 @@
+{
+  "country": "Cayman Islands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "35,000 GEORGE TOWN (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "majority of the population resides on Grand Cayman",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

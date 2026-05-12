@@ -1,0 +1,56 @@
+{
+  "country": "Virgin Islands",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.5,
+    0.65,
+    0.65,
+    0.80789,
+    0.80331,
+    -0.2249,
+    0.23519,
+    0.59918,
+    -0.36965,
+    -0.11547,
+    0.12438,
+    0.17702,
+    -0.50652,
+    -0.89047,
+    -0.06987
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

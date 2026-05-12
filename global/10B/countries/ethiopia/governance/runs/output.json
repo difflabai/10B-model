@@ -1,0 +1,60 @@
+{
+  "country": "Ethiopia",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7143,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.71429,
+    1.0,
+    0.8,
+    0.55,
+    -0.93329,
+    0.19823,
+    0.75161,
+    0.65286,
+    -0.31987,
+    0.84582,
+    0.42992,
+    0.50079,
+    0.79196,
+    0.45187,
+    -0.81759,
+    0.16417
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

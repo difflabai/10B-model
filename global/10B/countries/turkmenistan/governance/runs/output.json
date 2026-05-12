@@ -1,0 +1,60 @@
+{
+  "country": "Turkmenistan",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6571,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.3
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.65714,
+    1.0,
+    0.3,
+    0.65,
+    0.73211,
+    -0.8652,
+    0.0143,
+    -0.32152,
+    -0.39388,
+    0.49935,
+    0.3518,
+    0.47848,
+    -0.75293,
+    -0.20101,
+    -0.60177,
+    -0.76263
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

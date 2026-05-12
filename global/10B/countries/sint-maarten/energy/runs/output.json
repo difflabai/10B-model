@@ -1,0 +1,84 @@
+{
+  "country": "Sint Maarten",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.07692307692307693,
+  "indicators_scored": 1,
+  "indicators_total": 13,
+  "composite_score": 0.97,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": null
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.97,
+    0.07692,
+    0.97,
+    0.0,
+    0.22734,
+    -0.40551,
+    0.37816,
+    -0.2416,
+    -0.39574,
+    -0.50234,
+    -0.57226,
+    0.35241,
+    -0.86957,
+    0.30648,
+    -0.21318,
+    0.8417
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

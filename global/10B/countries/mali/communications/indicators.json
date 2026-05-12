@@ -1,0 +1,64 @@
+{
+  "country": "Mali",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "114 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "25.9 million (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "1 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "307,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "33% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "1 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "179,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Mali’s telecom systems are challenged by recent conflict, geography, areas of low population, poverty, security issues, and high illiteracy; telecom infrastructure is barely adequate in urban areas and not available in most of the country with underinvestment in fixed-line networks; high mobile penetration and potential for mobile broadband service; local plans for IXP; dependent on neighboring countries for international bandwidth and access to submarine cables (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line subscribership is 1 per 100 persons; mobile-cellular subscribership has increased sharply to 100 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 223; satellite communications center and fiber-optic links to neighboring countries; satellite earth stations - 2 Intelsat (1 Atlantic Ocean, 1 Indian Ocean) (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national public TV broadcaster; 2 privately owned companies provide subscription services to foreign multi-channel TV packages; national public radio broadcaster supplemented by a large number of privately owned and community broadcast stations; transmissions of multiple international broadcasters are available (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

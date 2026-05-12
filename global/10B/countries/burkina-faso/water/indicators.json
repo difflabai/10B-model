@@ -1,0 +1,39 @@
+{
+  "country": "Burkina Faso",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Volta river source (shared with Ghana [m]) - 1,600 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Niger (2,261,741 sq km), Volta (410,991 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "three climate zones including a hot tropical savanna with a short rainy season in the southern half, a tropical hot semi-arid steppe climate typical of the Sahel region in the northern half, and small area of hot desert in the very north of the country bordering the Sahara Desert",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

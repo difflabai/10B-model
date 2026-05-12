@@ -1,0 +1,60 @@
+{
+  "country": "British Indian Ocean Territory",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.2857142857142857,
+  "indicators_scored": 2,
+  "indicators_total": 7,
+  "composite_score": 0.3,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.2
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.3,
+    0.28571,
+    0.4,
+    0.2,
+    -0.81228,
+    0.27056,
+    0.1042,
+    0.80636,
+    -0.15462,
+    -0.51861,
+    0.51055,
+    -0.44393,
+    0.77234,
+    -0.25576,
+    -0.82135,
+    0.82226
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

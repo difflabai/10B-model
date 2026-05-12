@@ -1,0 +1,39 @@
+{
+  "country": "Bangladesh",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of Bangladesh (aka Bangladesh Defense Force): Bangladesh Army, Bangladesh Navy, Bangladesh Air ForceMinistry of Home Affairs: Border Guard Bangladesh (BGB), Bangladesh Coast Guard, Rapid Action Battalion (RAB), Ansars, Village Defense Party (VDP) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2023 est.)1.1% of GDP (2022 est.)1.2% of GDP (2021 est.)1.3% of GDP (2020 est.)1.4% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "976,507 (Burma) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

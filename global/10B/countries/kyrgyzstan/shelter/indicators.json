@@ -1,0 +1,34 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "37.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.105 million BISHKEK (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of Kyrgyzstanis live in rural areas; densest population settlement is to the north in and around the capital, Bishkek, followed by Osh in the west; the least densely populated area is the east, southeast in the Tien Shan mountains",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "dry continental to polar in high Tien Shan Mountains; subtropical in southwest (Fergana Valley); temperate in northern foothill zone",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "dry continental to polar in high Tien Shan Mountains; subtropical in southwest (Fergana Valley); temperate in northern foothill zone",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

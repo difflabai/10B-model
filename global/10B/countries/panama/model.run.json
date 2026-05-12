@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.panama",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Panama"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.panama.food",
+        "global.10B.countries.panama.water",
+        "global.10B.countries.panama.shelter",
+        "global.10B.countries.panama.health",
+        "global.10B.countries.panama.safety",
+        "global.10B.countries.panama.education",
+        "global.10B.countries.panama.work",
+        "global.10B.countries.panama.energy",
+        "global.10B.countries.panama.mobility",
+        "global.10B.countries.panama.communications",
+        "global.10B.countries.panama.governance",
+        "global.10B.countries.panama.environment",
+        "global.10B.countries.panama.belonging",
+        "global.10B.countries.panama.meaning",
+        "global.10B.countries.panama.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Botswana",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6346,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6884
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6346,
+    1.0,
+    0.6884,
+    0.55,
+    0.60363,
+    -0.08287,
+    0.8652,
+    0.72857,
+    -0.01207,
+    -0.07375,
+    -0.98404,
+    0.50777,
+    -0.37655,
+    0.08336,
+    -0.25963,
+    0.64974
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

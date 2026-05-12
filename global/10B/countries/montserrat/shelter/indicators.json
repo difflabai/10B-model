@@ -1,0 +1,34 @@
+{
+  "country": "Montserrat",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "9.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "only the northern half of the island is populated, the southern portion is uninhabitable due to volcanic activity",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; little daily or seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; little daily or seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

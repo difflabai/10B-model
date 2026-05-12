@@ -1,0 +1,56 @@
+{
+  "country": "Pitcairn Islands",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.6167,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.61667,
+    0.5,
+    0.65,
+    0.55,
+    0.48415,
+    0.88016,
+    0.37728,
+    0.07787,
+    0.71191,
+    -0.40826,
+    -0.99213,
+    -0.70629,
+    0.72058,
+    -0.09517,
+    0.40215,
+    0.92346
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

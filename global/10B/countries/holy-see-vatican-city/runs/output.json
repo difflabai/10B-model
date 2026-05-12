@@ -1,0 +1,47 @@
+{
+  "country": "holy-see-vatican-city",
+  "category_scores": {
+    "agency": 0.675,
+    "belonging": 0.6,
+    "communications": 0.73,
+    "education": 0.7,
+    "energy": 0.97,
+    "environment": 0.4833,
+    "food": 0.375,
+    "governance": 0.6143,
+    "health": null,
+    "meaning": 0.61,
+    "mobility": 0.4,
+    "safety": 0.85,
+    "shelter": 0.6,
+    "water": 0.65,
+    "work": 0.55
+  },
+  "country_score": 0.6291,
+  "tier_scores": {
+    "subsistence": 0.6188,
+    "development": 0.67,
+    "agency": 0.5965
+  },
+  "country_embedding": [
+    0.58717,
+    0.41384,
+    0.54467,
+    0.38333,
+    -0.13994,
+    -0.20043,
+    -0.00581,
+    0.02169,
+    -0.04618,
+    -0.13458,
+    -0.14381,
+    0.13953,
+    -0.12454,
+    0.25264,
+    -0.16223,
+    -0.07718
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Holy See Vatican City, the three needs areas with the largest gaps are: food (0.38), mobility (0.40), environment (0.48).\nThe three strongest areas are: energy (0.97), safety (0.85), communications (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

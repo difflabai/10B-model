@@ -1,0 +1,56 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.61,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.61,
+    0.83333,
+    0.65,
+    0.65,
+    0.57595,
+    0.12557,
+    -0.06465,
+    0.5147,
+    -0.71444,
+    0.82644,
+    0.23156,
+    0.01625,
+    -0.17153,
+    0.23796,
+    0.0956,
+    -0.53921
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

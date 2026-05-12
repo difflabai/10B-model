@@ -1,0 +1,34 @@
+{
+  "country": "Brazil",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "94.7%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "16 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Portuguese (official and most widely spoken language); less common languages include Spanish (border areas and schools), German, Italian, Japanese, English, and many minor Amerindian languages",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "O Livro de Fatos Mundiais, a fonte indispensável para informação básica. (Brazilian Portuguese)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

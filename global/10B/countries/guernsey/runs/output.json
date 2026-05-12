@@ -1,0 +1,47 @@
+{
+  "country": "guernsey",
+  "category_scores": {
+    "agency": 0.779,
+    "belonging": 0.6655,
+    "communications": 0.7269,
+    "education": 0.65,
+    "energy": 0.97,
+    "environment": 0.4,
+    "food": 0.5633,
+    "governance": 0.6917,
+    "health": 0.9168,
+    "meaning": 0.625,
+    "mobility": 0.2139,
+    "safety": null,
+    "shelter": 0.6138,
+    "water": 0.65,
+    "work": 0.7917
+  },
+  "country_score": 0.6613,
+  "tier_scores": {
+    "subsistence": 0.686,
+    "development": 0.6705,
+    "agency": 0.6322
+  },
+  "country_embedding": [
+    0.61717,
+    0.48989,
+    0.64267,
+    0.43816,
+    -0.05376,
+    0.16056,
+    -0.05852,
+    0.07893,
+    0.33392,
+    -0.12772,
+    -0.05266,
+    0.06868,
+    -0.11929,
+    0.41785,
+    0.14247,
+    -0.06753
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Guernsey, the three needs areas with the largest gaps are: mobility (0.21), environment (0.40), food (0.56).\nThe three strongest areas are: energy (0.97), health (0.92), work (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

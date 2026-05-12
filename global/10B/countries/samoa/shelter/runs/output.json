@@ -1,0 +1,52 @@
+{
+  "country": "Samoa",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.575,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.45
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.575,
+    1.0,
+    0.45,
+    0.55,
+    0.9733,
+    0.03243,
+    -0.38146,
+    -0.72128,
+    0.43261,
+    -0.22063,
+    -0.68093,
+    0.97232,
+    0.38384,
+    -0.80725,
+    -0.13191,
+    -0.90845
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

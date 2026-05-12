@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.finland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Finland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.finland.food",
+        "global.10B.countries.finland.water",
+        "global.10B.countries.finland.shelter",
+        "global.10B.countries.finland.health",
+        "global.10B.countries.finland.safety",
+        "global.10B.countries.finland.education",
+        "global.10B.countries.finland.work",
+        "global.10B.countries.finland.energy",
+        "global.10B.countries.finland.mobility",
+        "global.10B.countries.finland.communications",
+        "global.10B.countries.finland.governance",
+        "global.10B.countries.finland.environment",
+        "global.10B.countries.finland.belonging",
+        "global.10B.countries.finland.meaning",
+        "global.10B.countries.finland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

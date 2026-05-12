@@ -1,0 +1,47 @@
+{
+  "country": "lebanon",
+  "category_scores": {
+    "agency": 0.6696,
+    "belonging": 0.6469,
+    "communications": 0.6631,
+    "education": 0.6368,
+    "energy": 0.5073,
+    "environment": 0.478,
+    "food": 0.6607,
+    "governance": 0.6643,
+    "health": 0.7152,
+    "meaning": 0.63,
+    "mobility": 0.3969,
+    "safety": 0.6111,
+    "shelter": 0.6431,
+    "water": 0.65,
+    "work": 0.4556
+  },
+  "country_score": 0.6019,
+  "tier_scores": {
+    "subsistence": 0.656,
+    "development": 0.5319,
+    "agency": 0.6178
+  },
+  "country_embedding": [
+    0.6019,
+    0.81223,
+    0.64736,
+    0.58072,
+    -0.06887,
+    -0.20487,
+    0.42858,
+    0.00604,
+    0.07679,
+    -0.07484,
+    0.02188,
+    -0.11026,
+    -0.28772,
+    0.25599,
+    0.28474,
+    -0.02157
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Lebanon, the three needs areas with the largest gaps are: mobility (0.40), work (0.46), environment (0.48).\nThe three strongest areas are: health (0.72), agency (0.67), governance (0.66).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

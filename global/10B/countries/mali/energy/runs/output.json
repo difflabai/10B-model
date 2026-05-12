@@ -1,0 +1,84 @@
+{
+  "country": "Mali",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5154,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.3887
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9649
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.1623
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.4483
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.336
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.7706
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.548
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.51535,
+    0.84615,
+    0.3887,
+    0.9649,
+    0.25176,
+    -0.05324,
+    0.81692,
+    -0.3951,
+    0.8237,
+    -0.0782,
+    -0.09541,
+    0.24935,
+    0.22066,
+    -0.85287,
+    -0.24373,
+    -0.56786
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

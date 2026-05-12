@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.water",
+  "name": "World — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **water and sanitation** across 257 countries — the cross-country slice of the 10B model along the water dimension.",
+  "mechanism": "Aggregates the per-country water models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the water dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Water and sanitation world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Water and sanitation country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Water and sanitation macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for water and sanitation."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for water and sanitation."
+    },
+    {
+      "name": "water-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on water and sanitation."
+    },
+    {
+      "name": "water-macro-embedding",
+      "kind": "embedding",
+      "description": "Water and sanitation contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:physiological, MaxNeef:subsistence, SDG-6",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.water",
+      "kind": "consumes_from",
+      "note": "Per-country water model."
+    }
+  ]
+}

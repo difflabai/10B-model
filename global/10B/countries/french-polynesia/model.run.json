@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.french-polynesia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "French Polynesia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.french-polynesia.food",
+        "global.10B.countries.french-polynesia.water",
+        "global.10B.countries.french-polynesia.shelter",
+        "global.10B.countries.french-polynesia.health",
+        "global.10B.countries.french-polynesia.safety",
+        "global.10B.countries.french-polynesia.education",
+        "global.10B.countries.french-polynesia.work",
+        "global.10B.countries.french-polynesia.energy",
+        "global.10B.countries.french-polynesia.mobility",
+        "global.10B.countries.french-polynesia.communications",
+        "global.10B.countries.french-polynesia.governance",
+        "global.10B.countries.french-polynesia.environment",
+        "global.10B.countries.french-polynesia.belonging",
+        "global.10B.countries.french-polynesia.meaning",
+        "global.10B.countries.french-polynesia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

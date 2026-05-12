@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.mobility",
+        "global.10B.countries.antigua-and-barbuda.mobility",
+        "global.10B.countries.argentina.mobility",
+        "global.10B.countries.aruba.mobility",
+        "global.10B.countries.bahamas-the.mobility",
+        "global.10B.countries.barbados.mobility",
+        "global.10B.countries.belize.mobility",
+        "global.10B.countries.bermuda.mobility",
+        "global.10B.countries.bolivia.mobility",
+        "global.10B.countries.brazil.mobility",
+        "global.10B.countries.british-virgin-islands.mobility",
+        "global.10B.countries.cayman-islands.mobility",
+        "global.10B.countries.cuba.mobility",
+        "global.10B.countries.curacao.mobility",
+        "global.10B.countries.dominica.mobility",
+        "global.10B.countries.dominican-republic.mobility",
+        "global.10B.countries.falkland-islands-islas-malvinas.mobility",
+        "global.10B.countries.grenada.mobility",
+        "global.10B.countries.guyana.mobility",
+        "global.10B.countries.haiti.mobility",
+        "global.10B.countries.jamaica.mobility",
+        "global.10B.countries.montserrat.mobility",
+        "global.10B.countries.navassa-island.mobility",
+        "global.10B.countries.paraguay.mobility",
+        "global.10B.countries.puerto-rico.mobility",
+        "global.10B.countries.saint-barthelemy.mobility",
+        "global.10B.countries.saint-kitts-and-nevis.mobility",
+        "global.10B.countries.saint-lucia.mobility",
+        "global.10B.countries.saint-martin.mobility",
+        "global.10B.countries.saint-pierre-and-miquelon.mobility",
+        "global.10B.countries.saint-vincent-and-the-grenadines.mobility",
+        "global.10B.countries.sint-maarten.mobility",
+        "global.10B.countries.suriname.mobility",
+        "global.10B.countries.trinidad-and-tobago.mobility",
+        "global.10B.countries.turks-and-caicos-islands.mobility",
+        "global.10B.countries.uruguay.mobility",
+        "global.10B.countries.venezuela.mobility",
+        "global.10B.countries.virgin-islands.mobility"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

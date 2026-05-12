@@ -1,0 +1,52 @@
+{
+  "country": "Bermuda",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6125,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6125,
+    1.0,
+    0.6,
+    0.55,
+    0.27449,
+    -0.09191,
+    -0.29201,
+    0.69973,
+    0.16143,
+    -0.59518,
+    0.75821,
+    -0.13014,
+    -0.24593,
+    -0.09877,
+    -0.06712,
+    0.90399
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Niue",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.38461538461538464,
+  "indicators_scored": 5,
+  "indicators_total": 13,
+  "composite_score": 0.45,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.45,
+    0.38462,
+    0.55,
+    0.55,
+    -0.71255,
+    0.70678,
+    -0.0854,
+    -0.45077,
+    0.15575,
+    -0.08162,
+    -0.50491,
+    0.8486,
+    0.19707,
+    -0.68219,
+    0.39489,
+    0.2098
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

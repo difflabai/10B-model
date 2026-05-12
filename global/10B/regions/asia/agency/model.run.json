@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.agency",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "agency"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.agency",
+        "global.10B.countries.ashmore-and-cartier-islands.agency",
+        "global.10B.countries.bahrain.agency",
+        "global.10B.countries.bangladesh.agency",
+        "global.10B.countries.bhutan.agency",
+        "global.10B.countries.brunei.agency",
+        "global.10B.countries.burma.agency",
+        "global.10B.countries.cambodia.agency",
+        "global.10B.countries.china.agency",
+        "global.10B.countries.christmas-island.agency",
+        "global.10B.countries.cocos-keeling-islands.agency",
+        "global.10B.countries.gaza-strip.agency",
+        "global.10B.countries.hong-kong.agency",
+        "global.10B.countries.india.agency",
+        "global.10B.countries.indonesia.agency",
+        "global.10B.countries.iran.agency",
+        "global.10B.countries.iraq.agency",
+        "global.10B.countries.israel.agency",
+        "global.10B.countries.japan.agency",
+        "global.10B.countries.jordan.agency",
+        "global.10B.countries.korea-north.agency",
+        "global.10B.countries.korea-south.agency",
+        "global.10B.countries.kuwait.agency",
+        "global.10B.countries.kyrgyzstan.agency",
+        "global.10B.countries.laos.agency",
+        "global.10B.countries.lebanon.agency",
+        "global.10B.countries.macau.agency",
+        "global.10B.countries.malaysia.agency",
+        "global.10B.countries.maldives.agency",
+        "global.10B.countries.mongolia.agency",
+        "global.10B.countries.nepal.agency",
+        "global.10B.countries.oman.agency",
+        "global.10B.countries.pakistan.agency",
+        "global.10B.countries.paracel-islands.agency",
+        "global.10B.countries.philippines.agency",
+        "global.10B.countries.qatar.agency",
+        "global.10B.countries.saudi-arabia.agency",
+        "global.10B.countries.singapore.agency",
+        "global.10B.countries.spratly-islands.agency",
+        "global.10B.countries.sri-lanka.agency",
+        "global.10B.countries.syria.agency",
+        "global.10B.countries.taiwan.agency",
+        "global.10B.countries.tajikistan.agency",
+        "global.10B.countries.thailand.agency",
+        "global.10B.countries.timor-leste.agency",
+        "global.10B.countries.turkmenistan.agency",
+        "global.10B.countries.united-arab-emirates.agency",
+        "global.10B.countries.uzbekistan.agency",
+        "global.10B.countries.vietnam.agency",
+        "global.10B.countries.west-bank.agency",
+        "global.10B.countries.yemen.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

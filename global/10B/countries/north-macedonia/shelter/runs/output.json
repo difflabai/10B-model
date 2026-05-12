@@ -1,0 +1,52 @@
+{
+  "country": "North Macedonia",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6287,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.665
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.62875,
+    1.0,
+    0.665,
+    0.55,
+    -0.67019,
+    -0.14507,
+    -0.76294,
+    -0.2481,
+    -0.82574,
+    -0.55325,
+    0.20958,
+    0.22402,
+    -0.82193,
+    -0.24215,
+    0.25429,
+    0.02934
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

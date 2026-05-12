@@ -1,0 +1,92 @@
+{
+  "country": "taiwan",
+  "cluster_id": 2,
+  "cluster_label": "avg 0.65; strongest in [agency, education, health], weakest in [environment, mobility, energy]",
+  "nearest_peers": [
+    {
+      "country": "kazakhstan",
+      "distance": 0.2025
+    },
+    {
+      "country": "puerto-rico",
+      "distance": 0.2178
+    },
+    {
+      "country": "cuba",
+      "distance": 0.2261
+    },
+    {
+      "country": "qatar",
+      "distance": 0.2313
+    },
+    {
+      "country": "singapore",
+      "distance": 0.2314
+    },
+    {
+      "country": "hong-kong",
+      "distance": 0.2323
+    },
+    {
+      "country": "uzbekistan",
+      "distance": 0.2341
+    },
+    {
+      "country": "israel",
+      "distance": 0.2393
+    },
+    {
+      "country": "belarus",
+      "distance": 0.2406
+    },
+    {
+      "country": "new-caledonia",
+      "distance": 0.2413
+    }
+  ],
+  "most_different": [
+    {
+      "country": "tuvalu",
+      "distance": 0.6501
+    },
+    {
+      "country": "haiti",
+      "distance": 0.677
+    },
+    {
+      "country": "south-sudan",
+      "distance": 0.6932
+    },
+    {
+      "country": "central-african-republic",
+      "distance": 0.7217
+    },
+    {
+      "country": "somalia",
+      "distance": 0.7263
+    }
+  ],
+  "cluster_peers": [
+    "armenia",
+    "bahamas-the",
+    "bahrain",
+    "belarus",
+    "brunei",
+    "cuba",
+    "cyprus",
+    "falkland-islands-islas-malvinas",
+    "french-polynesia",
+    "greenland",
+    "hong-kong",
+    "iceland",
+    "ireland",
+    "israel",
+    "kuwait",
+    "libya",
+    "luxembourg",
+    "oman",
+    "puerto-rico",
+    "qatar"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

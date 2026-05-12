@@ -1,0 +1,56 @@
+{
+  "country": "Greenland",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6,
+    0.66667,
+    0.65,
+    0.55,
+    0.34426,
+    -0.10704,
+    0.13814,
+    0.4837,
+    -0.74435,
+    0.53213,
+    0.15148,
+    0.67959,
+    -0.09374,
+    -0.45394,
+    -0.0493,
+    -0.94403
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "china",
+  "category_scores": {
+    "agency": 0.7305,
+    "belonging": 0.7389,
+    "communications": 0.7423,
+    "education": 0.7588,
+    "energy": 0.5786,
+    "environment": 0.486,
+    "food": 0.7143,
+    "governance": 0.7071,
+    "health": 0.7525,
+    "meaning": 0.69,
+    "mobility": 0.6774,
+    "safety": 0.65,
+    "shelter": 0.733,
+    "water": 0.775,
+    "work": 0.7933
+  },
+  "country_score": 0.7018,
+  "tier_scores": {
+    "subsistence": 0.725,
+    "development": 0.7101,
+    "agency": 0.6705
+  },
+  "country_embedding": [
+    0.70184,
+    0.88974,
+    0.72057,
+    0.66657,
+    -0.1305,
+    0.00187,
+    0.04845,
+    -0.10683,
+    -0.04621,
+    0.26434,
+    -0.10147,
+    0.02448,
+    -0.16516,
+    -0.05264,
+    -0.0645,
+    -0.12515
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in China, the three needs areas with the largest gaps are: environment (0.49), energy (0.58), safety (0.65).\nThe three strongest areas are: work (0.79), water (0.78), education (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

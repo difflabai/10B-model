@@ -1,0 +1,34 @@
+{
+  "country": "Uruguay",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "95.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.774 million MONTEVIDEO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the country's population resides in the southern half of the country; approximately 80% of the populace is urban, living in towns or cities; nearly half of the population lives in and around the capital of Montevideo",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "warm temperate; freezing temperatures almost unknown",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "warm temperate; freezing temperatures almost unknown",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

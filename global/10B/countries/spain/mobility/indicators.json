@@ -1,0 +1,59 @@
+{
+  "country": "Spain",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "150,110 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "363 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "121 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "10,481 km gas, 358 km oil, 4,378 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,000 km (2012)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "15,489 km (2020) 9,953 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "80,672,105 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1.117 billion (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

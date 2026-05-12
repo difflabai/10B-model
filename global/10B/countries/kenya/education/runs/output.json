@@ -1,0 +1,52 @@
+{
+  "country": "Kenya",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.719,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7637
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7125
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.71904,
+    0.8,
+    0.7637,
+    0.7125,
+    -0.00316,
+    -0.40163,
+    0.3912,
+    0.07839,
+    0.91742,
+    0.27285,
+    -0.26268,
+    0.89996,
+    -0.22103,
+    -0.33754,
+    -0.06893,
+    0.45174
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

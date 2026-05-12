@@ -1,0 +1,52 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5468,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.332
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.655
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.54675,
+    0.8,
+    0.65,
+    0.332,
+    0.87213,
+    0.80694,
+    0.49654,
+    0.54223,
+    0.51708,
+    -0.85931,
+    0.86651,
+    -0.42498,
+    0.19149,
+    0.37398,
+    0.97513,
+    0.17095
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Puerto Rico",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "93.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.440 million SAN JUAN (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population clusters tend to be found along the coast, the largest of these is found in and around San Juan; an exception to this is a sizeable population located in the interior of the island immediately south of the capital around Caguas; most of the interior, particularly in the western half of the island, is dominated by the Cordillera Central mountains, where population density is low",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine, mild; little seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine, mild; little seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

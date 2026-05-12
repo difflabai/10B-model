@@ -1,0 +1,56 @@
+{
+  "country": "Iran",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.6367,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.85
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.66
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.63667,
+    0.5,
+    0.85,
+    0.66,
+    -0.0248,
+    -0.12871,
+    -0.17729,
+    -0.61144,
+    -0.96149,
+    0.88064,
+    -0.69448,
+    0.30327,
+    0.41695,
+    0.90567,
+    -0.32451,
+    -0.78369
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

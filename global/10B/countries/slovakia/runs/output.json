@@ -1,0 +1,47 @@
+{
+  "country": "slovakia",
+  "category_scores": {
+    "agency": 0.8215,
+    "belonging": 0.6731,
+    "communications": 0.7167,
+    "education": 0.7312,
+    "energy": 0.6414,
+    "environment": 0.5555,
+    "food": 0.7124,
+    "governance": 0.7571,
+    "health": 0.7489,
+    "meaning": 0.63,
+    "mobility": 0.5423,
+    "safety": 0.6056,
+    "shelter": 0.6492,
+    "water": 0.6833,
+    "work": 0.7088
+  },
+  "country_score": 0.6785,
+  "tier_scores": {
+    "subsistence": 0.6799,
+    "development": 0.6681,
+    "agency": 0.6874
+  },
+  "country_embedding": [
+    0.67848,
+    0.82906,
+    0.7241,
+    0.69749,
+    0.19449,
+    -0.03344,
+    -0.12282,
+    0.02137,
+    -0.22099,
+    -0.01287,
+    0.05955,
+    -0.12788,
+    0.02976,
+    -0.20124,
+    0.21506,
+    -0.10951
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Slovakia, the three needs areas with the largest gaps are: mobility (0.54), environment (0.56), safety (0.61).\nThe three strongest areas are: agency (0.82), governance (0.76), health (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

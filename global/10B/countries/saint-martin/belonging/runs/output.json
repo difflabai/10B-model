@@ -1,0 +1,60 @@
+{
+  "country": "Saint Martin",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6617,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.47
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.7
+    }
+  ],
+  "embedding": [
+    0.66167,
+    0.85714,
+    0.65,
+    0.65,
+    0.35711,
+    -0.90628,
+    -0.35872,
+    -0.28673,
+    0.55227,
+    -0.50161,
+    -0.50072,
+    0.26864,
+    -0.46801,
+    0.08113,
+    0.51263,
+    -0.78839
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

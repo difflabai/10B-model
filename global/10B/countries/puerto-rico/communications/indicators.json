@@ -1,0 +1,64 @@
+{
+  "country": "Puerto Rico",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "120 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "4.04 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "23 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "758,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "23 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "751,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Puerto Rico has a small telecom market which in recent years has been deeply affected by a combination of economic mismanagement and natural disasters, including two hurricanes which landed in late 2017 and an earthquake which struck in January 2020; these disasters caused considerable destruction of telecom infrastructure, which in turn led to a marked decline in the number of subscribers for all services; compounding these difficulties have been a long-term economic downturn which encouraged many people not to resume telecom services after these were restored; after some delay, the FCC in late 2019 issued an order relating to the release of funds to help rebuild telecom infrastructure; although Puerto Rico is a US territory it lags well behind the mainland US states in terms of fixed-line and broadband services; this is partly due to high unemployment rates (and consequently low disposable income) and poor telecoms investment in a market; the mobile market has been impacted by several mergers and acquisitions over the last few years; the activities of large multinational telcos continue to impact the Puerto Rican market; operators have secured spectrum in the 600MHz and 3.5GHz bands, thus enabling them to expand the reach of LTE services and launch services based on 5G;  the growing number of submarine cables landing in Puerto Rico is helping to drive down the cost of telecom services, creating a demand for streaming content from abroad; the uptake of cloud-based applications for both business and individuals is also creating a heightened demand for affordable services (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line is 22 per 100 and mobile-cellular is 112 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 1-787, 939; landing points for the GTMO-PR, AMX-1, BRUSA, GCN, PCCS, SAm-1, Southern Caribbean Fiber, Americas-II, Antillas, ARCOS, SMPR-1, and Taino-Carib submarine cables providing connectivity to the mainland US, Caribbean, Central and South America; satellite earth station - 1 Intelsat (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "more than 30 TV stations operating; cable TV subscription services are available; roughly 125 radio stations",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

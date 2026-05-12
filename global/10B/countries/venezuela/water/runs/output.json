@@ -1,0 +1,56 @@
+{
+  "country": "Venezuela",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.65
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.66667,
+    0.75,
+    0.55,
+    -0.65563,
+    -0.48663,
+    -0.52609,
+    -0.90842,
+    -0.49895,
+    0.31893,
+    -0.93164,
+    0.21831,
+    -0.16631,
+    0.32705,
+    0.0052,
+    0.81823
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

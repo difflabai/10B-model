@@ -1,0 +1,47 @@
+{
+  "country": "senegal",
+  "category_scores": {
+    "agency": 0.8083,
+    "belonging": 0.6715,
+    "communications": 0.6232,
+    "education": 0.5894,
+    "energy": 0.5442,
+    "environment": 0.5024,
+    "food": 0.5964,
+    "governance": 0.7286,
+    "health": 0.5431,
+    "meaning": 0.63,
+    "mobility": 0.4034,
+    "safety": 0.6167,
+    "shelter": 0.6705,
+    "water": 0.7167,
+    "work": 0.6803
+  },
+  "country_score": 0.6216,
+  "tier_scores": {
+    "subsistence": 0.6287,
+    "development": 0.5681,
+    "agency": 0.6682
+  },
+  "country_embedding": [
+    0.62164,
+    0.86313,
+    0.58893,
+    0.68619,
+    -0.12343,
+    0.07055,
+    0.03201,
+    -0.08586,
+    0.08186,
+    -0.22104,
+    -0.01471,
+    0.08471,
+    -0.38396,
+    -0.09994,
+    -0.14376,
+    -0.28888
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Senegal, the three needs areas with the largest gaps are: mobility (0.40), environment (0.50), health (0.54).\nThe three strongest areas are: agency (0.81), governance (0.73), water (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

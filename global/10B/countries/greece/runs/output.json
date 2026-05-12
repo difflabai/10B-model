@@ -1,0 +1,47 @@
+{
+  "country": "greece",
+  "category_scores": {
+    "agency": 0.7925,
+    "belonging": 0.6483,
+    "communications": 0.7611,
+    "education": 0.7915,
+    "energy": 0.6239,
+    "environment": 0.5449,
+    "food": 0.7265,
+    "governance": 0.7143,
+    "health": 0.779,
+    "meaning": 0.61,
+    "mobility": 0.5128,
+    "safety": 0.5806,
+    "shelter": 0.6768,
+    "water": 0.65,
+    "work": 0.6961
+  },
+  "country_score": 0.6739,
+  "tier_scores": {
+    "subsistence": 0.6826,
+    "development": 0.6771,
+    "agency": 0.662
+  },
+  "country_embedding": [
+    0.67388,
+    0.8335,
+    0.73743,
+    0.62482,
+    0.13891,
+    -0.02713,
+    -0.11547,
+    -0.19259,
+    0.2052,
+    0.03165,
+    0.14545,
+    -0.13623,
+    0.24725,
+    0.26941,
+    0.02612,
+    0.07233
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Greece, the three needs areas with the largest gaps are: mobility (0.51), environment (0.54), safety (0.58).\nThe three strongest areas are: agency (0.79), education (0.79), health (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

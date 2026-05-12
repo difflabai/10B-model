@@ -1,0 +1,56 @@
+{
+  "country": "Kazakhstan",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.63,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.55
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.63,
+    0.83333,
+    0.55,
+    0.65,
+    -0.39406,
+    -0.23217,
+    -0.10329,
+    0.16579,
+    0.48531,
+    -0.66857,
+    -0.59808,
+    -0.22255,
+    0.83035,
+    -0.66726,
+    -0.22652,
+    0.37383
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

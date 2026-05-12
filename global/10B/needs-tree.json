@@ -1,0 +1,269 @@
+{
+  "id": "global.10B.needs-tree",
+  "version": "0.1.0",
+  "name": "10B Human Needs Tree",
+  "description": "Categories of human need for the 10B model — combining Maslow's hierarchy, Max-Neef's fundamental human needs, the UN Sustainable Development Goals, and the structural categories of the CIA World Factbook. Each category groups country-level indicators into a satisfaction score with provenance, propagating into a country-level rollup model and a cross-country category rollup. The tree is the supervisory schema for the embedding model that captures the human needs of a population.",
+  "lineage": [
+    "Maslow (1943) — Hierarchy of needs",
+    "Max-Neef (1991) — Fundamental human needs and the matrix of satisfiers",
+    "Doyal & Gough (1991) — A Theory of Human Need (basic + intermediate needs)",
+    "UN Sustainable Development Goals (2015)",
+    "OECD Better Life Index",
+    "CIA World Factbook category structure"
+  ],
+  "tiers": [
+    {
+      "id": "subsistence",
+      "label": "Subsistence and physical safety",
+      "categories": ["food", "water", "shelter", "health", "safety"]
+    },
+    {
+      "id": "development",
+      "label": "Development and capability",
+      "categories": ["education", "work", "energy", "mobility", "communications"]
+    },
+    {
+      "id": "agency",
+      "label": "Agency, belonging, and meaning",
+      "categories": ["governance", "environment", "belonging", "meaning", "agency"]
+    }
+  ],
+  "categories": {
+    "food": {
+      "label": "Food and nutrition",
+      "blurb": "Caloric and nutritional security: sufficient calories, dietary diversity, food safety, and resilience against shock.",
+      "frameworks": ["Maslow:physiological", "MaxNeef:subsistence", "SDG-2"],
+      "indicators": [
+        "Environment: Food insecurity - severe localized food insecurity",
+        "Economy: Agricultural products",
+        "Environment: Land use - agricultural land",
+        "Economy: GDP - composition, by sector of origin - agriculture",
+        "People and Society: Population - total"
+      ],
+      "engine": "closed-form"
+    },
+    "water": {
+      "label": "Water and sanitation",
+      "blurb": "Access to safe drinking water, basic sanitation, and freshwater availability under climate stress.",
+      "frameworks": ["Maslow:physiological", "MaxNeef:subsistence", "SDG-6"],
+      "indicators": [
+        "Environment: Major rivers (by length in km)",
+        "Environment: Major lakes (area sq km) - salt water lake(s)",
+        "Environment: Major watersheds (area sq km)",
+        "Geography: Climate",
+        "People and Society: Drinking water source - improved - urban",
+        "People and Society: Sanitation facility access - improved - total"
+      ],
+      "engine": "closed-form"
+    },
+    "shelter": {
+      "label": "Shelter and habitat",
+      "blurb": "Housing adequacy, urban quality, and protection from environment.",
+      "frameworks": ["Maslow:physiological", "MaxNeef:protection", "SDG-11"],
+      "indicators": [
+        "People and Society: Urbanization - urban population",
+        "People and Society: Major urban areas - population",
+        "People and Society: Population distribution",
+        "Environment: Climate",
+        "Geography: Climate"
+      ],
+      "engine": "closed-form"
+    },
+    "health": {
+      "label": "Health and longevity",
+      "blurb": "Healthcare access, disease burden, life expectancy, and capacity to absorb shocks (pandemics, malnutrition).",
+      "frameworks": ["Maslow:physiological", "MaxNeef:subsistence", "DoyalGough:health", "SDG-3"],
+      "indicators": [
+        "People and Society: Life expectancy at birth - total population",
+        "People and Society: Life expectancy at birth - male",
+        "People and Society: Life expectancy at birth - female",
+        "People and Society: Infant mortality rate - total",
+        "People and Society: Infant mortality rate - male",
+        "People and Society: Infant mortality rate - female",
+        "People and Society: Maternal mortality ratio",
+        "People and Society: Physicians density",
+        "People and Society: Hospital bed density",
+        "People and Society: Major infectious diseases - degree of risk",
+        "People and Society: Obesity - adult prevalence rate",
+        "People and Society: Tobacco use - total",
+        "People and Society: Children under the age of 5 years underweight",
+        "People and Society: Currently married women (ages 15-49)",
+        "People and Society: Current health expenditure"
+      ],
+      "engine": "monte-carlo"
+    },
+    "safety": {
+      "label": "Safety and protection from violence",
+      "blurb": "Physical security from interstate war, internal conflict, terrorism, and crime.",
+      "frameworks": ["Maslow:safety", "MaxNeef:protection", "DoyalGough:security", "SDG-16"],
+      "indicators": [
+        "Military and Security: Military and security forces",
+        "Military and Security: Military expenditures",
+        "Terrorism: Terrorist group(s) - home based",
+        "Terrorism: Terrorist group(s) - foreign based",
+        "Transnational Issues: Disputes - international",
+        "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)"
+      ],
+      "engine": "closed-form"
+    },
+    "education": {
+      "label": "Education and learning",
+      "blurb": "Literacy, schooling, lifelong learning capacity, and the cultural transmission infrastructure.",
+      "frameworks": ["MaxNeef:understanding", "DoyalGough:autonomy", "SDG-4"],
+      "indicators": [
+        "People and Society: Literacy - total population",
+        "People and Society: Education expenditures",
+        "People and Society: School life expectancy (primary to tertiary education) - total",
+        "People and Society: Languages",
+        "People and Society: Languages - major-language sample(s)"
+      ],
+      "engine": "closed-form"
+    },
+    "work": {
+      "label": "Work and economic capability",
+      "blurb": "Employment, income, productivity, and the capacity to bring economic value to one's community in an AI-transitioning economy.",
+      "frameworks": ["MaxNeef:creation", "DoyalGough:economic-security", "SDG-8"],
+      "indicators": [
+        "Economy: Real GDP per capita",
+        "Economy: Real GDP growth rate",
+        "Economy: Inflation rate (consumer prices)",
+        "Economy: Labor force",
+        "Economy: Unemployment rate",
+        "Economy: Population below poverty line",
+        "Economy: Gini Index coefficient - distribution of family income"
+      ],
+      "engine": "monte-carlo"
+    },
+    "energy": {
+      "label": "Energy access",
+      "blurb": "Electricity, heating, transport fuel — the metabolic substrate of modern life.",
+      "frameworks": ["MaxNeef:subsistence", "SDG-7"],
+      "indicators": [
+        "Energy: Electricity access - electrification - total population",
+        "Energy: Electricity access - electrification - urban areas",
+        "Energy: Electricity access - electrification - rural areas",
+        "Energy: Electricity - installed generating capacity",
+        "Energy: Electricity - consumption",
+        "Energy: Electricity generation sources - fossil fuels",
+        "Energy: Electricity generation sources - solar",
+        "Energy: Electricity generation sources - wind",
+        "Energy: Electricity generation sources - hydroelectricity",
+        "Energy: Electricity generation sources - nuclear",
+        "Energy: Electricity generation sources - biomass and waste",
+        "Energy: Energy consumption per capita",
+        "Energy: Carbon dioxide emissions"
+      ],
+      "engine": "closed-form"
+    },
+    "mobility": {
+      "label": "Mobility and transportation",
+      "blurb": "Physical movement of people and goods: roads, rail, air, sea, pipelines.",
+      "frameworks": ["MaxNeef:participation", "SDG-9"],
+      "indicators": [
+        "Transportation: Roadways - total",
+        "Transportation: Roadways - paved",
+        "Transportation: Roadways - unpaved",
+        "Transportation: Airports",
+        "Transportation: Heliports",
+        "Transportation: Pipelines",
+        "Transportation: Waterways",
+        "Transportation: Railways - total",
+        "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+        "Transportation: National air transport system - annual freight traffic on registered air carriers"
+      ],
+      "engine": "closed-form"
+    },
+    "communications": {
+      "label": "Communications and connectivity",
+      "blurb": "Telephony, internet, broadcast — the substrate enabling personal AI agents to help people connect.",
+      "frameworks": ["MaxNeef:participation", "SDG-9"],
+      "indicators": [
+        "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+        "Communications: Telephones - mobile cellular - total subscriptions",
+        "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+        "Communications: Telephones - fixed lines - total subscriptions",
+        "Communications: Internet users - percent of population",
+        "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+        "Communications: Broadband - fixed subscriptions - total",
+        "Communications: Telecommunication systems - general assessment",
+        "Communications: Telecommunication systems - domestic",
+        "Communications: Telecommunication systems - international",
+        "Communications: Broadcast media"
+      ],
+      "engine": "closed-form"
+    },
+    "governance": {
+      "label": "Governance and rule of law",
+      "blurb": "Effectiveness, accountability, and legitimacy of governing institutions; the capacity for collective action.",
+      "frameworks": ["MaxNeef:protection", "DoyalGough:autonomy", "SDG-16"],
+      "indicators": [
+        "Government: Government type",
+        "Government: Legal system",
+        "Government: Constitution - history",
+        "Government: Suffrage",
+        "Government: Executive branch - chief of state",
+        "Government: International law organization participation",
+        "Government: International organization participation"
+      ],
+      "engine": "closed-form"
+    },
+    "environment": {
+      "label": "Environmental sustainability",
+      "blurb": "Climate, ecosystem services, pollution loads, and resilience over generational time horizons.",
+      "frameworks": ["MaxNeef:subsistence", "SDG-13", "SDG-15"],
+      "indicators": [
+        "Environment: Environment - current issues",
+        "Environment: Environment - international agreements - party to",
+        "Environment: Air pollutants - particulate matter emissions",
+        "Environment: Air pollutants - carbon dioxide emissions",
+        "Environment: Air pollutants - methane emissions",
+        "Environment: Land use - forest",
+        "Environment: Waste and recycling - municipal solid waste generated annually"
+      ],
+      "engine": "monte-carlo"
+    },
+    "belonging": {
+      "label": "Belonging and social cohesion",
+      "blurb": "Family, community, and social fabric — the answer to 'how can I connect with my neighbors?'",
+      "frameworks": ["Maslow:belonging", "MaxNeef:affection", "SDG-10"],
+      "indicators": [
+        "People and Society: Ethnic groups",
+        "People and Society: Religions",
+        "People and Society: Languages",
+        "People and Society: Major urban areas - population",
+        "People and Society: Population distribution",
+        "People and Society: Net migration rate",
+        "People and Society: Total fertility rate"
+      ],
+      "engine": "closed-form"
+    },
+    "meaning": {
+      "label": "Meaning, identity, and culture",
+      "blurb": "Cultural participation, religion, identity practices — the connective tissue of self-actualization at population scale.",
+      "frameworks": ["Maslow:self-actualization", "MaxNeef:identity", "SDG-4.7"],
+      "indicators": [
+        "Government: National holiday",
+        "Government: National anthem",
+        "Government: National symbol(s)",
+        "Government: Citizenship - citizenship by birth",
+        "People and Society: Religions",
+        "People and Society: Languages"
+      ],
+      "engine": "closed-form"
+    },
+    "agency": {
+      "label": "Agency and self-determination",
+      "blurb": "Freedom of expression, civic voice, the capacity to advocate for change — the answer to 'how can I effectively advocate for change?'",
+      "frameworks": ["Maslow:esteem", "MaxNeef:freedom", "DoyalGough:autonomy", "SDG-16"],
+      "indicators": [
+        "Government: Suffrage",
+        "Government: Legislative branch",
+        "Government: Political parties",
+        "Communications: Internet users - percent of population",
+        "Communications: Broadcast media",
+        "People and Society: Education expenditures"
+      ],
+      "engine": "closed-form"
+    }
+  }
+}

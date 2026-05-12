@@ -1,0 +1,47 @@
+{
+  "country": "saint-pierre-and-miquelon",
+  "category_scores": {
+    "agency": 0.8093,
+    "belonging": 0.5721,
+    "communications": 0.7196,
+    "education": 0.65,
+    "energy": 0.45,
+    "environment": 0.4094,
+    "food": 0.5247,
+    "governance": 0.6583,
+    "health": 0.7921,
+    "meaning": 0.55,
+    "mobility": 0.2944,
+    "safety": null,
+    "shelter": 0.6424,
+    "water": 0.65,
+    "work": 0.6967
+  },
+  "country_score": 0.6014,
+  "tier_scores": {
+    "subsistence": 0.6523,
+    "development": 0.5621,
+    "agency": 0.5998
+  },
+  "country_embedding": [
+    0.56126,
+    0.53061,
+    0.60593,
+    0.47809,
+    -0.20494,
+    -0.09795,
+    -0.03835,
+    -0.11468,
+    -0.09239,
+    0.03886,
+    0.06899,
+    0.10853,
+    -0.00303,
+    -0.07592,
+    0.01116,
+    -0.35104
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Pierre And Miquelon, the three needs areas with the largest gaps are: mobility (0.29), environment (0.41), energy (0.45).\nThe three strongest areas are: agency (0.81), health (0.79), communications (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

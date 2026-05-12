@@ -1,0 +1,56 @@
+{
+  "country": "Armenia",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.4861,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.65
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.4083
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.48611,
+    0.5,
+    0.65,
+    0.4083,
+    -0.92203,
+    0.60858,
+    -0.41054,
+    -0.48452,
+    0.46972,
+    0.74295,
+    -0.34969,
+    0.47637,
+    0.43142,
+    -0.64675,
+    0.19893,
+    -0.2781
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Turkey (Turkiye)",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7238,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.8136
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.7814
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.72376,
+    0.8,
+    0.75,
+    0.8136,
+    -0.01189,
+    -0.47134,
+    0.61617,
+    -0.83914,
+    -0.58669,
+    0.59442,
+    0.28118,
+    -0.53918,
+    0.70794,
+    -0.98856,
+    -0.21837,
+    0.204
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.colombia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Colombia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.colombia.food",
+        "global.10B.countries.colombia.water",
+        "global.10B.countries.colombia.shelter",
+        "global.10B.countries.colombia.health",
+        "global.10B.countries.colombia.safety",
+        "global.10B.countries.colombia.education",
+        "global.10B.countries.colombia.work",
+        "global.10B.countries.colombia.energy",
+        "global.10B.countries.colombia.mobility",
+        "global.10B.countries.colombia.communications",
+        "global.10B.countries.colombia.governance",
+        "global.10B.countries.colombia.environment",
+        "global.10B.countries.colombia.belonging",
+        "global.10B.countries.colombia.meaning",
+        "global.10B.countries.colombia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

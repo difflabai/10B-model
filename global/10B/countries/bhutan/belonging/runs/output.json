@@ -1,0 +1,60 @@
+{
+  "country": "Bhutan",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6383,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.68
+    }
+  ],
+  "embedding": [
+    0.63833,
+    0.85714,
+    0.65,
+    0.65,
+    -0.04973,
+    -0.60912,
+    0.52697,
+    0.85306,
+    -0.77914,
+    0.37697,
+    0.55511,
+    -0.11006,
+    -0.21083,
+    -0.17379,
+    0.63183,
+    -0.32848
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

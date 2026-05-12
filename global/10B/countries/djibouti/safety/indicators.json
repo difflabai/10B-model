@@ -1,0 +1,39 @@
+{
+  "country": "Djibouti",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Djibouti Armed Forces (Forces Armées Djiboutiennes or FAD): Army, Navy, Air Force; Djibouti Coast GuardMinistry of Interior: National Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.5% of GDP (2019 est.)3.5% of GDP (2018 est.)3.3% of GDP (2017 est.)2.7% of GDP (2016 est.)2.5% of GDP (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "6,518 (Yemen) (mid-year 2022); 13,467 (Somalia) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

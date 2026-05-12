@@ -1,0 +1,72 @@
+{
+  "country": "Zambia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.4667,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5118
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3485
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7042
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4395
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6278
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4353
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.4667,
+    1.0,
+    0.5118,
+    0.3485,
+    -0.20357,
+    0.42742,
+    -0.08223,
+    0.26262,
+    0.31121,
+    -0.6734,
+    -0.43493,
+    0.6867,
+    -0.55981,
+    0.69107,
+    -0.62457,
+    0.90179
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

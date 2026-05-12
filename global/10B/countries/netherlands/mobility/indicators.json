@@ -1,0 +1,59 @@
+{
+  "country": "Netherlands",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "139,027 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "45 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "184 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "14,000 km gas, 2,500 km oil and refined products, 3,000 km chemicals (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "6,237 km (2012) (navigable by ships up to 50 tons)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,055 km (2020) 2,310 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "43,996,044 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "5,886,510,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

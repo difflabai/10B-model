@@ -1,0 +1,44 @@
+{
+  "country": "Timor-Leste",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$4,300 (2023 est.)$5,300 (2022 est.)$6,800 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "-18.12% (2023 est.)-20.58% (2022 est.)5.32% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "8.42% (2023 est.)7.01% (2022 est.)3.7% (2021 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "607,000 (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "1.52% (2023 est.)1.54% (2022 est.)2.34% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "41.8% (2014 est.)note: % of population with income below national poverty line",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "28.7 (2014 est.)note: index (0-100) of income distribution; higher values represent greater inequality",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

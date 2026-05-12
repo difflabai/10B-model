@@ -1,0 +1,84 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6153846153846154,
+  "indicators_scored": 8,
+  "indicators_total": 13,
+  "composite_score": 0.5492,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.3233
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.368
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.6819
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.54915,
+    0.61538,
+    0.97,
+    0.55,
+    0.88257,
+    0.84225,
+    0.00441,
+    0.12013,
+    -0.39513,
+    -0.85504,
+    -0.92813,
+    -0.80887,
+    -0.84741,
+    -0.34746,
+    -0.88342,
+    -0.80075
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

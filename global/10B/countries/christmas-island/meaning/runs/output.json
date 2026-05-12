@@ -1,0 +1,56 @@
+{
+  "country": "Christmas Island",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.675,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.675,
+    0.66667,
+    0.65,
+    0.55,
+    0.88711,
+    0.32506,
+    0.35354,
+    -0.10845,
+    -0.03078,
+    -0.4764,
+    -0.41939,
+    0.77969,
+    -0.46703,
+    0.2062,
+    -0.22542,
+    0.20217
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

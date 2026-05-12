@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.grenada",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Grenada"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.grenada.food",
+        "global.10B.countries.grenada.water",
+        "global.10B.countries.grenada.shelter",
+        "global.10B.countries.grenada.health",
+        "global.10B.countries.grenada.safety",
+        "global.10B.countries.grenada.education",
+        "global.10B.countries.grenada.work",
+        "global.10B.countries.grenada.energy",
+        "global.10B.countries.grenada.mobility",
+        "global.10B.countries.grenada.communications",
+        "global.10B.countries.grenada.governance",
+        "global.10B.countries.grenada.environment",
+        "global.10B.countries.grenada.belonging",
+        "global.10B.countries.grenada.meaning",
+        "global.10B.countries.grenada.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

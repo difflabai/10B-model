@@ -1,0 +1,56 @@
+{
+  "country": "Sint Maarten",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.8317,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.895
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.83167,
+    0.5,
+    0.85,
+    0.75,
+    -0.86072,
+    0.13243,
+    -0.82205,
+    -0.10842,
+    -0.49151,
+    -0.69912,
+    -0.32122,
+    -0.69271,
+    -0.83413,
+    -0.10088,
+    0.26778,
+    -0.26372
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

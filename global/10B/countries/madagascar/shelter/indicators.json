@@ -1,0 +1,34 @@
+{
+  "country": "Madagascar",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "40.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.872 million ANTANANARIVO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of population lives on the eastern half of the island; significant clustering is found in the central highlands and eastern coastline as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical along coast, temperate inland, arid in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical along coast, temperate inland, arid in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

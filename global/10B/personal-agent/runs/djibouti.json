@@ -1,0 +1,69 @@
+{
+  "country_slug": "djibouti",
+  "country_label": "Djibouti",
+  "country_score": 0.5759,
+  "tier_scores": {
+    "subsistence": 0.5791,
+    "development": 0.4995,
+    "agency": 0.6491
+  },
+  "cluster_id": 4,
+  "cluster_label": "avg 0.60; strongest in [governance, agency, belonging], weakest in [mobility, health, environment]",
+  "connect": {
+    "question": "How can I connect with my neighbors?",
+    "categories_consulted": [
+      "belonging",
+      "meaning",
+      "communications"
+    ],
+    "category_scores": {
+      "belonging": 0.7116,
+      "meaning": 0.63,
+      "communications": 0.589
+    },
+    "weakest_category": "communications",
+    "narrative": "Your country's biggest community-building gap is in **communications** (score 0.59, world mean 0.69, -0.10 vs world). Closest peer countries (similar overall needs profile): Mauritania, Burkina Faso, Gambia The, Niger, Togo. Look at how their communities are organised — most likely useful patterns."
+  },
+  "contribute": {
+    "question": "What economic value can I bring to my community?",
+    "categories_consulted": [
+      "work",
+      "education",
+      "energy",
+      "communications"
+    ],
+    "category_scores": {
+      "work": 0.6111,
+      "education": 0.5108,
+      "energy": 0.4421,
+      "communications": 0.589
+    },
+    "above_world_mean": [
+      "work",
+      "communications"
+    ],
+    "below_world_mean": [
+      "education",
+      "energy"
+    ],
+    "narrative": "Below-world-mean economic capability dimensions you can plausibly close: education, energy. Above-world-mean dimensions you can leverage as sources of value: work, communications. Personal-agent guidance: in an AI economic transition, the work/education/communications complement is the lever — pursue value at the intersection of your strengths and your community's gaps."
+  },
+  "advocate": {
+    "question": "How can I effectively advocate for change?",
+    "categories_consulted": [
+      "agency",
+      "governance",
+      "environment",
+      "safety"
+    ],
+    "category_scores": {
+      "agency": 0.7354,
+      "governance": 0.7143,
+      "environment": 0.4541,
+      "safety": 0.5694
+    },
+    "highest_leverage": "safety",
+    "narrative": "Highest-leverage advocacy dimension: **safety** (country 0.57 vs world 0.64). Approach: pair the strongest agency/governance score (gives you the institutional surface to operate within) with the highest-leverage gap (gives you the change to push for)."
+  },
+  "scored_with": "scripts/10b/agent_context.py v0.1.0"
+}

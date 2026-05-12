@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.shelter",
+  "name": "Americas — Shelter and habitat",
+  "kind": "sector_economic",
+  "blurb": "Region-level shelter and habitat for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country shelter models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "shelter-country-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "shelter-region-mean",
+      "kind": "scalar",
+      "description": "Mean shelter score across the region."
+    },
+    {
+      "name": "shelter-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Shelter and habitat"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.shelter",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

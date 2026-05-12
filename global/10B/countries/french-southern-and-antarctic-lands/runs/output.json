@@ -1,0 +1,47 @@
+{
+  "country": "french-southern-and-antarctic-lands",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.55,
+    "governance": 0.6167,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.3548,
+    "safety": null,
+    "shelter": null,
+    "water": null,
+    "work": null
+  },
+  "country_score": 0.4804,
+  "tier_scores": {
+    "subsistence": 0.55,
+    "development": 0.3548,
+    "agency": 0.5084
+  },
+  "country_embedding": [
+    0.1281,
+    0.06476,
+    0.12555,
+    0.07175,
+    -0.16695,
+    0.00651,
+    0.14399,
+    -0.24979,
+    -0.0223,
+    0.25142,
+    -0.01312,
+    0.02113,
+    0.26014,
+    0.02878,
+    0.34268,
+    -0.03564
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in French Southern And Antarctic Lands, the three needs areas with the largest gaps are: mobility (0.35), environment (0.40), food (0.55).\nThe three strongest areas are: governance (0.62), food (0.55), environment (0.40).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

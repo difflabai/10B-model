@@ -1,0 +1,56 @@
+{
+  "country": "Finland",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8428,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.94
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.824
+    }
+  ],
+  "embedding": [
+    0.8428,
+    0.83333,
+    0.85,
+    0.75,
+    -0.08864,
+    0.39791,
+    0.25115,
+    -0.12782,
+    0.38521,
+    0.69201,
+    0.05296,
+    0.0909,
+    -0.37377,
+    0.49731,
+    -0.15792,
+    -0.83587
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

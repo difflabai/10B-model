@@ -1,0 +1,47 @@
+{
+  "country": "mali",
+  "category_scores": {
+    "agency": 0.6985,
+    "belonging": 0.6363,
+    "communications": 0.5938,
+    "education": 0.5045,
+    "energy": 0.5154,
+    "environment": 0.4435,
+    "food": 0.5467,
+    "governance": 0.7714,
+    "health": 0.4251,
+    "meaning": 0.63,
+    "mobility": 0.4758,
+    "safety": 0.5556,
+    "shelter": 0.6677,
+    "water": 0.7167,
+    "work": 0.6451
+  },
+  "country_score": 0.5884,
+  "tier_scores": {
+    "subsistence": 0.5824,
+    "development": 0.5469,
+    "agency": 0.6359
+  },
+  "country_embedding": [
+    0.5884,
+    0.8453,
+    0.56313,
+    0.66763,
+    -0.14447,
+    -0.23042,
+    0.01406,
+    0.32888,
+    0.04291,
+    -0.09121,
+    -0.2779,
+    -0.01027,
+    0.16,
+    0.02663,
+    0.02558,
+    -0.21487
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Mali, the three needs areas with the largest gaps are: health (0.43), environment (0.44), mobility (0.48).\nThe three strongest areas are: governance (0.77), water (0.72), agency (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

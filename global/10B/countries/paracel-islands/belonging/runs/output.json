@@ -1,0 +1,60 @@
+{
+  "country": "Paracel Islands",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2857142857142857,
+  "indicators_scored": 2,
+  "indicators_total": 7,
+  "composite_score": 0.6901,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.6302
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6901,
+    0.28571,
+    0.75,
+    0.6302,
+    -0.15468,
+    0.34484,
+    -0.18434,
+    0.8175,
+    -0.56811,
+    -0.39388,
+    -0.96735,
+    -0.25631,
+    -0.93088,
+    -0.363,
+    0.12605,
+    0.49905
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

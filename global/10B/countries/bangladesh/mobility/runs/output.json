@@ -1,0 +1,72 @@
+{
+  "country": "Bangladesh",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5586,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.7127
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.6505
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4694
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6667
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7612
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3945
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5305
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.55856,
+    1.0,
+    0.7127,
+    0.6505,
+    -0.59213,
+    -0.44533,
+    -0.48916,
+    -0.34084,
+    -0.08107,
+    0.30877,
+    0.64034,
+    -0.12923,
+    0.22377,
+    0.68225,
+    -0.42104,
+    0.88989
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

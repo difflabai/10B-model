@@ -1,0 +1,60 @@
+{
+  "country": "Macau",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.8763,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.874
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.9375
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8763,
+    0.71429,
+    0.97,
+    0.95,
+    -0.50747,
+    -0.00121,
+    -0.33574,
+    0.21367,
+    0.46813,
+    0.80005,
+    0.08089,
+    0.49361,
+    0.92071,
+    0.00041,
+    0.77035,
+    -0.37066
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

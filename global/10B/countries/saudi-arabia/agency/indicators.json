@@ -1,0 +1,39 @@
+{
+  "country": "Saudi Arabia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal for municipal electionshttps://www.wilsoncenter.org/publication/saudi-women-go-to-the-polls-finally",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "broadcast media are state-controlled; state-run TV operates 4 networks; Saudi Arabia is a major market for pan-Arab satellite TV broadcasters; state-run radio operates several networks; multiple international broadcasters are available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.8% of GDP (2020) NA",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Cameroon",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Congo (3,730,881 sq km), Niger (2,261,741 sq km)Internal (endorheic basin) drainage: Lake Chad (2,497,738 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies with terrain, from tropical along coast to semiarid and hot in north",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

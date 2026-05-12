@@ -1,0 +1,47 @@
+{
+  "country": "honduras",
+  "category_scores": {
+    "agency": 0.7851,
+    "belonging": 0.6899,
+    "communications": 0.6116,
+    "education": 0.6973,
+    "energy": 0.6739,
+    "environment": 0.5563,
+    "food": 0.667,
+    "governance": 0.7143,
+    "health": 0.6123,
+    "meaning": 0.59,
+    "mobility": 0.4441,
+    "safety": 0.725,
+    "shelter": 0.7043,
+    "water": 0.6,
+    "work": 0.5458
+  },
+  "country_score": 0.6411,
+  "tier_scores": {
+    "subsistence": 0.6617,
+    "development": 0.5945,
+    "agency": 0.6671
+  },
+  "country_embedding": [
+    0.64113,
+    0.85043,
+    0.64458,
+    0.68035,
+    0.07115,
+    0.19576,
+    -0.18436,
+    0.0196,
+    0.23055,
+    -0.04589,
+    -0.07256,
+    0.09359,
+    -0.09109,
+    -0.04052,
+    -0.10071,
+    -0.1189
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Honduras, the three needs areas with the largest gaps are: mobility (0.44), work (0.55), environment (0.56).\nThe three strongest areas are: agency (0.79), safety (0.72), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

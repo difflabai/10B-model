@@ -1,0 +1,56 @@
+{
+  "country": "Ireland",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.5256,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.65
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.5267
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.52556,
+    0.5,
+    0.65,
+    0.5267,
+    -0.71771,
+    -0.69808,
+    -0.79419,
+    -0.80508,
+    0.11116,
+    -0.44897,
+    -0.94522,
+    0.03929,
+    0.25734,
+    -0.27858,
+    -0.32473,
+    -0.47463
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

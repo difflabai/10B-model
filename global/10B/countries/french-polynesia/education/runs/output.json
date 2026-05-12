@@ -1,0 +1,52 @@
+{
+  "country": "French Polynesia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.4,
+    0.65,
+    0.75,
+    -0.54647,
+    0.39983,
+    -0.8183,
+    -0.74279,
+    0.6672,
+    -0.96051,
+    -0.48083,
+    0.91183,
+    0.63055,
+    -0.68411,
+    -0.28637,
+    -0.81225
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

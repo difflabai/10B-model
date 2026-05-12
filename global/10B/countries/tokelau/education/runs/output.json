@@ -1,0 +1,52 @@
+{
+  "country": "Tokelau",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.2,
+    0.75,
+    0.0,
+    0.15807,
+    -0.65991,
+    -0.18645,
+    -0.85043,
+    0.61825,
+    -0.00908,
+    0.7051,
+    -0.34966,
+    -0.94525,
+    -0.57766,
+    -0.01451,
+    0.71179
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

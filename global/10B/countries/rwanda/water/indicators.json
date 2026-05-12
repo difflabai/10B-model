@@ -1,0 +1,39 @@
+{
+  "country": "Rwanda",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Nile river source (shared with Tanzania, Uganda, South Sudan, Sudan, and Egypt [m]) - 6,650 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Congo (3,730,881 sq km), (Mediterranean Sea) Nile (3,254,853 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; two rainy seasons (February to April, November to January); mild in mountains with frost and snow possible",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

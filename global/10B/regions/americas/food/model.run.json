@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.food",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "food"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.food",
+        "global.10B.countries.antigua-and-barbuda.food",
+        "global.10B.countries.argentina.food",
+        "global.10B.countries.aruba.food",
+        "global.10B.countries.bahamas-the.food",
+        "global.10B.countries.barbados.food",
+        "global.10B.countries.belize.food",
+        "global.10B.countries.bermuda.food",
+        "global.10B.countries.bolivia.food",
+        "global.10B.countries.brazil.food",
+        "global.10B.countries.british-virgin-islands.food",
+        "global.10B.countries.cayman-islands.food",
+        "global.10B.countries.cuba.food",
+        "global.10B.countries.curacao.food",
+        "global.10B.countries.dominica.food",
+        "global.10B.countries.dominican-republic.food",
+        "global.10B.countries.falkland-islands-islas-malvinas.food",
+        "global.10B.countries.grenada.food",
+        "global.10B.countries.guyana.food",
+        "global.10B.countries.haiti.food",
+        "global.10B.countries.jamaica.food",
+        "global.10B.countries.montserrat.food",
+        "global.10B.countries.navassa-island.food",
+        "global.10B.countries.paraguay.food",
+        "global.10B.countries.puerto-rico.food",
+        "global.10B.countries.saint-barthelemy.food",
+        "global.10B.countries.saint-kitts-and-nevis.food",
+        "global.10B.countries.saint-lucia.food",
+        "global.10B.countries.saint-martin.food",
+        "global.10B.countries.saint-pierre-and-miquelon.food",
+        "global.10B.countries.saint-vincent-and-the-grenadines.food",
+        "global.10B.countries.sint-maarten.food",
+        "global.10B.countries.suriname.food",
+        "global.10B.countries.trinidad-and-tobago.food",
+        "global.10B.countries.turks-and-caicos-islands.food",
+        "global.10B.countries.uruguay.food",
+        "global.10B.countries.venezuela.food",
+        "global.10B.countries.virgin-islands.food"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

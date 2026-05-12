@@ -1,0 +1,52 @@
+{
+  "country": "Sri Lanka",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6634,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8776
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.326
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6634,
+    0.8,
+    0.8776,
+    0.326,
+    0.05397,
+    -0.52981,
+    0.99463,
+    0.85327,
+    -0.06056,
+    0.6069,
+    -0.95377,
+    0.5035,
+    -0.71179,
+    -0.33007,
+    0.36062,
+    -0.16301
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

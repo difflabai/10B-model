@@ -1,0 +1,34 @@
+{
+  "country": "Guyana",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "27.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "110,000 GEORGETOWN (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population is heavily concentrated in the northeast in and around Georgetown, with noteable concentrations along the Berbice River to the east; the remainder of the country is sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

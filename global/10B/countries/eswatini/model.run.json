@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.eswatini",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Eswatini"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.eswatini.food",
+        "global.10B.countries.eswatini.water",
+        "global.10B.countries.eswatini.shelter",
+        "global.10B.countries.eswatini.health",
+        "global.10B.countries.eswatini.safety",
+        "global.10B.countries.eswatini.education",
+        "global.10B.countries.eswatini.work",
+        "global.10B.countries.eswatini.energy",
+        "global.10B.countries.eswatini.mobility",
+        "global.10B.countries.eswatini.communications",
+        "global.10B.countries.eswatini.governance",
+        "global.10B.countries.eswatini.environment",
+        "global.10B.countries.eswatini.belonging",
+        "global.10B.countries.eswatini.meaning",
+        "global.10B.countries.eswatini.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Fiji",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6483,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.65
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6467
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.64833,
+    0.33333,
+    0.65,
+    0.6467,
+    0.6224,
+    0.59445,
+    -0.85165,
+    -0.07588,
+    0.76501,
+    0.21117,
+    0.45544,
+    -0.38958,
+    0.2546,
+    -0.52459,
+    0.75027,
+    0.61639
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

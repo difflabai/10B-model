@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.france",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "France"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.france.food",
+        "global.10B.countries.france.water",
+        "global.10B.countries.france.shelter",
+        "global.10B.countries.france.health",
+        "global.10B.countries.france.safety",
+        "global.10B.countries.france.education",
+        "global.10B.countries.france.work",
+        "global.10B.countries.france.energy",
+        "global.10B.countries.france.mobility",
+        "global.10B.countries.france.communications",
+        "global.10B.countries.france.governance",
+        "global.10B.countries.france.environment",
+        "global.10B.countries.france.belonging",
+        "global.10B.countries.france.meaning",
+        "global.10B.countries.france.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

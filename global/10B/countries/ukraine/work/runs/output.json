@@ -1,0 +1,60 @@
+{
+  "country": "Ukraine",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7133,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6572
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.866
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.4253
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.5585
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.866
+    }
+  ],
+  "embedding": [
+    0.71328,
+    1.0,
+    0.6572,
+    0.866,
+    0.78146,
+    0.40468,
+    -0.67437,
+    -0.65316,
+    -0.09728,
+    0.08287,
+    0.29158,
+    -0.47549,
+    0.5342,
+    0.55264,
+    0.59045,
+    0.62927
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

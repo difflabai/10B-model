@@ -1,0 +1,56 @@
+{
+  "country": "Gaza Strip",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.625,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.85
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.625,
+    0.5,
+    0.85,
+    0.4,
+    -0.57281,
+    0.32177,
+    -0.80356,
+    0.43584,
+    -0.63922,
+    -0.30773,
+    0.79052,
+    -0.91235,
+    0.61044,
+    0.97223,
+    0.5653,
+    -0.13729
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

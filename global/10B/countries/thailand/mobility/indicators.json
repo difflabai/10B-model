@@ -1,0 +1,59 @@
+{
+  "country": "Thailand",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "180,053 km (2006) (includes 450 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "108 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "2 km condensate, 5,900 km gas, 85 km liquid petroleum gas, 1 km oil, 1,097 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "4,000 km (2011) (3,701 km navigable by boats with drafts up to 0.9 m)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "4,127 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "76,053,042 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "2,666,260,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

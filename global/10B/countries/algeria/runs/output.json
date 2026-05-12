@@ -1,0 +1,47 @@
+{
+  "country": "algeria",
+  "category_scores": {
+    "agency": 0.8251,
+    "belonging": 0.6959,
+    "communications": 0.6917,
+    "education": 0.7849,
+    "energy": 0.6088,
+    "environment": 0.4498,
+    "food": 0.6237,
+    "governance": 0.7429,
+    "health": 0.631,
+    "meaning": 0.67,
+    "mobility": 0.5255,
+    "safety": 0.4722,
+    "shelter": 0.7072,
+    "water": 0.7,
+    "work": 0.6302
+  },
+  "country_score": 0.6506,
+  "tier_scores": {
+    "subsistence": 0.6268,
+    "development": 0.6482,
+    "agency": 0.6767
+  },
+  "country_embedding": [
+    0.6506,
+    0.80488,
+    0.70649,
+    0.71043,
+    0.17303,
+    -0.09192,
+    0.21791,
+    -0.01523,
+    0.07309,
+    0.07784,
+    -0.11802,
+    0.34747,
+    0.11712,
+    -0.16405,
+    0.06919,
+    -0.29498
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Algeria, the three needs areas with the largest gaps are: environment (0.45), safety (0.47), mobility (0.53).\nThe three strongest areas are: agency (0.83), education (0.78), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

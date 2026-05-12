@@ -1,0 +1,60 @@
+{
+  "country": "Niue",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.7399,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.9065
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.903
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.73987,
+    0.57143,
+    0.4,
+    0.75,
+    -0.31295,
+    -0.69018,
+    -0.40768,
+    -0.13777,
+    0.46831,
+    -0.72976,
+    -0.6415,
+    -0.58367,
+    -0.76495,
+    -0.59792,
+    0.75387,
+    0.54678
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

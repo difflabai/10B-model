@@ -1,0 +1,47 @@
+{
+  "country": "vanuatu",
+  "category_scores": {
+    "agency": 0.685,
+    "belonging": 0.7157,
+    "communications": 0.5963,
+    "education": 0.6525,
+    "energy": 0.5559,
+    "environment": 0.5751,
+    "food": 0.5911,
+    "governance": 0.7286,
+    "health": 0.6204,
+    "meaning": 0.67,
+    "mobility": 0.3327,
+    "safety": 0.65,
+    "shelter": 0.6392,
+    "water": 0.75,
+    "work": 0.6392
+  },
+  "country_score": 0.6268,
+  "tier_scores": {
+    "subsistence": 0.6501,
+    "development": 0.5553,
+    "agency": 0.6749
+  },
+  "country_embedding": [
+    0.62678,
+    0.76308,
+    0.61074,
+    0.56637,
+    0.07285,
+    -0.18115,
+    -0.12398,
+    -0.10392,
+    -0.0108,
+    -0.03451,
+    0.01918,
+    0.24459,
+    -0.05714,
+    -0.00099,
+    0.07509,
+    0.0158
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Vanuatu, the three needs areas with the largest gaps are: mobility (0.33), energy (0.56), environment (0.58).\nThe three strongest areas are: water (0.75), governance (0.73), belonging (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

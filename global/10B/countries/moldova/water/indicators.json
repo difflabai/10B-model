@@ -1,0 +1,39 @@
+{
+  "country": "Moldova",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Dunărea (Danube) (shared with Germany [s], Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Ukraine, and Romania [m]) - 2,888 km; Nistru (Dniester) (shared with Ukraine [s/m]) - 1,411 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Black Sea) Danube (795,656 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "moderate winters, warm summers",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

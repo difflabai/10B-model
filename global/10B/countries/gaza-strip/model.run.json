@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.gaza-strip",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Gaza Strip"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.gaza-strip.food",
+        "global.10B.countries.gaza-strip.water",
+        "global.10B.countries.gaza-strip.shelter",
+        "global.10B.countries.gaza-strip.health",
+        "global.10B.countries.gaza-strip.safety",
+        "global.10B.countries.gaza-strip.education",
+        "global.10B.countries.gaza-strip.work",
+        "global.10B.countries.gaza-strip.energy",
+        "global.10B.countries.gaza-strip.mobility",
+        "global.10B.countries.gaza-strip.communications",
+        "global.10B.countries.gaza-strip.governance",
+        "global.10B.countries.gaza-strip.environment",
+        "global.10B.countries.gaza-strip.belonging",
+        "global.10B.countries.gaza-strip.meaning",
+        "global.10B.countries.gaza-strip.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

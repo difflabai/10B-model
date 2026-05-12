@@ -1,0 +1,44 @@
+{
+  "country": "Niger",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "formerly, semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "note - following the 26 July 2023 military coup, the National Council for the Safeguard of the Homeland assumed control of all government institutions and rules by decree; formerly, mixed legal system of civil law, based on French civil law, Islamic law, and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; passed by referendum 31 October 2010, entered into force 25 November 2010",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President of the National Council for the Safeguard of the Homeland (CNSP) General Abdourahame TIANI (since 28 July 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU (suspended), CD, EITI (compliant country), Entente, FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MINUSCA, MNJTF, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNOOSA, UNWTO, UPU, WADB (regional), WAEMU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

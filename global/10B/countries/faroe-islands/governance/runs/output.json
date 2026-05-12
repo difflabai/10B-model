@@ -1,0 +1,60 @@
+{
+  "country": "Faroe Islands",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7417,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.75
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.75
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.74167,
+    0.85714,
+    0.8,
+    0.65,
+    -0.9682,
+    0.20095,
+    0.77667,
+    -0.51583,
+    -0.80636,
+    0.63153,
+    0.53545,
+    -0.75164,
+    -0.07668,
+    0.87192,
+    0.66665,
+    0.23177
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

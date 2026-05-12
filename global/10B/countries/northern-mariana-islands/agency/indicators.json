@@ -1,0 +1,39 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - indigenous inhabitants are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic PartyRepublican Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "25.1% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 TV broadcast station on Saipan; multi-channel cable TV services are available on Saipan; 9 licensed radio broadcast stations (2009)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

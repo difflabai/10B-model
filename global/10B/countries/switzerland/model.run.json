@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.switzerland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Switzerland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.switzerland.food",
+        "global.10B.countries.switzerland.water",
+        "global.10B.countries.switzerland.shelter",
+        "global.10B.countries.switzerland.health",
+        "global.10B.countries.switzerland.safety",
+        "global.10B.countries.switzerland.education",
+        "global.10B.countries.switzerland.work",
+        "global.10B.countries.switzerland.energy",
+        "global.10B.countries.switzerland.mobility",
+        "global.10B.countries.switzerland.communications",
+        "global.10B.countries.switzerland.governance",
+        "global.10B.countries.switzerland.environment",
+        "global.10B.countries.switzerland.belonging",
+        "global.10B.countries.switzerland.meaning",
+        "global.10B.countries.switzerland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

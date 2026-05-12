@@ -1,0 +1,56 @@
+{
+  "country": "Singapore",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7484,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.94
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    }
+  ],
+  "embedding": [
+    0.7484,
+    0.83333,
+    0.85,
+    0.65,
+    0.70584,
+    -0.49853,
+    0.07146,
+    0.30324,
+    -0.15248,
+    -0.87228,
+    0.61343,
+    0.43728,
+    0.95279,
+    -0.03209,
+    0.00197,
+    -0.00478
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

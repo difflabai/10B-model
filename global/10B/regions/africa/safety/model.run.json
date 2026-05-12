@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.safety",
+        "global.10B.countries.angola.safety",
+        "global.10B.countries.benin.safety",
+        "global.10B.countries.botswana.safety",
+        "global.10B.countries.bouvet-island.safety",
+        "global.10B.countries.british-indian-ocean-territory.safety",
+        "global.10B.countries.burkina-faso.safety",
+        "global.10B.countries.burundi.safety",
+        "global.10B.countries.cabo-verde.safety",
+        "global.10B.countries.cameroon.safety",
+        "global.10B.countries.central-african-republic.safety",
+        "global.10B.countries.chad.safety",
+        "global.10B.countries.comoros.safety",
+        "global.10B.countries.congo-democratic-republic-of-the.safety",
+        "global.10B.countries.congo-republic-of-the.safety",
+        "global.10B.countries.djibouti.safety",
+        "global.10B.countries.egypt.safety",
+        "global.10B.countries.equatorial-guinea.safety",
+        "global.10B.countries.eritrea.safety",
+        "global.10B.countries.eswatini.safety",
+        "global.10B.countries.ethiopia.safety",
+        "global.10B.countries.gabon.safety",
+        "global.10B.countries.gambia-the.safety",
+        "global.10B.countries.ghana.safety",
+        "global.10B.countries.guinea.safety",
+        "global.10B.countries.guinea-bissau.safety",
+        "global.10B.countries.kenya.safety",
+        "global.10B.countries.lesotho.safety",
+        "global.10B.countries.liberia.safety",
+        "global.10B.countries.libya.safety",
+        "global.10B.countries.madagascar.safety",
+        "global.10B.countries.malawi.safety",
+        "global.10B.countries.mali.safety",
+        "global.10B.countries.mauritania.safety",
+        "global.10B.countries.mauritius.safety",
+        "global.10B.countries.morocco.safety",
+        "global.10B.countries.mozambique.safety",
+        "global.10B.countries.namibia.safety",
+        "global.10B.countries.niger.safety",
+        "global.10B.countries.nigeria.safety",
+        "global.10B.countries.rwanda.safety",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.safety",
+        "global.10B.countries.sao-tome-and-principe.safety",
+        "global.10B.countries.senegal.safety",
+        "global.10B.countries.seychelles.safety",
+        "global.10B.countries.sierra-leone.safety",
+        "global.10B.countries.somalia.safety",
+        "global.10B.countries.south-africa.safety",
+        "global.10B.countries.south-sudan.safety",
+        "global.10B.countries.sudan.safety",
+        "global.10B.countries.tanzania.safety",
+        "global.10B.countries.togo.safety",
+        "global.10B.countries.tunisia.safety",
+        "global.10B.countries.uganda.safety",
+        "global.10B.countries.zambia.safety",
+        "global.10B.countries.zimbabwe.safety"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

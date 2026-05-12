@@ -1,0 +1,72 @@
+{
+  "country": "Jordan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.3895,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.238
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3031
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4694
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4658
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.275
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5146
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.3895,
+    0.8,
+    0.238,
+    0.3031,
+    0.8454,
+    -0.04244,
+    0.21495,
+    0.99188,
+    -0.76489,
+    -0.1537,
+    0.90866,
+    0.98853,
+    -0.43856,
+    -0.55727,
+    -0.81176,
+    0.62771
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

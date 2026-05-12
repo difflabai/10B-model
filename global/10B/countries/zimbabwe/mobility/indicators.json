@@ -1,0 +1,59 @@
+{
+  "country": "Zimbabwe",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "97,267 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "18,481 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "78,786 km (2023)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "144 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "270 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "223 km (2022) some navigation possible on Lake Kariba (223 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,427 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "285,539 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "670,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

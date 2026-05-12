@@ -1,0 +1,39 @@
+{
+  "country": "Suriname",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Brotherhood and Unity in Politics or BEPDemocratic Alternative '91 or DA91General Liberation and Development Party or ABOPNational Democratic Party or NDPNational Party of Suriname or NPSParty for Democracy and Development in Unity or DOEParty for National Unity and Solidarity or KTPIPeople's Alliance (Pertjajah Luhur) or PLProgressive Workers' and Farmers' Union or PALUProgressive Reform Party or VHPReform and Renewal Movement or HVBSurinamese Labor Party or SPA",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "76% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 state-owned TV stations; 1 state-owned radio station; multiple private radio and TV stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

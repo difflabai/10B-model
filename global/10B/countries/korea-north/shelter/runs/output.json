@@ -1,0 +1,52 @@
+{
+  "country": "Korea, North",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6818,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6773
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.68183,
+    1.0,
+    0.6773,
+    0.65,
+    -0.96594,
+    0.73013,
+    -0.71911,
+    0.88415,
+    -0.28389,
+    0.33172,
+    0.63662,
+    -0.1248,
+    0.01939,
+    0.28859,
+    -0.18282,
+    -0.26369
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

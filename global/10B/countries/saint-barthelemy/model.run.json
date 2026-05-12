@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-barthelemy",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Barthelemy"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-barthelemy.food",
+        "global.10B.countries.saint-barthelemy.water",
+        "global.10B.countries.saint-barthelemy.shelter",
+        "global.10B.countries.saint-barthelemy.health",
+        "global.10B.countries.saint-barthelemy.safety",
+        "global.10B.countries.saint-barthelemy.education",
+        "global.10B.countries.saint-barthelemy.work",
+        "global.10B.countries.saint-barthelemy.energy",
+        "global.10B.countries.saint-barthelemy.mobility",
+        "global.10B.countries.saint-barthelemy.communications",
+        "global.10B.countries.saint-barthelemy.governance",
+        "global.10B.countries.saint-barthelemy.environment",
+        "global.10B.countries.saint-barthelemy.belonging",
+        "global.10B.countries.saint-barthelemy.meaning",
+        "global.10B.countries.saint-barthelemy.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

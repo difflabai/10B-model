@@ -1,0 +1,60 @@
+{
+  "country": "Navassa Island",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": null
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": null
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": null
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.14286,
+    0.65,
+    0.0,
+    0.95593,
+    -0.6716,
+    -0.07695,
+    0.6603,
+    -0.08519,
+    -0.87668,
+    -0.52209,
+    0.68676,
+    1.0,
+    0.13344,
+    0.50613,
+    -0.24669
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

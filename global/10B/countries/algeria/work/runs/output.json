@@ -1,0 +1,60 @@
+{
+  "country": "Algeria",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6302,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6516
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.805
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5488
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.4957
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.63022,
+    0.71429,
+    0.6516,
+    0.805,
+    0.17696,
+    -0.13851,
+    -0.99963,
+    0.41384,
+    -0.81332,
+    0.88763,
+    0.09361,
+    0.80505,
+    0.54601,
+    -0.44945,
+    0.36184,
+    -0.76257
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

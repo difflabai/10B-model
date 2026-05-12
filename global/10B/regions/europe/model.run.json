@@ -1,0 +1,75 @@
+{
+  "modelId": "global.10B.regions.europe",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania",
+        "global.10B.countries.andorra",
+        "global.10B.countries.armenia",
+        "global.10B.countries.austria",
+        "global.10B.countries.azerbaijan",
+        "global.10B.countries.belarus",
+        "global.10B.countries.belgium",
+        "global.10B.countries.bosnia-and-herzegovina",
+        "global.10B.countries.bulgaria",
+        "global.10B.countries.croatia",
+        "global.10B.countries.cyprus",
+        "global.10B.countries.czechia",
+        "global.10B.countries.denmark",
+        "global.10B.countries.estonia",
+        "global.10B.countries.faroe-islands",
+        "global.10B.countries.finland",
+        "global.10B.countries.georgia",
+        "global.10B.countries.germany",
+        "global.10B.countries.gibraltar",
+        "global.10B.countries.greece",
+        "global.10B.countries.guernsey",
+        "global.10B.countries.holy-see-vatican-city",
+        "global.10B.countries.hungary",
+        "global.10B.countries.iceland",
+        "global.10B.countries.ireland",
+        "global.10B.countries.isle-of-man",
+        "global.10B.countries.italy",
+        "global.10B.countries.jan-mayen",
+        "global.10B.countries.jersey",
+        "global.10B.countries.kazakhstan",
+        "global.10B.countries.kosovo",
+        "global.10B.countries.latvia",
+        "global.10B.countries.liechtenstein",
+        "global.10B.countries.lithuania",
+        "global.10B.countries.luxembourg",
+        "global.10B.countries.malta",
+        "global.10B.countries.moldova",
+        "global.10B.countries.monaco",
+        "global.10B.countries.montenegro",
+        "global.10B.countries.netherlands",
+        "global.10B.countries.north-macedonia",
+        "global.10B.countries.norway",
+        "global.10B.countries.poland",
+        "global.10B.countries.portugal",
+        "global.10B.countries.romania",
+        "global.10B.countries.san-marino",
+        "global.10B.countries.serbia",
+        "global.10B.countries.slovakia",
+        "global.10B.countries.slovenia",
+        "global.10B.countries.spain",
+        "global.10B.countries.sweden",
+        "global.10B.countries.switzerland",
+        "global.10B.countries.turkey-turkiye",
+        "global.10B.countries.ukraine",
+        "global.10B.countries.united-kingdom"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

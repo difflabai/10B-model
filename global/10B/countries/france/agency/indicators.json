@@ -1,0 +1,39 @@
+{
+  "country": "France",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Citizen and Republican Movement or MRC Debout la France or DLF Democratic Movement or MoDem Ensemble or ENS (electoral coalition including RE, MoDem, Horizons, PRV, UDI)The Ecologists - the Greens or EELVFrench Communist Party or PCF Horizons La France Insoumise or FI Liberties, Independents, Overseas and Territories or LIOT Movement of Progressives or MDP National Rally or RN (formerly National Front or FN)New Democrats or LND (formerly Ecology Democracy Solidarity or EDS)New Popular Front or NFP (electoral coalition including FI, EELV, PS, PCF)Radical Party of the Left or PRV Reconquete or REC Renaissance or RE Résistons! Socialist Party or PS The Republicans or LR Union of Democrats and Independents or UDIUnion of Far Right or UXD (electoral coalition of LR, RN)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mix of both publicly operated and privately owned TV stations; state-owned France television stations operate 4 networks, one of which is a network of regional stations, and has part-interest in several thematic cable/satellite channels and international channels; a large number of privately owned regional and local TV stations; multi-channel satellite and cable services provide a large number of channels; public broadcaster Radio France operates 7 national networks, a series of regional networks, and operates services for overseas territories and foreign audiences; Radio France Internationale, under the Ministry of Foreign Affairs, is a leading international broadcaster; a large number of commercial FM stations, with many of them consolidating into commercial networks",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

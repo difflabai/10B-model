@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.sri-lanka",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sri Lanka"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.sri-lanka.food",
+        "global.10B.countries.sri-lanka.water",
+        "global.10B.countries.sri-lanka.shelter",
+        "global.10B.countries.sri-lanka.health",
+        "global.10B.countries.sri-lanka.safety",
+        "global.10B.countries.sri-lanka.education",
+        "global.10B.countries.sri-lanka.work",
+        "global.10B.countries.sri-lanka.energy",
+        "global.10B.countries.sri-lanka.mobility",
+        "global.10B.countries.sri-lanka.communications",
+        "global.10B.countries.sri-lanka.governance",
+        "global.10B.countries.sri-lanka.environment",
+        "global.10B.countries.sri-lanka.belonging",
+        "global.10B.countries.sri-lanka.meaning",
+        "global.10B.countries.sri-lanka.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Turkmenistan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5239,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5057
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.546
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4861
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6556
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5856
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5508
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5089
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.52386,
+    1.0,
+    0.5057,
+    0.546,
+    -0.39507,
+    -0.46206,
+    0.81497,
+    0.43481,
+    -0.60809,
+    0.80795,
+    -0.96704,
+    -0.83169,
+    0.9451,
+    -0.20293,
+    -0.56695,
+    0.58245
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

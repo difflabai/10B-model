@@ -1,0 +1,60 @@
+{
+  "country": "Canada",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7423,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8882
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.575
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7933
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.7815
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.766
+    }
+  ],
+  "embedding": [
+    0.74233,
+    0.85714,
+    0.8882,
+    0.575,
+    -0.95724,
+    -0.59149,
+    0.25237,
+    -0.24321,
+    -0.9382,
+    -0.53439,
+    -0.01292,
+    0.07247,
+    0.12929,
+    -0.79693,
+    0.43005,
+    -0.33379
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

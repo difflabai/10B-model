@@ -1,0 +1,47 @@
+{
+  "country": "azerbaijan",
+  "category_scores": {
+    "agency": 0.796,
+    "belonging": 0.6467,
+    "communications": 0.7117,
+    "education": 0.7635,
+    "energy": 0.4962,
+    "environment": 0.4719,
+    "food": 0.7201,
+    "governance": 0.7143,
+    "health": 0.6779,
+    "meaning": 0.63,
+    "mobility": 0.4561,
+    "safety": 0.6125,
+    "shelter": 0.6272,
+    "water": 0.6,
+    "work": 0.6927
+  },
+  "country_score": 0.6411,
+  "tier_scores": {
+    "subsistence": 0.6475,
+    "development": 0.624,
+    "agency": 0.6518
+  },
+  "country_embedding": [
+    0.64112,
+    0.82176,
+    0.71245,
+    0.61297,
+    0.09548,
+    0.05456,
+    0.07516,
+    -0.26411,
+    0.01368,
+    -0.02508,
+    0.23903,
+    -0.1171,
+    0.03472,
+    -0.03124,
+    0.01113,
+    -0.19582
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Azerbaijan, the three needs areas with the largest gaps are: mobility (0.46), environment (0.47), energy (0.50).\nThe three strongest areas are: agency (0.80), education (0.76), food (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

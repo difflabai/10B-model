@@ -1,0 +1,60 @@
+{
+  "country": "American Samoa",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.6447,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.555
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.624
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.85
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.64475,
+    0.57143,
+    0.555,
+    0.624,
+    0.16921,
+    0.39336,
+    -0.61584,
+    0.49401,
+    -0.23742,
+    0.27953,
+    -0.03584,
+    0.07985,
+    -0.53466,
+    -0.20311,
+    0.61175,
+    -0.80099
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

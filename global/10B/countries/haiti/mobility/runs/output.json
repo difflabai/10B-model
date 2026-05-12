@@ -1,0 +1,72 @@
+{
+  "country": "Haiti",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3,
+  "indicators_scored": 3,
+  "indicators_total": 10,
+  "composite_score": 0.3623,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2176
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4694
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.36235,
+    0.3,
+    0.2176,
+    0.4694,
+    -0.50509,
+    0.62444,
+    -0.759,
+    -0.63787,
+    -0.73715,
+    0.36333,
+    0.96237,
+    0.58416,
+    0.28453,
+    0.91434,
+    -0.80511,
+    0.05736
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

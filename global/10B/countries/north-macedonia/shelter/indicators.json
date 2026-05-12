@@ -1,0 +1,34 @@
+{
+  "country": "North Macedonia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "59.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "611,000 SKOPJE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "warm, dry summers and autumns; relatively cold winters with heavy snowfall",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "warm, dry summers and autumns; relatively cold winters with heavy snowfall",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "some air pollution from the surrounding city of Rome",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Comprehensive Nuclear Test Ban, Ozone Layer Protection",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "0 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

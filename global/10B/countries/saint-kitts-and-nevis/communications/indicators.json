@@ -1,0 +1,64 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "119 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "56,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "33 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "16,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "76% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "47 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "22,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "good interisland and international connections; broadband access; expanded FttP (Fiber to the Home) and LTE markets; regulatory development; telecom sector contributes greatly to the overall GDP; telecom sector is a growth area (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is 33 per 100 persons; mobile-cellular teledensity is 120 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 1-869; landing points for the ECFS, Southern Caribbean Fiber and the SSCS submarine cables providing connectivity for numerous Caribbean Islands (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the government operates a national TV network that broadcasts on 2 channels; cable subscription services provide access to local and international channels; the government operates a national radio network; a mix of government-owned and privately owned broadcasters operate roughly 15 radio stations (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,47 @@
+{
+  "country": "finland",
+  "category_scores": {
+    "agency": 0.8428,
+    "belonging": 0.648,
+    "communications": 0.7287,
+    "education": 0.7935,
+    "energy": 0.6627,
+    "environment": 0.6136,
+    "food": 0.5988,
+    "governance": 0.7286,
+    "health": 0.812,
+    "meaning": 0.59,
+    "mobility": 0.5824,
+    "safety": 0.5633,
+    "shelter": 0.6467,
+    "water": 0.75,
+    "work": 0.7031
+  },
+  "country_score": 0.6843,
+  "tier_scores": {
+    "subsistence": 0.6742,
+    "development": 0.6941,
+    "agency": 0.6846
+  },
+  "country_embedding": [
+    0.68428,
+    0.8253,
+    0.73571,
+    0.59995,
+    0.33778,
+    0.03397,
+    0.00068,
+    0.08422,
+    -0.04318,
+    0.25936,
+    0.07014,
+    0.0283,
+    0.19288,
+    0.06014,
+    -0.13717,
+    0.12206
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Finland, the three needs areas with the largest gaps are: safety (0.56), mobility (0.58), meaning (0.59).\nThe three strongest areas are: agency (0.84), health (0.81), education (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

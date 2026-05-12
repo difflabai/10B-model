@@ -1,0 +1,47 @@
+{
+  "country": "france",
+  "category_scores": {
+    "agency": 0.844,
+    "belonging": 0.7261,
+    "communications": 0.7707,
+    "education": 0.7937,
+    "energy": 0.6437,
+    "environment": 0.5842,
+    "food": 0.6893,
+    "governance": 0.7386,
+    "health": 0.807,
+    "meaning": 0.71,
+    "mobility": 0.803,
+    "safety": 0.6033,
+    "shelter": 0.7176,
+    "water": 0.7,
+    "work": 0.7051
+  },
+  "country_score": 0.7224,
+  "tier_scores": {
+    "subsistence": 0.7034,
+    "development": 0.7432,
+    "agency": 0.7206
+  },
+  "country_embedding": [
+    0.72243,
+    0.79355,
+    0.77227,
+    0.72683,
+    -0.1487,
+    -0.13223,
+    0.07832,
+    -0.18265,
+    -0.0536,
+    -0.22007,
+    0.12788,
+    0.00014,
+    -0.21088,
+    0.02772,
+    -0.21563,
+    0.06279
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in France, the three needs areas with the largest gaps are: environment (0.58), safety (0.60), energy (0.64).\nThe three strongest areas are: agency (0.84), health (0.81), mobility (0.80).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

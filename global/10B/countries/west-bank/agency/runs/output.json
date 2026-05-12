@@ -1,0 +1,56 @@
+{
+  "country": "West Bank",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.7983,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.87
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.775
+    }
+  ],
+  "embedding": [
+    0.79833,
+    0.5,
+    0.87,
+    0.75,
+    -0.45748,
+    0.31972,
+    -0.53533,
+    -0.24141,
+    -0.95532,
+    0.17711,
+    -0.70779,
+    -0.06831,
+    0.24813,
+    0.11293,
+    -0.56143,
+    0.20629
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

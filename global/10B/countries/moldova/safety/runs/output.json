@@ -1,0 +1,56 @@
+{
+  "country": "Moldova",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.6056,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.85
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.5667
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.60556,
+    0.5,
+    0.85,
+    0.5667,
+    -0.02028,
+    -0.78854,
+    0.61913,
+    0.14983,
+    0.3276,
+    -0.80188,
+    0.49303,
+    -0.50036,
+    0.82528,
+    -0.84894,
+    -0.21309,
+    0.22661
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

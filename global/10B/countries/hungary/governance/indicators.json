@@ -1,0 +1,44 @@
+{
+  "country": "Hungary",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil legal system influenced by the German model",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1949 (heavily amended in 1989 following the collapse of communism); latest approved 18 April 2011, signed 25 April 2011, effective 1 January 2012",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, 16 if married and marriage is registered in Hungary; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Tamas SULYOK (since 5 March 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICC jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Australia Group, BIS, CD, CE, CEI, CERN, EAPC, EBRD, ECB, EIB, ESA (cooperating state), EU, FAO, G-9, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, NATO, NEA, NSG, OAS (observer), OECD, OIF (observer), OPCW, OSCE, PCA, Schengen Convention, SELEC, UN, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

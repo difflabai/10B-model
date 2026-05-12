@@ -1,0 +1,56 @@
+{
+  "country": "Belize",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8014,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7071
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.80143,
+    0.83333,
+    0.85,
+    0.75,
+    -0.93414,
+    0.95413,
+    0.36666,
+    -0.38088,
+    0.44021,
+    -0.52361,
+    0.0424,
+    -0.77594,
+    -0.1299,
+    0.7322,
+    -0.87344,
+    -0.52078
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

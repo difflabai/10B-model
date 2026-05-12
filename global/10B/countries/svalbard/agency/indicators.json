@@ -1,0 +1,39 @@
+{
+  "country": "Svalbard",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Conservative Labor Liberal Progress Socialist Left",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Norwegian Broadcasting Corporation (NRK) began direct TV transmission to Svalbard via satellite in 1984; Longyearbyen households have access to 3 NRK radio and 2 TV stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

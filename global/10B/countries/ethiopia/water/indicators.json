@@ -1,0 +1,39 @@
+{
+  "country": "Ethiopia",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Blue Nile river source (shared with Sudan [m]) - 1,600 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Turkana (shared with Kenya) - 6,400 sq km; Abhe Bid Hayk/Abhe Bad (shared with Djibouti) - 780 sq km;",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Mediterranean Sea) Nile (3,254,853 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical monsoon with wide topographic-induced variation",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

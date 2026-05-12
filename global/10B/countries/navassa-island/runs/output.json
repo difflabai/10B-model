@@ -1,0 +1,47 @@
+{
+  "country": "navassa-island",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.65,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.56,
+  "tier_scores": {
+    "subsistence": 0.5833,
+    "development": null,
+    "agency": 0.525
+  },
+  "country_embedding": [
+    0.18667,
+    0.07016,
+    0.18667,
+    0.0,
+    -0.00209,
+    0.05269,
+    0.30414,
+    -0.07413,
+    0.09885,
+    0.09336,
+    -0.30182,
+    0.21546,
+    0.15598,
+    0.31913,
+    -0.04357,
+    0.06471
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Navassa Island, the three needs areas with the largest gaps are: environment (0.40), shelter (0.55), water (0.55).\nThe three strongest areas are: governance (0.65), food (0.65), water (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

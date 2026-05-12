@@ -1,0 +1,52 @@
+{
+  "country": "Cameroon",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6515,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6995
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.508
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6515,
+    1.0,
+    0.6995,
+    0.508,
+    -0.99457,
+    0.47436,
+    -0.59991,
+    0.47994,
+    -0.13866,
+    -0.15544,
+    0.95047,
+    -0.06893,
+    0.62789,
+    -0.01439,
+    0.18636,
+    -0.99945
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

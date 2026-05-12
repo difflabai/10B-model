@@ -1,0 +1,34 @@
+{
+  "country": "Tunisia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "70.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.475 million TUNIS (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the overwhelming majority of the population is located in the northern half of the country; the south remains largely underpopulated as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

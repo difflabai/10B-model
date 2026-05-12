@@ -1,0 +1,60 @@
+{
+  "country": "Eswatini",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.495,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.5275
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.8505
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.0736
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.1555
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.308
+    }
+  ],
+  "embedding": [
+    0.49501,
+    1.0,
+    0.5275,
+    0.8505,
+    0.66189,
+    0.85177,
+    0.82071,
+    0.17311,
+    0.86261,
+    -0.04588,
+    -0.7127,
+    -0.95157,
+    0.22521,
+    0.18346,
+    -0.9873,
+    0.39614
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

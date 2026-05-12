@@ -1,0 +1,44 @@
+{
+  "country": "Virgin Islands",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "US common law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "22 July 1954 - the Revised Organic Act of the Virgin Islands functions as a constitution for this US territory",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - island residents are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph R. BIDEN, Jr. (since 20 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AOSIS (observer), Interpol (subbureau), IOC, UPU, WFTU (NGOs)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

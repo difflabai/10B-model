@@ -1,0 +1,59 @@
+{
+  "country": "Iran",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "223,485 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "195,618 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "27,867 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "173 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "89 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "7 km condensate, 973 km condensate/gas, 20,794 km gas, 570 km liquid petroleum gas, 8,625 km oil, 7,937 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "850 km (2012) (on Karun River; some navigation on Lake Urmia)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "8,483.5 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "25,604,871 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "290.74 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

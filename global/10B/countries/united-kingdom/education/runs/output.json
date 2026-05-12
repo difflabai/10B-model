@@ -1,0 +1,52 @@
+{
+  "country": "United Kingdom",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.7542,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75417,
+    0.6,
+    0.8,
+    0.9125,
+    -0.22817,
+    0.27965,
+    -0.61288,
+    0.61685,
+    -0.34981,
+    0.40612,
+    -0.50887,
+    0.0753,
+    -0.97293,
+    -0.11501,
+    -0.05797,
+    0.7373
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

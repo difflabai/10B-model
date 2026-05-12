@@ -1,0 +1,52 @@
+{
+  "country": "Madagascar",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5652,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": 0.25
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7334
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.5425
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.56517,
+    1.0,
+    0.25,
+    0.75,
+    -0.35921,
+    0.92456,
+    -0.73935,
+    0.71395,
+    -0.49139,
+    -0.52258,
+    -0.04109,
+    -0.38778,
+    0.08232,
+    0.3651,
+    0.38427,
+    -0.35723
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Singapore",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "People's Action Party or PAP Progress Singapore Party or PSP Workers' Party or WP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state controls broadcast media; 6 domestic TV stations operated by MediaCorp which is wholly owned by a state investment company; broadcasts from Malaysian and Indonesian stations available; satellite dishes banned; multi-channel cable TV services available; a total of 19 domestic radio stations broadcasting, with MediaCorp operating 11, Singapore Press Holdings, also government-linked, another 5, 2 controlled by the Singapore Armed Forces Reservists Association and one owned by BBC Radio; Malaysian and Indonesian radio stations are available as is BBC; a number of Internet service radio stations are also available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.8% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

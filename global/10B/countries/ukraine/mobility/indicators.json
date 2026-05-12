@@ -1,0 +1,59 @@
+{
+  "country": "Ukraine",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "169,694 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "166,095 km (includes 17 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "3,599 km (2012)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "148 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "42 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "36,720 km gas, 4,514 km oil, 4,363 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,672 km (2012) (most on Dnieper River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "21,733 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "7,854,842 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "75.26 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

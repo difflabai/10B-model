@@ -1,0 +1,84 @@
+{
+  "country": "Cook Islands",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.38461538461538464,
+  "indicators_scored": 5,
+  "indicators_total": 13,
+  "composite_score": 0.5771,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.4425
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.9428
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": null
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.57706,
+    0.38462,
+    0.55,
+    0.55,
+    0.81384,
+    0.82058,
+    -0.68637,
+    -0.45946,
+    0.35781,
+    -0.19109,
+    -0.11965,
+    0.07872,
+    -0.26601,
+    -0.58581,
+    0.36196,
+    -0.96005
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

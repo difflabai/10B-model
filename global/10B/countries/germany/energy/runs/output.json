@@ -1,0 +1,84 @@
+{
+  "country": "Germany",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6218,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.561
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6325
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.857
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.45
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.614
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.705
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.62177,
+    0.84615,
+    0.97,
+    0.55,
+    -0.81302,
+    -0.21846,
+    0.32506,
+    -0.72406,
+    0.90298,
+    0.73648,
+    0.77035,
+    -0.49554,
+    -0.13902,
+    -0.87781,
+    0.98434,
+    -0.13768
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

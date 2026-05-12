@@ -1,0 +1,72 @@
+{
+  "country": "Argentina",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.6373,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.6267
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.6023
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.8458
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7878
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.77
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6358
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6046
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.63728,
+    1.0,
+    0.6267,
+    0.6023,
+    -0.68972,
+    -0.34383,
+    0.7453,
+    0.87784,
+    0.04482,
+    0.19823,
+    0.54714,
+    0.78225,
+    -0.38518,
+    0.66101,
+    0.33886,
+    -0.75442
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

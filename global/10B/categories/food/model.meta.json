@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.food",
+  "name": "World — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **food and nutrition** across 257 countries — the cross-country slice of the 10B model along the food dimension.",
+  "mechanism": "Aggregates the per-country food models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the food dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Food and nutrition world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Food and nutrition country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Food and nutrition macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for food and nutrition."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for food and nutrition."
+    },
+    {
+      "name": "food-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on food and nutrition."
+    },
+    {
+      "name": "food-macro-embedding",
+      "kind": "embedding",
+      "description": "Food and nutrition contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:physiological, MaxNeef:subsistence, SDG-2",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.food",
+      "kind": "consumes_from",
+      "note": "Per-country food model."
+    }
+  ]
+}

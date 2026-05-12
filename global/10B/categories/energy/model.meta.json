@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.energy",
+  "name": "World — Energy access",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **energy access** across 257 countries — the cross-country slice of the 10B model along the energy dimension.",
+  "mechanism": "Aggregates the per-country energy models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the energy dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Energy access world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Energy access country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Energy access macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "energy-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for energy access."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "energy-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for energy access."
+    },
+    {
+      "name": "energy-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on energy access."
+    },
+    {
+      "name": "energy-macro-embedding",
+      "kind": "embedding",
+      "description": "Energy access contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Energy access"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "MaxNeef:subsistence, SDG-7",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.energy",
+      "kind": "consumes_from",
+      "note": "Per-country energy model."
+    }
+  ]
+}

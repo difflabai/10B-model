@@ -1,0 +1,44 @@
+{
+  "country": "Papua New Guinea",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "rain forest loss as a result of growing commercial demand for tropical timber; unsustainable logging practices result in soil erosion, water quality degredation, and loss of habitat and biodiversity; large-scale mining projects cause adverse impacts on forests and water quality (discharge of heavy metals, cyanide, and acids into rivers); severe drought; inappropriate farming practices accelerate land degradion (soil erosion, siltation, loss of soil fertility); destructive fishing practices and coastal pollution due to run-off from land-based activities and oil spills",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "8.89 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "7.54 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "11.05 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "63.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "1 million tons (2014 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

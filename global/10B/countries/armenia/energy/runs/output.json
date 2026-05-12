@@ -1,0 +1,84 @@
+{
+  "country": "Armenia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6923076923076923,
+  "indicators_scored": 9,
+  "indicators_total": 13,
+  "composite_score": 0.6187,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.616
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.452
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.68
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.8
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.61867,
+    0.69231,
+    0.97,
+    0.55,
+    -0.11788,
+    0.1245,
+    -0.87481,
+    -0.2242,
+    -0.72018,
+    0.72198,
+    -0.85623,
+    -0.10173,
+    -0.93036,
+    -0.67022,
+    -0.36135,
+    -0.25603
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

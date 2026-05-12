@@ -1,0 +1,34 @@
+{
+  "country": "Maldives",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "42% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "177,000 MALE (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "about a third of the population lives in the centrally located capital city of Male and almost a tenth in southern Addu City; the remainder of the populace is spread over the 200 or so populated islands of the archipelago",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid; dry, northeast monsoon (November to March); rainy, southwest monsoon (June to August)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid; dry, northeast monsoon (November to March); rainy, southwest monsoon (June to August)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

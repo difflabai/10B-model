@@ -1,0 +1,44 @@
+{
+  "country": "Honduras",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest approved 11 January 1982, effective 20 January 1982",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Iris Xiomara CASTRO de Zelaya (since 27 January 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACS, BCIE, CACM, CD, CELAC, EITI (candidate country), FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC (suspended), IOM, IPU, ISO (subscriber), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINURSO, MINUSTAH, NAM, OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNHRC, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO (suspended), WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

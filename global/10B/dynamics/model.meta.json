@@ -1,0 +1,358 @@
+{
+  "id": "global.10B.dynamics",
+  "name": "10B macro-dynamics — unsupervised cluster discovery",
+  "kind": "sector_economic",
+  "blurb": "Unsupervised k-means clustering of the country × category needs profile matrix. Reveals hidden dynamics of the macro space: clusters, peer groups, attractors.",
+  "mechanism": "Loads the country × category satisfaction matrix produced by `scripts/10b/scorer.py`, performs k-means++ initialised k-means clustering with deterministic seed, and emits cluster assignments, centroids, and per-country nearest-peer lists. The clusters are the unsupervised reveal of macro-space structure called for by the project: which needs profiles repeat across populations, where the attractors sit, and which countries sit at transition boundaries between clusters.",
+  "components": [
+    {
+      "id": "matrix-loader",
+      "name": "Country profile matrix loader",
+      "role": "Loads scored country profiles.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "kmeans",
+      "name": "k-means++ engine",
+      "role": "Deterministic seeded clustering.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "peers",
+      "name": "Peer-distance index",
+      "role": "Per-country k-nearest-neighbour lookup over the needs profile.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "labeler",
+      "name": "Cluster labeller",
+      "role": "Names each cluster by its dominant strengths and gaps.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "country-profiles",
+      "kind": "matrix",
+      "description": "(257 countries × 15 categories) satisfaction matrix."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "macro-dynamics",
+      "kind": "report",
+      "description": "Cluster centroids, sizes, labels, and per-country assignments."
+    },
+    {
+      "name": "country-peers",
+      "kind": "graph",
+      "description": "Per-country nearest-peer lists for personal-agent peer-comparison."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "country-count",
+      "value": "257"
+    },
+    {
+      "key": "category-count",
+      "value": "15"
+    },
+    {
+      "key": "k",
+      "value": "6",
+      "description": "Number of clusters."
+    },
+    {
+      "key": "seed",
+      "value": "42",
+      "description": "Deterministic seed."
+    },
+    {
+      "key": "init",
+      "value": "k-means++"
+    },
+    {
+      "key": "max-iters",
+      "value": "60"
+    }
+  ],
+  "references": [
+    {
+      "label": "MacQueen (1967) — k-means",
+      "kind": "paper",
+      "location": "macqueen-1967"
+    },
+    {
+      "label": "Arthur & Vassilvitskii (2007) — k-means++",
+      "kind": "paper",
+      "location": "arthur-vassilvitskii-2007"
+    },
+    {
+      "label": "scripts/10b/dynamics.py",
+      "kind": "spec",
+      "location": "scripts/10b/dynamics.py"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B",
+      "kind": "depends_on",
+      "note": "Top-level 10B model owns this dynamics head."
+    },
+    {
+      "target_model_id": "global.10B.countries.afghanistan",
+      "kind": "consumes_from",
+      "note": "Country profile for afghanistan."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri",
+      "kind": "consumes_from",
+      "note": "Country profile for akrotiri."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania",
+      "kind": "consumes_from",
+      "note": "Country profile for albania."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria",
+      "kind": "consumes_from",
+      "note": "Country profile for algeria."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa",
+      "kind": "consumes_from",
+      "note": "Country profile for american-samoa."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra",
+      "kind": "consumes_from",
+      "note": "Country profile for andorra."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola",
+      "kind": "consumes_from",
+      "note": "Country profile for angola."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla",
+      "kind": "consumes_from",
+      "note": "Country profile for anguilla."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica",
+      "kind": "consumes_from",
+      "note": "Country profile for antarctica."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda",
+      "kind": "consumes_from",
+      "note": "Country profile for antigua-and-barbuda."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina",
+      "kind": "consumes_from",
+      "note": "Country profile for argentina."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia",
+      "kind": "consumes_from",
+      "note": "Country profile for armenia."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba",
+      "kind": "consumes_from",
+      "note": "Country profile for aruba."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands",
+      "kind": "consumes_from",
+      "note": "Country profile for ashmore-and-cartier-islands."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia",
+      "kind": "consumes_from",
+      "note": "Country profile for australia."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria",
+      "kind": "consumes_from",
+      "note": "Country profile for austria."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan",
+      "kind": "consumes_from",
+      "note": "Country profile for azerbaijan."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the",
+      "kind": "consumes_from",
+      "note": "Country profile for bahamas-the."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain",
+      "kind": "consumes_from",
+      "note": "Country profile for bahrain."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island",
+      "kind": "consumes_from",
+      "note": "Country profile for baker-island."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh",
+      "kind": "consumes_from",
+      "note": "Country profile for bangladesh."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados",
+      "kind": "consumes_from",
+      "note": "Country profile for barbados."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus",
+      "kind": "consumes_from",
+      "note": "Country profile for belarus."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium",
+      "kind": "consumes_from",
+      "note": "Country profile for belgium."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize",
+      "kind": "consumes_from",
+      "note": "Country profile for belize."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin",
+      "kind": "consumes_from",
+      "note": "Country profile for benin."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda",
+      "kind": "consumes_from",
+      "note": "Country profile for bermuda."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan",
+      "kind": "consumes_from",
+      "note": "Country profile for bhutan."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia",
+      "kind": "consumes_from",
+      "note": "Country profile for bolivia."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina",
+      "kind": "consumes_from",
+      "note": "Country profile for bosnia-and-herzegovina."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana",
+      "kind": "consumes_from",
+      "note": "Country profile for botswana."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island",
+      "kind": "consumes_from",
+      "note": "Country profile for bouvet-island."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil",
+      "kind": "consumes_from",
+      "note": "Country profile for brazil."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory",
+      "kind": "consumes_from",
+      "note": "Country profile for british-indian-ocean-territory."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands",
+      "kind": "consumes_from",
+      "note": "Country profile for british-virgin-islands."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei",
+      "kind": "consumes_from",
+      "note": "Country profile for brunei."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria",
+      "kind": "consumes_from",
+      "note": "Country profile for bulgaria."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso",
+      "kind": "consumes_from",
+      "note": "Country profile for burkina-faso."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma",
+      "kind": "consumes_from",
+      "note": "Country profile for burma."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi",
+      "kind": "consumes_from",
+      "note": "Country profile for burundi."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde",
+      "kind": "consumes_from",
+      "note": "Country profile for cabo-verde."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia",
+      "kind": "consumes_from",
+      "note": "Country profile for cambodia."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon",
+      "kind": "consumes_from",
+      "note": "Country profile for cameroon."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada",
+      "kind": "consumes_from",
+      "note": "Country profile for canada."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands",
+      "kind": "consumes_from",
+      "note": "Country profile for cayman-islands."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic",
+      "kind": "consumes_from",
+      "note": "Country profile for central-african-republic."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad",
+      "kind": "consumes_from",
+      "note": "Country profile for chad."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile",
+      "kind": "consumes_from",
+      "note": "Country profile for chile."
+    },
+    {
+      "target_model_id": "global.10B.countries.china",
+      "kind": "consumes_from",
+      "note": "Country profile for china."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island",
+      "kind": "consumes_from",
+      "note": "Country profile for christmas-island."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Bangladesh",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.7167,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.65
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.71667,
+    0.5,
+    0.75,
+    0.65,
+    0.79269,
+    0.6936,
+    -0.55526,
+    0.316,
+    0.31908,
+    -0.18022,
+    -0.68631,
+    0.94534,
+    -0.99469,
+    0.37801,
+    0.13854,
+    -0.10338
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

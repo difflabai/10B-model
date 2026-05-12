@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.health",
+  "name": "World — Health and longevity",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **health and longevity** across 257 countries — the cross-country slice of the 10B model along the health dimension.",
+  "mechanism": "Aggregates the per-country health models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the health dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Health and longevity world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Health and longevity country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Health and longevity macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "health-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for health and longevity."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "health-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for health and longevity."
+    },
+    {
+      "name": "health-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on health and longevity."
+    },
+    {
+      "name": "health-macro-embedding",
+      "kind": "embedding",
+      "description": "Health and longevity contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "Maslow:physiological, MaxNeef:subsistence, DoyalGough:health, SDG-3",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.health",
+      "kind": "consumes_from",
+      "note": "Per-country health model."
+    }
+  ]
+}

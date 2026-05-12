@@ -1,0 +1,34 @@
+{
+  "country": "Lesotho",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": "due to poor harvests and increased food prices - according to the latest national food security assessment, 22% of the rural population are expected to face acute food insecurity between October 2022 and March 2023, compared to 15% between July and September 2022; the forecasted proportion translates into 320,000 people in rural areas, while an additional 201,000 people in urban areas are foreseen to also need assistance; the foreseen increase of acute food insecurity levels is primarily due to the reduced harvest, high food prices in basic food and non‑food commodities and a slow recovery of households’ income reflecting a downturn in economic growth; harvesting of the 2022 main-season summer cereal crops, mostly maize and sorghum, is complete; production of maize, the main cereal staple, is about one‑third of the average, while the sorghum output is almost negligible; the poor harvest was primarily due to torrential rainfalls during January and February 2022, which caused localized flooding and resulted in crop losses (2022)",
+      "present": true
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "milk, potatoes, maize, vegetables, fruits, sorghum, wheat, game meat, beans, wool (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "76.1% (2018 est.)agricultural land: arable land: 10.1% (2018 est.)agricultural land: permanent crops: 0.1% (2018 est.)agricultural land: permanent pasture: 65.9% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "6.6% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "2,227,548",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

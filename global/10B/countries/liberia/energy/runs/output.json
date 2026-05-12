@@ -1,0 +1,84 @@
+{
+  "country": "Liberia",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.467,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.2033
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.3463
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.1368
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.722
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.32
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8917
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.467,
+    0.76923,
+    0.2033,
+    0.3463,
+    0.13088,
+    0.60955,
+    0.69458,
+    -0.83386,
+    0.73165,
+    -0.97418,
+    -0.18413,
+    -0.30877,
+    -0.65438,
+    0.55056,
+    0.38274,
+    0.8172
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

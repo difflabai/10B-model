@@ -1,0 +1,52 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5692,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.3767
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.56917,
+    0.8,
+    0.65,
+    0.7,
+    0.73114,
+    0.5826,
+    0.92065,
+    0.64077,
+    -0.24248,
+    -0.93994,
+    0.79846,
+    -0.2264,
+    0.09993,
+    -0.86581,
+    0.47155,
+    0.27822
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

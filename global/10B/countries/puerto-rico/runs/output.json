@@ -1,0 +1,47 @@
+{
+  "country": "puerto-rico",
+  "category_scores": {
+    "agency": 0.7565,
+    "belonging": 0.595,
+    "communications": 0.7045,
+    "education": 0.7233,
+    "energy": 0.4917,
+    "environment": 0.561,
+    "food": 0.6007,
+    "governance": 0.6833,
+    "health": 0.7992,
+    "meaning": 0.625,
+    "mobility": 0.502,
+    "safety": 0.75,
+    "shelter": 0.6639,
+    "water": 0.65,
+    "work": 0.7454
+  },
+  "country_score": 0.6568,
+  "tier_scores": {
+    "subsistence": 0.6928,
+    "development": 0.6334,
+    "agency": 0.6442
+  },
+  "country_embedding": [
+    0.65678,
+    0.68239,
+    0.71807,
+    0.55405,
+    0.14456,
+    0.08031,
+    -0.09343,
+    0.20309,
+    -0.01367,
+    0.16,
+    -0.12083,
+    -0.05124,
+    0.23224,
+    0.06594,
+    -0.01346,
+    0.11933
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Puerto Rico, the three needs areas with the largest gaps are: energy (0.49), mobility (0.50), environment (0.56).\nThe three strongest areas are: health (0.80), agency (0.76), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

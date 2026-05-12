@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kingman-reef",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kingman Reef"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kingman-reef.food",
+        "global.10B.countries.kingman-reef.water",
+        "global.10B.countries.kingman-reef.shelter",
+        "global.10B.countries.kingman-reef.health",
+        "global.10B.countries.kingman-reef.safety",
+        "global.10B.countries.kingman-reef.education",
+        "global.10B.countries.kingman-reef.work",
+        "global.10B.countries.kingman-reef.energy",
+        "global.10B.countries.kingman-reef.mobility",
+        "global.10B.countries.kingman-reef.communications",
+        "global.10B.countries.kingman-reef.governance",
+        "global.10B.countries.kingman-reef.environment",
+        "global.10B.countries.kingman-reef.belonging",
+        "global.10B.countries.kingman-reef.meaning",
+        "global.10B.countries.kingman-reef.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

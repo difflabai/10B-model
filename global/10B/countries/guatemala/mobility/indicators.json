@@ -1,0 +1,59 @@
+{
+  "country": "Guatemala",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "17,440 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "7,420 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "9,440 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "58 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "2 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "480 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "990 km (2012) (260 km navigable year round; additional 730 km navigable during high-water season)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "800 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "145,795 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "110,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

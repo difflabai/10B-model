@@ -1,0 +1,52 @@
+{
+  "country": "Gabon",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6518,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7975
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.508
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65183,
+    0.6,
+    0.7975,
+    0.508,
+    -0.46755,
+    0.55837,
+    -0.12541,
+    0.74963,
+    -0.8172,
+    0.49599,
+    -0.15593,
+    0.20906,
+    -0.62084,
+    -0.71737,
+    0.8533,
+    -0.15105
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Bahrain",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "desertification resulting from the degradation of limited arable land, periods of drought, and dust storms; coastal degradation (damage to coastlines, coral reefs, and sea vegetation) resulting from oil spills and other discharges from large tankers, oil refineries, and distribution stations; lack of freshwater resources (groundwater and seawater are the only sources for all water needs); lowered water table leaves aquifers vulnerable to saline contamination; desalinization provides some 90% of the country's freshwater",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "51.82 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "31.69 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "15.47 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "0.7% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "951,943 tons (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

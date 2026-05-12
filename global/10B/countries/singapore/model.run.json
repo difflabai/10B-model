@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.singapore",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Singapore"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.singapore.food",
+        "global.10B.countries.singapore.water",
+        "global.10B.countries.singapore.shelter",
+        "global.10B.countries.singapore.health",
+        "global.10B.countries.singapore.safety",
+        "global.10B.countries.singapore.education",
+        "global.10B.countries.singapore.work",
+        "global.10B.countries.singapore.energy",
+        "global.10B.countries.singapore.mobility",
+        "global.10B.countries.singapore.communications",
+        "global.10B.countries.singapore.governance",
+        "global.10B.countries.singapore.environment",
+        "global.10B.countries.singapore.belonging",
+        "global.10B.countries.singapore.meaning",
+        "global.10B.countries.singapore.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Argentina",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8091,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.958
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.8091,
+    1.0,
+    0.958,
+    0.7375,
+    0.69027,
+    0.65618,
+    0.14916,
+    -0.65316,
+    0.90005,
+    0.34231,
+    -0.38082,
+    -0.56088,
+    -0.21266,
+    -0.09612,
+    -0.21349,
+    -0.92148
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

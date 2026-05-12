@@ -1,0 +1,34 @@
+{
+  "country": "West Bank",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "77.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the most populous Palestinian communities in the West Bank are located in the central ridge and western half of its territory; Jewish settlements are located throughout the West Bank, the most populous in the Seam Zone--between the 1949 Armistice Line and the separation barrier--and around Jerusalem",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; temperature and precipitation vary with altitude, warm to hot summers, cool to mild winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; temperature and precipitation vary with altitude, warm to hot summers, cool to mild winters",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.aruba",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Aruba"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.aruba.food",
+        "global.10B.countries.aruba.water",
+        "global.10B.countries.aruba.shelter",
+        "global.10B.countries.aruba.health",
+        "global.10B.countries.aruba.safety",
+        "global.10B.countries.aruba.education",
+        "global.10B.countries.aruba.work",
+        "global.10B.countries.aruba.energy",
+        "global.10B.countries.aruba.mobility",
+        "global.10B.countries.aruba.communications",
+        "global.10B.countries.aruba.governance",
+        "global.10B.countries.aruba.environment",
+        "global.10B.countries.aruba.belonging",
+        "global.10B.countries.aruba.meaning",
+        "global.10B.countries.aruba.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

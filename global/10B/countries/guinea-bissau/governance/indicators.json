@@ -1,0 +1,44 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of civil law, which incorporated Portuguese law at independence and influenced by Economic Community of West African States (ECOWAS), West African Economic and Monetary Union (UEMOA), African Francophone Public Law, and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "promulgated 16 May 1984; note - constitution suspended following military coup April 2012, restored 2014; note - in May 2020, President EMBALO established a commission to draft a revised constitution",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Umaro Sissoco EMBALO (since 27 February 2020)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AOSIS, AU, CPLP, ECOWAS, FAO, FZ, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WADB (regional), WAEMU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

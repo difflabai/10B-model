@@ -1,0 +1,36 @@
+{
+  "id": "nigeria-safety-2028",
+  "label": "Nigeria safety and protection from violence score by 2028-12-31",
+  "task_family": "needs.country.category",
+  "tags": [
+    "10B",
+    "safety",
+    "nigeria",
+    "supervised-holdout"
+  ],
+  "prompt": "What will the satisfaction score for the safety and protection from violence category in Nigeria be on 2028-12-31, as computed by the model global.10B.countries.nigeria.safety? This is a primary supervised hold-out target.",
+  "resolution_criteria": "Resolves to the `composite_score` in global/10B/countries/nigeria/safety/runs/output.json on 2028-12-31.",
+  "expected_resolution_at": "2028-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": "2026-06-07T00:00:00Z",
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "numeric",
+    "unit": "score [0,1]",
+    "min": "0.0",
+    "max": "1.0",
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 720,
+    "triggers": [
+      "global.10B.countries.nigeria.safety.run"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [],
+  "history": [],
+  "status": "pending"
+}

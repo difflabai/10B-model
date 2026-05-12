@@ -1,0 +1,47 @@
+{
+  "country": "haiti",
+  "category_scores": {
+    "agency": 0.6772,
+    "belonging": 0.645,
+    "communications": 0.7009,
+    "education": 0.519,
+    "energy": 0.4389,
+    "environment": 0.4922,
+    "food": 0.5797,
+    "governance": 0.7286,
+    "health": 0.4585,
+    "meaning": 0.59,
+    "mobility": 0.3623,
+    "safety": 0.75,
+    "shelter": 0.6539,
+    "water": 0.65,
+    "work": 0.3344
+  },
+  "country_score": 0.572,
+  "tier_scores": {
+    "subsistence": 0.6184,
+    "development": 0.4711,
+    "agency": 0.6266
+  },
+  "country_embedding": [
+    0.57204,
+    0.77287,
+    0.52197,
+    0.52299,
+    0.10944,
+    0.02953,
+    -0.08565,
+    0.12747,
+    -0.0997,
+    0.04973,
+    0.08014,
+    0.06673,
+    0.12433,
+    0.03073,
+    -0.21225,
+    0.19863
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Haiti, the three needs areas with the largest gaps are: work (0.33), mobility (0.36), energy (0.44).\nThe three strongest areas are: safety (0.75), governance (0.73), communications (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

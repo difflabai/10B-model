@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.saint-vincent-and-the-grenadines.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Vincent and the Grenadines"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "shelter"
+    }
+  },
+  "output": "./runs/output.json"
+}

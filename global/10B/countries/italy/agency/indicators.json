@@ -1,0 +1,39 @@
+{
+  "country": "Italy",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal except in senatorial elections, where minimum age is 25",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Action-Italia Viva Associative Movement of Italians Abroad or MAIE Brothers of Italy or FdI Democratic Party or PD Five Star Movement or M5S Forza Italia or FI Free and Equal (Liberi e Uguali) or LeU Greens and Left Alliance or AVS Italexit League or Lega More Europe or +EU Popular Union or PU South calls North or ScN South Tyrolean Peoples Party or SVP other minor parties",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "two Italian media giants dominate with 3 national terrestrial stations and privately owned companies with 3 national terrestrial stations; a large number of private stations, a satellite TV network; 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.3% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

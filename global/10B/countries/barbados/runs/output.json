@@ -1,0 +1,47 @@
+{
+  "country": "barbados",
+  "category_scores": {
+    "agency": 0.774,
+    "belonging": 0.663,
+    "communications": 0.7393,
+    "education": 0.8251,
+    "energy": 0.5367,
+    "environment": 0.5314,
+    "food": 0.6828,
+    "governance": 0.7286,
+    "health": 0.7453,
+    "meaning": 0.67,
+    "mobility": 0.3401,
+    "safety": 0.6217,
+    "shelter": 0.5982,
+    "water": 0.65,
+    "work": 0.6646
+  },
+  "country_score": 0.6514,
+  "tier_scores": {
+    "subsistence": 0.6596,
+    "development": 0.6212,
+    "agency": 0.6734
+  },
+  "country_embedding": [
+    0.65138,
+    0.74642,
+    0.68784,
+    0.61732,
+    -0.24396,
+    0.30751,
+    -0.0257,
+    -0.064,
+    0.05251,
+    0.18655,
+    -0.19827,
+    0.01795,
+    -0.10457,
+    0.12761,
+    -0.0888,
+    0.11051
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Barbados, the three needs areas with the largest gaps are: mobility (0.34), environment (0.53), energy (0.54).\nThe three strongest areas are: education (0.83), agency (0.77), health (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

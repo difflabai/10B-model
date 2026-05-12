@@ -1,0 +1,39 @@
+{
+  "country": "Yemen",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "General People’s Congress or GPC (3 factions: pro-Hadi, pro-Houthi, pro-Salih)Nasserist Unionist People's OrganizationNational Arab Socialist Ba'ath PartySouthern Transitional Council or STCYemeni Reform Grouping or IslahYemeni Socialist Party or YSP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "18% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run TV with 2 stations; state-run radio with 2 national radio stations and 5 local stations; stations from Oman and Saudi Arabia can be accessed",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

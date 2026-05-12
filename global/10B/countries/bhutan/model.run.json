@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bhutan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bhutan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bhutan.food",
+        "global.10B.countries.bhutan.water",
+        "global.10B.countries.bhutan.shelter",
+        "global.10B.countries.bhutan.health",
+        "global.10B.countries.bhutan.safety",
+        "global.10B.countries.bhutan.education",
+        "global.10B.countries.bhutan.work",
+        "global.10B.countries.bhutan.energy",
+        "global.10B.countries.bhutan.mobility",
+        "global.10B.countries.bhutan.communications",
+        "global.10B.countries.bhutan.governance",
+        "global.10B.countries.bhutan.environment",
+        "global.10B.countries.bhutan.belonging",
+        "global.10B.countries.bhutan.meaning",
+        "global.10B.countries.bhutan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

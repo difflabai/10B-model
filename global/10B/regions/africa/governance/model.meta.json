@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.governance",
+  "name": "Africa — Governance and rule of law",
+  "kind": "sector_economic",
+  "blurb": "Region-level governance and rule of law for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country governance models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "governance-country-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "governance-region-mean",
+      "kind": "scalar",
+      "description": "Mean governance score across the region."
+    },
+    {
+      "name": "governance-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Governance and rule of law"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.governance",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

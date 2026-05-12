@@ -1,0 +1,72 @@
+{
+  "country": "New Caledonia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3,
+  "indicators_scored": 3,
+  "indicators_total": 10,
+  "composite_score": 0.374,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2283
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4806
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4132
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.374,
+    0.3,
+    0.2283,
+    0.4806,
+    0.71298,
+    -0.55541,
+    0.80175,
+    0.77783,
+    -0.51904,
+    0.42202,
+    -0.66809,
+    0.30407,
+    -0.73944,
+    0.90091,
+    -0.94919,
+    0.80923
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

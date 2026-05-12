@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ashmore-and-cartier-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ashmore and Cartier Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ashmore-and-cartier-islands.food",
+        "global.10B.countries.ashmore-and-cartier-islands.water",
+        "global.10B.countries.ashmore-and-cartier-islands.shelter",
+        "global.10B.countries.ashmore-and-cartier-islands.health",
+        "global.10B.countries.ashmore-and-cartier-islands.safety",
+        "global.10B.countries.ashmore-and-cartier-islands.education",
+        "global.10B.countries.ashmore-and-cartier-islands.work",
+        "global.10B.countries.ashmore-and-cartier-islands.energy",
+        "global.10B.countries.ashmore-and-cartier-islands.mobility",
+        "global.10B.countries.ashmore-and-cartier-islands.communications",
+        "global.10B.countries.ashmore-and-cartier-islands.governance",
+        "global.10B.countries.ashmore-and-cartier-islands.environment",
+        "global.10B.countries.ashmore-and-cartier-islands.belonging",
+        "global.10B.countries.ashmore-and-cartier-islands.meaning",
+        "global.10B.countries.ashmore-and-cartier-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

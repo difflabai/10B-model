@@ -1,0 +1,72 @@
+{
+  "country": "Colombia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.7011,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.6041
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.8249
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6889
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.8157
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.375
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.7002
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.7011,
+    0.8,
+    0.6041,
+    0.8249,
+    -0.56393,
+    -0.66931,
+    0.82483,
+    -0.79672,
+    -0.73303,
+    -0.90271,
+    0.76031,
+    -0.02107,
+    -0.28255,
+    -0.58837,
+    0.27175,
+    0.02788
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.french-southern-and-antarctic-lands.agency",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "French Southern and Antarctic Lands"
+    },
+    "category": {
+      "value": "agency"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "agency"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Svalbard",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "non-self-governing territory of Norway",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "only the laws of Norway made explicitly applicable to Svalbard have effect there; the Svalbard Act and the Svalbard Environmental Protection Act, and certain regulations, apply only to Svalbard; the Spitsbergen Treaty and the Svalbard Treaty grant certain rights to citizens and corporations of signatory nations; as of June 2017, 45 nations had ratified the Svalbard Treaty",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King HARALD V of Norway (since 17 January 1991)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "none",
+      "present": true
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

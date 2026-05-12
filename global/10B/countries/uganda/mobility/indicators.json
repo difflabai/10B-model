@@ -1,0 +1,59 @@
+{
+  "country": "Uganda",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "20,544 km (excludes local roads)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "4,257 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "16,287 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "39 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "907 km (2022) (there are no long navigable stretches of river in Uganda; parts of the Albert Nile ( 210 km) that flow out of Lake Albert (160 km) in the northwestern part of the country are navigable; several lakes including Lake Victoria (337 km) and Lake Kyoga (199.5) have substantial traffic; Lake Albert is navigable along a 200-km stretch from its northern tip to its southern shores)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,244 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "21,537 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7
+}

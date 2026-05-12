@@ -1,0 +1,44 @@
+{
+  "country": "Taiwan",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "air pollution; water pollution from industrial emissions, raw sewage; contamination of drinking water supplies; trade in endangered species; low-level radioactive waste disposal",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "7.336 million tons (2015 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.2857142857142857
+}

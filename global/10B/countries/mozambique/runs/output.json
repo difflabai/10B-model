@@ -1,0 +1,47 @@
+{
+  "country": "mozambique",
+  "category_scores": {
+    "agency": 0.7116,
+    "belonging": 0.6989,
+    "communications": 0.6723,
+    "education": 0.6594,
+    "energy": 0.5117,
+    "environment": 0.545,
+    "food": 0.568,
+    "governance": 0.7286,
+    "health": 0.4521,
+    "meaning": 0.65,
+    "mobility": 0.4754,
+    "safety": 0.65,
+    "shelter": 0.6605,
+    "water": 0.65,
+    "work": 0.5489
+  },
+  "country_score": 0.6122,
+  "tier_scores": {
+    "subsistence": 0.5961,
+    "development": 0.5735,
+    "agency": 0.6668
+  },
+  "country_embedding": [
+    0.61216,
+    0.87197,
+    0.52085,
+    0.65599,
+    0.19345,
+    -0.02261,
+    -0.07031,
+    -0.1682,
+    0.05382,
+    0.05921,
+    0.0462,
+    -0.08938,
+    0.26616,
+    0.13258,
+    0.08459,
+    -0.03435
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Mozambique, the three needs areas with the largest gaps are: health (0.45), mobility (0.48), energy (0.51).\nThe three strongest areas are: governance (0.73), agency (0.71), belonging (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

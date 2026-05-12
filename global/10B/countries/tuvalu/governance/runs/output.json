@@ -1,0 +1,60 @@
+{
+  "country": "Tuvalu",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7143,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.71429,
+    1.0,
+    0.8,
+    0.65,
+    0.21917,
+    0.68048,
+    0.93661,
+    -0.30028,
+    -0.36614,
+    0.62615,
+    -0.83108,
+    -0.4472,
+    0.02107,
+    -0.59075,
+    -0.12956,
+    0.51464
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

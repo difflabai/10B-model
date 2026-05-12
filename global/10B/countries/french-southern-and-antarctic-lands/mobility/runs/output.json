@@ -1,0 +1,72 @@
+{
+  "country": "French Southern and Antarctic Lands",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 2,
+  "indicators_total": 10,
+  "composite_score": 0.3548,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2833
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.35482,
+    0.2,
+    0.2833,
+    0.4263,
+    0.4912,
+    -0.92233,
+    0.99423,
+    -0.97119,
+    -0.19216,
+    -0.12398,
+    0.88275,
+    -0.47839,
+    0.22194,
+    -0.89981,
+    0.14611,
+    0.36873
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

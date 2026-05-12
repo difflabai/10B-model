@@ -1,0 +1,59 @@
+{
+  "country": "Peru",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "70,000 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "18,699 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "166 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "6 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "786 km extra heavy crude, 1,526 km gas, 679 km liquid petroleum gas, 1,106 km oil, 15 km refined products (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "8,808 km (2011) (8,600 km of navigable tributaries on the Amazon River system and 208 km on Lago Titicaca)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,854.4 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "17,758,527 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "313.26 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

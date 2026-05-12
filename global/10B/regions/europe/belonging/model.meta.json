@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.belonging",
+  "name": "Europe — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "Region-level belonging and social cohesion for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country belonging models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-region-mean",
+      "kind": "scalar",
+      "description": "Mean belonging score across the region."
+    },
+    {
+      "name": "belonging-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.belonging",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Wake Island",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.18181818181818182,
+  "indicators_scored": 2,
+  "indicators_total": 11,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.18182,
+    0.75,
+    0.65,
+    -0.61251,
+    0.3022,
+    0.26381,
+    -0.56887,
+    -0.73855,
+    0.28841,
+    0.58358,
+    0.71685,
+    0.56344,
+    0.09816,
+    0.44747,
+    -0.88412
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

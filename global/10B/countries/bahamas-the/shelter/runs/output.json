@@ -1,0 +1,52 @@
+{
+  "country": "Bahamas, The",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6239,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6456
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6239,
+    1.0,
+    0.6456,
+    0.55,
+    -0.30181,
+    -0.00453,
+    -0.57287,
+    -0.15642,
+    -0.21019,
+    -0.17211,
+    -0.84088,
+    0.52157,
+    -0.19353,
+    -0.26903,
+    -0.37755,
+    -0.50008
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

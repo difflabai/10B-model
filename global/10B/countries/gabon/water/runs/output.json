@@ -1,0 +1,56 @@
+{
+  "country": "Gabon",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": null
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.65
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6,
+    0.33333,
+    0.65,
+    0.55,
+    -0.68261,
+    -0.74478,
+    -0.6828,
+    -0.08208,
+    0.29461,
+    0.40096,
+    0.78466,
+    0.21239,
+    -0.50335,
+    -0.006,
+    -0.42565,
+    -0.11113
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

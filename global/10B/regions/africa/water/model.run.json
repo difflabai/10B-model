@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.water",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "water"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.water",
+        "global.10B.countries.angola.water",
+        "global.10B.countries.benin.water",
+        "global.10B.countries.botswana.water",
+        "global.10B.countries.bouvet-island.water",
+        "global.10B.countries.british-indian-ocean-territory.water",
+        "global.10B.countries.burkina-faso.water",
+        "global.10B.countries.burundi.water",
+        "global.10B.countries.cabo-verde.water",
+        "global.10B.countries.cameroon.water",
+        "global.10B.countries.central-african-republic.water",
+        "global.10B.countries.chad.water",
+        "global.10B.countries.comoros.water",
+        "global.10B.countries.congo-democratic-republic-of-the.water",
+        "global.10B.countries.congo-republic-of-the.water",
+        "global.10B.countries.djibouti.water",
+        "global.10B.countries.egypt.water",
+        "global.10B.countries.equatorial-guinea.water",
+        "global.10B.countries.eritrea.water",
+        "global.10B.countries.eswatini.water",
+        "global.10B.countries.ethiopia.water",
+        "global.10B.countries.gabon.water",
+        "global.10B.countries.gambia-the.water",
+        "global.10B.countries.ghana.water",
+        "global.10B.countries.guinea.water",
+        "global.10B.countries.guinea-bissau.water",
+        "global.10B.countries.kenya.water",
+        "global.10B.countries.lesotho.water",
+        "global.10B.countries.liberia.water",
+        "global.10B.countries.libya.water",
+        "global.10B.countries.madagascar.water",
+        "global.10B.countries.malawi.water",
+        "global.10B.countries.mali.water",
+        "global.10B.countries.mauritania.water",
+        "global.10B.countries.mauritius.water",
+        "global.10B.countries.morocco.water",
+        "global.10B.countries.mozambique.water",
+        "global.10B.countries.namibia.water",
+        "global.10B.countries.niger.water",
+        "global.10B.countries.nigeria.water",
+        "global.10B.countries.rwanda.water",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.water",
+        "global.10B.countries.sao-tome-and-principe.water",
+        "global.10B.countries.senegal.water",
+        "global.10B.countries.seychelles.water",
+        "global.10B.countries.sierra-leone.water",
+        "global.10B.countries.somalia.water",
+        "global.10B.countries.south-africa.water",
+        "global.10B.countries.south-sudan.water",
+        "global.10B.countries.sudan.water",
+        "global.10B.countries.tanzania.water",
+        "global.10B.countries.togo.water",
+        "global.10B.countries.tunisia.water",
+        "global.10B.countries.uganda.water",
+        "global.10B.countries.zambia.water",
+        "global.10B.countries.zimbabwe.water"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Switzerland",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "The Center (Die Mitte, Alleanza del Centro, Le Centre, Allianza dal Center) (merger of the Christian Democratic People's Party and the Conservative Democratic Party)Evangelical Peoples' Party or EVP/PEV Federal Democrats or EDU Geneva Citizens Movement or MCR/MCG Green Liberal Party (Gruenliberale Partei or GLP, Parti vert liberale or PVL, Partito Verde-Liberale or PVL, Partida Verde Liberale or PVL) Green Party (Gruene Partei der Schweiz or Gruene, Parti Ecologiste Suisse or Les Verts, Partito Ecologista Svizzero or I Verdi, Partida Ecologica Svizra or La Verda)The Liberals or FDP.The Liberals (FDP.Die Liberalen, PLR.Les Liberaux-Radicaux, PLR.I Liberali, Ils Liberals)Social Democratic Party (Sozialdemokratische Partei der Schweiz or SP, Parti Socialiste Suisse or PSS, Partito Socialista Svizzero or PSS, Partida Socialdemocratica de la Svizra or PSS) Swiss People's Party (Schweizerische Volkspartei or SVP, Union Democratique du Centre or UDC, Unione Democratica di Centro or UDC, Uniun Democratica dal Center or UDC)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the publicly owned radio and TV broadcaster, Swiss Broadcasting Corporation (SRG/SSR), operates 8 national TV networks, 3 broadcasting in German, 3 in French, and 2 in Italian; private commercial TV stations broadcast regionally and locally; TV broadcasts from stations in Germany, Italy, and France are widely available via multi-channel cable and satellite TV services; SRG/SSR operates 17 radio stations that, along with private broadcasters, provide national to local coverage ) (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

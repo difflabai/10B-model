@@ -1,0 +1,84 @@
+{
+  "country": "Burundi",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.4781,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.1
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.475
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.1
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.711
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.392
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8802
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.551
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.47811,
+    0.84615,
+    0.1,
+    0.475,
+    0.15917,
+    0.08492,
+    -0.6719,
+    -0.18825,
+    0.75244,
+    -0.29525,
+    -0.95731,
+    -0.05812,
+    -0.6781,
+    0.33681,
+    -0.96857,
+    0.11897
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

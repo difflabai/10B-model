@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.education",
+        "global.10B.countries.ashmore-and-cartier-islands.education",
+        "global.10B.countries.bahrain.education",
+        "global.10B.countries.bangladesh.education",
+        "global.10B.countries.bhutan.education",
+        "global.10B.countries.brunei.education",
+        "global.10B.countries.burma.education",
+        "global.10B.countries.cambodia.education",
+        "global.10B.countries.china.education",
+        "global.10B.countries.christmas-island.education",
+        "global.10B.countries.cocos-keeling-islands.education",
+        "global.10B.countries.gaza-strip.education",
+        "global.10B.countries.hong-kong.education",
+        "global.10B.countries.india.education",
+        "global.10B.countries.indonesia.education",
+        "global.10B.countries.iran.education",
+        "global.10B.countries.iraq.education",
+        "global.10B.countries.israel.education",
+        "global.10B.countries.japan.education",
+        "global.10B.countries.jordan.education",
+        "global.10B.countries.korea-north.education",
+        "global.10B.countries.korea-south.education",
+        "global.10B.countries.kuwait.education",
+        "global.10B.countries.kyrgyzstan.education",
+        "global.10B.countries.laos.education",
+        "global.10B.countries.lebanon.education",
+        "global.10B.countries.macau.education",
+        "global.10B.countries.malaysia.education",
+        "global.10B.countries.maldives.education",
+        "global.10B.countries.mongolia.education",
+        "global.10B.countries.nepal.education",
+        "global.10B.countries.oman.education",
+        "global.10B.countries.pakistan.education",
+        "global.10B.countries.paracel-islands.education",
+        "global.10B.countries.philippines.education",
+        "global.10B.countries.qatar.education",
+        "global.10B.countries.saudi-arabia.education",
+        "global.10B.countries.singapore.education",
+        "global.10B.countries.spratly-islands.education",
+        "global.10B.countries.sri-lanka.education",
+        "global.10B.countries.syria.education",
+        "global.10B.countries.taiwan.education",
+        "global.10B.countries.tajikistan.education",
+        "global.10B.countries.thailand.education",
+        "global.10B.countries.timor-leste.education",
+        "global.10B.countries.turkmenistan.education",
+        "global.10B.countries.united-arab-emirates.education",
+        "global.10B.countries.uzbekistan.education",
+        "global.10B.countries.vietnam.education",
+        "global.10B.countries.west-bank.education",
+        "global.10B.countries.yemen.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

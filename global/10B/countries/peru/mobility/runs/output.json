@@ -1,0 +1,72 @@
+{
+  "country": "Peru",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.5385,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5133
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.48
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7147
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4658
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7627
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3574
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6026
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.5385,
+    0.9,
+    0.5133,
+    0.48,
+    -0.66693,
+    0.96481,
+    -0.69131,
+    0.21093,
+    0.25518,
+    0.38576,
+    -0.85504,
+    -0.2838,
+    -0.86404,
+    -0.69888,
+    0.11141,
+    0.13716
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

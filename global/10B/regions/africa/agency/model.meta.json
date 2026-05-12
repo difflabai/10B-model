@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.agency",
+  "name": "Africa — Agency and self-determination",
+  "kind": "sector_economic",
+  "blurb": "Region-level agency and self-determination for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country agency models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "agency-country-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "agency-region-mean",
+      "kind": "scalar",
+      "description": "Mean agency score across the region."
+    },
+    {
+      "name": "agency-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Agency and self-determination"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.agency",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

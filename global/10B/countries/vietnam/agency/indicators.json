@@ -1,0 +1,39 @@
+{
+  "country": "Vietnam",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Communist Party of Vietnam or CPV",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "78% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government controls all broadcast media exercising oversight through the Ministry of Information and Communication (MIC); government-controlled national TV provider, Vietnam Television (VTV), operates a network of several channels with regional broadcasting centers; programming is relayed nationwide via a network of provincial and municipal TV stations; law limits access to satellite TV but many households are able to access foreign programming via home satellite equipment; government-controlled Voice of Vietnam, the national radio broadcaster, broadcasts on several channels and is repeated on AM, FM, and shortwave stations throughout Vietnam (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

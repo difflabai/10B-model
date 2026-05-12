@@ -1,0 +1,56 @@
+{
+  "country": "New Zealand",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6617,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.65
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6733
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66167,
+    0.33333,
+    0.65,
+    0.6733,
+    -0.81894,
+    0.07417,
+    -0.7449,
+    -0.00133,
+    -0.27538,
+    -0.24941,
+    0.21941,
+    0.33104,
+    0.03072,
+    -0.97647,
+    0.61294,
+    -0.68978
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

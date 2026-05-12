@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.jan-mayen",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Jan Mayen"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.jan-mayen.food",
+        "global.10B.countries.jan-mayen.water",
+        "global.10B.countries.jan-mayen.shelter",
+        "global.10B.countries.jan-mayen.health",
+        "global.10B.countries.jan-mayen.safety",
+        "global.10B.countries.jan-mayen.education",
+        "global.10B.countries.jan-mayen.work",
+        "global.10B.countries.jan-mayen.energy",
+        "global.10B.countries.jan-mayen.mobility",
+        "global.10B.countries.jan-mayen.communications",
+        "global.10B.countries.jan-mayen.governance",
+        "global.10B.countries.jan-mayen.environment",
+        "global.10B.countries.jan-mayen.belonging",
+        "global.10B.countries.jan-mayen.meaning",
+        "global.10B.countries.jan-mayen.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.food",
+  "name": "Africa — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "Region-level food and nutrition for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country food models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-region-mean",
+      "kind": "scalar",
+      "description": "Mean food score across the region."
+    },
+    {
+      "name": "food-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.food",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "country": "georgia",
+  "category_scores": {
+    "agency": 0.7805,
+    "belonging": 0.6944,
+    "communications": 0.7329,
+    "education": 0.7805,
+    "energy": 0.6437,
+    "environment": 0.5333,
+    "food": 0.7182,
+    "governance": 0.7286,
+    "health": 0.6208,
+    "meaning": 0.69,
+    "mobility": 0.4735,
+    "safety": 0.6122,
+    "shelter": 0.6547,
+    "water": 0.65,
+    "work": 0.7342
+  },
+  "country_score": 0.6698,
+  "tier_scores": {
+    "subsistence": 0.6512,
+    "development": 0.673,
+    "agency": 0.6854
+  },
+  "country_embedding": [
+    0.66984,
+    0.82103,
+    0.73593,
+    0.60691,
+    -0.24099,
+    0.33052,
+    0.10062,
+    0.10785,
+    -0.07853,
+    -0.13538,
+    0.15335,
+    0.20526,
+    0.23371,
+    0.21858,
+    0.21325,
+    0.05374
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Georgia, the three needs areas with the largest gaps are: mobility (0.47), environment (0.53), safety (0.61).\nThe three strongest areas are: education (0.78), agency (0.78), work (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

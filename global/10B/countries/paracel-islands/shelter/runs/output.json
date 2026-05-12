@@ -1,0 +1,52 @@
+{
+  "country": "Paracel Islands",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.6,
+    0.75,
+    0.55,
+    0.33361,
+    -0.01164,
+    0.25975,
+    -0.67697,
+    -0.38622,
+    0.18505,
+    -0.34908,
+    0.92291,
+    0.03157,
+    0.4222,
+    -0.91678,
+    -0.17552
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

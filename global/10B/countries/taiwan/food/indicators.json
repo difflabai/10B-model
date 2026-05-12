@@ -1,0 +1,34 @@
+{
+  "country": "Taiwan",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "rice, vegetables, pork, chicken, cabbages, milk, sugarcane, tropical fruits, pineapples, eggs (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "22.7% (2018 est.)agricultural land: arable land: 16.9% (2018 est.)agricultural land: permanent crops: 5.8% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "1.8% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "23,595,274",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

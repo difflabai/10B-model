@@ -1,0 +1,39 @@
+{
+  "country": "Algeria",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Algerian People's National Army (ANP): Land Forces, Naval Forces (includes Coast Guard), Air Forces, Territorial Air Defense Forces, Republican Guard (under ANP but responsible to the President), National GendarmerieMinistry of Interior: General Directorate of National Security (national police) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "9% of GDP (2023 est.)4.8% of GDP (2022 est.)5.6% of GDP (2021 est.)6.7% of GDP (2020 est.)6% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "more than 100,000 (Sahrawi, mostly living in Algerian-sponsored camps in the southwestern Algerian town of Tindouf); 7,345 (Syria) (mid-year 2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

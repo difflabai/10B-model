@@ -1,0 +1,34 @@
+{
+  "country": "Slovakia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "54% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "441,000 BRATISLAVA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout most of the country; slightly larger concentration in the west in proximity to the Czech border",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; cool summers; cold, cloudy, humid winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; cool summers; cold, cloudy, humid winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

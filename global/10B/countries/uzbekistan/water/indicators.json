@@ -1,0 +1,39 @@
+{
+  "country": "Uzbekistan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Syr Darya (shared with Kyrgyzstan [s], Tajikistan, and Kazakhstan [m]) - 3,078 km; Amu Darya river mouth (shared with Tajikistan [s], Afghanistan, and Turkmenistan) - 2,620 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Internal (endorheic basin) drainage: (Aral Sea basin) Amu Darya (534,739 sq km), Syr Darya (782,617 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

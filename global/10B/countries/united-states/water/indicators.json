@@ -1,0 +1,39 @@
+{
+  "country": "United States",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Missouri - 3,768 km; Mississippi - 3,544 km; Yukon river mouth (shared with Canada [s]) - 3,190 km; Saint Lawrence (shared with Canada) - 3,058 km; Rio Grande river source ( mouth shared with Mexico) - 3,057 km; Colorado river source (shared with Mexico [m]) - 2,333 km; Arkansas - 2,348 km; Columbia river mouth (shared with Canada [s]) - 2,250 km; Red - 2,188 km; Ohio - 2,102 km; Snake - 1,670 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Great Salt – 4,360 sq km; Pontchartrain – 1,620 sq km;  Selawik – 1,400 sq km; Salton Sea – 950 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Gulf of America) Mississippi* (3,202,185 sq km); Rio Grande (607,965 sq km); (Gulf of Saint Lawrence) Saint Lawrence* (1,049,636 sq km total, US only 505,000 sq km)Pacific Ocean drainage: Yukon* (847,620 sq km, US only 23,820 sq km); Colorado (703,148 sq km); Columbia* (657,501 sq km, US only 554,501 sq km)note - watersheds shared with Canada shown with *",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

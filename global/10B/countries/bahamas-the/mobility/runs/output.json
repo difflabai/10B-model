@@ -1,0 +1,72 @@
+{
+  "country": "Bahamas, The",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4465,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2104
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2172
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.575
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5053
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5012
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.5667
+    }
+  ],
+  "embedding": [
+    0.44654,
+    0.7,
+    0.2104,
+    0.2172,
+    -0.45318,
+    0.56277,
+    0.5989,
+    0.95712,
+    0.77655,
+    -0.95215,
+    0.86276,
+    0.87893,
+    -0.39461,
+    0.03783,
+    -0.83841,
+    -0.90716
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

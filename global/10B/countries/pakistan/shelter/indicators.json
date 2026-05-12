@@ -1,0 +1,34 @@
+{
+  "country": "Pakistan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "38% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "17.236 million Karachi, 13.979 million Lahore, 3.711 million Faisalabad, 2.415 million Gujranwala, 2.412 million Peshawar, 1.232 million ISLAMABAD (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the Indus River and its tributaries attract most of the settlement, with Punjab province the most densely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly hot, dry desert; temperate in northwest; arctic in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly hot, dry desert; temperate in northwest; arctic in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

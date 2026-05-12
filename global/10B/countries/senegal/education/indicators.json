@@ -1,0 +1,34 @@
+{
+  "country": "Senegal",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "56.3%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "9 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "French (official), Wolof, Pulaar, Jola, Mandinka, Serer, Soninke",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

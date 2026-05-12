@@ -1,0 +1,39 @@
+{
+  "country": "Portugal",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Alliance or AD (2024 electoral alliance in the Azores, includes PSD, CDS-PP, PPM)Democratic and Social Center/People's Party (Partido do Centro Democratico Social-Partido Popular) or CDS-PPEcologist Party \"The Greens\" or \"Os Verdes\" (Partido Ecologista-Os Verdes) or PEVEnough (Chega)Liberal Initiative (Iniciativa Liberal) or ILLIVRE or LPeople-Animals-Nature Party (Pessoas-Animais-Natureza) or PANPeople's Monarchist Party or PPMPortuguese Communist Party (Partido Comunista Portugues) or PCPSocial Democratic Party (Partido Social Democrata) or PSD (formerly the Partido Popular Democratico or PPD)Socialist Party (Partido Socialista) or PSThe Left Bloc (Bloco de Esquerda) or BE or O BlocoUnitary Democratic Coalition (Coligacao Democratica Unitaria) or CDU (includes PCP and PEV) (2024)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "86% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Radio e Televisao de Portugal, the publicly owned TV broadcaster, operates 4 domestic channels and external service channels to Africa; overall, roughly 40 domestic TV stations; viewers have widespread access to international broadcasters with more than half of all households connected to multi-channel cable or satellite TV systems; publicly owned radio operates 3 national networks and provides regional and external services; several privately owned national radio stations and some 300 regional and local commercial radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

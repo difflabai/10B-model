@@ -1,0 +1,64 @@
+{
+  "country": "Sierra Leone",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "98 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "8.23 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "0 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "30% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2021 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "0 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "the telecom sector has only gradually recovered from the destruction caused during the war years, and only since 2019 has there been an effective terrestrial fiber backbone infrastructure, while the cable link to neighboring Guinea was not completed until February 2020; there is considerable available capacity from the ACE submarine cable and the national fiber network, but this is used inefficiently and so the price of internet connectivity remains one of the highest in the region; the theft of equipment and cabling, compounded by neglect, mismanagement, and under investment, means that telecommunications companies continue to operate in difficult conditions; the telecom regulator has made efforts to improve the market, including the liberalization of the international gateway and regular checks on QoS; the regulator reduced the price floor for mobile voice calls in early 2020, though consumers objected to the MNOs withdrawing a number of cheap packages as a response; the mobile sector has been the main driver of overall telecom revenue (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 0 per 100 and mobile-cellular just over 98 per 100 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 232; landing point for the ACE submarine cable linking to South Africa, over 20 western African countries and Europe; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 government-owned TV station; 3 private TV stations; a pay-TV service began operations in late 2007; 1 government-owned national radio station; about two-dozen private radio stations primarily clustered in major cities; transmissions of several international broadcasters are available  (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

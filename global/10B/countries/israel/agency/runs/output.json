@@ -1,0 +1,56 @@
+{
+  "country": "Israel",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8732,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.896
+    }
+  ],
+  "embedding": [
+    0.8732,
+    0.83333,
+    0.85,
+    0.85,
+    -0.37246,
+    0.05995,
+    0.31044,
+    0.00401,
+    -0.73785,
+    0.53249,
+    0.549,
+    -0.39095,
+    -0.73199,
+    0.40154,
+    -0.01833,
+    -0.89175
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

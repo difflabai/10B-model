@@ -1,0 +1,52 @@
+{
+  "country": "Georgia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7805,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9652
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.78054,
+    1.0,
+    0.9652,
+    0.5625,
+    -0.83239,
+    0.39471,
+    0.28469,
+    0.09654,
+    0.16533,
+    -0.7341,
+    0.18724,
+    -0.08882,
+    0.87689,
+    0.1277,
+    0.19783,
+    0.87274
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

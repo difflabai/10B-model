@@ -1,0 +1,44 @@
+{
+  "country": "Cambodia",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "illegal logging activities throughout the country and strip mining for gems in the western region along the border with Thailand have resulted in habitat loss and declining biodiversity (in particular, destruction of mangrove swamps threatens natural fisheries); soil erosion; in rural areas, most of the population does not have access to potable water; declining fish stocks because of illegal fishing and overfishing; coastal ecosystems choked by sediment washed loose from deforested areas inland",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "17.8 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "9.92 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "14.88 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "56.5% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "1.089 million tons (2014 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

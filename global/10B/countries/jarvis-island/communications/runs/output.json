@@ -1,0 +1,76 @@
+{
+  "country": "Jarvis Island",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 11,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3973,
+    -0.05901,
+    -0.86615,
+    0.02602,
+    -0.34215,
+    0.65045,
+    -0.68573,
+    -0.6741,
+    -0.21804,
+    0.32772,
+    -0.77499,
+    0.94177
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Burma",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6137,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8395
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.354
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6137,
+    1.0,
+    0.8395,
+    0.354,
+    0.90851,
+    0.49935,
+    0.05171,
+    0.44976,
+    0.49126,
+    -0.65768,
+    -0.22206,
+    -0.24031,
+    0.66607,
+    0.02251,
+    -0.86462,
+    -0.48836
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

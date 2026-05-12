@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.greenland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Greenland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.greenland.food",
+        "global.10B.countries.greenland.water",
+        "global.10B.countries.greenland.shelter",
+        "global.10B.countries.greenland.health",
+        "global.10B.countries.greenland.safety",
+        "global.10B.countries.greenland.education",
+        "global.10B.countries.greenland.work",
+        "global.10B.countries.greenland.energy",
+        "global.10B.countries.greenland.mobility",
+        "global.10B.countries.greenland.communications",
+        "global.10B.countries.greenland.governance",
+        "global.10B.countries.greenland.environment",
+        "global.10B.countries.greenland.belonging",
+        "global.10B.countries.greenland.meaning",
+        "global.10B.countries.greenland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

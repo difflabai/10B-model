@@ -1,0 +1,56 @@
+{
+  "country": "Andorra",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7512,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.94
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.466
+    }
+  ],
+  "embedding": [
+    0.7512,
+    0.83333,
+    0.85,
+    0.75,
+    -0.34563,
+    -0.98834,
+    -0.84414,
+    -0.9679,
+    -0.11153,
+    -0.84781,
+    -0.95926,
+    0.13106,
+    0.62884,
+    -0.09712,
+    0.49834,
+    -0.08998
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

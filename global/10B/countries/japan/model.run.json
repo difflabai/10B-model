@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.japan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Japan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.japan.food",
+        "global.10B.countries.japan.water",
+        "global.10B.countries.japan.shelter",
+        "global.10B.countries.japan.health",
+        "global.10B.countries.japan.safety",
+        "global.10B.countries.japan.education",
+        "global.10B.countries.japan.work",
+        "global.10B.countries.japan.energy",
+        "global.10B.countries.japan.mobility",
+        "global.10B.countries.japan.communications",
+        "global.10B.countries.japan.governance",
+        "global.10B.countries.japan.environment",
+        "global.10B.countries.japan.belonging",
+        "global.10B.countries.japan.meaning",
+        "global.10B.countries.japan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

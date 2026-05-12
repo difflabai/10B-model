@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.luxembourg",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Luxembourg"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.luxembourg.food",
+        "global.10B.countries.luxembourg.water",
+        "global.10B.countries.luxembourg.shelter",
+        "global.10B.countries.luxembourg.health",
+        "global.10B.countries.luxembourg.safety",
+        "global.10B.countries.luxembourg.education",
+        "global.10B.countries.luxembourg.work",
+        "global.10B.countries.luxembourg.energy",
+        "global.10B.countries.luxembourg.mobility",
+        "global.10B.countries.luxembourg.communications",
+        "global.10B.countries.luxembourg.governance",
+        "global.10B.countries.luxembourg.environment",
+        "global.10B.countries.luxembourg.belonging",
+        "global.10B.countries.luxembourg.meaning",
+        "global.10B.countries.luxembourg.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

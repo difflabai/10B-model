@@ -1,0 +1,72 @@
+{
+  "country": "Costa Rica",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.45,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2247
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7064
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4921
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5602
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2609
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5058
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.45002,
+    0.8,
+    0.2247,
+    0.7064,
+    -0.217,
+    0.20961,
+    -0.95297,
+    -0.85412,
+    0.43264,
+    0.33373,
+    -0.52947,
+    0.38759,
+    0.98492,
+    0.61358,
+    0.28151,
+    -0.74588
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

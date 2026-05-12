@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.communications",
+        "global.10B.countries.antigua-and-barbuda.communications",
+        "global.10B.countries.argentina.communications",
+        "global.10B.countries.aruba.communications",
+        "global.10B.countries.bahamas-the.communications",
+        "global.10B.countries.barbados.communications",
+        "global.10B.countries.belize.communications",
+        "global.10B.countries.bermuda.communications",
+        "global.10B.countries.bolivia.communications",
+        "global.10B.countries.brazil.communications",
+        "global.10B.countries.british-virgin-islands.communications",
+        "global.10B.countries.cayman-islands.communications",
+        "global.10B.countries.cuba.communications",
+        "global.10B.countries.curacao.communications",
+        "global.10B.countries.dominica.communications",
+        "global.10B.countries.dominican-republic.communications",
+        "global.10B.countries.falkland-islands-islas-malvinas.communications",
+        "global.10B.countries.grenada.communications",
+        "global.10B.countries.guyana.communications",
+        "global.10B.countries.haiti.communications",
+        "global.10B.countries.jamaica.communications",
+        "global.10B.countries.montserrat.communications",
+        "global.10B.countries.navassa-island.communications",
+        "global.10B.countries.paraguay.communications",
+        "global.10B.countries.puerto-rico.communications",
+        "global.10B.countries.saint-barthelemy.communications",
+        "global.10B.countries.saint-kitts-and-nevis.communications",
+        "global.10B.countries.saint-lucia.communications",
+        "global.10B.countries.saint-martin.communications",
+        "global.10B.countries.saint-pierre-and-miquelon.communications",
+        "global.10B.countries.saint-vincent-and-the-grenadines.communications",
+        "global.10B.countries.sint-maarten.communications",
+        "global.10B.countries.suriname.communications",
+        "global.10B.countries.trinidad-and-tobago.communications",
+        "global.10B.countries.turks-and-caicos-islands.communications",
+        "global.10B.countries.uruguay.communications",
+        "global.10B.countries.venezuela.communications",
+        "global.10B.countries.virgin-islands.communications"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

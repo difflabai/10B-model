@@ -1,0 +1,92 @@
+{
+  "country": "Sierra Leone",
+  "category": "health",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 12,
+  "indicators_total": 15,
+  "composite_score": 0.4472,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Life expectancy at birth - total population",
+      "score": 0.3567
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - male",
+      "score": 0.33
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - female",
+      "score": 0.3833
+    },
+    {
+      "field": "People and Society: Infant mortality rate - total",
+      "score": 0.1752
+    },
+    {
+      "field": "People and Society: Infant mortality rate - male",
+      "score": 0.156
+    },
+    {
+      "field": "People and Society: Infant mortality rate - female",
+      "score": 0.1952
+    },
+    {
+      "field": "People and Society: Maternal mortality ratio",
+      "score": 0.219
+    },
+    {
+      "field": "People and Society: Physicians density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Hospital bed density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major infectious diseases - degree of risk",
+      "score": null
+    },
+    {
+      "field": "People and Society: Obesity - adult prevalence rate",
+      "score": 0.863
+    },
+    {
+      "field": "People and Society: Tobacco use - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Children under the age of 5 years underweight",
+      "score": 0.59
+    },
+    {
+      "field": "People and Society: Currently married women (ages 15-49)",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Current health expenditure",
+      "score": 0.8225
+    }
+  ],
+  "embedding": [
+    0.44716,
+    0.8,
+    0.3567,
+    0.33,
+    -0.04451,
+    -0.04729,
+    0.03435,
+    0.78289,
+    0.18047,
+    0.95758,
+    -0.06685,
+    -0.4612,
+    0.4522,
+    0.40935,
+    -0.52883,
+    -0.20015
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

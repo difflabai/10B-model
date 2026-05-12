@@ -1,0 +1,44 @@
+{
+  "country": "Guam",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law modeled on US system; US federal laws apply",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "effective 1 July 1950 (Guam Act of 1950 serves as a constitution)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - Guamanians are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph R. BIDEN Jr. (since 20 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AOSIS (observer), IOC, PIF (observer), SPC, UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

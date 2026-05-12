@@ -1,0 +1,47 @@
+{
+  "country": "nigeria",
+  "category_scores": {
+    "agency": 0.61,
+    "belonging": 0.6787,
+    "communications": 0.7186,
+    "education": 0.4578,
+    "energy": 0.4816,
+    "environment": 0.4398,
+    "food": 0.6372,
+    "governance": 0.7286,
+    "health": 0.4355,
+    "meaning": 0.61,
+    "mobility": 0.5583,
+    "safety": 0.5811,
+    "shelter": 0.6994,
+    "water": 0.65,
+    "work": 0.5688
+  },
+  "country_score": 0.5904,
+  "tier_scores": {
+    "subsistence": 0.6006,
+    "development": 0.557,
+    "agency": 0.6134
+  },
+  "country_embedding": [
+    0.59036,
+    0.84752,
+    0.62979,
+    0.62429,
+    -0.26114,
+    -0.20611,
+    -0.19195,
+    -0.08061,
+    0.06666,
+    -0.27201,
+    0.29679,
+    0.03964,
+    0.08627,
+    -0.09747,
+    0.0657,
+    -0.05634
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Nigeria, the three needs areas with the largest gaps are: health (0.44), environment (0.44), education (0.46).\nThe three strongest areas are: governance (0.73), communications (0.72), shelter (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

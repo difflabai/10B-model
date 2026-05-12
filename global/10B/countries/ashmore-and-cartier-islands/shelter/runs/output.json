@@ -1,0 +1,52 @@
+{
+  "country": "Ashmore and Cartier Islands",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.4,
+    0.55,
+    0.0,
+    -0.93573,
+    0.52685,
+    -0.34969,
+    0.49508,
+    0.25255,
+    -0.09419,
+    -0.62167,
+    0.58685,
+    -0.65914,
+    -0.93902,
+    -0.95898,
+    -0.93582
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

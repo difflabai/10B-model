@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.energy",
+        "global.10B.countries.australia.energy",
+        "global.10B.countries.baker-island.energy",
+        "global.10B.countries.chile.energy",
+        "global.10B.countries.clipperton-island.energy",
+        "global.10B.countries.colombia.energy",
+        "global.10B.countries.cook-islands.energy",
+        "global.10B.countries.coral-sea-islands.energy",
+        "global.10B.countries.costa-rica.energy",
+        "global.10B.countries.ecuador.energy",
+        "global.10B.countries.el-salvador.energy",
+        "global.10B.countries.fiji.energy",
+        "global.10B.countries.french-polynesia.energy",
+        "global.10B.countries.guam.energy",
+        "global.10B.countries.guatemala.energy",
+        "global.10B.countries.honduras.energy",
+        "global.10B.countries.howland-island.energy",
+        "global.10B.countries.jarvis-island.energy",
+        "global.10B.countries.johnston-atoll.energy",
+        "global.10B.countries.kingman-reef.energy",
+        "global.10B.countries.kiribati.energy",
+        "global.10B.countries.marshall-islands.energy",
+        "global.10B.countries.mexico.energy",
+        "global.10B.countries.micronesia-federated-states-of.energy",
+        "global.10B.countries.midway-islands.energy",
+        "global.10B.countries.nauru.energy",
+        "global.10B.countries.new-caledonia.energy",
+        "global.10B.countries.new-zealand.energy",
+        "global.10B.countries.nicaragua.energy",
+        "global.10B.countries.niue.energy",
+        "global.10B.countries.norfolk-island.energy",
+        "global.10B.countries.northern-mariana-islands.energy",
+        "global.10B.countries.palau.energy",
+        "global.10B.countries.palmyra-atoll.energy",
+        "global.10B.countries.panama.energy",
+        "global.10B.countries.papua-new-guinea.energy",
+        "global.10B.countries.peru.energy",
+        "global.10B.countries.pitcairn-islands.energy",
+        "global.10B.countries.samoa.energy",
+        "global.10B.countries.solomon-islands.energy",
+        "global.10B.countries.tokelau.energy",
+        "global.10B.countries.tonga.energy",
+        "global.10B.countries.tuvalu.energy",
+        "global.10B.countries.united-states.energy",
+        "global.10B.countries.vanuatu.energy",
+        "global.10B.countries.wake-island.energy",
+        "global.10B.countries.wallis-and-futuna.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

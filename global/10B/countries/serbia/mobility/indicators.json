@@ -1,0 +1,59 @@
+{
+  "country": "Serbia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "45,022 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "43 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "8 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,936 km gas, 413 km oil",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "587 km (2009) (primarily on the Danube and Sava Rivers)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,333 km (2020) 1,274 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "2,262,703 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "17.71 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

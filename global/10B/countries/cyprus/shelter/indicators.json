@@ -1,0 +1,34 @@
+{
+  "country": "Cyprus",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "67% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "269,000 NICOSIA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in central Nicosia and in the major cities of the south: Paphos, Limassol, and Larnaca",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; Mediterranean with hot, dry summers and cool winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; Mediterranean with hot, dry summers and cool winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

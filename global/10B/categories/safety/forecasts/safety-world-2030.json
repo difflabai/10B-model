@@ -1,0 +1,36 @@
+{
+  "id": "safety-world-2030",
+  "label": "Safety and protection from violence world mean by 2030-12-31",
+  "task_family": "needs.world.category",
+  "tags": [
+    "10B",
+    "safety",
+    "world-mean",
+    "2030"
+  ],
+  "prompt": "What will the population-weighted world-mean satisfaction score for the safety and protection from violence category be on 2030-12-31, computed by the global.10B.categories.safety rollup? Score is in [0,1] where 1 = full satisfaction across all countries.",
+  "resolution_criteria": "Resolves to the value of `world_mean` in global/10B/categories/safety/runs/output.json on 2030-12-31.",
+  "expected_resolution_at": "2030-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": "2026-05-15T00:00:00Z",
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "numeric",
+    "unit": "score [0,1]",
+    "min": "0.0",
+    "max": "1.0",
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": [
+      "global.10B.categories.safety.run"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [],
+  "history": [],
+  "status": "pending"
+}

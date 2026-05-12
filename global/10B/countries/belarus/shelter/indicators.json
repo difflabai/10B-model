@@ -1,0 +1,34 @@
+{
+  "country": "Belarus",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "80.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.057 million MINSK (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "cold winters, cool and moist summers; transitional between continental and maritime",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "cold winters, cool and moist summers; transitional between continental and maritime",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

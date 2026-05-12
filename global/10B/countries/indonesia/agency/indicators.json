@@ -1,0 +1,39 @@
+{
+  "country": "Indonesia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal; married persons regardless of age",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democrat Party or PD Functional Groups Party or GOLKAR Great Indonesia Movement Party or GERINDRA Indonesia Democratic Party-Struggle or PDI-P National Awakening Party or PKB National Democratic Party or NasDem National Mandate Party or PAN Prosperous Justice Party or PKS",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "69% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "mixture of about a dozen national TV networks - 1 public broadcaster, the remainder private broadcasters - each with multiple transmitters; more than 100 local TV stations; widespread use of satellite and cable TV systems; public radio broadcaster operates 6 national networks, as well as regional and local stations; overall, more than 700 radio stations with more than 650 privately operated (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

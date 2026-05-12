@@ -1,0 +1,47 @@
+{
+  "country": "philippines",
+  "category_scores": {
+    "agency": 0.775,
+    "belonging": 0.7442,
+    "communications": 0.677,
+    "education": 0.7451,
+    "energy": 0.5768,
+    "environment": 0.521,
+    "food": 0.7148,
+    "governance": 0.7286,
+    "health": 0.5489,
+    "meaning": 0.69,
+    "mobility": 0.5958,
+    "safety": 0.725,
+    "shelter": 0.6944,
+    "water": 0.6,
+    "work": 0.6969
+  },
+  "country_score": 0.6689,
+  "tier_scores": {
+    "subsistence": 0.6566,
+    "development": 0.6583,
+    "agency": 0.6918
+  },
+  "country_embedding": [
+    0.66891,
+    0.86154,
+    0.71155,
+    0.71405,
+    0.18349,
+    -0.21436,
+    -0.06583,
+    0.03456,
+    0.23508,
+    0.15811,
+    -0.11656,
+    0.06087,
+    -0.08749,
+    0.0482,
+    -0.17917,
+    0.06395
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Philippines, the three needs areas with the largest gaps are: environment (0.52), health (0.55), energy (0.58).\nThe three strongest areas are: agency (0.78), education (0.75), belonging (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

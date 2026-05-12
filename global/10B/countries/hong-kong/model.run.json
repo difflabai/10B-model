@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.hong-kong",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Hong Kong"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.hong-kong.food",
+        "global.10B.countries.hong-kong.water",
+        "global.10B.countries.hong-kong.shelter",
+        "global.10B.countries.hong-kong.health",
+        "global.10B.countries.hong-kong.safety",
+        "global.10B.countries.hong-kong.education",
+        "global.10B.countries.hong-kong.work",
+        "global.10B.countries.hong-kong.energy",
+        "global.10B.countries.hong-kong.mobility",
+        "global.10B.countries.hong-kong.communications",
+        "global.10B.countries.hong-kong.governance",
+        "global.10B.countries.hong-kong.environment",
+        "global.10B.countries.hong-kong.belonging",
+        "global.10B.countries.hong-kong.meaning",
+        "global.10B.countries.hong-kong.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

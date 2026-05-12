@@ -1,0 +1,52 @@
+{
+  "country": "Kiribati",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6773,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6593
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.67733,
+    1.0,
+    0.6593,
+    0.55,
+    -0.19158,
+    0.87555,
+    0.51516,
+    -0.46737,
+    0.33111,
+    -0.95254,
+    -0.74832,
+    -0.43789,
+    -0.95425,
+    0.80676,
+    -0.85046,
+    0.23317
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

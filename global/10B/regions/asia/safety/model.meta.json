@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.safety",
+  "name": "Asia — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "Region-level safety and protection from violence for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country safety models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-region-mean",
+      "kind": "scalar",
+      "description": "Mean safety score across the region."
+    },
+    {
+      "name": "safety-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.safety",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

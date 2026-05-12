@@ -1,0 +1,52 @@
+{
+  "country": "Saint Martin",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": null
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.2,
+    0.55,
+    0.0,
+    -0.77237,
+    -0.71734,
+    0.55517,
+    0.77459,
+    0.90561,
+    -0.98724,
+    -0.21038,
+    0.43154,
+    0.10683,
+    0.10014,
+    -0.91766,
+    -0.77691
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

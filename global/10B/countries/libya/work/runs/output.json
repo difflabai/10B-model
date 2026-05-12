@@ -1,0 +1,60 @@
+{
+  "country": "Libya",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6789,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.5875
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9192
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.2878
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.67889,
+    0.71429,
+    0.5875,
+    0.95,
+    -0.56435,
+    0.02788,
+    0.49902,
+    -0.23217,
+    -0.09422,
+    -0.76144,
+    -0.65823,
+    0.89596,
+    -0.3576,
+    -0.34737,
+    0.07372,
+    0.72882
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Ghana",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "All Peoples Congress or APC Convention People's Party or CPP Ghana Freedom Party or GFP Ghana Union Movement or GUM Great Consolidated Popular Party or GCPP Liberal Party of Ghana or LPG National Democratic Congress or NDC National Democratic Party or NDP New Patriotic Party or NPP People's National Convention or PNC Progressive People's Party or PPP United Front Party or UFP United Progressive Party or UPP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "70% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned TV station, 2 state-owned radio networks; several privately owned TV stations and a large number of privately owned radio stations; transmissions of multiple international broadcasters are accessible; several cable and satellite TV subscription services are obtainable",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.9% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Belize",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Belize People’s Front or BPFBelize Progressive Party or BPP (formed in 2015 from a merger of the People's National Party, elements of the Vision Inspired by the People, and other smaller political groups)People's United Party or PUPUnited Democratic Party or UDPVision Inspired by the People or VIP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "70% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "8 privately owned TV stations; multi-channel cable TV provides access to foreign stations; about 25 radio stations broadcasting on roughly 50 different frequencies; state-run radio was privatized in 1998 (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "8.7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

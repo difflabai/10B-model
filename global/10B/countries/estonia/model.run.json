@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.estonia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Estonia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.estonia.food",
+        "global.10B.countries.estonia.water",
+        "global.10B.countries.estonia.shelter",
+        "global.10B.countries.estonia.health",
+        "global.10B.countries.estonia.safety",
+        "global.10B.countries.estonia.education",
+        "global.10B.countries.estonia.work",
+        "global.10B.countries.estonia.energy",
+        "global.10B.countries.estonia.mobility",
+        "global.10B.countries.estonia.communications",
+        "global.10B.countries.estonia.governance",
+        "global.10B.countries.estonia.environment",
+        "global.10B.countries.estonia.belonging",
+        "global.10B.countries.estonia.meaning",
+        "global.10B.countries.estonia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

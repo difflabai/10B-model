@@ -1,0 +1,34 @@
+{
+  "country": "Paraguay",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "63.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.511 million ASUNCION (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population resides in the eastern half of the country; to the west lies the Gran Chaco (a semi-arid lowland plain), which accounts for 60% of the land territory, but only 2% of the overall population",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "subtropical to temperate; substantial rainfall in the eastern portions, becoming semiarid in the far west",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical to temperate; substantial rainfall in the eastern portions, becoming semiarid in the far west",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

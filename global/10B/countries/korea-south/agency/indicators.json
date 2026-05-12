@@ -1,0 +1,39 @@
+{
+  "country": "Korea, South",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - the voting age was lowered from 19 to 18 beginning with the 2020 national election",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Basic Income Party Democratic Party of Korea or DPK New Future PartyNew Reform Party Open Democratic Party or ODP People Power Party or PPP Progressive Party or Jinbo Party Rebuilding Korea Party Social Democratic Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple national TV networks with 2 of the 3 largest networks publicly operated; the largest privately owned network, Seoul Broadcasting Service (SBS), has ties with other commercial TV networks; cable and satellite TV subscription services available; publicly operated radio broadcast networks and many privately owned radio broadcasting networks, each with multiple affiliates, and independent local stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.7% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

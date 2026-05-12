@@ -1,0 +1,56 @@
+{
+  "country": "Romania",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.803,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.89
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.575
+    }
+  ],
+  "embedding": [
+    0.803,
+    0.83333,
+    0.85,
+    0.85,
+    0.7196,
+    0.97147,
+    0.92776,
+    0.19557,
+    -0.14012,
+    0.42538,
+    0.91189,
+    0.26604,
+    0.93939,
+    -0.50283,
+    -0.91678,
+    -0.76568
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

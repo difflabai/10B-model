@@ -1,0 +1,34 @@
+{
+  "country": "Nauru",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "extensive phosphate mining made approximately 90% of the island unsuitable for farming; most people live in the fertile coastal areas, especially along the southwest coast",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical with a monsoonal pattern; rainy season (November to February)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical with a monsoonal pattern; rainy season (November to February)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

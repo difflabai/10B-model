@@ -1,0 +1,60 @@
+{
+  "country": "Niue",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7083,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.75
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.70833,
+    0.85714,
+    0.8,
+    0.55,
+    -0.09059,
+    -0.81592,
+    -0.29491,
+    -0.45397,
+    -0.26467,
+    -0.58215,
+    -0.2116,
+    -0.43679,
+    -0.83145,
+    -0.62618,
+    -0.95288,
+    -0.30538
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

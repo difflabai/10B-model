@@ -1,0 +1,39 @@
+{
+  "country": "Burma",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Burmese Defense Service (aka Armed Forces of Burma, Myanmar Army, Royal Armed Forces, the Tatmadaw, or the Sit-Tat): Army (Tatmadaw Kyi), Navy (Tatmadaw Yay), Air Force (Tatmadaw Lay); People’s MilitiaMinistry of Home Affairs: Burma (People's) Police Force, Border Guard Forces/Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.9% of GDP (2023 est.)3.6% of GDP (2022 est.)3.5% of GDP (2021 est.)3% of GDP (2020 est.)4.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

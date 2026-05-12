@@ -1,0 +1,72 @@
+{
+  "country": "Australia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.8065,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.8125
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.9092
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.871
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6167
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.734
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8086
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.80649,
+    0.8,
+    0.8125,
+    0.9092,
+    0.57357,
+    0.77954,
+    0.0536,
+    0.37386,
+    -0.06825,
+    -0.05129,
+    -0.95685,
+    -0.62457,
+    -0.04652,
+    0.63409,
+    0.02174,
+    0.66067
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

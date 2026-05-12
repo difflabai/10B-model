@@ -1,0 +1,47 @@
+{
+  "country": "slovenia",
+  "category_scores": {
+    "agency": 0.8536,
+    "belonging": 0.6779,
+    "communications": 0.7168,
+    "education": 0.8469,
+    "energy": 0.6372,
+    "environment": 0.5791,
+    "food": 0.6336,
+    "governance": 0.7143,
+    "health": 0.8217,
+    "meaning": 0.67,
+    "mobility": 0.5007,
+    "safety": 0.6078,
+    "shelter": 0.6759,
+    "water": 0.7,
+    "work": 0.7564
+  },
+  "country_score": 0.6928,
+  "tier_scores": {
+    "subsistence": 0.6878,
+    "development": 0.6916,
+    "agency": 0.699
+  },
+  "country_embedding": [
+    0.69279,
+    0.84461,
+    0.74363,
+    0.67841,
+    -0.11677,
+    0.0107,
+    0.2783,
+    0.05468,
+    -0.05234,
+    -0.046,
+    0.0205,
+    0.01118,
+    -0.08044,
+    0.01335,
+    0.00279,
+    -0.19334
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Slovenia, the three needs areas with the largest gaps are: mobility (0.50), environment (0.58), safety (0.61).\nThe three strongest areas are: agency (0.85), education (0.85), health (0.82).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

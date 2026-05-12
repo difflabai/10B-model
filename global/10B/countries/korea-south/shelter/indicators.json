@@ -1,0 +1,34 @@
+{
+  "country": "Korea, South",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "81.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "9.988 million SEOUL (capital), 3.472 million Busan, 2.849 million Incheon, 2.181 million Daegu (Taegu), 1.577 million Daejon (Taejon), 1.529 million Gwangju (Kwangju) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "with approximately 70% of the country considered mountainous, the country's population is primarily concentrated in the lowland areas, where density is quite high; Gyeonggi Province in the northwest, which surrounds the capital of Seoul and contains the port of Incheon, is the most densely populated province; Gangwon in the northeast is the least populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate, with rainfall heavier in summer than winter; cold winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate, with rainfall heavier in summer than winter; cold winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

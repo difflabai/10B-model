@@ -1,0 +1,56 @@
+{
+  "country": "Albania",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7548,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.83
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.494
+    }
+  ],
+  "embedding": [
+    0.7548,
+    0.83333,
+    0.85,
+    0.75,
+    0.28606,
+    -0.60812,
+    -0.75012,
+    -0.41039,
+    0.3236,
+    -0.10942,
+    0.65658,
+    0.7467,
+    -0.18581,
+    -0.07024,
+    0.57049,
+    0.89047
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Tanzania",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Change and Transparency (Wazalendo) or ACT-WazalendoCivic United Front (Chama Cha Wananchi) or CUFParty of Democracy and Development (Chama Cha Demokrasia na Maendeleo) or CHADEMARevolutionary Party of Tanzania (Chama Cha Mapinduzi) or CCM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "32% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "according to statistics from the Tanzania Communications Regulatory Authority (TCRA), Tanzania had 45 television stations as of 2020; 13 of those stations provided national content services (commercially broadcasting free-to-air television); there are 196 radio stations, most operating at the district level, but also including 5 independent nationally broadcasting stations and 1 state-owned national radio station; international broadcasting is available through satellite television which is becoming increasingly widespread; there are 3 major satellite TV providers (2020)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.3% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

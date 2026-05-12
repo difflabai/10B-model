@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.education",
+  "name": "Africa — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "Region-level education and learning for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country education models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-region-mean",
+      "kind": "scalar",
+      "description": "Mean education score across the region."
+    },
+    {
+      "name": "education-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.education",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

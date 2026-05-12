@@ -1,0 +1,2607 @@
+{
+  "country_count": 257,
+  "category_count": 15,
+  "world_mean_country_score": 0.6336,
+  "macro_embedding": [
+    0.59696,
+    0.70647,
+    0.62274,
+    0.55298,
+    -0.01084,
+    0.00633,
+    -0.00877,
+    4e-05,
+    -0.01016,
+    -0.0038,
+    -0.00701,
+    0.00656,
+    0.0047,
+    0.01177,
+    -0.00191,
+    -0.01039
+  ],
+  "embedding_dim": 16,
+  "country_summary_table": [
+    {
+      "country": "afghanistan",
+      "country_score": 0.5855,
+      "tier_scores": {
+        "subsistence": 0.5625,
+        "development": 0.5827,
+        "agency": 0.6114
+      }
+    },
+    {
+      "country": "akrotiri",
+      "country_score": null,
+      "tier_scores": {
+        "subsistence": null,
+        "development": null,
+        "agency": null
+      }
+    },
+    {
+      "country": "albania",
+      "country_score": 0.6551,
+      "tier_scores": {
+        "subsistence": 0.6679,
+        "development": 0.6225,
+        "agency": 0.6749
+      }
+    },
+    {
+      "country": "algeria",
+      "country_score": 0.6506,
+      "tier_scores": {
+        "subsistence": 0.6268,
+        "development": 0.6482,
+        "agency": 0.6767
+      }
+    },
+    {
+      "country": "american-samoa",
+      "country_score": 0.6135,
+      "tier_scores": {
+        "subsistence": 0.6774,
+        "development": 0.5372,
+        "agency": 0.6387
+      }
+    },
+    {
+      "country": "andorra",
+      "country_score": 0.6799,
+      "tier_scores": {
+        "subsistence": 0.677,
+        "development": 0.6996,
+        "agency": 0.663
+      }
+    },
+    {
+      "country": "angola",
+      "country_score": 0.6076,
+      "tier_scores": {
+        "subsistence": 0.6324,
+        "development": 0.5514,
+        "agency": 0.639
+      }
+    },
+    {
+      "country": "anguilla",
+      "country_score": 0.6809,
+      "tier_scores": {
+        "subsistence": 0.6778,
+        "development": 0.6985,
+        "agency": 0.6658
+      }
+    },
+    {
+      "country": "antarctica",
+      "country_score": 0.6238,
+      "tier_scores": {
+        "subsistence": 0.6333,
+        "development": 0.5847,
+        "agency": 0.6533
+      }
+    },
+    {
+      "country": "antigua-and-barbuda",
+      "country_score": 0.6503,
+      "tier_scores": {
+        "subsistence": 0.6678,
+        "development": 0.6126,
+        "agency": 0.6705
+      }
+    },
+    {
+      "country": "argentina",
+      "country_score": 0.6774,
+      "tier_scores": {
+        "subsistence": 0.6822,
+        "development": 0.6545,
+        "agency": 0.6954
+      }
+    },
+    {
+      "country": "armenia",
+      "country_score": 0.6388,
+      "tier_scores": {
+        "subsistence": 0.6426,
+        "development": 0.6412,
+        "agency": 0.6327
+      }
+    },
+    {
+      "country": "aruba",
+      "country_score": 0.6421,
+      "tier_scores": {
+        "subsistence": 0.6228,
+        "development": 0.635,
+        "agency": 0.6685
+      }
+    },
+    {
+      "country": "ashmore-and-cartier-islands",
+      "country_score": 0.505,
+      "tier_scores": {
+        "subsistence": 0.4917,
+        "development": null,
+        "agency": 0.525
+      }
+    },
+    {
+      "country": "australia",
+      "country_score": 0.7274,
+      "tier_scores": {
+        "subsistence": 0.7139,
+        "development": 0.7478,
+        "agency": 0.7203
+      }
+    },
+    {
+      "country": "austria",
+      "country_score": 0.6963,
+      "tier_scores": {
+        "subsistence": 0.6993,
+        "development": 0.6861,
+        "agency": 0.7036
+      }
+    },
+    {
+      "country": "azerbaijan",
+      "country_score": 0.6411,
+      "tier_scores": {
+        "subsistence": 0.6475,
+        "development": 0.624,
+        "agency": 0.6518
+      }
+    },
+    {
+      "country": "bahamas-the",
+      "country_score": 0.6242,
+      "tier_scores": {
+        "subsistence": 0.6158,
+        "development": 0.5868,
+        "agency": 0.6701
+      }
+    },
+    {
+      "country": "bahrain",
+      "country_score": 0.6358,
+      "tier_scores": {
+        "subsistence": 0.6386,
+        "development": 0.6337,
+        "agency": 0.6352
+      }
+    },
+    {
+      "country": "baker-island",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "bangladesh",
+      "country_score": 0.6286,
+      "tier_scores": {
+        "subsistence": 0.622,
+        "development": 0.6233,
+        "agency": 0.6405
+      }
+    },
+    {
+      "country": "barbados",
+      "country_score": 0.6514,
+      "tier_scores": {
+        "subsistence": 0.6596,
+        "development": 0.6212,
+        "agency": 0.6734
+      }
+    },
+    {
+      "country": "belarus",
+      "country_score": 0.6789,
+      "tier_scores": {
+        "subsistence": 0.6758,
+        "development": 0.6763,
+        "agency": 0.6845
+      }
+    },
+    {
+      "country": "belgium",
+      "country_score": 0.7018,
+      "tier_scores": {
+        "subsistence": 0.6825,
+        "development": 0.719,
+        "agency": 0.7038
+      }
+    },
+    {
+      "country": "belize",
+      "country_score": 0.6566,
+      "tier_scores": {
+        "subsistence": 0.6309,
+        "development": 0.6341,
+        "agency": 0.7047
+      }
+    },
+    {
+      "country": "benin",
+      "country_score": 0.6053,
+      "tier_scores": {
+        "subsistence": 0.6051,
+        "development": 0.5622,
+        "agency": 0.6485
+      }
+    },
+    {
+      "country": "bermuda",
+      "country_score": 0.6106,
+      "tier_scores": {
+        "subsistence": 0.6634,
+        "development": 0.547,
+        "agency": 0.6215
+      }
+    },
+    {
+      "country": "bhutan",
+      "country_score": 0.6571,
+      "tier_scores": {
+        "subsistence": 0.6635,
+        "development": 0.6347,
+        "agency": 0.673
+      }
+    },
+    {
+      "country": "bolivia",
+      "country_score": 0.6709,
+      "tier_scores": {
+        "subsistence": 0.6429,
+        "development": 0.6654,
+        "agency": 0.7045
+      }
+    },
+    {
+      "country": "bosnia-and-herzegovina",
+      "country_score": 0.6675,
+      "tier_scores": {
+        "subsistence": 0.7023,
+        "development": 0.6162,
+        "agency": 0.6841
+      }
+    },
+    {
+      "country": "botswana",
+      "country_score": 0.6387,
+      "tier_scores": {
+        "subsistence": 0.634,
+        "development": 0.5895,
+        "agency": 0.6925
+      }
+    },
+    {
+      "country": "bouvet-island",
+      "country_score": 0.485,
+      "tier_scores": {
+        "subsistence": 0.4917,
+        "development": null,
+        "agency": 0.475
+      }
+    },
+    {
+      "country": "brazil",
+      "country_score": 0.6954,
+      "tier_scores": {
+        "subsistence": 0.6696,
+        "development": 0.7339,
+        "agency": 0.6826
+      }
+    },
+    {
+      "country": "british-indian-ocean-territory",
+      "country_score": 0.5333,
+      "tier_scores": {
+        "subsistence": 0.5562,
+        "development": 0.45,
+        "agency": 0.5583
+      }
+    },
+    {
+      "country": "british-virgin-islands",
+      "country_score": 0.6151,
+      "tier_scores": {
+        "subsistence": 0.6568,
+        "development": 0.5635,
+        "agency": 0.6333
+      }
+    },
+    {
+      "country": "brunei",
+      "country_score": 0.6466,
+      "tier_scores": {
+        "subsistence": 0.6267,
+        "development": 0.6406,
+        "agency": 0.6727
+      }
+    },
+    {
+      "country": "bulgaria",
+      "country_score": 0.6644,
+      "tier_scores": {
+        "subsistence": 0.6807,
+        "development": 0.6594,
+        "agency": 0.653
+      }
+    },
+    {
+      "country": "burkina-faso",
+      "country_score": 0.6024,
+      "tier_scores": {
+        "subsistence": 0.6002,
+        "development": 0.5472,
+        "agency": 0.6597
+      }
+    },
+    {
+      "country": "burma",
+      "country_score": 0.6131,
+      "tier_scores": {
+        "subsistence": 0.6147,
+        "development": 0.5945,
+        "agency": 0.6301
+      }
+    },
+    {
+      "country": "burundi",
+      "country_score": 0.5984,
+      "tier_scores": {
+        "subsistence": 0.6287,
+        "development": 0.5452,
+        "agency": 0.6214
+      }
+    },
+    {
+      "country": "cabo-verde",
+      "country_score": 0.6473,
+      "tier_scores": {
+        "subsistence": 0.6599,
+        "development": 0.6159,
+        "agency": 0.666
+      }
+    },
+    {
+      "country": "cambodia",
+      "country_score": 0.6525,
+      "tier_scores": {
+        "subsistence": 0.6539,
+        "development": 0.6503,
+        "agency": 0.6533
+      }
+    },
+    {
+      "country": "cameroon",
+      "country_score": 0.6088,
+      "tier_scores": {
+        "subsistence": 0.6025,
+        "development": 0.574,
+        "agency": 0.6498
+      }
+    },
+    {
+      "country": "canada",
+      "country_score": 0.7087,
+      "tier_scores": {
+        "subsistence": 0.6935,
+        "development": 0.7253,
+        "agency": 0.7074
+      }
+    },
+    {
+      "country": "cayman-islands",
+      "country_score": 0.6272,
+      "tier_scores": {
+        "subsistence": 0.6478,
+        "development": 0.578,
+        "agency": 0.6558
+      }
+    },
+    {
+      "country": "central-african-republic",
+      "country_score": 0.5609,
+      "tier_scores": {
+        "subsistence": 0.5664,
+        "development": 0.4952,
+        "agency": 0.621
+      }
+    },
+    {
+      "country": "chad",
+      "country_score": 0.575,
+      "tier_scores": {
+        "subsistence": 0.5834,
+        "development": 0.5346,
+        "agency": 0.607
+      }
+    },
+    {
+      "country": "chile",
+      "country_score": 0.6896,
+      "tier_scores": {
+        "subsistence": 0.6715,
+        "development": 0.7058,
+        "agency": 0.6915
+      }
+    },
+    {
+      "country": "china",
+      "country_score": 0.7018,
+      "tier_scores": {
+        "subsistence": 0.725,
+        "development": 0.7101,
+        "agency": 0.6705
+      }
+    },
+    {
+      "country": "christmas-island",
+      "country_score": 0.5898,
+      "tier_scores": {
+        "subsistence": 0.5583,
+        "development": 0.5957,
+        "agency": 0.6051
+      }
+    },
+    {
+      "country": "clipperton-island",
+      "country_score": 0.505,
+      "tier_scores": {
+        "subsistence": 0.5583,
+        "development": null,
+        "agency": 0.425
+      }
+    },
+    {
+      "country": "cocos-keeling-islands",
+      "country_score": 0.5471,
+      "tier_scores": {
+        "subsistence": 0.5778,
+        "development": 0.5281,
+        "agency": 0.54
+      }
+    },
+    {
+      "country": "colombia",
+      "country_score": 0.675,
+      "tier_scores": {
+        "subsistence": 0.6785,
+        "development": 0.6573,
+        "agency": 0.6892
+      }
+    },
+    {
+      "country": "comoros",
+      "country_score": 0.5967,
+      "tier_scores": {
+        "subsistence": 0.6198,
+        "development": 0.5472,
+        "agency": 0.6229
+      }
+    },
+    {
+      "country": "congo-democratic-republic-of-the",
+      "country_score": 0.6039,
+      "tier_scores": {
+        "subsistence": 0.6149,
+        "development": 0.5568,
+        "agency": 0.64
+      }
+    },
+    {
+      "country": "congo-republic-of-the",
+      "country_score": 0.6149,
+      "tier_scores": {
+        "subsistence": 0.6295,
+        "development": 0.5501,
+        "agency": 0.6651
+      }
+    },
+    {
+      "country": "cook-islands",
+      "country_score": 0.661,
+      "tier_scores": {
+        "subsistence": 0.6451,
+        "development": 0.6308,
+        "agency": 0.7071
+      }
+    },
+    {
+      "country": "coral-sea-islands",
+      "country_score": 0.505,
+      "tier_scores": {
+        "subsistence": 0.4917,
+        "development": null,
+        "agency": 0.525
+      }
+    },
+    {
+      "country": "costa-rica",
+      "country_score": 0.6691,
+      "tier_scores": {
+        "subsistence": 0.6774,
+        "development": 0.6501,
+        "agency": 0.6798
+      }
+    },
+    {
+      "country": "croatia",
+      "country_score": 0.6896,
+      "tier_scores": {
+        "subsistence": 0.6832,
+        "development": 0.6869,
+        "agency": 0.6986
+      }
+    },
+    {
+      "country": "cuba",
+      "country_score": 0.6493,
+      "tier_scores": {
+        "subsistence": 0.6844,
+        "development": 0.6131,
+        "agency": 0.6503
+      }
+    },
+    {
+      "country": "curacao",
+      "country_score": 0.6819,
+      "tier_scores": {
+        "subsistence": 0.6661,
+        "development": 0.707,
+        "agency": 0.6727
+      }
+    },
+    {
+      "country": "cyprus",
+      "country_score": 0.6662,
+      "tier_scores": {
+        "subsistence": 0.6372,
+        "development": 0.6674,
+        "agency": 0.6941
+      }
+    },
+    {
+      "country": "czechia",
+      "country_score": 0.6814,
+      "tier_scores": {
+        "subsistence": 0.6704,
+        "development": 0.6828,
+        "agency": 0.6909
+      }
+    },
+    {
+      "country": "denmark",
+      "country_score": 0.6977,
+      "tier_scores": {
+        "subsistence": 0.6739,
+        "development": 0.7175,
+        "agency": 0.7017
+      }
+    },
+    {
+      "country": "dhekelia",
+      "country_score": null,
+      "tier_scores": {
+        "subsistence": null,
+        "development": null,
+        "agency": null
+      }
+    },
+    {
+      "country": "djibouti",
+      "country_score": 0.5759,
+      "tier_scores": {
+        "subsistence": 0.5791,
+        "development": 0.4995,
+        "agency": 0.6491
+      }
+    },
+    {
+      "country": "dominica",
+      "country_score": 0.6466,
+      "tier_scores": {
+        "subsistence": 0.688,
+        "development": 0.5878,
+        "agency": 0.664
+      }
+    },
+    {
+      "country": "dominican-republic",
+      "country_score": 0.6433,
+      "tier_scores": {
+        "subsistence": 0.6322,
+        "development": 0.6209,
+        "agency": 0.6767
+      }
+    },
+    {
+      "country": "ecuador",
+      "country_score": 0.6666,
+      "tier_scores": {
+        "subsistence": 0.6602,
+        "development": 0.6514,
+        "agency": 0.6882
+      }
+    },
+    {
+      "country": "egypt",
+      "country_score": 0.6214,
+      "tier_scores": {
+        "subsistence": 0.6147,
+        "development": 0.6051,
+        "agency": 0.6444
+      }
+    },
+    {
+      "country": "el-salvador",
+      "country_score": 0.6558,
+      "tier_scores": {
+        "subsistence": 0.6855,
+        "development": 0.6306,
+        "agency": 0.6513
+      }
+    },
+    {
+      "country": "equatorial-guinea",
+      "country_score": 0.6189,
+      "tier_scores": {
+        "subsistence": 0.5852,
+        "development": 0.5995,
+        "agency": 0.6719
+      }
+    },
+    {
+      "country": "eritrea",
+      "country_score": 0.5796,
+      "tier_scores": {
+        "subsistence": 0.6124,
+        "development": 0.5113,
+        "agency": 0.6152
+      }
+    },
+    {
+      "country": "estonia",
+      "country_score": 0.6671,
+      "tier_scores": {
+        "subsistence": 0.6566,
+        "development": 0.6468,
+        "agency": 0.6979
+      }
+    },
+    {
+      "country": "eswatini",
+      "country_score": 0.5972,
+      "tier_scores": {
+        "subsistence": 0.5936,
+        "development": 0.5678,
+        "agency": 0.6301
+      }
+    },
+    {
+      "country": "ethiopia",
+      "country_score": 0.6092,
+      "tier_scores": {
+        "subsistence": 0.5906,
+        "development": 0.588,
+        "agency": 0.6489
+      }
+    },
+    {
+      "country": "falkland-islands-islas-malvinas",
+      "country_score": 0.6296,
+      "tier_scores": {
+        "subsistence": 0.6578,
+        "development": 0.6309,
+        "agency": 0.6
+      }
+    },
+    {
+      "country": "faroe-islands",
+      "country_score": 0.6577,
+      "tier_scores": {
+        "subsistence": 0.6552,
+        "development": 0.6658,
+        "agency": 0.6522
+      }
+    },
+    {
+      "country": "fiji",
+      "country_score": 0.6631,
+      "tier_scores": {
+        "subsistence": 0.6504,
+        "development": 0.646,
+        "agency": 0.6928
+      }
+    },
+    {
+      "country": "finland",
+      "country_score": 0.6843,
+      "tier_scores": {
+        "subsistence": 0.6742,
+        "development": 0.6941,
+        "agency": 0.6846
+      }
+    },
+    {
+      "country": "france",
+      "country_score": 0.7224,
+      "tier_scores": {
+        "subsistence": 0.7034,
+        "development": 0.7432,
+        "agency": 0.7206
+      }
+    },
+    {
+      "country": "french-polynesia",
+      "country_score": 0.6338,
+      "tier_scores": {
+        "subsistence": 0.6317,
+        "development": 0.6172,
+        "agency": 0.6526
+      }
+    },
+    {
+      "country": "french-southern-and-antarctic-lands",
+      "country_score": 0.4804,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3548,
+        "agency": 0.5084
+      }
+    },
+    {
+      "country": "gabon",
+      "country_score": 0.6248,
+      "tier_scores": {
+        "subsistence": 0.6374,
+        "development": 0.5751,
+        "agency": 0.6619
+      }
+    },
+    {
+      "country": "gambia-the",
+      "country_score": 0.5887,
+      "tier_scores": {
+        "subsistence": 0.6227,
+        "development": 0.4993,
+        "agency": 0.644
+      }
+    },
+    {
+      "country": "gaza-strip",
+      "country_score": 0.6294,
+      "tier_scores": {
+        "subsistence": 0.6517,
+        "development": 0.6188,
+        "agency": 0.6122
+      }
+    },
+    {
+      "country": "georgia",
+      "country_score": 0.6698,
+      "tier_scores": {
+        "subsistence": 0.6512,
+        "development": 0.673,
+        "agency": 0.6854
+      }
+    },
+    {
+      "country": "germany",
+      "country_score": 0.7108,
+      "tier_scores": {
+        "subsistence": 0.7033,
+        "development": 0.7411,
+        "agency": 0.6879
+      }
+    },
+    {
+      "country": "ghana",
+      "country_score": 0.6238,
+      "tier_scores": {
+        "subsistence": 0.621,
+        "development": 0.5836,
+        "agency": 0.6667
+      }
+    },
+    {
+      "country": "gibraltar",
+      "country_score": 0.6162,
+      "tier_scores": {
+        "subsistence": 0.6067,
+        "development": 0.5857,
+        "agency": 0.6561
+      }
+    },
+    {
+      "country": "greece",
+      "country_score": 0.6739,
+      "tier_scores": {
+        "subsistence": 0.6826,
+        "development": 0.6771,
+        "agency": 0.662
+      }
+    },
+    {
+      "country": "greenland",
+      "country_score": 0.6438,
+      "tier_scores": {
+        "subsistence": 0.6165,
+        "development": 0.6945,
+        "agency": 0.6205
+      }
+    },
+    {
+      "country": "grenada",
+      "country_score": 0.6389,
+      "tier_scores": {
+        "subsistence": 0.6914,
+        "development": 0.5661,
+        "agency": 0.6593
+      }
+    },
+    {
+      "country": "guam",
+      "country_score": 0.6426,
+      "tier_scores": {
+        "subsistence": 0.6863,
+        "development": 0.5818,
+        "agency": 0.6598
+      }
+    },
+    {
+      "country": "guatemala",
+      "country_score": 0.6397,
+      "tier_scores": {
+        "subsistence": 0.6506,
+        "development": 0.6061,
+        "agency": 0.6624
+      }
+    },
+    {
+      "country": "guernsey",
+      "country_score": 0.6613,
+      "tier_scores": {
+        "subsistence": 0.686,
+        "development": 0.6705,
+        "agency": 0.6322
+      }
+    },
+    {
+      "country": "guinea",
+      "country_score": 0.5963,
+      "tier_scores": {
+        "subsistence": 0.6081,
+        "development": 0.5532,
+        "agency": 0.6277
+      }
+    },
+    {
+      "country": "guinea-bissau",
+      "country_score": 0.5974,
+      "tier_scores": {
+        "subsistence": 0.6301,
+        "development": 0.5231,
+        "agency": 0.639
+      }
+    },
+    {
+      "country": "guyana",
+      "country_score": 0.6399,
+      "tier_scores": {
+        "subsistence": 0.6037,
+        "development": 0.63,
+        "agency": 0.6862
+      }
+    },
+    {
+      "country": "haiti",
+      "country_score": 0.572,
+      "tier_scores": {
+        "subsistence": 0.6184,
+        "development": 0.4711,
+        "agency": 0.6266
+      }
+    },
+    {
+      "country": "heard-island-and-mcdonald-islands",
+      "country_score": 0.4897,
+      "tier_scores": {
+        "subsistence": 0.4917,
+        "development": 0.4132,
+        "agency": 0.525
+      }
+    },
+    {
+      "country": "holy-see-vatican-city",
+      "country_score": 0.6291,
+      "tier_scores": {
+        "subsistence": 0.6188,
+        "development": 0.67,
+        "agency": 0.5965
+      }
+    },
+    {
+      "country": "honduras",
+      "country_score": 0.6411,
+      "tier_scores": {
+        "subsistence": 0.6617,
+        "development": 0.5945,
+        "agency": 0.6671
+      }
+    },
+    {
+      "country": "hong-kong",
+      "country_score": 0.6576,
+      "tier_scores": {
+        "subsistence": 0.6712,
+        "development": 0.6507,
+        "agency": 0.651
+      }
+    },
+    {
+      "country": "howland-island",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "hungary",
+      "country_score": 0.6876,
+      "tier_scores": {
+        "subsistence": 0.6742,
+        "development": 0.6945,
+        "agency": 0.694
+      }
+    },
+    {
+      "country": "iceland",
+      "country_score": 0.7006,
+      "tier_scores": {
+        "subsistence": 0.7084,
+        "development": 0.7009,
+        "agency": 0.6927
+      }
+    },
+    {
+      "country": "india",
+      "country_score": 0.6719,
+      "tier_scores": {
+        "subsistence": 0.635,
+        "development": 0.703,
+        "agency": 0.6777
+      }
+    },
+    {
+      "country": "indonesia",
+      "country_score": 0.6744,
+      "tier_scores": {
+        "subsistence": 0.6336,
+        "development": 0.7031,
+        "agency": 0.6865
+      }
+    },
+    {
+      "country": "iran",
+      "country_score": 0.6504,
+      "tier_scores": {
+        "subsistence": 0.6732,
+        "development": 0.633,
+        "agency": 0.6452
+      }
+    },
+    {
+      "country": "iraq",
+      "country_score": 0.6376,
+      "tier_scores": {
+        "subsistence": 0.6532,
+        "development": 0.5934,
+        "agency": 0.6664
+      }
+    },
+    {
+      "country": "ireland",
+      "country_score": 0.6736,
+      "tier_scores": {
+        "subsistence": 0.6765,
+        "development": 0.6411,
+        "agency": 0.7033
+      }
+    },
+    {
+      "country": "isle-of-man",
+      "country_score": 0.6709,
+      "tier_scores": {
+        "subsistence": 0.6895,
+        "development": 0.6914,
+        "agency": 0.6355
+      }
+    },
+    {
+      "country": "israel",
+      "country_score": 0.6695,
+      "tier_scores": {
+        "subsistence": 0.6663,
+        "development": 0.6533,
+        "agency": 0.689
+      }
+    },
+    {
+      "country": "italy",
+      "country_score": 0.6966,
+      "tier_scores": {
+        "subsistence": 0.7066,
+        "development": 0.6905,
+        "agency": 0.6928
+      }
+    },
+    {
+      "country": "jamaica",
+      "country_score": 0.6485,
+      "tier_scores": {
+        "subsistence": 0.6758,
+        "development": 0.5997,
+        "agency": 0.67
+      }
+    },
+    {
+      "country": "jan-mayen",
+      "country_score": 0.575,
+      "tier_scores": {
+        "subsistence": 0.5583,
+        "development": 0.65,
+        "agency": 0.5667
+      }
+    },
+    {
+      "country": "japan",
+      "country_score": 0.6925,
+      "tier_scores": {
+        "subsistence": 0.7029,
+        "development": 0.7027,
+        "agency": 0.6718
+      }
+    },
+    {
+      "country": "jarvis-island",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "jersey",
+      "country_score": 0.6382,
+      "tier_scores": {
+        "subsistence": 0.6903,
+        "development": 0.6182,
+        "agency": 0.6166
+      }
+    },
+    {
+      "country": "johnston-atoll",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "jordan",
+      "country_score": 0.626,
+      "tier_scores": {
+        "subsistence": 0.6256,
+        "development": 0.5994,
+        "agency": 0.653
+      }
+    },
+    {
+      "country": "kazakhstan",
+      "country_score": 0.6766,
+      "tier_scores": {
+        "subsistence": 0.6926,
+        "development": 0.6712,
+        "agency": 0.6661
+      }
+    },
+    {
+      "country": "kenya",
+      "country_score": 0.6425,
+      "tier_scores": {
+        "subsistence": 0.6161,
+        "development": 0.6353,
+        "agency": 0.6761
+      }
+    },
+    {
+      "country": "kingman-reef",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "kiribati",
+      "country_score": 0.6288,
+      "tier_scores": {
+        "subsistence": 0.6288,
+        "development": 0.5966,
+        "agency": 0.661
+      }
+    },
+    {
+      "country": "korea-north",
+      "country_score": 0.6274,
+      "tier_scores": {
+        "subsistence": 0.6514,
+        "development": 0.5748,
+        "agency": 0.6561
+      }
+    },
+    {
+      "country": "korea-south",
+      "country_score": 0.6965,
+      "tier_scores": {
+        "subsistence": 0.7088,
+        "development": 0.7052,
+        "agency": 0.6756
+      }
+    },
+    {
+      "country": "kosovo",
+      "country_score": 0.631,
+      "tier_scores": {
+        "subsistence": 0.6566,
+        "development": 0.5597,
+        "agency": 0.6769
+      }
+    },
+    {
+      "country": "kuwait",
+      "country_score": 0.6304,
+      "tier_scores": {
+        "subsistence": 0.627,
+        "development": 0.6312,
+        "agency": 0.6331
+      }
+    },
+    {
+      "country": "kyrgyzstan",
+      "country_score": 0.6731,
+      "tier_scores": {
+        "subsistence": 0.6853,
+        "development": 0.6689,
+        "agency": 0.6651
+      }
+    },
+    {
+      "country": "laos",
+      "country_score": 0.6111,
+      "tier_scores": {
+        "subsistence": 0.5944,
+        "development": 0.589,
+        "agency": 0.6498
+      }
+    },
+    {
+      "country": "latvia",
+      "country_score": 0.6694,
+      "tier_scores": {
+        "subsistence": 0.635,
+        "development": 0.6617,
+        "agency": 0.7115
+      }
+    },
+    {
+      "country": "lebanon",
+      "country_score": 0.6019,
+      "tier_scores": {
+        "subsistence": 0.656,
+        "development": 0.5319,
+        "agency": 0.6178
+      }
+    },
+    {
+      "country": "lesotho",
+      "country_score": 0.6077,
+      "tier_scores": {
+        "subsistence": 0.6015,
+        "development": 0.5705,
+        "agency": 0.651
+      }
+    },
+    {
+      "country": "liberia",
+      "country_score": 0.5918,
+      "tier_scores": {
+        "subsistence": 0.6234,
+        "development": 0.5148,
+        "agency": 0.6371
+      }
+    },
+    {
+      "country": "libya",
+      "country_score": 0.646,
+      "tier_scores": {
+        "subsistence": 0.633,
+        "development": 0.6459,
+        "agency": 0.6591
+      }
+    },
+    {
+      "country": "liechtenstein",
+      "country_score": 0.6895,
+      "tier_scores": {
+        "subsistence": 0.6864,
+        "development": 0.7038,
+        "agency": 0.6783
+      }
+    },
+    {
+      "country": "lithuania",
+      "country_score": 0.6738,
+      "tier_scores": {
+        "subsistence": 0.6836,
+        "development": 0.6506,
+        "agency": 0.6872
+      }
+    },
+    {
+      "country": "luxembourg",
+      "country_score": 0.678,
+      "tier_scores": {
+        "subsistence": 0.6532,
+        "development": 0.678,
+        "agency": 0.7028
+      }
+    },
+    {
+      "country": "macau",
+      "country_score": 0.6627,
+      "tier_scores": {
+        "subsistence": 0.6685,
+        "development": 0.6695,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "madagascar",
+      "country_score": 0.595,
+      "tier_scores": {
+        "subsistence": 0.5874,
+        "development": 0.552,
+        "agency": 0.6457
+      }
+    },
+    {
+      "country": "malawi",
+      "country_score": 0.5911,
+      "tier_scores": {
+        "subsistence": 0.6001,
+        "development": 0.5221,
+        "agency": 0.6511
+      }
+    },
+    {
+      "country": "malaysia",
+      "country_score": 0.6807,
+      "tier_scores": {
+        "subsistence": 0.6474,
+        "development": 0.6929,
+        "agency": 0.7017
+      }
+    },
+    {
+      "country": "maldives",
+      "country_score": 0.6555,
+      "tier_scores": {
+        "subsistence": 0.6929,
+        "development": 0.6298,
+        "agency": 0.644
+      }
+    },
+    {
+      "country": "mali",
+      "country_score": 0.5884,
+      "tier_scores": {
+        "subsistence": 0.5824,
+        "development": 0.5469,
+        "agency": 0.6359
+      }
+    },
+    {
+      "country": "malta",
+      "country_score": 0.66,
+      "tier_scores": {
+        "subsistence": 0.6566,
+        "development": 0.6522,
+        "agency": 0.671
+      }
+    },
+    {
+      "country": "marshall-islands",
+      "country_score": 0.6562,
+      "tier_scores": {
+        "subsistence": 0.6576,
+        "development": 0.6328,
+        "agency": 0.6781
+      }
+    },
+    {
+      "country": "mauritania",
+      "country_score": 0.5967,
+      "tier_scores": {
+        "subsistence": 0.6031,
+        "development": 0.5631,
+        "agency": 0.6238
+      }
+    },
+    {
+      "country": "mauritius",
+      "country_score": 0.6861,
+      "tier_scores": {
+        "subsistence": 0.7353,
+        "development": 0.6462,
+        "agency": 0.6767
+      }
+    },
+    {
+      "country": "mexico",
+      "country_score": 0.6831,
+      "tier_scores": {
+        "subsistence": 0.6557,
+        "development": 0.7072,
+        "agency": 0.6865
+      }
+    },
+    {
+      "country": "micronesia-federated-states-of",
+      "country_score": 0.6396,
+      "tier_scores": {
+        "subsistence": 0.672,
+        "development": 0.5791,
+        "agency": 0.6677
+      }
+    },
+    {
+      "country": "midway-islands",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "moldova",
+      "country_score": 0.6411,
+      "tier_scores": {
+        "subsistence": 0.642,
+        "development": 0.6291,
+        "agency": 0.6522
+      }
+    },
+    {
+      "country": "monaco",
+      "country_score": 0.668,
+      "tier_scores": {
+        "subsistence": 0.6691,
+        "development": 0.6944,
+        "agency": 0.6404
+      }
+    },
+    {
+      "country": "mongolia",
+      "country_score": 0.6478,
+      "tier_scores": {
+        "subsistence": 0.665,
+        "development": 0.6232,
+        "agency": 0.6554
+      }
+    },
+    {
+      "country": "montenegro",
+      "country_score": 0.6689,
+      "tier_scores": {
+        "subsistence": 0.684,
+        "development": 0.6334,
+        "agency": 0.6894
+      }
+    },
+    {
+      "country": "montserrat",
+      "country_score": 0.6209,
+      "tier_scores": {
+        "subsistence": 0.6641,
+        "development": 0.5581,
+        "agency": 0.6406
+      }
+    },
+    {
+      "country": "morocco",
+      "country_score": 0.66,
+      "tier_scores": {
+        "subsistence": 0.6461,
+        "development": 0.6289,
+        "agency": 0.7051
+      }
+    },
+    {
+      "country": "mozambique",
+      "country_score": 0.6122,
+      "tier_scores": {
+        "subsistence": 0.5961,
+        "development": 0.5735,
+        "agency": 0.6668
+      }
+    },
+    {
+      "country": "namibia",
+      "country_score": 0.6353,
+      "tier_scores": {
+        "subsistence": 0.617,
+        "development": 0.6164,
+        "agency": 0.6726
+      }
+    },
+    {
+      "country": "nauru",
+      "country_score": 0.6373,
+      "tier_scores": {
+        "subsistence": 0.654,
+        "development": 0.5841,
+        "agency": 0.6739
+      }
+    },
+    {
+      "country": "navassa-island",
+      "country_score": 0.56,
+      "tier_scores": {
+        "subsistence": 0.5833,
+        "development": null,
+        "agency": 0.525
+      }
+    },
+    {
+      "country": "nepal",
+      "country_score": 0.626,
+      "tier_scores": {
+        "subsistence": 0.6082,
+        "development": 0.6057,
+        "agency": 0.664
+      }
+    },
+    {
+      "country": "netherlands",
+      "country_score": 0.6992,
+      "tier_scores": {
+        "subsistence": 0.6818,
+        "development": 0.7223,
+        "agency": 0.6936
+      }
+    },
+    {
+      "country": "new-caledonia",
+      "country_score": 0.6594,
+      "tier_scores": {
+        "subsistence": 0.6853,
+        "development": 0.6224,
+        "agency": 0.6705
+      }
+    },
+    {
+      "country": "new-zealand",
+      "country_score": 0.7056,
+      "tier_scores": {
+        "subsistence": 0.6775,
+        "development": 0.7123,
+        "agency": 0.727
+      }
+    },
+    {
+      "country": "nicaragua",
+      "country_score": 0.6413,
+      "tier_scores": {
+        "subsistence": 0.6563,
+        "development": 0.6129,
+        "agency": 0.6547
+      }
+    },
+    {
+      "country": "niger",
+      "country_score": 0.5693,
+      "tier_scores": {
+        "subsistence": 0.5726,
+        "development": 0.511,
+        "agency": 0.6242
+      }
+    },
+    {
+      "country": "nigeria",
+      "country_score": 0.5904,
+      "tier_scores": {
+        "subsistence": 0.6006,
+        "development": 0.557,
+        "agency": 0.6134
+      }
+    },
+    {
+      "country": "niue",
+      "country_score": 0.6276,
+      "tier_scores": {
+        "subsistence": 0.611,
+        "development": 0.5607,
+        "agency": 0.7109
+      }
+    },
+    {
+      "country": "norfolk-island",
+      "country_score": 0.6088,
+      "tier_scores": {
+        "subsistence": 0.6378,
+        "development": 0.5593,
+        "agency": 0.6211
+      }
+    },
+    {
+      "country": "north-macedonia",
+      "country_score": 0.6614,
+      "tier_scores": {
+        "subsistence": 0.677,
+        "development": 0.6138,
+        "agency": 0.6934
+      }
+    },
+    {
+      "country": "northern-mariana-islands",
+      "country_score": 0.6402,
+      "tier_scores": {
+        "subsistence": 0.6647,
+        "development": 0.6342,
+        "agency": 0.6266
+      }
+    },
+    {
+      "country": "norway",
+      "country_score": 0.693,
+      "tier_scores": {
+        "subsistence": 0.6902,
+        "development": 0.7066,
+        "agency": 0.6823
+      }
+    },
+    {
+      "country": "oman",
+      "country_score": 0.6384,
+      "tier_scores": {
+        "subsistence": 0.6082,
+        "development": 0.6629,
+        "agency": 0.644
+      }
+    },
+    {
+      "country": "pakistan",
+      "country_score": 0.6114,
+      "tier_scores": {
+        "subsistence": 0.5954,
+        "development": 0.5913,
+        "agency": 0.6475
+      }
+    },
+    {
+      "country": "palau",
+      "country_score": 0.6772,
+      "tier_scores": {
+        "subsistence": 0.6702,
+        "development": 0.687,
+        "agency": 0.6744
+      }
+    },
+    {
+      "country": "palmyra-atoll",
+      "country_score": 0.457,
+      "tier_scores": {
+        "subsistence": 0.55,
+        "development": 0.3139,
+        "agency": 0.65
+      }
+    },
+    {
+      "country": "panama",
+      "country_score": 0.6765,
+      "tier_scores": {
+        "subsistence": 0.6657,
+        "development": 0.6671,
+        "agency": 0.6966
+      }
+    },
+    {
+      "country": "papua-new-guinea",
+      "country_score": 0.5999,
+      "tier_scores": {
+        "subsistence": 0.5849,
+        "development": 0.5557,
+        "agency": 0.6592
+      }
+    },
+    {
+      "country": "paracel-islands",
+      "country_score": 0.568,
+      "tier_scores": {
+        "subsistence": 0.5833,
+        "development": null,
+        "agency": 0.5451
+      }
+    },
+    {
+      "country": "paraguay",
+      "country_score": 0.6563,
+      "tier_scores": {
+        "subsistence": 0.6618,
+        "development": 0.6326,
+        "agency": 0.6744
+      }
+    },
+    {
+      "country": "peru",
+      "country_score": 0.6612,
+      "tier_scores": {
+        "subsistence": 0.6554,
+        "development": 0.6446,
+        "agency": 0.6837
+      }
+    },
+    {
+      "country": "philippines",
+      "country_score": 0.6689,
+      "tier_scores": {
+        "subsistence": 0.6566,
+        "development": 0.6583,
+        "agency": 0.6918
+      }
+    },
+    {
+      "country": "pitcairn-islands",
+      "country_score": 0.6486,
+      "tier_scores": {
+        "subsistence": 0.5889,
+        "development": 0.69,
+        "agency": 0.6678
+      }
+    },
+    {
+      "country": "poland",
+      "country_score": 0.6807,
+      "tier_scores": {
+        "subsistence": 0.69,
+        "development": 0.6784,
+        "agency": 0.6737
+      }
+    },
+    {
+      "country": "portugal",
+      "country_score": 0.6964,
+      "tier_scores": {
+        "subsistence": 0.7021,
+        "development": 0.689,
+        "agency": 0.6981
+      }
+    },
+    {
+      "country": "puerto-rico",
+      "country_score": 0.6568,
+      "tier_scores": {
+        "subsistence": 0.6928,
+        "development": 0.6334,
+        "agency": 0.6442
+      }
+    },
+    {
+      "country": "qatar",
+      "country_score": 0.6445,
+      "tier_scores": {
+        "subsistence": 0.6349,
+        "development": 0.6671,
+        "agency": 0.6314
+      }
+    },
+    {
+      "country": "romania",
+      "country_score": 0.6738,
+      "tier_scores": {
+        "subsistence": 0.6898,
+        "development": 0.6638,
+        "agency": 0.6679
+      }
+    },
+    {
+      "country": "russia",
+      "country_score": 0.7066,
+      "tier_scores": {
+        "subsistence": 0.6895,
+        "development": 0.7388,
+        "agency": 0.6915
+      }
+    },
+    {
+      "country": "rwanda",
+      "country_score": 0.6023,
+      "tier_scores": {
+        "subsistence": 0.6116,
+        "development": 0.5602,
+        "agency": 0.6352
+      }
+    },
+    {
+      "country": "saint-barthelemy",
+      "country_score": 0.637,
+      "tier_scores": {
+        "subsistence": 0.6843,
+        "development": 0.6259,
+        "agency": 0.6081
+      }
+    },
+    {
+      "country": "saint-helena-ascension-and-tristan-da-cunha",
+      "country_score": 0.58,
+      "tier_scores": {
+        "subsistence": 0.6738,
+        "development": 0.523,
+        "agency": 0.5693
+      }
+    },
+    {
+      "country": "saint-kitts-and-nevis",
+      "country_score": 0.637,
+      "tier_scores": {
+        "subsistence": 0.671,
+        "development": 0.5873,
+        "agency": 0.6528
+      }
+    },
+    {
+      "country": "saint-lucia",
+      "country_score": 0.608,
+      "tier_scores": {
+        "subsistence": 0.634,
+        "development": 0.5358,
+        "agency": 0.6543
+      }
+    },
+    {
+      "country": "saint-martin",
+      "country_score": 0.6736,
+      "tier_scores": {
+        "subsistence": 0.7074,
+        "development": 0.6908,
+        "agency": 0.6226
+      }
+    },
+    {
+      "country": "saint-pierre-and-miquelon",
+      "country_score": 0.6014,
+      "tier_scores": {
+        "subsistence": 0.6523,
+        "development": 0.5621,
+        "agency": 0.5998
+      }
+    },
+    {
+      "country": "saint-vincent-and-the-grenadines",
+      "country_score": 0.6468,
+      "tier_scores": {
+        "subsistence": 0.6772,
+        "development": 0.593,
+        "agency": 0.6702
+      }
+    },
+    {
+      "country": "samoa",
+      "country_score": 0.6276,
+      "tier_scores": {
+        "subsistence": 0.6195,
+        "development": 0.5799,
+        "agency": 0.6833
+      }
+    },
+    {
+      "country": "san-marino",
+      "country_score": 0.6663,
+      "tier_scores": {
+        "subsistence": 0.6677,
+        "development": 0.6942,
+        "agency": 0.637
+      }
+    },
+    {
+      "country": "sao-tome-and-principe",
+      "country_score": 0.6107,
+      "tier_scores": {
+        "subsistence": 0.6604,
+        "development": 0.5218,
+        "agency": 0.6499
+      }
+    },
+    {
+      "country": "saudi-arabia",
+      "country_score": 0.6697,
+      "tier_scores": {
+        "subsistence": 0.668,
+        "development": 0.6942,
+        "agency": 0.6469
+      }
+    },
+    {
+      "country": "senegal",
+      "country_score": 0.6216,
+      "tier_scores": {
+        "subsistence": 0.6287,
+        "development": 0.5681,
+        "agency": 0.6682
+      }
+    },
+    {
+      "country": "serbia",
+      "country_score": 0.6618,
+      "tier_scores": {
+        "subsistence": 0.6883,
+        "development": 0.6323,
+        "agency": 0.6647
+      }
+    },
+    {
+      "country": "seychelles",
+      "country_score": 0.6734,
+      "tier_scores": {
+        "subsistence": 0.6947,
+        "development": 0.634,
+        "agency": 0.6915
+      }
+    },
+    {
+      "country": "sierra-leone",
+      "country_score": 0.6021,
+      "tier_scores": {
+        "subsistence": 0.5927,
+        "development": 0.5579,
+        "agency": 0.6558
+      }
+    },
+    {
+      "country": "singapore",
+      "country_score": 0.6595,
+      "tier_scores": {
+        "subsistence": 0.6837,
+        "development": 0.6485,
+        "agency": 0.6464
+      }
+    },
+    {
+      "country": "sint-maarten",
+      "country_score": 0.6979,
+      "tier_scores": {
+        "subsistence": 0.6995,
+        "development": 0.6979,
+        "agency": 0.6962
+      }
+    },
+    {
+      "country": "slovakia",
+      "country_score": 0.6785,
+      "tier_scores": {
+        "subsistence": 0.6799,
+        "development": 0.6681,
+        "agency": 0.6874
+      }
+    },
+    {
+      "country": "slovenia",
+      "country_score": 0.6928,
+      "tier_scores": {
+        "subsistence": 0.6878,
+        "development": 0.6916,
+        "agency": 0.699
+      }
+    },
+    {
+      "country": "solomon-islands",
+      "country_score": 0.6309,
+      "tier_scores": {
+        "subsistence": 0.6153,
+        "development": 0.5882,
+        "agency": 0.6891
+      }
+    },
+    {
+      "country": "somalia",
+      "country_score": 0.5634,
+      "tier_scores": {
+        "subsistence": 0.5947,
+        "development": 0.4817,
+        "agency": 0.6139
+      }
+    },
+    {
+      "country": "south-africa",
+      "country_score": 0.6579,
+      "tier_scores": {
+        "subsistence": 0.654,
+        "development": 0.622,
+        "agency": 0.6976
+      }
+    },
+    {
+      "country": "south-sudan",
+      "country_score": 0.5628,
+      "tier_scores": {
+        "subsistence": 0.6018,
+        "development": 0.4672,
+        "agency": 0.6193
+      }
+    },
+    {
+      "country": "spain",
+      "country_score": 0.705,
+      "tier_scores": {
+        "subsistence": 0.711,
+        "development": 0.7097,
+        "agency": 0.6942
+      }
+    },
+    {
+      "country": "spratly-islands",
+      "country_score": 0.5375,
+      "tier_scores": {
+        "subsistence": 0.5833,
+        "development": null,
+        "agency": 0.4
+      }
+    },
+    {
+      "country": "sri-lanka",
+      "country_score": 0.64,
+      "tier_scores": {
+        "subsistence": 0.6815,
+        "development": 0.5932,
+        "agency": 0.6451
+      }
+    },
+    {
+      "country": "sudan",
+      "country_score": 0.5936,
+      "tier_scores": {
+        "subsistence": 0.6027,
+        "development": 0.5364,
+        "agency": 0.6416
+      }
+    },
+    {
+      "country": "suriname",
+      "country_score": 0.6396,
+      "tier_scores": {
+        "subsistence": 0.6097,
+        "development": 0.6197,
+        "agency": 0.6893
+      }
+    },
+    {
+      "country": "svalbard",
+      "country_score": 0.5799,
+      "tier_scores": {
+        "subsistence": 0.6062,
+        "development": 0.5333,
+        "agency": 0.5868
+      }
+    },
+    {
+      "country": "sweden",
+      "country_score": 0.6861,
+      "tier_scores": {
+        "subsistence": 0.649,
+        "development": 0.6979,
+        "agency": 0.7114
+      }
+    },
+    {
+      "country": "switzerland",
+      "country_score": 0.711,
+      "tier_scores": {
+        "subsistence": 0.6971,
+        "development": 0.7287,
+        "agency": 0.7073
+      }
+    },
+    {
+      "country": "syria",
+      "country_score": 0.6104,
+      "tier_scores": {
+        "subsistence": 0.6241,
+        "development": 0.5628,
+        "agency": 0.6443
+      }
+    },
+    {
+      "country": "taiwan",
+      "country_score": 0.6688,
+      "tier_scores": {
+        "subsistence": 0.7052,
+        "development": 0.6544,
+        "agency": 0.6467
+      }
+    },
+    {
+      "country": "tajikistan",
+      "country_score": 0.6409,
+      "tier_scores": {
+        "subsistence": 0.6493,
+        "development": 0.6468,
+        "agency": 0.6267
+      }
+    },
+    {
+      "country": "tanzania",
+      "country_score": 0.6252,
+      "tier_scores": {
+        "subsistence": 0.6088,
+        "development": 0.5979,
+        "agency": 0.669
+      }
+    },
+    {
+      "country": "thailand",
+      "country_score": 0.6909,
+      "tier_scores": {
+        "subsistence": 0.6919,
+        "development": 0.6973,
+        "agency": 0.6834
+      }
+    },
+    {
+      "country": "timor-leste",
+      "country_score": 0.6175,
+      "tier_scores": {
+        "subsistence": 0.6222,
+        "development": 0.5788,
+        "agency": 0.6515
+      }
+    },
+    {
+      "country": "togo",
+      "country_score": 0.5985,
+      "tier_scores": {
+        "subsistence": 0.6203,
+        "development": 0.543,
+        "agency": 0.6323
+      }
+    },
+    {
+      "country": "tokelau",
+      "country_score": 0.6045,
+      "tier_scores": {
+        "subsistence": 0.6146,
+        "development": 0.5788,
+        "agency": 0.6169
+      }
+    },
+    {
+      "country": "tonga",
+      "country_score": 0.637,
+      "tier_scores": {
+        "subsistence": 0.6572,
+        "development": 0.5918,
+        "agency": 0.6619
+      }
+    },
+    {
+      "country": "trinidad-and-tobago",
+      "country_score": 0.637,
+      "tier_scores": {
+        "subsistence": 0.6215,
+        "development": 0.6198,
+        "agency": 0.6698
+      }
+    },
+    {
+      "country": "tunisia",
+      "country_score": 0.6539,
+      "tier_scores": {
+        "subsistence": 0.6752,
+        "development": 0.6189,
+        "agency": 0.6677
+      }
+    },
+    {
+      "country": "turkey-turkiye",
+      "country_score": 0.6668,
+      "tier_scores": {
+        "subsistence": 0.6789,
+        "development": 0.6629,
+        "agency": 0.6585
+      }
+    },
+    {
+      "country": "turkmenistan",
+      "country_score": 0.6272,
+      "tier_scores": {
+        "subsistence": 0.654,
+        "development": 0.6245,
+        "agency": 0.6031
+      }
+    },
+    {
+      "country": "turks-and-caicos-islands",
+      "country_score": 0.6223,
+      "tier_scores": {
+        "subsistence": 0.6337,
+        "development": 0.5802,
+        "agency": 0.6552
+      }
+    },
+    {
+      "country": "tuvalu",
+      "country_score": 0.6297,
+      "tier_scores": {
+        "subsistence": 0.6296,
+        "development": 0.5957,
+        "agency": 0.6637
+      }
+    },
+    {
+      "country": "uganda",
+      "country_score": 0.5968,
+      "tier_scores": {
+        "subsistence": 0.594,
+        "development": 0.5794,
+        "agency": 0.617
+      }
+    },
+    {
+      "country": "ukraine",
+      "country_score": 0.6929,
+      "tier_scores": {
+        "subsistence": 0.6919,
+        "development": 0.6882,
+        "agency": 0.6985
+      }
+    },
+    {
+      "country": "united-arab-emirates",
+      "country_score": 0.6494,
+      "tier_scores": {
+        "subsistence": 0.6149,
+        "development": 0.7097,
+        "agency": 0.6235
+      }
+    },
+    {
+      "country": "united-kingdom",
+      "country_score": 0.7092,
+      "tier_scores": {
+        "subsistence": 0.6988,
+        "development": 0.7354,
+        "agency": 0.6934
+      }
+    },
+    {
+      "country": "united-states",
+      "country_score": 0.7208,
+      "tier_scores": {
+        "subsistence": 0.7153,
+        "development": 0.7385,
+        "agency": 0.7088
+      }
+    },
+    {
+      "country": "uruguay",
+      "country_score": 0.6778,
+      "tier_scores": {
+        "subsistence": 0.6744,
+        "development": 0.675,
+        "agency": 0.6841
+      }
+    },
+    {
+      "country": "uzbekistan",
+      "country_score": 0.6464,
+      "tier_scores": {
+        "subsistence": 0.6528,
+        "development": 0.6486,
+        "agency": 0.6379
+      }
+    },
+    {
+      "country": "vanuatu",
+      "country_score": 0.6268,
+      "tier_scores": {
+        "subsistence": 0.6501,
+        "development": 0.5553,
+        "agency": 0.6749
+      }
+    },
+    {
+      "country": "venezuela",
+      "country_score": 0.6281,
+      "tier_scores": {
+        "subsistence": 0.6279,
+        "development": 0.5806,
+        "agency": 0.6759
+      }
+    },
+    {
+      "country": "vietnam",
+      "country_score": 0.6775,
+      "tier_scores": {
+        "subsistence": 0.6813,
+        "development": 0.6887,
+        "agency": 0.6625
+      }
+    },
+    {
+      "country": "virgin-islands",
+      "country_score": 0.6363,
+      "tier_scores": {
+        "subsistence": 0.703,
+        "development": 0.5558,
+        "agency": 0.6502
+      }
+    },
+    {
+      "country": "wake-island",
+      "country_score": 0.5128,
+      "tier_scores": {
+        "subsistence": 0.4917,
+        "development": 0.5133,
+        "agency": 0.5333
+      }
+    },
+    {
+      "country": "wallis-and-futuna",
+      "country_score": 0.6443,
+      "tier_scores": {
+        "subsistence": 0.7072,
+        "development": 0.5982,
+        "agency": 0.6309
+      }
+    },
+    {
+      "country": "west-bank",
+      "country_score": 0.6207,
+      "tier_scores": {
+        "subsistence": 0.6777,
+        "development": 0.5537,
+        "agency": 0.6331
+      }
+    },
+    {
+      "country": "yemen",
+      "country_score": 0.5903,
+      "tier_scores": {
+        "subsistence": 0.635,
+        "development": 0.5272,
+        "agency": 0.6088
+      }
+    },
+    {
+      "country": "zambia",
+      "country_score": 0.6249,
+      "tier_scores": {
+        "subsistence": 0.6193,
+        "development": 0.5892,
+        "agency": 0.6662
+      }
+    },
+    {
+      "country": "zimbabwe",
+      "country_score": 0.6159,
+      "tier_scores": {
+        "subsistence": 0.6205,
+        "development": 0.5641,
+        "agency": 0.663
+      }
+    }
+  ],
+  "scored_with": "scripts/10b/scorer.py v0.1.0",
+  "region_rollups": [
+    "africa",
+    "americas",
+    "asia",
+    "europe",
+    "oceania",
+    "polar"
+  ],
+  "country_to_region": {
+    "afghanistan": "asia",
+    "akrotiri": "polar",
+    "albania": "europe",
+    "algeria": "africa",
+    "american-samoa": "oceania",
+    "andorra": "europe",
+    "angola": "africa",
+    "anguilla": "americas",
+    "antarctica": "polar",
+    "antigua-and-barbuda": "americas",
+    "argentina": "americas",
+    "armenia": "europe",
+    "aruba": "americas",
+    "ashmore-and-cartier-islands": "asia",
+    "australia": "oceania",
+    "austria": "europe",
+    "azerbaijan": "europe",
+    "bahamas-the": "americas",
+    "bahrain": "asia",
+    "baker-island": "oceania",
+    "bangladesh": "asia",
+    "barbados": "americas",
+    "belarus": "europe",
+    "belgium": "europe",
+    "belize": "americas",
+    "benin": "africa",
+    "bermuda": "americas",
+    "bhutan": "asia",
+    "bolivia": "americas",
+    "bosnia-and-herzegovina": "europe",
+    "botswana": "africa",
+    "bouvet-island": "africa",
+    "brazil": "americas",
+    "british-indian-ocean-territory": "africa",
+    "british-virgin-islands": "americas",
+    "brunei": "asia",
+    "bulgaria": "europe",
+    "burkina-faso": "africa",
+    "burma": "asia",
+    "burundi": "africa",
+    "cabo-verde": "africa",
+    "cambodia": "asia",
+    "cameroon": "africa",
+    "canada": "polar",
+    "cayman-islands": "americas",
+    "central-african-republic": "africa",
+    "chad": "africa",
+    "chile": "oceania",
+    "china": "asia",
+    "christmas-island": "asia",
+    "clipperton-island": "oceania",
+    "cocos-keeling-islands": "asia",
+    "colombia": "oceania",
+    "comoros": "africa",
+    "congo-democratic-republic-of-the": "africa",
+    "congo-republic-of-the": "africa",
+    "cook-islands": "oceania",
+    "coral-sea-islands": "oceania",
+    "costa-rica": "oceania",
+    "croatia": "europe",
+    "cuba": "americas",
+    "curacao": "americas",
+    "cyprus": "europe",
+    "czechia": "europe",
+    "denmark": "europe",
+    "dhekelia": "polar",
+    "djibouti": "africa",
+    "dominica": "americas",
+    "dominican-republic": "americas",
+    "ecuador": "oceania",
+    "egypt": "africa",
+    "el-salvador": "oceania",
+    "equatorial-guinea": "africa",
+    "eritrea": "africa",
+    "estonia": "europe",
+    "eswatini": "africa",
+    "ethiopia": "africa",
+    "falkland-islands-islas-malvinas": "americas",
+    "faroe-islands": "europe",
+    "fiji": "oceania",
+    "finland": "europe",
+    "france": "polar",
+    "french-polynesia": "oceania",
+    "french-southern-and-antarctic-lands": "polar",
+    "gabon": "africa",
+    "gambia-the": "africa",
+    "gaza-strip": "asia",
+    "georgia": "europe",
+    "germany": "europe",
+    "ghana": "africa",
+    "gibraltar": "europe",
+    "greece": "europe",
+    "greenland": "polar",
+    "grenada": "americas",
+    "guam": "oceania",
+    "guatemala": "oceania",
+    "guernsey": "europe",
+    "guinea": "africa",
+    "guinea-bissau": "africa",
+    "guyana": "americas",
+    "haiti": "americas",
+    "heard-island-and-mcdonald-islands": "polar",
+    "holy-see-vatican-city": "europe",
+    "honduras": "oceania",
+    "hong-kong": "asia",
+    "howland-island": "oceania",
+    "hungary": "europe",
+    "iceland": "europe",
+    "india": "asia",
+    "indonesia": "asia",
+    "iran": "asia",
+    "iraq": "asia",
+    "ireland": "europe",
+    "isle-of-man": "europe",
+    "israel": "asia",
+    "italy": "europe",
+    "jamaica": "americas",
+    "jan-mayen": "europe",
+    "japan": "asia",
+    "jarvis-island": "oceania",
+    "jersey": "europe",
+    "johnston-atoll": "oceania",
+    "jordan": "asia",
+    "kazakhstan": "europe",
+    "kenya": "africa",
+    "kingman-reef": "oceania",
+    "kiribati": "oceania",
+    "korea-north": "asia",
+    "korea-south": "asia",
+    "kosovo": "europe",
+    "kuwait": "asia",
+    "kyrgyzstan": "asia",
+    "laos": "asia",
+    "latvia": "europe",
+    "lebanon": "asia",
+    "lesotho": "africa",
+    "liberia": "africa",
+    "libya": "africa",
+    "liechtenstein": "europe",
+    "lithuania": "europe",
+    "luxembourg": "europe",
+    "macau": "asia",
+    "madagascar": "africa",
+    "malawi": "africa",
+    "malaysia": "asia",
+    "maldives": "asia",
+    "mali": "africa",
+    "malta": "europe",
+    "marshall-islands": "oceania",
+    "mauritania": "africa",
+    "mauritius": "africa",
+    "mexico": "oceania",
+    "micronesia-federated-states-of": "oceania",
+    "midway-islands": "oceania",
+    "moldova": "europe",
+    "monaco": "europe",
+    "mongolia": "asia",
+    "montenegro": "europe",
+    "montserrat": "americas",
+    "morocco": "africa",
+    "mozambique": "africa",
+    "namibia": "africa",
+    "nauru": "oceania",
+    "navassa-island": "americas",
+    "nepal": "asia",
+    "netherlands": "europe",
+    "new-caledonia": "oceania",
+    "new-zealand": "oceania",
+    "nicaragua": "oceania",
+    "niger": "africa",
+    "nigeria": "africa",
+    "niue": "oceania",
+    "norfolk-island": "oceania",
+    "north-macedonia": "europe",
+    "northern-mariana-islands": "oceania",
+    "norway": "europe",
+    "oman": "asia",
+    "pakistan": "asia",
+    "palau": "oceania",
+    "palmyra-atoll": "oceania",
+    "panama": "oceania",
+    "papua-new-guinea": "oceania",
+    "paracel-islands": "asia",
+    "paraguay": "americas",
+    "peru": "oceania",
+    "philippines": "asia",
+    "pitcairn-islands": "oceania",
+    "poland": "europe",
+    "portugal": "europe",
+    "puerto-rico": "americas",
+    "qatar": "asia",
+    "romania": "europe",
+    "russia": "polar",
+    "rwanda": "africa",
+    "saint-barthelemy": "americas",
+    "saint-helena-ascension-and-tristan-da-cunha": "africa",
+    "saint-kitts-and-nevis": "americas",
+    "saint-lucia": "americas",
+    "saint-martin": "americas",
+    "saint-pierre-and-miquelon": "americas",
+    "saint-vincent-and-the-grenadines": "americas",
+    "samoa": "oceania",
+    "san-marino": "europe",
+    "sao-tome-and-principe": "africa",
+    "saudi-arabia": "asia",
+    "senegal": "africa",
+    "serbia": "europe",
+    "seychelles": "africa",
+    "sierra-leone": "africa",
+    "singapore": "asia",
+    "sint-maarten": "americas",
+    "slovakia": "europe",
+    "slovenia": "europe",
+    "solomon-islands": "oceania",
+    "somalia": "africa",
+    "south-africa": "africa",
+    "south-sudan": "africa",
+    "spain": "europe",
+    "spratly-islands": "asia",
+    "sri-lanka": "asia",
+    "sudan": "africa",
+    "suriname": "americas",
+    "svalbard": "polar",
+    "sweden": "europe",
+    "switzerland": "europe",
+    "syria": "asia",
+    "taiwan": "asia",
+    "tajikistan": "asia",
+    "tanzania": "africa",
+    "thailand": "asia",
+    "timor-leste": "asia",
+    "togo": "africa",
+    "tokelau": "oceania",
+    "tonga": "oceania",
+    "trinidad-and-tobago": "americas",
+    "tunisia": "africa",
+    "turkey-turkiye": "europe",
+    "turkmenistan": "asia",
+    "turks-and-caicos-islands": "americas",
+    "tuvalu": "oceania",
+    "uganda": "africa",
+    "ukraine": "europe",
+    "united-arab-emirates": "asia",
+    "united-kingdom": "europe",
+    "united-states": "oceania",
+    "uruguay": "americas",
+    "uzbekistan": "asia",
+    "vanuatu": "oceania",
+    "venezuela": "americas",
+    "vietnam": "asia",
+    "virgin-islands": "americas",
+    "wake-island": "oceania",
+    "wallis-and-futuna": "oceania",
+    "west-bank": "asia",
+    "yemen": "asia",
+    "zambia": "africa",
+    "zimbabwe": "africa"
+  }
+}

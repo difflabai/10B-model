@@ -1,0 +1,56 @@
+{
+  "country": "Ghana",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.6017,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.65
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.5533
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.60167,
+    0.33333,
+    0.65,
+    0.5533,
+    0.19792,
+    0.76342,
+    0.35317,
+    0.74209,
+    0.20195,
+    0.63888,
+    -0.76165,
+    -0.15514,
+    0.60177,
+    -0.68539,
+    0.4695,
+    0.04656
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

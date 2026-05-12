@@ -1,0 +1,34 @@
+{
+  "country": "Gaza Strip",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "77.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "778,000 Gaza (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in major cities, particularly Gaza City in the north",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate, mild winters, dry and warm to hot summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate, mild winters, dry and warm to hot summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,47 @@
+{
+  "country": "bulgaria",
+  "category_scores": {
+    "agency": 0.7725,
+    "belonging": 0.6209,
+    "communications": 0.7251,
+    "education": 0.7527,
+    "energy": 0.6532,
+    "environment": 0.5475,
+    "food": 0.7248,
+    "governance": 0.7143,
+    "health": 0.73,
+    "meaning": 0.61,
+    "mobility": 0.4984,
+    "safety": 0.6344,
+    "shelter": 0.6308,
+    "water": 0.6833,
+    "work": 0.6677
+  },
+  "country_score": 0.6644,
+  "tier_scores": {
+    "subsistence": 0.6807,
+    "development": 0.6594,
+    "agency": 0.653
+  },
+  "country_embedding": [
+    0.66437,
+    0.87556,
+    0.72507,
+    0.68992,
+    0.17582,
+    0.03865,
+    -0.17074,
+    -0.09888,
+    0.00298,
+    0.04247,
+    0.04045,
+    -0.06376,
+    -0.17209,
+    0.28992,
+    0.14441,
+    -0.0236
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bulgaria, the three needs areas with the largest gaps are: mobility (0.50), environment (0.55), meaning (0.61).\nThe three strongest areas are: agency (0.77), education (0.75), health (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

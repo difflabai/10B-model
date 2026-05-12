@@ -1,0 +1,52 @@
+{
+  "country": "Timor-Leste",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6607,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5945
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66067,
+    0.6,
+    0.5945,
+    0.6375,
+    -0.73254,
+    0.65438,
+    0.13399,
+    0.40417,
+    -0.53417,
+    0.62951,
+    -0.906,
+    -0.95929,
+    -0.12374,
+    0.86719,
+    0.12413,
+    -0.18468
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Antarctica",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "the discovery of a large Antarctic ozone hole in the earth's stratosphere (the ozone layer) - first announced in 1985 - spurred the signing of the Montreal Protocol in 1987, an international agreement phasing out the use of ozone-depleting chemicals; the ozone layer prevents most harmful wavelengths of ultra-violet (UV) light from passing through the earth's atmosphere; ozone depletion has been shown to harm a variety of Antarctic marine plants and animals (plankton); in 2016, a gradual trend toward \"healing\" of the ozone hole was reported; since the 1990s, satellites have shown accelerating ice loss driven by ocean change; although considerable uncertainty remains, scientists are increasing our understanding and ability to model potential impacts of ice loss",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.14285714285714285
+}

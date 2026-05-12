@@ -1,0 +1,59 @@
+{
+  "country": "Ghana",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "65,725 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "14,948 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "50,777 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "11 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "7 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "681.3 km gas, 11.4 km oil, 435 km refined products (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,293 km (2011) (168 km for launches and lighters on Volta, Ankobra, and Tano Rivers; 1,125 km of arterial and feeder waterways on Lake Volta)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "947 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "467,438 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.9
+}

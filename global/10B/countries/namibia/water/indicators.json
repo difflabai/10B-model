@@ -1,0 +1,39 @@
+{
+  "country": "Namibia",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Zambezi (shared with Zambia [s]), Angola, Botswana, Zimbabwe, and Mozambique [m]) - 2,740 km; Orange river mouth (shared with Lesotho [s], and South Africa) - 2,092 km; Okavango (shared with Angola [s], and Botswana [m]) - 1,600 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Orange (941,351 sq km)Indian Ocean drainage: Zambezi (1,332,412 sq km)Internal (endorheic basin) drainage: Okavango Basin (863,866 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; hot, dry; rainfall sparse and erratic",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.gabon",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Gabon"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.gabon.food",
+        "global.10B.countries.gabon.water",
+        "global.10B.countries.gabon.shelter",
+        "global.10B.countries.gabon.health",
+        "global.10B.countries.gabon.safety",
+        "global.10B.countries.gabon.education",
+        "global.10B.countries.gabon.work",
+        "global.10B.countries.gabon.energy",
+        "global.10B.countries.gabon.mobility",
+        "global.10B.countries.gabon.communications",
+        "global.10B.countries.gabon.governance",
+        "global.10B.countries.gabon.environment",
+        "global.10B.countries.gabon.belonging",
+        "global.10B.countries.gabon.meaning",
+        "global.10B.countries.gabon.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Cambodia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system (influenced by the UN Transitional Authority in Cambodia) customary law, Communist legal theory, and common law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1947; latest promulgated 21 September 1993",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King Norodom SIHAMONI (since 29 October 2004)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, ARF, ASEAN, CICA, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

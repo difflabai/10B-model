@@ -1,0 +1,34 @@
+{
+  "country": "Serbia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "57.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.408 million BELGRADE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout most of the country, with urban areas attracting larger and denser populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "in the north, continental climate (cold winters and hot, humid summers with well-distributed rainfall); in other parts, continental and Mediterranean climate (relatively cold winters with heavy snowfall and hot, dry summers and autumns)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "in the north, continental climate (cold winters and hot, humid summers with well-distributed rainfall); in other parts, continental and Mediterranean climate (relatively cold winters with heavy snowfall and hot, dry summers and autumns)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

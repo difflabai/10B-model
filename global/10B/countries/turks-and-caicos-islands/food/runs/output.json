@@ -1,0 +1,52 @@
+{
+  "country": "Turks and Caicos Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.4705,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.222
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.46
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.4705,
+    0.8,
+    0.65,
+    0.222,
+    -0.86969,
+    0.45492,
+    0.73196,
+    0.77942,
+    0.94089,
+    0.62475,
+    -0.47124,
+    -0.73779,
+    -0.64437,
+    -0.70822,
+    -0.36263,
+    -0.97079
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Libya",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "the Tripoli-based Government of National Unity (GNU) has access to various ground, air, and naval/coast guard forces comprised of a mix of formations and equipment from the QADHAFI regime, semi-regular and nominally integrated units, tribal armed groups/militias, civilian volunteers, and foreign private military contractors and mercenaries; the GNU has a Ministry of Defense, but has limited control over its security forcesthe self-styled Libyan National Army (LNA), under de facto LNA commander Khalifa HAFTER, also includes various ground, air, and naval forces comprised of semi-regular military personnel, militias, and foreign private military contractors and mercenaries; the LNA operates independently from the GNU and exerts influence throughout eastern, central, and southern Libya; some of the armed groups nominally under the LNA operate under their own command structures and engage in their own operations (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "not available",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "11,623 (Syria) (refugees and asylum seekers), 8,302 (Eritrea) (2023); 6,293 (Sudan) (refugees and asylum seekers) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Faroe Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Center Party or H (Midflokkurin) People's Party or A (Folkaflokkurin) Progress Party or F (Framsokn) Republic or E (Tjodveldi)  (formerly the Republican Party)Self-Government Party or D (Sjalvstyri or Sjalvstyrisflokkurin) Social Democratic Party or JF (Javnadarflokkurin) or JF Union Party or B (Sambandsflokkurin)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "98% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 publicly owned TV station; the Faroese telecommunications company distributes local and international channels through its digital terrestrial network; publicly owned radio station supplemented by 3 privately owned stations broadcasting over multiple frequencies",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.6% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

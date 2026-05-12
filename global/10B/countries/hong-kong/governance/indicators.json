@@ -1,0 +1,44 @@
+{
+  "country": "Hong Kong",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential limited democracy; a special administrative region of the People's Republic of China",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of common law based on the English model and Chinese customary law (in matters of family and land tenure); PRC imposition of National Security Law incorporates elements of Chinese civil law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous (governance documents while under British authority); latest drafted April 1988 to February 1989, approved March 1990, effective 1 July 1997 (Basic Law of the Hong Kong Special Administrative Region of the People's Republic of China serves as the constitution); note - since 1990, China's National People's Congress has interpreted specific articles of the Basic Law",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age in direct elections for 20 of the 90 Legislative Council seats and all of the seats in 18 district councils; universal for permanent residents living in the territory of Hong Kong for the past 7 years; note - in indirect elections, suffrage is limited to about 220,000 members of functional constituencies for the other 70 legislature seats and a 1,500-member election committee for the chief executive drawn from broad sectoral groupings, central government bodies, municipal organizations, and elected Hong Kong officials",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President of China XI Jinping (since 14 March 2013)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, APEC, BIS, FATF, ICC (national committees), IHO, IMF, IMO (associate), Interpol (subbureau), IOC, ISO (correspondent), ITUC (NGOs), UNWTO (associate), UPU, WCO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

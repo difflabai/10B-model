@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tokelau",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tokelau"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tokelau.food",
+        "global.10B.countries.tokelau.water",
+        "global.10B.countries.tokelau.shelter",
+        "global.10B.countries.tokelau.health",
+        "global.10B.countries.tokelau.safety",
+        "global.10B.countries.tokelau.education",
+        "global.10B.countries.tokelau.work",
+        "global.10B.countries.tokelau.energy",
+        "global.10B.countries.tokelau.mobility",
+        "global.10B.countries.tokelau.communications",
+        "global.10B.countries.tokelau.governance",
+        "global.10B.countries.tokelau.environment",
+        "global.10B.countries.tokelau.belonging",
+        "global.10B.countries.tokelau.meaning",
+        "global.10B.countries.tokelau.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6,
+    0.8,
+    0.6,
+    0.55,
+    -0.83462,
+    -0.25963,
+    -0.91107,
+    -0.02495,
+    -0.86902,
+    0.69726,
+    0.04518,
+    -0.33931,
+    -0.85443,
+    0.41225,
+    0.24825,
+    -0.34093
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

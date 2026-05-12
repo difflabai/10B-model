@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.san-marino",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "San Marino"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.san-marino.food",
+        "global.10B.countries.san-marino.water",
+        "global.10B.countries.san-marino.shelter",
+        "global.10B.countries.san-marino.health",
+        "global.10B.countries.san-marino.safety",
+        "global.10B.countries.san-marino.education",
+        "global.10B.countries.san-marino.work",
+        "global.10B.countries.san-marino.energy",
+        "global.10B.countries.san-marino.mobility",
+        "global.10B.countries.san-marino.communications",
+        "global.10B.countries.san-marino.governance",
+        "global.10B.countries.san-marino.environment",
+        "global.10B.countries.san-marino.belonging",
+        "global.10B.countries.san-marino.meaning",
+        "global.10B.countries.san-marino.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

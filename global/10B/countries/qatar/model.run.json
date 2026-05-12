@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.qatar",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Qatar"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.qatar.food",
+        "global.10B.countries.qatar.water",
+        "global.10B.countries.qatar.shelter",
+        "global.10B.countries.qatar.health",
+        "global.10B.countries.qatar.safety",
+        "global.10B.countries.qatar.education",
+        "global.10B.countries.qatar.work",
+        "global.10B.countries.qatar.energy",
+        "global.10B.countries.qatar.mobility",
+        "global.10B.countries.qatar.communications",
+        "global.10B.countries.qatar.governance",
+        "global.10B.countries.qatar.environment",
+        "global.10B.countries.qatar.belonging",
+        "global.10B.countries.qatar.meaning",
+        "global.10B.countries.qatar.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

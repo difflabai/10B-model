@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saudi-arabia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saudi Arabia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saudi-arabia.food",
+        "global.10B.countries.saudi-arabia.water",
+        "global.10B.countries.saudi-arabia.shelter",
+        "global.10B.countries.saudi-arabia.health",
+        "global.10B.countries.saudi-arabia.safety",
+        "global.10B.countries.saudi-arabia.education",
+        "global.10B.countries.saudi-arabia.work",
+        "global.10B.countries.saudi-arabia.energy",
+        "global.10B.countries.saudi-arabia.mobility",
+        "global.10B.countries.saudi-arabia.communications",
+        "global.10B.countries.saudi-arabia.governance",
+        "global.10B.countries.saudi-arabia.environment",
+        "global.10B.countries.saudi-arabia.belonging",
+        "global.10B.countries.saudi-arabia.meaning",
+        "global.10B.countries.saudi-arabia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

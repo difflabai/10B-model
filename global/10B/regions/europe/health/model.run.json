@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "health"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.health",
+        "global.10B.countries.andorra.health",
+        "global.10B.countries.armenia.health",
+        "global.10B.countries.austria.health",
+        "global.10B.countries.azerbaijan.health",
+        "global.10B.countries.belarus.health",
+        "global.10B.countries.belgium.health",
+        "global.10B.countries.bosnia-and-herzegovina.health",
+        "global.10B.countries.bulgaria.health",
+        "global.10B.countries.croatia.health",
+        "global.10B.countries.cyprus.health",
+        "global.10B.countries.czechia.health",
+        "global.10B.countries.denmark.health",
+        "global.10B.countries.estonia.health",
+        "global.10B.countries.faroe-islands.health",
+        "global.10B.countries.finland.health",
+        "global.10B.countries.georgia.health",
+        "global.10B.countries.germany.health",
+        "global.10B.countries.gibraltar.health",
+        "global.10B.countries.greece.health",
+        "global.10B.countries.guernsey.health",
+        "global.10B.countries.holy-see-vatican-city.health",
+        "global.10B.countries.hungary.health",
+        "global.10B.countries.iceland.health",
+        "global.10B.countries.ireland.health",
+        "global.10B.countries.isle-of-man.health",
+        "global.10B.countries.italy.health",
+        "global.10B.countries.jan-mayen.health",
+        "global.10B.countries.jersey.health",
+        "global.10B.countries.kazakhstan.health",
+        "global.10B.countries.kosovo.health",
+        "global.10B.countries.latvia.health",
+        "global.10B.countries.liechtenstein.health",
+        "global.10B.countries.lithuania.health",
+        "global.10B.countries.luxembourg.health",
+        "global.10B.countries.malta.health",
+        "global.10B.countries.moldova.health",
+        "global.10B.countries.monaco.health",
+        "global.10B.countries.montenegro.health",
+        "global.10B.countries.netherlands.health",
+        "global.10B.countries.north-macedonia.health",
+        "global.10B.countries.norway.health",
+        "global.10B.countries.poland.health",
+        "global.10B.countries.portugal.health",
+        "global.10B.countries.romania.health",
+        "global.10B.countries.san-marino.health",
+        "global.10B.countries.serbia.health",
+        "global.10B.countries.slovakia.health",
+        "global.10B.countries.slovenia.health",
+        "global.10B.countries.spain.health",
+        "global.10B.countries.sweden.health",
+        "global.10B.countries.switzerland.health",
+        "global.10B.countries.turkey-turkiye.health",
+        "global.10B.countries.ukraine.health",
+        "global.10B.countries.united-kingdom.health"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

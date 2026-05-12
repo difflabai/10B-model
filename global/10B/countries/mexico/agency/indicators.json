@@ -1,0 +1,39 @@
+{
+  "country": "Mexico",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Citizen's Movement (Movimiento Ciudadano) or MCInstitutional Revolutionary Party (Partido Revolucionario Institucional) or PRILabor Party (Partido del Trabajo) or PTMexican Green Ecological Party (Partido Verde Ecologista de México) or PVEMMovement for National Regeneration (Movimiento Regeneración Nacional) or MORENANational Action Party (Partido Acción Nacional) or PANParty of the Democratic Revolution (Partido de la Revolución Democrática) or PRDThis Is For Mexico (Va Por México) (alliance that includes PAN, PRI, and PRD)Together We Make History (Juntos Hacemos Historia) (alliance that included MORENA, PT, PVEM) (dissolved 23 December 2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "81% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "telecom reform in 2013 enabled the creation of new broadcast television channels after decades of a quasi-monopoly; Mexico has 885 TV stations and 1,841 radio stations and most are privately owned; the Televisa group once had a virtual monopoly in TV broadcasting, but new broadcasting groups and foreign satellite and cable operators are now available; in 2016, Mexico became the first country in Latin America to complete the transition from analog to digital transmissions, allowing for better image and audio quality and a wider selection of programming from networks (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.3% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

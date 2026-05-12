@@ -1,0 +1,47 @@
+{
+  "country": "chad",
+  "category_scores": {
+    "agency": 0.559,
+    "belonging": 0.6791,
+    "communications": 0.6573,
+    "education": 0.4791,
+    "energy": 0.3841,
+    "environment": 0.4383,
+    "food": 0.6639,
+    "governance": 0.7286,
+    "health": 0.4227,
+    "meaning": 0.63,
+    "mobility": 0.5756,
+    "safety": 0.6189,
+    "shelter": 0.6115,
+    "water": 0.6,
+    "work": 0.5771
+  },
+  "country_score": 0.575,
+  "tier_scores": {
+    "subsistence": 0.5834,
+    "development": 0.5346,
+    "agency": 0.607
+  },
+  "country_embedding": [
+    0.575,
+    0.80684,
+    0.53765,
+    0.57447,
+    0.11683,
+    0.05581,
+    0.07922,
+    -0.06489,
+    0.06434,
+    -0.06453,
+    0.0733,
+    0.22444,
+    -0.01146,
+    -0.11885,
+    0.2119,
+    0.05281
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Chad, the three needs areas with the largest gaps are: energy (0.38), health (0.42), environment (0.44).\nThe three strongest areas are: governance (0.73), belonging (0.68), food (0.66).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

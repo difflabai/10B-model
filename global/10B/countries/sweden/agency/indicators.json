@@ -1,0 +1,39 @@
+{
+  "country": "Sweden",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Center Party (Centerpartiet) or C Christian Democrats (Kristdemokraterna) or KD Green Party (Miljopartiet de Grona) or MP Left Party (Vansterpartiet) or V Moderate Party (Moderaterna) or M Sweden Democrats (Sverigedemokraterna) or SD Swedish Social Democratic Party (Socialdemokraterna) or S/SAP The Liberals (Liberalerna) or L",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "96% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "publicly owned TV broadcaster operates 2 terrestrial networks plus regional stations; multiple privately owned TV broadcasters operating nationally, regionally, and locally; about 50 local TV stations; widespread access to pan-Nordic and international broadcasters through multi-channel cable and satellite TV; publicly owned radio broadcaster operates 3 national stations and a network of 25 regional channels; roughly 100 privately owned local radio stations with some consolidating into near national networks; an estimated 900 community and neighborhood radio stations broadcast intermittently",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

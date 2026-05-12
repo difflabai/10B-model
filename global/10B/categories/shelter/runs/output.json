@@ -1,0 +1,26 @@
+{
+  "category": "shelter",
+  "countries_total": 257,
+  "countries_with_data": 247,
+  "countries_covered": 247,
+  "skipped_countries": [
+    "akrotiri",
+    "baker-island",
+    "dhekelia",
+    "french-southern-and-antarctic-lands",
+    "howland-island",
+    "jarvis-island",
+    "johnston-atoll",
+    "kingman-reef",
+    "midway-islands",
+    "palmyra-atoll"
+  ],
+  "coverage_ratio": 0.9611,
+  "world_mean": 0.6548,
+  "world_median": 0.6536,
+  "world_min": 0.55,
+  "world_max": 0.85,
+  "world_p10": 0.6007,
+  "world_p90": 0.7083,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

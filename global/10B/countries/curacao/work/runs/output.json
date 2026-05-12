@@ -1,0 +1,60 @@
+{
+  "country": "Curacao",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.8232,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7612
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.81
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8983
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.82318,
+    0.42857,
+    0.7612,
+    0.81,
+    0.13787,
+    -0.79358,
+    -0.13051,
+    -0.66397,
+    0.93219,
+    0.04451,
+    0.66763,
+    -0.2846,
+    -0.37511,
+    0.35567,
+    0.222,
+    0.87353
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

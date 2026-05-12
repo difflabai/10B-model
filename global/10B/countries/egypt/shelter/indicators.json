@@ -1,0 +1,34 @@
+{
+  "country": "Egypt",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "43.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "22.183 million CAIRO (capital), 5.588 million Alexandria, 778,000 Bur Sa'id (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "desert; hot, dry summers with moderate winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; hot, dry summers with moderate winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

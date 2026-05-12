@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.georgia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Georgia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.georgia.food",
+        "global.10B.countries.georgia.water",
+        "global.10B.countries.georgia.shelter",
+        "global.10B.countries.georgia.health",
+        "global.10B.countries.georgia.safety",
+        "global.10B.countries.georgia.education",
+        "global.10B.countries.georgia.work",
+        "global.10B.countries.georgia.energy",
+        "global.10B.countries.georgia.mobility",
+        "global.10B.countries.georgia.communications",
+        "global.10B.countries.georgia.governance",
+        "global.10B.countries.georgia.environment",
+        "global.10B.countries.georgia.belonging",
+        "global.10B.countries.georgia.meaning",
+        "global.10B.countries.georgia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

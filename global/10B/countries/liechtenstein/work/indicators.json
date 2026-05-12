@@ -1,0 +1,44 @@
+{
+  "country": "Liechtenstein",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "-0.4% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "38,520 (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "2.4% (2015)2.4% (2014)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

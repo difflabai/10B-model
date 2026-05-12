@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.education",
+        "global.10B.countries.angola.education",
+        "global.10B.countries.benin.education",
+        "global.10B.countries.botswana.education",
+        "global.10B.countries.bouvet-island.education",
+        "global.10B.countries.british-indian-ocean-territory.education",
+        "global.10B.countries.burkina-faso.education",
+        "global.10B.countries.burundi.education",
+        "global.10B.countries.cabo-verde.education",
+        "global.10B.countries.cameroon.education",
+        "global.10B.countries.central-african-republic.education",
+        "global.10B.countries.chad.education",
+        "global.10B.countries.comoros.education",
+        "global.10B.countries.congo-democratic-republic-of-the.education",
+        "global.10B.countries.congo-republic-of-the.education",
+        "global.10B.countries.djibouti.education",
+        "global.10B.countries.egypt.education",
+        "global.10B.countries.equatorial-guinea.education",
+        "global.10B.countries.eritrea.education",
+        "global.10B.countries.eswatini.education",
+        "global.10B.countries.ethiopia.education",
+        "global.10B.countries.gabon.education",
+        "global.10B.countries.gambia-the.education",
+        "global.10B.countries.ghana.education",
+        "global.10B.countries.guinea.education",
+        "global.10B.countries.guinea-bissau.education",
+        "global.10B.countries.kenya.education",
+        "global.10B.countries.lesotho.education",
+        "global.10B.countries.liberia.education",
+        "global.10B.countries.libya.education",
+        "global.10B.countries.madagascar.education",
+        "global.10B.countries.malawi.education",
+        "global.10B.countries.mali.education",
+        "global.10B.countries.mauritania.education",
+        "global.10B.countries.mauritius.education",
+        "global.10B.countries.morocco.education",
+        "global.10B.countries.mozambique.education",
+        "global.10B.countries.namibia.education",
+        "global.10B.countries.niger.education",
+        "global.10B.countries.nigeria.education",
+        "global.10B.countries.rwanda.education",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.education",
+        "global.10B.countries.sao-tome-and-principe.education",
+        "global.10B.countries.senegal.education",
+        "global.10B.countries.seychelles.education",
+        "global.10B.countries.sierra-leone.education",
+        "global.10B.countries.somalia.education",
+        "global.10B.countries.south-africa.education",
+        "global.10B.countries.south-sudan.education",
+        "global.10B.countries.sudan.education",
+        "global.10B.countries.tanzania.education",
+        "global.10B.countries.togo.education",
+        "global.10B.countries.tunisia.education",
+        "global.10B.countries.uganda.education",
+        "global.10B.countries.zambia.education",
+        "global.10B.countries.zimbabwe.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Korea, North",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no independent media; radios and TVs are pre-tuned to government stations; 4 government-owned TV stations; the Korean Workers' Party owns and operates the Korean Central Broadcasting Station, and the state-run Voice of Korea operates an external broadcast service; the government prohibits listening to and jams foreign broadcasts (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

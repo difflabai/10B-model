@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.puerto-rico",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Puerto Rico"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.puerto-rico.food",
+        "global.10B.countries.puerto-rico.water",
+        "global.10B.countries.puerto-rico.shelter",
+        "global.10B.countries.puerto-rico.health",
+        "global.10B.countries.puerto-rico.safety",
+        "global.10B.countries.puerto-rico.education",
+        "global.10B.countries.puerto-rico.work",
+        "global.10B.countries.puerto-rico.energy",
+        "global.10B.countries.puerto-rico.mobility",
+        "global.10B.countries.puerto-rico.communications",
+        "global.10B.countries.puerto-rico.governance",
+        "global.10B.countries.puerto-rico.environment",
+        "global.10B.countries.puerto-rico.belonging",
+        "global.10B.countries.puerto-rico.meaning",
+        "global.10B.countries.puerto-rico.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

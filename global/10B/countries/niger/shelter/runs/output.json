@@ -1,0 +1,52 @@
+{
+  "country": "Niger",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5993,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.4473
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.59933,
+    1.0,
+    0.4473,
+    0.55,
+    -0.08287,
+    0.84155,
+    -0.98791,
+    -0.10344,
+    -0.80035,
+    -0.22356,
+    -0.48293,
+    -0.75622,
+    -0.21468,
+    0.17504,
+    -0.11443,
+    -0.29665
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

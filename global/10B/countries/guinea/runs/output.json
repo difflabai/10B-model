@@ -1,0 +1,47 @@
+{
+  "country": "guinea",
+  "category_scores": {
+    "agency": 0.6756,
+    "belonging": 0.6315,
+    "communications": 0.7177,
+    "education": 0.4573,
+    "energy": 0.5325,
+    "environment": 0.4783,
+    "food": 0.5587,
+    "governance": 0.7429,
+    "health": 0.4042,
+    "meaning": 0.61,
+    "mobility": 0.4316,
+    "safety": 0.7017,
+    "shelter": 0.6593,
+    "water": 0.7167,
+    "work": 0.6267
+  },
+  "country_score": 0.5963,
+  "tier_scores": {
+    "subsistence": 0.6081,
+    "development": 0.5532,
+    "agency": 0.6277
+  },
+  "country_embedding": [
+    0.59632,
+    0.83795,
+    0.55638,
+    0.63672,
+    -0.14003,
+    -0.04278,
+    -0.16205,
+    0.114,
+    -0.03576,
+    0.10199,
+    -0.03872,
+    0.00032,
+    0.07332,
+    -0.07621,
+    0.12353,
+    0.206
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Guinea, the three needs areas with the largest gaps are: health (0.40), mobility (0.43), education (0.46).\nThe three strongest areas are: governance (0.74), communications (0.72), water (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

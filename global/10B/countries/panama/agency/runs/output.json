@@ -1,0 +1,56 @@
+{
+  "country": "Panama",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7583,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7414
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    }
+  ],
+  "embedding": [
+    0.75829,
+    0.83333,
+    0.85,
+    0.85,
+    -0.2607,
+    -0.09606,
+    -0.0345,
+    0.84714,
+    -0.85345,
+    0.12538,
+    -0.023,
+    0.77612,
+    -0.05855,
+    0.67849,
+    -0.88144,
+    0.52184
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

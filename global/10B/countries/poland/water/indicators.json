@@ -1,0 +1,39 @@
+{
+  "country": "Poland",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Wisla (Vistula) river source and mouth (shared with Belarus and Ukraine) - 1,213 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Zalew Szczecinski/Stettiner Haff (shared with Germany) - 900 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Black Sea) Danube (795,656 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate with cold, cloudy, moderately severe winters with frequent precipitation; mild summers with frequent showers and thundershowers",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

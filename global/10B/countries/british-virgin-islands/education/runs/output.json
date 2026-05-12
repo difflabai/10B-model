@@ -1,0 +1,52 @@
+{
+  "country": "British Virgin Islands",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.5747,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.424
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.57467,
+    0.6,
+    0.424,
+    0.65,
+    -0.47701,
+    -0.70468,
+    0.76593,
+    0.75683,
+    0.72543,
+    -0.79849,
+    -0.01543,
+    0.82095,
+    -0.46285,
+    0.35479,
+    0.88391,
+    0.88583
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

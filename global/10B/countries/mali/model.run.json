@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.mali",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Mali"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.mali.food",
+        "global.10B.countries.mali.water",
+        "global.10B.countries.mali.shelter",
+        "global.10B.countries.mali.health",
+        "global.10B.countries.mali.safety",
+        "global.10B.countries.mali.education",
+        "global.10B.countries.mali.work",
+        "global.10B.countries.mali.energy",
+        "global.10B.countries.mali.mobility",
+        "global.10B.countries.mali.communications",
+        "global.10B.countries.mali.governance",
+        "global.10B.countries.mali.environment",
+        "global.10B.countries.mali.belonging",
+        "global.10B.countries.mali.meaning",
+        "global.10B.countries.mali.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

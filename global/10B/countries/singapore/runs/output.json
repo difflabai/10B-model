@@ -1,0 +1,47 @@
+{
+  "country": "singapore",
+  "category_scores": {
+    "agency": 0.7484,
+    "belonging": 0.6609,
+    "communications": 0.75,
+    "education": 0.7409,
+    "energy": 0.525,
+    "environment": 0.4785,
+    "food": 0.48,
+    "governance": 0.7143,
+    "health": 0.826,
+    "meaning": 0.63,
+    "mobility": 0.5178,
+    "safety": 0.675,
+    "shelter": 0.6875,
+    "water": 0.75,
+    "work": 0.7086
+  },
+  "country_score": 0.6595,
+  "tier_scores": {
+    "subsistence": 0.6837,
+    "development": 0.6485,
+    "agency": 0.6464
+  },
+  "country_embedding": [
+    0.65953,
+    0.79595,
+    0.73934,
+    0.5333,
+    -0.09012,
+    -0.26188,
+    -0.03371,
+    0.16007,
+    0.13809,
+    -0.30509,
+    -0.06922,
+    0.09563,
+    0.09183,
+    -0.09216,
+    0.0124,
+    0.04147
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Singapore, the three needs areas with the largest gaps are: environment (0.48), food (0.48), mobility (0.52).\nThe three strongest areas are: health (0.83), water (0.75), communications (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "West Bank",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3333333333333333,
+  "indicators_scored": 2,
+  "indicators_total": 6,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": null
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.33333,
+    0.75,
+    0.65,
+    0.58798,
+    0.69265,
+    -0.54122,
+    -0.44689,
+    -0.12609,
+    0.56609,
+    -0.37453,
+    -0.59393,
+    -0.65954,
+    -0.5263,
+    0.18328,
+    -0.37316
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Tuvalu",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "there are no political parties, but members of parliament usually align themselves in informal groupings",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "81% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no TV stations; many households use satellite dishes to watch foreign TV stations; 1 government-owned radio station, Radio Tuvalu, includes relays of programming from international broadcasters (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

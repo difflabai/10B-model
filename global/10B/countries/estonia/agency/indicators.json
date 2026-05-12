@@ -1,0 +1,39 @@
+{
+  "country": "Estonia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; age 16 for local elections",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Conservative People's Party (Konservatiivne Rahvaerakond) or EKREEstonia 200 or E200Estonia Centre Party of (Keskerakond) or KEEstonian Free Party or VAPEstonian Greens or EEREstonian Nationalists and Conservatives or ERK Estonian Reform Party (Reformierakond) or REEstonian United Left Party or EÜVPFatherland or IPro Patria (Isamaa)The Right or PPSocial Democratic Party or SDE",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "93% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the publicly owned broadcaster, Eesti Rahvusringhaaling (ERR), operates 3 TV channels and 5 radio networks; growing number of private commercial radio stations broadcasting nationally, regionally, and locally; fully transitioned to digital television in 2010; national private TV channels expanding service; a range of channels are aimed at Russian-speaking viewers; in 2016, there were 42 on-demand services available in Estonia, including 19 pay TVOD and SVOD services; roughly 85% of households accessed digital television services",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

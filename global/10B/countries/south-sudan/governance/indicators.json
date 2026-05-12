@@ -1,0 +1,44 @@
+{
+  "country": "South Sudan",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 2005 (preindependence); latest signed 7 July 2011, effective 9 July 2011 (Transitional Constitution of the Republic of South Sudan, 2011); note - new constitution pending establishment under the 2018 peace agreement",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Salva KIIR Mayardit (since 9 July 2011)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AU, EAC, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, Interpol, IOM, IPU, ITU, MIGA, UN, UNCTAD, UNESCO, UPU, WCO, WHO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

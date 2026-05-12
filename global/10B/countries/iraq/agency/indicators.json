@@ -1,0 +1,39 @@
+{
+  "country": "Iraq",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Al Fatah AllianceAzm AllianceBabiliyun MovementImtidadIshraqat KonunKurdistan Democratic PartyNational Contract PartyNew Generation MovementPatriotic Union of KurdistanSadrist BlocState Forces AllianceState of Law CoalitionTaqadumTasmim Alliance",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "79% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the number of private radio and TV stations has increased rapidly since 2003; government-owned TV and radio stations are operated by the publicly funded Iraqi Media Network; private broadcast media are mostly linked to political, ethnic, or religious groups; satellite TV is available to an estimated 70% of viewers and many of the broadcasters are based abroad; transmissions of multiple international radio broadcasters are accessible (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.7% of GDP (2016)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

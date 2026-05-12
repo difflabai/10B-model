@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.canada",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Canada"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.canada.food",
+        "global.10B.countries.canada.water",
+        "global.10B.countries.canada.shelter",
+        "global.10B.countries.canada.health",
+        "global.10B.countries.canada.safety",
+        "global.10B.countries.canada.education",
+        "global.10B.countries.canada.work",
+        "global.10B.countries.canada.energy",
+        "global.10B.countries.canada.mobility",
+        "global.10B.countries.canada.communications",
+        "global.10B.countries.canada.governance",
+        "global.10B.countries.canada.environment",
+        "global.10B.countries.canada.belonging",
+        "global.10B.countries.canada.meaning",
+        "global.10B.countries.canada.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

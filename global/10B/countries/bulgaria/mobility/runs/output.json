@@ -1,0 +1,72 @@
+{
+  "country": "Bulgaria",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.4984,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3109
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7024
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4921
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.541
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4906
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5001
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.49839,
+    0.8,
+    0.3109,
+    0.7024,
+    -0.45492,
+    0.18563,
+    0.16814,
+    0.93433,
+    -0.96997,
+    0.06749,
+    -0.95389,
+    -0.98495,
+    -0.98239,
+    -0.78183,
+    0.251,
+    0.80096
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

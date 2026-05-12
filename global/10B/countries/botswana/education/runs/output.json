@@ -1,0 +1,52 @@
+{
+  "country": "Botswana",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7956,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8325
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79563,
+    0.8,
+    0.8325,
+    0.95,
+    -0.42373,
+    -0.41585,
+    0.19298,
+    -0.98865,
+    0.70022,
+    0.24987,
+    0.02364,
+    -0.51595,
+    -0.35073,
+    0.07747,
+    0.05818,
+    -0.45187
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

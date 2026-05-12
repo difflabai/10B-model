@@ -1,0 +1,56 @@
+{
+  "country": "United States",
+  "category": "water",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.8,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "score": 0.85
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "score": null
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8,
+    0.66667,
+    0.85,
+    0.65,
+    -0.00835,
+    0.18825,
+    -0.66934,
+    -0.77594,
+    -0.52651,
+    0.55865,
+    0.08464,
+    0.27471,
+    -0.64956,
+    -0.15917,
+    -0.99902,
+    -0.03404
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

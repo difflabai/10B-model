@@ -1,0 +1,84 @@
+{
+  "country": "Howland Island",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.07692307692307693,
+  "indicators_scored": 1,
+  "indicators_total": 13,
+  "composite_score": 0.4,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": null
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.4,
+    0.07692,
+    0.4,
+    0.0,
+    -0.79254,
+    -0.45217,
+    -0.73602,
+    -0.43426,
+    0.69808,
+    -0.9129,
+    -0.63436,
+    -0.75903,
+    0.13353,
+    -0.45232,
+    -0.31426,
+    -0.1415
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

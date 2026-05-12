@@ -1,0 +1,56 @@
+{
+  "country": "Vanuatu",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.685,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7071
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.368
+    }
+  ],
+  "embedding": [
+    0.68503,
+    0.83333,
+    0.85,
+    0.75,
+    -0.47195,
+    -0.39007,
+    -0.26009,
+    0.99136,
+    -0.90735,
+    0.63397,
+    -0.02364,
+    0.80581,
+    0.96081,
+    0.09328,
+    -0.57894,
+    -0.15135
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

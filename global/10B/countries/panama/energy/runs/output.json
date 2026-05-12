@@ -1,0 +1,84 @@
+{
+  "country": "Panama",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.6769,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.885
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.953
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8047
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.496
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.56
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.898
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.506
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.67689,
+    0.92308,
+    0.885,
+    0.953,
+    -0.72937,
+    0.32341,
+    -0.54751,
+    0.44591,
+    -0.87759,
+    0.74252,
+    -0.75732,
+    -0.6723,
+    0.79757,
+    0.75943,
+    0.1762,
+    0.09487
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

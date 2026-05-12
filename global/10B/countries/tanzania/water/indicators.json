@@ -1,0 +1,39 @@
+{
+  "country": "Tanzania",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Nile (shared with Rwanda [s], Uganda, South Sudan, Sudan, and Egypt [m]) - 6,650 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Rukwa - 5,760 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Congo (3,730,881 sq km), (Mediterranean Sea) Nile (3,254,853 sq km)Indian Ocean drainage: Zambezi (1,332,412 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical along coast to temperate in highlands",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

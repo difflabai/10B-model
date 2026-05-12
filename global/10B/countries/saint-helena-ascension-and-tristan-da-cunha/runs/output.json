@@ -1,0 +1,47 @@
+{
+  "country": "saint-helena-ascension-and-tristan-da-cunha",
+  "category_scores": {
+    "agency": 0.594,
+    "belonging": 0.6579,
+    "communications": 0.6669,
+    "education": 0.55,
+    "energy": 0.5367,
+    "environment": 0.3446,
+    "food": 0.6404,
+    "governance": 0.625,
+    "health": 0.7136,
+    "meaning": 0.625,
+    "mobility": 0.3382,
+    "safety": null,
+    "shelter": 0.6674,
+    "water": null,
+    "work": null
+  },
+  "country_score": 0.58,
+  "tier_scores": {
+    "subsistence": 0.6738,
+    "development": 0.523,
+    "agency": 0.5693
+  },
+  "country_embedding": [
+    0.46398,
+    0.48252,
+    0.49973,
+    0.40327,
+    -0.06858,
+    -0.07935,
+    -0.05796,
+    0.22606,
+    0.06902,
+    -0.10802,
+    -0.11075,
+    0.04147,
+    0.17368,
+    0.05588,
+    -0.05505,
+    -0.1713
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Helena Ascension And Tristan Da Cunha, the three needs areas with the largest gaps are: mobility (0.34), environment (0.34), energy (0.54).\nThe three strongest areas are: health (0.71), shelter (0.67), communications (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

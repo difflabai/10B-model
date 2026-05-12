@@ -1,0 +1,56 @@
+{
+  "country": "China",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7305,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.77
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    }
+  ],
+  "embedding": [
+    0.7305,
+    0.83333,
+    0.85,
+    0.55,
+    -0.87054,
+    0.74066,
+    0.84881,
+    -0.62206,
+    0.01103,
+    -0.87381,
+    -0.76678,
+    -0.2661,
+    -0.32903,
+    0.41396,
+    0.69952,
+    -0.39968
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

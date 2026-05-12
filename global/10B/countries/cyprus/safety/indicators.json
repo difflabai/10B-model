@@ -1,0 +1,39 @@
+{
+  "country": "Cyprus",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Republic of Cyprus: Cypriot National Guard (Ethniki Froura, EF; includes Army Land Forces, Naval Command, Air Command) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.8% of GDP (2023 est.)1.8% of GDP (2022)1.8% of GDP (2021)1.8% of GDP (2020)1.6% of GDP (2019)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "10,869 (Syria) (mid-year 2022); 17,270 (Ukraine) (as of 11 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

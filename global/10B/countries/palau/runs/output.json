@@ -1,0 +1,47 @@
+{
+  "country": "palau",
+  "category_scores": {
+    "agency": 0.69,
+    "belonging": 0.6816,
+    "communications": 0.6527,
+    "education": 0.8674,
+    "energy": 0.9694,
+    "environment": 0.5962,
+    "food": 0.6665,
+    "governance": 0.7143,
+    "health": 0.6593,
+    "meaning": 0.69,
+    "mobility": 0.3014,
+    "safety": 0.75,
+    "shelter": 0.6251,
+    "water": 0.65,
+    "work": 0.6443
+  },
+  "country_score": 0.6772,
+  "tier_scores": {
+    "subsistence": 0.6702,
+    "development": 0.687,
+    "agency": 0.6744
+  },
+  "country_embedding": [
+    0.67721,
+    0.70745,
+    0.71961,
+    0.54502,
+    -0.02694,
+    -0.13174,
+    0.12038,
+    -0.00557,
+    0.24278,
+    0.05072,
+    -0.08295,
+    0.25504,
+    -0.10814,
+    -0.0861,
+    -0.10572,
+    -0.05753
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Palau, the three needs areas with the largest gaps are: mobility (0.30), environment (0.60), shelter (0.63).\nThe three strongest areas are: energy (0.97), education (0.87), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

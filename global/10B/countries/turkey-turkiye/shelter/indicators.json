@@ -1,0 +1,34 @@
+{
+  "country": "Turkey (Turkiye)",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "77.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "15.848 million Istanbul, 5.397 million ANKARA (capital), 3.088 million Izmir, 2.086 million Bursa, 1.836 million Adana, 1.805 million Gaziantep (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the most densely populated area is found around the Bosporus in the northwest where 20% of the population lives in Istanbul; with the exception of Ankara, urban centers remain small and scattered throughout the interior of Anatolia; an overall pattern of peripheral development exists, particularly along the Aegean Sea coast in the west, and the Tigris and Euphrates River systems in the southeast",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; hot, dry summers with mild, wet winters; harsher in interior",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; hot, dry summers with mild, wet winters; harsher in interior",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

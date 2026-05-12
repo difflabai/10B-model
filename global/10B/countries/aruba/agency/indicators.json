@@ -1,0 +1,39 @@
+{
+  "country": "Aruba",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Accion21Aruban People's Party or AVPDemocratic Network or REDMovimiento Aruba Soberano (Aruban Sovereignty Movement) or MASPeople's Electoral Movement Party or MEPPueblo Orguyoso y Respeta or PORRAIZ (ROOTS)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Aruba observes freedom of the press, as guaranteed under Dutch law, the newspapers are in the Papiamento language, there are two commercial TV stations, a cable TV subscription service provides access to foreign channels and there are a wide range of commercial radio stations available (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

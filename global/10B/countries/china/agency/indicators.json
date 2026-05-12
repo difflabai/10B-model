@@ -1,0 +1,39 @@
+{
+  "country": "China",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Chinese Communist Party or CCP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "77% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "all broadcast media are owned by, or affiliated with, the Chinese Communisty Party (CCP) or a government agency; no privately owned TV or radio stations; state-run Chinese Central TV, provincial, and municipal stations offer more than 2,000 channels; the Central Propaganda Department as well as local (provincial, municipal) sends directives to all domestic media outlets to guide its reporting with the government maintaining authority to approve all programming; foreign-made TV programs must be approved/censored prior to broadcast; increasingly, PRC nationals turn to online platforms (Bilibili, Tencent Video, iQiyi, etc) to access PRC and international films and television shows.  Video platforms have to abide by regulations issued by the Cyberspace Administration of China (CAC), which align with censorship policies from CCP propaganda authorities. (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,84 @@
+{
+  "country": "Seychelles",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6153846153846154,
+  "indicators_scored": 8,
+  "indicators_total": 13,
+  "composite_score": 0.5488,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2325
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6975
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.44
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.54875,
+    0.61538,
+    0.97,
+    0.55,
+    -0.12279,
+    -0.7312,
+    0.39074,
+    -0.6145,
+    -0.24508,
+    -0.96902,
+    -0.09178,
+    0.35476,
+    -0.31469,
+    0.13042,
+    -0.5534,
+    -0.11278
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

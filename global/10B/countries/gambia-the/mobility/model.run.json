@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.gambia-the.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Gambia, The"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "mobility"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.energy",
+        "global.10B.countries.andorra.energy",
+        "global.10B.countries.armenia.energy",
+        "global.10B.countries.austria.energy",
+        "global.10B.countries.azerbaijan.energy",
+        "global.10B.countries.belarus.energy",
+        "global.10B.countries.belgium.energy",
+        "global.10B.countries.bosnia-and-herzegovina.energy",
+        "global.10B.countries.bulgaria.energy",
+        "global.10B.countries.croatia.energy",
+        "global.10B.countries.cyprus.energy",
+        "global.10B.countries.czechia.energy",
+        "global.10B.countries.denmark.energy",
+        "global.10B.countries.estonia.energy",
+        "global.10B.countries.faroe-islands.energy",
+        "global.10B.countries.finland.energy",
+        "global.10B.countries.georgia.energy",
+        "global.10B.countries.germany.energy",
+        "global.10B.countries.gibraltar.energy",
+        "global.10B.countries.greece.energy",
+        "global.10B.countries.guernsey.energy",
+        "global.10B.countries.holy-see-vatican-city.energy",
+        "global.10B.countries.hungary.energy",
+        "global.10B.countries.iceland.energy",
+        "global.10B.countries.ireland.energy",
+        "global.10B.countries.isle-of-man.energy",
+        "global.10B.countries.italy.energy",
+        "global.10B.countries.jan-mayen.energy",
+        "global.10B.countries.jersey.energy",
+        "global.10B.countries.kazakhstan.energy",
+        "global.10B.countries.kosovo.energy",
+        "global.10B.countries.latvia.energy",
+        "global.10B.countries.liechtenstein.energy",
+        "global.10B.countries.lithuania.energy",
+        "global.10B.countries.luxembourg.energy",
+        "global.10B.countries.malta.energy",
+        "global.10B.countries.moldova.energy",
+        "global.10B.countries.monaco.energy",
+        "global.10B.countries.montenegro.energy",
+        "global.10B.countries.netherlands.energy",
+        "global.10B.countries.north-macedonia.energy",
+        "global.10B.countries.norway.energy",
+        "global.10B.countries.poland.energy",
+        "global.10B.countries.portugal.energy",
+        "global.10B.countries.romania.energy",
+        "global.10B.countries.san-marino.energy",
+        "global.10B.countries.serbia.energy",
+        "global.10B.countries.slovakia.energy",
+        "global.10B.countries.slovenia.energy",
+        "global.10B.countries.spain.energy",
+        "global.10B.countries.sweden.energy",
+        "global.10B.countries.switzerland.energy",
+        "global.10B.countries.turkey-turkiye.energy",
+        "global.10B.countries.ukraine.energy",
+        "global.10B.countries.united-kingdom.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

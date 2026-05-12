@@ -1,0 +1,84 @@
+{
+  "country": "Angola",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5122,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.3494
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.6275
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.1
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.7833
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.304
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.9115
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.509
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.51225,
+    0.84615,
+    0.3494,
+    0.6275,
+    0.55398,
+    0.5361,
+    0.76904,
+    -0.01717,
+    -0.5107,
+    0.22652,
+    -0.52456,
+    -0.56545,
+    -0.91183,
+    -0.73208,
+    0.50842,
+    0.88421
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

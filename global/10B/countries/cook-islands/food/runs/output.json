@@ -1,0 +1,52 @@
+{
+  "country": "Cook Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.556,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.368
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.556,
+    0.6,
+    0.75,
+    0.368,
+    -0.78418,
+    0.72201,
+    -0.40209,
+    -0.71295,
+    0.67596,
+    0.47741,
+    0.16136,
+    0.84729,
+    0.61288,
+    -0.19121,
+    -0.99216,
+    -0.05815
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

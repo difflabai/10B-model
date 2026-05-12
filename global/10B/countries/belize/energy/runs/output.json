@@ -1,0 +1,84 @@
+{
+  "country": "Belize",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6951,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.9462
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9428
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9352
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8253
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.444
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.7025
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.8
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.69509,
+    0.84615,
+    0.9462,
+    0.9428,
+    -0.08675,
+    -0.31078,
+    -0.87634,
+    0.37615,
+    0.14867,
+    -0.99948,
+    -0.7355,
+    0.17552,
+    0.27654,
+    0.53518,
+    0.52535,
+    -0.14162
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

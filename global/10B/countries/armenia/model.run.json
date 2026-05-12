@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.armenia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Armenia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.armenia.food",
+        "global.10B.countries.armenia.water",
+        "global.10B.countries.armenia.shelter",
+        "global.10B.countries.armenia.health",
+        "global.10B.countries.armenia.safety",
+        "global.10B.countries.armenia.education",
+        "global.10B.countries.armenia.work",
+        "global.10B.countries.armenia.energy",
+        "global.10B.countries.armenia.mobility",
+        "global.10B.countries.armenia.communications",
+        "global.10B.countries.armenia.governance",
+        "global.10B.countries.armenia.environment",
+        "global.10B.countries.armenia.belonging",
+        "global.10B.countries.armenia.meaning",
+        "global.10B.countries.armenia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

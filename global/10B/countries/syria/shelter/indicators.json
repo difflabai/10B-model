@@ -1,0 +1,34 @@
+{
+  "country": "Syria",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "57.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.585 million DAMASCUS (capital), 2.203 million Aleppo, 1.443 million Hims (Homs), 996,000 Hamah (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "significant population density along the Mediterranean coast; larger concentrations found in the major cities of Damascus, Aleppo (the country's largest city), and Hims (Homs); more than half of the population lives in the coastal plain, the province of Halab, and the Euphrates River valley",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly desert; hot, dry, sunny summers (June to August) and mild, rainy winters (December to February) along coast; cold weather with snow or sleet periodically in Damascus",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly desert; hot, dry, sunny summers (June to August) and mild, rainy winters (December to February) along coast; cold weather with snow or sleet periodically in Damascus",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

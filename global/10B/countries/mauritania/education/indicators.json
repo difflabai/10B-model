@@ -1,0 +1,34 @@
+{
+  "country": "Mauritania",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "67%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.9% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "9 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Arabic (official and national), Pular, Soninke, Wolof (all national languages), French",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "كتاب حقائق العالم، المصدر الذي لا يمكن الاستغناء عنه للمعلومات الأساسية (Arabic)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

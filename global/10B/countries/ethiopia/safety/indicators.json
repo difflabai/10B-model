@@ -1,0 +1,39 @@
+{
+  "country": "Ethiopia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Ethiopian National Defense Force (ENDF): Ground Forces (Army), Ethiopian Air Force (Ye Ityopya Ayer Hayl, ETAF) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2023 est.)1.7% of GDP (2022 est.)0.5% of GDP (2021 est.)0.5% of GDP (2020 est.)0.6% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "167,391 (Eritrea) (2023); 420,502 (South Sudan), 314,976 (Somalia), 111,778 (Sudan) (refugees since 15 April 2023) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

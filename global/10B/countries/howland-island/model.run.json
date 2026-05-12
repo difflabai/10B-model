@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.howland-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Howland Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.howland-island.food",
+        "global.10B.countries.howland-island.water",
+        "global.10B.countries.howland-island.shelter",
+        "global.10B.countries.howland-island.health",
+        "global.10B.countries.howland-island.safety",
+        "global.10B.countries.howland-island.education",
+        "global.10B.countries.howland-island.work",
+        "global.10B.countries.howland-island.energy",
+        "global.10B.countries.howland-island.mobility",
+        "global.10B.countries.howland-island.communications",
+        "global.10B.countries.howland-island.governance",
+        "global.10B.countries.howland-island.environment",
+        "global.10B.countries.howland-island.belonging",
+        "global.10B.countries.howland-island.meaning",
+        "global.10B.countries.howland-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

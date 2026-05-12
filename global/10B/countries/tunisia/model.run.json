@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tunisia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tunisia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tunisia.food",
+        "global.10B.countries.tunisia.water",
+        "global.10B.countries.tunisia.shelter",
+        "global.10B.countries.tunisia.health",
+        "global.10B.countries.tunisia.safety",
+        "global.10B.countries.tunisia.education",
+        "global.10B.countries.tunisia.work",
+        "global.10B.countries.tunisia.energy",
+        "global.10B.countries.tunisia.mobility",
+        "global.10B.countries.tunisia.communications",
+        "global.10B.countries.tunisia.governance",
+        "global.10B.countries.tunisia.environment",
+        "global.10B.countries.tunisia.belonging",
+        "global.10B.countries.tunisia.meaning",
+        "global.10B.countries.tunisia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

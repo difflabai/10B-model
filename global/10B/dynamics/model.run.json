@@ -1,0 +1,20 @@
+{
+  "modelId": "global.10B.dynamics",
+  "engine": "closed-form",
+  "inputs": {
+    "country-profiles": {
+      "glob": "../countries/*/runs/output.json"
+    },
+    "needs-tree": {
+      "path": "../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "algorithm": "k-means++",
+      "k": 6,
+      "seed": 42
+    }
+  },
+  "output": "../runs/macro-dynamics.json"
+}

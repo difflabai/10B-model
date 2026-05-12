@@ -1,0 +1,56 @@
+{
+  "country": "Kuwait",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7932,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.866
+    }
+  ],
+  "embedding": [
+    0.7932,
+    0.83333,
+    0.55,
+    0.75,
+    -0.6759,
+    0.62683,
+    -0.48864,
+    -0.61419,
+    -0.7753,
+    -0.52935,
+    0.24019,
+    0.85019,
+    0.30568,
+    -0.44466,
+    -0.44701,
+    -0.2997
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

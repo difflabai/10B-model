@@ -1,0 +1,47 @@
+{
+  "country": "comoros",
+  "category_scores": {
+    "agency": 0.6188,
+    "belonging": 0.6816,
+    "communications": 0.6488,
+    "education": 0.5431,
+    "energy": 0.5986,
+    "environment": 0.47,
+    "food": 0.6005,
+    "governance": 0.7143,
+    "health": 0.4776,
+    "meaning": 0.63,
+    "mobility": 0.3021,
+    "safety": 0.75,
+    "shelter": 0.621,
+    "water": 0.65,
+    "work": 0.6434
+  },
+  "country_score": 0.5967,
+  "tier_scores": {
+    "subsistence": 0.6198,
+    "development": 0.5472,
+    "agency": 0.6229
+  },
+  "country_embedding": [
+    0.59664,
+    0.74706,
+    0.60549,
+    0.53728,
+    -0.31512,
+    0.13404,
+    -0.15228,
+    -0.21376,
+    -0.17598,
+    0.11359,
+    0.08911,
+    -0.17461,
+    -0.18187,
+    -0.12117,
+    -0.05225,
+    -0.17938
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Comoros, the three needs areas with the largest gaps are: mobility (0.30), environment (0.47), health (0.48).\nThe three strongest areas are: safety (0.75), governance (0.71), belonging (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

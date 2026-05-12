@@ -1,0 +1,47 @@
+{
+  "country": "united-arab-emirates",
+  "category_scores": {
+    "agency": 0.72,
+    "belonging": 0.6731,
+    "communications": 0.7632,
+    "education": 0.7644,
+    "energy": 0.554,
+    "environment": 0.4245,
+    "food": 0.5243,
+    "governance": 0.65,
+    "health": 0.7223,
+    "meaning": 0.65,
+    "mobility": 0.6255,
+    "safety": 0.6333,
+    "shelter": 0.6447,
+    "water": 0.55,
+    "work": 0.8416
+  },
+  "country_score": 0.6494,
+  "tier_scores": {
+    "subsistence": 0.6149,
+    "development": 0.7097,
+    "agency": 0.6235
+  },
+  "country_embedding": [
+    0.6494,
+    0.7915,
+    0.6949,
+    0.56318,
+    -0.1104,
+    -0.09447,
+    -0.0024,
+    -0.04839,
+    -0.04079,
+    0.05278,
+    -0.04918,
+    0.02534,
+    -0.11675,
+    0.25738,
+    -0.06848,
+    -0.01386
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in United Arab Emirates, the three needs areas with the largest gaps are: environment (0.42), food (0.52), water (0.55).\nThe three strongest areas are: work (0.84), education (0.76), communications (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

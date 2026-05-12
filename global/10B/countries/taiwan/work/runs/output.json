@@ -1,0 +1,60 @@
+{
+  "country": "Taiwan",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7677,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8687
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.721
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.875
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.8635
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.728
+    }
+  ],
+  "embedding": [
+    0.7677,
+    0.85714,
+    0.8687,
+    0.721,
+    0.05476,
+    0.4464,
+    0.04131,
+    -0.93079,
+    0.79486,
+    0.61764,
+    0.17253,
+    0.19258,
+    -0.21419,
+    -0.17583,
+    0.98691,
+    -0.77496
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

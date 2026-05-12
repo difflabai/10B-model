@@ -1,0 +1,52 @@
+{
+  "country": "Slovenia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8469,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9664
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.818
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.84688,
+    1.0,
+    0.9664,
+    0.818,
+    0.31048,
+    0.11,
+    0.48495,
+    0.26839,
+    -0.48122,
+    -0.5834,
+    0.27785,
+    0.54379,
+    0.48202,
+    0.06435,
+    -0.76834,
+    0.27858
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

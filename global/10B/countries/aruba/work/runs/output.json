@@ -1,0 +1,60 @@
+{
+  "country": "Aruba",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.7727,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8512
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.813
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7617
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.665
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.77272,
+    0.57143,
+    0.8512,
+    0.813,
+    0.34234,
+    -0.05373,
+    -0.2015,
+    0.54226,
+    -0.75863,
+    0.092,
+    -0.46316,
+    -0.32409,
+    0.61743,
+    -0.56512,
+    -0.89642,
+    -0.58511
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

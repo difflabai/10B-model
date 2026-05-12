@@ -1,0 +1,60 @@
+{
+  "country": "Saint Martin",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6583,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.65833,
+    0.85714,
+    0.8,
+    0.55,
+    0.91794,
+    0.45083,
+    -0.15126,
+    -0.36443,
+    0.59075,
+    -0.46221,
+    -0.97266,
+    0.87295,
+    0.24358,
+    0.59429,
+    -0.84103,
+    0.53265
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

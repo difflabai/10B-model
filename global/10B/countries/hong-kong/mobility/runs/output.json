@@ -1,0 +1,72 @@
+{
+  "country": "Hong Kong",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.5256,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2073
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.226
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2556
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7322
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.7823
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.52556,
+    0.6,
+    0.2073,
+    0.226,
+    0.00529,
+    -0.31606,
+    -0.37438,
+    -0.67968,
+    0.01122,
+    -0.04173,
+    0.61331,
+    0.22289,
+    -0.5848,
+    0.18935,
+    -0.47808,
+    -0.99957
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

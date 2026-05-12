@@ -1,0 +1,59 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "198 km (Saint Helena 138 km, Ascension 40 km, Tristan da Cunha 20 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "168 km (Saint Helena 118 km, Ascension 40 km, Tristan da Cunha 10 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "30 km (2002) (Saint Helena 20 km, Tristan da Cunha 10 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "2 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "2 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

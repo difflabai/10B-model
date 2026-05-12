@@ -1,0 +1,60 @@
+{
+  "country": "United States",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7563,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.933
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.739
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7733
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.8685
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.574
+    }
+  ],
+  "embedding": [
+    0.75631,
+    0.85714,
+    0.933,
+    0.739,
+    -0.9881,
+    0.77426,
+    0.41115,
+    0.09767,
+    -0.86084,
+    -0.9852,
+    0.33501,
+    0.14366,
+    0.94766,
+    0.27474,
+    -0.94327,
+    0.90967
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

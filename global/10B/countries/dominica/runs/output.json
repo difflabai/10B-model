@@ -1,0 +1,47 @@
+{
+  "country": "dominica",
+  "category_scores": {
+    "agency": 0.776,
+    "belonging": 0.6496,
+    "communications": 0.6836,
+    "education": 0.675,
+    "energy": 0.5277,
+    "environment": 0.5846,
+    "food": 0.6789,
+    "governance": 0.7,
+    "health": 0.7005,
+    "meaning": 0.61,
+    "mobility": 0.2962,
+    "safety": 0.75,
+    "shelter": 0.6605,
+    "water": 0.65,
+    "work": 0.7563
+  },
+  "country_score": 0.6466,
+  "tier_scores": {
+    "subsistence": 0.688,
+    "development": 0.5878,
+    "agency": 0.664
+  },
+  "country_embedding": [
+    0.6466,
+    0.6925,
+    0.68233,
+    0.53921,
+    -0.00521,
+    -0.10713,
+    0.14231,
+    -0.10319,
+    -0.1671,
+    0.2171,
+    -0.07072,
+    -0.02673,
+    0.11049,
+    -0.00124,
+    0.13422,
+    -0.14052
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Dominica, the three needs areas with the largest gaps are: mobility (0.30), energy (0.53), environment (0.58).\nThe three strongest areas are: agency (0.78), work (0.76), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

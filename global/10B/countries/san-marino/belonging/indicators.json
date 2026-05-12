@@ -1,0 +1,44 @@
+{
+  "country": "San Marino",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "Sammarinese, Italian",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Roman Catholic",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Italian",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4,000 SAN MARINO (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": "5.6 migrant(s)/1,000 population (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": "1.54 children born/woman (2024 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Thailand",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Royal Thai Armed Forces (Kongthap Thai, RTARF): Royal Thai Army (Kongthap Bok Thai, RTA), Royal Thai Navy (Kongthap Ruea Thai, RTN; includes Royal Thai Marine Corps), Royal Thai Air Force (Kongthap Akaat Thai, RTAF)Office of the Prime Minister: Royal Thai Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.3% of GDP (2023 est.)1.3% of GDP (2022 est.)1.3% of GDP (2021 est.)1.4% of GDP (2020 est.)1.3% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "91,339 (Burma) (refugees and asylum seekers) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Austria",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "59.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.975 million VIENNA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the northern and eastern portions of the country are more densely populated; nearly two-thirds of the populace lives in urban areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

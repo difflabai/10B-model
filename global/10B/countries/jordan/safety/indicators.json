@@ -1,0 +1,39 @@
+{
+  "country": "Jordan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Jordanian Armed Forces (JAF): Royal Jordanian Army (includes Special Operations Forces, Border Guards, Royal Guard), Royal Jordanian Air Force, Royal Jordanian NavyMinistry of Interior: Public Security Directorate (includes national police, the Gendarmerie, and the Civil Defense Directorate) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4.5% of GDP (2023 est.)4.8% of GDP (2022 est.)5% of GDP (2021 est.)5% of GDP (2020 est.)5.6% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "2.4 million (Palestinian refugees) (2020); 12,866 (Yemen), 6,013 Sudan (2021); 33,951 (Iraq) (mid-year 2022) (2022); 638,760 (Syria) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,64 @@
+{
+  "country": "Peru",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "122 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "41.3 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "4 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "1.504 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "10 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "3.53 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "after suffering a sharp retraction in the number of subscriptions and revenue during 2020 due to the pandemic, Peru’s telecom sector managed to stage a small recovery in the first half of 2021; it will likely be two to three years before penetration rates return to the peak levels last seen in 2018; this is especially true given the overwhelming influence of mobile on Peru’s telecommunications market, which now commands almost 95% of all connections; Peru’s fixed-line teledensity continued its slow dropping below 7% at the end of 2021; investment in network infrastructure is mainly focused on rolling out fiber cable for fixed broadband services in (mainly) urban areas; fixed broadband services inched higher to reach 8.4% at the end of 2020, a positive result that reflected the shift to working from home during enforced lock downs at the start of the year; yet Peru has a relatively low level of computer use, and prices for fixed broadband services are among the highest in Latin America; the overwhelmingly preferred internet access platform will remain the smartphone, with a further 8.6% growth in the number of mobile broadband subscriptions expected in 2021 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is 7 per 100 persons; mobile-cellular teledensity is 128 telephones per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 51; landing points for the SAM-1, IGW, American Movil-Telxius, SAC and PAN-AM submarine cable systems that provide links to parts of Central and South America, the Caribbean, and US; satellite earth stations - 2 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "10 major TV networks of which only one, Television Nacional de Peru, is state owned; multi-channel cable TV services are available; in excess of 5,000 radio stations including a substantial number of indigenous language stations (2021)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

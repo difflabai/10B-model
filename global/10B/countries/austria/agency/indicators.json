@@ -1,0 +1,39 @@
+{
+  "country": "Austria",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Austrian People's Party or OeVP Freedom Party of Austria or FPOe The Greens - The Green Alternative NEOS - The New Austria and Liberal Forum Social Democratic Party of Austria or SPOe",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "95% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Austria's public broadcaster, Oesterreichischer Rundfunk (ORF), is a major player in the TV and radio markets, it faces competition from private broadcasters, cable or satellite TV is available in most homes and is often used to watch German stations, some of which carry programs for Austrian viewers, a daily newspaper is a must for many Austrians, national and regional titles contest fiercely for readers, the print media are owned by a handful of mostly Austrian and German media groups (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

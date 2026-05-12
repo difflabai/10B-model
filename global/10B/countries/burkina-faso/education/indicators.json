@@ -1,0 +1,34 @@
+{
+  "country": "Burkina Faso",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "46%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "9 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Mossi 52.9%, Fula 7.8%, Gourmantche 6.8%, Dyula 5.7%, Bissa 3.3%, Gurunsi 3.2%, French (official) 2.2%, Bwamu 2%, Dagara 2%, San 1.7%, Marka 1.6%, Bobo 1.5%, Senufo 1.5%, Lobi 1.2%, other 6.6% (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

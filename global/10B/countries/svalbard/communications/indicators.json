@@ -1,0 +1,64 @@
+{
+  "country": "Svalbard",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Svalbard Undersea Cable System is a twin submarine communications cable which connects Svalbard to the mainland of Norway (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "the Svalbard Satellite Station - connected to the mainland via the Svalbard Undersea Cable System - is the only Arctic ground station that can see low-altitude, polar-orbiting satellites; it provides ground services to more satellites than any other facility in the world (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 47-790; the Svalbard Undersea Cable System is a twin communications cable that connects Svalbard to mainland Norway; the system is the sole telecommunications link to the archipelago (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Norwegian Broadcasting Corporation (NRK) began direct TV transmission to Svalbard via satellite in 1984; Longyearbyen households have access to 3 NRK radio and 2 TV stations",
+      "present": true
+    }
+  ],
+  "coverage": 0.36363636363636365
+}

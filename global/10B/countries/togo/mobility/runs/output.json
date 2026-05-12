@@ -1,0 +1,72 @@
+{
+  "country": "Togo",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.3671,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2548
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2199
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.3667
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.415
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2787
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3686
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.36707,
+    0.9,
+    0.2548,
+    0.2199,
+    -0.5469,
+    -0.53628,
+    0.25695,
+    -0.01958,
+    -0.28106,
+    0.97763,
+    0.26897,
+    0.73681,
+    0.17153,
+    0.45895,
+    -0.59866,
+    -0.15019
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

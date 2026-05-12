@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.united-states.education",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "United States"
+    },
+    "category": {
+      "value": "education"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "education"
+    }
+  },
+  "output": "./runs/output.json"
+}

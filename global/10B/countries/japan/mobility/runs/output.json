@@ -1,0 +1,72 @@
+{
+  "country": "Japan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.766,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.824
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.8661
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7398
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.95
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6064
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6987
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8255
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.76605,
+    1.0,
+    0.824,
+    0.8661,
+    0.32403,
+    -0.95966,
+    0.42995,
+    -0.41845,
+    -0.79828,
+    0.74771,
+    -0.86099,
+    -0.90329,
+    -0.77008,
+    0.73916,
+    -0.33465,
+    0.53259
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

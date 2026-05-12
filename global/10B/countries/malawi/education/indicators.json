@@ -1,0 +1,34 @@
+{
+  "country": "Malawi",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "67.3%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.9% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "11 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official), Chewa (dominant), Lambya, Lomwe, Ngoni, Nkhonde, Nyakyusa, Nyanja, Sena, Tonga, Tumbuka, Yao",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

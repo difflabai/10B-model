@@ -1,0 +1,39 @@
+{
+  "country": "Mexico",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Rio Grande river mouth (shared with US [s]) - 3,057 km; Colorado river mouth (shared with US [s]) - 2,333 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Laguna de Terminos - 1,550 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Gulf of America) Rio Grande/Bravo (607,965 sq km)Pacific Ocean drainage: (Gulf of California) Colorado (703,148 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical to desert",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

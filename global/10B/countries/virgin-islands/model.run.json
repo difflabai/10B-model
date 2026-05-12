@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.virgin-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Virgin Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.virgin-islands.food",
+        "global.10B.countries.virgin-islands.water",
+        "global.10B.countries.virgin-islands.shelter",
+        "global.10B.countries.virgin-islands.health",
+        "global.10B.countries.virgin-islands.safety",
+        "global.10B.countries.virgin-islands.education",
+        "global.10B.countries.virgin-islands.work",
+        "global.10B.countries.virgin-islands.energy",
+        "global.10B.countries.virgin-islands.mobility",
+        "global.10B.countries.virgin-islands.communications",
+        "global.10B.countries.virgin-islands.governance",
+        "global.10B.countries.virgin-islands.environment",
+        "global.10B.countries.virgin-islands.belonging",
+        "global.10B.countries.virgin-islands.meaning",
+        "global.10B.countries.virgin-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

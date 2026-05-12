@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.burundi.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Burundi"
+    },
+    "category": {
+      "value": "work"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "work"
+    }
+  },
+  "output": "./runs/output.json"
+}

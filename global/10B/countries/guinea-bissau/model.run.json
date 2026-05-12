@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.guinea-bissau",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Guinea-Bissau"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.guinea-bissau.food",
+        "global.10B.countries.guinea-bissau.water",
+        "global.10B.countries.guinea-bissau.shelter",
+        "global.10B.countries.guinea-bissau.health",
+        "global.10B.countries.guinea-bissau.safety",
+        "global.10B.countries.guinea-bissau.education",
+        "global.10B.countries.guinea-bissau.work",
+        "global.10B.countries.guinea-bissau.energy",
+        "global.10B.countries.guinea-bissau.mobility",
+        "global.10B.countries.guinea-bissau.communications",
+        "global.10B.countries.guinea-bissau.governance",
+        "global.10B.countries.guinea-bissau.environment",
+        "global.10B.countries.guinea-bissau.belonging",
+        "global.10B.countries.guinea-bissau.meaning",
+        "global.10B.countries.guinea-bissau.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

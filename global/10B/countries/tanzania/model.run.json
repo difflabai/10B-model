@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tanzania",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tanzania"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tanzania.food",
+        "global.10B.countries.tanzania.water",
+        "global.10B.countries.tanzania.shelter",
+        "global.10B.countries.tanzania.health",
+        "global.10B.countries.tanzania.safety",
+        "global.10B.countries.tanzania.education",
+        "global.10B.countries.tanzania.work",
+        "global.10B.countries.tanzania.energy",
+        "global.10B.countries.tanzania.mobility",
+        "global.10B.countries.tanzania.communications",
+        "global.10B.countries.tanzania.governance",
+        "global.10B.countries.tanzania.environment",
+        "global.10B.countries.tanzania.belonging",
+        "global.10B.countries.tanzania.meaning",
+        "global.10B.countries.tanzania.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

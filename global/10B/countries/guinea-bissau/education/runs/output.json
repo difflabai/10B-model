@@ -1,0 +1,52 @@
+{
+  "country": "Guinea-Bissau",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.542,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.4379
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54196,
+    0.6,
+    0.4379,
+    0.438,
+    -0.68521,
+    -0.23082,
+    0.40639,
+    -0.40545,
+    -0.46401,
+    0.80737,
+    0.53896,
+    0.1938,
+    0.97195,
+    0.31301,
+    -0.04399,
+    -0.47173
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

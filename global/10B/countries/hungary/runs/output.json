@@ -1,0 +1,47 @@
+{
+  "country": "hungary",
+  "category_scores": {
+    "agency": 0.8345,
+    "belonging": 0.6679,
+    "communications": 0.7345,
+    "education": 0.8018,
+    "energy": 0.6236,
+    "environment": 0.5349,
+    "food": 0.7232,
+    "governance": 0.7429,
+    "health": 0.7268,
+    "meaning": 0.69,
+    "mobility": 0.641,
+    "safety": 0.6033,
+    "shelter": 0.6346,
+    "water": 0.6833,
+    "work": 0.6716
+  },
+  "country_score": 0.6876,
+  "tier_scores": {
+    "subsistence": 0.6742,
+    "development": 0.6945,
+    "agency": 0.694
+  },
+  "country_embedding": [
+    0.68759,
+    0.85419,
+    0.75456,
+    0.66704,
+    -0.01579,
+    -0.11631,
+    0.11251,
+    0.04973,
+    -0.1594,
+    0.10135,
+    0.01907,
+    -0.05666,
+    -0.04094,
+    0.07428,
+    -0.11837,
+    -0.05772
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Hungary, the three needs areas with the largest gaps are: environment (0.53), safety (0.60), energy (0.62).\nThe three strongest areas are: agency (0.83), education (0.80), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

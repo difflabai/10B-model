@@ -1,0 +1,39 @@
+{
+  "country": "Mozambique",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Movement of Mozambique (Movimento Democratico de Mocambique) or MDMLiberation Front of Mozambique (Frente de Liberatacao de Mocambique) or FRELIMOMozambican National Resistance (Resistencia Nacional Mocambicana) or RENAMO",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "21% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-run TV station supplemented by private TV station; Portuguese state TV's African service, RTP Africa, and Brazilian-owned TV Miramar are available; state-run radio provides nearly 100% territorial coverage and broadcasts in multiple languages; a number of privately owned and community-operated stations; transmissions of multiple international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.3% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

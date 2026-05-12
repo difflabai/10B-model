@@ -1,0 +1,72 @@
+{
+  "country": "Burma",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5466,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5713
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.5631
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.625
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4658
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.776
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5502
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5147
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.54661,
+    1.0,
+    0.5713,
+    0.5631,
+    0.59561,
+    -0.35393,
+    0.92917,
+    -0.26372,
+    -0.21529,
+    -0.69287,
+    -0.79821,
+    0.57671,
+    -0.38796,
+    0.13689,
+    0.9978,
+    -0.22414
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Chile",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "88% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "6.903 million SANTIAGO (capital), 1.009 million Valparaiso, 912,000 Concepcion (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "90% of the population is located in the middle third of the country around the capital of Santiago; the far north (anchored by the Atacama Desert) and the extreme south are relatively underpopulated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; desert in north; Mediterranean in central region; cool and damp in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; desert in north; Mediterranean in central region; cool and damp in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

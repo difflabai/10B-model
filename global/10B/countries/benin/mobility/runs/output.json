@@ -1,0 +1,72 @@
+{
+  "country": "Benin",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4264,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2918
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.45
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.445
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2707
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.231
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7459
+    }
+  ],
+  "embedding": [
+    0.42636,
+    0.7,
+    0.2918,
+    0.45,
+    -0.65246,
+    0.57192,
+    -0.3597,
+    -0.26204,
+    -0.52633,
+    -0.79309,
+    -0.40764,
+    0.27938,
+    0.7424,
+    -0.28798,
+    -0.7622,
+    -0.544
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

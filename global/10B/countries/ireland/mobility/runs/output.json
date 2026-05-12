@@ -1,0 +1,72 @@
+{
+  "country": "Ireland",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.4569,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5348
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4526
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5703
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3472
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.45687,
+    0.8,
+    0.5348,
+    0.7,
+    0.97974,
+    -0.62133,
+    -0.5313,
+    -0.54855,
+    -0.26482,
+    -0.90109,
+    0.21196,
+    0.57784,
+    -0.60156,
+    0.83526,
+    -0.58019,
+    0.50958
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

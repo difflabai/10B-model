@@ -1,0 +1,39 @@
+{
+  "country": "Morocco",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Action Party or PAAmal (hope) PartyAn-Nahj Ad-Dimocrati or An-Nahj or Democratic WayAuthenticity and Modernity Party or PAMConstitutional Union Party or UCDemocratic and Social Movement or MDSDemocratic Forces Front or FFDEnvironment and Sustainable Development Party or PEDDFederation of the Democratic Left or FGDGreen Left Party or PGVIstiqlal (Independence) Party or PIMoroccan Liberal Party or PMLMoroccan Union for Democracy or UMDNational Democratic PartyNational Rally of Independents or RNINeo-Democrats PartyParty of Development Reform or PRDParty of Justice and Development or PJDParty of Liberty and Social Justice or PLJSParty of Progress and Socialism or PPSPopular Movement or MPRenaissance and Virtue Party or PRVRenaissance PartyRenewal and Equity Party or PREShoura (consultation) and Istiqlal PartySocialist Union of Popular Forces or USFPUnified Socialist Party or GSUUnity and Democracy Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "90% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 TV broadcast networks with state-run Radio-Television Marocaine (RTM) operating one network and the state partially owning the other; foreign TV broadcasts are available via satellite dish; 3 radio broadcast networks with RTM operating one; the government-owned network includes 10 regional radio channels in addition to its national service (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.8% of GDP (2020)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

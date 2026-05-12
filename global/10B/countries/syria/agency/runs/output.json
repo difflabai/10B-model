@@ -1,0 +1,56 @@
+{
+  "country": "Syria",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.7033,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.41
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.70333,
+    0.5,
+    0.85,
+    0.41,
+    0.54186,
+    0.37404,
+    -0.63119,
+    -0.46844,
+    0.26021,
+    0.1714,
+    0.52859,
+    0.11757,
+    -0.90152,
+    0.03893,
+    0.72534,
+    -0.36785
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

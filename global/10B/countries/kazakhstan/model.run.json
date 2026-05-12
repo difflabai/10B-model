@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kazakhstan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kazakhstan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kazakhstan.food",
+        "global.10B.countries.kazakhstan.water",
+        "global.10B.countries.kazakhstan.shelter",
+        "global.10B.countries.kazakhstan.health",
+        "global.10B.countries.kazakhstan.safety",
+        "global.10B.countries.kazakhstan.education",
+        "global.10B.countries.kazakhstan.work",
+        "global.10B.countries.kazakhstan.energy",
+        "global.10B.countries.kazakhstan.mobility",
+        "global.10B.countries.kazakhstan.communications",
+        "global.10B.countries.kazakhstan.governance",
+        "global.10B.countries.kazakhstan.environment",
+        "global.10B.countries.kazakhstan.belonging",
+        "global.10B.countries.kazakhstan.meaning",
+        "global.10B.countries.kazakhstan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

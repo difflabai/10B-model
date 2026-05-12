@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.poland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Poland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.poland.food",
+        "global.10B.countries.poland.water",
+        "global.10B.countries.poland.shelter",
+        "global.10B.countries.poland.health",
+        "global.10B.countries.poland.safety",
+        "global.10B.countries.poland.education",
+        "global.10B.countries.poland.work",
+        "global.10B.countries.poland.energy",
+        "global.10B.countries.poland.mobility",
+        "global.10B.countries.poland.communications",
+        "global.10B.countries.poland.governance",
+        "global.10B.countries.poland.environment",
+        "global.10B.countries.poland.belonging",
+        "global.10B.countries.poland.meaning",
+        "global.10B.countries.poland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

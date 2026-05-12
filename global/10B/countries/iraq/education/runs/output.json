@@ -1,0 +1,52 @@
+{
+  "country": "Iraq",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7497,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7987
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.74967,
+    0.8,
+    0.7987,
+    0.7,
+    0.46746,
+    0.97513,
+    0.54809,
+    -0.8641,
+    -0.35842,
+    0.51958,
+    -0.01411,
+    -0.91031,
+    0.8851,
+    -0.62887,
+    -0.59173,
+    0.44805
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

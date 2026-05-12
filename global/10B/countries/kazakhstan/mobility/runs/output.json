@@ -1,0 +1,72 @@
+{
+  "country": "Kazakhstan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.605,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5308
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.6064
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7071
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6611
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.8799
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6276
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5376
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.60505,
+    1.0,
+    0.5308,
+    0.6064,
+    -0.68029,
+    -0.99451,
+    -0.85449,
+    0.9252,
+    -0.57366,
+    0.04878,
+    0.5397,
+    0.29693,
+    -0.83868,
+    0.58178,
+    -0.99557,
+    0.81884
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

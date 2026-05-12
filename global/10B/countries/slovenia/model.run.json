@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.slovenia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Slovenia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.slovenia.food",
+        "global.10B.countries.slovenia.water",
+        "global.10B.countries.slovenia.shelter",
+        "global.10B.countries.slovenia.health",
+        "global.10B.countries.slovenia.safety",
+        "global.10B.countries.slovenia.education",
+        "global.10B.countries.slovenia.work",
+        "global.10B.countries.slovenia.energy",
+        "global.10B.countries.slovenia.mobility",
+        "global.10B.countries.slovenia.communications",
+        "global.10B.countries.slovenia.governance",
+        "global.10B.countries.slovenia.environment",
+        "global.10B.countries.slovenia.belonging",
+        "global.10B.countries.slovenia.meaning",
+        "global.10B.countries.slovenia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

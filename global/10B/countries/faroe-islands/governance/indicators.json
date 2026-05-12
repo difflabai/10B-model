@@ -1,0 +1,44 @@
+{
+  "country": "Faroe Islands",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of Denmark apply where applicable",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "5 June 1953 (Danish Constitution), 23 March 1948 (Home Rule Act), and 24 June 2005 (Takeover Act) serve as the Faroe Islands' constitutional position in the Unity of the Realm",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King FREDERIK X of Denmark (since 14 January 2024), represented by High Commissioner Lene Moyell JOHANSEN, chief administrative officer (since 15 May 2017) (2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Arctic Council, IMO (associate), NC, NIB, UNESCO (associate), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Italy",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "228,863 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "636 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "155 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "20,223 km gas, 1,393 km oil, 1,574 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "2,400 km (2012) (used for commercial traffic; of limited overall value compared to road and rail)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "18,475 km (2020) 12,936 km electrified1289.3 0.950-mm gauge (151.3 km electrified)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "27,630,435 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1.418 billion (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

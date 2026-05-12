@@ -1,0 +1,39 @@
+{
+  "country": "Ecuador",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18-65 years of age; universal and compulsory; 16-18, over 65, and other eligible voters, voluntary",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "73% (2023 est.)according to 2021 statistics from Ecuador's Ministry of Telecommunications and Information Society, 50% of homes do not have access to fixed internet",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Communication Council, an official entity, carried out a media registry in Ecuador in December 2020.  It registered 956 media outlets, 89% are private, 5% are public and 6% belong to small communities. The government controls most of the 44 public media, this includes national media and multiple local radio stations. In addition, of the 956 registered media, 58% are radio and 18% print. Two provinces have the largest number of media outlets: Guayas has 172 media outlets and Pichincha has 130 media outlets. (2020) so also sent to the National Assembly a new regulation proposal that is still under discussion. (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

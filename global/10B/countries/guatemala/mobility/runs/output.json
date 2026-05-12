@@ -1,0 +1,72 @@
+{
+  "country": "Guatemala",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.4362,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3007
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3065
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5833
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4132
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5718
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2929
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2412
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.5528
+    }
+  ],
+  "embedding": [
+    0.43622,
+    1.0,
+    0.3007,
+    0.3065,
+    -0.38558,
+    -0.99011,
+    -0.57534,
+    0.83755,
+    0.44787,
+    -0.13341,
+    0.26812,
+    0.23653,
+    -0.52819,
+    -0.79001,
+    0.55456,
+    -0.70101
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

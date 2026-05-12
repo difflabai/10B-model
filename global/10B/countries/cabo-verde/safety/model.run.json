@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.cabo-verde.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cabo Verde"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "safety"
+    }
+  },
+  "output": "./runs/output.json"
+}

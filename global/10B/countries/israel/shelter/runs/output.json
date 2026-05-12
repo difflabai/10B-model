@@ -1,0 +1,52 @@
+{
+  "country": "Israel",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6646,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6084
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6646,
+    1.0,
+    0.6084,
+    0.65,
+    0.71066,
+    -0.43841,
+    0.04854,
+    -0.19774,
+    -0.9389,
+    0.75207,
+    -0.24254,
+    0.04292,
+    0.75424,
+    -0.31334,
+    -0.31298,
+    -0.78701
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

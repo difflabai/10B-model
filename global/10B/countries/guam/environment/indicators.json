@@ -1,0 +1,44 @@
+{
+  "country": "Guam",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "fresh water scarcity; reef damage; inadequate sewage treatment; extermination of native bird populations by the rapid proliferation of the brown tree snake, an exotic, invasive species",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "47.9% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "141,500 tons (2012 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

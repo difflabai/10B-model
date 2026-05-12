@@ -1,0 +1,60 @@
+{
+  "country": "Afghanistan",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6667,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.647
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.5698
+    }
+  ],
+  "embedding": [
+    0.66669,
+    1.0,
+    0.75,
+    0.65,
+    0.32836,
+    -0.86981,
+    0.51922,
+    0.99637,
+    0.61907,
+    0.1303,
+    0.16469,
+    0.76611,
+    0.13292,
+    -0.40639,
+    0.62118,
+    -0.32277
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

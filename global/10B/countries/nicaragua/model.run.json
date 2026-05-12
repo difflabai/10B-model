@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.nicaragua",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Nicaragua"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.nicaragua.food",
+        "global.10B.countries.nicaragua.water",
+        "global.10B.countries.nicaragua.shelter",
+        "global.10B.countries.nicaragua.health",
+        "global.10B.countries.nicaragua.safety",
+        "global.10B.countries.nicaragua.education",
+        "global.10B.countries.nicaragua.work",
+        "global.10B.countries.nicaragua.energy",
+        "global.10B.countries.nicaragua.mobility",
+        "global.10B.countries.nicaragua.communications",
+        "global.10B.countries.nicaragua.governance",
+        "global.10B.countries.nicaragua.environment",
+        "global.10B.countries.nicaragua.belonging",
+        "global.10B.countries.nicaragua.meaning",
+        "global.10B.countries.nicaragua.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

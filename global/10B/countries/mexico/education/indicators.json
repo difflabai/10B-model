@@ -1,0 +1,34 @@
+{
+  "country": "Mexico",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "95.2%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.3% of GDP (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "15 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish only 93.8%, Spanish and indigenous languages (including Mayan, Nahuatl, and others) 5.4%, indigenous only 0.6%, unspecified 0.2% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

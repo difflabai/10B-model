@@ -1,0 +1,56 @@
+{
+  "country": "Christmas Island",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.634,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.786
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.634,
+    0.66667,
+    0.55,
+    0.55,
+    -0.97415,
+    -0.27846,
+    0.33825,
+    0.69412,
+    -0.87448,
+    0.19606,
+    -0.79458,
+    -0.97827,
+    0.59399,
+    -0.99438,
+    0.0887,
+    -0.87802
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

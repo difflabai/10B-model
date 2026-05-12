@@ -1,0 +1,44 @@
+{
+  "country": "Suriname",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system influenced by Dutch civil law; note - a new criminal code was enacted in 2017",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1975; latest ratified 30 September 1987, effective 30 October 1987",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Chandrikapersad \"Chan\" SANTOKHI (since 16 July 2020)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ACS, AOSIS, Caricom, CD, CDB, CELAC, FAO, G-77, IADB, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OIC, OPANAL, OPCW, PCA, Petrocaribe, UN, UNASUR, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

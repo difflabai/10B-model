@@ -1,0 +1,34 @@
+{
+  "country": "Laos",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "38.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "721,000 VIENTIANE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most densely populated area is in and around the capital city of Vientiane; large communities are primarily found along the Mekong River along the southwestern border; overall density is considered one of the lowest in Southeast Asia",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical monsoon; rainy season (May to November); dry season (December to April)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical monsoon; rainy season (May to November); dry season (December to April)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

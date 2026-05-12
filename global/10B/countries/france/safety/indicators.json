@@ -1,0 +1,39 @@
+{
+  "country": "France",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "French Armed Forces (Forces Armées Françaises): Army (l'Armee de Terre; includes Foreign Legion), Navy (Marine Nationale), Air and Space Force (l'Armee de l’Air et de l’Espace); includes Air Defense), National Guard (Reserves), National Gendarmerie (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.1% of GDP (2024 est.)1.9% of GDP (2023)1.9% of GDP (2022)1.9% of GDP (2021)2% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "55,681 (Afghanistan), 39,091 (Syria), 33,834 (Sri Lanka), 33,148 (Russia), 31,935 (Democratic Republic of the Congo), 24,223 (Sudan), 21,225 (Guinea), 18,008 (Serbia and Kosovo), 17,032 (Turkey), 13,974 (Iraq), 12,286 (Cote d'Ivoire), 11,489 (Eritrea), 11,012 (Cambodia), 10,543 (China), 10,236 (Albania), 10,210 (Somalia), 8,858 (Bangladesh), 8,124 (Mauritania), 8,101 (Mali), 7,991 (Vietnam), 6,913 (Bosnia and Herzegovina), 6,910 (Haiti), 6,808 (Angola), 6,498 (Laos), 6,417 (Armenia), 6,111 (Nigeria), 5,896 (Georgia) (mid-year 2022); 69,462 (Ukraine) (as of 31 January 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

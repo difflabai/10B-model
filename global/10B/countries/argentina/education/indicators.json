@@ -1,0 +1,34 @@
+{
+  "country": "Argentina",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "99%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "18 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish (official), Italian, English, German, French, indigenous (Quechua, Guarani, Mapudungun)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

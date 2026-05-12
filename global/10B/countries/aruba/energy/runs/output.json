@@ -1,0 +1,84 @@
+{
+  "country": "Aruba",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.6297,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.9683
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2425
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.348
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.7483
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.62971,
+    0.76923,
+    0.9683,
+    0.97,
+    -0.82013,
+    -0.05052,
+    0.87039,
+    0.86481,
+    -0.59301,
+    -0.95837,
+    -0.9331,
+    0.13143,
+    0.32869,
+    0.12523,
+    -0.13643,
+    -0.15215
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

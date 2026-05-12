@@ -1,0 +1,34 @@
+{
+  "country": "Italy",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "72% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4.316 million ROME (capital), 3.155 million Milan, 2.179 million Naples, 1.802 million Turin, 913,000 Bergamo, 850,000 Palermo (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "predominantly Mediterranean; alpine in far north; hot, dry in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "predominantly Mediterranean; alpine in far north; hot, dry in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Benin",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "45.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "11 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "55 languages; French (official); Fon (a Gbe language), Yom (a Gur language) and Yoruba are the most important indigenous languages in the south; half a dozen regionally important languages in the north, including Bariba and Fulfulde",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Jamaica",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "sugarcane, goat milk, yams, chicken, oranges, coconuts, bananas, plantains, pumpkins/squash, pineapples (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "41.4% (2018 est.)agricultural land: arable land: 11.1% (2018 est.)agricultural land: permanent crops: 9.2% (2018 est.)agricultural land: permanent pasture: 21.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "9% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "2,823,713",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

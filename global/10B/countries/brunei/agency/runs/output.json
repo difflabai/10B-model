@@ -1,0 +1,56 @@
+{
+  "country": "Brunei",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7725,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6625
+    }
+  ],
+  "embedding": [
+    0.7725,
+    0.83333,
+    0.85,
+    0.55,
+    0.93893,
+    -0.95944,
+    -0.21761,
+    0.69924,
+    -0.75003,
+    0.68649,
+    0.06352,
+    -0.09129,
+    -0.05357,
+    -0.18383,
+    0.35174,
+    -0.06139
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

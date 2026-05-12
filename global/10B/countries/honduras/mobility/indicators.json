@@ -1,0 +1,59 @@
+{
+  "country": "Honduras",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "14,742 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "3,367 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "11,375 km (2012) (1,543 km summer only)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "129 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "6 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "465 km (2012) (most navigable only by small craft)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "699 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "251,149 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "450,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

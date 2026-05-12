@@ -1,0 +1,44 @@
+{
+  "country": "Jersey",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Assembly of the States of Jersey)",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of the UK apply where applicable; includes local statutes",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "unwritten; partly statutes, partly common law and practice",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Lieutenant Governor Jerry KYD (since 8 October 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

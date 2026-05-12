@@ -1,0 +1,52 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8014,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9652
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.842
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.80144,
+    1.0,
+    0.9652,
+    0.842,
+    0.17473,
+    0.76229,
+    0.13521,
+    0.29836,
+    0.27617,
+    0.08672,
+    -0.31981,
+    0.34755,
+    -0.69204,
+    0.08431,
+    -0.72976,
+    0.72839
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

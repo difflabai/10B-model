@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.sint-maarten",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sint Maarten"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.sint-maarten.food",
+        "global.10B.countries.sint-maarten.water",
+        "global.10B.countries.sint-maarten.shelter",
+        "global.10B.countries.sint-maarten.health",
+        "global.10B.countries.sint-maarten.safety",
+        "global.10B.countries.sint-maarten.education",
+        "global.10B.countries.sint-maarten.work",
+        "global.10B.countries.sint-maarten.energy",
+        "global.10B.countries.sint-maarten.mobility",
+        "global.10B.countries.sint-maarten.communications",
+        "global.10B.countries.sint-maarten.governance",
+        "global.10B.countries.sint-maarten.environment",
+        "global.10B.countries.sint-maarten.belonging",
+        "global.10B.countries.sint-maarten.meaning",
+        "global.10B.countries.sint-maarten.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

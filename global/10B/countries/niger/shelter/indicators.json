@@ -1,0 +1,34 @@
+{
+  "country": "Niger",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "17.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.437 million NIAMEY (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "majority of the populace is located in the southernmost extreme of the country along the border with Nigeria and Benin as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "desert; mostly hot, dry, dusty; tropical in extreme south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; mostly hot, dry, dusty; tropical in extreme south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

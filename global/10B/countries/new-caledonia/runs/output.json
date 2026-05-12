@@ -1,0 +1,47 @@
+{
+  "country": "new-caledonia",
+  "category_scores": {
+    "agency": 0.8175,
+    "belonging": 0.6747,
+    "communications": 0.6861,
+    "education": 0.7776,
+    "energy": 0.5394,
+    "environment": 0.5022,
+    "food": 0.5945,
+    "governance": 0.7083,
+    "health": 0.7974,
+    "meaning": 0.65,
+    "mobility": 0.374,
+    "safety": 0.75,
+    "shelter": 0.6348,
+    "water": 0.65,
+    "work": 0.7348
+  },
+  "country_score": 0.6594,
+  "tier_scores": {
+    "subsistence": 0.6853,
+    "development": 0.6224,
+    "agency": 0.6705
+  },
+  "country_embedding": [
+    0.65942,
+    0.64457,
+    0.71892,
+    0.525,
+    0.01982,
+    -0.01955,
+    -0.18934,
+    -0.1449,
+    -0.18114,
+    0.11715,
+    -0.06324,
+    -0.02423,
+    0.09719,
+    0.00799,
+    0.02441,
+    -0.07933
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in New Caledonia, the three needs areas with the largest gaps are: mobility (0.37), environment (0.50), energy (0.54).\nThe three strongest areas are: agency (0.82), health (0.80), education (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

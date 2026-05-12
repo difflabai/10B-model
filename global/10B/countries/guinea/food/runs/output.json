@@ -1,0 +1,52 @@
+{
+  "country": "Guinea",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5587,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": 0.25
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7821
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.4612
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.55868,
+    1.0,
+    0.25,
+    0.75,
+    0.40334,
+    0.12035,
+    -0.98682,
+    0.23757,
+    -0.87793,
+    -0.96716,
+    -0.56524,
+    0.70831,
+    -0.67565,
+    0.47369,
+    -0.87631,
+    0.67001
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

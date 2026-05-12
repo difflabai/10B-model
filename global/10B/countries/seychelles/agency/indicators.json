@@ -1,0 +1,39 @@
+{
+  "country": "Seychelles",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Seychelles Party for Social Justice and Democracy or SPSJDSeychellois Democratic Alliance or LDS (Linyon Demokratik Seselwa/Union Démocratique Seychelloise)Seychelles National Party or SNPUnited Seychelles or US",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the national broadcaster, Seychelles Broadcasting Corporation (SBC), which is funded by taxpayer money, operates the only terrestrial TV station, which provides local programming and airs broadcasts from international services; a privately owned Internet Protocol Television (IPTV) channel also provides local programming multi-channel cable and satellite TV are available through 2 providers; the national broadcaster operates 1 AM and 1 FM radio station; there are 2 privately operated radio stations; transmissions of 2 international broadcasters are accessible in Victoria (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,34 @@
+{
+  "country": "India",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "36.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "32.941 million NEW DELHI (capital), 21.297 million Mumbai, 15.333 million Kolkata, 13.608 million Bangalore, 11.776 million Chennai, 10.801 million Hyderabad (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "with the notable exception of the deserts in the northwest, including the Thar Desert, and the mountain fringe in the north, a very high population density exists throughout most of the country; the core of the population is in the north along the banks of the Ganges, with other river valleys and southern coastal areas also having large population concentrations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from tropical monsoon in south to temperate in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical monsoon in south to temperate in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

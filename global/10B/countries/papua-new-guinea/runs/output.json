@@ -1,0 +1,47 @@
+{
+  "country": "papua-new-guinea",
+  "category_scores": {
+    "agency": 0.6252,
+    "belonging": 0.6799,
+    "communications": 0.6318,
+    "education": 0.5183,
+    "energy": 0.4137,
+    "environment": 0.5979,
+    "food": 0.5411,
+    "governance": 0.7429,
+    "health": 0.4516,
+    "meaning": 0.65,
+    "mobility": 0.4957,
+    "safety": 0.5633,
+    "shelter": 0.6187,
+    "water": 0.75,
+    "work": 0.7189
+  },
+  "country_score": 0.5999,
+  "tier_scores": {
+    "subsistence": 0.5849,
+    "development": 0.5557,
+    "agency": 0.6592
+  },
+  "country_embedding": [
+    0.59994,
+    0.80625,
+    0.55049,
+    0.57695,
+    -0.31403,
+    0.08897,
+    -0.05571,
+    0.12873,
+    0.0529,
+    0.10365,
+    -0.02435,
+    0.24436,
+    0.22803,
+    0.18027,
+    0.12994,
+    -0.06153
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Papua New Guinea, the three needs areas with the largest gaps are: energy (0.41), health (0.45), mobility (0.50).\nThe three strongest areas are: water (0.75), governance (0.74), work (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

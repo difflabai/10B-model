@@ -1,0 +1,84 @@
+{
+  "country": "Fiji",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.6257,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.834
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9292
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.814
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.648
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.352
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.412
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8615
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.608
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.62572,
+    0.92308,
+    0.834,
+    0.9292,
+    0.99988,
+    0.69479,
+    -0.05965,
+    0.97348,
+    0.66677,
+    -0.3514,
+    -0.59518,
+    0.25789,
+    -0.71264,
+    -0.61138,
+    0.34359,
+    0.0605
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

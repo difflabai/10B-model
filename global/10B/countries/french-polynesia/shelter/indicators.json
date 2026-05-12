@@ -1,0 +1,34 @@
+{
+  "country": "French Polynesia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "62.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "136,000 PAPEETE (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the majority of the population lives in the Society Islands, one of five archipelagos that includes the most populous island - Tahiti - with approximately 70% of the nation's population",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical, but moderate",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical, but moderate",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

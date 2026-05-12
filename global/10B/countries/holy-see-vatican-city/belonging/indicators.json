@@ -1,0 +1,44 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "Italian, Swiss, Argentinian, and other nationalities from around the world (2017)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Roman Catholic",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Italian, Latin, French, various other languages",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1,000 VATICAN CITY (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Aruba",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$40,500 (2023 est.)$38,900 (2022 est.)$35,700 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "4.26% (2023 est.)8.52% (2022 est.)27.64% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "4.26% (2019 est.)3.63% (2018 est.)-1.03% (2017 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "7.7% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

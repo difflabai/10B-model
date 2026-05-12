@@ -1,0 +1,59 @@
+{
+  "country": "Japan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "1,218,772 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "992,835 km (includes 8,428 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "225,937 km (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "279 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "2,839 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "4,456 km gas, 174 km oil, 104 km oil/gas/water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,770 km (2010) (seagoing vessels use inland seas)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "27,311 km (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "126,387,527 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "9,420,660,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

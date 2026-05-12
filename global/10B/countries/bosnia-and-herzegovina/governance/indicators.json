@@ -1,0 +1,44 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; Constitutional Court review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "14 December 1995 (constitution included as part of the Dayton Peace Accords); note - each of the political entities has its own constitution",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, 16 if employed; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Chairperson of the Presidency Zeljka CVIJANOVIC (chairperson since 16 November 2024; presidency member since 16 November 2022 - Serb seat); Denis BECIROVIC (presidency member since 16 November 2022 - Bosniak seat); Zeljko KOMSIC (presidency member since 20 November 2018 - Croat seat)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "BIS, CD, CE, CEI, EAPC, EBRD, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM (observer), OAS (observer), OIC (observer), OIF (observer), OPCW, OSCE, PFP, SELEC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

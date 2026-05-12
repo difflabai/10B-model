@@ -1,0 +1,84 @@
+{
+  "country": "Eswatini",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6482,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.7102
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.7512
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.7555
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.9027
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.308
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.853
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.8
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64823,
+    0.84615,
+    0.7102,
+    0.7512,
+    -0.81656,
+    0.6144,
+    -0.55187,
+    -0.23842,
+    -0.11879,
+    -0.15431,
+    -0.52883,
+    0.60211,
+    0.07677,
+    -0.81234,
+    0.40261,
+    -0.36727
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

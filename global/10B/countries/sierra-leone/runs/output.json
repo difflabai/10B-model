@@ -1,0 +1,47 @@
+{
+  "country": "sierra-leone",
+  "category_scores": {
+    "agency": 0.71,
+    "belonging": 0.6895,
+    "communications": 0.7005,
+    "education": 0.7001,
+    "energy": 0.5063,
+    "environment": 0.5065,
+    "food": 0.5601,
+    "governance": 0.7429,
+    "health": 0.4472,
+    "meaning": 0.63,
+    "mobility": 0.365,
+    "safety": 0.665,
+    "shelter": 0.6411,
+    "water": 0.65,
+    "work": 0.5177
+  },
+  "country_score": 0.6021,
+  "tier_scores": {
+    "subsistence": 0.5927,
+    "development": 0.5579,
+    "agency": 0.6558
+  },
+  "country_embedding": [
+    0.60212,
+    0.8253,
+    0.52526,
+    0.61801,
+    0.07403,
+    0.03537,
+    -0.0908,
+    0.17313,
+    -0.18138,
+    0.00116,
+    0.02902,
+    0.02506,
+    -0.02993,
+    0.1259,
+    -0.33609,
+    -0.21422
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Sierra Leone, the three needs areas with the largest gaps are: mobility (0.36), health (0.45), energy (0.51).\nThe three strongest areas are: governance (0.74), agency (0.71), communications (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

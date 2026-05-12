@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.isle-of-man.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Isle of Man"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "belonging"
+    }
+  },
+  "output": "./runs/output.json"
+}

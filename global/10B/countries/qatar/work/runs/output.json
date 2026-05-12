@@ -1,0 +1,60 @@
+{
+  "country": "Qatar",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7835,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.569
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8642
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.698
+    }
+  ],
+  "embedding": [
+    0.78353,
+    0.85714,
+    0.97,
+    0.569,
+    -0.14415,
+    -0.77603,
+    0.6567,
+    -0.86017,
+    -0.68933,
+    0.23027,
+    0.23192,
+    -0.23998,
+    0.98529,
+    0.30242,
+    0.27953,
+    -0.99023
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

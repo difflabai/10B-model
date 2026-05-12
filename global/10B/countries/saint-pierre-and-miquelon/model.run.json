@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-pierre-and-miquelon",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Pierre and Miquelon"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-pierre-and-miquelon.food",
+        "global.10B.countries.saint-pierre-and-miquelon.water",
+        "global.10B.countries.saint-pierre-and-miquelon.shelter",
+        "global.10B.countries.saint-pierre-and-miquelon.health",
+        "global.10B.countries.saint-pierre-and-miquelon.safety",
+        "global.10B.countries.saint-pierre-and-miquelon.education",
+        "global.10B.countries.saint-pierre-and-miquelon.work",
+        "global.10B.countries.saint-pierre-and-miquelon.energy",
+        "global.10B.countries.saint-pierre-and-miquelon.mobility",
+        "global.10B.countries.saint-pierre-and-miquelon.communications",
+        "global.10B.countries.saint-pierre-and-miquelon.governance",
+        "global.10B.countries.saint-pierre-and-miquelon.environment",
+        "global.10B.countries.saint-pierre-and-miquelon.belonging",
+        "global.10B.countries.saint-pierre-and-miquelon.meaning",
+        "global.10B.countries.saint-pierre-and-miquelon.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

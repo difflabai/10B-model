@@ -1,0 +1,47 @@
+{
+  "country": "uzbekistan",
+  "category_scores": {
+    "agency": 0.833,
+    "belonging": 0.6687,
+    "communications": 0.7343,
+    "education": 0.749,
+    "energy": 0.5363,
+    "environment": 0.435,
+    "food": 0.6582,
+    "governance": 0.6429,
+    "health": 0.6883,
+    "meaning": 0.61,
+    "mobility": 0.5173,
+    "safety": 0.5878,
+    "shelter": 0.6462,
+    "water": 0.6833,
+    "work": 0.7062
+  },
+  "country_score": 0.6464,
+  "tier_scores": {
+    "subsistence": 0.6528,
+    "development": 0.6486,
+    "agency": 0.6379
+  },
+  "country_embedding": [
+    0.64643,
+    0.84479,
+    0.68392,
+    0.67072,
+    -0.15886,
+    -0.0105,
+    -0.30119,
+    -0.41698,
+    0.06645,
+    0.15765,
+    -0.05996,
+    -0.06168,
+    -0.13248,
+    0.07393,
+    -0.05238,
+    0.16453
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Uzbekistan, the three needs areas with the largest gaps are: environment (0.43), mobility (0.52), energy (0.54).\nThe three strongest areas are: agency (0.83), education (0.75), communications (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Djibouti",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6289,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6656
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6289,
+    1.0,
+    0.6656,
+    0.55,
+    -0.68035,
+    0.6676,
+    0.12786,
+    0.51769,
+    0.1469,
+    -0.83786,
+    0.07533,
+    -0.84643,
+    -0.91406,
+    0.51983,
+    0.84042,
+    0.22152
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

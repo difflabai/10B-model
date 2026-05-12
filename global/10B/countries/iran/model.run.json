@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.iran",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Iran"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.iran.food",
+        "global.10B.countries.iran.water",
+        "global.10B.countries.iran.shelter",
+        "global.10B.countries.iran.health",
+        "global.10B.countries.iran.safety",
+        "global.10B.countries.iran.education",
+        "global.10B.countries.iran.work",
+        "global.10B.countries.iran.energy",
+        "global.10B.countries.iran.mobility",
+        "global.10B.countries.iran.communications",
+        "global.10B.countries.iran.governance",
+        "global.10B.countries.iran.environment",
+        "global.10B.countries.iran.belonging",
+        "global.10B.countries.iran.meaning",
+        "global.10B.countries.iran.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

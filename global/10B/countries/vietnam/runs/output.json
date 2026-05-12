@@ -1,0 +1,47 @@
+{
+  "country": "vietnam",
+  "category_scores": {
+    "agency": 0.731,
+    "belonging": 0.7156,
+    "communications": 0.6905,
+    "education": 0.7611,
+    "energy": 0.5865,
+    "environment": 0.5374,
+    "food": 0.6881,
+    "governance": 0.6786,
+    "health": 0.6335,
+    "meaning": 0.65,
+    "mobility": 0.6181,
+    "safety": 0.715,
+    "shelter": 0.6867,
+    "water": 0.6833,
+    "work": 0.7871
+  },
+  "country_score": 0.6775,
+  "tier_scores": {
+    "subsistence": 0.6813,
+    "development": 0.6887,
+    "agency": 0.6625
+  },
+  "country_embedding": [
+    0.67749,
+    0.84906,
+    0.71181,
+    0.67074,
+    0.10668,
+    0.02323,
+    0.15431,
+    0.00172,
+    -0.31647,
+    0.11755,
+    -0.11415,
+    -0.0543,
+    -0.0837,
+    -0.08765,
+    -0.06897,
+    -0.11686
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Vietnam, the three needs areas with the largest gaps are: environment (0.54), energy (0.59), mobility (0.62).\nThe three strongest areas are: work (0.79), education (0.76), agency (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "New Democratic Party or NDPSVG Green Party or SVGPUnity Labor Party or ULP (formed in 1994 by the coalition of Saint Vincent Labor Party or SVLP and the Movement for National Unity or MNU)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "78% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "St. Vincent and the Grenadines Broadcasting Corporation operates 1 TV station and 5 repeater stations that provide near total coverage to the multi-island state; multi-channel cable TV service available; a partially government-funded national radio service broadcasts on 1 station and has 2 repeater stations; about a dozen privately owned radio stations and repeater stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.7% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

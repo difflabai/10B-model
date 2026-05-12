@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.energy",
+  "name": "Asia — Energy access",
+  "kind": "sector_economic",
+  "blurb": "Region-level energy access for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country energy models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "energy-country-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "energy-region-mean",
+      "kind": "scalar",
+      "description": "Mean energy score across the region."
+    },
+    {
+      "name": "energy-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Energy access"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.energy",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

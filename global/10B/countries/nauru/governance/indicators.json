@@ -1,0 +1,44 @@
+{
+  "country": "Nauru",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of common law based on the English model and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "effective 29 January 1968",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President David ADEANG (since 30 October 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ADB, AOSIS, C, FAO, G-77, ICAO, ICCt, IFAD, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UPU, WHO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

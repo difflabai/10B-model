@@ -1,0 +1,39 @@
+{
+  "country": "Bahamas, The",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Coalition of Independents Party or COIDemocratic National Alliance or DNAFree National Movement or FNMProgressive Liberal Party or PLP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "The Bahamas has 4 major TV providers that provide service to all major islands in the archipelago; 1 TV station is operated by government-owned, commercially run Broadcasting Corporation of the Bahamas (BCB) and competes freely with 4 privately owned TV stations; multi-channel cable TV subscription service is widely available; there are 32 licensed broadcast (radio) service providers, 31 are privately owned FM radio stations operating on New Providence, Grand Bahama Island, Abaco Island, and on smaller islands in the country; the BCB operates a multi-channel radio broadcasting network that has national coverage; the sector is regulated by the Utilities Regulation and Competition Authority (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.8% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

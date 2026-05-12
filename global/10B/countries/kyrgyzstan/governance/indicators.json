@@ -1,0 +1,44 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system, which includes features of French civil law and Russian Federation laws",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1993, 2007, 2010; latest approved by referendum in April 2021 that transitioned Kyrgyzstan from a parliamentary to a presidential system, and implemented changes that allow the president to serve for two 5-year terms rather than one 6-year term, reduced the number of seats in Kyrgyzstan's legislature from 120 to 90, and established a Kurultay - a public advisory council",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Sadyr JAPAROV (since 28 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, CICA, CIS, CSTO, EAEU, EAPC, EBRD, ECO, EITI (compliant country), FAO, GCTU, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM (observer), OIC, OPCW, OSCE, PCA, PFP, SCO, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMIL, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

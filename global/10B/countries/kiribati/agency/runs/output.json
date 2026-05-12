@@ -1,0 +1,56 @@
+{
+  "country": "Kiribati",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.754,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.57
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.754,
+    0.83333,
+    0.85,
+    0.65,
+    -0.11647,
+    -0.50326,
+    -0.17818,
+    -0.76672,
+    0.68472,
+    0.43658,
+    -0.90533,
+    -0.53454,
+    -0.80359,
+    -0.02663,
+    0.33535,
+    -0.85803
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

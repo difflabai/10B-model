@@ -1,0 +1,34 @@
+{
+  "country": "Egypt",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "73.1%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "14 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Arabic (official); English and French widely understood by educated classes",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "كتاب حقائق العالم، أفضل مصدر للمعلومات الأساسية (Arabic)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

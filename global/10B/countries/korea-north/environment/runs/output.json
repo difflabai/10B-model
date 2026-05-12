@@ -1,0 +1,60 @@
+{
+  "country": "Korea, North",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.5195,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.3569
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.81
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.51949,
+    0.85714,
+    0.4,
+    0.75,
+    0.05672,
+    -0.4381,
+    -0.35787,
+    0.48501,
+    -0.47118,
+    0.96994,
+    0.51556,
+    -0.72476,
+    0.76761,
+    0.88168,
+    -0.91714,
+    -0.31868
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

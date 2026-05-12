@@ -1,0 +1,56 @@
+{
+  "country": "Jan Mayen",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.16667,
+    0.65,
+    0.0,
+    0.50896,
+    0.64587,
+    -0.14116,
+    0.41442,
+    0.89587,
+    0.55315,
+    0.99713,
+    0.58831,
+    0.99631,
+    0.11089,
+    0.37795,
+    0.20452
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

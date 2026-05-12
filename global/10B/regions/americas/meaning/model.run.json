@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.meaning",
+        "global.10B.countries.antigua-and-barbuda.meaning",
+        "global.10B.countries.argentina.meaning",
+        "global.10B.countries.aruba.meaning",
+        "global.10B.countries.bahamas-the.meaning",
+        "global.10B.countries.barbados.meaning",
+        "global.10B.countries.belize.meaning",
+        "global.10B.countries.bermuda.meaning",
+        "global.10B.countries.bolivia.meaning",
+        "global.10B.countries.brazil.meaning",
+        "global.10B.countries.british-virgin-islands.meaning",
+        "global.10B.countries.cayman-islands.meaning",
+        "global.10B.countries.cuba.meaning",
+        "global.10B.countries.curacao.meaning",
+        "global.10B.countries.dominica.meaning",
+        "global.10B.countries.dominican-republic.meaning",
+        "global.10B.countries.falkland-islands-islas-malvinas.meaning",
+        "global.10B.countries.grenada.meaning",
+        "global.10B.countries.guyana.meaning",
+        "global.10B.countries.haiti.meaning",
+        "global.10B.countries.jamaica.meaning",
+        "global.10B.countries.montserrat.meaning",
+        "global.10B.countries.navassa-island.meaning",
+        "global.10B.countries.paraguay.meaning",
+        "global.10B.countries.puerto-rico.meaning",
+        "global.10B.countries.saint-barthelemy.meaning",
+        "global.10B.countries.saint-kitts-and-nevis.meaning",
+        "global.10B.countries.saint-lucia.meaning",
+        "global.10B.countries.saint-martin.meaning",
+        "global.10B.countries.saint-pierre-and-miquelon.meaning",
+        "global.10B.countries.saint-vincent-and-the-grenadines.meaning",
+        "global.10B.countries.sint-maarten.meaning",
+        "global.10B.countries.suriname.meaning",
+        "global.10B.countries.trinidad-and-tobago.meaning",
+        "global.10B.countries.turks-and-caicos-islands.meaning",
+        "global.10B.countries.uruguay.meaning",
+        "global.10B.countries.venezuela.meaning",
+        "global.10B.countries.virgin-islands.meaning"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

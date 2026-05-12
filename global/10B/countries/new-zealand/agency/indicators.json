@@ -1,0 +1,39 @@
+{
+  "country": "New Zealand",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "ACT New Zealand Green Party New Zealand First Party or NZ First New Zealand Labor Party New Zealand National Party Te Pāti Māori",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "96% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned Television New Zealand operates multiple TV networks and state-owned Radio New Zealand operates 3 radio networks and an external shortwave radio service to the South Pacific region; a small number of national commercial TV and radio stations and many regional commercial television and radio stations are available; cable and satellite TV systems are available, as are a range of streaming services (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Malaysia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "98% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned TV broadcaster operates 2 TV networks with relays throughout the country, and the leading private commercial media group operates 4 TV stations with numerous relays throughout the country; satellite TV subscription service is available; state-owned radio broadcaster operates multiple national networks, as well as regional and local stations; many private commercial radio broadcasters and some subscription satellite radio services are available; about 55 radio stations overall (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

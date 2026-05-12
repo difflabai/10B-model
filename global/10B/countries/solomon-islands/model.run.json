@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.solomon-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Solomon Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.solomon-islands.food",
+        "global.10B.countries.solomon-islands.water",
+        "global.10B.countries.solomon-islands.shelter",
+        "global.10B.countries.solomon-islands.health",
+        "global.10B.countries.solomon-islands.safety",
+        "global.10B.countries.solomon-islands.education",
+        "global.10B.countries.solomon-islands.work",
+        "global.10B.countries.solomon-islands.energy",
+        "global.10B.countries.solomon-islands.mobility",
+        "global.10B.countries.solomon-islands.communications",
+        "global.10B.countries.solomon-islands.governance",
+        "global.10B.countries.solomon-islands.environment",
+        "global.10B.countries.solomon-islands.belonging",
+        "global.10B.countries.solomon-islands.meaning",
+        "global.10B.countries.solomon-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

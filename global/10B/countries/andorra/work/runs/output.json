@@ -1,0 +1,60 @@
+{
+  "country": "Andorra",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.7764,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.909
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.708
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.85
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.865
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.77641,
+    0.71429,
+    0.909,
+    0.708,
+    -0.65954,
+    -0.02931,
+    0.70028,
+    -0.79541,
+    0.97058,
+    -0.42467,
+    -0.12438,
+    -0.81244,
+    -0.89197,
+    -0.01671,
+    0.35015,
+    0.21987
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

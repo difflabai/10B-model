@@ -1,0 +1,47 @@
+{
+  "country": "serbia",
+  "category_scores": {
+    "agency": 0.7956,
+    "belonging": 0.6329,
+    "communications": 0.7075,
+    "education": 0.7453,
+    "energy": 0.5718,
+    "environment": 0.5307,
+    "food": 0.7289,
+    "governance": 0.7143,
+    "health": 0.7474,
+    "meaning": 0.65,
+    "mobility": 0.4829,
+    "safety": 0.5967,
+    "shelter": 0.6518,
+    "water": 0.7167,
+    "work": 0.6538
+  },
+  "country_score": 0.6618,
+  "tier_scores": {
+    "subsistence": 0.6883,
+    "development": 0.6323,
+    "agency": 0.6647
+  },
+  "country_embedding": [
+    0.66174,
+    0.83787,
+    0.73114,
+    0.66547,
+    0.20085,
+    0.10683,
+    -0.25218,
+    0.25348,
+    -0.07937,
+    -0.01805,
+    -0.02558,
+    -0.03792,
+    0.21829,
+    0.07096,
+    -0.01601,
+    0.287
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Serbia, the three needs areas with the largest gaps are: mobility (0.48), environment (0.53), energy (0.57).\nThe three strongest areas are: agency (0.80), health (0.75), education (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

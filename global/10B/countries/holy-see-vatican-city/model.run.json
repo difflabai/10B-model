@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.holy-see-vatican-city",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Holy See (Vatican City)"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.holy-see-vatican-city.food",
+        "global.10B.countries.holy-see-vatican-city.water",
+        "global.10B.countries.holy-see-vatican-city.shelter",
+        "global.10B.countries.holy-see-vatican-city.health",
+        "global.10B.countries.holy-see-vatican-city.safety",
+        "global.10B.countries.holy-see-vatican-city.education",
+        "global.10B.countries.holy-see-vatican-city.work",
+        "global.10B.countries.holy-see-vatican-city.energy",
+        "global.10B.countries.holy-see-vatican-city.mobility",
+        "global.10B.countries.holy-see-vatican-city.communications",
+        "global.10B.countries.holy-see-vatican-city.governance",
+        "global.10B.countries.holy-see-vatican-city.environment",
+        "global.10B.countries.holy-see-vatican-city.belonging",
+        "global.10B.countries.holy-see-vatican-city.meaning",
+        "global.10B.countries.holy-see-vatican-city.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Argentina",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on West European legal systems; note - in mid-2015, Argentina adopted a new civil code, replacing the old one in force since 1871",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest effective 11 May 1853",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18-70 years of age; universal and compulsory; 16-17 years of age - optional for national elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Javier Gerardo MILEI (since 10 December 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AfDB (nonregional member), Australia Group, BCIE, BIS, CAN (associate), CD, CABEI, CELAC, FAO, FATF, G-15, G-20, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, NAM (observer), NSG, OAS, OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNDOF, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, Union Latina (observer), UNOOSA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

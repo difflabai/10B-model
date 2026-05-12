@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.johnston-atoll",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Johnston Atoll"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.johnston-atoll.food",
+        "global.10B.countries.johnston-atoll.water",
+        "global.10B.countries.johnston-atoll.shelter",
+        "global.10B.countries.johnston-atoll.health",
+        "global.10B.countries.johnston-atoll.safety",
+        "global.10B.countries.johnston-atoll.education",
+        "global.10B.countries.johnston-atoll.work",
+        "global.10B.countries.johnston-atoll.energy",
+        "global.10B.countries.johnston-atoll.mobility",
+        "global.10B.countries.johnston-atoll.communications",
+        "global.10B.countries.johnston-atoll.governance",
+        "global.10B.countries.johnston-atoll.environment",
+        "global.10B.countries.johnston-atoll.belonging",
+        "global.10B.countries.johnston-atoll.meaning",
+        "global.10B.countries.johnston-atoll.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

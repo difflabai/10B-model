@@ -1,0 +1,52 @@
+{
+  "country": "Aruba",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.4805,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.422
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.4
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.4805,
+    0.8,
+    0.55,
+    0.422,
+    -0.52786,
+    -0.05095,
+    -0.48113,
+    0.12428,
+    0.45165,
+    -0.436,
+    -0.49905,
+    0.57086,
+    -0.95138,
+    -0.30919,
+    -0.73318,
+    -0.25139
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

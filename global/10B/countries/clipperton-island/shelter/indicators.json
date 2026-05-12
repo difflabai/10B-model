@@ -1,0 +1,34 @@
+{
+  "country": "Clipperton Island",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; humid, average temperature 20-32 degrees Celsius, wet season (May to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; humid, average temperature 20-32 degrees Celsius, wet season (May to October)",
+      "present": true
+    }
+  ],
+  "coverage": 0.4
+}

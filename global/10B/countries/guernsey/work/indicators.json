@@ -1,0 +1,44 @@
+{
+  "country": "Guernsey",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$52,500 (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "3.72% (2023 est.)5.34% (2022 est.)15.46% (2021 est.)note: annual GDP % growth based on constant local currency; entry includes Jersey and Guernsey",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "83,000 (2023 est.)note: number of people ages 15 or older who are employed or seeking work;entry includes Jersey and Guernsey",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "5.98% (2023 est.)5.91% (2022 est.)6.61% (2021 est.)note: % of labor force seeking employment; entry includes Jersey and Guernsey",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Eswatini",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "political parties exist but conditions for their operations, particularly in elections, are undefined, legally unclear, or culturally restricted; the following are considered political associations:African United Democratic Party or AUDP Ngwane National Liberatory Congress or NNLC People's United Democratic Movement or PUDEMO Swazi Democratic Party or SWADEPA",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "58% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-owned TV station; satellite dishes are able to access South African providers; state-owned radio network with 3 channels; 1 private radio station (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Central African Republic",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "11% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government-owned network, Radiodiffusion Television Centrafricaine, provides limited domestic TV broadcasting; state-owned radio network is supplemented by a small number of privately owned broadcast stations as well as a few community radio stations; transmissions of at least 2 international broadcasters are available (2017)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

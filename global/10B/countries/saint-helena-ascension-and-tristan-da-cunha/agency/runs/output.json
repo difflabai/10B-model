@@ -1,0 +1,56 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.594,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.426
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.594,
+    0.66667,
+    0.55,
+    0.55,
+    -0.5028,
+    0.62765,
+    -0.48092,
+    0.42605,
+    0.95779,
+    0.12016,
+    0.32406,
+    -0.85141,
+    -0.54018,
+    0.68939,
+    0.9772,
+    -0.38967
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Lebanon",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6368,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9112
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.298
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.63684,
+    1.0,
+    0.9112,
+    0.298,
+    -0.22121,
+    0.30105,
+    0.50085,
+    -0.26592,
+    -0.40453,
+    -0.04747,
+    -0.53118,
+    -0.05617,
+    -0.55053,
+    0.88006,
+    -0.82715,
+    -0.79409
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

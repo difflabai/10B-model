@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.libya",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Libya"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.libya.food",
+        "global.10B.countries.libya.water",
+        "global.10B.countries.libya.shelter",
+        "global.10B.countries.libya.health",
+        "global.10B.countries.libya.safety",
+        "global.10B.countries.libya.education",
+        "global.10B.countries.libya.work",
+        "global.10B.countries.libya.energy",
+        "global.10B.countries.libya.mobility",
+        "global.10B.countries.libya.communications",
+        "global.10B.countries.libya.governance",
+        "global.10B.countries.libya.environment",
+        "global.10B.countries.libya.belonging",
+        "global.10B.countries.libya.meaning",
+        "global.10B.countries.libya.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

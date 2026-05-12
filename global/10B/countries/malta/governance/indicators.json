@@ -1,0 +1,44 @@
+{
+  "country": "Malta",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law and civil law based on the Roman and Napoleonic civil codes; subject to European Union law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "many previous; latest adopted 21 September 1964",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age (16 in local council elections); universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Myriam Spiteri DEBONO (since 4 April 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Australia Group, C, CD, CE, EAPC, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO (partner), NSG, OAS (observer), OPCW, OSCE, PCA, PFP, Schengen Convention, UN, UNCTAD, UNESCO, UNIDO, Union Latina (observer), UNWTO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Cabo Verde",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7902,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8596
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.926
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79015,
+    0.8,
+    0.8596,
+    0.926,
+    -0.86169,
+    0.09545,
+    0.45925,
+    0.39034,
+    0.71206,
+    -0.20705,
+    -0.95349,
+    0.0938,
+    0.60903,
+    -0.44338,
+    -0.79538,
+    -0.98218
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

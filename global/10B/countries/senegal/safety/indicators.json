@@ -1,0 +1,39 @@
+{
+  "country": "Senegal",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Senegalese Armed Forces (les Forces Armées Sénégalaises, FAS): Army (l’Armée de Terre, AT), Senegalese National Navy (Marine Séenéegalaise, MNS), Senegalese Air Force (l'Arméee de l'Air du Séenéegal, AAS), National Gendarmerie (includes Territorial and Mobile components)Ministry of Interior: National Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.5% of GDP (2023 est.)1.6% of GDP (2022 est.)1.7% of GDP (2021 est.)1.5% of GDP (2020 est.)1.5% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "11,518 (Mauritania) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

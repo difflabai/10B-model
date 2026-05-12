@@ -1,0 +1,60 @@
+{
+  "country": "Jersey",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.8254,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8898
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.786
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.75
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.751
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.82537,
+    0.71429,
+    0.8898,
+    0.786,
+    0.91696,
+    0.26738,
+    -0.28844,
+    0.66622,
+    -0.91443,
+    -0.325,
+    0.19991,
+    -0.83105,
+    0.15456,
+    -0.62875,
+    -0.76449,
+    0.30202
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

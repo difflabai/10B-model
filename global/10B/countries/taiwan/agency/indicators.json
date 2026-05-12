@@ -1,0 +1,39 @@
+{
+  "country": "Taiwan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal; note - in March 2022, the Legislative Yuan approved lowering the voting age to 18, but the change will require a constitutional amendment that must be submitted to a referendum",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Progressive Party or DPP Kuomintang or KMT (Nationalist Party) Taiwan People's Party or TPP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "90% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "5 nationwide television networks operating roughly 22 TV stations; more than 300 satellite TV channels are available; about 51% of households utilize multi-channel cable TV; 99.9% of households subscribe to digital cable TV; national and regional radio networks with about 171 radio stations (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "work"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.work",
+        "global.10B.countries.angola.work",
+        "global.10B.countries.benin.work",
+        "global.10B.countries.botswana.work",
+        "global.10B.countries.bouvet-island.work",
+        "global.10B.countries.british-indian-ocean-territory.work",
+        "global.10B.countries.burkina-faso.work",
+        "global.10B.countries.burundi.work",
+        "global.10B.countries.cabo-verde.work",
+        "global.10B.countries.cameroon.work",
+        "global.10B.countries.central-african-republic.work",
+        "global.10B.countries.chad.work",
+        "global.10B.countries.comoros.work",
+        "global.10B.countries.congo-democratic-republic-of-the.work",
+        "global.10B.countries.congo-republic-of-the.work",
+        "global.10B.countries.djibouti.work",
+        "global.10B.countries.egypt.work",
+        "global.10B.countries.equatorial-guinea.work",
+        "global.10B.countries.eritrea.work",
+        "global.10B.countries.eswatini.work",
+        "global.10B.countries.ethiopia.work",
+        "global.10B.countries.gabon.work",
+        "global.10B.countries.gambia-the.work",
+        "global.10B.countries.ghana.work",
+        "global.10B.countries.guinea.work",
+        "global.10B.countries.guinea-bissau.work",
+        "global.10B.countries.kenya.work",
+        "global.10B.countries.lesotho.work",
+        "global.10B.countries.liberia.work",
+        "global.10B.countries.libya.work",
+        "global.10B.countries.madagascar.work",
+        "global.10B.countries.malawi.work",
+        "global.10B.countries.mali.work",
+        "global.10B.countries.mauritania.work",
+        "global.10B.countries.mauritius.work",
+        "global.10B.countries.morocco.work",
+        "global.10B.countries.mozambique.work",
+        "global.10B.countries.namibia.work",
+        "global.10B.countries.niger.work",
+        "global.10B.countries.nigeria.work",
+        "global.10B.countries.rwanda.work",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.work",
+        "global.10B.countries.sao-tome-and-principe.work",
+        "global.10B.countries.senegal.work",
+        "global.10B.countries.seychelles.work",
+        "global.10B.countries.sierra-leone.work",
+        "global.10B.countries.somalia.work",
+        "global.10B.countries.south-africa.work",
+        "global.10B.countries.south-sudan.work",
+        "global.10B.countries.sudan.work",
+        "global.10B.countries.tanzania.work",
+        "global.10B.countries.togo.work",
+        "global.10B.countries.tunisia.work",
+        "global.10B.countries.uganda.work",
+        "global.10B.countries.zambia.work",
+        "global.10B.countries.zimbabwe.work"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

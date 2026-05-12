@@ -1,0 +1,39 @@
+{
+  "country": "Turkmenistan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of Turkmenistan (aka Turkmen National Army): Land Forces, Navy, Air and Air Defense ForcesMinistry of Internal Affairs: Internal Troops, national police, Federal/State Border Guard Service (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.9% of GDP (2019 est.)1.8% of GDP (2018 est.)1.8% of GDP (2017 est.)1.8% of GDP (2016 est.)1.5% of GDP (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Central African Republic",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.4103,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3031
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.368
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.32
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.41028,
+    0.8,
+    0.3031,
+    0.368,
+    0.87076,
+    -0.15019,
+    0.04735,
+    0.46627,
+    -0.42837,
+    -0.5219,
+    -0.30492,
+    0.40615,
+    -0.07228,
+    -0.8793,
+    -0.03883,
+    -0.53426
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

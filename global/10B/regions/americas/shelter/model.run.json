@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.shelter",
+        "global.10B.countries.antigua-and-barbuda.shelter",
+        "global.10B.countries.argentina.shelter",
+        "global.10B.countries.aruba.shelter",
+        "global.10B.countries.bahamas-the.shelter",
+        "global.10B.countries.barbados.shelter",
+        "global.10B.countries.belize.shelter",
+        "global.10B.countries.bermuda.shelter",
+        "global.10B.countries.bolivia.shelter",
+        "global.10B.countries.brazil.shelter",
+        "global.10B.countries.british-virgin-islands.shelter",
+        "global.10B.countries.cayman-islands.shelter",
+        "global.10B.countries.cuba.shelter",
+        "global.10B.countries.curacao.shelter",
+        "global.10B.countries.dominica.shelter",
+        "global.10B.countries.dominican-republic.shelter",
+        "global.10B.countries.falkland-islands-islas-malvinas.shelter",
+        "global.10B.countries.grenada.shelter",
+        "global.10B.countries.guyana.shelter",
+        "global.10B.countries.haiti.shelter",
+        "global.10B.countries.jamaica.shelter",
+        "global.10B.countries.montserrat.shelter",
+        "global.10B.countries.navassa-island.shelter",
+        "global.10B.countries.paraguay.shelter",
+        "global.10B.countries.puerto-rico.shelter",
+        "global.10B.countries.saint-barthelemy.shelter",
+        "global.10B.countries.saint-kitts-and-nevis.shelter",
+        "global.10B.countries.saint-lucia.shelter",
+        "global.10B.countries.saint-martin.shelter",
+        "global.10B.countries.saint-pierre-and-miquelon.shelter",
+        "global.10B.countries.saint-vincent-and-the-grenadines.shelter",
+        "global.10B.countries.sint-maarten.shelter",
+        "global.10B.countries.suriname.shelter",
+        "global.10B.countries.trinidad-and-tobago.shelter",
+        "global.10B.countries.turks-and-caicos-islands.shelter",
+        "global.10B.countries.uruguay.shelter",
+        "global.10B.countries.venezuela.shelter",
+        "global.10B.countries.virgin-islands.shelter"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

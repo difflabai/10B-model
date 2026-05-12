@@ -1,0 +1,47 @@
+{
+  "country": "peru",
+  "category_scores": {
+    "agency": 0.7625,
+    "belonging": 0.7493,
+    "communications": 0.6629,
+    "education": 0.7708,
+    "energy": 0.6368,
+    "environment": 0.5423,
+    "food": 0.6533,
+    "governance": 0.7143,
+    "health": 0.6422,
+    "meaning": 0.65,
+    "mobility": 0.5385,
+    "safety": 0.6278,
+    "shelter": 0.7036,
+    "water": 0.65,
+    "work": 0.6138
+  },
+  "country_score": 0.6612,
+  "tier_scores": {
+    "subsistence": 0.6554,
+    "development": 0.6446,
+    "agency": 0.6837
+  },
+  "country_embedding": [
+    0.66121,
+    0.87709,
+    0.70947,
+    0.6443,
+    -0.21226,
+    0.07411,
+    -0.13417,
+    0.11318,
+    -0.03161,
+    0.11848,
+    -0.16503,
+    -0.19167,
+    -0.07002,
+    -0.09614,
+    -0.22212,
+    -0.05364
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Peru, the three needs areas with the largest gaps are: mobility (0.54), environment (0.54), work (0.61).\nThe three strongest areas are: education (0.77), agency (0.76), belonging (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

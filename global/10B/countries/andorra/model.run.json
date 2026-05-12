@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.andorra",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Andorra"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.andorra.food",
+        "global.10B.countries.andorra.water",
+        "global.10B.countries.andorra.shelter",
+        "global.10B.countries.andorra.health",
+        "global.10B.countries.andorra.safety",
+        "global.10B.countries.andorra.education",
+        "global.10B.countries.andorra.work",
+        "global.10B.countries.andorra.energy",
+        "global.10B.countries.andorra.mobility",
+        "global.10B.countries.andorra.communications",
+        "global.10B.countries.andorra.governance",
+        "global.10B.countries.andorra.environment",
+        "global.10B.countries.andorra.belonging",
+        "global.10B.countries.andorra.meaning",
+        "global.10B.countries.andorra.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

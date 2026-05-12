@@ -1,0 +1,60 @@
+{
+  "country": "Cook Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.2857142857142857,
+  "indicators_scored": 2,
+  "indicators_total": 7,
+  "composite_score": 0.8024,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6548
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8024,
+    0.28571,
+    0.6548,
+    0.95,
+    0.97079,
+    -0.82351,
+    -0.78943,
+    0.96948,
+    -0.26564,
+    0.67639,
+    -0.98785,
+    0.98257,
+    -0.62811,
+    0.65121,
+    -0.74145,
+    0.77755
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

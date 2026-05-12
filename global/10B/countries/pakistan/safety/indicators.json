@@ -1,0 +1,39 @@
+{
+  "country": "Pakistan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Pakistan Armed Forces: Pakistan Army (includes National Guard), Pakistan Navy (includes marines, Maritime Security Agency), Pakistan Air Force (Pakistan Fizaia)Ministry of Interior: Frontier Corps, Pakistan Rangers (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3% of GDP (2023 est.)4% of GDP (2022 est.)4% of GDP (2021 est.)4% of GDP (2020 est.)4.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "2.64-2.9 million (1.3 million registered, 1.34-1.6  million undocumented or otherwise categorized) (Afghanistan) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

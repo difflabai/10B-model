@@ -1,0 +1,52 @@
+{
+  "country": "Paraguay",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7315,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.904
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.522
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7315,
+    0.8,
+    0.904,
+    0.522,
+    0.04659,
+    -0.95605,
+    0.66448,
+    0.82016,
+    -0.37166,
+    -0.38265,
+    0.20635,
+    0.48592,
+    0.19738,
+    -0.5014,
+    -0.57137,
+    0.1462
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

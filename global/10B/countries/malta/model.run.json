@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.malta",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Malta"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.malta.food",
+        "global.10B.countries.malta.water",
+        "global.10B.countries.malta.shelter",
+        "global.10B.countries.malta.health",
+        "global.10B.countries.malta.safety",
+        "global.10B.countries.malta.education",
+        "global.10B.countries.malta.work",
+        "global.10B.countries.malta.energy",
+        "global.10B.countries.malta.mobility",
+        "global.10B.countries.malta.communications",
+        "global.10B.countries.malta.governance",
+        "global.10B.countries.malta.environment",
+        "global.10B.countries.malta.belonging",
+        "global.10B.countries.malta.meaning",
+        "global.10B.countries.malta.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

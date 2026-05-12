@@ -1,0 +1,76 @@
+{
+  "country": "Turks and Caicos Islands",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8181818181818182,
+  "indicators_scored": 9,
+  "indicators_total": 11,
+  "composite_score": 0.707,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": 0.825
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": 0.6033
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.935
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.70704,
+    0.81818,
+    0.825,
+    0.55,
+    -0.03005,
+    0.47259,
+    0.13127,
+    0.86294,
+    0.74612,
+    -0.74792,
+    -0.73306,
+    0.30205,
+    -0.90448,
+    -0.38744,
+    0.16967,
+    -0.61474
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Guernsey",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (States of Deliberation)",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "customary legal system based on Norman customary law; includes elements of the French civil code and English common law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "unwritten; includes royal charters, statutes, and common law and practice",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Lieutenant-Governor Richard CRIPWELL (since 15 February 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Panama",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance Party or PAAlternative Independent Socialist Party or PAISAnother Way Movement or MOCADemocratic Change or CDDemocratic Revolutionary Party or PRDNationalist Republican Liberal Movement or MOLIRENAPanameñista Party (formerly the Arnulfista Party)Popular Party or PP (formerly Christian Democratic Party or PDC)Realizing Goals Party or RM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "74% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple privately owned TV networks and a government-owned educational TV station; multi-channel cable and satellite TV subscription services are available; more than 100 commercial radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

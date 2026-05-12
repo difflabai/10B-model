@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.shelter",
+        "global.10B.countries.andorra.shelter",
+        "global.10B.countries.armenia.shelter",
+        "global.10B.countries.austria.shelter",
+        "global.10B.countries.azerbaijan.shelter",
+        "global.10B.countries.belarus.shelter",
+        "global.10B.countries.belgium.shelter",
+        "global.10B.countries.bosnia-and-herzegovina.shelter",
+        "global.10B.countries.bulgaria.shelter",
+        "global.10B.countries.croatia.shelter",
+        "global.10B.countries.cyprus.shelter",
+        "global.10B.countries.czechia.shelter",
+        "global.10B.countries.denmark.shelter",
+        "global.10B.countries.estonia.shelter",
+        "global.10B.countries.faroe-islands.shelter",
+        "global.10B.countries.finland.shelter",
+        "global.10B.countries.georgia.shelter",
+        "global.10B.countries.germany.shelter",
+        "global.10B.countries.gibraltar.shelter",
+        "global.10B.countries.greece.shelter",
+        "global.10B.countries.guernsey.shelter",
+        "global.10B.countries.holy-see-vatican-city.shelter",
+        "global.10B.countries.hungary.shelter",
+        "global.10B.countries.iceland.shelter",
+        "global.10B.countries.ireland.shelter",
+        "global.10B.countries.isle-of-man.shelter",
+        "global.10B.countries.italy.shelter",
+        "global.10B.countries.jan-mayen.shelter",
+        "global.10B.countries.jersey.shelter",
+        "global.10B.countries.kazakhstan.shelter",
+        "global.10B.countries.kosovo.shelter",
+        "global.10B.countries.latvia.shelter",
+        "global.10B.countries.liechtenstein.shelter",
+        "global.10B.countries.lithuania.shelter",
+        "global.10B.countries.luxembourg.shelter",
+        "global.10B.countries.malta.shelter",
+        "global.10B.countries.moldova.shelter",
+        "global.10B.countries.monaco.shelter",
+        "global.10B.countries.montenegro.shelter",
+        "global.10B.countries.netherlands.shelter",
+        "global.10B.countries.north-macedonia.shelter",
+        "global.10B.countries.norway.shelter",
+        "global.10B.countries.poland.shelter",
+        "global.10B.countries.portugal.shelter",
+        "global.10B.countries.romania.shelter",
+        "global.10B.countries.san-marino.shelter",
+        "global.10B.countries.serbia.shelter",
+        "global.10B.countries.slovakia.shelter",
+        "global.10B.countries.slovenia.shelter",
+        "global.10B.countries.spain.shelter",
+        "global.10B.countries.sweden.shelter",
+        "global.10B.countries.switzerland.shelter",
+        "global.10B.countries.turkey-turkiye.shelter",
+        "global.10B.countries.ukraine.shelter",
+        "global.10B.countries.united-kingdom.shelter"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

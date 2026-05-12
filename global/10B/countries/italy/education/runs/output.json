@@ -1,0 +1,52 @@
+{
+  "country": "Italy",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7971,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9604
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.79708,
+    1.0,
+    0.9604,
+    0.65,
+    0.02635,
+    -0.9126,
+    -0.62084,
+    -0.81424,
+    0.02669,
+    0.12303,
+    -0.19741,
+    -0.81418,
+    -0.24016,
+    0.60293,
+    -0.76709,
+    0.53469
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

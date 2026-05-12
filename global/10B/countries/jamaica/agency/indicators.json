@@ -1,0 +1,39 @@
+{
+  "country": "Jamaica",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Jamaica Labor Party or JLPJamaica Progressive Party or JPPPeople's National Party or PNPUnited Independents' Congress or UIC",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "3 free-to-air TV stations, subscription cable services, and roughly 30 radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

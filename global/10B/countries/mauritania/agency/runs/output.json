@@ -1,0 +1,56 @@
+{
+  "country": "Mauritania",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6861,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.4843
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.326
+    }
+  ],
+  "embedding": [
+    0.68606,
+    0.83333,
+    0.85,
+    0.85,
+    -0.80923,
+    0.27199,
+    0.54006,
+    0.77188,
+    -0.94565,
+    -0.73468,
+    0.53033,
+    -0.67764,
+    -0.7034,
+    0.12605,
+    0.96143,
+    -0.94989
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

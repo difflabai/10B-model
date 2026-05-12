@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.spain",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Spain"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.spain.food",
+        "global.10B.countries.spain.water",
+        "global.10B.countries.spain.shelter",
+        "global.10B.countries.spain.health",
+        "global.10B.countries.spain.safety",
+        "global.10B.countries.spain.education",
+        "global.10B.countries.spain.work",
+        "global.10B.countries.spain.energy",
+        "global.10B.countries.spain.mobility",
+        "global.10B.countries.spain.communications",
+        "global.10B.countries.spain.governance",
+        "global.10B.countries.spain.environment",
+        "global.10B.countries.spain.belonging",
+        "global.10B.countries.spain.meaning",
+        "global.10B.countries.spain.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

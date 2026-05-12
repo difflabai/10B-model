@@ -1,0 +1,39 @@
+{
+  "country": "Netherlands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Christian Democratic Appeal or CDA Christian Union or CUCorrect Answer 2021 or JA21Democrats 66 or D66 Denk Farmer-Citizen Movement or BBB 50Plus Forum for Democracy or FvD Green Left (GroenLinks) or GL Labor Party or PvdA New Social Contract or NSC Party for Freedom or PVV Party for the Animals or PvdD People's Party for Freedom and Democracy or VVD Reformed Political Party or SGP Socialist Party or SP Together or BIJ1 Volt Netherlands or Volt",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "more than 90% of households are connected to cable or satellite TV systems that provide a wide range of domestic and foreign channels; public service broadcast system includes multiple broadcasters, 3 with a national reach and the remainder operating in regional and local markets; 2 major nationwide commercial television companies, each with 3 or more stations, and many commercial TV stations in regional and local markets; nearly 600 radio stations with a mix of public and private stations providing national or regional coverage",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.3% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

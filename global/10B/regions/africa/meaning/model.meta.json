@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.meaning",
+  "name": "Africa — Meaning, identity, and culture",
+  "kind": "sector_economic",
+  "blurb": "Region-level meaning, identity, and culture for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country meaning models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "meaning-country-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "meaning-region-mean",
+      "kind": "scalar",
+      "description": "Mean meaning score across the region."
+    },
+    {
+      "name": "meaning-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Meaning, identity, and culture"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.meaning",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

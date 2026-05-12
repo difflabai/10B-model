@@ -1,0 +1,34 @@
+{
+  "country": "Tanzania",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "37.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "262,000 Dodoma (legislative capital) (2018), 7.776 million DAR ES SALAAM (administrative capital), 1.311 million Mwanza, 800,000 Zanzibar (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the largest and most populous East African country; population distribution is extremely uneven, but greater population clusters occur in the northern half of country and along the east coast as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from tropical along coast to temperate in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical along coast to temperate in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

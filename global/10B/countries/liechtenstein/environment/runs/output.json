@@ -1,0 +1,60 @@
+{
+  "country": "Liechtenstein",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.5385,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.781
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.5385,
+    0.85714,
+    0.4,
+    0.85,
+    -0.99759,
+    0.37704,
+    -0.36492,
+    -0.64758,
+    0.8089,
+    -0.79776,
+    -0.7192,
+    -0.84076,
+    -0.81927,
+    -0.98694,
+    0.82483,
+    0.39287
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

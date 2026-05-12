@@ -1,0 +1,118 @@
+{
+  "id": "global.10B.regions.polar.work",
+  "name": "Polar / extra-territorial — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Polar / extra-territorial, aggregated across 10 countries.",
+  "mechanism": "Aggregates the per-country work models for the 10 Polar / extra-territorial countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for svalbard"
+    },
+    {
+      "target_model_id": "global.10B.regions.polar",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

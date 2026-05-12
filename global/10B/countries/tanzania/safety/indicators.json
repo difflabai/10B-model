@@ -1,0 +1,39 @@
+{
+  "country": "Tanzania",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Tanzania People's Defense Forces (TPDF or Jeshi la Wananchi la Tanzania, JWTZ): Land Forces, Naval Forces, Air Force, National Building Army (Jeshi la Kujenga Taifa, JKT), People's Militia (Reserves)Ministry of Home Affairs: Tanzania Police Force (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.3% of GDP (2023 est.)1.2% of GDP (2022 est.)1.1% of GDP (2021 est.)1.2% of GDP (2020 est.)1.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "89,163 (Democratic Republic of the Congo), 112,779 (Burundi) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

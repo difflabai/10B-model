@@ -1,0 +1,47 @@
+{
+  "country": "ethiopia",
+  "category_scores": {
+    "agency": 0.653,
+    "belonging": 0.7071,
+    "communications": 0.6115,
+    "education": 0.6287,
+    "energy": 0.5443,
+    "environment": 0.4802,
+    "food": 0.6274,
+    "governance": 0.7143,
+    "health": 0.4798,
+    "meaning": 0.69,
+    "mobility": 0.561,
+    "safety": 0.5611,
+    "shelter": 0.6345,
+    "water": 0.65,
+    "work": 0.5946
+  },
+  "country_score": 0.6092,
+  "tier_scores": {
+    "subsistence": 0.5906,
+    "development": 0.588,
+    "agency": 0.6489
+  },
+  "country_embedding": [
+    0.60916,
+    0.86308,
+    0.57729,
+    0.68267,
+    0.13159,
+    0.05806,
+    0.22157,
+    0.05578,
+    0.12436,
+    -0.08716,
+    -0.20948,
+    0.10093,
+    0.08183,
+    -0.05813,
+    -0.0456,
+    0.01924
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Ethiopia, the three needs areas with the largest gaps are: health (0.48), environment (0.48), energy (0.54).\nThe three strongest areas are: governance (0.71), belonging (0.71), meaning (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

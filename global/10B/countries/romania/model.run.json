@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.romania",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Romania"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.romania.food",
+        "global.10B.countries.romania.water",
+        "global.10B.countries.romania.shelter",
+        "global.10B.countries.romania.health",
+        "global.10B.countries.romania.safety",
+        "global.10B.countries.romania.education",
+        "global.10B.countries.romania.work",
+        "global.10B.countries.romania.energy",
+        "global.10B.countries.romania.mobility",
+        "global.10B.countries.romania.communications",
+        "global.10B.countries.romania.governance",
+        "global.10B.countries.romania.environment",
+        "global.10B.countries.romania.belonging",
+        "global.10B.countries.romania.meaning",
+        "global.10B.countries.romania.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Denmark",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7841,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.927
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.7
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8408
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.793
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.752
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.8255
+    }
+  ],
+  "embedding": [
+    0.78405,
+    1.0,
+    0.927,
+    0.7,
+    -0.36034,
+    -0.65298,
+    0.10616,
+    -0.75174,
+    0.70346,
+    -0.49755,
+    -0.88452,
+    0.12975,
+    0.68377,
+    0.37203,
+    -0.59832,
+    -0.47182
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

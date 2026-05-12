@@ -1,0 +1,52 @@
+{
+  "country": "Morocco",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7334,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6837
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.73342,
+    1.0,
+    0.6837,
+    0.75,
+    0.77453,
+    0.57531,
+    -0.61358,
+    0.02599,
+    0.80075,
+    0.43166,
+    0.67269,
+    -0.02327,
+    0.51904,
+    0.21306,
+    -0.39849,
+    -0.98694
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "qatar",
+  "category_scores": {
+    "agency": 0.7416,
+    "belonging": 0.6756,
+    "communications": 0.723,
+    "education": 0.705,
+    "energy": 0.5327,
+    "environment": 0.3985,
+    "food": 0.5143,
+    "governance": 0.6714,
+    "health": 0.6894,
+    "meaning": 0.67,
+    "mobility": 0.5914,
+    "safety": 0.6833,
+    "shelter": 0.6375,
+    "water": 0.65,
+    "work": 0.7835
+  },
+  "country_score": 0.6445,
+  "tier_scores": {
+    "subsistence": 0.6349,
+    "development": 0.6671,
+    "agency": 0.6314
+  },
+  "country_embedding": [
+    0.64449,
+    0.78415,
+    0.71136,
+    0.5461,
+    -0.01479,
+    -0.23912,
+    0.01686,
+    -0.16063,
+    -0.05377,
+    -0.07342,
+    -0.0676,
+    0.18131,
+    0.37918,
+    0.02153,
+    -0.07976,
+    -0.20192
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Qatar, the three needs areas with the largest gaps are: environment (0.40), food (0.51), energy (0.53).\nThe three strongest areas are: work (0.78), agency (0.74), communications (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

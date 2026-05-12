@@ -1,0 +1,64 @@
+{
+  "country": "Mozambique",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "42 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "15 million (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "29,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "21% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "65,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "one of the first countries in the region to embark upon telecom reform and to open the sector to competition; the mobile segment in particular has shown strong growth; additional competition followed in late 2020; a new licensing regime ensured that by mid-2019 all operators had been provided with universal licenses, enabling them to offer all types of telephony and data services; mobile, fixed-line and broadband penetration rates remain far below the average for the region; in recent years the government has enforced the registration of SIM cards, but with varying success; at the end of 2016 almost five million unregistered SIM cards were deactivated but poor monitoring meant that the process was revisited in mid-2019 and again in late 2020; the high cost of international bandwidth had long hampered internet use, though the landing of two international submarine cables (SEACOM and EASSy) has reduced the cost of bandwidth and so led to drastic reductions in broadband retail prices as well as a significant jump in available bandwidth; there is some cross-platform competition, with DSL, cable, fibre, WiMAX, and mobile broadband options available, though fixed broadband options can be limited to urban areas; improvements can be expected from the ongoing rollout of a national fiber backbone networks and of upgrades to mobile infrastructure (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 1 per 100 and nearly 43 per 100 mobile-cellular teledensity (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 258; landing points for the EASSy and SEACOM/ Tata TGN-Eurasia fiber-optic submarine cable systems linking numerous east African countries, the Middle East and Asia ; satellite earth stations - 5 Intelsat (2 Atlantic Ocean and 3 Indian Ocean); TdM contracts for Itelsat for satellite broadband and bulk haul services (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-run TV station supplemented by private TV station; Portuguese state TV's African service, RTP Africa, and Brazilian-owned TV Miramar are available; state-run radio provides nearly 100% territorial coverage and broadcasts in multiple languages; a number of privately owned and community-operated stations; transmissions of multiple international broadcasters are available (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

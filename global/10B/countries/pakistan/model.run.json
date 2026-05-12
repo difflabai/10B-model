@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.pakistan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Pakistan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.pakistan.food",
+        "global.10B.countries.pakistan.water",
+        "global.10B.countries.pakistan.shelter",
+        "global.10B.countries.pakistan.health",
+        "global.10B.countries.pakistan.safety",
+        "global.10B.countries.pakistan.education",
+        "global.10B.countries.pakistan.work",
+        "global.10B.countries.pakistan.energy",
+        "global.10B.countries.pakistan.mobility",
+        "global.10B.countries.pakistan.communications",
+        "global.10B.countries.pakistan.governance",
+        "global.10B.countries.pakistan.environment",
+        "global.10B.countries.pakistan.belonging",
+        "global.10B.countries.pakistan.meaning",
+        "global.10B.countries.pakistan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

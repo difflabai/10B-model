@@ -1,0 +1,39 @@
+{
+  "country": "Mongolia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Party or DPMongolian People's Party or MPP National Coalition (consists of Mongolian Green Party or MGP and the Mongolian National Democratic Party or MNDP)National Labor Party or HUN Civil Will-Green Party or CWGP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "84% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "following a law passed in 2005, Mongolia's state-run radio and TV provider converted to a public service provider; also available are 68 radio and 160 TV stations, including multi-channel satellite and cable TV providers; transmissions of multiple international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

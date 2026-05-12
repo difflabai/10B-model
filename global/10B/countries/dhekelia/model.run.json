@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.dhekelia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Dhekelia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.dhekelia.food",
+        "global.10B.countries.dhekelia.water",
+        "global.10B.countries.dhekelia.shelter",
+        "global.10B.countries.dhekelia.health",
+        "global.10B.countries.dhekelia.safety",
+        "global.10B.countries.dhekelia.education",
+        "global.10B.countries.dhekelia.work",
+        "global.10B.countries.dhekelia.energy",
+        "global.10B.countries.dhekelia.mobility",
+        "global.10B.countries.dhekelia.communications",
+        "global.10B.countries.dhekelia.governance",
+        "global.10B.countries.dhekelia.environment",
+        "global.10B.countries.dhekelia.belonging",
+        "global.10B.countries.dhekelia.meaning",
+        "global.10B.countries.dhekelia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

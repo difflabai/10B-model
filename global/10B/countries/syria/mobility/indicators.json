@@ -1,0 +1,59 @@
+{
+  "country": "Syria",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "69,873 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "63,060 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "6,813 km (2010)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "39 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "12 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "3,170 km gas, 2029 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "900 km (2011) (navigable but not economically significant)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,052 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "17,896 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "30,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

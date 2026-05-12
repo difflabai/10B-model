@@ -1,0 +1,72 @@
+{
+  "country": "Taiwan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.5399,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.4584
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.538
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5694
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6711
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3426
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.53994,
+    0.7,
+    0.4584,
+    0.538,
+    -0.9599,
+    0.60037,
+    0.11205,
+    -0.8504,
+    0.45812,
+    0.0428,
+    -0.45431,
+    0.65426,
+    0.59518,
+    0.98114,
+    -0.10478,
+    -0.26754
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

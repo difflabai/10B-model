@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.belonging",
+  "name": "Americas — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "Region-level belonging and social cohesion for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country belonging models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-region-mean",
+      "kind": "scalar",
+      "description": "Mean belonging score across the region."
+    },
+    {
+      "name": "belonging-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.belonging",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

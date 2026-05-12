@@ -1,0 +1,34 @@
+{
+  "country": "Tonga",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "23.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "23,000 NUKU'ALOFA (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "over two-thirds of the population lives on the island of Tongatapu; only 45 of the nation's 171 islands are occupied",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; modified by trade winds; warm season (December to May), cool season (May to December)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; modified by trade winds; warm season (December to May), cool season (May to December)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

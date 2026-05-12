@@ -1,0 +1,34 @@
+{
+  "country": "Israel",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "92.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4.421 million Tel Aviv-Yafo, 1.174 million Haifa, 970,000 JERUSALEM (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in and around Tel-Aviv, as well as around the Sea of Galilee; the south remains sparsely populated with the exception of the shore of the Gulf of Aqaba",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; hot and dry in southern and eastern desert areas",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; hot and dry in southern and eastern desert areas",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

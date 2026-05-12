@@ -1,0 +1,52 @@
+{
+  "country": "Turkey (Turkiye)",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7633,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9304
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.536
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76328,
+    1.0,
+    0.9304,
+    0.536,
+    -0.50411,
+    -0.70755,
+    0.05266,
+    -0.67843,
+    0.17144,
+    0.04579,
+    0.78347,
+    -0.91702,
+    -0.5563,
+    -0.87198,
+    0.92679,
+    -0.43957
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

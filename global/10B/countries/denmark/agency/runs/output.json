@@ -1,0 +1,56 @@
+{
+  "country": "Denmark",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8708,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.854
+    }
+  ],
+  "embedding": [
+    0.8708,
+    0.83333,
+    0.85,
+    0.85,
+    -0.17641,
+    0.39879,
+    0.78839,
+    0.56078,
+    0.76767,
+    0.21532,
+    -0.97037,
+    0.64019,
+    0.84521,
+    0.85208,
+    -0.90832,
+    0.18431
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

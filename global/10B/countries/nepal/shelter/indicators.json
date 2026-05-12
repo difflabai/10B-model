@@ -1,0 +1,34 @@
+{
+  "country": "Nepal",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "21.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.571 million KATHMANDU (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is divided nearly equally between a concentration in the southern-most plains of the Tarai region and the central hilly region; overall density is quite low",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from cool summers and severe winters in north to subtropical summers and mild winters in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from cool summers and severe winters in north to subtropical summers and mild winters in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

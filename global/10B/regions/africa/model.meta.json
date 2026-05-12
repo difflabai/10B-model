@@ -1,0 +1,432 @@
+{
+  "id": "global.10B.regions.africa",
+  "name": "Africa — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Africa aggregating 56 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 56 country needs profiles for Africa into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Africa countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Africa countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Africa countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Africa countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Africa countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Africa countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Africa countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Africa countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Africa countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Africa countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Africa countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Africa countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Africa countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Africa countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

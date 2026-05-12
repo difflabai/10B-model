@@ -1,0 +1,39 @@
+{
+  "country": "Honduras",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Anti-Corruption Party or PACChristian Democratic Party or DCDemocratic Liberation of Honduras or LiderhDemocratic Unification Party or UDThe Front or El FrenteHonduran Patriotic Alliance or APInnovation and Unity Party or PINULiberal Party or PLLiberty and Refoundation Party or LIBRENational Party of Honduras or PNHNew Route or NROpposition Alliance against the Dictatorship or Alianza de Oposicion contra la Dictadura (electoral coalition)Savior Party of Honduras or PSHVamos or Let’s GoWe Are All Honduras (Todos Somos Honduras) or TSH",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "60% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple privately owned terrestrial TV networks, supplemented by multiple cable TV networks; Radio Honduras is the lone government-owned radio network; roughly 300 privately owned radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.4% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

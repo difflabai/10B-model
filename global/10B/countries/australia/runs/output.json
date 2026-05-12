@@ -1,0 +1,47 @@
+{
+  "country": "australia",
+  "category_scores": {
+    "agency": 0.8612,
+    "belonging": 0.758,
+    "communications": 0.767,
+    "education": 0.812,
+    "energy": 0.5951,
+    "environment": 0.5438,
+    "food": 0.7288,
+    "governance": 0.7286,
+    "health": 0.8228,
+    "meaning": 0.71,
+    "mobility": 0.8065,
+    "safety": 0.5722,
+    "shelter": 0.7209,
+    "water": 0.725,
+    "work": 0.7586
+  },
+  "country_score": 0.7274,
+  "tier_scores": {
+    "subsistence": 0.7139,
+    "development": 0.7478,
+    "agency": 0.7203
+  },
+  "country_embedding": [
+    0.72738,
+    0.84017,
+    0.77227,
+    0.76353,
+    0.12665,
+    0.07854,
+    0.20049,
+    -0.07637,
+    -0.042,
+    0.01322,
+    -0.22398,
+    -0.06669,
+    0.00467,
+    0.18385,
+    0.05728,
+    -0.06669
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Australia, the three needs areas with the largest gaps are: environment (0.54), safety (0.57), energy (0.60).\nThe three strongest areas are: agency (0.86), health (0.82), education (0.81).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

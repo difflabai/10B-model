@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.russia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Russia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.russia.food",
+        "global.10B.countries.russia.water",
+        "global.10B.countries.russia.shelter",
+        "global.10B.countries.russia.health",
+        "global.10B.countries.russia.safety",
+        "global.10B.countries.russia.education",
+        "global.10B.countries.russia.work",
+        "global.10B.countries.russia.energy",
+        "global.10B.countries.russia.mobility",
+        "global.10B.countries.russia.communications",
+        "global.10B.countries.russia.governance",
+        "global.10B.countries.russia.environment",
+        "global.10B.countries.russia.belonging",
+        "global.10B.countries.russia.meaning",
+        "global.10B.countries.russia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

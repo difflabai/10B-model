@@ -1,0 +1,34 @@
+{
+  "country": "Brunei",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "79.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "266,682 BANDAR SERI BEGAWAN (capital) (2021)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of the population is found along the coast in the western part of Brunei, which is separated from the eastern portion by Malaysia; the largest population concentration is in the far north on the western side of the Brunei Bay, in and around the capital of Bandar Seri Begawan",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid, rainy",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid, rainy",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

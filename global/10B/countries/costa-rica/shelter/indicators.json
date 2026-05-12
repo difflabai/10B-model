@@ -1,0 +1,34 @@
+{
+  "country": "Costa Rica",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "82.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.462 million SAN JOSE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "roughly half of the nation's population resides in urban areas; the capital of San Jose is the largest city and home to approximately one-fifth of the population",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

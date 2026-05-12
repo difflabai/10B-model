@@ -1,0 +1,59 @@
+{
+  "country": "Kazakhstan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "96,167 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "83,813 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "12,354 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "132 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "30 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "658 km condensate, 15,429 km gas (2020), 8,020 km oil (2020), 1,095 km refined products, 1,975 km water (2017) (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "43,983 km (2020) (on the Ertis (Irtysh) River (80%) and Syr Darya (Syrdariya) River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "16,636 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "7,143,797 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "50.22 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

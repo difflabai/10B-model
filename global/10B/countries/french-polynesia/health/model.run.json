@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.french-polynesia.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "French Polynesia"
+    },
+    "category": {
+      "value": "health"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "health"
+    }
+  },
+  "output": "./runs/output.json"
+}

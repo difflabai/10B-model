@@ -1,0 +1,60 @@
+{
+  "country": "Bermuda",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.7321,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.4955
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.945
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.7
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7321,
+    0.71429,
+    0.97,
+    0.4955,
+    -0.83789,
+    -0.13463,
+    -0.84097,
+    -0.43456,
+    -0.85904,
+    0.64712,
+    0.13545,
+    -0.8865,
+    -0.93533,
+    0.17363,
+    0.43554,
+    -0.3897
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.4,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.4,
+    0.14286,
+    0.4,
+    0.0,
+    0.41366,
+    -0.76571,
+    -0.19976,
+    -0.46691,
+    -0.68099,
+    0.14488,
+    0.32927,
+    -0.41122,
+    -0.08684,
+    0.98547,
+    0.26436,
+    0.74139
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

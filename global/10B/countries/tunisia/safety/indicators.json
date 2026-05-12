@@ -1,0 +1,39 @@
+{
+  "country": "Tunisia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Tunisian Armed Forces (Forces Armées Tunisiennes, FAT): Tunisian Army (includes Air Defense Force), Tunisian Navy, Tunisia Air ForceMinistry of Interior (MoI): National Police, National Guard (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.5% of GDP (2023 est.)2.7% of GDP (2022 est.)3% of GDP (2021 est.)3% of GDP (2020 est.)3.8% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

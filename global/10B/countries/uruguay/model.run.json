@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.uruguay",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Uruguay"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.uruguay.food",
+        "global.10B.countries.uruguay.water",
+        "global.10B.countries.uruguay.shelter",
+        "global.10B.countries.uruguay.health",
+        "global.10B.countries.uruguay.safety",
+        "global.10B.countries.uruguay.education",
+        "global.10B.countries.uruguay.work",
+        "global.10B.countries.uruguay.energy",
+        "global.10B.countries.uruguay.mobility",
+        "global.10B.countries.uruguay.communications",
+        "global.10B.countries.uruguay.governance",
+        "global.10B.countries.uruguay.environment",
+        "global.10B.countries.uruguay.belonging",
+        "global.10B.countries.uruguay.meaning",
+        "global.10B.countries.uruguay.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Jamaica",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7162,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8348
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.83
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.71621,
+    0.8,
+    0.8348,
+    0.83,
+    -0.53826,
+    0.77642,
+    0.09212,
+    0.36434,
+    -0.69989,
+    0.3283,
+    -0.497,
+    -0.38146,
+    0.34417,
+    0.3825,
+    0.87506,
+    0.52941
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

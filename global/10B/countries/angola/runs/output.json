@@ -1,0 +1,47 @@
+{
+  "country": "angola",
+  "category_scores": {
+    "agency": 0.6772,
+    "belonging": 0.6409,
+    "communications": 0.6902,
+    "education": 0.5918,
+    "energy": 0.5122,
+    "environment": 0.5326,
+    "food": 0.6918,
+    "governance": 0.7143,
+    "health": 0.4008,
+    "meaning": 0.63,
+    "mobility": 0.4985,
+    "safety": 0.6078,
+    "shelter": 0.7114,
+    "water": 0.75,
+    "work": 0.4643
+  },
+  "country_score": 0.6076,
+  "tier_scores": {
+    "subsistence": 0.6324,
+    "development": 0.5514,
+    "agency": 0.639
+  },
+  "country_embedding": [
+    0.60759,
+    0.83641,
+    0.60763,
+    0.62388,
+    -0.04791,
+    0.00518,
+    0.22775,
+    -0.03532,
+    -0.17405,
+    -0.09376,
+    0.05884,
+    -0.21996,
+    -0.0428,
+    0.02767,
+    0.04443,
+    -0.03548
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Angola, the three needs areas with the largest gaps are: health (0.40), work (0.46), mobility (0.50).\nThe three strongest areas are: water (0.75), governance (0.71), shelter (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

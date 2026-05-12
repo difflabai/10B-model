@@ -1,0 +1,84 @@
+{
+  "country": "Cabo Verde",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.6198,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.9207
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.8901
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9328
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2575
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.384
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.7633
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.61984,
+    0.76923,
+    0.9207,
+    0.8901,
+    0.99536,
+    0.41939,
+    -0.02763,
+    -0.60992,
+    -0.35497,
+    0.03804,
+    0.99271,
+    0.02382,
+    0.60403,
+    -0.42446,
+    0.53741,
+    0.02388
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

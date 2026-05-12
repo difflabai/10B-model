@@ -1,0 +1,34 @@
+{
+  "country": "Yemen",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "39.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.292 million SANAA (capital), 1.080 million Aden, 941,000 Taiz, 772,000 Ibb (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of the population is found in the Asir Mountains (part of the larger Sarawat Mountain system), located in the far western region of the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

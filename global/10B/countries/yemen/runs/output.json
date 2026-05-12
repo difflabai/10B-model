@@ -1,0 +1,47 @@
+{
+  "country": "yemen",
+  "category_scores": {
+    "agency": 0.645,
+    "belonging": 0.6855,
+    "communications": 0.5495,
+    "education": 0.6393,
+    "energy": 0.5821,
+    "environment": 0.4176,
+    "food": 0.6498,
+    "governance": 0.6857,
+    "health": 0.4278,
+    "meaning": 0.61,
+    "mobility": 0.4486,
+    "safety": 0.66,
+    "shelter": 0.6872,
+    "water": 0.75,
+    "work": 0.4163
+  },
+  "country_score": 0.5903,
+  "tier_scores": {
+    "subsistence": 0.635,
+    "development": 0.5272,
+    "agency": 0.6088
+  },
+  "country_embedding": [
+    0.59031,
+    0.78393,
+    0.58041,
+    0.58213,
+    -0.02581,
+    0.0985,
+    0.2211,
+    -0.07977,
+    0.27709,
+    0.03787,
+    -0.0194,
+    0.41227,
+    0.21492,
+    -0.07998,
+    -0.0297,
+    0.06023
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Yemen, the three needs areas with the largest gaps are: work (0.42), environment (0.42), health (0.43).\nThe three strongest areas are: water (0.75), shelter (0.69), governance (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

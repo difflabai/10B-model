@@ -1,0 +1,52 @@
+{
+  "country": "Sao Tome and Principe",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7613,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9076
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.76128,
+    0.8,
+    0.9076,
+    0.7375,
+    -0.02623,
+    0.7182,
+    -0.27135,
+    -0.25341,
+    0.45504,
+    0.33825,
+    -0.81915,
+    -0.21395,
+    0.37978,
+    0.52905,
+    0.51125,
+    -0.84949
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kenya",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kenya"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kenya.food",
+        "global.10B.countries.kenya.water",
+        "global.10B.countries.kenya.shelter",
+        "global.10B.countries.kenya.health",
+        "global.10B.countries.kenya.safety",
+        "global.10B.countries.kenya.education",
+        "global.10B.countries.kenya.work",
+        "global.10B.countries.kenya.energy",
+        "global.10B.countries.kenya.mobility",
+        "global.10B.countries.kenya.communications",
+        "global.10B.countries.kenya.governance",
+        "global.10B.countries.kenya.environment",
+        "global.10B.countries.kenya.belonging",
+        "global.10B.countries.kenya.meaning",
+        "global.10B.countries.kenya.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

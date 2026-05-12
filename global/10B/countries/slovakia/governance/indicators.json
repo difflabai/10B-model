@@ -1,0 +1,44 @@
+{
+  "country": "Slovakia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on Austro-Hungarian codes; note - legal code modified to comply with the obligations of Organization on Security and Cooperation in Europe",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous (preindependence); latest passed by the National Council 1 September 1992, signed 3 September 1992, effective 1 October 1992",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Peter PELLEGRINI (since 15 June 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Australia Group, BIS, BSEC (observer), CBSS (observer), CD, CE, CEI, CERN, EAPC, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IEA, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITU, ITUC (NGOs), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIF (observer), OPCW, OSCE, PCA, Schengen Convention, SELEC (observer), UN, UNCTAD, UNESCO, UNFICYP, UNIDO, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

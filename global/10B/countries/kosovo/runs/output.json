@@ -1,0 +1,47 @@
+{
+  "country": "kosovo",
+  "category_scores": {
+    "agency": 0.8633,
+    "belonging": 0.6747,
+    "communications": 0.6752,
+    "education": 0.75,
+    "energy": 0.4547,
+    "environment": 0.4734,
+    "food": 0.6905,
+    "governance": 0.7429,
+    "health": 0.5806,
+    "meaning": 0.63,
+    "mobility": 0.3068,
+    "safety": 0.6617,
+    "shelter": 0.65,
+    "water": 0.7,
+    "work": 0.6116
+  },
+  "country_score": 0.631,
+  "tier_scores": {
+    "subsistence": 0.6566,
+    "development": 0.5597,
+    "agency": 0.6769
+  },
+  "country_embedding": [
+    0.63103,
+    0.65713,
+    0.62734,
+    0.64747,
+    -0.2249,
+    0.14406,
+    0.00866,
+    -0.17867,
+    0.29621,
+    0.06057,
+    0.26505,
+    0.13007,
+    -0.12244,
+    0.25593,
+    0.3614,
+    -0.10155
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Kosovo, the three needs areas with the largest gaps are: mobility (0.31), energy (0.45), environment (0.47).\nThe three strongest areas are: agency (0.86), education (0.75), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

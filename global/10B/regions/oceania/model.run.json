@@ -1,0 +1,67 @@
+{
+  "modelId": "global.10B.regions.oceania",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa",
+        "global.10B.countries.australia",
+        "global.10B.countries.baker-island",
+        "global.10B.countries.chile",
+        "global.10B.countries.clipperton-island",
+        "global.10B.countries.colombia",
+        "global.10B.countries.cook-islands",
+        "global.10B.countries.coral-sea-islands",
+        "global.10B.countries.costa-rica",
+        "global.10B.countries.ecuador",
+        "global.10B.countries.el-salvador",
+        "global.10B.countries.fiji",
+        "global.10B.countries.french-polynesia",
+        "global.10B.countries.guam",
+        "global.10B.countries.guatemala",
+        "global.10B.countries.honduras",
+        "global.10B.countries.howland-island",
+        "global.10B.countries.jarvis-island",
+        "global.10B.countries.johnston-atoll",
+        "global.10B.countries.kingman-reef",
+        "global.10B.countries.kiribati",
+        "global.10B.countries.marshall-islands",
+        "global.10B.countries.mexico",
+        "global.10B.countries.micronesia-federated-states-of",
+        "global.10B.countries.midway-islands",
+        "global.10B.countries.nauru",
+        "global.10B.countries.new-caledonia",
+        "global.10B.countries.new-zealand",
+        "global.10B.countries.nicaragua",
+        "global.10B.countries.niue",
+        "global.10B.countries.norfolk-island",
+        "global.10B.countries.northern-mariana-islands",
+        "global.10B.countries.palau",
+        "global.10B.countries.palmyra-atoll",
+        "global.10B.countries.panama",
+        "global.10B.countries.papua-new-guinea",
+        "global.10B.countries.peru",
+        "global.10B.countries.pitcairn-islands",
+        "global.10B.countries.samoa",
+        "global.10B.countries.solomon-islands",
+        "global.10B.countries.tokelau",
+        "global.10B.countries.tonga",
+        "global.10B.countries.tuvalu",
+        "global.10B.countries.united-states",
+        "global.10B.countries.vanuatu",
+        "global.10B.countries.wake-island",
+        "global.10B.countries.wallis-and-futuna"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

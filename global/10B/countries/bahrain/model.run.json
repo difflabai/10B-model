@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bahrain",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bahrain"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bahrain.food",
+        "global.10B.countries.bahrain.water",
+        "global.10B.countries.bahrain.shelter",
+        "global.10B.countries.bahrain.health",
+        "global.10B.countries.bahrain.safety",
+        "global.10B.countries.bahrain.education",
+        "global.10B.countries.bahrain.work",
+        "global.10B.countries.bahrain.energy",
+        "global.10B.countries.bahrain.mobility",
+        "global.10B.countries.bahrain.communications",
+        "global.10B.countries.bahrain.governance",
+        "global.10B.countries.bahrain.environment",
+        "global.10B.countries.bahrain.belonging",
+        "global.10B.countries.bahrain.meaning",
+        "global.10B.countries.bahrain.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

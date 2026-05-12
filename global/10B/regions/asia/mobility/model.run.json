@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.mobility",
+        "global.10B.countries.ashmore-and-cartier-islands.mobility",
+        "global.10B.countries.bahrain.mobility",
+        "global.10B.countries.bangladesh.mobility",
+        "global.10B.countries.bhutan.mobility",
+        "global.10B.countries.brunei.mobility",
+        "global.10B.countries.burma.mobility",
+        "global.10B.countries.cambodia.mobility",
+        "global.10B.countries.china.mobility",
+        "global.10B.countries.christmas-island.mobility",
+        "global.10B.countries.cocos-keeling-islands.mobility",
+        "global.10B.countries.gaza-strip.mobility",
+        "global.10B.countries.hong-kong.mobility",
+        "global.10B.countries.india.mobility",
+        "global.10B.countries.indonesia.mobility",
+        "global.10B.countries.iran.mobility",
+        "global.10B.countries.iraq.mobility",
+        "global.10B.countries.israel.mobility",
+        "global.10B.countries.japan.mobility",
+        "global.10B.countries.jordan.mobility",
+        "global.10B.countries.korea-north.mobility",
+        "global.10B.countries.korea-south.mobility",
+        "global.10B.countries.kuwait.mobility",
+        "global.10B.countries.kyrgyzstan.mobility",
+        "global.10B.countries.laos.mobility",
+        "global.10B.countries.lebanon.mobility",
+        "global.10B.countries.macau.mobility",
+        "global.10B.countries.malaysia.mobility",
+        "global.10B.countries.maldives.mobility",
+        "global.10B.countries.mongolia.mobility",
+        "global.10B.countries.nepal.mobility",
+        "global.10B.countries.oman.mobility",
+        "global.10B.countries.pakistan.mobility",
+        "global.10B.countries.paracel-islands.mobility",
+        "global.10B.countries.philippines.mobility",
+        "global.10B.countries.qatar.mobility",
+        "global.10B.countries.saudi-arabia.mobility",
+        "global.10B.countries.singapore.mobility",
+        "global.10B.countries.spratly-islands.mobility",
+        "global.10B.countries.sri-lanka.mobility",
+        "global.10B.countries.syria.mobility",
+        "global.10B.countries.taiwan.mobility",
+        "global.10B.countries.tajikistan.mobility",
+        "global.10B.countries.thailand.mobility",
+        "global.10B.countries.timor-leste.mobility",
+        "global.10B.countries.turkmenistan.mobility",
+        "global.10B.countries.united-arab-emirates.mobility",
+        "global.10B.countries.uzbekistan.mobility",
+        "global.10B.countries.vietnam.mobility",
+        "global.10B.countries.west-bank.mobility",
+        "global.10B.countries.yemen.mobility"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

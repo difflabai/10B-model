@@ -1,0 +1,34 @@
+{
+  "country": "Moldova",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "43.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "488,000 CHISINAU (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "pockets of agglomeration exist throughout the country, the largest being in the center of the country around the capital of Chisinau, followed by Tiraspol and Balti",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "moderate winters, warm summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "moderate winters, warm summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

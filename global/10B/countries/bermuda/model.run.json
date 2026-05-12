@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bermuda",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bermuda"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bermuda.food",
+        "global.10B.countries.bermuda.water",
+        "global.10B.countries.bermuda.shelter",
+        "global.10B.countries.bermuda.health",
+        "global.10B.countries.bermuda.safety",
+        "global.10B.countries.bermuda.education",
+        "global.10B.countries.bermuda.work",
+        "global.10B.countries.bermuda.energy",
+        "global.10B.countries.bermuda.mobility",
+        "global.10B.countries.bermuda.communications",
+        "global.10B.countries.bermuda.governance",
+        "global.10B.countries.bermuda.environment",
+        "global.10B.countries.bermuda.belonging",
+        "global.10B.countries.bermuda.meaning",
+        "global.10B.countries.bermuda.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

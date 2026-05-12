@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.work",
+  "name": "Africa — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country work models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

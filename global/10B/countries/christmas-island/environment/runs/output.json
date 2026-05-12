@@ -1,0 +1,60 @@
+{
+  "country": "Christmas Island",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.4,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.4,
+    0.14286,
+    0.4,
+    0.0,
+    -0.02269,
+    -0.33364,
+    0.6546,
+    0.27501,
+    0.11235,
+    -0.3189,
+    0.73645,
+    -0.48629,
+    -0.31295,
+    0.90808,
+    0.15721,
+    -0.36855
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

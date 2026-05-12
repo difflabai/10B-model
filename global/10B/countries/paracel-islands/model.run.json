@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.paracel-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Paracel Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.paracel-islands.food",
+        "global.10B.countries.paracel-islands.water",
+        "global.10B.countries.paracel-islands.shelter",
+        "global.10B.countries.paracel-islands.health",
+        "global.10B.countries.paracel-islands.safety",
+        "global.10B.countries.paracel-islands.education",
+        "global.10B.countries.paracel-islands.work",
+        "global.10B.countries.paracel-islands.energy",
+        "global.10B.countries.paracel-islands.mobility",
+        "global.10B.countries.paracel-islands.communications",
+        "global.10B.countries.paracel-islands.governance",
+        "global.10B.countries.paracel-islands.environment",
+        "global.10B.countries.paracel-islands.belonging",
+        "global.10B.countries.paracel-islands.meaning",
+        "global.10B.countries.paracel-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

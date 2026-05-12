@@ -1,0 +1,52 @@
+{
+  "country": "Palau",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6665,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.416
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6665,
+    0.8,
+    0.85,
+    0.416,
+    -0.59106,
+    -0.46352,
+    -0.49123,
+    0.18059,
+    -0.25307,
+    0.29357,
+    0.57668,
+    0.39873,
+    -0.90045,
+    -0.4432,
+    0.51781,
+    -0.40957
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.belonging",
+        "global.10B.countries.angola.belonging",
+        "global.10B.countries.benin.belonging",
+        "global.10B.countries.botswana.belonging",
+        "global.10B.countries.bouvet-island.belonging",
+        "global.10B.countries.british-indian-ocean-territory.belonging",
+        "global.10B.countries.burkina-faso.belonging",
+        "global.10B.countries.burundi.belonging",
+        "global.10B.countries.cabo-verde.belonging",
+        "global.10B.countries.cameroon.belonging",
+        "global.10B.countries.central-african-republic.belonging",
+        "global.10B.countries.chad.belonging",
+        "global.10B.countries.comoros.belonging",
+        "global.10B.countries.congo-democratic-republic-of-the.belonging",
+        "global.10B.countries.congo-republic-of-the.belonging",
+        "global.10B.countries.djibouti.belonging",
+        "global.10B.countries.egypt.belonging",
+        "global.10B.countries.equatorial-guinea.belonging",
+        "global.10B.countries.eritrea.belonging",
+        "global.10B.countries.eswatini.belonging",
+        "global.10B.countries.ethiopia.belonging",
+        "global.10B.countries.gabon.belonging",
+        "global.10B.countries.gambia-the.belonging",
+        "global.10B.countries.ghana.belonging",
+        "global.10B.countries.guinea.belonging",
+        "global.10B.countries.guinea-bissau.belonging",
+        "global.10B.countries.kenya.belonging",
+        "global.10B.countries.lesotho.belonging",
+        "global.10B.countries.liberia.belonging",
+        "global.10B.countries.libya.belonging",
+        "global.10B.countries.madagascar.belonging",
+        "global.10B.countries.malawi.belonging",
+        "global.10B.countries.mali.belonging",
+        "global.10B.countries.mauritania.belonging",
+        "global.10B.countries.mauritius.belonging",
+        "global.10B.countries.morocco.belonging",
+        "global.10B.countries.mozambique.belonging",
+        "global.10B.countries.namibia.belonging",
+        "global.10B.countries.niger.belonging",
+        "global.10B.countries.nigeria.belonging",
+        "global.10B.countries.rwanda.belonging",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.belonging",
+        "global.10B.countries.sao-tome-and-principe.belonging",
+        "global.10B.countries.senegal.belonging",
+        "global.10B.countries.seychelles.belonging",
+        "global.10B.countries.sierra-leone.belonging",
+        "global.10B.countries.somalia.belonging",
+        "global.10B.countries.south-africa.belonging",
+        "global.10B.countries.south-sudan.belonging",
+        "global.10B.countries.sudan.belonging",
+        "global.10B.countries.tanzania.belonging",
+        "global.10B.countries.togo.belonging",
+        "global.10B.countries.tunisia.belonging",
+        "global.10B.countries.uganda.belonging",
+        "global.10B.countries.zambia.belonging",
+        "global.10B.countries.zimbabwe.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

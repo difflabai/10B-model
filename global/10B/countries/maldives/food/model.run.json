@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.maldives.food",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Maldives"
+    },
+    "category": {
+      "value": "food"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "food"
+    }
+  },
+  "output": "./runs/output.json"
+}

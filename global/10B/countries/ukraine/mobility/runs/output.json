@@ -1,0 +1,72 @@
+{
+  "country": "Ukraine",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.6014,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5798
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.7435
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7107
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6744
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6021
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6616
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.542
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.6014,
+    1.0,
+    0.5798,
+    0.7435,
+    -0.67242,
+    0.53585,
+    -0.30422,
+    0.18611,
+    0.72497,
+    -0.23241,
+    0.40249,
+    -0.17134,
+    -0.92197,
+    0.07704,
+    -0.68298,
+    -0.28026
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

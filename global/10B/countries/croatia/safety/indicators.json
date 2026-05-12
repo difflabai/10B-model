@@ -1,0 +1,39 @@
+{
+  "country": "Croatia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of the Republic of Croatia (Oruzane Snage Republike Hrvatske, OSRH): Ground Forces (Hrvatska Kopnena Vojska, HKoV), Naval Forces (Hrvatska Ratna Mornarica, HRM; includes Coast Guard), Air Force (Hrvatsko Ratno Zrakoplovstvo, HRZ) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.8% of GDP (2024 est.)1.8% of GDP (2023)1.8% of GDP (2022)2% of GDP (2021)1.7% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "24,525 (Ukraine) (as of 29 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

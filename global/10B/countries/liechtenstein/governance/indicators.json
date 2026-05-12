@@ -1,0 +1,44 @@
+{
+  "country": "Liechtenstein",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system influenced by Swiss, Austrian, and German law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1862; latest adopted 5 October 1921",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Prince HANS-ADAM II (since 13 November 1989, assumed executive powers on 26 August 1984)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "CD, CE, EBRD, EFTA, IAEA, ICCt, ICRM, IFRCS, Interpol, IOC, IPU, ITSO, ITU, ITUC (NGOs), OAS (observer), OPCW, OSCE, PCA, Schengen Convention, UN, UNCTAD, UPU, WIPO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

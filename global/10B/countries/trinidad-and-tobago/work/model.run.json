@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.trinidad-and-tobago.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Trinidad and Tobago"
+    },
+    "category": {
+      "value": "work"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "work"
+    }
+  },
+  "output": "./runs/output.json"
+}

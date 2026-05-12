@@ -1,0 +1,47 @@
+{
+  "country": "fiji",
+  "category_scores": {
+    "agency": 0.8224,
+    "belonging": 0.6909,
+    "communications": 0.6564,
+    "education": 0.8071,
+    "energy": 0.6257,
+    "environment": 0.5865,
+    "food": 0.6487,
+    "governance": 0.7143,
+    "health": 0.6519,
+    "meaning": 0.65,
+    "mobility": 0.3847,
+    "safety": 0.6483,
+    "shelter": 0.6531,
+    "water": 0.65,
+    "work": 0.7561
+  },
+  "country_score": 0.6631,
+  "tier_scores": {
+    "subsistence": 0.6504,
+    "development": 0.646,
+    "agency": 0.6928
+  },
+  "country_embedding": [
+    0.66307,
+    0.80376,
+    0.68835,
+    0.64857,
+    0.3004,
+    -0.2407,
+    0.0245,
+    -0.09026,
+    -0.01391,
+    -0.17766,
+    -0.01463,
+    0.05625,
+    -0.09056,
+    -0.10701,
+    0.24219,
+    0.03426
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Fiji, the three needs areas with the largest gaps are: mobility (0.38), environment (0.59), energy (0.63).\nThe three strongest areas are: agency (0.82), education (0.81), work (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

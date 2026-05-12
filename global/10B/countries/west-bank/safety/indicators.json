@@ -1,0 +1,39 @@
+{
+  "country": "West Bank",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "per the Oslo Accords, the Palestinian Authority (PA) is not permitted a conventional military but maintains security and police forces; PA security personnel have operated exclusively in the West Bank since HAMAS seized power in the Gaza Strip in 2007; PA forces include the National Security Forces, Presidential Guard, Civil Police, Civil Defense, Preventive Security Organization, the General Intelligence Organization, and the Military Intelligence Organization (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "not available",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "901,000 (Palestinian refugees) (2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

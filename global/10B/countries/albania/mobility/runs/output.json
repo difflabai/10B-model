@@ -1,0 +1,72 @@
+{
+  "country": "Albania",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.3711,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2158
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2556
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5053
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.4123
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2698
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2888
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.37108,
+    0.7,
+    0.2158,
+    0.2556,
+    0.28963,
+    0.73797,
+    -0.1592,
+    0.32772,
+    -0.52709,
+    0.29122,
+    -0.09038,
+    -0.63137,
+    -0.89935,
+    -0.61566,
+    0.9013,
+    0.91046
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

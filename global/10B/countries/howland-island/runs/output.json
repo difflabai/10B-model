@@ -1,0 +1,47 @@
+{
+  "country": "howland-island",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": 0.4,
+    "environment": null,
+    "food": 0.55,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.2278,
+    "safety": null,
+    "shelter": null,
+    "water": null,
+    "work": null
+  },
+  "country_score": 0.457,
+  "tier_scores": {
+    "subsistence": 0.55,
+    "development": 0.3139,
+    "agency": 0.65
+  },
+  "country_embedding": [
+    0.12185,
+    0.03465,
+    0.12185,
+    0.0,
+    -0.28625,
+    0.13785,
+    -0.27837,
+    -0.39862,
+    0.07649,
+    -0.18315,
+    -0.10536,
+    -0.10556,
+    -0.16249,
+    -0.24287,
+    -0.16459,
+    0.25646
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Howland Island, the three needs areas with the largest gaps are: mobility (0.23), energy (0.40), food (0.55).\nThe three strongest areas are: governance (0.65), food (0.55), energy (0.40).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

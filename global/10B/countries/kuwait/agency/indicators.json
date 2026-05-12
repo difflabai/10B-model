@@ -1,0 +1,39 @@
+{
+  "country": "Kuwait",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age and at least 20-year citizenship",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none; the government does not recognize any political parties or allow their formation, although no formal law bans political parties",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned TV broadcaster operates 4 networks and a satellite channel; several private TV broadcasters have emerged; satellite TV available and pan-Arab TV stations are especially popular; state-owned Radio Kuwait broadcasts on a number of channels in Arabic and English; first private radio station emerged in 2005; transmissions of at least 2 international radio broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Philippines",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "48.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "14.667 million MANILA (capital), 1.949 million Davao, 1.025 million Cebu City, 931,000 Zamboanga, 960,000 Antipolo, 803,000 Cagayan de Oro City, 803,000 Dasmarinas (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated where good farmlands lie; highest concentrations are northwest and south-central Luzon, the southeastern extension of Luzon, and the islands of the Visayan Sea, particularly Cebu and Negros; Manila is home to one-eighth of the entire national population",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine; northeast monsoon (November to April); southwest monsoon (May to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine; northeast monsoon (November to April); southwest monsoon (May to October)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

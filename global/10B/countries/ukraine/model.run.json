@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ukraine",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ukraine"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ukraine.food",
+        "global.10B.countries.ukraine.water",
+        "global.10B.countries.ukraine.shelter",
+        "global.10B.countries.ukraine.health",
+        "global.10B.countries.ukraine.safety",
+        "global.10B.countries.ukraine.education",
+        "global.10B.countries.ukraine.work",
+        "global.10B.countries.ukraine.energy",
+        "global.10B.countries.ukraine.mobility",
+        "global.10B.countries.ukraine.communications",
+        "global.10B.countries.ukraine.governance",
+        "global.10B.countries.ukraine.environment",
+        "global.10B.countries.ukraine.belonging",
+        "global.10B.countries.ukraine.meaning",
+        "global.10B.countries.ukraine.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

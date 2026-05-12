@@ -1,0 +1,34 @@
+{
+  "country": "Afghanistan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "26.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4.589 million KABUL (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "populations tend to cluster in the foothills and periphery of the rugged Hindu Kush range; smaller groups are found in many of the country's interior valleys; in general, the east is more densely settled, while the south is sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "arid to semiarid; cold winters and hot summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "arid to semiarid; cold winters and hot summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

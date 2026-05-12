@@ -1,0 +1,34 @@
+{
+  "country": "Kenya",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "82.6%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.8% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official), Kiswahili (official), numerous indigenous languages",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "The World Factbook, the indispensable source for basic information. (English)The World Factbook, Chanzo cha Lazima Kuhusu Habari ya Msingi. (Kiswahili)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

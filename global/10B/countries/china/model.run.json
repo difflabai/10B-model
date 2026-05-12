@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.china",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "China"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.china.food",
+        "global.10B.countries.china.water",
+        "global.10B.countries.china.shelter",
+        "global.10B.countries.china.health",
+        "global.10B.countries.china.safety",
+        "global.10B.countries.china.education",
+        "global.10B.countries.china.work",
+        "global.10B.countries.china.energy",
+        "global.10B.countries.china.mobility",
+        "global.10B.countries.china.communications",
+        "global.10B.countries.china.governance",
+        "global.10B.countries.china.environment",
+        "global.10B.countries.china.belonging",
+        "global.10B.countries.china.meaning",
+        "global.10B.countries.china.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

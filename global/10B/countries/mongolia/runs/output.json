@@ -1,0 +1,47 @@
+{
+  "country": "mongolia",
+  "category_scores": {
+    "agency": 0.778,
+    "belonging": 0.673,
+    "communications": 0.6885,
+    "education": 0.7796,
+    "energy": 0.5204,
+    "environment": 0.4329,
+    "food": 0.6821,
+    "governance": 0.7429,
+    "health": 0.6411,
+    "meaning": 0.65,
+    "mobility": 0.447,
+    "safety": 0.665,
+    "shelter": 0.6867,
+    "water": 0.65,
+    "work": 0.6804
+  },
+  "country_score": 0.6478,
+  "tier_scores": {
+    "subsistence": 0.665,
+    "development": 0.6232,
+    "agency": 0.6554
+  },
+  "country_embedding": [
+    0.64784,
+    0.84393,
+    0.73044,
+    0.65211,
+    0.0352,
+    -0.02889,
+    0.05949,
+    0.3061,
+    -0.07298,
+    -0.0197,
+    0.02244,
+    -0.12875,
+    0.12758,
+    0.06151,
+    0.1783,
+    -0.05945
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Mongolia, the three needs areas with the largest gaps are: environment (0.43), mobility (0.45), energy (0.52).\nThe three strongest areas are: education (0.78), agency (0.78), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

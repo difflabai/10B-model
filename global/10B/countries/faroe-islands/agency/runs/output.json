@@ -1,0 +1,56 @@
+{
+  "country": "Faroe Islands",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8452,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.926
+    }
+  ],
+  "embedding": [
+    0.8452,
+    0.83333,
+    0.85,
+    0.75,
+    -0.73162,
+    0.1884,
+    0.34051,
+    -0.35979,
+    0.50918,
+    -0.48333,
+    -0.21483,
+    0.35528,
+    -0.66189,
+    -0.65411,
+    0.93231,
+    0.47732
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

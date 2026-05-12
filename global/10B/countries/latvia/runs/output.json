@@ -1,0 +1,47 @@
+{
+  "country": "latvia",
+  "category_scores": {
+    "agency": 0.86,
+    "belonging": 0.6611,
+    "communications": 0.7057,
+    "education": 0.8348,
+    "energy": 0.62,
+    "environment": 0.5835,
+    "food": 0.7079,
+    "governance": 0.7429,
+    "health": 0.7031,
+    "meaning": 0.71,
+    "mobility": 0.4843,
+    "safety": 0.5778,
+    "shelter": 0.6364,
+    "water": 0.55,
+    "work": 0.6638
+  },
+  "country_score": 0.6694,
+  "tier_scores": {
+    "subsistence": 0.635,
+    "development": 0.6617,
+    "agency": 0.7115
+  },
+  "country_embedding": [
+    0.66942,
+    0.83282,
+    0.74989,
+    0.62239,
+    -0.07682,
+    -0.01839,
+    0.20851,
+    0.19264,
+    0.1244,
+    0.38511,
+    0.04881,
+    -0.13015,
+    0.14606,
+    0.17913,
+    0.34482,
+    -0.29008
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Latvia, the three needs areas with the largest gaps are: mobility (0.48), water (0.55), safety (0.58).\nThe three strongest areas are: agency (0.86), education (0.83), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

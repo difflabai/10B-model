@@ -1,0 +1,47 @@
+{
+  "country": "kiribati",
+  "category_scores": {
+    "agency": 0.754,
+    "belonging": 0.6844,
+    "communications": 0.6807,
+    "education": 0.75,
+    "energy": 0.6196,
+    "environment": 0.5281,
+    "food": 0.655,
+    "governance": 0.7286,
+    "health": 0.5118,
+    "meaning": 0.61,
+    "mobility": 0.3248,
+    "safety": 0.65,
+    "shelter": 0.6773,
+    "water": 0.65,
+    "work": 0.6077
+  },
+  "country_score": 0.6288,
+  "tier_scores": {
+    "subsistence": 0.6288,
+    "development": 0.5966,
+    "agency": 0.661
+  },
+  "country_embedding": [
+    0.6288,
+    0.72488,
+    0.61511,
+    0.56344,
+    0.09557,
+    0.13752,
+    -0.15932,
+    -0.15202,
+    -0.13913,
+    -0.041,
+    0.08081,
+    0.13383,
+    0.08802,
+    -0.0654,
+    0.12284,
+    0.03124
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Kiribati, the three needs areas with the largest gaps are: mobility (0.32), health (0.51), environment (0.53).\nThe three strongest areas are: agency (0.75), education (0.75), governance (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

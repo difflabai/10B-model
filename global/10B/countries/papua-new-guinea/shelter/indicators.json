@@ -1,0 +1,34 @@
+{
+  "country": "Papua New Guinea",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "13.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "410,000 PORT MORESBY (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in the highlands and eastern coastal areas on the island of New Guinea; predominantly a rural distribution with only about one-fifth of the population residing in urban areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

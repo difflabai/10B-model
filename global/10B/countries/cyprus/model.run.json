@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cyprus",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cyprus"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cyprus.food",
+        "global.10B.countries.cyprus.water",
+        "global.10B.countries.cyprus.shelter",
+        "global.10B.countries.cyprus.health",
+        "global.10B.countries.cyprus.safety",
+        "global.10B.countries.cyprus.education",
+        "global.10B.countries.cyprus.work",
+        "global.10B.countries.cyprus.energy",
+        "global.10B.countries.cyprus.mobility",
+        "global.10B.countries.cyprus.communications",
+        "global.10B.countries.cyprus.governance",
+        "global.10B.countries.cyprus.environment",
+        "global.10B.countries.cyprus.belonging",
+        "global.10B.countries.cyprus.meaning",
+        "global.10B.countries.cyprus.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

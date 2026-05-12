@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.work",
+  "name": "Americas — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country work models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

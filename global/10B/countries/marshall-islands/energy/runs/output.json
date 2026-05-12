@@ -1,0 +1,84 @@
+{
+  "country": "Marshall Islands",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.3076923076923077,
+  "indicators_scored": 4,
+  "indicators_total": 13,
+  "composite_score": 0.8109,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9037
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": null
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.81093,
+    0.30769,
+    0.97,
+    0.9037,
+    0.08458,
+    -0.729,
+    0.87729,
+    0.24245,
+    0.22609,
+    -0.30813,
+    0.36153,
+    0.13118,
+    -0.88391,
+    0.35711,
+    0.71997,
+    0.01064
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

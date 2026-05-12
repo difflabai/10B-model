@@ -1,0 +1,60 @@
+{
+  "country": "Howland Island",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.01762,
+    0.88226,
+    0.49725,
+    -0.21672,
+    -0.01585,
+    -0.77356,
+    -0.83795,
+    -0.06755,
+    -0.54223,
+    0.33394,
+    0.27022,
+    0.5079
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Ecuador",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5122,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.463
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3292
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7467
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6589
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5944
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.303
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5267
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.51218,
+    1.0,
+    0.463,
+    0.3292,
+    -0.16432,
+    0.38622,
+    0.45757,
+    -0.78903,
+    0.95557,
+    -0.93954,
+    0.08943,
+    0.2304,
+    0.08486,
+    0.06777,
+    -0.37859,
+    0.35482
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

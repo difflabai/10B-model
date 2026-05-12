@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.zimbabwe",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Zimbabwe"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.zimbabwe.food",
+        "global.10B.countries.zimbabwe.water",
+        "global.10B.countries.zimbabwe.shelter",
+        "global.10B.countries.zimbabwe.health",
+        "global.10B.countries.zimbabwe.safety",
+        "global.10B.countries.zimbabwe.education",
+        "global.10B.countries.zimbabwe.work",
+        "global.10B.countries.zimbabwe.energy",
+        "global.10B.countries.zimbabwe.mobility",
+        "global.10B.countries.zimbabwe.communications",
+        "global.10B.countries.zimbabwe.governance",
+        "global.10B.countries.zimbabwe.environment",
+        "global.10B.countries.zimbabwe.belonging",
+        "global.10B.countries.zimbabwe.meaning",
+        "global.10B.countries.zimbabwe.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

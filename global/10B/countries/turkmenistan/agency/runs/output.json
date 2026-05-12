@@ -1,0 +1,56 @@
+{
+  "country": "Turkmenistan",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6208,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.26
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.494
+    }
+  ],
+  "embedding": [
+    0.6208,
+    0.83333,
+    0.85,
+    0.75,
+    0.44646,
+    0.27501,
+    0.88623,
+    0.45464,
+    0.95929,
+    0.62325,
+    -0.00786,
+    0.25536,
+    -0.45382,
+    0.64743,
+    -0.57943,
+    -0.09395
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

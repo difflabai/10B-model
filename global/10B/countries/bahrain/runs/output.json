@@ -1,0 +1,47 @@
+{
+  "country": "bahrain",
+  "category_scores": {
+    "agency": 0.7545,
+    "belonging": 0.6413,
+    "communications": 0.724,
+    "education": 0.6966,
+    "energy": 0.5367,
+    "environment": 0.4072,
+    "food": 0.5428,
+    "governance": 0.7429,
+    "health": 0.687,
+    "meaning": 0.63,
+    "mobility": 0.3926,
+    "safety": 0.6708,
+    "shelter": 0.6426,
+    "water": 0.65,
+    "work": 0.8186
+  },
+  "country_score": 0.6358,
+  "tier_scores": {
+    "subsistence": 0.6386,
+    "development": 0.6337,
+    "agency": 0.6352
+  },
+  "country_embedding": [
+    0.63583,
+    0.77172,
+    0.74051,
+    0.57112,
+    -0.37418,
+    -0.1425,
+    -0.04237,
+    -0.35273,
+    -0.14887,
+    0.19397,
+    0.14429,
+    0.28042,
+    -0.00938,
+    0.15769,
+    -0.0137,
+    0.00447
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bahrain, the three needs areas with the largest gaps are: mobility (0.39), environment (0.41), energy (0.54).\nThe three strongest areas are: work (0.82), agency (0.75), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

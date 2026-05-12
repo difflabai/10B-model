@@ -1,0 +1,34 @@
+{
+  "country": "American Samoa",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "87.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "49,000 PAGO PAGO (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to April), dry season (May to October); little seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to April), dry season (May to October); little seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

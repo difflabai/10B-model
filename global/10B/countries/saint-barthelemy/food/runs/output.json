@@ -1,0 +1,52 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": null
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.2,
+    0.55,
+    0.0,
+    -0.5396,
+    0.99539,
+    -0.95804,
+    -0.98459,
+    -0.96173,
+    0.08058,
+    -0.43023,
+    -0.52798,
+    -0.20134,
+    -0.93484,
+    0.39358,
+    0.10753
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "New Zealand",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.846,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.83
+    }
+  ],
+  "embedding": [
+    0.846,
+    0.83333,
+    0.85,
+    0.75,
+    -0.9324,
+    -0.4009,
+    0.58923,
+    -0.33114,
+    -0.05193,
+    0.50387,
+    -0.87366,
+    0.07375,
+    -0.2217,
+    0.38671,
+    -0.21013,
+    0.96579
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

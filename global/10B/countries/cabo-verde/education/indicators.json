@@ -1,0 +1,34 @@
+{
+  "country": "Cabo Verde",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "90.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.6% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "13 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Portuguese (official), Crioulo (a Portuguese-based creole language with two main dialects)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.fiji",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Fiji"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.fiji.food",
+        "global.10B.countries.fiji.water",
+        "global.10B.countries.fiji.shelter",
+        "global.10B.countries.fiji.health",
+        "global.10B.countries.fiji.safety",
+        "global.10B.countries.fiji.education",
+        "global.10B.countries.fiji.work",
+        "global.10B.countries.fiji.energy",
+        "global.10B.countries.fiji.mobility",
+        "global.10B.countries.fiji.communications",
+        "global.10B.countries.fiji.governance",
+        "global.10B.countries.fiji.environment",
+        "global.10B.countries.fiji.belonging",
+        "global.10B.countries.fiji.meaning",
+        "global.10B.countries.fiji.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

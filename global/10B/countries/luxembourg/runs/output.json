@@ -1,0 +1,47 @@
+{
+  "country": "luxembourg",
+  "category_scores": {
+    "agency": 0.8275,
+    "belonging": 0.6867,
+    "communications": 0.7339,
+    "education": 0.775,
+    "energy": 0.6861,
+    "environment": 0.5697,
+    "food": 0.635,
+    "governance": 0.7,
+    "health": 0.7913,
+    "meaning": 0.73,
+    "mobility": 0.472,
+    "safety": 0.5744,
+    "shelter": 0.6154,
+    "water": 0.65,
+    "work": 0.7229
+  },
+  "country_score": 0.678,
+  "tier_scores": {
+    "subsistence": 0.6532,
+    "development": 0.678,
+    "agency": 0.7028
+  },
+  "country_embedding": [
+    0.678,
+    0.81795,
+    0.72724,
+    0.64933,
+    0.23973,
+    -0.00314,
+    0.00722,
+    -0.16899,
+    -0.05553,
+    0.12805,
+    -0.13599,
+    -0.10595,
+    0.09382,
+    0.19045,
+    0.08537,
+    -0.00296
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Luxembourg, the three needs areas with the largest gaps are: mobility (0.47), environment (0.57), safety (0.57).\nThe three strongest areas are: agency (0.83), health (0.79), education (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

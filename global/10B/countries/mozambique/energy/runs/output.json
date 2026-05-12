@@ -1,0 +1,84 @@
+{
+  "country": "Mozambique",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5117,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.2155
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.6675
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.1
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8327
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.316
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.9285
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.518
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.51165,
+    0.84615,
+    0.2155,
+    0.6675,
+    0.15789,
+    0.1805,
+    0.03075,
+    -0.105,
+    -0.11431,
+    0.53948,
+    -0.41476,
+    -0.1368,
+    0.10918,
+    0.37893,
+    0.79446,
+    -0.2127
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

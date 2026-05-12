@@ -1,0 +1,56 @@
+{
+  "country": "Gambia, The",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6944,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.57
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    }
+  ],
+  "embedding": [
+    0.6944,
+    0.83333,
+    0.85,
+    0.75,
+    -0.00414,
+    -0.46883,
+    0.17751,
+    0.77185,
+    -0.3489,
+    -0.37371,
+    0.24901,
+    0.74481,
+    -0.41082,
+    -0.62097,
+    0.17284,
+    -0.35988
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

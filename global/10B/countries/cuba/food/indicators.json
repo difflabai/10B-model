@@ -1,0 +1,34 @@
+{
+  "country": "Cuba",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "sugarcane, cassava, plantains, vegetables, mangoes/guavas, milk, tomatoes, pumpkins/squash, sweet potatoes, bananas (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "60.3% (2018 est.)agricultural land: arable land: 33.8% (2018 est.)agricultural land: permanent crops: 3.6% (2018 est.)agricultural land: permanent pasture: 22.9% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "0.8% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "10,966,038",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

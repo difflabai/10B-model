@@ -1,0 +1,39 @@
+{
+  "country": "Zimbabwe",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Citizens Coalition for Change Movement for Democratic Change or MDC-T National People's Congress or NPC Zimbabwe African National Union-Patriotic Front or ZANU-PF Zimbabwe African Peoples Union or ZAPU",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "33% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government owns all local radio and TV stations; foreign shortwave broadcasts and satellite TV are available to those who can afford antennas and receivers; in rural areas, access to TV broadcasts is extremely limited; analog TV only, no digital service (2017)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.9% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

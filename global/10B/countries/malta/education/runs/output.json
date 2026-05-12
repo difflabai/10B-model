@@ -1,0 +1,52 @@
+{
+  "country": "Malta",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8238,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9088
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.824
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.82383,
+    0.8,
+    0.9088,
+    0.824,
+    -0.32781,
+    0.3659,
+    -0.87286,
+    0.88107,
+    -0.07219,
+    0.43484,
+    -0.55444,
+    -0.20024,
+    0.17476,
+    -0.73944,
+    -0.14708,
+    0.75915
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

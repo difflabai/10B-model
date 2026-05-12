@@ -1,0 +1,56 @@
+{
+  "country": "Dominica",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.776,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.83
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    }
+  ],
+  "embedding": [
+    0.776,
+    0.83333,
+    0.85,
+    0.65,
+    0.21453,
+    0.49212,
+    0.5819,
+    0.10204,
+    -0.14693,
+    -0.84686,
+    0.55526,
+    0.05077,
+    0.84466,
+    0.04268,
+    -0.62332,
+    -0.43111
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

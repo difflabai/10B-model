@@ -1,0 +1,72 @@
+{
+  "country": "Bolivia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.5291,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.527
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.343
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7222
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7667
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4863
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5191
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.52906,
+    1.0,
+    0.527,
+    0.343,
+    -0.30434,
+    -0.40606,
+    0.43838,
+    -0.02593,
+    -0.32979,
+    -0.58889,
+    -0.43447,
+    -0.18602,
+    -0.23839,
+    0.81317,
+    0.31191,
+    0.14891
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

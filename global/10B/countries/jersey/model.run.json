@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.jersey",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Jersey"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.jersey.food",
+        "global.10B.countries.jersey.water",
+        "global.10B.countries.jersey.shelter",
+        "global.10B.countries.jersey.health",
+        "global.10B.countries.jersey.safety",
+        "global.10B.countries.jersey.education",
+        "global.10B.countries.jersey.work",
+        "global.10B.countries.jersey.energy",
+        "global.10B.countries.jersey.mobility",
+        "global.10B.countries.jersey.communications",
+        "global.10B.countries.jersey.governance",
+        "global.10B.countries.jersey.environment",
+        "global.10B.countries.jersey.belonging",
+        "global.10B.countries.jersey.meaning",
+        "global.10B.countries.jersey.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

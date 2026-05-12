@@ -1,0 +1,47 @@
+{
+  "country": "laos",
+  "category_scores": {
+    "agency": 0.695,
+    "belonging": 0.6948,
+    "communications": 0.637,
+    "education": 0.5996,
+    "energy": 0.6119,
+    "environment": 0.5504,
+    "food": 0.5839,
+    "governance": 0.6786,
+    "health": 0.4655,
+    "meaning": 0.63,
+    "mobility": 0.4762,
+    "safety": 0.6383,
+    "shelter": 0.6345,
+    "water": 0.65,
+    "work": 0.6202
+  },
+  "country_score": 0.6111,
+  "tier_scores": {
+    "subsistence": 0.5944,
+    "development": 0.589,
+    "agency": 0.6498
+  },
+  "country_embedding": [
+    0.61106,
+    0.8506,
+    0.65354,
+    0.57811,
+    -0.07136,
+    0.08422,
+    -0.17448,
+    -0.01645,
+    0.1458,
+    -0.19064,
+    -0.1797,
+    0.07113,
+    -0.06718,
+    -0.4009,
+    0.0155,
+    -0.19123
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Laos, the three needs areas with the largest gaps are: health (0.47), mobility (0.48), environment (0.55).\nThe three strongest areas are: agency (0.69), belonging (0.69), governance (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

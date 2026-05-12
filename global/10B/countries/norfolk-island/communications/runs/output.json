@@ -1,0 +1,76 @@
+{
+  "country": "Norfolk Island",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.45454545454545453,
+  "indicators_scored": 5,
+  "indicators_total": 11,
+  "composite_score": 0.6405,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5023
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.64046,
+    0.45455,
+    0.5023,
+    0.85,
+    -0.89535,
+    0.02626,
+    -0.94803,
+    0.50747,
+    -0.10277,
+    -0.03282,
+    0.91113,
+    -0.76129,
+    -0.38976,
+    0.81628,
+    -0.15645,
+    -0.02913
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

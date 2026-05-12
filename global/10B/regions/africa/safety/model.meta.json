@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.safety",
+  "name": "Africa — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "Region-level safety and protection from violence for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country safety models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-region-mean",
+      "kind": "scalar",
+      "description": "Mean safety score across the region."
+    },
+    {
+      "name": "safety-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.safety",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

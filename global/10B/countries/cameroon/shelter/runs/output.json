@@ -1,0 +1,52 @@
+{
+  "country": "Cameroon",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6786,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6643
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.67858,
+    1.0,
+    0.6643,
+    0.65,
+    0.77624,
+    -0.74994,
+    -0.0743,
+    0.38668,
+    0.67758,
+    -0.25783,
+    0.25002,
+    -0.47875,
+    0.65399,
+    -0.64269,
+    0.43255,
+    -0.12822
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

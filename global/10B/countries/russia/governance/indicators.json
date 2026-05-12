@@ -1,0 +1,44 @@
+{
+  "country": "Russia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential federation",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; judicial review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous (during Russian Empire and Soviet era); latest drafted 12 July 1993, adopted by referendum 12 December 1993, effective 25 December 1993",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Vladimir Vladimirovich PUTIN (since 7 May 2012)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "APEC, Arctic Council, ARF, ASEAN (dialogue partner), BIS, BRICS, BSEC, CBSS, CD, CE, CERN (observer), CICA, CIS, CSTO, EAEC, EAEU, EAPC, EAS, EBRD, FAO, FATF, G-20, GCTU, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MINURSO, MONUSCO, NEA, NSG, OAS (observer), OIC (observer), OPCW, OSCE, Paris Club, PCA, PFP, SCO, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UN Security Council (permanent), UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

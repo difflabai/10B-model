@@ -1,0 +1,44 @@
+{
+  "country": "Mexico",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "scarcity of hazardous waste disposal facilities; rural to urban migration; natural freshwater resources scarce and polluted in north, inaccessible and poor quality in center and extreme southeast; raw sewage and industrial effluents polluting rivers in urban areas; deforestation; widespread erosion; desertification; deteriorating agricultural lands; serious air and water pollution in the national capital and urban centers along US-Mexico border; land subsidence in Valley of Mexico caused by groundwater depletion",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "17.83 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "486.41 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "135.77 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "33.3% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "53.1 million tons (2015 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

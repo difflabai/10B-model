@@ -1,0 +1,64 @@
+{
+  "country": "Brazil",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "99 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "213 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "12 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "25.574 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "84% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "23 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "48.4 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Brazil is one of the largest mobile and broadband markets in Latin America with healthy competition and pricing; 5G services was provided to all capital cities in July 2022, as well as about 35,500km of the national highway network; the country also has one of the largest fixed line broadband markets in Latin America, though broadband subscriptions is only slightly above the regional average, trailing behind Chile, Argentina, and Uruguay; amendments to the licensing regime adopted in October 2019 also require that ISPs which have switched to authorizations invest money saved from lighter regulations in the expansion of broadband services; the fixed line broadband market has seen rapid growth for a number of years, with a growing focus on fiber broadband; in 2019 the number of fiber accesses overtook DSL connections; the country is a key landing point for a number of important submarine cables connecting to the US, Central and South America, the Caribbean, Europe, and Africa; several new cable systems are due to come into service through to 2022, which will increase bandwidth and push down broadband prices for end-users; investments have also been made into terrestrial fiber cables between Brazil, Argentina, and Chile (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line connections stand at roughly 13 per 100 persons;  mobile-cellular teledensity roughly 102 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 55; landing points for a number of submarine cables, including Malbec, ARBR, Tamnat, SAC, SAm-1, Atlantis -2, Seabras-1, Monet, EllaLink, BRUSA, GlobeNet, AMX-1, Brazilian Festoon, Bicentenario, Unisur, Junior, Americas -II, SAE x1, SAIL, SACS and SABR that provide direct connectivity to South and Central America, the Caribbean, the US, Africa, and Europe; satellite earth stations - 3 Intelsat (Atlantic Ocean), 1 Inmarsat (Atlantic Ocean region east), connected by microwave relay system to Mercosur Brazilsat B3 satellite earth station; satellites is a major communication platform, as it is almost impossible to lay fiber optic cable in the thick vegetation (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run Radiobras operates a radio and a TV network; more than 1,000 radio stations and more than 100 TV channels operating - mostly privately owned; private media ownership highly concentrated (2022)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

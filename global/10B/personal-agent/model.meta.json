@@ -1,0 +1,104 @@
+{
+  "id": "global.10B.personal-agent",
+  "name": "10B personal-agent query layer",
+  "kind": "sector_economic",
+  "blurb": "Agent-facing query surface over the 10B embedding. Answers the three founding questions: How can I connect with my neighbors? · What economic value can I bring to my community? · How can I effectively advocate for change?",
+  "mechanism": "For a given user (resolved to a country and optionally a sub-region), produces:\n\n  • **Connect** — the country's belonging-category gaps and a list of peer countries     that have closed similar gaps successfully.\n  • **Contribute** — the country's work + education category strengths and weaknesses,     surfaced as economic opportunities the user can pursue.\n  • **Advocate** — the country's agency + governance category gaps, plus the relative     distance to the global mean on environment / safety, surfaced as advocacy levers.",
+  "components": [
+    {
+      "id": "connect",
+      "name": "Connect surface",
+      "role": "Belonging gap + peer-country comparison.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "contribute",
+      "name": "Contribute surface",
+      "role": "Work+education strengths/weaknesses.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "advocate",
+      "name": "Advocate surface",
+      "role": "Agency+governance levers + global comparators.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "query",
+      "name": "Query layer",
+      "role": "Agent-facing query API over the embedding.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "embedding",
+      "kind": "embedding",
+      "description": "10B macro-embedding."
+    },
+    {
+      "name": "user-context",
+      "kind": "context",
+      "description": "User's resolved country and optional region."
+    },
+    {
+      "name": "peers",
+      "kind": "graph",
+      "description": "Country peer index from global.10B.dynamics."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "connect",
+      "kind": "report",
+      "description": "Community-building suggestions for the user."
+    },
+    {
+      "name": "contribute",
+      "kind": "report",
+      "description": "Economic-contribution suggestions for the user."
+    },
+    {
+      "name": "advocate",
+      "kind": "report",
+      "description": "Advocacy-lever suggestions for the user."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "design-question-1",
+      "value": "How can I connect with my neighbors?"
+    },
+    {
+      "key": "design-question-2",
+      "value": "What economic value can I bring to my community?"
+    },
+    {
+      "key": "design-question-3",
+      "value": "How can I effectively advocate for change?"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B project description",
+      "kind": "spec",
+      "location": "registry/global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B",
+      "kind": "depends_on",
+      "note": "Top-level 10B model is the embedding source."
+    },
+    {
+      "target_model_id": "global.10B.dynamics",
+      "kind": "consumes_from",
+      "note": "Cluster labels and peer-country lists."
+    }
+  ]
+}

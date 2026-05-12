@@ -1,0 +1,39 @@
+{
+  "country": "Italy",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Italian Armed Forces (Forze Armate Italiane): Army (Esercito Italiano, EI), Navy (Marina Militare Italiana, MMI; includes aviation, marines), Italian Air Force (Aeronautica Militare Italiana, AMI); Carabinieri Corps (Arma dei Carabinieri, CC) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.5% of GDP (2024 est.)1.5% of GDP (2023)1.5% of GDP (2022)1.5% of GDP (2021)1.6% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "21,441 (Nigeria), 17,706 (Afghanistan), 17,619 (Pakistan), 11,193 (Mali), 8,405 (Somalia), 6,324 (Gambia), 5,768 (Bangladesh), 5,463 (Iraq) (mid-year 2022); 169,165 (Ukraine) (as of 23 February 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

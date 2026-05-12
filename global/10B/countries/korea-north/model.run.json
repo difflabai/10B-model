@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.korea-north",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Korea, North"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.korea-north.food",
+        "global.10B.countries.korea-north.water",
+        "global.10B.countries.korea-north.shelter",
+        "global.10B.countries.korea-north.health",
+        "global.10B.countries.korea-north.safety",
+        "global.10B.countries.korea-north.education",
+        "global.10B.countries.korea-north.work",
+        "global.10B.countries.korea-north.energy",
+        "global.10B.countries.korea-north.mobility",
+        "global.10B.countries.korea-north.communications",
+        "global.10B.countries.korea-north.governance",
+        "global.10B.countries.korea-north.environment",
+        "global.10B.countries.korea-north.belonging",
+        "global.10B.countries.korea-north.meaning",
+        "global.10B.countries.korea-north.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

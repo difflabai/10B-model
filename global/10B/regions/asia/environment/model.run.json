@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.environment",
+        "global.10B.countries.ashmore-and-cartier-islands.environment",
+        "global.10B.countries.bahrain.environment",
+        "global.10B.countries.bangladesh.environment",
+        "global.10B.countries.bhutan.environment",
+        "global.10B.countries.brunei.environment",
+        "global.10B.countries.burma.environment",
+        "global.10B.countries.cambodia.environment",
+        "global.10B.countries.china.environment",
+        "global.10B.countries.christmas-island.environment",
+        "global.10B.countries.cocos-keeling-islands.environment",
+        "global.10B.countries.gaza-strip.environment",
+        "global.10B.countries.hong-kong.environment",
+        "global.10B.countries.india.environment",
+        "global.10B.countries.indonesia.environment",
+        "global.10B.countries.iran.environment",
+        "global.10B.countries.iraq.environment",
+        "global.10B.countries.israel.environment",
+        "global.10B.countries.japan.environment",
+        "global.10B.countries.jordan.environment",
+        "global.10B.countries.korea-north.environment",
+        "global.10B.countries.korea-south.environment",
+        "global.10B.countries.kuwait.environment",
+        "global.10B.countries.kyrgyzstan.environment",
+        "global.10B.countries.laos.environment",
+        "global.10B.countries.lebanon.environment",
+        "global.10B.countries.macau.environment",
+        "global.10B.countries.malaysia.environment",
+        "global.10B.countries.maldives.environment",
+        "global.10B.countries.mongolia.environment",
+        "global.10B.countries.nepal.environment",
+        "global.10B.countries.oman.environment",
+        "global.10B.countries.pakistan.environment",
+        "global.10B.countries.paracel-islands.environment",
+        "global.10B.countries.philippines.environment",
+        "global.10B.countries.qatar.environment",
+        "global.10B.countries.saudi-arabia.environment",
+        "global.10B.countries.singapore.environment",
+        "global.10B.countries.spratly-islands.environment",
+        "global.10B.countries.sri-lanka.environment",
+        "global.10B.countries.syria.environment",
+        "global.10B.countries.taiwan.environment",
+        "global.10B.countries.tajikistan.environment",
+        "global.10B.countries.thailand.environment",
+        "global.10B.countries.timor-leste.environment",
+        "global.10B.countries.turkmenistan.environment",
+        "global.10B.countries.united-arab-emirates.environment",
+        "global.10B.countries.uzbekistan.environment",
+        "global.10B.countries.vietnam.environment",
+        "global.10B.countries.west-bank.environment",
+        "global.10B.countries.yemen.environment"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

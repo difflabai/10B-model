@@ -1,0 +1,52 @@
+{
+  "country": "Hungary",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8018,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9592
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7125
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.80184,
+    1.0,
+    0.9592,
+    0.7125,
+    -0.30517,
+    -0.6719,
+    -0.61364,
+    -0.54302,
+    -0.90335,
+    0.16738,
+    -0.68988,
+    -0.72216,
+    -0.11562,
+    0.46612,
+    0.68118,
+    0.27236
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

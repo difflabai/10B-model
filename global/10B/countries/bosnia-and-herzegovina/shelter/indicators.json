@@ -1,0 +1,34 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "50.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "346,000 SARAJEVO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the northern and central areas of the country are the most densely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

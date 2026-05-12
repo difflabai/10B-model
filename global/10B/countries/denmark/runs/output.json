@@ -1,0 +1,47 @@
+{
+  "country": "denmark",
+  "category_scores": {
+    "agency": 0.8708,
+    "belonging": 0.7237,
+    "communications": 0.7595,
+    "education": 0.826,
+    "energy": 0.6864,
+    "environment": 0.5299,
+    "food": 0.6456,
+    "governance": 0.7143,
+    "health": 0.8082,
+    "meaning": 0.67,
+    "mobility": 0.5314,
+    "safety": 0.5967,
+    "shelter": 0.669,
+    "water": 0.65,
+    "work": 0.7841
+  },
+  "country_score": 0.6977,
+  "tier_scores": {
+    "subsistence": 0.6739,
+    "development": 0.7175,
+    "agency": 0.7017
+  },
+  "country_embedding": [
+    0.6977,
+    0.81504,
+    0.75076,
+    0.6732,
+    -0.03214,
+    -0.41201,
+    0.22631,
+    0.12856,
+    0.00336,
+    0.14746,
+    -0.27774,
+    0.054,
+    -0.17061,
+    0.22134,
+    0.06092,
+    0.15671
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Denmark, the three needs areas with the largest gaps are: environment (0.53), mobility (0.53), safety (0.60).\nThe three strongest areas are: agency (0.87), education (0.83), health (0.81).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

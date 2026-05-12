@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.south-sudan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "South Sudan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.south-sudan.food",
+        "global.10B.countries.south-sudan.water",
+        "global.10B.countries.south-sudan.shelter",
+        "global.10B.countries.south-sudan.health",
+        "global.10B.countries.south-sudan.safety",
+        "global.10B.countries.south-sudan.education",
+        "global.10B.countries.south-sudan.work",
+        "global.10B.countries.south-sudan.energy",
+        "global.10B.countries.south-sudan.mobility",
+        "global.10B.countries.south-sudan.communications",
+        "global.10B.countries.south-sudan.governance",
+        "global.10B.countries.south-sudan.environment",
+        "global.10B.countries.south-sudan.belonging",
+        "global.10B.countries.south-sudan.meaning",
+        "global.10B.countries.south-sudan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

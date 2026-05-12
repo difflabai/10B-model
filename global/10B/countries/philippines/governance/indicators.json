@@ -1,0 +1,44 @@
+{
+  "country": "Philippines",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of civil, common, Islamic (sharia), and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest ratified 2 February 1987, effective 11 February 1987",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Ferdinand \"BongBong\" MARCOS, Jr. (since 30 June 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; withdrew from the ICCt in March 2019",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, EAS, FAO, G-24, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSTAH, NAM, OAS (observer), OPCW, PCA, PIF (partner), UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNMIL, UNMOGIP, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

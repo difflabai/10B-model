@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.malawi",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Malawi"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.malawi.food",
+        "global.10B.countries.malawi.water",
+        "global.10B.countries.malawi.shelter",
+        "global.10B.countries.malawi.health",
+        "global.10B.countries.malawi.safety",
+        "global.10B.countries.malawi.education",
+        "global.10B.countries.malawi.work",
+        "global.10B.countries.malawi.energy",
+        "global.10B.countries.malawi.mobility",
+        "global.10B.countries.malawi.communications",
+        "global.10B.countries.malawi.governance",
+        "global.10B.countries.malawi.environment",
+        "global.10B.countries.malawi.belonging",
+        "global.10B.countries.malawi.meaning",
+        "global.10B.countries.malawi.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

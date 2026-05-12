@@ -1,0 +1,44 @@
+{
+  "country": "Libya",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "in transition",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "Libya's post-revolution legal system is in flux and driven by state and non-state entities",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1951, 1977; in July 2017, the Constitutional Assembly completed and approved a draft of a new permanent constitution; in September 2018, the House of Representatives passed a constitutional referendum law in a session with contested reports of the quorum needed to pass the vote and submitted it to the High National Elections Commission in December to begin preparations for a constitutional referendum",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President, Presidential Council, Mohammed al-MANFI (since 5 February 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ABEDA, AfDB, AFESD, AMF, AMU, AU, BDEAC, CAEU, COMESA, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, LAS, LCBC, MIGA, NAM, OAPEC, OIC, OPCW, OPEC, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNSMIL, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (observer)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

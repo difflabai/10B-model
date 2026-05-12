@@ -1,0 +1,34 @@
+{
+  "country": "Sudan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "36.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "6.344 million KHARTOUM (capital), 1.057 million Nyala (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "with the exception of a ribbon of settlement that corresponds to the banks of the Nile, northern Sudan, which extends into the dry Sahara, is sparsely populated; more abundant vegetation and broader access to water increases population distribution in the south extending habitable range along nearly the entire border with South Sudan; sizeable areas of population are found around Khartoum, southeast between the Blue and White Nile Rivers, and throughout South Darfur as shown on this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "hot and dry; arid desert; rainy season varies by region (April to November)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "hot and dry; arid desert; rainy season varies by region (April to November)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

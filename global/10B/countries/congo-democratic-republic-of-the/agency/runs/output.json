@@ -1,0 +1,56 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6416,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.32
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    }
+  ],
+  "embedding": [
+    0.6416,
+    0.83333,
+    0.85,
+    0.85,
+    -0.5162,
+    0.46215,
+    0.37426,
+    0.08324,
+    -0.26461,
+    0.90423,
+    0.14321,
+    -0.07713,
+    0.1418,
+    0.36577,
+    -0.99695,
+    0.30019
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

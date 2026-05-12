@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.food",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "food"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.food",
+        "global.10B.countries.ashmore-and-cartier-islands.food",
+        "global.10B.countries.bahrain.food",
+        "global.10B.countries.bangladesh.food",
+        "global.10B.countries.bhutan.food",
+        "global.10B.countries.brunei.food",
+        "global.10B.countries.burma.food",
+        "global.10B.countries.cambodia.food",
+        "global.10B.countries.china.food",
+        "global.10B.countries.christmas-island.food",
+        "global.10B.countries.cocos-keeling-islands.food",
+        "global.10B.countries.gaza-strip.food",
+        "global.10B.countries.hong-kong.food",
+        "global.10B.countries.india.food",
+        "global.10B.countries.indonesia.food",
+        "global.10B.countries.iran.food",
+        "global.10B.countries.iraq.food",
+        "global.10B.countries.israel.food",
+        "global.10B.countries.japan.food",
+        "global.10B.countries.jordan.food",
+        "global.10B.countries.korea-north.food",
+        "global.10B.countries.korea-south.food",
+        "global.10B.countries.kuwait.food",
+        "global.10B.countries.kyrgyzstan.food",
+        "global.10B.countries.laos.food",
+        "global.10B.countries.lebanon.food",
+        "global.10B.countries.macau.food",
+        "global.10B.countries.malaysia.food",
+        "global.10B.countries.maldives.food",
+        "global.10B.countries.mongolia.food",
+        "global.10B.countries.nepal.food",
+        "global.10B.countries.oman.food",
+        "global.10B.countries.pakistan.food",
+        "global.10B.countries.paracel-islands.food",
+        "global.10B.countries.philippines.food",
+        "global.10B.countries.qatar.food",
+        "global.10B.countries.saudi-arabia.food",
+        "global.10B.countries.singapore.food",
+        "global.10B.countries.spratly-islands.food",
+        "global.10B.countries.sri-lanka.food",
+        "global.10B.countries.syria.food",
+        "global.10B.countries.taiwan.food",
+        "global.10B.countries.tajikistan.food",
+        "global.10B.countries.thailand.food",
+        "global.10B.countries.timor-leste.food",
+        "global.10B.countries.turkmenistan.food",
+        "global.10B.countries.united-arab-emirates.food",
+        "global.10B.countries.uzbekistan.food",
+        "global.10B.countries.vietnam.food",
+        "global.10B.countries.west-bank.food",
+        "global.10B.countries.yemen.food"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

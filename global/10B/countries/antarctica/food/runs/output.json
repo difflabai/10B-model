@@ -1,0 +1,52 @@
+{
+  "country": "Antarctica",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.2,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.2
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    -0.47222,
+    -0.4613,
+    -0.71835,
+    0.72729,
+    -0.04726,
+    -0.15334,
+    -0.68212,
+    -0.04616,
+    -0.18465,
+    -0.83368,
+    -0.00832,
+    -0.22472
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

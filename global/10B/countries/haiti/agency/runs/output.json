@@ -1,0 +1,56 @@
+{
+  "country": "Haiti",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6772,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.44
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.256
+    }
+  ],
+  "embedding": [
+    0.6772,
+    0.83333,
+    0.85,
+    0.92,
+    -0.08452,
+    0.55737,
+    -0.80972,
+    0.88458,
+    -0.24984,
+    0.70437,
+    0.60143,
+    -0.1267,
+    0.99448,
+    -0.74154,
+    -0.12325,
+    0.86154
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

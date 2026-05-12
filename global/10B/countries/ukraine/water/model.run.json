@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.ukraine.water",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ukraine"
+    },
+    "category": {
+      "value": "water"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "water"
+    }
+  },
+  "output": "./runs/output.json"
+}

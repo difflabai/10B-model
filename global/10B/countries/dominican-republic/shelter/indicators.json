@@ -1,0 +1,34 @@
+{
+  "country": "Dominican Republic",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "84.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.524 million SANTO DOMINGO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "coastal development is significant, especially in the southern coastal plains and the Cibao Valley, where population density is highest; smaller population clusters exist in the interior mountains (Cordillera Central)",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical maritime; little seasonal temperature variation; seasonal variation in rainfall",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical maritime; little seasonal temperature variation; seasonal variation in rainfall",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

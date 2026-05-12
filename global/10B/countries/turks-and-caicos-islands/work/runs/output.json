@@ -1,0 +1,60 @@
+{
+  "country": "Turks and Caicos Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.6872,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7084
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.57
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7833
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.68724,
+    0.42857,
+    0.7084,
+    0.57,
+    -0.61019,
+    -0.89291,
+    -0.73462,
+    -0.82934,
+    -0.67471,
+    0.48174,
+    -0.57119,
+    0.25936,
+    -0.19982,
+    -0.32659,
+    -0.18367,
+    0.7706
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Kazakhstan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "58.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.987 million Almaty, 1.291 million NUR-SULTAN (capital), 1.155 million Shimkent (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the country displays a low population density, particularly the interior; population clusters appear in urban agglomerations in the far northern and southern portions of the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "continental, cold winters and hot summers, arid and semiarid",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "continental, cold winters and hot summers, arid and semiarid",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

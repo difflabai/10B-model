@@ -1,0 +1,60 @@
+{
+  "country": "Sint Maarten",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.4,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": null
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.4,
+    0.14286,
+    0.4,
+    0.0,
+    0.20949,
+    -0.08992,
+    -0.66989,
+    0.18596,
+    0.05303,
+    -0.83514,
+    0.0916,
+    0.77731,
+    -0.44018,
+    0.76913,
+    0.37133,
+    -0.82675
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.governance",
+        "global.10B.countries.australia.governance",
+        "global.10B.countries.baker-island.governance",
+        "global.10B.countries.chile.governance",
+        "global.10B.countries.clipperton-island.governance",
+        "global.10B.countries.colombia.governance",
+        "global.10B.countries.cook-islands.governance",
+        "global.10B.countries.coral-sea-islands.governance",
+        "global.10B.countries.costa-rica.governance",
+        "global.10B.countries.ecuador.governance",
+        "global.10B.countries.el-salvador.governance",
+        "global.10B.countries.fiji.governance",
+        "global.10B.countries.french-polynesia.governance",
+        "global.10B.countries.guam.governance",
+        "global.10B.countries.guatemala.governance",
+        "global.10B.countries.honduras.governance",
+        "global.10B.countries.howland-island.governance",
+        "global.10B.countries.jarvis-island.governance",
+        "global.10B.countries.johnston-atoll.governance",
+        "global.10B.countries.kingman-reef.governance",
+        "global.10B.countries.kiribati.governance",
+        "global.10B.countries.marshall-islands.governance",
+        "global.10B.countries.mexico.governance",
+        "global.10B.countries.micronesia-federated-states-of.governance",
+        "global.10B.countries.midway-islands.governance",
+        "global.10B.countries.nauru.governance",
+        "global.10B.countries.new-caledonia.governance",
+        "global.10B.countries.new-zealand.governance",
+        "global.10B.countries.nicaragua.governance",
+        "global.10B.countries.niue.governance",
+        "global.10B.countries.norfolk-island.governance",
+        "global.10B.countries.northern-mariana-islands.governance",
+        "global.10B.countries.palau.governance",
+        "global.10B.countries.palmyra-atoll.governance",
+        "global.10B.countries.panama.governance",
+        "global.10B.countries.papua-new-guinea.governance",
+        "global.10B.countries.peru.governance",
+        "global.10B.countries.pitcairn-islands.governance",
+        "global.10B.countries.samoa.governance",
+        "global.10B.countries.solomon-islands.governance",
+        "global.10B.countries.tokelau.governance",
+        "global.10B.countries.tonga.governance",
+        "global.10B.countries.tuvalu.governance",
+        "global.10B.countries.united-states.governance",
+        "global.10B.countries.vanuatu.governance",
+        "global.10B.countries.wake-island.governance",
+        "global.10B.countries.wallis-and-futuna.governance"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

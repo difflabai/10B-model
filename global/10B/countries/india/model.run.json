@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.india",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "India"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.india.food",
+        "global.10B.countries.india.water",
+        "global.10B.countries.india.shelter",
+        "global.10B.countries.india.health",
+        "global.10B.countries.india.safety",
+        "global.10B.countries.india.education",
+        "global.10B.countries.india.work",
+        "global.10B.countries.india.energy",
+        "global.10B.countries.india.mobility",
+        "global.10B.countries.india.communications",
+        "global.10B.countries.india.governance",
+        "global.10B.countries.india.environment",
+        "global.10B.countries.india.belonging",
+        "global.10B.countries.india.meaning",
+        "global.10B.countries.india.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

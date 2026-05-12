@@ -1,0 +1,84 @@
+{
+  "country": "Lesotho",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.5652,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.3625
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.72
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.3078
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.9493
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.312
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.95
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.56516,
+    0.76923,
+    0.3625,
+    0.72,
+    -0.02049,
+    -0.87143,
+    -0.00517,
+    0.80752,
+    -0.36791,
+    -0.59835,
+    0.13005,
+    0.04192,
+    -0.09993,
+    0.53313,
+    -0.96234,
+    0.80276
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

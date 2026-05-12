@@ -1,0 +1,56 @@
+{
+  "country": "Portugal",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8435,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.86
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    }
+  ],
+  "embedding": [
+    0.8435,
+    0.83333,
+    0.85,
+    0.92,
+    0.35189,
+    -0.4656,
+    0.18132,
+    0.82684,
+    -0.28936,
+    -0.69137,
+    -0.25008,
+    0.59695,
+    0.57363,
+    0.69833,
+    -0.40945,
+    -0.48659
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

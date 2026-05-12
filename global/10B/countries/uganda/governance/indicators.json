@@ -1,0 +1,44 @@
+{
+  "country": "Uganda",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 27 September 1995, promulgated 8 October 1995",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Yoweri Kaguta MUSEVENI (since 26 January 1986)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, ATMIS, AU, C, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITC, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, PCA, UN, UNCDF, UNCTAD, UNECA, UNDP, UNFPA, UNESCO, UNHCR, UNICEF, UNIDO, UNISFA, UNOCI, UNOPS, UNSOM, UNWTO, UPU, WCO, WFP, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

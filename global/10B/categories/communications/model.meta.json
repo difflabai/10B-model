@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.communications",
+  "name": "World — Communications and connectivity",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **communications and connectivity** across 257 countries — the cross-country slice of the 10B model along the communications dimension.",
+  "mechanism": "Aggregates the per-country communications models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the communications dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Communications and connectivity world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Communications and connectivity country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Communications and connectivity macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "communications-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for communications and connectivity."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "communications-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for communications and connectivity."
+    },
+    {
+      "name": "communications-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on communications and connectivity."
+    },
+    {
+      "name": "communications-macro-embedding",
+      "kind": "embedding",
+      "description": "Communications and connectivity contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Communications and connectivity"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "MaxNeef:participation, SDG-9",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.communications",
+      "kind": "consumes_from",
+      "note": "Per-country communications model."
+    }
+  ]
+}

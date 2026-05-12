@@ -1,0 +1,56 @@
+{
+  "country": "Cambodia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6879,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5957
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.494
+    }
+  ],
+  "embedding": [
+    0.68794,
+    0.83333,
+    0.85,
+    0.65,
+    -0.90192,
+    0.32525,
+    0.97394,
+    -0.43612,
+    0.52605,
+    -0.83648,
+    -0.27864,
+    0.00731,
+    0.1176,
+    -0.28698,
+    0.37591,
+    0.47085
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

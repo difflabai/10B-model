@@ -1,0 +1,39 @@
+{
+  "country": "Bhutan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Bhutan Peace and Prosperity Party (Druk Phuensum Tshogpa) or DPTBhutan Tendrel Party or BTPDruk Thuendrel Tshogpa or DTTPeople's Democratic Party or PDPUnited Party of Bhutan (Druk Nyamrup Tshogpa) or DNT",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned TV station established in 1999; cable TV service offers dozens of Indian and other international channels; first radio station, privately launched in 1973, is now state-owned; 5 private radio stations are currently broadcasting (2012)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

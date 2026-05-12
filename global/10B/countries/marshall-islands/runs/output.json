@@ -1,0 +1,47 @@
+{
+  "country": "marshall-islands",
+  "category_scores": {
+    "agency": 0.8066,
+    "belonging": 0.6855,
+    "communications": 0.5865,
+    "education": 0.7599,
+    "energy": 0.8109,
+    "environment": 0.584,
+    "food": 0.6478,
+    "governance": 0.6643,
+    "health": 0.5867,
+    "meaning": 0.65,
+    "mobility": 0.3721,
+    "safety": 0.75,
+    "shelter": 0.6536,
+    "water": 0.65,
+    "work": 0.6344
+  },
+  "country_score": 0.6562,
+  "tier_scores": {
+    "subsistence": 0.6576,
+    "development": 0.6328,
+    "agency": 0.6781
+  },
+  "country_embedding": [
+    0.65616,
+    0.74813,
+    0.62173,
+    0.57275,
+    0.04314,
+    -0.09944,
+    0.17199,
+    0.2047,
+    -0.04896,
+    -0.01563,
+    0.06615,
+    -0.01835,
+    -0.25394,
+    0.20621,
+    0.02562,
+    -0.06385
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Marshall Islands, the three needs areas with the largest gaps are: mobility (0.37), environment (0.58), communications (0.59).\nThe three strongest areas are: energy (0.81), agency (0.81), education (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

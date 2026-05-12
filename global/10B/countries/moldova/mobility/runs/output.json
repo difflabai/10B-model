@@ -1,0 +1,72 @@
+{
+  "country": "Moldova",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4748,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.252
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4528
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5526
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3156
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5008
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7
+    }
+  ],
+  "embedding": [
+    0.47482,
+    0.7,
+    0.252,
+    0.4528,
+    -0.84918,
+    0.41848,
+    0.18462,
+    0.73672,
+    -0.82995,
+    -0.69522,
+    0.98965,
+    -0.39358,
+    -0.36083,
+    0.87247,
+    0.42843,
+    -0.70181
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

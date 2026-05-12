@@ -1,0 +1,44 @@
+{
+  "country": "New Zealand",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law system, based on English model, with special legislation and land courts for the Maori",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "New Zealand has no single constitution document; the Constitution Act 1986, effective 1 January 1987, includes only part of the uncodified constitution; others include a collection of statutes or \"acts of Parliament,\" the Treaty of Waitangi, Orders in Council, letters patent, court decisions, and unwritten conventions",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor-General Dame Cindy KIRO (since 21 October 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, ANZUS, APEC, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CP, EAS, EBRD, FAO, FATF, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NSG, OECD, OPCW, Pacific Alliance (observer), Paris Club (associate), PCA, PIF, SICA (observer), Sparteca, SPC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNMISS, UNTSO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

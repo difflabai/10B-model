@@ -1,0 +1,60 @@
+{
+  "country": "French Southern and Antarctic Lands",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.6167,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": null
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": null
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.61667,
+    0.42857,
+    0.65,
+    0.65,
+    0.42147,
+    -0.3897,
+    0.84942,
+    0.35274,
+    0.74633,
+    0.11907,
+    -0.89429,
+    0.74414,
+    0.78824,
+    0.1382,
+    0.23104,
+    0.32091
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

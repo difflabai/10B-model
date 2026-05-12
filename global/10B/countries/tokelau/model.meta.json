@@ -1,0 +1,402 @@
+{
+  "id": "global.10B.countries.tokelau",
+  "name": "Tokelau — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Country-level rollup for **Tokelau** spanning all 15 needs categories, feeding the global.10B macro-space model. Average indicator coverage: 42%.",
+  "mechanism": "Aggregates the 15 per-category models for Tokelau into a single country needs embedding and a set of tier-level (subsistence / development / agency) satisfaction averages.\n\nEach category model contributes a satisfaction score and a category embedding; the rollup concatenates the embeddings, weights category contributions by indicator coverage, and emits a country-level vector along with a plain-text summary suitable for consumption by a personal agent helping the user navigate community building and economic transition.",
+  "components": [
+    {
+      "id": "cat-food",
+      "name": "Food and nutrition feed",
+      "role": "Consumes global.10B.countries.tokelau.food",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-water",
+      "name": "Water and sanitation feed",
+      "role": "Consumes global.10B.countries.tokelau.water",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-shelter",
+      "name": "Shelter and habitat feed",
+      "role": "Consumes global.10B.countries.tokelau.shelter",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-health",
+      "name": "Health and longevity feed",
+      "role": "Consumes global.10B.countries.tokelau.health",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-safety",
+      "name": "Safety and protection from violence feed",
+      "role": "Consumes global.10B.countries.tokelau.safety",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-education",
+      "name": "Education and learning feed",
+      "role": "Consumes global.10B.countries.tokelau.education",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-work",
+      "name": "Work and economic capability feed",
+      "role": "Consumes global.10B.countries.tokelau.work",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-energy",
+      "name": "Energy access feed",
+      "role": "Consumes global.10B.countries.tokelau.energy",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-mobility",
+      "name": "Mobility and transportation feed",
+      "role": "Consumes global.10B.countries.tokelau.mobility",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-communications",
+      "name": "Communications and connectivity feed",
+      "role": "Consumes global.10B.countries.tokelau.communications",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-governance",
+      "name": "Governance and rule of law feed",
+      "role": "Consumes global.10B.countries.tokelau.governance",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-environment",
+      "name": "Environmental sustainability feed",
+      "role": "Consumes global.10B.countries.tokelau.environment",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-belonging",
+      "name": "Belonging and social cohesion feed",
+      "role": "Consumes global.10B.countries.tokelau.belonging",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-meaning",
+      "name": "Meaning, identity, and culture feed",
+      "role": "Consumes global.10B.countries.tokelau.meaning",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-agency",
+      "name": "Agency and self-determination feed",
+      "role": "Consumes global.10B.countries.tokelau.agency",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-score",
+      "kind": "scalar",
+      "description": "Food and nutrition satisfaction score for Tokelau."
+    },
+    {
+      "name": "water-score",
+      "kind": "scalar",
+      "description": "Water and sanitation satisfaction score for Tokelau."
+    },
+    {
+      "name": "shelter-score",
+      "kind": "scalar",
+      "description": "Shelter and habitat satisfaction score for Tokelau."
+    },
+    {
+      "name": "health-score",
+      "kind": "scalar",
+      "description": "Health and longevity satisfaction score for Tokelau."
+    },
+    {
+      "name": "safety-score",
+      "kind": "scalar",
+      "description": "Safety and protection from violence satisfaction score for Tokelau."
+    },
+    {
+      "name": "education-score",
+      "kind": "scalar",
+      "description": "Education and learning satisfaction score for Tokelau."
+    },
+    {
+      "name": "work-score",
+      "kind": "scalar",
+      "description": "Work and economic capability satisfaction score for Tokelau."
+    },
+    {
+      "name": "energy-score",
+      "kind": "scalar",
+      "description": "Energy access satisfaction score for Tokelau."
+    },
+    {
+      "name": "mobility-score",
+      "kind": "scalar",
+      "description": "Mobility and transportation satisfaction score for Tokelau."
+    },
+    {
+      "name": "communications-score",
+      "kind": "scalar",
+      "description": "Communications and connectivity satisfaction score for Tokelau."
+    },
+    {
+      "name": "governance-score",
+      "kind": "scalar",
+      "description": "Governance and rule of law satisfaction score for Tokelau."
+    },
+    {
+      "name": "environment-score",
+      "kind": "scalar",
+      "description": "Environmental sustainability satisfaction score for Tokelau."
+    },
+    {
+      "name": "belonging-score",
+      "kind": "scalar",
+      "description": "Belonging and social cohesion satisfaction score for Tokelau."
+    },
+    {
+      "name": "meaning-score",
+      "kind": "scalar",
+      "description": "Meaning, identity, and culture satisfaction score for Tokelau."
+    },
+    {
+      "name": "agency-score",
+      "kind": "scalar",
+      "description": "Agency and self-determination satisfaction score for Tokelau."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "country-needs-vector",
+      "kind": "embedding",
+      "description": "Country-level needs embedding spanning all 15 categories."
+    },
+    {
+      "name": "tier-scores",
+      "kind": "vector",
+      "description": "Per-tier (subsistence / development / agency) satisfaction averages."
+    },
+    {
+      "name": "country-summary",
+      "kind": "report",
+      "description": "Plain-text summary of needs gaps and strengths used by personal agents."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "country",
+      "value": "Tokelau"
+    },
+    {
+      "key": "category-count",
+      "value": "15"
+    },
+    {
+      "key": "average-coverage",
+      "value": "0.42",
+      "description": "Mean indicator coverage across categories."
+    },
+    {
+      "key": "food-coverage",
+      "value": "0.60"
+    },
+    {
+      "key": "water-coverage",
+      "value": "0.17"
+    },
+    {
+      "key": "shelter-coverage",
+      "value": "0.80"
+    },
+    {
+      "key": "health-coverage",
+      "value": "0.07"
+    },
+    {
+      "key": "safety-coverage",
+      "value": "0.00"
+    },
+    {
+      "key": "education-coverage",
+      "value": "0.20"
+    },
+    {
+      "key": "work-coverage",
+      "value": "0.57"
+    },
+    {
+      "key": "energy-coverage",
+      "value": "0.00"
+    },
+    {
+      "key": "mobility-coverage",
+      "value": "0.10"
+    },
+    {
+      "key": "communications-coverage",
+      "value": "0.64"
+    },
+    {
+      "key": "governance-coverage",
+      "value": "0.86"
+    },
+    {
+      "key": "environment-coverage",
+      "value": "0.29"
+    },
+    {
+      "key": "belonging-coverage",
+      "value": "0.71"
+    },
+    {
+      "key": "meaning-coverage",
+      "value": "0.67"
+    },
+    {
+      "key": "agency-coverage",
+      "value": "0.67"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    },
+    {
+      "label": "CIA World Factbook",
+      "kind": "url",
+      "location": "https://www.cia.gov/the-world-factbook/"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.tokelau.food",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Food and nutrition"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.water",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Water and sanitation"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.shelter",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Shelter and habitat"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.health",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Health and longevity"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.safety",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Safety and protection from violence"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.education",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Education and learning"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.work",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Work and economic capability"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.energy",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Energy access"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Mobility and transportation"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.communications",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Communications and connectivity"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.governance",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Governance and rule of law"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.environment",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Environmental sustainability"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Belonging and social cohesion"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Meaning, identity, and culture"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.agency",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Agency and self-determination"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.mozambique",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Mozambique"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.mozambique.food",
+        "global.10B.countries.mozambique.water",
+        "global.10B.countries.mozambique.shelter",
+        "global.10B.countries.mozambique.health",
+        "global.10B.countries.mozambique.safety",
+        "global.10B.countries.mozambique.education",
+        "global.10B.countries.mozambique.work",
+        "global.10B.countries.mozambique.energy",
+        "global.10B.countries.mozambique.mobility",
+        "global.10B.countries.mozambique.communications",
+        "global.10B.countries.mozambique.governance",
+        "global.10B.countries.mozambique.environment",
+        "global.10B.countries.mozambique.belonging",
+        "global.10B.countries.mozambique.meaning",
+        "global.10B.countries.mozambique.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

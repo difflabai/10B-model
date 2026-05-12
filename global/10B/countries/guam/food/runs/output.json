@@ -1,0 +1,52 @@
+{
+  "country": "Guam",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6525,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7576
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.65253,
+    0.6,
+    0.65,
+    0.7576,
+    -0.73968,
+    0.13188,
+    -0.85675,
+    0.14781,
+    -0.74969,
+    0.84134,
+    0.67065,
+    -0.93017,
+    -0.29342,
+    -0.89264,
+    0.46471,
+    -0.63723
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

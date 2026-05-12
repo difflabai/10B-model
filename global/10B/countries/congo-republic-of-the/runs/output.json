@@ -1,0 +1,47 @@
+{
+  "country": "congo-republic-of-the",
+  "category_scores": {
+    "agency": 0.707,
+    "belonging": 0.7081,
+    "communications": 0.6352,
+    "education": 0.6981,
+    "energy": 0.4485,
+    "environment": 0.5317,
+    "food": 0.5994,
+    "governance": 0.7286,
+    "health": 0.5474,
+    "meaning": 0.65,
+    "mobility": 0.4228,
+    "safety": 0.6056,
+    "shelter": 0.7118,
+    "water": 0.6833,
+    "work": 0.5458
+  },
+  "country_score": 0.6149,
+  "tier_scores": {
+    "subsistence": 0.6295,
+    "development": 0.5501,
+    "agency": 0.6651
+  },
+  "country_embedding": [
+    0.61488,
+    0.85155,
+    0.59981,
+    0.64028,
+    -0.19692,
+    -0.09587,
+    -0.03487,
+    0.29158,
+    -0.05796,
+    0.02621,
+    0.08051,
+    0.31031,
+    -0.18384,
+    -0.34764,
+    -0.14283,
+    0.04056
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Congo Republic Of The, the three needs areas with the largest gaps are: mobility (0.42), energy (0.45), environment (0.53).\nThe three strongest areas are: governance (0.73), shelter (0.71), belonging (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

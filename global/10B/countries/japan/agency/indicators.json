@@ -1,0 +1,39 @@
+{
+  "country": "Japan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Conservative Party of Japan or CPJConstitutional Democratic Party of Japan or CDP Democratic Party for the People or DPFP or DPP Japan Communist Party or JCP Japan Innovation Party or Nippon Ishin no kai or Ishin Komeito or KomeiLiberal Democratic Party or LDP Okinawa Social Mass Party or Okinawa Whirlwind or OWParty to Protect the People from NHK or NHKReiwa Shinsengumi Sanseito PartySocial Democratic Party or SDP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mixture of public and commercial broadcast TV and radio stations; 5 national terrestrial TV networks including 1 public broadcaster; the large number of radio and TV stations available provide a wide range of choices; satellite and cable services provide access to international channels (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.4% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

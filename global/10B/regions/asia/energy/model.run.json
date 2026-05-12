@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.energy",
+        "global.10B.countries.ashmore-and-cartier-islands.energy",
+        "global.10B.countries.bahrain.energy",
+        "global.10B.countries.bangladesh.energy",
+        "global.10B.countries.bhutan.energy",
+        "global.10B.countries.brunei.energy",
+        "global.10B.countries.burma.energy",
+        "global.10B.countries.cambodia.energy",
+        "global.10B.countries.china.energy",
+        "global.10B.countries.christmas-island.energy",
+        "global.10B.countries.cocos-keeling-islands.energy",
+        "global.10B.countries.gaza-strip.energy",
+        "global.10B.countries.hong-kong.energy",
+        "global.10B.countries.india.energy",
+        "global.10B.countries.indonesia.energy",
+        "global.10B.countries.iran.energy",
+        "global.10B.countries.iraq.energy",
+        "global.10B.countries.israel.energy",
+        "global.10B.countries.japan.energy",
+        "global.10B.countries.jordan.energy",
+        "global.10B.countries.korea-north.energy",
+        "global.10B.countries.korea-south.energy",
+        "global.10B.countries.kuwait.energy",
+        "global.10B.countries.kyrgyzstan.energy",
+        "global.10B.countries.laos.energy",
+        "global.10B.countries.lebanon.energy",
+        "global.10B.countries.macau.energy",
+        "global.10B.countries.malaysia.energy",
+        "global.10B.countries.maldives.energy",
+        "global.10B.countries.mongolia.energy",
+        "global.10B.countries.nepal.energy",
+        "global.10B.countries.oman.energy",
+        "global.10B.countries.pakistan.energy",
+        "global.10B.countries.paracel-islands.energy",
+        "global.10B.countries.philippines.energy",
+        "global.10B.countries.qatar.energy",
+        "global.10B.countries.saudi-arabia.energy",
+        "global.10B.countries.singapore.energy",
+        "global.10B.countries.spratly-islands.energy",
+        "global.10B.countries.sri-lanka.energy",
+        "global.10B.countries.syria.energy",
+        "global.10B.countries.taiwan.energy",
+        "global.10B.countries.tajikistan.energy",
+        "global.10B.countries.thailand.energy",
+        "global.10B.countries.timor-leste.energy",
+        "global.10B.countries.turkmenistan.energy",
+        "global.10B.countries.united-arab-emirates.energy",
+        "global.10B.countries.uzbekistan.energy",
+        "global.10B.countries.vietnam.energy",
+        "global.10B.countries.west-bank.energy",
+        "global.10B.countries.yemen.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

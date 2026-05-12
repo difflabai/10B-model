@@ -1,0 +1,44 @@
+{
+  "country": "Oman",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "absolute monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of Anglo-Saxon law and Islamic law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "promulgated by royal decree 6 November 1996 (the Basic Law of the Sultanate of Oman serves as the constitution); amended by royal decree in 2011",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal; note - members of the military and security forces by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Sultan and Prime Minister HAITHAM bin Tarik Al Said (since 11 January 2020)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ABEDA, AFESD, AMF, CAEU, FAO, G-77, GCC, IAEA, IBRD, ICAO, ICC (NGOs), IDA, IDB, IFAD, IFC, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, LAS, MIGA, NAM, OIC, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

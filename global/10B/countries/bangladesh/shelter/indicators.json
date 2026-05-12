@@ -1,0 +1,34 @@
+{
+  "country": "Bangladesh",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "40.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "23.210 million DHAKA (capital), 5.380 million Chittagong, 955,000 Khulna, 962,000 Rajshahi, 964,000 Sylhet, 906,000 Bogra (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

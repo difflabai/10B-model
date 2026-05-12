@@ -1,0 +1,52 @@
+{
+  "country": "Chile",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8305,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.934
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.806
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.8305,
+    1.0,
+    0.934,
+    0.806,
+    -0.9743,
+    -0.07979,
+    0.83978,
+    0.48919,
+    0.38878,
+    0.78949,
+    -0.47774,
+    0.38958,
+    -0.72937,
+    -0.55929,
+    -0.53256,
+    -0.22197
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

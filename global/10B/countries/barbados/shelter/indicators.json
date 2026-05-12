@@ -1,0 +1,34 @@
+{
+  "country": "Barbados",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "31.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "89,000 BRIDGETOWN (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most densely populated country in the eastern Caribbean; approximately one-third live in urban areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; rainy season (June to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy season (June to October)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

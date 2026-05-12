@@ -1,0 +1,60 @@
+{
+  "country": "Madagascar",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6108,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.1875
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.79
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5295
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.897
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.61081,
+    0.71429,
+    0.1875,
+    0.79,
+    -0.69149,
+    -0.82995,
+    -0.58788,
+    -0.90359,
+    -0.41415,
+    0.69668,
+    0.73101,
+    -0.38289,
+    -0.5223,
+    -0.17287,
+    0.38463,
+    0.73428
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

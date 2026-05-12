@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.malaysia.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Malaysia"
+    },
+    "category": {
+      "value": "health"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "health"
+    }
+  },
+  "output": "./runs/output.json"
+}

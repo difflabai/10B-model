@@ -1,0 +1,60 @@
+{
+  "country": "Trinidad and Tobago",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6982,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7836
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.585
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7308
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.8395
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.6
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.69816,
+    0.85714,
+    0.7836,
+    0.585,
+    0.97568,
+    -0.07097,
+    -0.65087,
+    -0.71185,
+    -0.7427,
+    0.436,
+    0.61904,
+    0.28411,
+    -0.63803,
+    0.37301,
+    0.11971,
+    0.68786
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

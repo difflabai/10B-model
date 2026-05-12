@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.chile",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Chile"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.chile.food",
+        "global.10B.countries.chile.water",
+        "global.10B.countries.chile.shelter",
+        "global.10B.countries.chile.health",
+        "global.10B.countries.chile.safety",
+        "global.10B.countries.chile.education",
+        "global.10B.countries.chile.work",
+        "global.10B.countries.chile.energy",
+        "global.10B.countries.chile.mobility",
+        "global.10B.countries.chile.communications",
+        "global.10B.countries.chile.governance",
+        "global.10B.countries.chile.environment",
+        "global.10B.countries.chile.belonging",
+        "global.10B.countries.chile.meaning",
+        "global.10B.countries.chile.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

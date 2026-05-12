@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-kitts-and-nevis",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Kitts and Nevis"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-kitts-and-nevis.food",
+        "global.10B.countries.saint-kitts-and-nevis.water",
+        "global.10B.countries.saint-kitts-and-nevis.shelter",
+        "global.10B.countries.saint-kitts-and-nevis.health",
+        "global.10B.countries.saint-kitts-and-nevis.safety",
+        "global.10B.countries.saint-kitts-and-nevis.education",
+        "global.10B.countries.saint-kitts-and-nevis.work",
+        "global.10B.countries.saint-kitts-and-nevis.energy",
+        "global.10B.countries.saint-kitts-and-nevis.mobility",
+        "global.10B.countries.saint-kitts-and-nevis.communications",
+        "global.10B.countries.saint-kitts-and-nevis.governance",
+        "global.10B.countries.saint-kitts-and-nevis.environment",
+        "global.10B.countries.saint-kitts-and-nevis.belonging",
+        "global.10B.countries.saint-kitts-and-nevis.meaning",
+        "global.10B.countries.saint-kitts-and-nevis.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

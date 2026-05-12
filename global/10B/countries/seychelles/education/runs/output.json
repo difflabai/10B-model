@@ -1,0 +1,52 @@
+{
+  "country": "Seychelles",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8177,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9208
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8177,
+    0.8,
+    0.9208,
+    0.7625,
+    0.42757,
+    0.02785,
+    0.49361,
+    0.21947,
+    0.08336,
+    -0.18032,
+    -0.89712,
+    0.99213,
+    0.08507,
+    -0.19762,
+    0.19536,
+    -0.65432
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

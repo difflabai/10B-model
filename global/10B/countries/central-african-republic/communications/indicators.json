@@ -1,0 +1,64 @@
+{
+  "country": "Central African Republic",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "34 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "1.83 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "2,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "11% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "1,000 (2022 est.) Data available for 2019 only.",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "given the poor fixed-line infrastructure in most countries across Africa, voice and data services across the region are greatly dependent on mobile networks; in the majority of markets, including those with better developed fixed infrastructure such as South Africa, Nigeria, and Kenya, up to 98% of all voice and data connections are via mobile networks; during the last two to three years, national governments and telecom regulators have striven to improve fixed infrastructure with the wider aim of developing economic growth based on digital services and connectivity; this work is principally focused on delivering fiber-based connectivity; since the amount of copper infrastructure (DSL or HFC) used for broadband is so negligible, governments and private firms, including telcos are investing in fiber rather than in older technologies; while supporting broadband to premises, health centers, and government buildings, the new fiber infrastructure is mainly being deployed to provide mobile platforms and to support the rapid growth in data traffic (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "very limited telephone service with less than 1 fixed-line connection per 100 persons; 34 per 100 mobile-cellular subscribers (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 236; satellite earth station - 1 Intelsat (Atlantic Ocean)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government-owned network, Radiodiffusion Television Centrafricaine, provides limited domestic TV broadcasting; state-owned radio network is supplemented by a small number of privately owned broadcast stations as well as a few community radio stations; transmissions of at least 2 international broadcasters are available (2017)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.water",
+  "name": "Americas — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country water models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Mauritius",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7972,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8764
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79722,
+    0.8,
+    0.8764,
+    0.725,
+    -0.48455,
+    -0.22158,
+    0.00896,
+    -0.42223,
+    0.19921,
+    -0.88739,
+    0.92413,
+    -0.98059,
+    -0.77124,
+    0.68914,
+    -0.44005,
+    0.94598
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

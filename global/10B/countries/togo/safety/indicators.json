@@ -1,0 +1,39 @@
+{
+  "country": "Togo",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Togolese Armed Forces (Forces Armees Togolaise, FAT): Togolese Army (l'Armee de Terre), Togolese Navy (Forces Naval Togolaises), Togolese Air Force (Armee de l’Air), National Gendarmerie (Gendarmerie Nationale Togolaise or GNT)Ministry of Security and Civil Protection: National Police Directorate (Direction de la Police Nationale) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.2% of GDP (2023 est.)2.1% of GDP (2022 est.)1.9% of GDP (2021 est.)2% of GDP (2020 est.)2.6% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "9,846 (Burkina Faso), 8,436 (Ghana) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

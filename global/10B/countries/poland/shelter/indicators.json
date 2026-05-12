@@ -1,0 +1,34 @@
+{
+  "country": "Poland",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "60.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.798 million WARSAW (capital), 769,000 Krakow (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in the southern area around Krakow and the central area around Warsaw and Lodz, with an extension to the northern coastal city of Gdansk",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate with cold, cloudy, moderately severe winters with frequent precipitation; mild summers with frequent showers and thundershowers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate with cold, cloudy, moderately severe winters with frequent precipitation; mild summers with frequent showers and thundershowers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

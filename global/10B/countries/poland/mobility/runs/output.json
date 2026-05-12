@@ -1,0 +1,72 @@
+{
+  "country": "Poland",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.6097,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.7517
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7418
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5316
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7054
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6464
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5507
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.6097,
+    0.8,
+    0.7517,
+    0.7418,
+    0.45263,
+    -0.32778,
+    -0.65014,
+    -0.34084,
+    0.26131,
+    0.91159,
+    -0.29961,
+    0.59152,
+    -0.47369,
+    -0.29012,
+    0.58135,
+    -0.90564
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

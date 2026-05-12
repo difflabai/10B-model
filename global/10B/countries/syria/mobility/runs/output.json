@@ -1,0 +1,72 @@
+{
+  "country": "Syria",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.4773,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5132
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.5718
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5306
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5447
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5678
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3695
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2024
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3732
+    }
+  ],
+  "embedding": [
+    0.47732,
+    1.0,
+    0.5132,
+    0.5718,
+    -0.12258,
+    0.38631,
+    -0.52993,
+    -0.14333,
+    0.59081,
+    0.94354,
+    -0.12956,
+    -0.09883,
+    0.8612,
+    0.80081,
+    -0.89392,
+    0.5472
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

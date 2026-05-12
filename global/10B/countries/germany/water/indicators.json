@@ -1,0 +1,39 @@
+{
+  "country": "Germany",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Donau (Danube) river source (shared with Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Ukraine, Moldova, and Romania [m]) - 2,888 km; Elbe river mouth (shared with Czechia [s]) - 1,252 km; Rhein (Rhine) (shared with Switzerland [s], France, and Netherlands [m]) - 1,233 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Stettiner Haff/Zalew Szczecinski (shared with Poland) - 900 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), (Black Sea) Danube (795,656 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate and marine; cool, cloudy, wet winters and summers; occasional warm mountain (foehn) wind",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

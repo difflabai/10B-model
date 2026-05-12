@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.benin",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Benin"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.benin.food",
+        "global.10B.countries.benin.water",
+        "global.10B.countries.benin.shelter",
+        "global.10B.countries.benin.health",
+        "global.10B.countries.benin.safety",
+        "global.10B.countries.benin.education",
+        "global.10B.countries.benin.work",
+        "global.10B.countries.benin.energy",
+        "global.10B.countries.benin.mobility",
+        "global.10B.countries.benin.communications",
+        "global.10B.countries.benin.governance",
+        "global.10B.countries.benin.environment",
+        "global.10B.countries.benin.belonging",
+        "global.10B.countries.benin.meaning",
+        "global.10B.countries.benin.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

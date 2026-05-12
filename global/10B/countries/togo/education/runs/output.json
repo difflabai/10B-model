@@ -1,0 +1,52 @@
+{
+  "country": "Togo",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6658,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5758
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6125
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66583,
+    0.8,
+    0.5758,
+    0.6125,
+    0.89218,
+    -0.4641,
+    -0.86331,
+    0.87964,
+    0.49487,
+    0.66232,
+    0.12013,
+    0.51672,
+    -0.60851,
+    0.43117,
+    -0.32689,
+    -0.8724
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

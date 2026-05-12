@@ -1,0 +1,64 @@
+{
+  "country": "France",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "119 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "77.4 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "56 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "37.22 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "49 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "32.3 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "France's telecom market is one of the largest in Europe; there is a multi-year Engage 2025 plan which is focused on growth in the developing markets, and on the greater use of artificial intelligence and data; there are many MVNOs in the market; LTE networks provide near universal coverage, and carry about 95% of mobile data traffic; operators have launched 5G services, and these have been supported by the late-2020 auction of spectrum in the 3.5GHz range; France’s fixed broadband market is increasingly focused on fiber, which accounted for 71% of all fixed lines at the beginning of 2021; growth in the fiber sector has been stimulated by households securing faster data packages during the pandemic; the number of DSL lines has fallen sharply as customers migrate to fiber infrastructure (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "nearly 59 per 100 persons for fixed-line and over 110 per 100 for mobile-cellular subscriptions (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 33; landing points for Circe South, TAT-14, INGRID, FLAG Atlantic-1, Apollo, HUGO, IFC-1, ACE, SeaMeWe-3 & 4, Dunant, Africa-1, AAE-1, Atlas Offshore, Hawk, IMEWE, Med Cable, PEACE Cable, and TE North/TGN-Eurasia/SEACOM/Alexandros/Medex submarine cables providing links throughout Europe, Asia, Australia, the Middle East, Southeast Asia, Africa and US; satellite earth stations - more than 3 (2 Intelsat (with total of 5 antennas - 2 for Indian Ocean and 3 for Atlantic Ocean), NA Eutelsat, 1 Inmarsat - Atlantic Ocean region); HF radiotelephone communications with more than 20 countries (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mix of both publicly operated and privately owned TV stations; state-owned France television stations operate 4 networks, one of which is a network of regional stations, and has part-interest in several thematic cable/satellite channels and international channels; a large number of privately owned regional and local TV stations; multi-channel satellite and cable services provide a large number of channels; public broadcaster Radio France operates 7 national networks, a series of regional networks, and operates services for overseas territories and foreign audiences; Radio France Internationale, under the Ministry of Foreign Affairs, is a leading international broadcaster; a large number of commercial FM stations, with many of them consolidating into commercial networks",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

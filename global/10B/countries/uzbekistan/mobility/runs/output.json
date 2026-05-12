@@ -1,0 +1,72 @@
+{
+  "country": "Uzbekistan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5173,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.617
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5767
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5281
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5126
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.5173,
+    0.8,
+    0.617,
+    0.6278,
+    0.70053,
+    -0.83328,
+    -0.70938,
+    -0.43416,
+    -0.53619,
+    -0.58877,
+    -0.89599,
+    0.24199,
+    -0.97641,
+    -0.76068,
+    0.02678,
+    0.97601
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

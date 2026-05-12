@@ -1,0 +1,34 @@
+{
+  "country": "Ethiopia",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "maize, cereals, wheat, milk, sorghum, barley, taro, beans, sweet potatoes, potatoes (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "36.3% (2018 est.)agricultural land: arable land: 15.2% (2018 est.)agricultural land: permanent crops: 1.1% (2018 est.)agricultural land: permanent pasture: 20% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "35.8% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "118,550,298",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

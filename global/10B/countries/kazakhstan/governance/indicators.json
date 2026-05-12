@@ -1,0 +1,44 @@
+{
+  "country": "Kazakhstan",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system influenced by Roman-Germanic law and by the theory and practice of the Russian Federation",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1937, 1978 (preindependence), 1993; latest approved by referendum 30 August 1995, effective 5 September 1995",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Kasym-Zhomart TOKAYEV (since 20 March 2019)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, CICA, CIS, CSTO, EAEU, EAPC, EBRD, ECO, EITI (compliant country), FAO, GCTU, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, MIGA, MINURSO, NAM (observer), NSG, OAS (observer), OIC, OPCW, OSCE, PFP, SCO, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UN Security Council (temporary), UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

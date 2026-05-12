@@ -1,0 +1,34 @@
+{
+  "country": "Antarctica",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "the coldest, windiest, and driest continent on Earth; severe low temperatures vary with latitude, elevation, and distance from the ocean; East Antarctica is colder than West Antarctica because of its higher elevation; Antarctic Peninsula has the most moderate climate; higher temperatures occur in January along the coast and average slightly below freezing; summers characterized by continuous daylight, while winters bring continuous darkness; persistent high pressure over the interior brings dry, subsiding air that results in very little cloud cover",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "the coldest, windiest, and driest continent on Earth; severe low temperatures vary with latitude, elevation, and distance from the ocean; East Antarctica is colder than West Antarctica because of its higher elevation; Antarctic Peninsula has the most moderate climate; higher temperatures occur in January along the coast and average slightly below freezing; summers characterized by continuous daylight, while winters bring continuous darkness; persistent high pressure over the interior brings dry, subsiding air that results in very little cloud cover",
+      "present": true
+    }
+  ],
+  "coverage": 0.4
+}

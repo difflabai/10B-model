@@ -1,0 +1,39 @@
+{
+  "country": "Malawi",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Zambezi (shared with Zambia [s], Angola, Zimbabwe, Namibia, Tanzania, and Mozambique [m]) - 2,740 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Chilwa - 1,040 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Congo (3,730,881 sq km)Indian Ocean drainage: Zambezi (1,332,412 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "sub-tropical; rainy season (November to May); dry season (May to November)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Argentina",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Río de la Plata/Paraná river mouth (shared with Brazil [s], Paraguay, and Uruguay) - 4,880 km; Paraguay (shared with Brazil [s], and Paraguay [m]) - 2,549 km; Uruguay (shared with Brazil [s] and Uruguay [m]) - 1,610 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Laguna Mar Chiquita - 1,850 sq km;",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Paraná (2,582,704 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly temperate; arid in southeast; subantarctic in southwest",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

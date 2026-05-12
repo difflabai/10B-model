@@ -1,0 +1,39 @@
+{
+  "country": "Philippines",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Action (Aksyon Demokratiko) Alliance for Change (Hugpong ng Pagbabago or HNP) Lakas ng EDSA-Christian Muslim Democrats or Lakas-CMD Liberal Party or LP Nacionalista Party or NP Nationalist People's Coalition or NPC National Unity Party or NUPPartido Demokratiko Pilipino-Lakas ng Bayan or PDP-Laban Partido Federal ng Pilipinas or PFP Progressive Movement for the Devolution of Initiatives or PROMDI",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple national private TV and radio networks; multi-channel satellite and cable TV systems available; more than 400 TV stations; about 1,500 cable TV providers with more than 2 million subscribers, and some 1,400 radio stations; the Philippines adopted Japan’s Integrated Service Digital Broadcast – Terrestrial standard for digital terrestrial television in November 2013 and is scheduled to complete the switch from analog to digital broadcasting by the end of 2023 (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

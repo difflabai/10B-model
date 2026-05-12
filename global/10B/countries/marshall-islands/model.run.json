@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.marshall-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Marshall Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.marshall-islands.food",
+        "global.10B.countries.marshall-islands.water",
+        "global.10B.countries.marshall-islands.shelter",
+        "global.10B.countries.marshall-islands.health",
+        "global.10B.countries.marshall-islands.safety",
+        "global.10B.countries.marshall-islands.education",
+        "global.10B.countries.marshall-islands.work",
+        "global.10B.countries.marshall-islands.energy",
+        "global.10B.countries.marshall-islands.mobility",
+        "global.10B.countries.marshall-islands.communications",
+        "global.10B.countries.marshall-islands.governance",
+        "global.10B.countries.marshall-islands.environment",
+        "global.10B.countries.marshall-islands.belonging",
+        "global.10B.countries.marshall-islands.meaning",
+        "global.10B.countries.marshall-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

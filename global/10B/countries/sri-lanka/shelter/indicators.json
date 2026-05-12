@@ -1,0 +1,34 @@
+{
+  "country": "Sri Lanka",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "19.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "103,000 Sri Jayewardenepura Kotte (legislative capital) (2018), 633,000 COLOMBO (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the population is primarily concentrated within a broad wet zone in the southwest, urban centers along the eastern coast, and on the Jaffna Peninsula in the north",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical monsoon; northeast monsoon (December to March); southwest monsoon (June to October)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical monsoon; northeast monsoon (December to March); southwest monsoon (June to October)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

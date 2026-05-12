@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.governance",
+  "name": "World — Governance and rule of law",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **governance and rule of law** across 257 countries — the cross-country slice of the 10B model along the governance dimension.",
+  "mechanism": "Aggregates the per-country governance models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the governance dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Governance and rule of law world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Governance and rule of law country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Governance and rule of law macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "governance-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for governance and rule of law."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "governance-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for governance and rule of law."
+    },
+    {
+      "name": "governance-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on governance and rule of law."
+    },
+    {
+      "name": "governance-macro-embedding",
+      "kind": "embedding",
+      "description": "Governance and rule of law contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Governance and rule of law"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "MaxNeef:protection, DoyalGough:autonomy, SDG-16",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.governance",
+      "kind": "consumes_from",
+      "note": "Per-country governance model."
+    }
+  ]
+}

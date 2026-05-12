@@ -1,0 +1,39 @@
+{
+  "country": "Uruguay",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Rio de la Plata/Parana river mouth (shared with Brazil [s], Argentina, Paraguay) - 4,880 km; Uruguay river mouth (shared with Brazil [s] and Argentina) - 1,610 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lagoa Mirim (shared with Brazil) - 2,970 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "warm temperate; freezing temperatures almost unknown",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

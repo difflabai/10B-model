@@ -1,0 +1,47 @@
+{
+  "country": "macau",
+  "category_scores": {
+    "agency": 0.8196,
+    "belonging": 0.6304,
+    "communications": 0.7239,
+    "education": 0.8266,
+    "energy": 0.6121,
+    "environment": 0.4,
+    "food": 0.5,
+    "governance": 0.7,
+    "health": 0.8552,
+    "meaning": 0.7,
+    "mobility": 0.3088,
+    "safety": 0.75,
+    "shelter": 0.5875,
+    "water": 0.65,
+    "work": 0.8763
+  },
+  "country_score": 0.6627,
+  "tier_scores": {
+    "subsistence": 0.6685,
+    "development": 0.6695,
+    "agency": 0.65
+  },
+  "country_embedding": [
+    0.6627,
+    0.66923,
+    0.73425,
+    0.52359,
+    -0.06644,
+    0.17099,
+    -0.24698,
+    -0.13746,
+    -0.10182,
+    -0.03403,
+    -0.02057,
+    -0.0378,
+    0.14556,
+    0.01908,
+    -0.00565,
+    -0.15645
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Macau, the three needs areas with the largest gaps are: mobility (0.31), environment (0.40), food (0.50).\nThe three strongest areas are: work (0.88), health (0.86), education (0.83).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

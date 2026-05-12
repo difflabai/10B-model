@@ -1,0 +1,52 @@
+{
+  "country": "Guernsey",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6138,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.5413
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.61378,
+    0.8,
+    0.5413,
+    0.65,
+    0.1921,
+    0.58221,
+    -0.85238,
+    -0.42281,
+    0.57336,
+    -0.0703,
+    -0.87112,
+    0.74591,
+    0.55077,
+    0.95489,
+    0.61407,
+    -0.81042
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

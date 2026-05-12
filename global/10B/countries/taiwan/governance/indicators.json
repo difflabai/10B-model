@@ -1,0 +1,44 @@
+{
+  "country": "Taiwan",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1912, 1931; latest adopted 25 December 1946, promulgated 1 January 1947, effective 25 December 1947",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal; note - in March 2022, the Legislative Yuan approved lowering the voting age to 18, but the change will require a constitutional amendment that must be submitted to a referendum",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President LAI Ching-te (since 19 May 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (Chinese Taipei), APEC (Chinese Taipei), BCIE, CABEI, IOC, ITUC (NGOs), SICA (observer), WTO (Chinese Taipei)note - separate customs territory of Taiwan, Penghu, Kinmen, and Matsu",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

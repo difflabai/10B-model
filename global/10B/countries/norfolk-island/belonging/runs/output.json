@@ -1,0 +1,60 @@
+{
+  "country": "Norfolk Island",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.57143,
+    0.65,
+    0.75,
+    0.10494,
+    -0.30367,
+    -0.21944,
+    0.9494,
+    0.98993,
+    -0.53973,
+    0.19271,
+    0.25393,
+    -0.05766,
+    -0.15618,
+    -0.04414,
+    -0.12013
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

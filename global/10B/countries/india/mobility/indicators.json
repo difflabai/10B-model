@@ -1,0 +1,59 @@
+{
+  "country": "India",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "6,371,847 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "311 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "276 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "17,389 km natural gas, 10, 419 km crude oil, 3,544 liquid petroleum gas, 14,729 km refined products (2020) 9 km condensate/gas, 20 km oil/gas/water (2013) (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "14,500 km (2012) (5,200 km on major rivers and 485 km on canals suitable for mechanized vessels)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "65,554 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "164,035,637 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "2,703,960,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

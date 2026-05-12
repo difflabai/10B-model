@@ -1,0 +1,59 @@
+{
+  "country": "Philippines",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "216,387 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "61,093 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "155,294 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "246 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "341 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "530 km gas, 138 km oil (non-operational), 185 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "3,219 km (2011) (limited to vessels with draft less than 1.5 m)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "77 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "43,080,118 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "835.9 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

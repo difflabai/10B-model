@@ -1,0 +1,34 @@
+{
+  "country": "Brunei",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "chicken, eggs, fruits, vegetables, rice, bananas, beans, cucumbers/gherkins, pineapples, beef (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "2.5% (2018 est.)agricultural land: arable land: 0.8% (2018 est.)agricultural land: permanent crops: 1.1% (2018 est.)agricultural land: permanent pasture: 0.6% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "1.2% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "491,900",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

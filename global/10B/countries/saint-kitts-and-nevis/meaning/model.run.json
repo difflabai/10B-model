@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.saint-kitts-and-nevis.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Kitts and Nevis"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "meaning"
+    }
+  },
+  "output": "./runs/output.json"
+}

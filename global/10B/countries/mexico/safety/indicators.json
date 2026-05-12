@@ -1,0 +1,39 @@
+{
+  "country": "Mexico",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "the Mexican Armed Forces (Fuerzas Armadas de México) are divided between the Secretariat of National Defense and the Secretariat of the Navy:Secretariat of National Defense (Secretaria de Defensa Nacional, SEDENA): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, SEMAR): Mexican Navy (Armada de Mexico (ARM), includes Naval Air Force (FAN), Mexican Naval Infantry Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM))Secretariat of Security and Civilian Protection/SEDENA: National Guard (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.6% of GDP (2023 est.)0.7% of GDP (2022 est.)0.7% of GDP (2021 est.)0.6% of GDP (2020 est.)0.5% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "35,755 (Honduras), 13,531 (El Salvador) (mid-year 2022); 113,108 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

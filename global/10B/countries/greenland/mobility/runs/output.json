@@ -1,0 +1,72 @@
+{
+  "country": "Greenland",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 2,
+  "indicators_total": 10,
+  "composite_score": 0.5903,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4917
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6889
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.59028,
+    0.2,
+    0.4917,
+    0.6889,
+    0.36184,
+    0.80078,
+    0.57977,
+    0.9158,
+    -0.15383,
+    -0.36181,
+    0.6643,
+    0.66375,
+    -0.20116,
+    -0.966,
+    0.42425,
+    0.95187
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

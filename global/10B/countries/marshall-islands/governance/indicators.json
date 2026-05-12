@@ -1,0 +1,44 @@
+{
+  "country": "Marshall Islands",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "mixed presidential-parliamentary system in free association with the US",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of US and English common law, customary law, and local statutes",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "effective 1 May 1979",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Hilda C. HEINE (since 3 January 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ADB, AOSIS, FAO, G-77, IAEA, IBRD, ICAO, ICCt, IDA, IFAD, IFC, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNHRC, WHO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

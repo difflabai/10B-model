@@ -1,0 +1,60 @@
+{
+  "country": "Burundi",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.4529,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.505
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.3155
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.45293,
+    1.0,
+    0.4,
+    0.75,
+    0.19023,
+    -0.84833,
+    -0.95593,
+    -0.85873,
+    0.11528,
+    0.86194,
+    -0.61364,
+    0.22017,
+    -0.68566,
+    -0.10076,
+    0.03542,
+    0.27822
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

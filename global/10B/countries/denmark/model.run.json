@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.denmark",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Denmark"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.denmark.food",
+        "global.10B.countries.denmark.water",
+        "global.10B.countries.denmark.shelter",
+        "global.10B.countries.denmark.health",
+        "global.10B.countries.denmark.safety",
+        "global.10B.countries.denmark.education",
+        "global.10B.countries.denmark.work",
+        "global.10B.countries.denmark.energy",
+        "global.10B.countries.denmark.mobility",
+        "global.10B.countries.denmark.communications",
+        "global.10B.countries.denmark.governance",
+        "global.10B.countries.denmark.environment",
+        "global.10B.countries.denmark.belonging",
+        "global.10B.countries.denmark.meaning",
+        "global.10B.countries.denmark.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Croatia",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.678,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.662
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.678,
+    1.0,
+    0.662,
+    0.55,
+    -0.13045,
+    0.88898,
+    -0.72067,
+    0.54809,
+    0.03792,
+    0.07448,
+    -0.57147,
+    0.70361,
+    -0.90289,
+    0.85193,
+    -0.75039,
+    0.33526
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

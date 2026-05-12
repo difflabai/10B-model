@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.venezuela",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Venezuela"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.venezuela.food",
+        "global.10B.countries.venezuela.water",
+        "global.10B.countries.venezuela.shelter",
+        "global.10B.countries.venezuela.health",
+        "global.10B.countries.venezuela.safety",
+        "global.10B.countries.venezuela.education",
+        "global.10B.countries.venezuela.work",
+        "global.10B.countries.venezuela.energy",
+        "global.10B.countries.venezuela.mobility",
+        "global.10B.countries.venezuela.communications",
+        "global.10B.countries.venezuela.governance",
+        "global.10B.countries.venezuela.environment",
+        "global.10B.countries.venezuela.belonging",
+        "global.10B.countries.venezuela.meaning",
+        "global.10B.countries.venezuela.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

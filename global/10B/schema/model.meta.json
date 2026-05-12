@@ -1,0 +1,44 @@
+{
+  "id": "global.10B.needs-tree",
+  "name": "10B Needs Tree",
+  "kind": "sector_economic",
+  "blurb": "Categories of human need for the 10B model — combining Maslow's hierarchy, Max-Neef's fundamental human needs, the UN Sustainable Development Goals, and the structural categories of the CIA World Factbook. Each category groups country-level indicators into a satisfaction score with provenance, propagating into a country-level rollup model and a cross-country category rollup. The tree is the supervisory schema for the embedding model that captures the human needs of a population.",
+  "mechanism": "Schema-only model. Defines the 15 categories, three tiers, theoretical lineage, and the indicator slices each (country × category) model is expected to populate. All other 10B models depend on this schema.",
+  "components": [
+    {
+      "id": "schema",
+      "name": "Needs schema",
+      "role": "Holds the canonical category definitions, frameworks, and indicators.",
+      "crate_path": null,
+      "key_symbols": [
+        "needs_tree"
+      ]
+    }
+  ],
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "schema",
+      "kind": "spec",
+      "description": "The canonical needs-tree schema referenced by all 10B models."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category-count",
+      "value": "15"
+    },
+    {
+      "key": "tier-count",
+      "value": "3"
+    }
+  ],
+  "references": [
+    {
+      "label": "Needs Tree JSON",
+      "kind": "spec",
+      "location": "needs-tree.json"
+    }
+  ],
+  "depends_on": []
+}

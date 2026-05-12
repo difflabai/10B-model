@@ -1,0 +1,39 @@
+{
+  "country": "Turkey (Turkiye)",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Euphrates river source (shared with Syria, Iran, and Iraq [m]) - 3,596 km; Tigris river source (shared with Syria, Iran, and Iraq [m]) - 1,950 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Van - 3,740 sq km; Lake Tuz - 1,640 sq km;",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: (Persian Gulf) Tigris and Euphrates (918,044 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; hot, dry summers with mild, wet winters; harsher in interior",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

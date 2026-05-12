@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.albania",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Albania"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.albania.food",
+        "global.10B.countries.albania.water",
+        "global.10B.countries.albania.shelter",
+        "global.10B.countries.albania.health",
+        "global.10B.countries.albania.safety",
+        "global.10B.countries.albania.education",
+        "global.10B.countries.albania.work",
+        "global.10B.countries.albania.energy",
+        "global.10B.countries.albania.mobility",
+        "global.10B.countries.albania.communications",
+        "global.10B.countries.albania.governance",
+        "global.10B.countries.albania.environment",
+        "global.10B.countries.albania.belonging",
+        "global.10B.countries.albania.meaning",
+        "global.10B.countries.albania.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

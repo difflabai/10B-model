@@ -1,0 +1,52 @@
+{
+  "country": "Benin",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5452,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3757
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.48
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54519,
+    0.8,
+    0.3757,
+    0.48,
+    -0.55264,
+    0.31887,
+    -0.72815,
+    0.39153,
+    -0.18721,
+    -0.90076,
+    0.88785,
+    -0.95914,
+    0.07021,
+    0.49288,
+    0.52065,
+    -0.60128
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

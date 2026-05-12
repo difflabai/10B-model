@@ -1,0 +1,60 @@
+{
+  "country": "British Virgin Islands",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6917,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.69167,
+    0.85714,
+    0.8,
+    0.55,
+    -0.96017,
+    0.01704,
+    -0.33999,
+    0.39123,
+    0.50243,
+    0.75726,
+    -0.07134,
+    0.80185,
+    0.56417,
+    -0.41744,
+    0.59475,
+    0.55444
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

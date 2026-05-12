@@ -1,0 +1,60 @@
+{
+  "country": "Kiribati",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6077,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.2875
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.806
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5502
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.562
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.833
+    }
+  ],
+  "embedding": [
+    0.60774,
+    0.71429,
+    0.2875,
+    0.806,
+    0.30135,
+    0.16884,
+    -0.38888,
+    0.57543,
+    -0.77993,
+    0.44768,
+    0.69552,
+    -0.08098,
+    -0.07402,
+    0.21459,
+    -0.3637,
+    0.51379
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

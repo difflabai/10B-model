@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.water",
+  "name": "Asia — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country water models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

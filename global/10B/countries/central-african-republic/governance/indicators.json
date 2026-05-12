@@ -1,0 +1,44 @@
+{
+  "country": "Central African Republic",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the French model",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest constitution passed by a national referendum on 30 July 2023 and validated by the Constitutional Court on 30 August 2023; note - the new constitution was proposed by President Faustin-Archange Touadéra, extended the presidential term from 5 to 7 years, removed term limits, and will allow President Touadéra to run again in 2025; opposition parties denounced the changes, claiming they were created to facilitate a \"life precedency\" for Touadéra",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Faustin-Archange TOUADÉRA (since 30 March 2016)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU, BDEAC, CEMAC, EITI (compliant country) (suspended), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, NAM, OIC (observer), OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

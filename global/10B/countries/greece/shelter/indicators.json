@@ -1,0 +1,34 @@
+{
+  "country": "Greece",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "80.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.154 million ATHENS (capital), 815,000 Thessaloniki (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; mild, wet winters; hot, dry summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; mild, wet winters; hot, dry summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

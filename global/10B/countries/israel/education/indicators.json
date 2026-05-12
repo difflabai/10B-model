@@ -1,0 +1,34 @@
+{
+  "country": "Israel",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "97.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.1% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "16 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Hebrew (official), Arabic (special status under Israeli law), English (most commonly used foreign language)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "ספר עובדות העולם, המקור החיוני למידע בסיסי (Hebrew)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

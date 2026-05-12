@@ -1,0 +1,34 @@
+{
+  "country": "Libya",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": "due to civil insecurity, economic and political instability, and high food prices - an estimated 800,000 people, 10% of the population, need humanitarian assistance, of which 500,000 require food assistance; the country relies heavily on imports (up to 90%) to cover its cereal consumption requirements (mostly wheat for human consumption and barley for feed); between 2016 and 2020, the country sourced over 30% of its wheat imports from Ukraine, and 20% from the Russian Federation; almost 65% of total maize imports of 650,000 mt, and 50% of total barley imports of 1 million mt originated from Ukraine, making the Libya vulnerable to disruptions in shipments from the Black Sea region (2022)",
+      "present": true
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "potatoes, onions, watermelons, tomatoes, dates, olives, milk, chicken, wheat, vegetables (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "8.8% (2018 est.)agricultural land: arable land: 1% (2018 est.)agricultural land: permanent crops: 0.2% (2018 est.)agricultural land: permanent pasture: 7.6% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "1.8% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "7,361,263",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

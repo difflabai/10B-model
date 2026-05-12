@@ -1,0 +1,44 @@
+{
+  "country": "French Polynesia",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$18,600 (2021 est.)$18,300 (2020 est.)$19,800 (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "4.47% (2022 est.)2.09% (2021 est.)-7.05% (2020 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "0% (2015 est.)0.3% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "127,000 (2023 est.)note: number of people ages 15 or older who are employed or seeking work",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "11.72% (2023 est.)11.91% (2022 est.)12.49% (2021 est.)note: % of labor force seeking employment",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

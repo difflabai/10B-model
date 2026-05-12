@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.turkmenistan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Turkmenistan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.turkmenistan.food",
+        "global.10B.countries.turkmenistan.water",
+        "global.10B.countries.turkmenistan.shelter",
+        "global.10B.countries.turkmenistan.health",
+        "global.10B.countries.turkmenistan.safety",
+        "global.10B.countries.turkmenistan.education",
+        "global.10B.countries.turkmenistan.work",
+        "global.10B.countries.turkmenistan.energy",
+        "global.10B.countries.turkmenistan.mobility",
+        "global.10B.countries.turkmenistan.communications",
+        "global.10B.countries.turkmenistan.governance",
+        "global.10B.countries.turkmenistan.environment",
+        "global.10B.countries.turkmenistan.belonging",
+        "global.10B.countries.turkmenistan.meaning",
+        "global.10B.countries.turkmenistan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

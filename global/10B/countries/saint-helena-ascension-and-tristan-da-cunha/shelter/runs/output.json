@@ -1,0 +1,52 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6674,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6023
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66744,
+    0.6,
+    0.6023,
+    0.55,
+    -0.57717,
+    -0.21315,
+    -0.49322,
+    0.60223,
+    -0.52053,
+    0.0862,
+    -0.14025,
+    0.83474,
+    -0.10176,
+    0.45202,
+    0.60961,
+    -0.22368
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

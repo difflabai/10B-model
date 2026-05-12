@@ -1,0 +1,52 @@
+{
+  "country": "Pitcairn Islands",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.2,
+    0.65,
+    0.0,
+    0.35299,
+    0.64971,
+    0.06941,
+    0.37871,
+    -0.21163,
+    -0.6079,
+    -0.18352,
+    0.02712,
+    -0.02638,
+    0.73925,
+    0.04323,
+    0.58584
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

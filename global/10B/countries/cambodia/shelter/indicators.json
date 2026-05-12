@@ -1,0 +1,34 @@
+{
+  "country": "Cambodia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "25.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.281 million PHNOM PENH (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population concentrated in the southeast, particularly in and around the capital of Phnom Penh; further distribution is linked closely to the Tonle Sap and Mekong Rivers",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; rainy, monsoon season (May to November); dry season (December to April); little seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy, monsoon season (May to November); dry season (December to April); little seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

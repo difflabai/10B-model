@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.svalbard",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Svalbard"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.svalbard.food",
+        "global.10B.countries.svalbard.water",
+        "global.10B.countries.svalbard.shelter",
+        "global.10B.countries.svalbard.health",
+        "global.10B.countries.svalbard.safety",
+        "global.10B.countries.svalbard.education",
+        "global.10B.countries.svalbard.work",
+        "global.10B.countries.svalbard.energy",
+        "global.10B.countries.svalbard.mobility",
+        "global.10B.countries.svalbard.communications",
+        "global.10B.countries.svalbard.governance",
+        "global.10B.countries.svalbard.environment",
+        "global.10B.countries.svalbard.belonging",
+        "global.10B.countries.svalbard.meaning",
+        "global.10B.countries.svalbard.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

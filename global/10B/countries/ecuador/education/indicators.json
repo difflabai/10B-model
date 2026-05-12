@@ -1,0 +1,34 @@
+{
+  "country": "Ecuador",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "93.9%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "15 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish (Castilian; official) 98.6%, indigenous 3.9% (Quechua 3.2%, other indigenous 0.7%), foreign 2.8%, other 0.6% (includes Ecuadorian sign language) (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

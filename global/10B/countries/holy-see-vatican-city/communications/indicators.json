@@ -1,0 +1,64 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "the Vatican’s interior telecommunication system is composed of two strongly integrated sub-systems: fixed infrastructure and mobile infrastructure; it is important to note that the mobile communication system has been designed to be capable of using satellite connections so that it is possible to ensure telecommunication services whenever needed, including wherever the Pope travels; the telephone system operates through an automatic digital exchange (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "the telephone system operates through an automatic digital exchange (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 39; uses Italian system",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Vatican Television Center (CTV) transmits live broadcasts of the Pope's Sunday and Wednesday audiences, as well as the Pope's public celebrations; CTV also produces documentaries; Vatican Radio is the Holy See's official broadcasting service broadcasting via shortwave, AM and FM frequencies, and via satellite and Internet connections; Vatican News website partners with Vatican Radio and provides Catholic news provided by the Vatican (2021)",
+      "present": true
+    }
+  ],
+  "coverage": 0.45454545454545453
+}

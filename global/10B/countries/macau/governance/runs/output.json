@@ -1,0 +1,60 @@
+{
+  "country": "Macau",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.75
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7,
+    0.85714,
+    0.55,
+    0.65,
+    -0.99811,
+    -0.94189,
+    -0.21395,
+    0.00038,
+    -0.99506,
+    -0.80108,
+    -0.10103,
+    -0.34755,
+    0.9129,
+    -0.37319,
+    -0.50042,
+    0.13256
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Wake Island",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.375,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.2
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.375,
+    0.4,
+    0.2,
+    0.55,
+    -0.71032,
+    0.04747,
+    -0.49297,
+    0.19475,
+    0.69256,
+    -0.41326,
+    -0.26174,
+    0.69418,
+    -0.90585,
+    0.37826,
+    -0.77218,
+    0.4016
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

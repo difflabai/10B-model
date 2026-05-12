@@ -1,0 +1,47 @@
+{
+  "country": "poland",
+  "category_scores": {
+    "agency": 0.8345,
+    "belonging": 0.6257,
+    "communications": 0.7124,
+    "education": 0.801,
+    "energy": 0.5576,
+    "environment": 0.5355,
+    "food": 0.7311,
+    "governance": 0.7429,
+    "health": 0.7534,
+    "meaning": 0.63,
+    "mobility": 0.6097,
+    "safety": 0.5861,
+    "shelter": 0.7043,
+    "water": 0.675,
+    "work": 0.7114
+  },
+  "country_score": 0.6807,
+  "tier_scores": {
+    "subsistence": 0.69,
+    "development": 0.6784,
+    "agency": 0.6737
+  },
+  "country_embedding": [
+    0.68071,
+    0.86684,
+    0.75639,
+    0.68225,
+    0.14146,
+    -0.08237,
+    -0.21414,
+    -0.07761,
+    0.07291,
+    0.14081,
+    0.07537,
+    0.18415,
+    -0.07155,
+    0.05485,
+    0.10306,
+    -0.169
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Poland, the three needs areas with the largest gaps are: environment (0.54), energy (0.56), safety (0.59).\nThe three strongest areas are: agency (0.83), education (0.80), health (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

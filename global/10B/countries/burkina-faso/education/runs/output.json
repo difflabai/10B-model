@@ -1,0 +1,52 @@
+{
+  "country": "Burkina Faso",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5919,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3775
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.44
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.59187,
+    0.8,
+    0.3775,
+    0.8,
+    -0.81598,
+    0.81247,
+    0.0602,
+    -0.73971,
+    0.55148,
+    -0.61984,
+    0.23079,
+    0.65692,
+    0.58657,
+    -0.60543,
+    0.42864,
+    0.72894
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

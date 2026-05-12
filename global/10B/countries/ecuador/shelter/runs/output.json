@@ -1,0 +1,52 @@
+{
+  "country": "Ecuador",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6832,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6827
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.68317,
+    1.0,
+    0.6827,
+    0.65,
+    -0.31359,
+    0.24657,
+    -0.25313,
+    -0.49618,
+    -0.15743,
+    -0.1679,
+    0.10613,
+    0.34505,
+    -0.78961,
+    0.34682,
+    0.30486,
+    0.18087
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

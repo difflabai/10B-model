@@ -1,0 +1,47 @@
+{
+  "country": "akrotiri",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": null,
+    "food": null,
+    "governance": null,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": null,
+    "water": null,
+    "work": null
+  },
+  "country_score": null,
+  "tier_scores": {
+    "subsistence": null,
+    "development": null,
+    "agency": null
+  },
+  "country_embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.15623,
+    -0.03595,
+    0.21255,
+    0.24601,
+    -0.38403,
+    0.10166,
+    0.15394,
+    -0.28552,
+    0.19392,
+    -0.2544,
+    0.0464,
+    -0.06212
+  ],
+  "embedding_dim": 16,
+  "summary": "",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.meaning",
+  "name": "Asia — Meaning, identity, and culture",
+  "kind": "sector_economic",
+  "blurb": "Region-level meaning, identity, and culture for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country meaning models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "meaning-country-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "meaning-region-mean",
+      "kind": "scalar",
+      "description": "Mean meaning score across the region."
+    },
+    {
+      "name": "meaning-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Meaning, identity, and culture"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.meaning",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

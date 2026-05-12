@@ -1,0 +1,56 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.65
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": null
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.5,
+    0.65,
+    0.65,
+    -0.07131,
+    0.54504,
+    0.65243,
+    -0.05675,
+    -0.79855,
+    0.62893,
+    -0.89493,
+    -0.54754,
+    0.20272,
+    -0.2249,
+    0.24935,
+    -0.94626
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

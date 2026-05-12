@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.syria",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Syria"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.syria.food",
+        "global.10B.countries.syria.water",
+        "global.10B.countries.syria.shelter",
+        "global.10B.countries.syria.health",
+        "global.10B.countries.syria.safety",
+        "global.10B.countries.syria.education",
+        "global.10B.countries.syria.work",
+        "global.10B.countries.syria.energy",
+        "global.10B.countries.syria.mobility",
+        "global.10B.countries.syria.communications",
+        "global.10B.countries.syria.governance",
+        "global.10B.countries.syria.environment",
+        "global.10B.countries.syria.belonging",
+        "global.10B.countries.syria.meaning",
+        "global.10B.countries.syria.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

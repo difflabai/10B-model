@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.curacao",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Curacao"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.curacao.food",
+        "global.10B.countries.curacao.water",
+        "global.10B.countries.curacao.shelter",
+        "global.10B.countries.curacao.health",
+        "global.10B.countries.curacao.safety",
+        "global.10B.countries.curacao.education",
+        "global.10B.countries.curacao.work",
+        "global.10B.countries.curacao.energy",
+        "global.10B.countries.curacao.mobility",
+        "global.10B.countries.curacao.communications",
+        "global.10B.countries.curacao.governance",
+        "global.10B.countries.curacao.environment",
+        "global.10B.countries.curacao.belonging",
+        "global.10B.countries.curacao.meaning",
+        "global.10B.countries.curacao.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

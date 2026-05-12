@@ -1,0 +1,47 @@
+{
+  "country": "kuwait",
+  "category_scores": {
+    "agency": 0.7932,
+    "belonging": 0.6818,
+    "communications": 0.683,
+    "education": 0.8063,
+    "energy": 0.504,
+    "environment": 0.3947,
+    "food": 0.5363,
+    "governance": 0.6857,
+    "health": 0.7197,
+    "meaning": 0.61,
+    "mobility": 0.4399,
+    "safety": 0.5917,
+    "shelter": 0.6375,
+    "water": 0.65,
+    "work": 0.7227
+  },
+  "country_score": 0.6304,
+  "tier_scores": {
+    "subsistence": 0.627,
+    "development": 0.6312,
+    "agency": 0.6331
+  },
+  "country_embedding": [
+    0.63042,
+    0.80352,
+    0.70494,
+    0.58759,
+    -0.05276,
+    0.18282,
+    -0.09601,
+    -0.14226,
+    -0.32053,
+    0.03387,
+    -0.13362,
+    0.33016,
+    0.01498,
+    -0.08864,
+    -0.12227,
+    -0.29518
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Kuwait, the three needs areas with the largest gaps are: environment (0.39), mobility (0.44), energy (0.50).\nThe three strongest areas are: education (0.81), agency (0.79), work (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

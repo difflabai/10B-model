@@ -1,0 +1,47 @@
+{
+  "country": "gambia-the",
+  "category_scores": {
+    "agency": 0.6944,
+    "belonging": 0.671,
+    "communications": 0.6839,
+    "education": 0.5285,
+    "energy": 0.4507,
+    "environment": 0.5017,
+    "food": 0.6562,
+    "governance": 0.7429,
+    "health": 0.4844,
+    "meaning": 0.61,
+    "mobility": 0.3154,
+    "safety": 0.665,
+    "shelter": 0.6579,
+    "water": 0.65,
+    "work": 0.5178
+  },
+  "country_score": 0.5887,
+  "tier_scores": {
+    "subsistence": 0.6227,
+    "development": 0.4993,
+    "agency": 0.644
+  },
+  "country_embedding": [
+    0.58865,
+    0.79282,
+    0.59976,
+    0.61763,
+    0.06366,
+    -0.12149,
+    -0.16785,
+    -0.04774,
+    -0.17731,
+    0.33369,
+    -0.08139,
+    -0.09635,
+    -0.03425,
+    0.19927,
+    -0.12645,
+    -0.03709
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Gambia The, the three needs areas with the largest gaps are: mobility (0.32), energy (0.45), health (0.48).\nThe three strongest areas are: governance (0.74), agency (0.69), communications (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

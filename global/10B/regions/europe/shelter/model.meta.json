@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.shelter",
+  "name": "Europe — Shelter and habitat",
+  "kind": "sector_economic",
+  "blurb": "Region-level shelter and habitat for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country shelter models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "shelter-country-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "shelter-region-mean",
+      "kind": "scalar",
+      "description": "Mean shelter score across the region."
+    },
+    {
+      "name": "shelter-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Shelter and habitat"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.shelter",
+      "kind": "consumes_from",
+      "note": "Country-level shelter for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.shelter",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

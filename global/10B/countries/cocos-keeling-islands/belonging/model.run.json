@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.cocos-keeling-islands.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cocos (Keeling) Islands"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "belonging"
+    }
+  },
+  "output": "./runs/output.json"
+}

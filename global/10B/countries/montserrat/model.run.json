@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.montserrat",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Montserrat"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.montserrat.food",
+        "global.10B.countries.montserrat.water",
+        "global.10B.countries.montserrat.shelter",
+        "global.10B.countries.montserrat.health",
+        "global.10B.countries.montserrat.safety",
+        "global.10B.countries.montserrat.education",
+        "global.10B.countries.montserrat.work",
+        "global.10B.countries.montserrat.energy",
+        "global.10B.countries.montserrat.mobility",
+        "global.10B.countries.montserrat.communications",
+        "global.10B.countries.montserrat.governance",
+        "global.10B.countries.montserrat.environment",
+        "global.10B.countries.montserrat.belonging",
+        "global.10B.countries.montserrat.meaning",
+        "global.10B.countries.montserrat.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

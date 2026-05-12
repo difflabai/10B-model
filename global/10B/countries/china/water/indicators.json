@@ -1,0 +1,39 @@
+{
+  "country": "China",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Yangtze - 6,300 km; Huang He - 5,464 km; Amur river source (shared with Mongolia and Russia [m]) - 4,444 km; Lancang Jiang (Mekong) river source (shared with Burma, Laos, Thailand, Cambodia, and Vietnam [m]) - 4,350 km; Yarlung Zangbo Jiang (Brahmaputra) river source (shared with India and Bangladesh [m]) - 3,969 km; Yin-tu Ho (Indus) river source (shared with India and Pakistan [m]) - 3,610 km; Nu Jiang (Salween) river source (shared with Thailand and Burma [m]) - 3,060 km; Irrawaddy river source (shared with Burma [m]) - 2,809 km; Zhu Jiang (Pearl) (shared with Vietnam [s]) - 2,200 km; Yuan Jiang (Red river) source (shared with Vietnam [m]) - 1,149 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Quinghai Hu - 4,460 sq km; Nam Co - 2,500 sq km; Siling Co - 1,860 sq km; Tangra Yumco - 1,400 sq km; Bosten Hu 1,380 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Pacific Ocean drainage: Amur (1,929,955 sq km), Huang He (944,970 sq km), Mekong (805,604 sq km), Yangtze (1,722,193 sq km)Indian Ocean drainage: Brahmaputra (651,335 sq km), Ganges (1,016,124 sq km), Indus (1,081,718 sq km), Irrawaddy (413,710 sq km), Salween (271,914 sq km)Arctic Ocean drainage: Ob (2,972,493 sq km)Internal (endorheic basin) drainage: Tarim Basin (1,152,448 sq km), Amu Darya (534,739 sq km), Syr Darya (782,617 sq km), Lake Balkash (510,015 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "extremely diverse; tropical in south to subarctic in north",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

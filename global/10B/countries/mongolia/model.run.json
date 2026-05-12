@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.mongolia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Mongolia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.mongolia.food",
+        "global.10B.countries.mongolia.water",
+        "global.10B.countries.mongolia.shelter",
+        "global.10B.countries.mongolia.health",
+        "global.10B.countries.mongolia.safety",
+        "global.10B.countries.mongolia.education",
+        "global.10B.countries.mongolia.work",
+        "global.10B.countries.mongolia.energy",
+        "global.10B.countries.mongolia.mobility",
+        "global.10B.countries.mongolia.communications",
+        "global.10B.countries.mongolia.governance",
+        "global.10B.countries.mongolia.environment",
+        "global.10B.countries.mongolia.belonging",
+        "global.10B.countries.mongolia.meaning",
+        "global.10B.countries.mongolia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

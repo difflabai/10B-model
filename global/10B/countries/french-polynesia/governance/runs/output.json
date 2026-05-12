@@ -1,0 +1,60 @@
+{
+  "country": "French Polynesia",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6917,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.75
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.69167,
+    0.85714,
+    0.8,
+    0.65,
+    -0.43148,
+    0.67376,
+    -0.15932,
+    0.92654,
+    -0.00386,
+    0.60793,
+    0.47127,
+    -0.04417,
+    0.89645,
+    0.89276,
+    -0.42431,
+    0.74795
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

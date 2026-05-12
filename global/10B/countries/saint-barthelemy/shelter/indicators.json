@@ -1,0 +1,34 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the populace concentrated in and around the capital of Gustavia, but scattered settlements exist around the island periphery",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical, with practically no variation in temperature; has two seasons (dry and humid)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical, with practically no variation in temperature; has two seasons (dry and humid)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

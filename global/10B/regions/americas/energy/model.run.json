@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.energy",
+        "global.10B.countries.antigua-and-barbuda.energy",
+        "global.10B.countries.argentina.energy",
+        "global.10B.countries.aruba.energy",
+        "global.10B.countries.bahamas-the.energy",
+        "global.10B.countries.barbados.energy",
+        "global.10B.countries.belize.energy",
+        "global.10B.countries.bermuda.energy",
+        "global.10B.countries.bolivia.energy",
+        "global.10B.countries.brazil.energy",
+        "global.10B.countries.british-virgin-islands.energy",
+        "global.10B.countries.cayman-islands.energy",
+        "global.10B.countries.cuba.energy",
+        "global.10B.countries.curacao.energy",
+        "global.10B.countries.dominica.energy",
+        "global.10B.countries.dominican-republic.energy",
+        "global.10B.countries.falkland-islands-islas-malvinas.energy",
+        "global.10B.countries.grenada.energy",
+        "global.10B.countries.guyana.energy",
+        "global.10B.countries.haiti.energy",
+        "global.10B.countries.jamaica.energy",
+        "global.10B.countries.montserrat.energy",
+        "global.10B.countries.navassa-island.energy",
+        "global.10B.countries.paraguay.energy",
+        "global.10B.countries.puerto-rico.energy",
+        "global.10B.countries.saint-barthelemy.energy",
+        "global.10B.countries.saint-kitts-and-nevis.energy",
+        "global.10B.countries.saint-lucia.energy",
+        "global.10B.countries.saint-martin.energy",
+        "global.10B.countries.saint-pierre-and-miquelon.energy",
+        "global.10B.countries.saint-vincent-and-the-grenadines.energy",
+        "global.10B.countries.sint-maarten.energy",
+        "global.10B.countries.suriname.energy",
+        "global.10B.countries.trinidad-and-tobago.energy",
+        "global.10B.countries.turks-and-caicos-islands.energy",
+        "global.10B.countries.uruguay.energy",
+        "global.10B.countries.venezuela.energy",
+        "global.10B.countries.virgin-islands.energy"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Peru",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "94.5%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "15 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish (official) 82.9%, Quechua (official) 13.6%, Aymara (official) 1.6%, Ashaninka 0.3%, other native languages (includes many minor Amazonian languages) 0.8%, other 0.2%, none 0.1%, unspecified 0.7% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,18 @@
+{
+  "modelId": "global.10B.personal-agent",
+  "engine": "closed-form",
+  "inputs": {
+    "embedding": {
+      "path": "../runs/macro-embedding.json"
+    },
+    "dynamics": {
+      "path": "../runs/macro-dynamics.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "role": "query-surface"
+    }
+  },
+  "output": "./runs/agent-context.json"
+}

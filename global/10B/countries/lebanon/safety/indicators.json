@@ -1,0 +1,39 @@
+{
+  "country": "Lebanon",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Lebanese Armed Forces (LAF): Army Command (includes Presidential Guard Brigade, Land Border Regiments), Naval Forces, Air ForcesMinistry of Interior: Internal Security Forces Directorate (law enforcement; includes Mobile Gendarmerie), Directorate for General Security (DGS; border control, some domestic security duties); Parliamentary Police Force (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.2% of GDP (2021 est.)3% of GDP (2020 est.)4.7% of GDP (2019 est.)5.1% of GDP (2018 est.)4.6% of GDP (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "487,000 (Palestinian refugees) (2022); 784,884 (Syria) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

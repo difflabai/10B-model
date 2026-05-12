@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.turks-and-caicos-islands.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Turks and Caicos Islands"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "shelter"
+    }
+  },
+  "output": "./runs/output.json"
+}

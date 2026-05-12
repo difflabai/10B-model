@@ -1,0 +1,52 @@
+{
+  "country": "Mozambique",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6594,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5397
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.848
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.5
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65942,
+    0.8,
+    0.5397,
+    0.848,
+    0.58407,
+    0.78656,
+    -0.67962,
+    0.18218,
+    -0.26915,
+    0.89761,
+    0.1212,
+    -0.29683,
+    0.1176,
+    0.74856,
+    -0.49425,
+    -0.95142
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Romania",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for the Fatherland or APP Alliance for the Unity of Romanians or AURChristian-Democratic National Peasants' Party or PNT-CD Civic Hungarian PartyDemocratic Union of Hungarians in Romania or UDMR Ecologist Party of Romania or PER Force of the Right or FD Greater Romania Party or PRM Green PartyNational Liberal Party or PNLPopular Movement Party or PMP PRO Romania or PRORomanian Nationhood Party or PNR Save Romania Union Party or USR Social Democratic Party or PSD Social Liberal Humanist Party or PUSL (formerly Humanist Power Party (Social-Liberal) or PPU-SL)S.O.S. Romania The Right Alternative or AD United Romania Party or PRU We are Renewing the European Project in Romania or REPER",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "89% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mixture of public and private TV stations; there are 7 public TV stations (2 national, 5 regional) using terrestrial broadcasting and 187 private TV stations (out of which 171 offer local coverage) using terrestrial broadcasting, plus 11 public TV stations using satellite broadcasting and 86 private TV stations using satellite broadcasting; state-owned public radio broadcaster operates 4 national networks and regional and local stations, having in total 20 public radio stations by terrestrial broadcasting plus 4 public radio stations by satellite broadcasting; there are 502 operational private radio stations using terrestrial broadcasting and 26 private radio stations using satellite broadcasting",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

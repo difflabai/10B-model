@@ -1,0 +1,72 @@
+{
+  "country": "Austria",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5594,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5508
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5917
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7444
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5074
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5575
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5731
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.55936,
+    0.8,
+    0.5508,
+    0.5917,
+    0.69949,
+    0.58178,
+    0.0519,
+    -0.55474,
+    0.01747,
+    0.65844,
+    0.78146,
+    0.06786,
+    -0.32598,
+    0.89895,
+    -0.26845,
+    0.16307
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

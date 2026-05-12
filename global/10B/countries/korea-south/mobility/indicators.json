@@ -1,0 +1,59 @@
+{
+  "country": "Korea, South",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "100,428 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "92,795 km (includes 4,193 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "7,633 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "89 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1,275 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "3,790 km gas, 16 km oil, 889 km refined products (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,600 km (2011) (most navigable only by small craft)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,979 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "88,157,579 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "11,929,560,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

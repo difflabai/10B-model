@@ -1,0 +1,39 @@
+{
+  "country": "British Virgin Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "National Democratic Party or NDPProgressive Virgin Islands Movement or PVIMProgressives United or PUVirgin Islands Party or VIP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "78% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 private TV station; multi-channel TV is available from cable and satellite subscription services; about a half-dozen private radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

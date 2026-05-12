@@ -1,0 +1,34 @@
+{
+  "country": "Mauritania",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "57.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.492 million NOUAKCHOTT (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "with most of the country being a desert, vast areas of the country, particularly in the central, northern, and eastern areas, are without sizeable population clusters; half the population lives in or around the coastal capital of Nouakchott; smaller clusters are found near the southern border with Mali and Senegal as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "desert; constantly hot, dry, dusty",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; constantly hot, dry, dusty",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

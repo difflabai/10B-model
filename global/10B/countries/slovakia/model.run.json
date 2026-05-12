@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.slovakia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Slovakia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.slovakia.food",
+        "global.10B.countries.slovakia.water",
+        "global.10B.countries.slovakia.shelter",
+        "global.10B.countries.slovakia.health",
+        "global.10B.countries.slovakia.safety",
+        "global.10B.countries.slovakia.education",
+        "global.10B.countries.slovakia.work",
+        "global.10B.countries.slovakia.energy",
+        "global.10B.countries.slovakia.mobility",
+        "global.10B.countries.slovakia.communications",
+        "global.10B.countries.slovakia.governance",
+        "global.10B.countries.slovakia.environment",
+        "global.10B.countries.slovakia.belonging",
+        "global.10B.countries.slovakia.meaning",
+        "global.10B.countries.slovakia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

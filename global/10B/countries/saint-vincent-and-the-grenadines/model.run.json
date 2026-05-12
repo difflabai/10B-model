@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-vincent-and-the-grenadines",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Vincent and the Grenadines"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-vincent-and-the-grenadines.food",
+        "global.10B.countries.saint-vincent-and-the-grenadines.water",
+        "global.10B.countries.saint-vincent-and-the-grenadines.shelter",
+        "global.10B.countries.saint-vincent-and-the-grenadines.health",
+        "global.10B.countries.saint-vincent-and-the-grenadines.safety",
+        "global.10B.countries.saint-vincent-and-the-grenadines.education",
+        "global.10B.countries.saint-vincent-and-the-grenadines.work",
+        "global.10B.countries.saint-vincent-and-the-grenadines.energy",
+        "global.10B.countries.saint-vincent-and-the-grenadines.mobility",
+        "global.10B.countries.saint-vincent-and-the-grenadines.communications",
+        "global.10B.countries.saint-vincent-and-the-grenadines.governance",
+        "global.10B.countries.saint-vincent-and-the-grenadines.environment",
+        "global.10B.countries.saint-vincent-and-the-grenadines.belonging",
+        "global.10B.countries.saint-vincent-and-the-grenadines.meaning",
+        "global.10B.countries.saint-vincent-and-the-grenadines.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

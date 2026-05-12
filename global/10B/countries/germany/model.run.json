@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.germany",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Germany"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.germany.food",
+        "global.10B.countries.germany.water",
+        "global.10B.countries.germany.shelter",
+        "global.10B.countries.germany.health",
+        "global.10B.countries.germany.safety",
+        "global.10B.countries.germany.education",
+        "global.10B.countries.germany.work",
+        "global.10B.countries.germany.energy",
+        "global.10B.countries.germany.mobility",
+        "global.10B.countries.germany.communications",
+        "global.10B.countries.germany.governance",
+        "global.10B.countries.germany.environment",
+        "global.10B.countries.germany.belonging",
+        "global.10B.countries.germany.meaning",
+        "global.10B.countries.germany.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

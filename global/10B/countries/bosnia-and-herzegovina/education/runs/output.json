@@ -1,0 +1,52 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7868,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9472
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7868,
+    0.8,
+    0.9472,
+    0.8,
+    0.08974,
+    0.69793,
+    0.99255,
+    -0.31817,
+    0.37066,
+    -0.40771,
+    -0.5938,
+    0.70806,
+    -0.62924,
+    -0.16054,
+    0.05446,
+    -0.64495
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.education",
+        "global.10B.countries.antigua-and-barbuda.education",
+        "global.10B.countries.argentina.education",
+        "global.10B.countries.aruba.education",
+        "global.10B.countries.bahamas-the.education",
+        "global.10B.countries.barbados.education",
+        "global.10B.countries.belize.education",
+        "global.10B.countries.bermuda.education",
+        "global.10B.countries.bolivia.education",
+        "global.10B.countries.brazil.education",
+        "global.10B.countries.british-virgin-islands.education",
+        "global.10B.countries.cayman-islands.education",
+        "global.10B.countries.cuba.education",
+        "global.10B.countries.curacao.education",
+        "global.10B.countries.dominica.education",
+        "global.10B.countries.dominican-republic.education",
+        "global.10B.countries.falkland-islands-islas-malvinas.education",
+        "global.10B.countries.grenada.education",
+        "global.10B.countries.guyana.education",
+        "global.10B.countries.haiti.education",
+        "global.10B.countries.jamaica.education",
+        "global.10B.countries.montserrat.education",
+        "global.10B.countries.navassa-island.education",
+        "global.10B.countries.paraguay.education",
+        "global.10B.countries.puerto-rico.education",
+        "global.10B.countries.saint-barthelemy.education",
+        "global.10B.countries.saint-kitts-and-nevis.education",
+        "global.10B.countries.saint-lucia.education",
+        "global.10B.countries.saint-martin.education",
+        "global.10B.countries.saint-pierre-and-miquelon.education",
+        "global.10B.countries.saint-vincent-and-the-grenadines.education",
+        "global.10B.countries.sint-maarten.education",
+        "global.10B.countries.suriname.education",
+        "global.10B.countries.trinidad-and-tobago.education",
+        "global.10B.countries.turks-and-caicos-islands.education",
+        "global.10B.countries.uruguay.education",
+        "global.10B.countries.venezuela.education",
+        "global.10B.countries.virgin-islands.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

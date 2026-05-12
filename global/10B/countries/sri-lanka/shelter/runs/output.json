@@ -1,0 +1,52 @@
+{
+  "country": "Sri Lanka",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6278,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.4613
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.62783,
+    1.0,
+    0.4613,
+    0.65,
+    0.86737,
+    0.61205,
+    0.858,
+    -0.95816,
+    -0.06108,
+    0.36751,
+    0.37676,
+    -0.48342,
+    0.8009,
+    -0.61633,
+    -0.17095,
+    0.94882
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "San Marino",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$70,900 (2022 est.)$64,700 (2021 est.)$56,000 (2020 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "7.9% (2022 est.)13.9% (2021 est.)-6.65% (2020 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "1.05% (2017 est.)0.57% (2016 est.)0.15% (2015 est.)note: annual % change based on consumer prices",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "8.1% (2017 est.)8.6% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

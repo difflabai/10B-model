@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.ashmore-and-cartier-islands.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ashmore and Cartier Islands"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "communications"
+    }
+  },
+  "output": "./runs/output.json"
+}

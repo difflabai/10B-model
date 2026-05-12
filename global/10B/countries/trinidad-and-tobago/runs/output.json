@@ -1,0 +1,47 @@
+{
+  "country": "trinidad-and-tobago",
+  "category_scores": {
+    "agency": 0.735,
+    "belonging": 0.6697,
+    "communications": 0.6989,
+    "education": 0.7777,
+    "energy": 0.4957,
+    "environment": 0.5798,
+    "food": 0.5693,
+    "governance": 0.7143,
+    "health": 0.6701,
+    "meaning": 0.65,
+    "mobility": 0.4287,
+    "safety": 0.5944,
+    "shelter": 0.6237,
+    "water": 0.65,
+    "work": 0.6982
+  },
+  "country_score": 0.637,
+  "tier_scores": {
+    "subsistence": 0.6215,
+    "development": 0.6198,
+    "agency": 0.6698
+  },
+  "country_embedding": [
+    0.63702,
+    0.74569,
+    0.71549,
+    0.58635,
+    -0.02867,
+    -0.06713,
+    0.17239,
+    -0.18415,
+    -0.08777,
+    -0.11101,
+    0.03031,
+    0.16724,
+    -0.135,
+    0.16102,
+    -0.03009,
+    -0.23857
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Trinidad And Tobago, the three needs areas with the largest gaps are: mobility (0.43), energy (0.50), food (0.57).\nThe three strongest areas are: education (0.78), agency (0.73), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

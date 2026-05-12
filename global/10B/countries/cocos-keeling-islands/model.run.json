@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cocos-keeling-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cocos (Keeling) Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cocos-keeling-islands.food",
+        "global.10B.countries.cocos-keeling-islands.water",
+        "global.10B.countries.cocos-keeling-islands.shelter",
+        "global.10B.countries.cocos-keeling-islands.health",
+        "global.10B.countries.cocos-keeling-islands.safety",
+        "global.10B.countries.cocos-keeling-islands.education",
+        "global.10B.countries.cocos-keeling-islands.work",
+        "global.10B.countries.cocos-keeling-islands.energy",
+        "global.10B.countries.cocos-keeling-islands.mobility",
+        "global.10B.countries.cocos-keeling-islands.communications",
+        "global.10B.countries.cocos-keeling-islands.governance",
+        "global.10B.countries.cocos-keeling-islands.environment",
+        "global.10B.countries.cocos-keeling-islands.belonging",
+        "global.10B.countries.cocos-keeling-islands.meaning",
+        "global.10B.countries.cocos-keeling-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

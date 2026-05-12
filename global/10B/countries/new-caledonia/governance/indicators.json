@@ -1,0 +1,44 @@
+{
+  "country": "New Caledonia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Territorial Congress); an overseas collectivity of France",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on French civil law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "4 October 1958 (French Constitution with changes as reflected in the Noumea Accord of 5 May 1998)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Emmanuel MACRON (since 14 May 2017); represented by High Commissioner Louise LEFRANC (since 6 February 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ITUC (NGOs), PIF, SPC, UPU, WFTU (NGOs), WMO",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

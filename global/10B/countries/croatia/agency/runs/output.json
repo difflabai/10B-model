@@ -1,0 +1,56 @@
+{
+  "country": "Croatia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.836,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.83
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.8
+    }
+  ],
+  "embedding": [
+    0.836,
+    0.83333,
+    0.85,
+    0.85,
+    0.63174,
+    0.24828,
+    -0.6716,
+    0.67553,
+    -0.6014,
+    -0.65032,
+    -0.69137,
+    -0.78491,
+    0.24407,
+    -0.96979,
+    -0.4266,
+    -0.02977
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

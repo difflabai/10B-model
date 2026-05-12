@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.belonging",
+        "global.10B.countries.antigua-and-barbuda.belonging",
+        "global.10B.countries.argentina.belonging",
+        "global.10B.countries.aruba.belonging",
+        "global.10B.countries.bahamas-the.belonging",
+        "global.10B.countries.barbados.belonging",
+        "global.10B.countries.belize.belonging",
+        "global.10B.countries.bermuda.belonging",
+        "global.10B.countries.bolivia.belonging",
+        "global.10B.countries.brazil.belonging",
+        "global.10B.countries.british-virgin-islands.belonging",
+        "global.10B.countries.cayman-islands.belonging",
+        "global.10B.countries.cuba.belonging",
+        "global.10B.countries.curacao.belonging",
+        "global.10B.countries.dominica.belonging",
+        "global.10B.countries.dominican-republic.belonging",
+        "global.10B.countries.falkland-islands-islas-malvinas.belonging",
+        "global.10B.countries.grenada.belonging",
+        "global.10B.countries.guyana.belonging",
+        "global.10B.countries.haiti.belonging",
+        "global.10B.countries.jamaica.belonging",
+        "global.10B.countries.montserrat.belonging",
+        "global.10B.countries.navassa-island.belonging",
+        "global.10B.countries.paraguay.belonging",
+        "global.10B.countries.puerto-rico.belonging",
+        "global.10B.countries.saint-barthelemy.belonging",
+        "global.10B.countries.saint-kitts-and-nevis.belonging",
+        "global.10B.countries.saint-lucia.belonging",
+        "global.10B.countries.saint-martin.belonging",
+        "global.10B.countries.saint-pierre-and-miquelon.belonging",
+        "global.10B.countries.saint-vincent-and-the-grenadines.belonging",
+        "global.10B.countries.sint-maarten.belonging",
+        "global.10B.countries.suriname.belonging",
+        "global.10B.countries.trinidad-and-tobago.belonging",
+        "global.10B.countries.turks-and-caicos-islands.belonging",
+        "global.10B.countries.uruguay.belonging",
+        "global.10B.countries.venezuela.belonging",
+        "global.10B.countries.virgin-islands.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

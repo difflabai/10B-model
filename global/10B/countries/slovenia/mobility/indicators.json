@@ -1,0 +1,59 @@
+{
+  "country": "Slovenia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "38,125 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "42 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "4 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,155 km gas, 5 km oil (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "710 km (2022) (some transport on the Drava River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,207 km (2020) 609 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,094,762 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "540,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

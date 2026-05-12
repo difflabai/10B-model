@@ -1,0 +1,34 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "40.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1,000 JAMESTOWN (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "Saint Helena - population is concentrated in and around the capital Jamestown in the northwest, with another significant cluster in the interior Longwood area; Ascension - largest settlement, and location of most of the population, is Georgetown; Tristan da Cunha - most of the nearly 300 inhabitants live in the northern coastal town of Edinburgh of the Seven Seas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Geography: Climate",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

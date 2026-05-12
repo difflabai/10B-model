@@ -1,0 +1,39 @@
+{
+  "country": "Afghanistan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Amu Darya (shared with Tajikistan [s], Turkmenistan, and Uzbekistan [m]) - 2,620 km; Helmand river source (shared with Iran) - 1,130 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Ab-e Istadah-ye Muqur (endorheic basin) - 520 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: Indus (1,081,718 sq km)Internal (endorheic basin) drainage: Amu Darya (534,739 sq km); Tarim Basin (1,152,448 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "arid to semiarid; cold winters and hot summers",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

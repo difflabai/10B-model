@@ -1,0 +1,52 @@
+{
+  "country": "Uruguay",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7986,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9556
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.79862,
+    1.0,
+    0.9556,
+    0.6875,
+    -0.00145,
+    -0.85708,
+    -0.34463,
+    -0.35756,
+    0.00432,
+    0.29006,
+    -0.92178,
+    0.74704,
+    -0.36483,
+    -0.89078,
+    0.53109,
+    -0.24953
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

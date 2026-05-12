@@ -1,0 +1,34 @@
+{
+  "country": "Angola",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "68.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "9.292 million LUANDA (capital), 959,000 Lubango, 905,000 Cabinda, 809,000 Benguela, 783,000 Malanje  (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most people live in the western half of the country; urban areas account for the highest concentrations of people, particularly the capital of Luanda as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "semiarid in south and along coast to Luanda; north has cool, dry season (May to October) and hot, rainy season (November to April)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "semiarid in south and along coast to Luanda; north has cool, dry season (May to October) and hot, rainy season (November to April)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

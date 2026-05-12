@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Helena, Ascension, and Tristan da Cunha"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.food",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.water",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.shelter",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.health",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.safety",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.education",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.work",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.energy",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.mobility",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.communications",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.governance",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.environment",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.belonging",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.meaning",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

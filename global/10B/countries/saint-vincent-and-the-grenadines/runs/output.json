@@ -1,0 +1,47 @@
+{
+  "country": "saint-vincent-and-the-grenadines",
+  "category_scores": {
+    "agency": 0.8084,
+    "belonging": 0.6286,
+    "communications": 0.6997,
+    "education": 0.754,
+    "energy": 0.5492,
+    "environment": 0.5838,
+    "food": 0.6932,
+    "governance": 0.7,
+    "health": 0.6686,
+    "meaning": 0.63,
+    "mobility": 0.3111,
+    "safety": 0.75,
+    "shelter": 0.6244,
+    "water": 0.65,
+    "work": 0.6508
+  },
+  "country_score": 0.6468,
+  "tier_scores": {
+    "subsistence": 0.6772,
+    "development": 0.593,
+    "agency": 0.6702
+  },
+  "country_embedding": [
+    0.64678,
+    0.7042,
+    0.69201,
+    0.54367,
+    0.23807,
+    -0.13724,
+    -0.02586,
+    -0.07235,
+    0.17238,
+    -0.21054,
+    0.08027,
+    0.08084,
+    0.00864,
+    0.04695,
+    -0.12774,
+    0.09283
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Vincent And The Grenadines, the three needs areas with the largest gaps are: mobility (0.31), energy (0.55), environment (0.58).\nThe three strongest areas are: agency (0.81), education (0.75), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

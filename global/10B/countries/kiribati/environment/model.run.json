@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.kiribati.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Kiribati"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "environment"
+    }
+  },
+  "output": "./runs/output.json"
+}

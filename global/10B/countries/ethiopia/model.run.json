@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ethiopia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ethiopia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ethiopia.food",
+        "global.10B.countries.ethiopia.water",
+        "global.10B.countries.ethiopia.shelter",
+        "global.10B.countries.ethiopia.health",
+        "global.10B.countries.ethiopia.safety",
+        "global.10B.countries.ethiopia.education",
+        "global.10B.countries.ethiopia.work",
+        "global.10B.countries.ethiopia.energy",
+        "global.10B.countries.ethiopia.mobility",
+        "global.10B.countries.ethiopia.communications",
+        "global.10B.countries.ethiopia.governance",
+        "global.10B.countries.ethiopia.environment",
+        "global.10B.countries.ethiopia.belonging",
+        "global.10B.countries.ethiopia.meaning",
+        "global.10B.countries.ethiopia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

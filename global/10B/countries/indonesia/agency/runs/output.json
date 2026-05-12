@@ -1,0 +1,56 @@
+{
+  "country": "Indonesia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7397,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.6986
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.73971,
+    0.83333,
+    0.85,
+    0.75,
+    0.19554,
+    0.77652,
+    -0.4089,
+    0.6625,
+    -0.51901,
+    0.84442,
+    -0.01076,
+    -0.74456,
+    -0.40969,
+    0.30669,
+    0.44329,
+    -0.85336
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Greece",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5128,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5447
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6472
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6844
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.4018
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3874
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5865
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.51276,
+    0.8,
+    0.5447,
+    0.6472,
+    0.8349,
+    -0.30947,
+    -0.42675,
+    -0.44433,
+    -0.24215,
+    -0.3814,
+    -0.18944,
+    -0.30706,
+    -0.51696,
+    0.57122,
+    -0.59527,
+    -0.40624
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.croatia.agency",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Croatia"
+    },
+    "category": {
+      "value": "agency"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "agency"
+    }
+  },
+  "output": "./runs/output.json"
+}

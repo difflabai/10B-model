@@ -1,0 +1,64 @@
+{
+  "country": "Kenya",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "122 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "66.7 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "68,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "41% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "2 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "1.32 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Kenya’s telecom market continues to undergo considerable changes in the wake of increased competition, improved international connectivity, and rapid developments in the mobile market; the country is directly connected to a number of submarine cables, and with Mombasa through a terrestrial network, the country serves as a key junction for onward connectivity to the Arabian states and the Far East; numerous competitors are rolling out national and metropolitan backbone networks and wireless access networks to deliver services to population centers across the country; several fiber infrastructure sharing agreements have been forged, and as a result the number of fiber broadband connections has increased sharply in recent years; much of the progress in the broadband segment is due to the government’s revised national broadband strategy, which has been updated with goals through to 2030, and which are largely dependent on mobile broadband platforms based on LTE and 5G (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line subscriptions stand at less than 1 per 100 persons; mobile-cellular subscriptions at 123 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 254; landing point for the EASSy, TEAMS, LION2, DARE1, PEACE Cable, and SEACOM fiber-optic submarine cable systems covering East, North and South Africa, Europe, the Middle East, and Asia; satellite earth stations - 4 Intelsat; launched first micro satellites in 2018 (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "about a half-dozen large-scale privately owned media companies with TV and radio stations, as well as a state-owned TV broadcaster, provide service nationwide; satellite and cable TV subscription services available; state-owned radio broadcaster operates 2 national radio channels and provides regional and local radio services in multiple languages; many private radio stations broadcast on a national level along with over 100 private and non-profit regional stations broadcasting in local languages; TV transmissions of all major international broadcasters available, mostly via paid subscriptions; direct radio frequency modulation transmissions available for several foreign government-owned broadcasters (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

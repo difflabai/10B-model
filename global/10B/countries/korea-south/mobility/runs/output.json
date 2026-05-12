@@ -1,0 +1,72 @@
+{
+  "country": "Korea, South",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.6823,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5336
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.6213
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6694
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.95
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5989
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4875
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8127
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.68235,
+    1.0,
+    0.5336,
+    0.6213,
+    0.4175,
+    -0.36461,
+    -0.01851,
+    0.60372,
+    -0.89346,
+    0.06835,
+    0.95023,
+    0.09355,
+    0.43175,
+    0.27913,
+    -0.59875,
+    -0.35363
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

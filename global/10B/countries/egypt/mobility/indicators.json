@@ -1,0 +1,59 @@
+{
+  "country": "Egypt",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "65,050 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "48,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "17,050 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "73 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "56 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "486 km condensate, 74 km condensate/gas, 7,986 km gas, 957 km liquid petroleum gas, 5,225 km oil, 37 km oil/gas/water, 895 km refined products, 65 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "3,500 km (2018) (includes the Nile River, Lake Nasser, Alexandria-Cairo Waterway, and numerous smaller canals in Nile Delta; the Suez Canal (193.5 km including approaches) is navigable by oceangoing vessels drawing up to 17.68 m)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,085 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "12,340,832 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "437.63 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Eswatini",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6984,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.6043
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    }
+  ],
+  "embedding": [
+    0.69836,
+    0.83333,
+    0.55,
+    0.85,
+    -0.31698,
+    0.62676,
+    -0.77404,
+    -0.7268,
+    -0.71624,
+    0.16954,
+    0.81344,
+    0.01289,
+    0.53359,
+    0.48687,
+    -0.91058,
+    -0.393
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

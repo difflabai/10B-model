@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ecuador",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ecuador"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ecuador.food",
+        "global.10B.countries.ecuador.water",
+        "global.10B.countries.ecuador.shelter",
+        "global.10B.countries.ecuador.health",
+        "global.10B.countries.ecuador.safety",
+        "global.10B.countries.ecuador.education",
+        "global.10B.countries.ecuador.work",
+        "global.10B.countries.ecuador.energy",
+        "global.10B.countries.ecuador.mobility",
+        "global.10B.countries.ecuador.communications",
+        "global.10B.countries.ecuador.governance",
+        "global.10B.countries.ecuador.environment",
+        "global.10B.countries.ecuador.belonging",
+        "global.10B.countries.ecuador.meaning",
+        "global.10B.countries.ecuador.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

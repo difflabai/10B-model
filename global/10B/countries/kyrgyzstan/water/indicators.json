@@ -1,0 +1,39 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Syr Darya river source (shared with Tajikistan, Uzbekistan, and Kazakhstan [m] ) - 3,078 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Ozero Issyk-Kul 6,240 sq kmnote - second largest saline lake after the Caspian Sea; second highest mountain lake after Lake Titicaca; it is an endorheic mountain basin; although surrounded by snow capped mountains it never freezes",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Internal (endorheic basin) drainage: Tarim Basin (1,152,448 sq km), (Aral Sea basin) Amu Darya (534,739 sq km), Syr Darya (782,617 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "dry continental to polar in high Tien Shan Mountains; subtropical in southwest (Fergana Valley); temperate in northern foothill zone",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

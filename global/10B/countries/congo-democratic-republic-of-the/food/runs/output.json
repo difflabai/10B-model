@@ -1,0 +1,52 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.5839,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.428
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.6075
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.58387,
+    0.8,
+    0.75,
+    0.428,
+    -0.85126,
+    -0.74112,
+    0.41201,
+    0.81585,
+    0.02794,
+    -0.69601,
+    -0.93484,
+    -0.33095,
+    0.26821,
+    -0.67962,
+    -0.27828,
+    -0.23299
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Latvia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "57,972 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "56 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,213 km gas, 417 km refined products (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "300 km (2010) (navigable year-round)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,216 km (2020) 257 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "4,058,762 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "4.01 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

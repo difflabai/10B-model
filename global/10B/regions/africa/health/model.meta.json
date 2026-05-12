@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.health",
+  "name": "Africa — Health and longevity",
+  "kind": "forecast_harness",
+  "blurb": "Region-level health and longevity for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country health models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "health-country-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "health-region-mean",
+      "kind": "scalar",
+      "description": "Mean health score across the region."
+    },
+    {
+      "name": "health-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.health",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

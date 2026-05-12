@@ -1,0 +1,59 @@
+{
+  "country": "Burma",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "157,000 km (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "57,840 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "99,160 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "73 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "6 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "3,739 km gas, 1321 km oil (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "12,800 km (2011)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,031 km (2008)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "3,407,788 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "4.74 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

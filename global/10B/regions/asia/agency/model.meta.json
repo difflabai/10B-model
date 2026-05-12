@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.agency",
+  "name": "Asia — Agency and self-determination",
+  "kind": "sector_economic",
+  "blurb": "Region-level agency and self-determination for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country agency models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "agency-country-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "agency-region-mean",
+      "kind": "scalar",
+      "description": "Mean agency score across the region."
+    },
+    {
+      "name": "agency-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Agency and self-determination"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.agency",
+      "kind": "consumes_from",
+      "note": "Country-level agency for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.agency",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

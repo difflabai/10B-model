@@ -1,0 +1,52 @@
+{
+  "country": "Tuvalu",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.2,
+    0.65,
+    0.0,
+    -0.50506,
+    0.97549,
+    -0.50042,
+    0.5483,
+    -0.28292,
+    0.95828,
+    0.57208,
+    -0.55819,
+    0.14009,
+    0.30318,
+    -0.69564,
+    -0.84173
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

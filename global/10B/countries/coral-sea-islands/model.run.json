@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.coral-sea-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Coral Sea Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.coral-sea-islands.food",
+        "global.10B.countries.coral-sea-islands.water",
+        "global.10B.countries.coral-sea-islands.shelter",
+        "global.10B.countries.coral-sea-islands.health",
+        "global.10B.countries.coral-sea-islands.safety",
+        "global.10B.countries.coral-sea-islands.education",
+        "global.10B.countries.coral-sea-islands.work",
+        "global.10B.countries.coral-sea-islands.energy",
+        "global.10B.countries.coral-sea-islands.mobility",
+        "global.10B.countries.coral-sea-islands.communications",
+        "global.10B.countries.coral-sea-islands.governance",
+        "global.10B.countries.coral-sea-islands.environment",
+        "global.10B.countries.coral-sea-islands.belonging",
+        "global.10B.countries.coral-sea-islands.meaning",
+        "global.10B.countries.coral-sea-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

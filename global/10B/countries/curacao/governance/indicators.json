@@ -1,0 +1,44 @@
+{
+  "country": "Curacao",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "based on Dutch civil law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1947, 1955; latest adopted 5 September 2010, entered into force 10 October 2010 (regulates governance of Curacao but is subordinate to the Charter for the Kingdom of the Netherlands); note - in October 2010, with the dissolution of the Netherlands Antilles, Curacao became a semi-autonomous entity within the Kingdom of the Netherlands",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King WILLEM-ALEXANDER of the Netherlands (since 30 April 2013); represented by Governor Lucille A. GEORGE-WOUT (since 4 November 2013)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACS (associate), Caricom (observer), FATF, ILO, ITU, UNESCO (associate), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Solomon Islands",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "oil palm fruit, coconuts, sweet potatoes, yams, taro, fruits, pulses, vegetables, cocoa beans, cassava (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "3.9% (2018 est.)agricultural land: arable land: 0.7% (2018 est.)agricultural land: permanent crops: 2.9% (2018 est.)agricultural land: permanent pasture: 0.3% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "33.8% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "726,799",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

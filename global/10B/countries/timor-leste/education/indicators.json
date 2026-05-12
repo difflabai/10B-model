@@ -1,0 +1,34 @@
+{
+  "country": "Timor-Leste",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "68.1%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.2% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Tetun Prasa 30.6%, Mambai 16.6%, Makasai 10.5%, Tetun Terik 6.1%, Baikenu 5.9%, Kemak 5.8%, Bunak 5.5%, Tokodede 4%, Fataluku 3.5%, Waima'a 1.8%, Galoli 1.4%, Naueti 1.4%, Idate 1.2%, Midiki 1.2%, other 4.5% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

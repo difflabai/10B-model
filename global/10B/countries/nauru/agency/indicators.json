@@ -1,0 +1,39 @@
+{
+  "country": "Nauru",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Nauru does not have formal political parties; alliances within the government are often formed based on extended family ties",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "83% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 government-owned TV station broadcasting programs from New Zealand sent via satellite or on videotape; 1 government-owned radio station, broadcasting on AM and FM, utilizes Australian and British programs (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.1% of GDP (2021) NA",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

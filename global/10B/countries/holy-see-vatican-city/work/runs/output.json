@@ -1,0 +1,60 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": null
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.14286,
+    0.55,
+    0.0,
+    0.25551,
+    -0.77011,
+    0.1664,
+    0.42443,
+    -0.30794,
+    0.50603,
+    -0.91,
+    0.87161,
+    0.26601,
+    0.69918,
+    0.16735,
+    -0.34762
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.water",
+  "name": "Oceania — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country water models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

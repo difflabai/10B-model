@@ -1,0 +1,39 @@
+{
+  "country": "Eritrea",
+  "category": "meaning",
+  "label": "Meaning, identity, and culture",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: National holiday",
+      "value": "Independence Day, 24 May (1991)",
+      "present": true
+    },
+    {
+      "field": "Government: National anthem",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "value": "camel; national colors: green, red, blue",
+      "present": true
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "value": "no",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Eritrean Orthodox, Roman Catholic, Evangelical Lutheran, Sunni Muslim",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Tigrinya (official), Arabic (official), English (official), Tigre, Kunama, Afar, other Cushitic languages",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

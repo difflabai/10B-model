@@ -1,0 +1,34 @@
+{
+  "country": "Tonga",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "99.4%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "16 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Tongan only 85%, Tongan and other language 13.9%, Tongan not used at home 1.1% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

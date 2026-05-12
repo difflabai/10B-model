@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.environment",
+  "name": "Europe — Environmental sustainability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level environmental sustainability for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country environment models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "environment-country-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "environment-region-mean",
+      "kind": "scalar",
+      "description": "Mean environment score across the region."
+    },
+    {
+      "name": "environment-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Environmental sustainability"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.environment",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

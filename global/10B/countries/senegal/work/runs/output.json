@@ -1,0 +1,60 @@
+{
+  "country": "Senegal",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6803,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.3562
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.829
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6671
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.9035
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.676
+    }
+  ],
+  "embedding": [
+    0.68031,
+    0.85714,
+    0.3562,
+    0.829,
+    0.27419,
+    0.51839,
+    -0.98453,
+    0.28991,
+    -0.18355,
+    -0.25774,
+    -0.68722,
+    0.78534,
+    0.36193,
+    -0.24233,
+    0.81842,
+    -0.88095
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Spain",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8375,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    }
+  ],
+  "embedding": [
+    0.8375,
+    0.83333,
+    0.85,
+    0.85,
+    0.87411,
+    -0.96408,
+    0.4724,
+    -0.74771,
+    -0.83737,
+    0.81799,
+    0.74746,
+    -0.09068,
+    -0.58941,
+    -0.93011,
+    -0.48449,
+    0.69384
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

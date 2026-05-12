@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.bahamas-the.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Bahamas, The"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "environment"
+    }
+  },
+  "output": "./runs/output.json"
+}

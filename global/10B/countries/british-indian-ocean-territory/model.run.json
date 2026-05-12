@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.british-indian-ocean-territory",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "British Indian Ocean Territory"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.british-indian-ocean-territory.food",
+        "global.10B.countries.british-indian-ocean-territory.water",
+        "global.10B.countries.british-indian-ocean-territory.shelter",
+        "global.10B.countries.british-indian-ocean-territory.health",
+        "global.10B.countries.british-indian-ocean-territory.safety",
+        "global.10B.countries.british-indian-ocean-territory.education",
+        "global.10B.countries.british-indian-ocean-territory.work",
+        "global.10B.countries.british-indian-ocean-territory.energy",
+        "global.10B.countries.british-indian-ocean-territory.mobility",
+        "global.10B.countries.british-indian-ocean-territory.communications",
+        "global.10B.countries.british-indian-ocean-territory.governance",
+        "global.10B.countries.british-indian-ocean-territory.environment",
+        "global.10B.countries.british-indian-ocean-territory.belonging",
+        "global.10B.countries.british-indian-ocean-territory.meaning",
+        "global.10B.countries.british-indian-ocean-territory.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

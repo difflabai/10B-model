@@ -1,0 +1,56 @@
+{
+  "country": "Ethiopia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.653,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.24
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.675
+    }
+  ],
+  "embedding": [
+    0.653,
+    0.83333,
+    0.85,
+    0.75,
+    -0.23476,
+    0.1512,
+    -0.59939,
+    0.55535,
+    -0.21215,
+    0.30376,
+    0.87271,
+    -0.68508,
+    0.71081,
+    -0.32552,
+    -0.94611,
+    -0.48013
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

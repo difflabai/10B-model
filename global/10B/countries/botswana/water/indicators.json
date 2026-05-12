@@ -1,0 +1,39 @@
+{
+  "country": "Botswana",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Zambezi (shared with Zambia [s]), Angola, Namibia, Zimbabwe, and Mozambique [m]) - 2,740 km; Limpopo (shared with South Africa [s], Zimbabwe, and Mozambique [m]) - 1,800 km; Okavango river mouth (shared with Angola [s], and Namibia) - 1,600 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Orange (941,351 sq km)Indian Ocean drainage: Zambezi (1,332,412 sq km)Internal (endorheic basin) drainage: Okavango Basin (863,866 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "semiarid; warm winters and hot summers",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

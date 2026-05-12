@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tajikistan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tajikistan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tajikistan.food",
+        "global.10B.countries.tajikistan.water",
+        "global.10B.countries.tajikistan.shelter",
+        "global.10B.countries.tajikistan.health",
+        "global.10B.countries.tajikistan.safety",
+        "global.10B.countries.tajikistan.education",
+        "global.10B.countries.tajikistan.work",
+        "global.10B.countries.tajikistan.energy",
+        "global.10B.countries.tajikistan.mobility",
+        "global.10B.countries.tajikistan.communications",
+        "global.10B.countries.tajikistan.governance",
+        "global.10B.countries.tajikistan.environment",
+        "global.10B.countries.tajikistan.belonging",
+        "global.10B.countries.tajikistan.meaning",
+        "global.10B.countries.tajikistan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

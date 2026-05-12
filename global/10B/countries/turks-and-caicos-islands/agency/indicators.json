@@ -1,0 +1,39 @@
+{
+  "country": "Turks and Caicos Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "People's Democratic Movement or PDMProgressive National Party or PNP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "93.5% (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no local terrestrial TV stations, broadcasts from the Bahamas can be received and multi-channel cable and satellite TV services are available; government-run radio network operates alongside private broadcasters with a total of about 15 stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.5% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

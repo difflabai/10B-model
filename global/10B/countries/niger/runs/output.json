@@ -1,0 +1,47 @@
+{
+  "country": "niger",
+  "category_scores": {
+    "agency": 0.6855,
+    "belonging": 0.6189,
+    "communications": 0.6536,
+    "education": 0.4497,
+    "energy": 0.386,
+    "environment": 0.4095,
+    "food": 0.6032,
+    "governance": 0.7571,
+    "health": 0.4048,
+    "meaning": 0.65,
+    "mobility": 0.4518,
+    "safety": 0.6056,
+    "shelter": 0.5993,
+    "water": 0.65,
+    "work": 0.614
+  },
+  "country_score": 0.5693,
+  "tier_scores": {
+    "subsistence": 0.5726,
+    "development": 0.511,
+    "agency": 0.6242
+  },
+  "country_embedding": [
+    0.56926,
+    0.82838,
+    0.52693,
+    0.62102,
+    -0.03392,
+    0.09563,
+    -0.18894,
+    0.25508,
+    -0.19864,
+    0.06398,
+    0.02592,
+    0.01791,
+    -0.23205,
+    0.14364,
+    -0.31306,
+    -0.03788
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Niger, the three needs areas with the largest gaps are: energy (0.39), health (0.40), environment (0.41).\nThe three strongest areas are: governance (0.76), agency (0.69), communications (0.65).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

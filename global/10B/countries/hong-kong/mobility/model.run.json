@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.hong-kong.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Hong Kong"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "mobility"
+    }
+  },
+  "output": "./runs/output.json"
+}

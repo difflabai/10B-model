@@ -1,0 +1,52 @@
+{
+  "country": "Venezuela",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6455,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.94
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.242
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6455,
+    0.8,
+    0.94,
+    0.242,
+    0.31734,
+    0.5491,
+    0.9483,
+    -0.37401,
+    -0.24553,
+    0.17922,
+    -0.59445,
+    -0.21065,
+    0.45132,
+    0.34469,
+    0.99463,
+    -0.08577
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

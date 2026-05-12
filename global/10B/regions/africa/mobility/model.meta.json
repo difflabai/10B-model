@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.mobility",
+  "name": "Africa — Mobility and transportation",
+  "kind": "sector_economic",
+  "blurb": "Region-level mobility and transportation for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country mobility models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "mobility-country-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mobility-region-mean",
+      "kind": "scalar",
+      "description": "Mean mobility score across the region."
+    },
+    {
+      "name": "mobility-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Mobility and transportation"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.mobility",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

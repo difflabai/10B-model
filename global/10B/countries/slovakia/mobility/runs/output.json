@@ -1,0 +1,72 @@
+{
+  "country": "Slovakia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.5423,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.47
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7031
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4132
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.4516
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4659
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54231,
+    0.6,
+    0.47,
+    0.7031,
+    0.24562,
+    0.24431,
+    -0.03819,
+    -0.93252,
+    0.8912,
+    0.38177,
+    0.71865,
+    0.86413,
+    0.94076,
+    -0.4829,
+    0.74249,
+    -0.31765
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

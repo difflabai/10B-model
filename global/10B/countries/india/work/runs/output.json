@@ -1,0 +1,60 @@
+{
+  "country": "India",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.728,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.505
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6772
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.8415
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.744
+    }
+  ],
+  "embedding": [
+    0.72796,
+    0.85714,
+    0.505,
+    0.95,
+    0.07674,
+    -0.11205,
+    -0.29686,
+    -0.48785,
+    -0.7207,
+    0.87741,
+    -0.33562,
+    0.2921,
+    -0.30031,
+    0.18926,
+    -0.5584,
+    0.27446
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

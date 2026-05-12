@@ -1,0 +1,72 @@
+{
+  "country": "Botswana",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4445,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3882
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3432
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7049
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2982
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2738
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.5528
+    }
+  ],
+  "embedding": [
+    0.44445,
+    0.7,
+    0.3882,
+    0.3432,
+    0.8945,
+    -0.3807,
+    -0.97128,
+    0.81915,
+    0.31887,
+    0.63061,
+    -0.85495,
+    0.4649,
+    0.64157,
+    -0.22658,
+    -0.22869,
+    -0.11196
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Andorra",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "87.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "23,000 ANDORRA LA VELLA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population is unevenly distributed and is concentrated in the seven urbanized valleys that make up the country's parishes (political administrative divisions)",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; snowy, cold winters and warm, dry summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; snowy, cold winters and warm, dry summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

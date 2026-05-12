@@ -1,0 +1,39 @@
+{
+  "country": "Egypt",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "An Nīl (Nile) river mouth (shared with Rwanda [s], Tanzania, Uganda, South Sudan, and Sudan) - 6,650 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Lake Manzala - 1,360 sq kmnote - largest of Nile Delta lakes",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Mediterranean Sea) Nile (3,254,853 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "desert; hot, dry summers with moderate winters",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

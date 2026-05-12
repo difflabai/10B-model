@@ -1,0 +1,47 @@
+{
+  "country": "liechtenstein",
+  "category_scores": {
+    "agency": 0.7448,
+    "belonging": 0.6837,
+    "communications": 0.7177,
+    "education": 0.6904,
+    "energy": 0.97,
+    "environment": 0.5385,
+    "food": 0.6116,
+    "governance": 0.7143,
+    "health": 0.8501,
+    "meaning": 0.71,
+    "mobility": 0.3643,
+    "safety": 0.75,
+    "shelter": 0.5702,
+    "water": 0.65,
+    "work": 0.7767
+  },
+  "country_score": 0.6895,
+  "tier_scores": {
+    "subsistence": 0.6864,
+    "development": 0.7038,
+    "agency": 0.6783
+  },
+  "country_embedding": [
+    0.68948,
+    0.67306,
+    0.68343,
+    0.592,
+    -0.09948,
+    0.07954,
+    0.04991,
+    -0.02441,
+    0.04115,
+    -0.08135,
+    -0.04505,
+    -0.18334,
+    -0.18504,
+    -0.19741,
+    0.12102,
+    0.14935
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Liechtenstein, the three needs areas with the largest gaps are: mobility (0.36), environment (0.54), shelter (0.57).\nThe three strongest areas are: energy (0.97), health (0.85), work (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

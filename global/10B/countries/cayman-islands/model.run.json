@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cayman-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cayman Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cayman-islands.food",
+        "global.10B.countries.cayman-islands.water",
+        "global.10B.countries.cayman-islands.shelter",
+        "global.10B.countries.cayman-islands.health",
+        "global.10B.countries.cayman-islands.safety",
+        "global.10B.countries.cayman-islands.education",
+        "global.10B.countries.cayman-islands.work",
+        "global.10B.countries.cayman-islands.energy",
+        "global.10B.countries.cayman-islands.mobility",
+        "global.10B.countries.cayman-islands.communications",
+        "global.10B.countries.cayman-islands.governance",
+        "global.10B.countries.cayman-islands.environment",
+        "global.10B.countries.cayman-islands.belonging",
+        "global.10B.countries.cayman-islands.meaning",
+        "global.10B.countries.cayman-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

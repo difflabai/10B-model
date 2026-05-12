@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.governance",
+  "name": "Oceania — Governance and rule of law",
+  "kind": "sector_economic",
+  "blurb": "Region-level governance and rule of law for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country governance models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "governance-country-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "governance-region-mean",
+      "kind": "scalar",
+      "description": "Mean governance score across the region."
+    },
+    {
+      "name": "governance-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Governance and rule of law"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.governance",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

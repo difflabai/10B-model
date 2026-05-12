@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.food",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "food"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.food",
+        "global.10B.countries.andorra.food",
+        "global.10B.countries.armenia.food",
+        "global.10B.countries.austria.food",
+        "global.10B.countries.azerbaijan.food",
+        "global.10B.countries.belarus.food",
+        "global.10B.countries.belgium.food",
+        "global.10B.countries.bosnia-and-herzegovina.food",
+        "global.10B.countries.bulgaria.food",
+        "global.10B.countries.croatia.food",
+        "global.10B.countries.cyprus.food",
+        "global.10B.countries.czechia.food",
+        "global.10B.countries.denmark.food",
+        "global.10B.countries.estonia.food",
+        "global.10B.countries.faroe-islands.food",
+        "global.10B.countries.finland.food",
+        "global.10B.countries.georgia.food",
+        "global.10B.countries.germany.food",
+        "global.10B.countries.gibraltar.food",
+        "global.10B.countries.greece.food",
+        "global.10B.countries.guernsey.food",
+        "global.10B.countries.holy-see-vatican-city.food",
+        "global.10B.countries.hungary.food",
+        "global.10B.countries.iceland.food",
+        "global.10B.countries.ireland.food",
+        "global.10B.countries.isle-of-man.food",
+        "global.10B.countries.italy.food",
+        "global.10B.countries.jan-mayen.food",
+        "global.10B.countries.jersey.food",
+        "global.10B.countries.kazakhstan.food",
+        "global.10B.countries.kosovo.food",
+        "global.10B.countries.latvia.food",
+        "global.10B.countries.liechtenstein.food",
+        "global.10B.countries.lithuania.food",
+        "global.10B.countries.luxembourg.food",
+        "global.10B.countries.malta.food",
+        "global.10B.countries.moldova.food",
+        "global.10B.countries.monaco.food",
+        "global.10B.countries.montenegro.food",
+        "global.10B.countries.netherlands.food",
+        "global.10B.countries.north-macedonia.food",
+        "global.10B.countries.norway.food",
+        "global.10B.countries.poland.food",
+        "global.10B.countries.portugal.food",
+        "global.10B.countries.romania.food",
+        "global.10B.countries.san-marino.food",
+        "global.10B.countries.serbia.food",
+        "global.10B.countries.slovakia.food",
+        "global.10B.countries.slovenia.food",
+        "global.10B.countries.spain.food",
+        "global.10B.countries.sweden.food",
+        "global.10B.countries.switzerland.food",
+        "global.10B.countries.turkey-turkiye.food",
+        "global.10B.countries.ukraine.food",
+        "global.10B.countries.united-kingdom.food"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

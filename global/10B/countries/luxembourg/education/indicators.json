@@ -1,0 +1,34 @@
+{
+  "country": "Luxembourg",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "15 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Luxembourgish (official administrative, judicial, and national language) 48.9%, Portuguese 15.4%, French (official administrative, judicial, and legislative language) 14.9%, Italian 3.6%, English 3.6%, German (official administrative and judicial language) 2.9%, other 10.8% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

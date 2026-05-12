@@ -1,0 +1,47 @@
+{
+  "country": "korea-north",
+  "category_scores": {
+    "agency": 0.85,
+    "belonging": 0.6579,
+    "communications": 0.6261,
+    "education": 0.6862,
+    "energy": 0.533,
+    "environment": 0.5195,
+    "food": 0.6097,
+    "governance": 0.6429,
+    "health": 0.6403,
+    "meaning": 0.61,
+    "mobility": 0.4813,
+    "safety": 0.675,
+    "shelter": 0.6818,
+    "water": 0.65,
+    "work": 0.5472
+  },
+  "country_score": 0.6274,
+  "tier_scores": {
+    "subsistence": 0.6514,
+    "development": 0.5748,
+    "agency": 0.6561
+  },
+  "country_embedding": [
+    0.62739,
+    0.71808,
+    0.57199,
+    0.54657,
+    0.1292,
+    0.2734,
+    0.24999,
+    0.25931,
+    -0.10556,
+    0.21894,
+    0.20614,
+    -0.18974,
+    0.17028,
+    0.38551,
+    -0.01737,
+    -0.018
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Korea North, the three needs areas with the largest gaps are: mobility (0.48), environment (0.52), energy (0.53).\nThe three strongest areas are: agency (0.85), education (0.69), shelter (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

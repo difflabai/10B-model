@@ -1,0 +1,92 @@
+{
+  "country": "New Caledonia",
+  "category": "health",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.4666666666666667,
+  "indicators_scored": 7,
+  "indicators_total": 15,
+  "composite_score": 0.7974,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Life expectancy at birth - total population",
+      "score": 0.8229
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - male",
+      "score": 0.7114
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - female",
+      "score": 0.9152
+    },
+    {
+      "field": "People and Society: Infant mortality rate - total",
+      "score": 0.858
+    },
+    {
+      "field": "People and Society: Infant mortality rate - male",
+      "score": 0.83
+    },
+    {
+      "field": "People and Society: Infant mortality rate - female",
+      "score": 0.894
+    },
+    {
+      "field": "People and Society: Maternal mortality ratio",
+      "score": null
+    },
+    {
+      "field": "People and Society: Physicians density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Hospital bed density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major infectious diseases - degree of risk",
+      "score": null
+    },
+    {
+      "field": "People and Society: Obesity - adult prevalence rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Tobacco use - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Children under the age of 5 years underweight",
+      "score": null
+    },
+    {
+      "field": "People and Society: Currently married women (ages 15-49)",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Current health expenditure",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79735,
+    0.46667,
+    0.8229,
+    0.7114,
+    -0.12972,
+    -0.87201,
+    0.78369,
+    0.87433,
+    -0.90323,
+    0.84762,
+    0.95053,
+    0.4006,
+    0.35384,
+    0.57531,
+    0.68222,
+    0.9653
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

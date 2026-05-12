@@ -1,0 +1,39 @@
+{
+  "country": "Bahrain",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run Bahrain Radio and Television Corporation (BRTC) operates 6 terrestrial TV networks and several radio stations; satellite TV systems provide access to international broadcasts; 1 private FM station directs broadcasts to Indian listeners; radio and TV broadcasts from countries in the region are available (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

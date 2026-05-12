@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.clipperton-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Clipperton Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.clipperton-island.food",
+        "global.10B.countries.clipperton-island.water",
+        "global.10B.countries.clipperton-island.shelter",
+        "global.10B.countries.clipperton-island.health",
+        "global.10B.countries.clipperton-island.safety",
+        "global.10B.countries.clipperton-island.education",
+        "global.10B.countries.clipperton-island.work",
+        "global.10B.countries.clipperton-island.energy",
+        "global.10B.countries.clipperton-island.mobility",
+        "global.10B.countries.clipperton-island.communications",
+        "global.10B.countries.clipperton-island.governance",
+        "global.10B.countries.clipperton-island.environment",
+        "global.10B.countries.clipperton-island.belonging",
+        "global.10B.countries.clipperton-island.meaning",
+        "global.10B.countries.clipperton-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

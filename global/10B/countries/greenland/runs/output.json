@@ -1,0 +1,47 @@
+{
+  "country": "greenland",
+  "category_scores": {
+    "agency": 0.7997,
+    "belonging": 0.6276,
+    "communications": 0.6879,
+    "education": 0.8233,
+    "energy": 0.6702,
+    "environment": 0.35,
+    "food": 0.5046,
+    "governance": 0.725,
+    "health": 0.7332,
+    "meaning": 0.6,
+    "mobility": 0.5903,
+    "safety": 0.55,
+    "shelter": 0.6446,
+    "water": 0.65,
+    "work": 0.7006
+  },
+  "country_score": 0.6438,
+  "tier_scores": {
+    "subsistence": 0.6165,
+    "development": 0.6945,
+    "agency": 0.6205
+  },
+  "country_embedding": [
+    0.6438,
+    0.66225,
+    0.714,
+    0.51333,
+    0.03264,
+    -0.09651,
+    0.00622,
+    0.23124,
+    -0.20921,
+    -0.13241,
+    -0.19727,
+    0.38784,
+    0.03966,
+    0.0725,
+    -0.05038,
+    -0.02757
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Greenland, the three needs areas with the largest gaps are: environment (0.35), food (0.50), safety (0.55).\nThe three strongest areas are: education (0.82), agency (0.80), health (0.73).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

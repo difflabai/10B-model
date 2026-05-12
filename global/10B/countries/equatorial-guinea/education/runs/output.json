@@ -1,0 +1,52 @@
+{
+  "country": "Equatorial Guinea",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.8045,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9136
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.80453,
+    0.6,
+    0.9136,
+    0.75,
+    0.9588,
+    0.45098,
+    -0.06392,
+    0.46001,
+    -0.12697,
+    -0.60729,
+    0.13408,
+    0.70953,
+    -0.15322,
+    -0.64202,
+    -0.57089,
+    0.98874
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

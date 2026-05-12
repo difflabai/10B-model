@@ -1,0 +1,52 @@
+{
+  "country": "Singapore",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7409,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.94
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.7409,
+    1.0,
+    0.94,
+    0.452,
+    0.77624,
+    -0.24562,
+    0.91144,
+    -0.84189,
+    -0.35024,
+    0.20287,
+    0.6061,
+    -0.15462,
+    -0.77771,
+    -0.05641,
+    -0.99295,
+    -0.4233
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Pakistan",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6932,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.38
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.92
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.396
+    }
+  ],
+  "embedding": [
+    0.6932,
+    0.83333,
+    0.85,
+    0.92,
+    -0.88196,
+    -0.30358,
+    0.98825,
+    0.55074,
+    0.3637,
+    0.94382,
+    -0.29769,
+    -0.42382,
+    -0.27785,
+    -0.83795,
+    0.99921,
+    0.83578
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Gabon",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "14,300 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "900 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "13,400 km (2001)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "40 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "807 km gas, 1,639 km oil, 3 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,600 km (2010) (310 km on Ogooue River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "649 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7
+}

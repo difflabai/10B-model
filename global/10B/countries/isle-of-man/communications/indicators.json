@@ -1,0 +1,64 @@
+{
+  "country": "Isle of Man",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "the Isle of Man has an extensive communications infrastructure consisting of telephone cables, submarine cables, and an array of television and mobile phone transmitters and towers (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "landline, telefax, mobile cellular telephone system",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 44; fiber-optic cable, microwave radio relay, satellite earth station, submarine cable",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national public radio broadcasts over 3 FM stations and 1 AM station; 2 commercial broadcasters operating with 1 having multiple FM stations; receives radio and TV services via relays from British TV and radio broadcasters",
+      "present": true
+    }
+  ],
+  "coverage": 0.36363636363636365
+}

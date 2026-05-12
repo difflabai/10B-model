@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.jamaica",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Jamaica"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.jamaica.food",
+        "global.10B.countries.jamaica.water",
+        "global.10B.countries.jamaica.shelter",
+        "global.10B.countries.jamaica.health",
+        "global.10B.countries.jamaica.safety",
+        "global.10B.countries.jamaica.education",
+        "global.10B.countries.jamaica.work",
+        "global.10B.countries.jamaica.energy",
+        "global.10B.countries.jamaica.mobility",
+        "global.10B.countries.jamaica.communications",
+        "global.10B.countries.jamaica.governance",
+        "global.10B.countries.jamaica.environment",
+        "global.10B.countries.jamaica.belonging",
+        "global.10B.countries.jamaica.meaning",
+        "global.10B.countries.jamaica.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

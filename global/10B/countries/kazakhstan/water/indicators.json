@@ -1,0 +1,39 @@
+{
+  "country": "Kazakhstan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Syr Darya river mouth (shared with Kyrgyzstan [s], Uzbekistan, and Tajikistan) - 3,078 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Caspian Sea (shared with Iran, Azerbaijan, Turkmenistan, and Russia) - 374,000 sq km; Aral Sea (north) - 3,300 sq km; Ozero Alakol - 2,650 sq km; Ozero Teniz 1,590 sq km; Ozero Seletytenzi - 780 sq km; Ozero Sasykkol - 740 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Internal (endorheic basin) drainage: Tarim Basin (1,152,448 sq km), Amu Darya (534,739 sq km), Syr Darya (782,617 sq km), Lake Balkash (510,015 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "continental, cold winters and hot summers, arid and semiarid",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

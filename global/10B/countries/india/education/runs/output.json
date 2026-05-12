@@ -1,0 +1,52 @@
+{
+  "country": "India",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7186,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.668
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.675
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7186,
+    1.0,
+    0.668,
+    0.675,
+    -0.62625,
+    -0.9632,
+    0.71353,
+    -0.65948,
+    0.98093,
+    0.76455,
+    -0.22722,
+    -0.34899,
+    0.99115,
+    0.47265,
+    -0.58062,
+    -0.58193
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

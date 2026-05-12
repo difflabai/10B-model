@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.norway",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Norway"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.norway.food",
+        "global.10B.countries.norway.water",
+        "global.10B.countries.norway.shelter",
+        "global.10B.countries.norway.health",
+        "global.10B.countries.norway.safety",
+        "global.10B.countries.norway.education",
+        "global.10B.countries.norway.work",
+        "global.10B.countries.norway.energy",
+        "global.10B.countries.norway.mobility",
+        "global.10B.countries.norway.communications",
+        "global.10B.countries.norway.governance",
+        "global.10B.countries.norway.environment",
+        "global.10B.countries.norway.belonging",
+        "global.10B.countries.norway.meaning",
+        "global.10B.countries.norway.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

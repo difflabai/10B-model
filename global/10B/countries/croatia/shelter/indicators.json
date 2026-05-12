@@ -1,0 +1,34 @@
+{
+  "country": "Croatia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "58.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "684,000 ZAGREB (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "more of the population lives in the northern half of the country, with approximately a quarter of the populace residing in and around the capital of Zagreb; many of the islands are sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers along coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers along coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

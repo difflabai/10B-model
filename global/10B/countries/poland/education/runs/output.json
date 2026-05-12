@@ -1,0 +1,52 @@
+{
+  "country": "Poland",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.801,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9676
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.80102,
+    1.0,
+    0.9676,
+    0.7625,
+    0.79644,
+    -0.75259,
+    0.38405,
+    0.05467,
+    -0.85559,
+    0.2329,
+    0.37819,
+    0.54836,
+    -0.85528,
+    0.50796,
+    -0.27599,
+    0.10567
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

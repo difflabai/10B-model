@@ -1,0 +1,72 @@
+{
+  "country": "Qatar",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.5914,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.237
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.3944
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5447
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6725
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.59145,
+    0.6,
+    0.237,
+    0.3944,
+    -0.16255,
+    0.02544,
+    0.38158,
+    0.07247,
+    -0.16295,
+    0.85513,
+    -0.58907,
+    -0.10628,
+    0.8081,
+    -0.24208,
+    0.33217,
+    -0.86929
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

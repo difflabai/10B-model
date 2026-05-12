@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.cook-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cook Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.cook-islands.food",
+        "global.10B.countries.cook-islands.water",
+        "global.10B.countries.cook-islands.shelter",
+        "global.10B.countries.cook-islands.health",
+        "global.10B.countries.cook-islands.safety",
+        "global.10B.countries.cook-islands.education",
+        "global.10B.countries.cook-islands.work",
+        "global.10B.countries.cook-islands.energy",
+        "global.10B.countries.cook-islands.mobility",
+        "global.10B.countries.cook-islands.communications",
+        "global.10B.countries.cook-islands.governance",
+        "global.10B.countries.cook-islands.environment",
+        "global.10B.countries.cook-islands.belonging",
+        "global.10B.countries.cook-islands.meaning",
+        "global.10B.countries.cook-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

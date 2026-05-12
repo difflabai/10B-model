@@ -1,0 +1,52 @@
+{
+  "country": "Montserrat",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6487,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.71
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.685
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.64875,
+    0.8,
+    0.65,
+    0.71,
+    -0.37868,
+    -0.87799,
+    0.25588,
+    0.91894,
+    0.17864,
+    -0.62161,
+    -0.29155,
+    0.38122,
+    -0.28237,
+    -0.46999,
+    -0.86404,
+    -0.15355
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

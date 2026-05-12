@@ -1,0 +1,44 @@
+{
+  "country": "United States",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "constitutional federal republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law system based on English common law at the federal level; state legal systems based on common law, except Louisiana, where state law is based on Napoleonic civil code; judicial review of legislative acts",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1781 (Articles of Confederation and Perpetual Union); latest drafted July - September 1787, submitted to the Congress of the Confederation 20 September 1787, submitted for states' ratification 28 September 1787, ratification completed by nine of the 13 states 21 June 1788, effective 4 March 1789",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Donald J. TRUMP (since 20 January 2025)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "withdrew acceptance of compulsory ICJ jurisdiction in 2005; withdrew acceptance of ICCt jurisdiction in 2002",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB (nonregional member), AfDB (nonregional member), ANZUS, APEC, Arctic Council, ARF, ASEAN (dialogue partner), Australia Group, BIS, BSEC (observer), CBSS (observer), CD, CE (observer), CERN (observer), CICA (observer), CP, EAPC, EAS, EBRD, EITI (implementing country), FAO, FATF, G-5, G-7, G-8, G-10, G-20, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSTAH, MONUSCO, NAFTA, NATO, NEA, NSG, OAS, OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Quad, SAARC (observer), SELEC (observer), SICA (observer), SPC, UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNITAR, UNMIL, UNMISS, UNOOSA, UNRWA, UN Security Council (permanent), UNTSO, UPU, USMCA, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Sudan",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.3777,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.2437
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.1
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.05
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.5065
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.716
+    }
+  ],
+  "embedding": [
+    0.37771,
+    0.85714,
+    0.2437,
+    0.1,
+    -0.62518,
+    0.03301,
+    0.68411,
+    0.57787,
+    0.50542,
+    0.24532,
+    -0.26613,
+    0.54031,
+    -0.87442,
+    0.00407,
+    -0.98474,
+    -0.79129
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

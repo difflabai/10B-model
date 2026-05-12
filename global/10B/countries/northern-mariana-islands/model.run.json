@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.northern-mariana-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Northern Mariana Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.northern-mariana-islands.food",
+        "global.10B.countries.northern-mariana-islands.water",
+        "global.10B.countries.northern-mariana-islands.shelter",
+        "global.10B.countries.northern-mariana-islands.health",
+        "global.10B.countries.northern-mariana-islands.safety",
+        "global.10B.countries.northern-mariana-islands.education",
+        "global.10B.countries.northern-mariana-islands.work",
+        "global.10B.countries.northern-mariana-islands.energy",
+        "global.10B.countries.northern-mariana-islands.mobility",
+        "global.10B.countries.northern-mariana-islands.communications",
+        "global.10B.countries.northern-mariana-islands.governance",
+        "global.10B.countries.northern-mariana-islands.environment",
+        "global.10B.countries.northern-mariana-islands.belonging",
+        "global.10B.countries.northern-mariana-islands.meaning",
+        "global.10B.countries.northern-mariana-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

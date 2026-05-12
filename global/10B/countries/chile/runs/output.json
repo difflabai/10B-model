@@ -1,0 +1,47 @@
+{
+  "country": "chile",
+  "category_scores": {
+    "agency": 0.8532,
+    "belonging": 0.6977,
+    "communications": 0.719,
+    "education": 0.8305,
+    "energy": 0.6423,
+    "environment": 0.5195,
+    "food": 0.6812,
+    "governance": 0.7571,
+    "health": 0.74,
+    "meaning": 0.63,
+    "mobility": 0.6875,
+    "safety": 0.6167,
+    "shelter": 0.6695,
+    "water": 0.65,
+    "work": 0.6499
+  },
+  "country_score": 0.6896,
+  "tier_scores": {
+    "subsistence": 0.6715,
+    "development": 0.7058,
+    "agency": 0.6915
+  },
+  "country_embedding": [
+    0.68961,
+    0.83128,
+    0.73703,
+    0.6466,
+    -0.02013,
+    -0.07432,
+    -0.11304,
+    0.22718,
+    -0.05686,
+    0.09007,
+    -0.13935,
+    0.01382,
+    0.06663,
+    -0.02434,
+    0.0879,
+    0.02498
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Chile, the three needs areas with the largest gaps are: environment (0.52), safety (0.62), meaning (0.63).\nThe three strongest areas are: agency (0.85), education (0.83), governance (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

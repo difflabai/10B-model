@@ -1,0 +1,60 @@
+{
+  "country": "Central African Republic",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.5142,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.1562
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.5435
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8683
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.7355
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.106
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.54
+    }
+  ],
+  "embedding": [
+    0.51423,
+    1.0,
+    0.1562,
+    0.5435,
+    0.52181,
+    -0.50243,
+    0.91528,
+    -0.71255,
+    0.16445,
+    -0.63653,
+    -0.32396,
+    0.03676,
+    -0.87176,
+    -0.36052,
+    -0.93893,
+    -0.19182
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Puerto Rico",
+  "category": "meaning",
+  "label": "Meaning, identity, and culture",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: National holiday",
+      "value": "US Independence Day, 4 July (1776); Puerto Rico Constitution Day, 25 July (1952)",
+      "present": true
+    },
+    {
+      "field": "Government: National anthem",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "value": "Puerto Rican spindalis (bird), coqui (frog); national colors: red, white, blue",
+      "present": true
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Roman Catholic 56%, Protestant 33% (largely Pentecostal), other 2%, atheist 1%, none 7% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish, English",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

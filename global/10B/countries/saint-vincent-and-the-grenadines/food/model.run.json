@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.saint-vincent-and-the-grenadines.food",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Vincent and the Grenadines"
+    },
+    "category": {
+      "value": "food"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "food"
+    }
+  },
+  "output": "./runs/output.json"
+}

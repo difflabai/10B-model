@@ -1,0 +1,60 @@
+{
+  "country": "Jordan",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6365,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.51
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.718
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9433
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.3118
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.686
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.63652,
+    0.85714,
+    0.51,
+    0.718,
+    -0.70105,
+    -0.35085,
+    -0.24471,
+    -0.50896,
+    -0.17061,
+    0.6853,
+    -0.89056,
+    0.83365,
+    -0.87515,
+    0.99692,
+    0.00099,
+    -0.15242
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

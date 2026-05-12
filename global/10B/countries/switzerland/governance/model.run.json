@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.switzerland.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Switzerland"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "governance"
+    }
+  },
+  "output": "./runs/output.json"
+}

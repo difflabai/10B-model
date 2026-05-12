@@ -1,0 +1,47 @@
+{
+  "country": "zambia",
+  "category_scores": {
+    "agency": 0.677,
+    "belonging": 0.6963,
+    "communications": 0.7111,
+    "education": 0.7122,
+    "energy": 0.5409,
+    "environment": 0.5589,
+    "food": 0.6028,
+    "governance": 0.7286,
+    "health": 0.5303,
+    "meaning": 0.67,
+    "mobility": 0.4667,
+    "safety": 0.6122,
+    "shelter": 0.6677,
+    "water": 0.6833,
+    "work": 0.5151
+  },
+  "country_score": 0.6249,
+  "tier_scores": {
+    "subsistence": 0.6193,
+    "development": 0.5892,
+    "agency": 0.6662
+  },
+  "country_embedding": [
+    0.62488,
+    0.8653,
+    0.59975,
+    0.65641,
+    0.16994,
+    0.0092,
+    -0.05208,
+    0.14258,
+    -0.16033,
+    -0.02117,
+    0.15679,
+    0.13781,
+    0.0276,
+    0.03199,
+    -0.15153,
+    0.11932
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Zambia, the three needs areas with the largest gaps are: mobility (0.47), work (0.52), health (0.53).\nThe three strongest areas are: governance (0.73), education (0.71), communications (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

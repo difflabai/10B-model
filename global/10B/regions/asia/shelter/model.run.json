@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.shelter",
+        "global.10B.countries.ashmore-and-cartier-islands.shelter",
+        "global.10B.countries.bahrain.shelter",
+        "global.10B.countries.bangladesh.shelter",
+        "global.10B.countries.bhutan.shelter",
+        "global.10B.countries.brunei.shelter",
+        "global.10B.countries.burma.shelter",
+        "global.10B.countries.cambodia.shelter",
+        "global.10B.countries.china.shelter",
+        "global.10B.countries.christmas-island.shelter",
+        "global.10B.countries.cocos-keeling-islands.shelter",
+        "global.10B.countries.gaza-strip.shelter",
+        "global.10B.countries.hong-kong.shelter",
+        "global.10B.countries.india.shelter",
+        "global.10B.countries.indonesia.shelter",
+        "global.10B.countries.iran.shelter",
+        "global.10B.countries.iraq.shelter",
+        "global.10B.countries.israel.shelter",
+        "global.10B.countries.japan.shelter",
+        "global.10B.countries.jordan.shelter",
+        "global.10B.countries.korea-north.shelter",
+        "global.10B.countries.korea-south.shelter",
+        "global.10B.countries.kuwait.shelter",
+        "global.10B.countries.kyrgyzstan.shelter",
+        "global.10B.countries.laos.shelter",
+        "global.10B.countries.lebanon.shelter",
+        "global.10B.countries.macau.shelter",
+        "global.10B.countries.malaysia.shelter",
+        "global.10B.countries.maldives.shelter",
+        "global.10B.countries.mongolia.shelter",
+        "global.10B.countries.nepal.shelter",
+        "global.10B.countries.oman.shelter",
+        "global.10B.countries.pakistan.shelter",
+        "global.10B.countries.paracel-islands.shelter",
+        "global.10B.countries.philippines.shelter",
+        "global.10B.countries.qatar.shelter",
+        "global.10B.countries.saudi-arabia.shelter",
+        "global.10B.countries.singapore.shelter",
+        "global.10B.countries.spratly-islands.shelter",
+        "global.10B.countries.sri-lanka.shelter",
+        "global.10B.countries.syria.shelter",
+        "global.10B.countries.taiwan.shelter",
+        "global.10B.countries.tajikistan.shelter",
+        "global.10B.countries.thailand.shelter",
+        "global.10B.countries.timor-leste.shelter",
+        "global.10B.countries.turkmenistan.shelter",
+        "global.10B.countries.united-arab-emirates.shelter",
+        "global.10B.countries.uzbekistan.shelter",
+        "global.10B.countries.vietnam.shelter",
+        "global.10B.countries.west-bank.shelter",
+        "global.10B.countries.yemen.shelter"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

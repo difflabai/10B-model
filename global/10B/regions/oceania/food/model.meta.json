@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.food",
+  "name": "Oceania — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "Region-level food and nutrition for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country food models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-region-mean",
+      "kind": "scalar",
+      "description": "Mean food score across the region."
+    },
+    {
+      "name": "food-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.food",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

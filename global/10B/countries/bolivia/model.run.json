@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bolivia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bolivia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bolivia.food",
+        "global.10B.countries.bolivia.water",
+        "global.10B.countries.bolivia.shelter",
+        "global.10B.countries.bolivia.health",
+        "global.10B.countries.bolivia.safety",
+        "global.10B.countries.bolivia.education",
+        "global.10B.countries.bolivia.work",
+        "global.10B.countries.bolivia.energy",
+        "global.10B.countries.bolivia.mobility",
+        "global.10B.countries.bolivia.communications",
+        "global.10B.countries.bolivia.governance",
+        "global.10B.countries.bolivia.environment",
+        "global.10B.countries.bolivia.belonging",
+        "global.10B.countries.bolivia.meaning",
+        "global.10B.countries.bolivia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

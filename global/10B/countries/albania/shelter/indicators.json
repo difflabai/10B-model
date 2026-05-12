@@ -1,0 +1,34 @@
+{
+  "country": "Albania",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "64.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "520,000 TIRANA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution, with somewhat higher concentrations of people in the western and central parts of the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

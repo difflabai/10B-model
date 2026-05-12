@@ -1,0 +1,52 @@
+{
+  "country": "Papua New Guinea",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.5183,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.549
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.256
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.51833,
+    0.6,
+    0.549,
+    0.256,
+    -0.62515,
+    0.81353,
+    0.10249,
+    0.32378,
+    0.56545,
+    -0.26049,
+    -0.58148,
+    0.90005,
+    0.30074,
+    0.01295,
+    0.96594,
+    -0.04317
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Tanzania",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.5643,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5635
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3646
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7236
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5986
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4947
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5029
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.6306
+    }
+  ],
+  "embedding": [
+    0.56428,
+    0.9,
+    0.5635,
+    0.3646,
+    0.49044,
+    -0.8837,
+    0.32723,
+    -0.13793,
+    -0.39452,
+    -0.85678,
+    0.33544,
+    0.33611,
+    0.3503,
+    0.1158,
+    -0.40633,
+    0.35457
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

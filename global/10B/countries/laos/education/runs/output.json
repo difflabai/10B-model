@@ -1,0 +1,52 @@
+{
+  "country": "Laos",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5996,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.8162
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.382
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.5
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.59963,
+    1.0,
+    0.8162,
+    0.382,
+    0.04628,
+    -0.14171,
+    -0.66033,
+    -0.8725,
+    0.33962,
+    0.03597,
+    -0.08196,
+    -0.7059,
+    -0.58206,
+    -0.27572,
+    -0.19994,
+    -0.3279
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

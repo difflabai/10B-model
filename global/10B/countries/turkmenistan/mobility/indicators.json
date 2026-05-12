@@ -1,0 +1,59 @@
+{
+  "country": "Turkmenistan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "58,592 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "47,577 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "11,015 km (2002)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "23 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "25 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "7,500 km gas, 1501 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,300 km (2011) (Amu Darya River and Kara Kum Canal are important inland waterways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,113 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "2,457,474 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "16.92 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

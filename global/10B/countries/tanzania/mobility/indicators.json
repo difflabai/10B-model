@@ -1,0 +1,59 @@
+{
+  "country": "Tanzania",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "145,203 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "11,201 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "134,002 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "206 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "311 km gas, 891 km oil, 8 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,594 km (2022) (Lake Tanganyika 673 km, Lake Victoria 337 km, and Lake Nyasa (Lake Malawi) 584 km are the principal avenues of commerce with neighboring countries; the rivers are not navigable)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "4,097 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,481,557 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "390,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

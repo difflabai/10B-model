@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "health"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.health",
+        "global.10B.countries.ashmore-and-cartier-islands.health",
+        "global.10B.countries.bahrain.health",
+        "global.10B.countries.bangladesh.health",
+        "global.10B.countries.bhutan.health",
+        "global.10B.countries.brunei.health",
+        "global.10B.countries.burma.health",
+        "global.10B.countries.cambodia.health",
+        "global.10B.countries.china.health",
+        "global.10B.countries.christmas-island.health",
+        "global.10B.countries.cocos-keeling-islands.health",
+        "global.10B.countries.gaza-strip.health",
+        "global.10B.countries.hong-kong.health",
+        "global.10B.countries.india.health",
+        "global.10B.countries.indonesia.health",
+        "global.10B.countries.iran.health",
+        "global.10B.countries.iraq.health",
+        "global.10B.countries.israel.health",
+        "global.10B.countries.japan.health",
+        "global.10B.countries.jordan.health",
+        "global.10B.countries.korea-north.health",
+        "global.10B.countries.korea-south.health",
+        "global.10B.countries.kuwait.health",
+        "global.10B.countries.kyrgyzstan.health",
+        "global.10B.countries.laos.health",
+        "global.10B.countries.lebanon.health",
+        "global.10B.countries.macau.health",
+        "global.10B.countries.malaysia.health",
+        "global.10B.countries.maldives.health",
+        "global.10B.countries.mongolia.health",
+        "global.10B.countries.nepal.health",
+        "global.10B.countries.oman.health",
+        "global.10B.countries.pakistan.health",
+        "global.10B.countries.paracel-islands.health",
+        "global.10B.countries.philippines.health",
+        "global.10B.countries.qatar.health",
+        "global.10B.countries.saudi-arabia.health",
+        "global.10B.countries.singapore.health",
+        "global.10B.countries.spratly-islands.health",
+        "global.10B.countries.sri-lanka.health",
+        "global.10B.countries.syria.health",
+        "global.10B.countries.taiwan.health",
+        "global.10B.countries.tajikistan.health",
+        "global.10B.countries.thailand.health",
+        "global.10B.countries.timor-leste.health",
+        "global.10B.countries.turkmenistan.health",
+        "global.10B.countries.united-arab-emirates.health",
+        "global.10B.countries.uzbekistan.health",
+        "global.10B.countries.vietnam.health",
+        "global.10B.countries.west-bank.health",
+        "global.10B.countries.yemen.health"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

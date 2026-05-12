@@ -1,0 +1,60 @@
+{
+  "country": "Monaco",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.7907,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.852
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": null
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.79067,
+    0.42857,
+    0.97,
+    0.852,
+    -0.08962,
+    -0.90881,
+    -0.36422,
+    0.59237,
+    -0.5826,
+    -0.11037,
+    0.41219,
+    -0.01827,
+    -0.65759,
+    -0.33422,
+    0.12193,
+    -0.05885
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

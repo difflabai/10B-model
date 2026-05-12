@@ -1,0 +1,39 @@
+{
+  "country": "Tunisia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal except for active government security forces (including the police and the military), people with mental disabilities, people who have served more than three months in prison (criminal cases only), and people given a suspended sentence of more than six months",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Afek TounesAl Badil Al-Tounisi (The Tunisian Alternative)Al-Amal PartyCall for Tunisia Party (Nidaa Tounes)Current of Love (formerly the Popular Petition party)Democratic CurrentDemocratic Patriots' Unified PartyDignity Coalition or Al Karama CoalitionEnnahda Movement (The Renaissance)Ettakatol PartyFree Destourian Party or PDLGreen Tunisia PartyHarakat HakHeart of Tunisia (Qalb Tounes)July 25 MovementLabor and Achievement PartyLong Live Tunisia (Tahya Tounes)Movement of Socialist Democrats or MDSNational Coalition PartyNational Salvation FrontNew Carthage PartyParty of the Democratic Arab VanguardPeople's MovementRepublican Party (Al Joumhouri)The Movement Party (Hizb Harak)Third Republic PartyTunisian Ba'ath MovementVoice of the RepublicWorkers' Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "74% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 state-owned TV stations; 10 private TV stations broadcast locally; satellite TV service is available; state-owned radio network with 2 stations; several dozen private radio stations and community radio stations; transmissions of multiple international broadcasters available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.3% of GDP (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

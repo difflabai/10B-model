@@ -1,0 +1,47 @@
+{
+  "country": "brazil",
+  "category_scores": {
+    "agency": 0.778,
+    "belonging": 0.7091,
+    "communications": 0.7128,
+    "education": 0.8223,
+    "energy": 0.7001,
+    "environment": 0.5902,
+    "food": 0.708,
+    "governance": 0.6857,
+    "health": 0.6713,
+    "meaning": 0.65,
+    "mobility": 0.7567,
+    "safety": 0.5989,
+    "shelter": 0.6697,
+    "water": 0.7,
+    "work": 0.6776
+  },
+  "country_score": 0.6954,
+  "tier_scores": {
+    "subsistence": 0.6696,
+    "development": 0.7339,
+    "agency": 0.6826
+  },
+  "country_embedding": [
+    0.69536,
+    0.89556,
+    0.68112,
+    0.74347,
+    0.21708,
+    0.19202,
+    -0.18991,
+    -0.10424,
+    0.33914,
+    -0.02975,
+    0.13888,
+    -0.10607,
+    0.03649,
+    -0.13714,
+    -0.05935,
+    -0.11891
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Brazil, the three needs areas with the largest gaps are: environment (0.59), safety (0.60), meaning (0.65).\nThe three strongest areas are: education (0.82), agency (0.78), mobility (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

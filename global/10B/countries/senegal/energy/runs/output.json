@@ -1,0 +1,84 @@
+{
+  "country": "Senegal",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.5442,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.5422
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9122
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.3505
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.3308
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6475
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.675
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.48
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.542
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.54418,
+    0.92308,
+    0.5422,
+    0.9122,
+    -0.05895,
+    0.43301,
+    0.51781,
+    -0.66644,
+    0.4555,
+    -0.03291,
+    0.77572,
+    0.87771,
+    -0.25954,
+    -0.4197,
+    0.35705,
+    -0.6036
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Morocco",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Royal Armed Forces (FAR): Royal Moroccan Army (includes the Moroccan Royal Guard), Royal Moroccan Navy (includes Coast Guard, marines), Royal Moroccan Air Force, Royal Moroccan GendarmerieMinistry of Interior: National Police (DGSN), Auxiliary Forces (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4% of GDP (2023 est.)4.5% of GDP (2022 est.)4.5% of GDP (2021 est.)4.5% of GDP (2020 est.)3.4% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "5,250 (Syria) (mid-year 2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

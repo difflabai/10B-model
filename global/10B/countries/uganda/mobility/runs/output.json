@@ -1,0 +1,72 @@
+{
+  "country": "Uganda",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.3928,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3197
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2578
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5306
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5681
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.32
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2035
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.39281,
+    0.7,
+    0.3197,
+    0.2578,
+    -0.85455,
+    0.75457,
+    -0.61154,
+    0.811,
+    -0.81927,
+    -0.83459,
+    0.90011,
+    -0.92288,
+    -0.17678,
+    -0.23323,
+    -0.38119,
+    0.62359
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

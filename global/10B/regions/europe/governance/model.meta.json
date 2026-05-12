@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.governance",
+  "name": "Europe — Governance and rule of law",
+  "kind": "sector_economic",
+  "blurb": "Region-level governance and rule of law for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country governance models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "governance-country-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "governance-region-mean",
+      "kind": "scalar",
+      "description": "Mean governance score across the region."
+    },
+    {
+      "name": "governance-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Governance and rule of law"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.governance",
+      "kind": "consumes_from",
+      "note": "Country-level governance for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.governance",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

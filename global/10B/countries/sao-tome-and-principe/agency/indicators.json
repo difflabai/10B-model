@@ -1,0 +1,39 @@
+{
+  "country": "Sao Tome and Principe",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "BASTA Movement Independent Democratic Action or ADI Movement for the Liberation of Sao Tome and Principe-Social Democratic Party or MLSTP-PSD Movement of Independent Citizens of São Tomé and Príncipe - Socialist Party or MCI-PS National Unity Party or PUN",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "57% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 government-owned TV station; 2 government-owned radio stations; 7 independent local radio stations; transmissions of multiple international broadcasters are available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

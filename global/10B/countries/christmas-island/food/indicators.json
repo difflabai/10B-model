@@ -1,0 +1,34 @@
+{
+  "country": "Christmas Island",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "0% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "1,692",
+      "present": true
+    }
+  ],
+  "coverage": 0.4
+}

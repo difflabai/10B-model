@@ -1,0 +1,52 @@
+{
+  "country": "Liberia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.4952,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.3976
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.49521,
+    0.6,
+    0.3976,
+    0.438,
+    0.33117,
+    0.62625,
+    0.08205,
+    0.28838,
+    -0.91684,
+    -0.32357,
+    -0.08562,
+    0.25539,
+    -0.81344,
+    0.65771,
+    0.15865,
+    0.73291
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

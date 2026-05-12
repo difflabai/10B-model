@@ -1,0 +1,34 @@
+{
+  "country": "Oman",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "88.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.650 million MUSCAT (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of the population is located in and around the Al Hagar Mountains in the north of the country; another smaller cluster is found around the city of Salalah in the far south; most of the country remains sparsely poplulated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "dry desert; hot, humid along coast; hot, dry interior; strong southwest summer monsoon (May to September) in far south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "dry desert; hot, humid along coast; hot, dry interior; strong southwest summer monsoon (May to September) in far south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

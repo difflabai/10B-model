@@ -1,0 +1,39 @@
+{
+  "country": "Montserrat",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Movement for Change and Prosperity or MCAP People's Democratic Movement or PDM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "56.2% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Radio Montserrat, a public radio broadcaster, transmits on 1 station and has a repeater transmission to a second station; repeater transmissions from the GEM Radio Network of Trinidad and Tobago provide another 2 radio stations; cable and satellite TV available (2007)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.4% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

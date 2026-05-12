@@ -1,0 +1,52 @@
+{
+  "country": "Burundi",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6768,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6715
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.6768,
+    1.0,
+    0.6715,
+    0.7375,
+    -0.43072,
+    0.60177,
+    -0.25624,
+    -0.37996,
+    -0.27623,
+    -0.3695,
+    0.31844,
+    0.49102,
+    -0.22274,
+    0.66946,
+    0.45403,
+    0.35106
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

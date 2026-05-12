@@ -1,0 +1,34 @@
+{
+  "country": "Dominica",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "taro, grapefruits, yams, bananas, coconuts, plantains, milk, yautia, sugarcane, oranges (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "34.7% (2018 est.)agricultural land: arable land: 8% (2018 est.)agricultural land: permanent crops: 24% (2018 est.)agricultural land: permanent pasture: 2.7% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "14.8% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "74,661",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

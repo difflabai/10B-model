@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.falkland-islands-islas-malvinas",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Falkland Islands (Islas Malvinas)"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.falkland-islands-islas-malvinas.food",
+        "global.10B.countries.falkland-islands-islas-malvinas.water",
+        "global.10B.countries.falkland-islands-islas-malvinas.shelter",
+        "global.10B.countries.falkland-islands-islas-malvinas.health",
+        "global.10B.countries.falkland-islands-islas-malvinas.safety",
+        "global.10B.countries.falkland-islands-islas-malvinas.education",
+        "global.10B.countries.falkland-islands-islas-malvinas.work",
+        "global.10B.countries.falkland-islands-islas-malvinas.energy",
+        "global.10B.countries.falkland-islands-islas-malvinas.mobility",
+        "global.10B.countries.falkland-islands-islas-malvinas.communications",
+        "global.10B.countries.falkland-islands-islas-malvinas.governance",
+        "global.10B.countries.falkland-islands-islas-malvinas.environment",
+        "global.10B.countries.falkland-islands-islas-malvinas.belonging",
+        "global.10B.countries.falkland-islands-islas-malvinas.meaning",
+        "global.10B.countries.falkland-islands-islas-malvinas.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

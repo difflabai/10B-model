@@ -1,0 +1,52 @@
+{
+  "country": "Timor-Leste",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6,
+    1.0,
+    0.55,
+    0.55,
+    -0.08894,
+    0.10372,
+    -0.3507,
+    -0.20919,
+    0.54949,
+    0.10686,
+    -0.14989,
+    0.46444,
+    -0.49987,
+    0.75656,
+    -0.57241,
+    -0.76629
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

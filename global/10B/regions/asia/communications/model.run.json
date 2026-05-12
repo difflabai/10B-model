@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.communications",
+        "global.10B.countries.ashmore-and-cartier-islands.communications",
+        "global.10B.countries.bahrain.communications",
+        "global.10B.countries.bangladesh.communications",
+        "global.10B.countries.bhutan.communications",
+        "global.10B.countries.brunei.communications",
+        "global.10B.countries.burma.communications",
+        "global.10B.countries.cambodia.communications",
+        "global.10B.countries.china.communications",
+        "global.10B.countries.christmas-island.communications",
+        "global.10B.countries.cocos-keeling-islands.communications",
+        "global.10B.countries.gaza-strip.communications",
+        "global.10B.countries.hong-kong.communications",
+        "global.10B.countries.india.communications",
+        "global.10B.countries.indonesia.communications",
+        "global.10B.countries.iran.communications",
+        "global.10B.countries.iraq.communications",
+        "global.10B.countries.israel.communications",
+        "global.10B.countries.japan.communications",
+        "global.10B.countries.jordan.communications",
+        "global.10B.countries.korea-north.communications",
+        "global.10B.countries.korea-south.communications",
+        "global.10B.countries.kuwait.communications",
+        "global.10B.countries.kyrgyzstan.communications",
+        "global.10B.countries.laos.communications",
+        "global.10B.countries.lebanon.communications",
+        "global.10B.countries.macau.communications",
+        "global.10B.countries.malaysia.communications",
+        "global.10B.countries.maldives.communications",
+        "global.10B.countries.mongolia.communications",
+        "global.10B.countries.nepal.communications",
+        "global.10B.countries.oman.communications",
+        "global.10B.countries.pakistan.communications",
+        "global.10B.countries.paracel-islands.communications",
+        "global.10B.countries.philippines.communications",
+        "global.10B.countries.qatar.communications",
+        "global.10B.countries.saudi-arabia.communications",
+        "global.10B.countries.singapore.communications",
+        "global.10B.countries.spratly-islands.communications",
+        "global.10B.countries.sri-lanka.communications",
+        "global.10B.countries.syria.communications",
+        "global.10B.countries.taiwan.communications",
+        "global.10B.countries.tajikistan.communications",
+        "global.10B.countries.thailand.communications",
+        "global.10B.countries.timor-leste.communications",
+        "global.10B.countries.turkmenistan.communications",
+        "global.10B.countries.united-arab-emirates.communications",
+        "global.10B.countries.uzbekistan.communications",
+        "global.10B.countries.vietnam.communications",
+        "global.10B.countries.west-bank.communications",
+        "global.10B.countries.yemen.communications"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Cameroon",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": "due to civil insecurity, high food prices, and floods - according to a November 2022 analysis (the latest available), about 3.6 million people were estimated to be acutely food insecure between October and December 2022, as a result of conflict, sociopolitical unrest and high food prices, as well as floods that caused people displacements, damaged standing crops and prevented access to fields (2023)",
+      "present": true
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "cassava, plantains, oil palm fruit, maize, taro, tomatoes, sorghum, sugarcane, bananas, vegetables (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "20.6% (2018 est.)agricultural land: arable land: 13.1% (2018 est.)agricultural land: permanent crops: 3.3% (2018 est.)agricultural land: permanent pasture: 4.2% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "17.3% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "30,966,105",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

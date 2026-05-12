@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.burma",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Burma"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.burma.food",
+        "global.10B.countries.burma.water",
+        "global.10B.countries.burma.shelter",
+        "global.10B.countries.burma.health",
+        "global.10B.countries.burma.safety",
+        "global.10B.countries.burma.education",
+        "global.10B.countries.burma.work",
+        "global.10B.countries.burma.energy",
+        "global.10B.countries.burma.mobility",
+        "global.10B.countries.burma.communications",
+        "global.10B.countries.burma.governance",
+        "global.10B.countries.burma.environment",
+        "global.10B.countries.burma.belonging",
+        "global.10B.countries.burma.meaning",
+        "global.10B.countries.burma.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

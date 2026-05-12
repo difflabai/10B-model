@@ -1,0 +1,56 @@
+{
+  "country": "Lesotho",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.782,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.51
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.782,
+    0.83333,
+    0.85,
+    0.85,
+    0.59213,
+    -0.51403,
+    0.22429,
+    -0.00365,
+    0.39049,
+    0.1646,
+    -0.20113,
+    -0.96228,
+    -0.19771,
+    -0.23192,
+    0.64425,
+    -0.71316
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

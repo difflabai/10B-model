@@ -1,0 +1,34 @@
+{
+  "country": "Portugal",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "67.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.001 million LISBON (capital), 1.325 million Porto (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "concentrations are primarily along or near the Atlantic coast; both Lisbon and the second largest city, Porto, are coastal cities",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "maritime temperate; cool and rainy in north, warmer and drier in south",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "maritime temperate; cool and rainy in north, warmer and drier in south",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.saint-vincent-and-the-grenadines.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Vincent and the Grenadines"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "energy"
+    }
+  },
+  "output": "./runs/output.json"
+}

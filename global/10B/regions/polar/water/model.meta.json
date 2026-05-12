@@ -1,0 +1,118 @@
+{
+  "id": "global.10B.regions.polar.water",
+  "name": "Polar / extra-territorial — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Polar / extra-territorial, aggregated across 10 countries.",
+  "mechanism": "Aggregates the per-country water models for the 10 Polar / extra-territorial countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for svalbard"
+    },
+    {
+      "target_model_id": "global.10B.regions.polar",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

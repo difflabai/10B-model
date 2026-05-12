@@ -1,0 +1,72 @@
+{
+  "country": "Palmyra Atoll",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.1,
+  "indicators_scored": 1,
+  "indicators_total": 10,
+  "composite_score": 0.2278,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.22778,
+    0.1,
+    0.2278,
+    0.0,
+    -0.83081,
+    -0.22618,
+    -0.63424,
+    0.38903,
+    0.05348,
+    -0.73709,
+    0.74041,
+    0.50292,
+    0.64556,
+    -0.98117,
+    -0.75366,
+    -0.21007
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

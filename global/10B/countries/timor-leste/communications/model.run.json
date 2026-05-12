@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.timor-leste.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Timor-Leste"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "communications"
+    }
+  },
+  "output": "./runs/output.json"
+}

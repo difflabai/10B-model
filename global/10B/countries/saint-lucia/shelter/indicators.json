@@ -1,0 +1,34 @@
+{
+  "country": "Saint Lucia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "19.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "22,000 CASTRIES (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is found on the periphery of the island, with a larger concentration in the north around the capital of Castries",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical, moderated by northeast trade winds; dry season January to April, rainy season May to August",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical, moderated by northeast trade winds; dry season January to April, rainy season May to August",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,64 @@
+{
+  "country": "Uganda",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "70 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "42.1 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "116,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "10% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "44,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "a series of reforms within Uganda’s telecom sector have provided the country with one of the most competitive markets in the region; in line with the regulator’s licensing requirements by which Uganda-based companies should be broadly owned by Ugandans by mid-2022; fixed-line infrastructure remains poor, with low penetration, and as a result fixed-line broadband penetration is also particularly low; consumers have largely depended on mobile infrastructure to provide voice and broadband services; there is sufficient capacity with LTE infrastructure to match data demand during the next few years; Uganda has anticipated the migration to 5G, having held trials in early 2020 though the roll out of 5G is not expected until later in 2022 (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 1 per 100 and mobile cellular systems teledensity is 66 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 256; satellite earth stations - 1 Intelsat (Atlantic Ocean) and 1 Inmarsat; analog and digital links to Kenya and Tanzania",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "public broadcaster, Uganda Broadcasting Corporation (UBC), operates radio and TV networks; 31 Free-To-Air (FTA) TV stations, 2 digital terrestrial TV stations, 3 cable TV stations, and 5 digital satellite TV stations; 258 operational FM stations",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Wallis and Futuna",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.675,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.75
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.675,
+    0.85714,
+    0.8,
+    0.55,
+    0.59265,
+    -0.98181,
+    -0.81378,
+    -0.87625,
+    -0.59857,
+    0.75094,
+    0.69815,
+    -0.34658,
+    -0.00056,
+    0.98199,
+    0.45464,
+    -0.26613
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

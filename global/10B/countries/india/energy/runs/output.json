@@ -1,0 +1,84 @@
+{
+  "country": "India",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 13,
+  "indicators_total": 13,
+  "composite_score": 0.6183,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.9564
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9616
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.3158
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.505
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.572
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.598
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.552
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.557
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.61829,
+    1.0,
+    0.9564,
+    0.97,
+    -0.89807,
+    -0.66931,
+    0.9743,
+    -0.54824,
+    -0.50619,
+    0.14046,
+    0.67556,
+    0.27553,
+    0.36056,
+    0.21407,
+    0.70529,
+    0.59933
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Portugal",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8052,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9208
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7375
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.8052,
+    0.8,
+    0.9208,
+    0.7375,
+    -0.01265,
+    0.43783,
+    -0.49703,
+    -0.60986,
+    0.12746,
+    0.24837,
+    0.57568,
+    0.88284,
+    -0.92816,
+    0.24141,
+    0.15227,
+    -0.88513
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

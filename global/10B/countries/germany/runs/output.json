@@ -1,0 +1,47 @@
+{
+  "country": "germany",
+  "category_scores": {
+    "agency": 0.814,
+    "belonging": 0.7063,
+    "communications": 0.7648,
+    "education": 0.7781,
+    "energy": 0.6218,
+    "environment": 0.5607,
+    "food": 0.66,
+    "governance": 0.7286,
+    "health": 0.8402,
+    "meaning": 0.63,
+    "mobility": 0.8175,
+    "safety": 0.6367,
+    "shelter": 0.7047,
+    "water": 0.675,
+    "work": 0.7233
+  },
+  "country_score": 0.7108,
+  "tier_scores": {
+    "subsistence": 0.7033,
+    "development": 0.7411,
+    "agency": 0.6879
+  },
+  "country_embedding": [
+    0.71078,
+    0.86974,
+    0.76773,
+    0.70086,
+    0.06345,
+    -0.05414,
+    -0.00571,
+    -0.05628,
+    0.11459,
+    -0.1081,
+    -0.0569,
+    -0.06004,
+    0.26517,
+    -0.24404,
+    -0.05915,
+    -0.04307
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Germany, the three needs areas with the largest gaps are: environment (0.56), energy (0.62), meaning (0.63).\nThe three strongest areas are: health (0.84), mobility (0.82), agency (0.81).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

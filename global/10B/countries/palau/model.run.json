@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.palau",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Palau"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.palau.food",
+        "global.10B.countries.palau.water",
+        "global.10B.countries.palau.shelter",
+        "global.10B.countries.palau.health",
+        "global.10B.countries.palau.safety",
+        "global.10B.countries.palau.education",
+        "global.10B.countries.palau.work",
+        "global.10B.countries.palau.energy",
+        "global.10B.countries.palau.mobility",
+        "global.10B.countries.palau.communications",
+        "global.10B.countries.palau.governance",
+        "global.10B.countries.palau.environment",
+        "global.10B.countries.palau.belonging",
+        "global.10B.countries.palau.meaning",
+        "global.10B.countries.palau.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

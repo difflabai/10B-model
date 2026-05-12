@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.safety",
+        "global.10B.countries.ashmore-and-cartier-islands.safety",
+        "global.10B.countries.bahrain.safety",
+        "global.10B.countries.bangladesh.safety",
+        "global.10B.countries.bhutan.safety",
+        "global.10B.countries.brunei.safety",
+        "global.10B.countries.burma.safety",
+        "global.10B.countries.cambodia.safety",
+        "global.10B.countries.china.safety",
+        "global.10B.countries.christmas-island.safety",
+        "global.10B.countries.cocos-keeling-islands.safety",
+        "global.10B.countries.gaza-strip.safety",
+        "global.10B.countries.hong-kong.safety",
+        "global.10B.countries.india.safety",
+        "global.10B.countries.indonesia.safety",
+        "global.10B.countries.iran.safety",
+        "global.10B.countries.iraq.safety",
+        "global.10B.countries.israel.safety",
+        "global.10B.countries.japan.safety",
+        "global.10B.countries.jordan.safety",
+        "global.10B.countries.korea-north.safety",
+        "global.10B.countries.korea-south.safety",
+        "global.10B.countries.kuwait.safety",
+        "global.10B.countries.kyrgyzstan.safety",
+        "global.10B.countries.laos.safety",
+        "global.10B.countries.lebanon.safety",
+        "global.10B.countries.macau.safety",
+        "global.10B.countries.malaysia.safety",
+        "global.10B.countries.maldives.safety",
+        "global.10B.countries.mongolia.safety",
+        "global.10B.countries.nepal.safety",
+        "global.10B.countries.oman.safety",
+        "global.10B.countries.pakistan.safety",
+        "global.10B.countries.paracel-islands.safety",
+        "global.10B.countries.philippines.safety",
+        "global.10B.countries.qatar.safety",
+        "global.10B.countries.saudi-arabia.safety",
+        "global.10B.countries.singapore.safety",
+        "global.10B.countries.spratly-islands.safety",
+        "global.10B.countries.sri-lanka.safety",
+        "global.10B.countries.syria.safety",
+        "global.10B.countries.taiwan.safety",
+        "global.10B.countries.tajikistan.safety",
+        "global.10B.countries.thailand.safety",
+        "global.10B.countries.timor-leste.safety",
+        "global.10B.countries.turkmenistan.safety",
+        "global.10B.countries.united-arab-emirates.safety",
+        "global.10B.countries.uzbekistan.safety",
+        "global.10B.countries.vietnam.safety",
+        "global.10B.countries.west-bank.safety",
+        "global.10B.countries.yemen.safety"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "curacao",
+  "category_scores": {
+    "agency": 0.7908,
+    "belonging": 0.7059,
+    "communications": 0.6832,
+    "education": 0.8588,
+    "energy": 0.97,
+    "environment": 0.4,
+    "food": 0.5112,
+    "governance": 0.7417,
+    "health": 0.7758,
+    "meaning": 0.725,
+    "mobility": 0.2,
+    "safety": 0.625,
+    "shelter": 0.6685,
+    "water": 0.75,
+    "work": 0.8232
+  },
+  "country_score": 0.6819,
+  "tier_scores": {
+    "subsistence": 0.6661,
+    "development": 0.707,
+    "agency": 0.6727
+  },
+  "country_embedding": [
+    0.68194,
+    0.59052,
+    0.72128,
+    0.51312,
+    0.06087,
+    -0.05445,
+    -0.08555,
+    -0.10753,
+    0.20665,
+    0.12041,
+    -0.07389,
+    0.03956,
+    0.00176,
+    0.18794,
+    0.00048,
+    0.39911
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Curacao, the three needs areas with the largest gaps are: mobility (0.20), environment (0.40), food (0.51).\nThe three strongest areas are: energy (0.97), education (0.86), work (0.82).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.mauritius",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Mauritius"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.mauritius.food",
+        "global.10B.countries.mauritius.water",
+        "global.10B.countries.mauritius.shelter",
+        "global.10B.countries.mauritius.health",
+        "global.10B.countries.mauritius.safety",
+        "global.10B.countries.mauritius.education",
+        "global.10B.countries.mauritius.work",
+        "global.10B.countries.mauritius.energy",
+        "global.10B.countries.mauritius.mobility",
+        "global.10B.countries.mauritius.communications",
+        "global.10B.countries.mauritius.governance",
+        "global.10B.countries.mauritius.environment",
+        "global.10B.countries.mauritius.belonging",
+        "global.10B.countries.mauritius.meaning",
+        "global.10B.countries.mauritius.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

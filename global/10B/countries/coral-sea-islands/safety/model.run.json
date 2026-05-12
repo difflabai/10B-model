@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.coral-sea-islands.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Coral Sea Islands"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "safety"
+    }
+  },
+  "output": "./runs/output.json"
+}

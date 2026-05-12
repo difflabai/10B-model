@@ -1,0 +1,44 @@
+{
+  "country": "Dominican Republic",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the French civil code; Criminal Procedures Code modified in 2004 to include important elements of an accusatory system",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "many previous (38 total); latest proclaimed 13 June 2015",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory; married persons regardless of age can vote; note - members of the armed forces and national police by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Luis Rodolfo ABINADER Corona (since 16 August 2020)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ACS, AOSIS, BCIE, Caricom (observer), CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, MINUSMA, NAM, OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA (associated member), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

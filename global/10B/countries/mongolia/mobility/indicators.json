@@ -1,0 +1,59 @@
+{
+  "country": "Mongolia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "113,200 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "10,600 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "102,600 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "35 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "580 km (2010) (the only waterway in operation is Lake Hovsgol) (135 km); Selenge River (270 km) and Orhon River (175 km) are navigable but carry little traffic; lakes and rivers ice-free from May to September)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,815 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "670,360 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "7.82 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

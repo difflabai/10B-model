@@ -1,0 +1,39 @@
+{
+  "country": "Burkina Faso",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of Burkina Faso (FABF; aka National Armed Forces (FAN), aka Defense and Security Forces (Forces de Défense et de Sécurité or FDS)): Army of Burkina Faso (L’Armee de Terre, LAT), Air Force of Burkina Faso (Force Aerienne de Burkina Faso), National Gendarmerie, National Fire Brigade (Brigade Nationale de Sapeurs-Pompiers or BNSP); Homeland Defense Volunteers (Forcés de Volontaires de Défense pour la Patrie or VDP)Ministry of Territorial Administration, Decentralization and Security (Ministère de l'Administration Territoriale, de la Décentralisation et de la Sécurité): National Police (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4% of GDP (2023 est.)2.9% of GDP (2022 est.)2.4% of GDP (2021 est.)2.4% of GDP (2020 est.)2.2% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "36,372 (Mali) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

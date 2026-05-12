@@ -1,0 +1,59 @@
+{
+  "country": "Finland",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "108,637 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "98 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "15 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,288 km gas transmission pipes, 1,976 km distribution pipes (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "8,000 km (2013) (includes Saimaa Canal system of 3,577 km; southern part leased from Russia; water transport used frequently in the summer and widely replaced with sledges on the ice in winter; there are 187,888 lakes in Finland that cover 31,500 km); Finland also maintains 8,200 km of coastal fairways",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "5,918 km (2020) 3,349 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "13,364,839 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "957.64 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

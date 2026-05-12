@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.water",
+  "name": "Africa — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country water models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

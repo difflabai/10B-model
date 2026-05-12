@@ -1,0 +1,47 @@
+{
+  "country": "bahamas-the",
+  "category_scores": {
+    "agency": 0.7684,
+    "belonging": 0.6451,
+    "communications": 0.7102,
+    "education": 0.551,
+    "energy": 0.504,
+    "environment": 0.5926,
+    "food": 0.497,
+    "governance": 0.7143,
+    "health": 0.6796,
+    "meaning": 0.63,
+    "mobility": 0.4465,
+    "safety": 0.6283,
+    "shelter": 0.6239,
+    "water": 0.65,
+    "work": 0.7223
+  },
+  "country_score": 0.6242,
+  "tier_scores": {
+    "subsistence": 0.6158,
+    "development": 0.5868,
+    "agency": 0.6701
+  },
+  "country_embedding": [
+    0.62422,
+    0.74129,
+    0.66093,
+    0.55459,
+    -0.0629,
+    0.01637,
+    0.06029,
+    -0.10503,
+    -0.24312,
+    -0.28565,
+    -0.2915,
+    0.08924,
+    0.03545,
+    0.03507,
+    -0.11811,
+    0.14772
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bahamas The, the three needs areas with the largest gaps are: mobility (0.45), food (0.50), energy (0.50).\nThe three strongest areas are: agency (0.77), work (0.72), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

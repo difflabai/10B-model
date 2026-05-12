@@ -1,0 +1,39 @@
+{
+  "country": "Thailand",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Mae Nam Khong (Mekong) (shared with China [s], Burma, Laos, Cambodia, and Vietnam [m]) - 4,350 km; Salween (shared with China [s] and Burma [m]) - 3,060 km; Mun - 1,162 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": "Thalesap Songkhla - 1,290 sq km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: Salween (271,914 sq km)Pacific Ocean drainage: Mekong (805,604 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy, warm, cloudy southwest monsoon (mid-May to September); dry, cool northeast monsoon (November to mid-March); southern isthmus always hot and humid",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Montserrat",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7253,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5889
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7875
+    }
+  ],
+  "embedding": [
+    0.72527,
+    0.83333,
+    0.85,
+    0.65,
+    -0.37905,
+    -0.58935,
+    0.15349,
+    -0.27919,
+    0.5266,
+    -0.67907,
+    -0.52889,
+    0.22338,
+    0.56728,
+    0.56732,
+    0.03066,
+    -0.31664
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

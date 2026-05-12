@@ -1,0 +1,84 @@
+{
+  "country": "Togo",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.5125,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.4255
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9105
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.2125
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.33
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.545
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.6525
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.512
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.51255,
+    0.84615,
+    0.4255,
+    0.9105,
+    0.52013,
+    0.66696,
+    0.1938,
+    0.74115,
+    0.37581,
+    -0.58965,
+    -0.4388,
+    0.5939,
+    -0.05177,
+    -0.74343,
+    -0.16301,
+    -0.21669
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

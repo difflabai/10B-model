@@ -1,0 +1,34 @@
+{
+  "country": "Bhutan",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "70.9%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7% of GDP (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "13 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Sharchopkha 28%, Dzongkha (official) 24%, Lhotshamkha 22%, other 26% (includes foreign languages) (2005 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

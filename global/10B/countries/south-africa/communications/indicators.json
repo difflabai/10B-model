@@ -1,0 +1,64 @@
+{
+  "country": "South Africa",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "167 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "108 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "2 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "1.353 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "3 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "2.15 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "South Africa’s telecom sector boasts one of the most advanced infrastructures on the continent; the focus in recent years has been on back haul capacity and on fiber and LTE networks to extend and improve internet service connectivity; several satellite solutions also appeared in 2023, aimed at providing additional backhaul and improving connectivity in rural areas; the mobile sector has developed strongly in recent years, partly due to the poor availability and level of service of fixed-line networks, which meant that many people had no alternative to mobile networks for voice and data services (2024)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line is 2 per 100 persons and mobile-cellular is 167 telephones per 100 persons (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 27; landing points for the WACS, ACE, SAFE, SAT-3, Equiano, SABR, SAEx1, SAEx2, IOX Cable System, METISS, EASSy, and SEACOM/ Tata TGN-Eurasia fiber-optic submarine cable systems connecting South Africa, East Africa, West Africa, Europe, Southeast Asia, Asia, South America, Indian Ocean Islands, and the US; satellite earth stations - 3 Intelsat (1 Indian Ocean and 2 Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the South African Broadcasting Corporation (SABC) operates 6 free-to-air TV stations; e.tv, a private station, is accessible to more than half the population; multiple subscription TV services provide a mix of local and international channels; well-developed mix of public and private radio stations at the national, regional, and local levels; the SABC radio network, state-owned and controlled but nominally independent, operates 18 stations, one for each of the 11 official languages, 4 community stations, and 3 commercial stations; more than 100 community-based stations extend coverage to rural areas",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

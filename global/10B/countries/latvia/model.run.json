@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.latvia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Latvia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.latvia.food",
+        "global.10B.countries.latvia.water",
+        "global.10B.countries.latvia.shelter",
+        "global.10B.countries.latvia.health",
+        "global.10B.countries.latvia.safety",
+        "global.10B.countries.latvia.education",
+        "global.10B.countries.latvia.work",
+        "global.10B.countries.latvia.energy",
+        "global.10B.countries.latvia.mobility",
+        "global.10B.countries.latvia.communications",
+        "global.10B.countries.latvia.governance",
+        "global.10B.countries.latvia.environment",
+        "global.10B.countries.latvia.belonging",
+        "global.10B.countries.latvia.meaning",
+        "global.10B.countries.latvia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

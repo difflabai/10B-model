@@ -1,0 +1,84 @@
+{
+  "country": "Afghanistan",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.6825,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.7452
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9003
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.7566
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.846
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.615
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.912
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.68251,
+    0.76923,
+    0.7452,
+    0.9003,
+    -0.78399,
+    -0.98746,
+    -0.42028,
+    0.81131,
+    0.4081,
+    0.99466,
+    -0.62277,
+    0.7655,
+    -0.11687,
+    -0.83749,
+    -0.77881,
+    0.91525
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

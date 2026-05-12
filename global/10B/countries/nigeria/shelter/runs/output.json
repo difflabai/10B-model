@@ -1,0 +1,52 @@
+{
+  "country": "Nigeria",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6994,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6477
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.69942,
+    1.0,
+    0.6477,
+    0.75,
+    0.07631,
+    0.9848,
+    0.57339,
+    0.40908,
+    -0.61407,
+    -0.6925,
+    0.82815,
+    0.02599,
+    0.46377,
+    -0.33495,
+    0.01353,
+    0.11299
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

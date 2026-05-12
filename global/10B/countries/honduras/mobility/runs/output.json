@@ -1,0 +1,72 @@
+{
+  "country": "Honduras",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4441,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2841
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2441
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7064
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4658
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5395
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2867
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.2731
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.6472
+    }
+  ],
+  "embedding": [
+    0.44411,
+    0.9,
+    0.2841,
+    0.2441,
+    -0.1783,
+    -0.46798,
+    -0.01003,
+    0.7727,
+    0.49398,
+    0.31566,
+    -0.05632,
+    0.12105,
+    -0.34694,
+    -0.49966,
+    0.46429,
+    -0.8211
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

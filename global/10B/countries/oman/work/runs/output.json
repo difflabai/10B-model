@@ -1,0 +1,60 @@
+{
+  "country": "Oman",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.783,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8364
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.581
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8975
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.78298,
+    0.71429,
+    0.8364,
+    0.581,
+    0.17186,
+    -0.01088,
+    0.96506,
+    -0.22722,
+    0.82663,
+    -0.59777,
+    0.40175,
+    -0.42492,
+    0.01012,
+    0.53289,
+    0.59814,
+    0.39168
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

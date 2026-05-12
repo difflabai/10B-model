@@ -1,0 +1,47 @@
+{
+  "country": "andorra",
+  "category_scores": {
+    "agency": 0.7512,
+    "belonging": 0.6479,
+    "communications": 0.7495,
+    "education": 0.6953,
+    "energy": 0.97,
+    "environment": 0.5574,
+    "food": 0.6313,
+    "governance": 0.7286,
+    "health": 0.7841,
+    "meaning": 0.63,
+    "mobility": 0.3066,
+    "safety": 0.65,
+    "shelter": 0.6697,
+    "water": 0.65,
+    "work": 0.7764
+  },
+  "country_score": 0.6799,
+  "tier_scores": {
+    "subsistence": 0.677,
+    "development": 0.6996,
+    "agency": 0.663
+  },
+  "country_embedding": [
+    0.67987,
+    0.67053,
+    0.72025,
+    0.53172,
+    0.02075,
+    -0.09847,
+    0.00601,
+    0.19585,
+    -0.06922,
+    0.08594,
+    -0.0795,
+    -0.02099,
+    0.05334,
+    -0.03628,
+    -0.00477,
+    0.01823
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Andorra, the three needs areas with the largest gaps are: mobility (0.31), environment (0.56), meaning (0.63).\nThe three strongest areas are: energy (0.97), health (0.78), work (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

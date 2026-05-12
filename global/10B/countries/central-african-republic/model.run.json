@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.central-african-republic",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Central African Republic"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.central-african-republic.food",
+        "global.10B.countries.central-african-republic.water",
+        "global.10B.countries.central-african-republic.shelter",
+        "global.10B.countries.central-african-republic.health",
+        "global.10B.countries.central-african-republic.safety",
+        "global.10B.countries.central-african-republic.education",
+        "global.10B.countries.central-african-republic.work",
+        "global.10B.countries.central-african-republic.energy",
+        "global.10B.countries.central-african-republic.mobility",
+        "global.10B.countries.central-african-republic.communications",
+        "global.10B.countries.central-african-republic.governance",
+        "global.10B.countries.central-african-republic.environment",
+        "global.10B.countries.central-african-republic.belonging",
+        "global.10B.countries.central-african-republic.meaning",
+        "global.10B.countries.central-african-republic.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Switzerland",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7083,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6832
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7083,
+    1.0,
+    0.6832,
+    0.65,
+    -0.49105,
+    -0.4605,
+    -0.12212,
+    0.4118,
+    0.63934,
+    -0.93921,
+    0.52685,
+    -0.55483,
+    -0.08394,
+    -0.13536,
+    -0.10835,
+    0.38988
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

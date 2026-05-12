@@ -1,0 +1,44 @@
+{
+  "country": "Tuvalu",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "water needs met by catchment systems; the use of sand as a building material has led to beachhead erosion; deforestation; damage to coral reefs from increasing ocean temperatures and acidification; rising sea levels threaten water table; in 2000, the government appealed to Australia and New Zealand to take in Tuvaluans if rising sea levels should make evacuation necessary",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Whaling",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "6.81 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "0.01 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "0.01 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "33.3% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "3,989 tons (2011 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

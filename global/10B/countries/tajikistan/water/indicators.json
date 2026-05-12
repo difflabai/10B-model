@@ -1,0 +1,39 @@
+{
+  "country": "Tajikistan",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Syr Darya (shared with Kyrgyzstan [s], Uzbekistan, and Kazakhstan [m]) - 3,078 km; Amu Darya river source (shared with Turkmenistan, Afghanistan, and Uzbekistan [m]) - 2,620 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Internal (endorheic basin) drainage: Tarim Basin (1,152,448 sq km), (Aral Sea Basin) Amu Darya (534,739 sq km), Syr Darya (782,617 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mid-latitude continental, hot summers, mild winters; semiarid to polar in Pamir Mountains",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

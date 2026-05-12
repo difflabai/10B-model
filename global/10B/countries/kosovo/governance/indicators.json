@@ -1,0 +1,44 @@
+{
+  "country": "Kosovo",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; note - the European Union Rule of Law Mission (EULEX) retained limited executive powers within the Kosovo judiciary for complex cases from 2008 to 2018",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1974, 1990; latest (postindependence) draft finalized 2 April 2008, signed 7 April 2008, ratified 9 April 2008, entered into force 15 June 2008; note - amendment 24, passed by the Assembly in August 2015, established the Kosovo Relocated Specialist Institution, referred to as the Kosovo Specialist Chamber or \"Specialist Court,\" to try war crimes, crimes against humanity, and other crimes under Kosovo law committed during and immediately after the Kosovo War (1998-2000)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Vjosa OSMANI-Sadriu (since 4 April 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "FIFA, IBRD, IDA, IFC, IMF, IOC, ITUC (NGOs), MIGA, OIF (observer)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

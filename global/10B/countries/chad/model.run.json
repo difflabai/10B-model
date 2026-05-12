@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.chad",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Chad"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.chad.food",
+        "global.10B.countries.chad.water",
+        "global.10B.countries.chad.shelter",
+        "global.10B.countries.chad.health",
+        "global.10B.countries.chad.safety",
+        "global.10B.countries.chad.education",
+        "global.10B.countries.chad.work",
+        "global.10B.countries.chad.energy",
+        "global.10B.countries.chad.mobility",
+        "global.10B.countries.chad.communications",
+        "global.10B.countries.chad.governance",
+        "global.10B.countries.chad.environment",
+        "global.10B.countries.chad.belonging",
+        "global.10B.countries.chad.meaning",
+        "global.10B.countries.chad.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

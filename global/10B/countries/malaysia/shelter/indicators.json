@@ -1,0 +1,34 @@
+{
+  "country": "Malaysia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "78.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "8.622 million KUALA LUMPUR (capital), 1.086 million Johor Bahru, 857,000 Ipoh (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a highly uneven distribution with over 80% of the population residing on the Malay Peninsula",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; annual southwest (April to October) and northeast (October to February) monsoons",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; annual southwest (April to October) and northeast (October to February) monsoons",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

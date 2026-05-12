@@ -1,0 +1,92 @@
+{
+  "country": "brazil",
+  "cluster_id": 1,
+  "cluster_label": "avg 0.69; strongest in [agency, education, health], weakest in [environment, energy, safety]",
+  "nearest_peers": [
+    {
+      "country": "mexico",
+      "distance": 0.1468
+    },
+    {
+      "country": "chile",
+      "distance": 0.1831
+    },
+    {
+      "country": "hungary",
+      "distance": 0.1945
+    },
+    {
+      "country": "france",
+      "distance": 0.2059
+    },
+    {
+      "country": "russia",
+      "distance": 0.2107
+    },
+    {
+      "country": "united-kingdom",
+      "distance": 0.217
+    },
+    {
+      "country": "italy",
+      "distance": 0.2214
+    },
+    {
+      "country": "colombia",
+      "distance": 0.2225
+    },
+    {
+      "country": "spain",
+      "distance": 0.2225
+    },
+    {
+      "country": "thailand",
+      "distance": 0.2276
+    }
+  ],
+  "most_different": [
+    {
+      "country": "south-sudan",
+      "distance": 0.7373
+    },
+    {
+      "country": "somalia",
+      "distance": 0.7374
+    },
+    {
+      "country": "haiti",
+      "distance": 0.7418
+    },
+    {
+      "country": "central-african-republic",
+      "distance": 0.7453
+    },
+    {
+      "country": "sint-maarten",
+      "distance": 0.7501
+    }
+  ],
+  "cluster_peers": [
+    "argentina",
+    "australia",
+    "austria",
+    "belgium",
+    "canada",
+    "chile",
+    "china",
+    "colombia",
+    "croatia",
+    "czechia",
+    "denmark",
+    "finland",
+    "france",
+    "germany",
+    "greece",
+    "hungary",
+    "india",
+    "indonesia",
+    "iran",
+    "italy"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

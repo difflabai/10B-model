@@ -1,0 +1,47 @@
+{
+  "country": "midway-islands",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": 0.4,
+    "environment": null,
+    "food": 0.55,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.2278,
+    "safety": null,
+    "shelter": null,
+    "water": null,
+    "work": null
+  },
+  "country_score": 0.457,
+  "tier_scores": {
+    "subsistence": 0.55,
+    "development": 0.3139,
+    "agency": 0.65
+  },
+  "country_embedding": [
+    0.12185,
+    0.03465,
+    0.12185,
+    0.0,
+    0.07724,
+    -0.00085,
+    0.08835,
+    -0.10257,
+    -0.05329,
+    -0.02178,
+    -0.07711,
+    0.04217,
+    -0.23285,
+    -0.20388,
+    -0.13728,
+    0.14526
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Midway Islands, the three needs areas with the largest gaps are: mobility (0.23), energy (0.40), food (0.55).\nThe three strongest areas are: governance (0.65), food (0.55), energy (0.40).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

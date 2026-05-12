@@ -1,0 +1,52 @@
+{
+  "country": "Ghana",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6785,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.664
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6785,
+    1.0,
+    0.664,
+    0.65,
+    -0.27477,
+    -0.25231,
+    -0.33776,
+    0.77328,
+    -0.17885,
+    0.01039,
+    0.08809,
+    -0.33733,
+    0.93014,
+    -0.26714,
+    -0.66992,
+    -0.45782
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

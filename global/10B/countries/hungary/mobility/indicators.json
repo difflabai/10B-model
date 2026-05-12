@@ -1,0 +1,59 @@
+{
+  "country": "Hungary",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "216,443 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "109 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "14 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "5,874 km gas (high-pressure transmission system), 83,732 km gas (low-pressure distribution network), 850 km oil, 1,200 km refined products (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,622 km (2011) (most on Danube River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "7,687 km (2020) 3,111 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "31,226,848 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Kosovo",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for the Future of Kosovo or AAKAshkali Party for Integration or PAICivic Initiative for Freedom, Justice, and SurvivalDemocratic League of Kosovo or LDKDemocratic Party of Kosovo or PDKNew Democratic Initiative of Kosovo or IRDKNew Democratic Party or NDS Progressive Movement of Kosovar Roma or LPRKRomani InitiativeSelf-Determination Movement (Lëvizja Vetevendosje or Vetevendosie) or LVV or VVSerb List or SLSocial Democratic Union or SDUTurkish Democratic Party of Kosovo or KDTPUnique Gorani Party or JGPVakat Coalition or VAKAT",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "89% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

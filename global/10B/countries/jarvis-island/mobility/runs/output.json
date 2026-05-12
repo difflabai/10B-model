@@ -1,0 +1,72 @@
+{
+  "country": "Jarvis Island",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.1,
+  "indicators_scored": 1,
+  "indicators_total": 10,
+  "composite_score": 0.2278,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.22778,
+    0.1,
+    0.2278,
+    0.0,
+    0.54058,
+    0.45666,
+    0.60687,
+    0.02388,
+    0.80175,
+    0.05901,
+    -0.34093,
+    -0.3341,
+    0.73019,
+    0.84411,
+    0.0381,
+    0.28701
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

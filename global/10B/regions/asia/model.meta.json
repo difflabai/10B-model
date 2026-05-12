@@ -1,0 +1,407 @@
+{
+  "id": "global.10B.regions.asia",
+  "name": "Asia — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Asia aggregating 51 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 51 country needs profiles for Asia into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Asia countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Asia countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Asia countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Asia countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Asia countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Asia countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Asia countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Asia countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Asia countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Asia countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Asia countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Asia countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Asia countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Asia countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: yemen"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

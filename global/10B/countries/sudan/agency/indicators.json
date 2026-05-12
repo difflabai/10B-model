@@ -1,0 +1,39 @@
+{
+  "country": "Sudan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Unionist PartyDemocratic Unionist Party or DUPFederal Umma PartyMuslim Brotherhood or MBNational Congress Party or NCPNational Umma Party or NUPPopular Congress Party or PCPReform Movement NowSudan National FrontSudanese Communist Party or SCPSudanese Congress Party or SCoPUmma Party for Reform and DevelopmentUnionist Movement Party or UMP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "29% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Following the establishment of Sudan’s transitional government in August 2019, government-owned broadcasters became increasingly independent from government and military control. Following the October 2021 military takeover, additional restrictions were imposed on these government-owned broadcasters, which now practice a heightened degree of self-censorship but still operate more independently than in the pre-2019 environment. (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

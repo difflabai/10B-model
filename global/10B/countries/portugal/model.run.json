@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.portugal",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Portugal"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.portugal.food",
+        "global.10B.countries.portugal.water",
+        "global.10B.countries.portugal.shelter",
+        "global.10B.countries.portugal.health",
+        "global.10B.countries.portugal.safety",
+        "global.10B.countries.portugal.education",
+        "global.10B.countries.portugal.work",
+        "global.10B.countries.portugal.energy",
+        "global.10B.countries.portugal.mobility",
+        "global.10B.countries.portugal.communications",
+        "global.10B.countries.portugal.governance",
+        "global.10B.countries.portugal.environment",
+        "global.10B.countries.portugal.belonging",
+        "global.10B.countries.portugal.meaning",
+        "global.10B.countries.portugal.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

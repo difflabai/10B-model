@@ -1,0 +1,56 @@
+{
+  "country": "Belgium",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.8805,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.872
+    }
+  ],
+  "embedding": [
+    0.8805,
+    0.66667,
+    0.85,
+    0.95,
+    0.63577,
+    0.75946,
+    -0.72168,
+    -0.89123,
+    0.89657,
+    -0.29293,
+    -0.91369,
+    0.67816,
+    -0.13976,
+    -0.8551,
+    0.76309,
+    0.68975
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.new-zealand",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "New Zealand"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.new-zealand.food",
+        "global.10B.countries.new-zealand.water",
+        "global.10B.countries.new-zealand.shelter",
+        "global.10B.countries.new-zealand.health",
+        "global.10B.countries.new-zealand.safety",
+        "global.10B.countries.new-zealand.education",
+        "global.10B.countries.new-zealand.work",
+        "global.10B.countries.new-zealand.energy",
+        "global.10B.countries.new-zealand.mobility",
+        "global.10B.countries.new-zealand.communications",
+        "global.10B.countries.new-zealand.governance",
+        "global.10B.countries.new-zealand.environment",
+        "global.10B.countries.new-zealand.belonging",
+        "global.10B.countries.new-zealand.meaning",
+        "global.10B.countries.new-zealand.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

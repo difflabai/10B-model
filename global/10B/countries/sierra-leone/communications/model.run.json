@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.sierra-leone.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sierra Leone"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "communications"
+    }
+  },
+  "output": "./runs/output.json"
+}

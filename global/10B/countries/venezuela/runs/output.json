@@ -1,0 +1,47 @@
+{
+  "country": "venezuela",
+  "category_scores": {
+    "agency": 0.7001,
+    "belonging": 0.7369,
+    "communications": 0.6407,
+    "education": 0.6455,
+    "energy": 0.643,
+    "environment": 0.5696,
+    "food": 0.685,
+    "governance": 0.7429,
+    "health": 0.5549,
+    "meaning": 0.63,
+    "mobility": 0.5664,
+    "safety": 0.5556,
+    "shelter": 0.6941,
+    "water": 0.65,
+    "work": 0.4073
+  },
+  "country_score": 0.6281,
+  "tier_scores": {
+    "subsistence": 0.6279,
+    "development": 0.5806,
+    "agency": 0.6759
+  },
+  "country_embedding": [
+    0.62813,
+    0.82928,
+    0.68965,
+    0.6009,
+    0.28143,
+    -0.09139,
+    -0.17786,
+    -0.03047,
+    -0.20976,
+    0.13531,
+    0.08569,
+    -0.02039,
+    0.10783,
+    0.30762,
+    -0.21083,
+    0.11053
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Venezuela, the three needs areas with the largest gaps are: work (0.41), health (0.55), safety (0.56).\nThe three strongest areas are: governance (0.74), belonging (0.74), agency (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

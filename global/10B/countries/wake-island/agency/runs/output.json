@@ -1,0 +1,56 @@
+{
+  "country": "Wake Island",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.16667,
+    0.65,
+    0.0,
+    0.87073,
+    0.79416,
+    -0.58782,
+    -0.97858,
+    0.68142,
+    0.65371,
+    0.93845,
+    0.34908,
+    -0.69995,
+    -0.45095,
+    -0.82565,
+    -0.79519
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

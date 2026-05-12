@@ -1,0 +1,39 @@
+{
+  "country": "Ireland",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Aontu Solidarity-People Before Profit or PBP-S Fianna Fail Fine Gael Green Party Human Dignity AllianceIndependent Ireland Labor (Labour) Party100% Redress Right to Change or RTCSinn Fein Social Democrats Socialist PartyThe Workers' Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "96% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "publicly owned broadcaster Radio Telefis Eireann (RTE) operates 4 TV stations; commercial TV stations are available; about 75% of households utilize multi-channel satellite and TV services that provide access to a wide range of stations; RTE operates 4 national radio stations and has launched digital audio broadcasts on several stations; a number of commercial broadcast stations operate at the national, regional, and local levels (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

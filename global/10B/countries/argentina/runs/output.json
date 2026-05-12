@@ -1,0 +1,47 @@
+{
+  "country": "argentina",
+  "category_scores": {
+    "agency": 0.8295,
+    "belonging": 0.7389,
+    "communications": 0.7226,
+    "education": 0.8091,
+    "energy": 0.5703,
+    "environment": 0.5159,
+    "food": 0.7214,
+    "governance": 0.7429,
+    "health": 0.7307,
+    "meaning": 0.65,
+    "mobility": 0.6373,
+    "safety": 0.6189,
+    "shelter": 0.69,
+    "water": 0.65,
+    "work": 0.533
+  },
+  "country_score": 0.6774,
+  "tier_scores": {
+    "subsistence": 0.6822,
+    "development": 0.6545,
+    "agency": 0.6954
+  },
+  "country_embedding": [
+    0.67736,
+    0.88974,
+    0.76001,
+    0.68045,
+    0.01225,
+    0.26788,
+    0.04075,
+    0.04512,
+    -0.0935,
+    0.15537,
+    -0.24603,
+    -0.00629,
+    0.11196,
+    -0.04331,
+    -0.04636,
+    -0.3725
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Argentina, the three needs areas with the largest gaps are: environment (0.52), work (0.53), energy (0.57).\nThe three strongest areas are: agency (0.83), education (0.81), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

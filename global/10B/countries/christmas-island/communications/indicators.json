@@ -1,0 +1,64 @@
+{
+  "country": "Christmas Island",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "78.6% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "internet access on Christmas Island is provided by satellite; improvements through the Regional Connectivity Program to the macro and small cell mobile sites will provide new and improved mobile, voice and data connectivity for residents and visitors; the upgrade will also support local businesses and community facilities, enabling increased residential access to essential services such as telehealth and education (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "improvements to Christmas Island include an upgrade to the macro cell base stations and deploy a new macro cell base station at the airport (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "international code - 61 8; ASC submarine cable to Singapore and Australia; satellite earth station - 1 (Intelsat provides telephone and telex service) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 community radio station; satellite broadcasts of several Australian radio and TV stations (2017)",
+      "present": true
+    }
+  ],
+  "coverage": 0.45454545454545453
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Aruba",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy; part of the Kingdom of the Netherlands",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the Dutch civil code",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1947, 1955; latest drafted and approved August 1985, enacted 1 January 1986 (regulates governance of Aruba but is subordinate to the Charter for the Kingdom of the Netherlands); in 1986, Aruba became a semi-autonomous entity within the Kingdom of the Netherlands",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King WILLEM-ALEXANDER of the Netherlands (since 30 April 2013); represented by Governor General Alfonso BOEKHOUDT (since 1 January 2017)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACS (associate), Caricom (observer), FATF, ILO, IMF, Interpol, IOC, ITUC (NGOs), UNESCO (associate), UNWTO (associate), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

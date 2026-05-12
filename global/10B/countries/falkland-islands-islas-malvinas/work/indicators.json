@@ -1,0 +1,44 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$70,800 (2015 est.)$63,000 (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "25.5% (2015 est.)-1.8% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "1.4% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "1,850 (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "1% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "36 (2015)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

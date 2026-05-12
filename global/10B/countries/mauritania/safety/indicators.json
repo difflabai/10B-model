@@ -1,0 +1,39 @@
+{
+  "country": "Mauritania",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Mauritanian Armed Forces (aka Armée Nationale Mauritanienne): National Army, National Navy (Marine Nationale), Mauritania Islamic Air Force; Gendarmerie (Ministry of Defense)Ministry of Interior and Decentralization: National Police, National Guard (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.5% of GDP (2023 est.)2.5% of GDP (2022 est.)2.4% of GDP (2021 est.)2.5% of GDP (2020 est.)2.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "26,000 (Sahrawis) (2021); 104,080 (Mali) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

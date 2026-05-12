@@ -1,0 +1,47 @@
+{
+  "country": "jamaica",
+  "category_scores": {
+    "agency": 0.786,
+    "belonging": 0.6461,
+    "communications": 0.6838,
+    "education": 0.7162,
+    "energy": 0.5285,
+    "environment": 0.545,
+    "food": 0.7165,
+    "governance": 0.7429,
+    "health": 0.6805,
+    "meaning": 0.63,
+    "mobility": 0.4138,
+    "safety": 0.705,
+    "shelter": 0.627,
+    "water": 0.65,
+    "work": 0.656
+  },
+  "country_score": 0.6485,
+  "tier_scores": {
+    "subsistence": 0.6758,
+    "development": 0.5997,
+    "agency": 0.67
+  },
+  "country_embedding": [
+    0.64849,
+    0.78017,
+    0.68653,
+    0.63801,
+    -0.23094,
+    -0.0281,
+    -0.174,
+    -0.32623,
+    -0.15089,
+    0.0402,
+    -0.14995,
+    0.06784,
+    0.14081,
+    0.06013,
+    0.00987,
+    0.01069
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Jamaica, the three needs areas with the largest gaps are: mobility (0.41), energy (0.53), environment (0.55).\nThe three strongest areas are: agency (0.79), governance (0.74), food (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

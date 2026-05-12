@@ -1,0 +1,52 @@
+{
+  "country": "Pakistan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5637,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.4825
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.396
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.44
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.5637,
+    1.0,
+    0.4825,
+    0.396,
+    0.57201,
+    -0.98016,
+    0.9288,
+    0.97678,
+    -0.28173,
+    0.53268,
+    0.79351,
+    -0.55395,
+    0.24953,
+    -0.29818,
+    -0.70217,
+    -0.89554
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

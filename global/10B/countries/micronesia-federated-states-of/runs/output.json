@@ -1,0 +1,47 @@
+{
+  "country": "micronesia-federated-states-of",
+  "category_scores": {
+    "agency": 0.7117,
+    "belonging": 0.6707,
+    "communications": 0.569,
+    "education": 0.85,
+    "energy": 0.6744,
+    "environment": 0.5916,
+    "food": 0.6227,
+    "governance": 0.7143,
+    "health": 0.6024,
+    "meaning": 0.65,
+    "mobility": 0.2833,
+    "safety": 0.75,
+    "shelter": 0.6348,
+    "water": 0.75,
+    "work": 0.5186
+  },
+  "country_score": 0.6396,
+  "tier_scores": {
+    "subsistence": 0.672,
+    "development": 0.5791,
+    "agency": 0.6677
+  },
+  "country_embedding": [
+    0.63958,
+    0.6631,
+    0.61438,
+    0.55643,
+    -0.07093,
+    0.12897,
+    0.14187,
+    -0.0648,
+    0.06179,
+    -0.36315,
+    0.19952,
+    -0.18224,
+    -0.06233,
+    -0.00033,
+    -0.12696,
+    0.06906
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Micronesia Federated States Of, the three needs areas with the largest gaps are: mobility (0.28), work (0.52), communications (0.57).\nThe three strongest areas are: education (0.85), water (0.75), safety (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

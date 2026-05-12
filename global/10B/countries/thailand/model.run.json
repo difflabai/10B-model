@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.thailand",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Thailand"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.thailand.food",
+        "global.10B.countries.thailand.water",
+        "global.10B.countries.thailand.shelter",
+        "global.10B.countries.thailand.health",
+        "global.10B.countries.thailand.safety",
+        "global.10B.countries.thailand.education",
+        "global.10B.countries.thailand.work",
+        "global.10B.countries.thailand.energy",
+        "global.10B.countries.thailand.mobility",
+        "global.10B.countries.thailand.communications",
+        "global.10B.countries.thailand.governance",
+        "global.10B.countries.thailand.environment",
+        "global.10B.countries.thailand.belonging",
+        "global.10B.countries.thailand.meaning",
+        "global.10B.countries.thailand.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

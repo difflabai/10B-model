@@ -1,0 +1,47 @@
+{
+  "country": "sint-maarten",
+  "category_scores": {
+    "agency": 0.8317,
+    "belonging": 0.7326,
+    "communications": 0.7575,
+    "education": 0.7,
+    "energy": 0.97,
+    "environment": 0.4,
+    "food": 0.55,
+    "governance": 0.7417,
+    "health": 0.81,
+    "meaning": 0.775,
+    "mobility": 0.2,
+    "safety": 0.75,
+    "shelter": 0.6375,
+    "water": 0.75,
+    "work": 0.862
+  },
+  "country_score": 0.6979,
+  "tier_scores": {
+    "subsistence": 0.6995,
+    "development": 0.6979,
+    "agency": 0.6962
+  },
+  "country_embedding": [
+    0.69786,
+    0.4634,
+    0.71774,
+    0.47057,
+    0.02942,
+    0.12123,
+    0.20152,
+    -0.09015,
+    -0.24832,
+    -0.02716,
+    -0.01166,
+    0.15233,
+    -0.2704,
+    -0.04231,
+    0.10195,
+    0.09549
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Sint Maarten, the three needs areas with the largest gaps are: mobility (0.20), environment (0.40), food (0.55).\nThe three strongest areas are: energy (0.97), work (0.86), agency (0.83).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

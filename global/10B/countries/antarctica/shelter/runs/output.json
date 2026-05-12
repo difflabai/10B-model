@@ -1,0 +1,52 @@
+{
+  "country": "Antarctica",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.85,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.85,
+    0.4,
+    0.85,
+    0.0,
+    -0.47411,
+    0.4081,
+    -0.53417,
+    0.60812,
+    0.91608,
+    0.53796,
+    -0.29583,
+    -0.87884,
+    -0.07945,
+    0.23503,
+    -0.80493,
+    -0.78741
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

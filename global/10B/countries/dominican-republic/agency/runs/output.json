@@ -1,0 +1,56 @@
+{
+  "country": "Dominican Republic",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7955,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.84
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    }
+  ],
+  "embedding": [
+    0.7955,
+    0.83333,
+    0.85,
+    0.85,
+    0.02406,
+    -0.65161,
+    -0.98447,
+    -0.61874,
+    0.28853,
+    0.64483,
+    0.79532,
+    -0.82754,
+    -0.13841,
+    -0.98025,
+    0.29711,
+    0.92288
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

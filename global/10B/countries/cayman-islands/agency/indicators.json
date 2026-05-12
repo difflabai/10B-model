@@ -1,0 +1,39 @@
+{
+  "country": "Cayman Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Cayman Islands Peoples Party or CIPPPeople's Progressive Movement or PPM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "81% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "4 TV stations; cable and satellite subscription services offer a variety of international programming; government-owned Radio Cayman operates 2 networks broadcasting on 5 stations; 10 privately owned radio stations operate alongside Radio Cayman",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.1% of GDP (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Ghana",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7514,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7071
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    }
+  ],
+  "embedding": [
+    0.75143,
+    0.83333,
+    0.85,
+    0.85,
+    0.24846,
+    -0.74203,
+    -0.88168,
+    -0.87436,
+    0.44607,
+    -0.46264,
+    0.60815,
+    0.59518,
+    -0.77414,
+    -0.46902,
+    0.48022,
+    -0.78393
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

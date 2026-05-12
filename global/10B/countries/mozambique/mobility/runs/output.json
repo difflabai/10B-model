@@ -1,0 +1,72 @@
+{
+  "country": "Mozambique",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4754,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.381
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.284
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6778
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.538
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.537
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3606
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.47537,
+    0.9,
+    0.381,
+    0.284,
+    0.27691,
+    -0.55007,
+    0.75122,
+    0.52242,
+    0.24178,
+    -0.84424,
+    -0.18129,
+    0.56057,
+    0.51672,
+    -0.40883,
+    0.19475,
+    0.77078
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

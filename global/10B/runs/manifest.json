@@ -1,0 +1,38 @@
+{
+  "registry": "global/10B",
+  "schema": "global.10B.needs-tree",
+  "generated_at": "2026-05-09T03:59:08.870333Z",
+  "model_count": 4228,
+  "forecast_count": 466,
+  "country_count": 257,
+  "region_count": 6,
+  "category_count": 15,
+  "top_level_models": [
+    "global.10B",
+    "global.10B.needs-tree",
+    "global.10B.dynamics",
+    "global.10B.supervised-trajectory",
+    "global.10B.personal-agent"
+  ],
+  "namespace_counts": {
+    "global.10B": 1,
+    "global.10B.categories": 15,
+    "global.10B.countries": 4112,
+    "global.10B.dynamics": 1,
+    "global.10B.needs-tree": 1,
+    "global.10B.personal-agent": 1,
+    "global.10B.regions": 96,
+    "global.10B.supervised-trajectory": 1
+  },
+  "outputs": {
+    "macro_embedding": "global/10B/runs/macro-embedding.json",
+    "macro_dynamics": "global/10B/runs/macro-dynamics.json",
+    "manifest": "global/10B/runs/manifest.json",
+    "personal_agent": "global/10B/personal-agent/runs/index.json"
+  },
+  "design_questions": [
+    "How can I connect with my neighbors?",
+    "What economic value can I bring to my community?",
+    "How can I effectively advocate for change?"
+  ]
+}

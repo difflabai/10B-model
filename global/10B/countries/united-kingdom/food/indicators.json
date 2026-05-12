@@ -1,0 +1,34 @@
+{
+  "country": "United Kingdom",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "milk, wheat, sugar beets, barley, potatoes, chicken, rapeseed, pork, beef, oats (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "71% (2018 est.)agricultural land: arable land: 25.1% (2018 est.)agricultural land: permanent crops: 0.2% (2018 est.)agricultural land: permanent pasture: 45.7% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "0.6% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "68,459,055 United Kingdom",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

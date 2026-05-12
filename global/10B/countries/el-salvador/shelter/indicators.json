@@ -1,0 +1,34 @@
+{
+  "country": "El Salvador",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "75.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.116 million SAN SALVADOR (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "athough it is the smallest country in land area in Central America, El Salvador has a population that is 18 times larger than Belize; at least 20% of the population lives abroad; high population density country-wide, with particular concentration around the capital of San Salvador",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; rainy season (May to October); dry season (November to April); tropical on coast; temperate in uplands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy season (May to October); dry season (November to April); tropical on coast; temperate in uplands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

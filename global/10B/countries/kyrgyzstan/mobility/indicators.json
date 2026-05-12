@@ -1,0 +1,59 @@
+{
+  "country": "Kyrgyzstan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "34,000 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "22,600 km (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "7,700 km (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "28 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "4,195 km gas (2022), 16 km oil (2022) (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "576 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "424 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "709,198 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.9
+}

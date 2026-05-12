@@ -1,0 +1,52 @@
+{
+  "country": "Fiji",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.8071,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9592
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.812
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.80707,
+    0.6,
+    0.9592,
+    0.812,
+    0.99426,
+    0.14314,
+    0.84277,
+    -0.83539,
+    0.17696,
+    0.62487,
+    -0.54174,
+    0.85516,
+    0.14632,
+    -0.14699,
+    0.72454,
+    0.74102
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

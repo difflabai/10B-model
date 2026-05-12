@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.rwanda.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Rwanda"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "environment"
+    }
+  },
+  "output": "./runs/output.json"
+}

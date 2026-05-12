@@ -1,0 +1,39 @@
+{
+  "country": "Tajikistan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Agrarian Party of Tajikistan or APTCommunist Party of Tajikistan or CPTDemocratic Party of Tajikistan or DPTParty of Economic Reform of Tajikistan or PERTPeople's Democratic Party of Tajikistan or PDPTSocial Democratic Party of Tajikistan or SDPTSocialist Party of Tajikistan or SPT",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "36% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run TV broadcasters transmit nationally on 9 TV and 10 radio stations, and regionally on 4 stations; 31 independent TV and 20 radio stations broadcast locally and regionally; many households are able to receive Russian and other foreign stations via cable and satellite (2016)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

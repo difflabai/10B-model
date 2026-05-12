@@ -1,0 +1,34 @@
+{
+  "country": "Zimbabwe",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "32.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.578 million HARARE (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "Aside from major urban agglomerations in Harare and Bulawayo, population distribution is fairly even, with slightly greater overall numbers in the eastern half as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; moderated by altitude; rainy season (November to March)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; moderated by altitude; rainy season (November to March)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

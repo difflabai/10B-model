@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-martin",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Martin"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-martin.food",
+        "global.10B.countries.saint-martin.water",
+        "global.10B.countries.saint-martin.shelter",
+        "global.10B.countries.saint-martin.health",
+        "global.10B.countries.saint-martin.safety",
+        "global.10B.countries.saint-martin.education",
+        "global.10B.countries.saint-martin.work",
+        "global.10B.countries.saint-martin.energy",
+        "global.10B.countries.saint-martin.mobility",
+        "global.10B.countries.saint-martin.communications",
+        "global.10B.countries.saint-martin.governance",
+        "global.10B.countries.saint-martin.environment",
+        "global.10B.countries.saint-martin.belonging",
+        "global.10B.countries.saint-martin.meaning",
+        "global.10B.countries.saint-martin.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

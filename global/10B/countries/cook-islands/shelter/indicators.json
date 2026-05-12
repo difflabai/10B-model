@@ -1,0 +1,34 @@
+{
+  "country": "Cook Islands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "76.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is found on the island of Rarotonga",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical oceanic; moderated by trade winds; a dry season from April to November and a more humid season from December to March",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical oceanic; moderated by trade winds; a dry season from April to November and a more humid season from December to March",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

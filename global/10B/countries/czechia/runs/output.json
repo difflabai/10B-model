@@ -1,0 +1,47 @@
+{
+  "country": "czechia",
+  "category_scores": {
+    "agency": 0.832,
+    "belonging": 0.678,
+    "communications": 0.7309,
+    "education": 0.7966,
+    "energy": 0.5813,
+    "environment": 0.5515,
+    "food": 0.6874,
+    "governance": 0.7429,
+    "health": 0.7867,
+    "meaning": 0.65,
+    "mobility": 0.5775,
+    "safety": 0.57,
+    "shelter": 0.6579,
+    "water": 0.65,
+    "work": 0.7277
+  },
+  "country_score": 0.6814,
+  "tier_scores": {
+    "subsistence": 0.6704,
+    "development": 0.6828,
+    "agency": 0.6909
+  },
+  "country_embedding": [
+    0.68136,
+    0.86085,
+    0.74058,
+    0.68659,
+    -0.34885,
+    0.12161,
+    0.09269,
+    -0.26305,
+    -0.37033,
+    0.16694,
+    0.20149,
+    0.00614,
+    -0.04755,
+    -0.15483,
+    -0.02733,
+    0.11628
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Czechia, the three needs areas with the largest gaps are: environment (0.55), safety (0.57), mobility (0.58).\nThe three strongest areas are: agency (0.83), education (0.80), health (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,64 @@
+{
+  "country": "Haiti",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "64 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "7.32 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "6,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "39% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "35,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Haiti is in desperate need of maintaining effective communication services to enable it to keep going through the countless natural disasters, the country’s telecoms sector is really only surviving on the back of international goodwill to repair and replace the systems destroyed in the latest upheaval; Haiti’s fixed-line infrastructure is now practically non-existent, having been torn apart by Hurricane Matthew in 2016; what aid and additional investment has been forthcoming has been directed towards mobile solutions; over half of the country can afford a mobile handset or the cost of a monthly subscription; and mobile broadband subscriptions is half of that again – an estimated 28% in 2022; international aid continues to flow in to try and help the country’s telecoms sector recover – the World Bank has released a further $120 million to go on top of the $60 million grant provided after the last major 7.2 earthquake in August 2021 (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line is less than 1 per 100; mobile-cellular teledensity is nearly 64 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 509; landing points for the BDSNi and Fibralink submarine cables to 14 points in the Bahamas and Dominican Republic; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "per 2019 data released by Haitian telecommunications regulator CONATEL (Conseil National des Télécommunications), there are 398 legal sound broadcasting stations on the territory, including about 60 community radio stations, and 7 radio stations on the AM band; the FM band in Haiti is oversaturated by 158 percent; most radio stations broadcast 17 to 19 hours a day; there are 105 television stations operating in Haiti, including 36 TV stations in Port- au- Prince, 41 others in the provinces, and more than 40 radio-television stations; a large number of broadcasting stations operate irregularly and some stations operate with technical parameters that do not comply with established standards, thus causing harmful interference to existing telecommunications systems; VOA Creole Service broadcasts daily on 30 affiliate stations (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

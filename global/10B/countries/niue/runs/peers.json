@@ -1,0 +1,92 @@
+{
+  "country": "niue",
+  "cluster_id": 3,
+  "cluster_label": "avg 0.65; strongest in [agency, education, governance], weakest in [mobility, environment, energy]",
+  "nearest_peers": [
+    {
+      "country": "solomon-islands",
+      "distance": 0.2945
+    },
+    {
+      "country": "sierra-leone",
+      "distance": 0.2959
+    },
+    {
+      "country": "zambia",
+      "distance": 0.2993
+    },
+    {
+      "country": "saint-lucia",
+      "distance": 0.3011
+    },
+    {
+      "country": "timor-leste",
+      "distance": 0.3034
+    },
+    {
+      "country": "suriname",
+      "distance": 0.3112
+    },
+    {
+      "country": "grenada",
+      "distance": 0.3125
+    },
+    {
+      "country": "kiribati",
+      "distance": 0.3141
+    },
+    {
+      "country": "saint-vincent-and-the-grenadines",
+      "distance": 0.3146
+    },
+    {
+      "country": "congo-republic-of-the",
+      "distance": 0.3148
+    }
+  ],
+  "most_different": [
+    {
+      "country": "san-marino",
+      "distance": 0.7435
+    },
+    {
+      "country": "curacao",
+      "distance": 0.7635
+    },
+    {
+      "country": "sint-maarten",
+      "distance": 0.7892
+    },
+    {
+      "country": "saint-martin",
+      "distance": 0.7897
+    },
+    {
+      "country": "monaco",
+      "distance": 0.7938
+    }
+  ],
+  "cluster_peers": [
+    "albania",
+    "algeria",
+    "antigua-and-barbuda",
+    "azerbaijan",
+    "barbados",
+    "belize",
+    "bhutan",
+    "bolivia",
+    "bosnia-and-herzegovina",
+    "botswana",
+    "bulgaria",
+    "cabo-verde",
+    "cambodia",
+    "cook-islands",
+    "costa-rica",
+    "dominican-republic",
+    "ecuador",
+    "el-salvador",
+    "estonia",
+    "fiji"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Tuvalu",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "66.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "7,000 FUNAFUTI (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "over half of the population resides on the atoll of Funafuti",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; moderated by easterly trade winds (March to November); westerly gales and heavy rain (November to March)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; moderated by easterly trade winds (March to November); westerly gales and heavy rain (November to March)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

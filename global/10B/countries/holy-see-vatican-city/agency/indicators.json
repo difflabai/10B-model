@@ -1,0 +1,39 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "election of the pope is limited to cardinals less than 80 years old",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Vatican Television Center (CTV) transmits live broadcasts of the Pope's Sunday and Wednesday audiences, as well as the Pope's public celebrations; CTV also produces documentaries; Vatican Radio is the Holy See's official broadcasting service broadcasting via shortwave, AM and FM frequencies, and via satellite and Internet connections; Vatican News website partners with Vatican Radio and provides Catholic news provided by the Vatican (2021)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

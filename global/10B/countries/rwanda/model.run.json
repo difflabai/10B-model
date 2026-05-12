@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.rwanda",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Rwanda"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.rwanda.food",
+        "global.10B.countries.rwanda.water",
+        "global.10B.countries.rwanda.shelter",
+        "global.10B.countries.rwanda.health",
+        "global.10B.countries.rwanda.safety",
+        "global.10B.countries.rwanda.education",
+        "global.10B.countries.rwanda.work",
+        "global.10B.countries.rwanda.energy",
+        "global.10B.countries.rwanda.mobility",
+        "global.10B.countries.rwanda.communications",
+        "global.10B.countries.rwanda.governance",
+        "global.10B.countries.rwanda.environment",
+        "global.10B.countries.rwanda.belonging",
+        "global.10B.countries.rwanda.meaning",
+        "global.10B.countries.rwanda.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

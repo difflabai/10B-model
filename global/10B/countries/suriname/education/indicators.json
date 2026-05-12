@@ -1,0 +1,34 @@
+{
+  "country": "Suriname",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "95%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Dutch (official), English (widely spoken), Sranang Tongo (Surinamese, sometimes called Taki-Taki, is the native language of Creoles and much of the younger population), Caribbean Hindustani (a dialect of Hindi), Javanese",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "Het Wereld Feitenboek, een omnisbare bron van informatie. (Dutch)The World Factbook, the indispensable source for basic information. (English)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,47 @@
+{
+  "country": "tanzania",
+  "category_scores": {
+    "agency": 0.6684,
+    "belonging": 0.7115,
+    "communications": 0.6467,
+    "education": 0.6433,
+    "energy": 0.4768,
+    "environment": 0.5382,
+    "food": 0.583,
+    "governance": 0.7571,
+    "health": 0.5199,
+    "meaning": 0.67,
+    "mobility": 0.5643,
+    "safety": 0.6078,
+    "shelter": 0.6832,
+    "water": 0.65,
+    "work": 0.6584
+  },
+  "country_score": 0.6252,
+  "tier_scores": {
+    "subsistence": 0.6088,
+    "development": 0.5979,
+    "agency": 0.669
+  },
+  "country_embedding": [
+    0.62523,
+    0.89641,
+    0.59825,
+    0.64815,
+    0.1978,
+    -0.2638,
+    -0.0053,
+    0.04576,
+    -0.26142,
+    -0.01157,
+    -0.03021,
+    -0.02068,
+    -0.10079,
+    0.1092,
+    -0.04625,
+    0.12906
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Tanzania, the three needs areas with the largest gaps are: energy (0.48), health (0.52), environment (0.54).\nThe three strongest areas are: governance (0.76), belonging (0.71), shelter (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Timor-Leste",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Party or PD National Congress for Timorese Reconstruction or CNRT National Unity of the Sons of Timor (Haburas Unidade Nasional Timor Oan or KHUNTO) People's Liberation Party or PLP Revolutionary Front of Independent Timor-Leste or FRETILIN",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "41% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "7 TV stations (3 nationwide satellite coverage; 2 terrestrial coverage, mostly in Dili; 2 cable) and 21 radio stations (3 nationwide coverage) (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

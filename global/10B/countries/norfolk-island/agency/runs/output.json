@@ -1,0 +1,56 @@
+{
+  "country": "Norfolk Island",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.6631,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5023
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66307,
+    0.66667,
+    0.85,
+    0.65,
+    0.03233,
+    0.94891,
+    -0.39788,
+    -0.49276,
+    0.26152,
+    -0.69812,
+    0.87845,
+    0.58389,
+    0.86206,
+    0.10112,
+    0.65817,
+    0.44994
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

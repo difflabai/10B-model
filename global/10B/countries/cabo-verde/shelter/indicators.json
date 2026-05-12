@@ -1,0 +1,34 @@
+{
+  "country": "Cabo Verde",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "68% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "168,000 PRAIA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "among the nine inhabited islands, population distribution is variable; islands in the east are very dry and are only sparsely settled to exploit their extensive salt deposits; the more southerly islands receive more precipitation and support larger populations, but agriculture and livestock grazing have damaged the soil fertility and vegetation; approximately half of the population lives on Sao Tiago Island, which is the location of the capital of Praia; Mindelo, on the northern island of Sao Vicente, also has a large urban population as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; warm, dry summer; precipitation meager and erratic",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; warm, dry summer; precipitation meager and erratic",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Uganda",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.5876,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.15
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    }
+  ],
+  "embedding": [
+    0.5876,
+    0.83333,
+    0.85,
+    0.75,
+    0.64971,
+    -0.27041,
+    0.22881,
+    -0.36614,
+    0.18831,
+    0.066,
+    0.06117,
+    0.50439,
+    0.1805,
+    0.32952,
+    0.06017,
+    -0.79699
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

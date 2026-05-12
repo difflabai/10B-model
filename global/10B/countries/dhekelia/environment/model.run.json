@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.dhekelia.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Dhekelia"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "environment"
+    }
+  },
+  "output": "./runs/output.json"
+}

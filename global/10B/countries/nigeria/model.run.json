@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.nigeria",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Nigeria"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.nigeria.food",
+        "global.10B.countries.nigeria.water",
+        "global.10B.countries.nigeria.shelter",
+        "global.10B.countries.nigeria.health",
+        "global.10B.countries.nigeria.safety",
+        "global.10B.countries.nigeria.education",
+        "global.10B.countries.nigeria.work",
+        "global.10B.countries.nigeria.energy",
+        "global.10B.countries.nigeria.mobility",
+        "global.10B.countries.nigeria.communications",
+        "global.10B.countries.nigeria.governance",
+        "global.10B.countries.nigeria.environment",
+        "global.10B.countries.nigeria.belonging",
+        "global.10B.countries.nigeria.meaning",
+        "global.10B.countries.nigeria.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

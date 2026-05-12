@@ -1,0 +1,44 @@
+{
+  "country": "Bangladesh",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "many people are landless and forced to live on and cultivate flood-prone land; waterborne diseases prevalent in surface water; water pollution, especially of fishing areas, results from the use of commercial pesticides; ground water contaminated by naturally occurring arsenic; intermittent water shortages because of falling water tables in the northern and central parts of the country; soil degradation and erosion; deforestation; destruction of wetlands; severe overpopulation with noise pollution",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "45.99 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "84.25 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "59.3 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "11.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "14,778,497 tons (2012 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

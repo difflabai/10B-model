@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.lesotho",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Lesotho"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.lesotho.food",
+        "global.10B.countries.lesotho.water",
+        "global.10B.countries.lesotho.shelter",
+        "global.10B.countries.lesotho.health",
+        "global.10B.countries.lesotho.safety",
+        "global.10B.countries.lesotho.education",
+        "global.10B.countries.lesotho.work",
+        "global.10B.countries.lesotho.energy",
+        "global.10B.countries.lesotho.mobility",
+        "global.10B.countries.lesotho.communications",
+        "global.10B.countries.lesotho.governance",
+        "global.10B.countries.lesotho.environment",
+        "global.10B.countries.lesotho.belonging",
+        "global.10B.countries.lesotho.meaning",
+        "global.10B.countries.lesotho.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

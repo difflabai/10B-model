@@ -1,0 +1,15 @@
+{
+  "modelId": "global.10B.needs-tree",
+  "engine": "closed-form",
+  "inputs": {
+    "schema": {
+      "path": "../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "role": "schema"
+    }
+  },
+  "output": "./runs/output.json"
+}

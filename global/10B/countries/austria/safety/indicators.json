@@ -1,0 +1,39 @@
+{
+  "country": "Austria",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Austrian Armed Forces (Bundesheer): Land Forces, Air Forces, Cyber Forces, Special Operations Forces, Militia (reserves) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2024 est.)0.9% of GDP (2023 est.)0.7% of GDP (2022)0.8% of GDP (2021)0.7% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "68,700 (Syria), 43,725 (Afghanistan), 10,110 (Iraq), 8,684 (Somalia), 7,294 (Iran), 6,124 (Russia) (mid-year 2022); 84,135 (Ukraine) (as of 11 March 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

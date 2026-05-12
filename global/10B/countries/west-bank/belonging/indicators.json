@@ -1,0 +1,44 @@
+{
+  "country": "West Bank",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "Palestinian Arab, Jewish, other",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Muslim 80-85% (predominantly Sunni), Jewish 12-14%, Christian 1-2.5% (mainly Greek Orthodox), other, unaffiliated, unspecified <1% (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Arabic, Hebrew (spoken by Israeli settlers and many Palestinians), English (widely understood)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the most populous Palestinian communities in the West Bank are located in the central ridge and western half of its territory; Jewish settlements are located throughout the West Bank, the most populous in the Seam Zone--between the 1949 Armistice Line and the separation barrier--and around Jerusalem",
+      "present": true
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": "-3.8 migrant(s)/1,000 population (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": "3.49 children born/woman (2024 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

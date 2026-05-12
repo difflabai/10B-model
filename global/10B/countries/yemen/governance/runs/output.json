@@ -1,0 +1,60 @@
+{
+  "country": "Yemen",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6857,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.3
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.68571,
+    1.0,
+    0.3,
+    0.65,
+    0.32934,
+    -0.75204,
+    0.32195,
+    0.73907,
+    0.97931,
+    0.31148,
+    -0.70138,
+    0.5841,
+    0.42666,
+    0.64215,
+    -0.83246,
+    0.7066
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

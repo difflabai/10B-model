@@ -1,0 +1,52 @@
+{
+  "country": "Cameroon",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.5474,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": 0.25
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.5784
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": 0.6087
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.54743,
+    1.0,
+    0.25,
+    0.75,
+    -0.31118,
+    -0.88852,
+    -0.90585,
+    0.34011,
+    -0.38054,
+    0.70806,
+    0.16921,
+    -0.87518,
+    0.0052,
+    -0.90365,
+    -0.78128,
+    0.08083
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

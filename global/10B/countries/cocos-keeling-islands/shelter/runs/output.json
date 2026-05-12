@@ -1,0 +1,52 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.6,
+    0.65,
+    0.65,
+    -0.09416,
+    -0.69363,
+    0.30526,
+    0.80139,
+    0.98889,
+    0.97244,
+    0.15032,
+    0.46752,
+    -0.49825,
+    -0.70721,
+    0.12486,
+    0.66995
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

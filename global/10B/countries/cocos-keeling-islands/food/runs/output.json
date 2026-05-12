@@ -1,0 +1,52 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.4333,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.55
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.2
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.43333,
+    0.6,
+    0.55,
+    0.2,
+    0.84012,
+    -0.05605,
+    -0.84253,
+    -0.56292,
+    -0.80847,
+    -0.36809,
+    0.15801,
+    0.82055,
+    -0.75882,
+    0.55822,
+    0.06929,
+    0.35326
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

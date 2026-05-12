@@ -1,0 +1,59 @@
+{
+  "country": "Russia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "1,283,387 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "927,721 km (includes 39,143 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "355,666 km (2012)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "904 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "383 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "177,700 km gas, 54,800 km oil, 19,300 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "102,000 km (2009) (including 48,000 km with guaranteed depth; the 72,000-km system in European Russia links Baltic Sea, White Sea, Caspian Sea, Sea of Azov, and Black Sea)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "85,494 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "99,327,311 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "6,810,610,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

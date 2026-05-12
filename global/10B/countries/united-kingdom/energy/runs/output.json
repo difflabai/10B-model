@@ -1,0 +1,84 @@
+{
+  "country": "United Kingdom",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 13,
+  "indicators_total": 13,
+  "composite_score": 0.6785,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9683
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.635
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.472
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.8677
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.434
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.718
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.735
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.67846,
+    1.0,
+    0.97,
+    0.9683,
+    -0.55297,
+    -0.53414,
+    -0.67913,
+    0.43627,
+    0.44137,
+    -0.16246,
+    -0.948,
+    0.62826,
+    0.12175,
+    0.42037,
+    0.34548,
+    0.45263
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

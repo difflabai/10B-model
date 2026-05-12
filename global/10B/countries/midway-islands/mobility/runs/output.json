@@ -1,0 +1,72 @@
+{
+  "country": "Midway Islands",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.1,
+  "indicators_scored": 1,
+  "indicators_total": 10,
+  "composite_score": 0.2278,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.2278
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": null
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.22778,
+    0.1,
+    0.2278,
+    0.0,
+    -0.82245,
+    0.54336,
+    0.83767,
+    -0.6144,
+    0.5353,
+    0.90076,
+    -0.93286,
+    -0.32879,
+    0.20299,
+    0.0125,
+    -0.83191,
+    -0.23784
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

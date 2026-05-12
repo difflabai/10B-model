@@ -1,0 +1,52 @@
+{
+  "country": "Saint Martin",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.6,
+    0.75,
+    0.75,
+    -0.25219,
+    -0.87195,
+    -0.58499,
+    0.63482,
+    -0.50777,
+    0.7951,
+    -0.84274,
+    -0.3293,
+    0.23186,
+    -0.95743,
+    0.49938,
+    0.27797
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

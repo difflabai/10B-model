@@ -1,0 +1,52 @@
+{
+  "country": "Tanzania",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6433,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7543
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.522
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.44
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.64327,
+    1.0,
+    0.7543,
+    0.522,
+    0.90369,
+    -0.0515,
+    0.01607,
+    -0.29262,
+    -0.64392,
+    -0.56555,
+    0.18358,
+    0.07909,
+    -0.36001,
+    0.35317,
+    0.56893,
+    0.78418
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

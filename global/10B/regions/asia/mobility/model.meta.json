@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.mobility",
+  "name": "Asia — Mobility and transportation",
+  "kind": "sector_economic",
+  "blurb": "Region-level mobility and transportation for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country mobility models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "mobility-country-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mobility-region-mean",
+      "kind": "scalar",
+      "description": "Mean mobility score across the region."
+    },
+    {
+      "name": "mobility-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Mobility and transportation"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.mobility",
+      "kind": "consumes_from",
+      "note": "Country-level mobility for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.mobility",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

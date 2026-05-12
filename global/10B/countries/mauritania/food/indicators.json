@@ -1,0 +1,34 @@
+{
+  "country": "Mauritania",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "rice, milk, goat milk, sorghum, sheep milk, lamb/mutton, beef, camel meat, camel milk, dates (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "38.5% (2018 est.)agricultural land: arable land: 0.4% (2018 est.)agricultural land: permanent crops: 0% (2018 est.)agricultural land: permanent pasture: 38.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "18.7% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "4,328,040",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

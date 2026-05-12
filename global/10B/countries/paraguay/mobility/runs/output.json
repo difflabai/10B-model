@@ -1,0 +1,72 @@
+{
+  "country": "Paraguay",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4763,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5192
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3242
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6528
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6578
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6656
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.25
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3669
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.47626,
+    0.9,
+    0.5192,
+    0.3242,
+    0.92801,
+    0.24297,
+    -0.72787,
+    -0.09215,
+    0.34362,
+    -0.39217,
+    0.74304,
+    0.79397,
+    -0.23333,
+    -0.40536,
+    0.29366,
+    -0.91772
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

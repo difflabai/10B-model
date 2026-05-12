@@ -1,0 +1,39 @@
+{
+  "country": "Denmark",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "The Alternative or AP Conservative People's Party or DKF or C Danish People's Party or DF or O Denmark Democrats or E Green Left or SF or F (formerly Socialist People's Party or SF or F)Liberal Alliance or LA or I Liberal Party (Venstre) or V Moderates or M New Right Party or NB or D Red-Green Alliance (Unity List) or EL Social Democrats or SDP or A Social Liberal Party or SLP or B",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "99% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "strong public-sector TV presence with state-owned Danmarks Radio (DR) operating 6 channels and publicly owned TV2 operating roughly a half-dozen channels; broadcasts of privately owned stations are available via satellite and cable feed; DR operates 4 nationwide FM radio stations, 10 digital audio broadcasting stations, and 14 web-based radio stations; 140 commercial and 187 community (non-commercial) radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.4% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.work",
+  "name": "Asia — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country work models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

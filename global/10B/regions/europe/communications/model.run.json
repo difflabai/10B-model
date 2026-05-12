@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.communications",
+        "global.10B.countries.andorra.communications",
+        "global.10B.countries.armenia.communications",
+        "global.10B.countries.austria.communications",
+        "global.10B.countries.azerbaijan.communications",
+        "global.10B.countries.belarus.communications",
+        "global.10B.countries.belgium.communications",
+        "global.10B.countries.bosnia-and-herzegovina.communications",
+        "global.10B.countries.bulgaria.communications",
+        "global.10B.countries.croatia.communications",
+        "global.10B.countries.cyprus.communications",
+        "global.10B.countries.czechia.communications",
+        "global.10B.countries.denmark.communications",
+        "global.10B.countries.estonia.communications",
+        "global.10B.countries.faroe-islands.communications",
+        "global.10B.countries.finland.communications",
+        "global.10B.countries.georgia.communications",
+        "global.10B.countries.germany.communications",
+        "global.10B.countries.gibraltar.communications",
+        "global.10B.countries.greece.communications",
+        "global.10B.countries.guernsey.communications",
+        "global.10B.countries.holy-see-vatican-city.communications",
+        "global.10B.countries.hungary.communications",
+        "global.10B.countries.iceland.communications",
+        "global.10B.countries.ireland.communications",
+        "global.10B.countries.isle-of-man.communications",
+        "global.10B.countries.italy.communications",
+        "global.10B.countries.jan-mayen.communications",
+        "global.10B.countries.jersey.communications",
+        "global.10B.countries.kazakhstan.communications",
+        "global.10B.countries.kosovo.communications",
+        "global.10B.countries.latvia.communications",
+        "global.10B.countries.liechtenstein.communications",
+        "global.10B.countries.lithuania.communications",
+        "global.10B.countries.luxembourg.communications",
+        "global.10B.countries.malta.communications",
+        "global.10B.countries.moldova.communications",
+        "global.10B.countries.monaco.communications",
+        "global.10B.countries.montenegro.communications",
+        "global.10B.countries.netherlands.communications",
+        "global.10B.countries.north-macedonia.communications",
+        "global.10B.countries.norway.communications",
+        "global.10B.countries.poland.communications",
+        "global.10B.countries.portugal.communications",
+        "global.10B.countries.romania.communications",
+        "global.10B.countries.san-marino.communications",
+        "global.10B.countries.serbia.communications",
+        "global.10B.countries.slovakia.communications",
+        "global.10B.countries.slovenia.communications",
+        "global.10B.countries.spain.communications",
+        "global.10B.countries.sweden.communications",
+        "global.10B.countries.switzerland.communications",
+        "global.10B.countries.turkey-turkiye.communications",
+        "global.10B.countries.ukraine.communications",
+        "global.10B.countries.united-kingdom.communications"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

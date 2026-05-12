@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kyrgyzstan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kyrgyzstan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kyrgyzstan.food",
+        "global.10B.countries.kyrgyzstan.water",
+        "global.10B.countries.kyrgyzstan.shelter",
+        "global.10B.countries.kyrgyzstan.health",
+        "global.10B.countries.kyrgyzstan.safety",
+        "global.10B.countries.kyrgyzstan.education",
+        "global.10B.countries.kyrgyzstan.work",
+        "global.10B.countries.kyrgyzstan.energy",
+        "global.10B.countries.kyrgyzstan.mobility",
+        "global.10B.countries.kyrgyzstan.communications",
+        "global.10B.countries.kyrgyzstan.governance",
+        "global.10B.countries.kyrgyzstan.environment",
+        "global.10B.countries.kyrgyzstan.belonging",
+        "global.10B.countries.kyrgyzstan.meaning",
+        "global.10B.countries.kyrgyzstan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Slovenia",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6759,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6537
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.67592,
+    1.0,
+    0.6537,
+    0.55,
+    -0.90954,
+    0.12721,
+    0.45156,
+    -0.48736,
+    0.9328,
+    0.12602,
+    0.67837,
+    -0.04692,
+    -0.32964,
+    -0.08257,
+    0.99689,
+    -0.4045
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

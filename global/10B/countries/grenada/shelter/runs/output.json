@@ -1,0 +1,52 @@
+{
+  "country": "Grenada",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6327,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.5807
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.63267,
+    1.0,
+    0.5807,
+    0.55,
+    0.56362,
+    0.44744,
+    -0.36101,
+    -0.73642,
+    -0.06871,
+    0.06654,
+    0.10112,
+    -0.58087,
+    0.38116,
+    -0.59713,
+    0.0811,
+    0.57705
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

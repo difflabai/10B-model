@@ -1,0 +1,52 @@
+{
+  "country": "Midway Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": null
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.2,
+    0.55,
+    0.0,
+    -0.24565,
+    0.05974,
+    0.47268,
+    -0.72052,
+    -0.99899,
+    -0.73413,
+    0.30587,
+    -0.22466,
+    -0.59545,
+    -0.48708,
+    -0.08315,
+    0.92367
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Bermuda",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Free Democratic Movement or FDMOne Bermuda Alliance or OBAProgressive Labor Party or PLP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "98% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "3 TV stations; cable and satellite TV subscription services are available; roughly 13 radio stations operating",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.9% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

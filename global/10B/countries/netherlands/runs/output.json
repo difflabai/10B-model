@@ -1,0 +1,47 @@
+{
+  "country": "netherlands",
+  "category_scores": {
+    "agency": 0.855,
+    "belonging": 0.6993,
+    "communications": 0.7514,
+    "education": 0.7812,
+    "energy": 0.6325,
+    "environment": 0.5208,
+    "food": 0.6871,
+    "governance": 0.7429,
+    "health": 0.8042,
+    "meaning": 0.65,
+    "mobility": 0.6859,
+    "safety": 0.6033,
+    "shelter": 0.6643,
+    "water": 0.65,
+    "work": 0.7603
+  },
+  "country_score": 0.6992,
+  "tier_scores": {
+    "subsistence": 0.6818,
+    "development": 0.7223,
+    "agency": 0.6936
+  },
+  "country_embedding": [
+    0.69921,
+    0.84239,
+    0.75194,
+    0.69037,
+    -0.17696,
+    -0.0572,
+    0.17135,
+    -0.27302,
+    -0.11231,
+    -0.05858,
+    -0.04713,
+    0.07576,
+    -0.01059,
+    0.1341,
+    -0.00229,
+    -0.11091
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Netherlands, the three needs areas with the largest gaps are: environment (0.52), safety (0.60), energy (0.63).\nThe three strongest areas are: agency (0.85), health (0.80), education (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Greece",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "117,000 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "81 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "51 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,466 km gas, 94 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "6 km (2012) (the 6-km-long Corinth Canal crosses the Isthmus of Corinth; it shortens a sea voyage by 325 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,345 km (2020) 731 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "15,125,933 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "21.91 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

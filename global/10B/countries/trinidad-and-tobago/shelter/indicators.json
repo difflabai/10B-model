@@ -1,0 +1,34 @@
+{
+  "country": "Trinidad and Tobago",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "53.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "545,000 PORT-OF-SPAIN (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population on Trinidad is concentrated in the western half of the island, on Tobago in the southern half",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; rainy season (June to December)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy season (June to December)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

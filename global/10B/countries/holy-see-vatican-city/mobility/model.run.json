@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.holy-see-vatican-city.mobility",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Holy See (Vatican City)"
+    },
+    "category": {
+      "value": "mobility"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "mobility"
+    }
+  },
+  "output": "./runs/output.json"
+}

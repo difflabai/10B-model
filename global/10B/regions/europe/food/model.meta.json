@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.food",
+  "name": "Europe — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "Region-level food and nutrition for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country food models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-region-mean",
+      "kind": "scalar",
+      "description": "Mean food score across the region."
+    },
+    {
+      "name": "food-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.food",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

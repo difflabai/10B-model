@@ -1,0 +1,39 @@
+{
+  "country": "Cameroon",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "20 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Democracy and Development Cameroon People's Democratic Movement or CPDM Cameroon People's Party or CPP Cameroon Renaissance Movement or MRC Cameroonian Democratic Union or UDC Cameroonian Party for National Reconciliation or PCRN Front for the National Salvation of Cameroon or FSNC Movement for the Defense of the Republic or MDR Movement for the Liberation and Development of Cameroon or MLDC National Union for Democracy and Progress or UNDP Progressive Movement or MP Social Democratic Front or SDF Union of Peoples of Cameroon or UPC Union of Socialist Movements",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "44% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government maintains tight control over broadcast media; state-owned Cameroon Radio Television (CRTV), broadcasting on both a TV and radio network, was the only officially recognized and fully licensed broadcaster until August 2007, when the government issued licenses to 2 private TV broadcasters and 1 private radio broadcaster; about 70 privately owned, unlicensed radio stations operate under “administrative tolerance,” meaning the stations could be subject to closure at any time (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

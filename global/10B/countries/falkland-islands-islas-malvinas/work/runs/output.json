@@ -1,0 +1,60 @@
+{
+  "country": "Falkland Islands (Islas Malvinas)",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.829,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9239
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.92
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.68
+    }
+  ],
+  "embedding": [
+    0.82899,
+    0.85714,
+    0.9239,
+    0.95,
+    -0.60089,
+    0.54058,
+    -0.76974,
+    0.43273,
+    -0.50771,
+    -0.85821,
+    0.14528,
+    -0.12383,
+    0.44323,
+    0.13973,
+    0.93256,
+    0.73867
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

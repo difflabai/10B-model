@@ -1,0 +1,130 @@
+{
+  "id": "global.10B.countries.italy.health",
+  "name": "Italy — Health and longevity",
+  "kind": "forecast_harness",
+  "blurb": "Health and longevity for Italy: Healthcare access, disease burden, life expectancy, and capacity to absorb shocks (pandemics, malnutrition). Driven by 12 of 15 CIA World Factbook indicators.",
+  "mechanism": "This model captures the **health and longevity** dimension of human need for **Italy**.\n\nIt ingests the relevant slice of the CIA World Factbook (see indicators.json) and produces a composite satisfaction score in [0,1] together with a category-level embedding that feeds the unsupervised macro-space model.\n\nEngine: `monte-carlo`. The closed-form variant scores indicators on a normalised piecewise-linear ladder per indicator type and aggregates by capability-weighted mean. The Monte-Carlo variant samples from per-indicator uncertainty distributions to produce interval estimates and feed the supervised hold-out predictions.\n\nFrameworks: Maslow:physiological, MaxNeef:subsistence, DoyalGough:health, SDG-3.",
+  "components": [
+    {
+      "id": "ingester",
+      "name": "Factbook ingester",
+      "role": "Pulls the relevant factbook fields and normalises units.",
+      "crate_path": null,
+      "key_symbols": [
+        "safe_get",
+        "normalise_units"
+      ]
+    },
+    {
+      "id": "scorer",
+      "name": "Monte-Carlo scorer",
+      "role": "Maps normalised indicators to a [0,1] satisfaction score.",
+      "crate_path": null,
+      "key_symbols": [
+        "score_category"
+      ]
+    },
+    {
+      "id": "embedder",
+      "name": "Indicator embedder",
+      "role": "Produces a category-level embedding feeding the macro-space model.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_category"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "country-indicators",
+      "kind": "country_factbook_slice",
+      "description": "Slice of CIA World Factbook fields covering health and longevity for Italy."
+    },
+    {
+      "name": "needs-tree",
+      "kind": "schema",
+      "description": "Reference to global.10B.needs-tree which defines the supervisory schema."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "satisfaction-score",
+      "kind": "scalar",
+      "description": "Composite needs-satisfaction score for health and longevity in Italy, in [0,1]."
+    },
+    {
+      "name": "indicator-fingerprint",
+      "kind": "embedding",
+      "description": "Per-category embedding feeding the macro-space unsupervised model."
+    },
+    {
+      "name": "evidence-trace",
+      "kind": "provenance",
+      "description": "References to the specific factbook fields and values consumed."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "country",
+      "value": "Italy"
+    },
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "indicator-coverage",
+      "value": "0.80",
+      "description": "Fraction of category indicators with non-null values for this country."
+    },
+    {
+      "key": "indicators-present",
+      "value": "12",
+      "description": "of 15 indicators populated."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    },
+    {
+      "label": "CIA World Factbook",
+      "kind": "url",
+      "location": "https://www.cia.gov/the-world-factbook/"
+    },
+    {
+      "label": "Maslow:physiological",
+      "kind": "spec",
+      "location": "frameworks/Maslow:physiological"
+    },
+    {
+      "label": "MaxNeef:subsistence",
+      "kind": "spec",
+      "location": "frameworks/MaxNeef:subsistence"
+    },
+    {
+      "label": "DoyalGough:health",
+      "kind": "spec",
+      "location": "frameworks/DoyalGough:health"
+    },
+    {
+      "label": "SDG-3",
+      "kind": "spec",
+      "location": "frameworks/SDG-3"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.needs-tree",
+      "kind": "depends_on",
+      "note": "Schema dependency on the 10B needs tree."
+    },
+    {
+      "target_model_id": "global.10B.categories.health",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup that aggregates this model along with peers."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Jan Mayen",
+  "category": "communications",
+  "engine": "closed-form",
+  "indicator_coverage": 0.09090909090909091,
+  "indicators_scored": 1,
+  "indicators_total": 11,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "score": null
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.09091,
+    0.65,
+    0.0,
+    -0.96939,
+    0.88232,
+    0.36211,
+    0.40453,
+    -0.92148,
+    -0.06184,
+    0.14662,
+    0.25261,
+    0.1043,
+    0.59408,
+    -0.12993,
+    -0.01366
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

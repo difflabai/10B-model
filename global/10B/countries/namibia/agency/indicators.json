@@ -1,0 +1,39 @@
+{
+  "country": "Namibia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "All People's Party or APP Christian Democratic Voice or CDV Landless People's Movement or LPM National Unity Democratic Organization or NUDO Namibian Economic Freedom Fighters or NEFF Popular Democratic Movement or PDM (formerly Democratic Turnhalle Alliance or DTA) Rally for Democracy and Progress or RDP Republican Party or RPSouth West Africa National Union or SWANU South West Africa People's Organization or SWAPO United Democratic Front or UDF United People's Movement or UPM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "62% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 private and 1 state-run TV station; satellite and cable TV service available; state-run radio service broadcasts in multiple languages; about a dozen private radio stations; transmissions of multiple international broadcasters available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "9.6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

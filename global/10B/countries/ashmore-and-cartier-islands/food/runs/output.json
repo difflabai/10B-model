@@ -1,0 +1,52 @@
+{
+  "country": "Ashmore and Cartier Islands",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.375,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": null
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.2
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.375,
+    0.4,
+    0.2,
+    0.55,
+    0.79605,
+    -0.59643,
+    -0.20763,
+    -0.22325,
+    -0.19948,
+    -0.40826,
+    0.88916,
+    -0.74676,
+    -0.11629,
+    -0.44839,
+    -0.16762,
+    -0.28341
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

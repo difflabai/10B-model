@@ -1,0 +1,44 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Territorial Council); overseas collectivity of France",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "French civil law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "4 October 1958 (French Constitution)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Emmanuel MACRON (since 14 May 2017); represented by Prefect Bruno ANDRE (since September 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "UPU, WFTU (NGOs)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.wake-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Wake Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.wake-island.food",
+        "global.10B.countries.wake-island.water",
+        "global.10B.countries.wake-island.shelter",
+        "global.10B.countries.wake-island.health",
+        "global.10B.countries.wake-island.safety",
+        "global.10B.countries.wake-island.education",
+        "global.10B.countries.wake-island.work",
+        "global.10B.countries.wake-island.energy",
+        "global.10B.countries.wake-island.mobility",
+        "global.10B.countries.wake-island.communications",
+        "global.10B.countries.wake-island.governance",
+        "global.10B.countries.wake-island.environment",
+        "global.10B.countries.wake-island.belonging",
+        "global.10B.countries.wake-island.meaning",
+        "global.10B.countries.wake-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

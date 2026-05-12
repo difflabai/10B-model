@@ -1,0 +1,60 @@
+{
+  "country": "Palau",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6443,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6564
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.638
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.427
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.64428,
+    0.71429,
+    0.6564,
+    0.638,
+    -0.2958,
+    -0.00377,
+    0.55908,
+    -0.43172,
+    0.97739,
+    -0.34325,
+    -0.91885,
+    0.53545,
+    0.14327,
+    0.92792,
+    0.89407,
+    -0.91064
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

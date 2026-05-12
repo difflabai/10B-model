@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "work"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.work",
+        "global.10B.countries.australia.work",
+        "global.10B.countries.baker-island.work",
+        "global.10B.countries.chile.work",
+        "global.10B.countries.clipperton-island.work",
+        "global.10B.countries.colombia.work",
+        "global.10B.countries.cook-islands.work",
+        "global.10B.countries.coral-sea-islands.work",
+        "global.10B.countries.costa-rica.work",
+        "global.10B.countries.ecuador.work",
+        "global.10B.countries.el-salvador.work",
+        "global.10B.countries.fiji.work",
+        "global.10B.countries.french-polynesia.work",
+        "global.10B.countries.guam.work",
+        "global.10B.countries.guatemala.work",
+        "global.10B.countries.honduras.work",
+        "global.10B.countries.howland-island.work",
+        "global.10B.countries.jarvis-island.work",
+        "global.10B.countries.johnston-atoll.work",
+        "global.10B.countries.kingman-reef.work",
+        "global.10B.countries.kiribati.work",
+        "global.10B.countries.marshall-islands.work",
+        "global.10B.countries.mexico.work",
+        "global.10B.countries.micronesia-federated-states-of.work",
+        "global.10B.countries.midway-islands.work",
+        "global.10B.countries.nauru.work",
+        "global.10B.countries.new-caledonia.work",
+        "global.10B.countries.new-zealand.work",
+        "global.10B.countries.nicaragua.work",
+        "global.10B.countries.niue.work",
+        "global.10B.countries.norfolk-island.work",
+        "global.10B.countries.northern-mariana-islands.work",
+        "global.10B.countries.palau.work",
+        "global.10B.countries.palmyra-atoll.work",
+        "global.10B.countries.panama.work",
+        "global.10B.countries.papua-new-guinea.work",
+        "global.10B.countries.peru.work",
+        "global.10B.countries.pitcairn-islands.work",
+        "global.10B.countries.samoa.work",
+        "global.10B.countries.solomon-islands.work",
+        "global.10B.countries.tokelau.work",
+        "global.10B.countries.tonga.work",
+        "global.10B.countries.tuvalu.work",
+        "global.10B.countries.united-states.work",
+        "global.10B.countries.vanuatu.work",
+        "global.10B.countries.wake-island.work",
+        "global.10B.countries.wallis-and-futuna.work"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

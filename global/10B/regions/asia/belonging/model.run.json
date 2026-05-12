@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.belonging",
+        "global.10B.countries.ashmore-and-cartier-islands.belonging",
+        "global.10B.countries.bahrain.belonging",
+        "global.10B.countries.bangladesh.belonging",
+        "global.10B.countries.bhutan.belonging",
+        "global.10B.countries.brunei.belonging",
+        "global.10B.countries.burma.belonging",
+        "global.10B.countries.cambodia.belonging",
+        "global.10B.countries.china.belonging",
+        "global.10B.countries.christmas-island.belonging",
+        "global.10B.countries.cocos-keeling-islands.belonging",
+        "global.10B.countries.gaza-strip.belonging",
+        "global.10B.countries.hong-kong.belonging",
+        "global.10B.countries.india.belonging",
+        "global.10B.countries.indonesia.belonging",
+        "global.10B.countries.iran.belonging",
+        "global.10B.countries.iraq.belonging",
+        "global.10B.countries.israel.belonging",
+        "global.10B.countries.japan.belonging",
+        "global.10B.countries.jordan.belonging",
+        "global.10B.countries.korea-north.belonging",
+        "global.10B.countries.korea-south.belonging",
+        "global.10B.countries.kuwait.belonging",
+        "global.10B.countries.kyrgyzstan.belonging",
+        "global.10B.countries.laos.belonging",
+        "global.10B.countries.lebanon.belonging",
+        "global.10B.countries.macau.belonging",
+        "global.10B.countries.malaysia.belonging",
+        "global.10B.countries.maldives.belonging",
+        "global.10B.countries.mongolia.belonging",
+        "global.10B.countries.nepal.belonging",
+        "global.10B.countries.oman.belonging",
+        "global.10B.countries.pakistan.belonging",
+        "global.10B.countries.paracel-islands.belonging",
+        "global.10B.countries.philippines.belonging",
+        "global.10B.countries.qatar.belonging",
+        "global.10B.countries.saudi-arabia.belonging",
+        "global.10B.countries.singapore.belonging",
+        "global.10B.countries.spratly-islands.belonging",
+        "global.10B.countries.sri-lanka.belonging",
+        "global.10B.countries.syria.belonging",
+        "global.10B.countries.taiwan.belonging",
+        "global.10B.countries.tajikistan.belonging",
+        "global.10B.countries.thailand.belonging",
+        "global.10B.countries.timor-leste.belonging",
+        "global.10B.countries.turkmenistan.belonging",
+        "global.10B.countries.united-arab-emirates.belonging",
+        "global.10B.countries.uzbekistan.belonging",
+        "global.10B.countries.vietnam.belonging",
+        "global.10B.countries.west-bank.belonging",
+        "global.10B.countries.yemen.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

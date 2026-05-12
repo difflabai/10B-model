@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.maldives",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Maldives"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.maldives.food",
+        "global.10B.countries.maldives.water",
+        "global.10B.countries.maldives.shelter",
+        "global.10B.countries.maldives.health",
+        "global.10B.countries.maldives.safety",
+        "global.10B.countries.maldives.education",
+        "global.10B.countries.maldives.work",
+        "global.10B.countries.maldives.energy",
+        "global.10B.countries.maldives.mobility",
+        "global.10B.countries.maldives.communications",
+        "global.10B.countries.maldives.governance",
+        "global.10B.countries.maldives.environment",
+        "global.10B.countries.maldives.belonging",
+        "global.10B.countries.maldives.meaning",
+        "global.10B.countries.maldives.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Peru",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory until the age of 70",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Advance the Nation (Avanza País) or AvPAlliance for Progress (Alianza para el Progreso) or APPBroad Front (Frente Amplio) or FAFree Peru (Perú Libre) or PLFront for Hope (Frente Esperanza)Magisterial Block of National Concentration (Bloque Magisterial de Concertación Nacional) or BMCNNational Victory (Victoria Nacional) or VNPeru Bicentennial (Perú Bicentenario) or PBPopular Action (Acción Popular) or APPopular Force (Fuerza Popular) or FPPopular Renewal (Renovación Popular) or RPPurple Party (Partido Morado)Social Integration Party (Avanza País - Partido de Integración Social)Together For Perú (Juntos por el Peru) or JPWe Are Peru (Somos Perú) of SPWe Can Peru (Podemos Perú) or PP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "10 major TV networks of which only one, Television Nacional de Peru, is state owned; multi-channel cable TV services are available; in excess of 5,000 radio stations including a substantial number of indigenous language stations (2021)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

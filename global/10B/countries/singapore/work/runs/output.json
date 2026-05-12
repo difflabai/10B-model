@@ -1,0 +1,60 @@
+{
+  "country": "Singapore",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7086,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.97
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.558
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.715
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.8765
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.482
+    }
+  ],
+  "embedding": [
+    0.70858,
+    0.85714,
+    0.97,
+    0.558,
+    -0.38991,
+    0.30538,
+    -0.89609,
+    0.42718,
+    0.54604,
+    -0.89282,
+    -0.03206,
+    -0.31789,
+    0.14235,
+    0.94635,
+    0.91482,
+    -0.66793
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

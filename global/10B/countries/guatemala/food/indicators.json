@@ -1,0 +1,34 @@
+{
+  "country": "Guatemala",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "sugarcane, bananas, oil palm fruit, maize, cantaloupes/melons, potatoes, milk, tomatoes, chicken, pineapples (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "41.2% (2018 est.)agricultural land: arable land: 14.2% (2018 est.)agricultural land: permanent crops: 8.8% (2018 est.)agricultural land: permanent pasture: 18.2% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "9.8% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "18,255,216",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

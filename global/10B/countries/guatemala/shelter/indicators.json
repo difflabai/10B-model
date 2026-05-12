@@ -1,0 +1,34 @@
+{
+  "country": "Guatemala",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "53.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.095 million GUATEMALA CITY (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the vast majority of the populace resides in the southern half of the country, particularly in the mountainous regions; more than half of the population lives in rural areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid in lowlands; cooler in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid in lowlands; cooler in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

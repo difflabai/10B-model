@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.togo",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Togo"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.togo.food",
+        "global.10B.countries.togo.water",
+        "global.10B.countries.togo.shelter",
+        "global.10B.countries.togo.health",
+        "global.10B.countries.togo.safety",
+        "global.10B.countries.togo.education",
+        "global.10B.countries.togo.work",
+        "global.10B.countries.togo.energy",
+        "global.10B.countries.togo.mobility",
+        "global.10B.countries.togo.communications",
+        "global.10B.countries.togo.governance",
+        "global.10B.countries.togo.environment",
+        "global.10B.countries.togo.belonging",
+        "global.10B.countries.togo.meaning",
+        "global.10B.countries.togo.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

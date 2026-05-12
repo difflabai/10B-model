@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.food",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "food"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.food",
+        "global.10B.countries.angola.food",
+        "global.10B.countries.benin.food",
+        "global.10B.countries.botswana.food",
+        "global.10B.countries.bouvet-island.food",
+        "global.10B.countries.british-indian-ocean-territory.food",
+        "global.10B.countries.burkina-faso.food",
+        "global.10B.countries.burundi.food",
+        "global.10B.countries.cabo-verde.food",
+        "global.10B.countries.cameroon.food",
+        "global.10B.countries.central-african-republic.food",
+        "global.10B.countries.chad.food",
+        "global.10B.countries.comoros.food",
+        "global.10B.countries.congo-democratic-republic-of-the.food",
+        "global.10B.countries.congo-republic-of-the.food",
+        "global.10B.countries.djibouti.food",
+        "global.10B.countries.egypt.food",
+        "global.10B.countries.equatorial-guinea.food",
+        "global.10B.countries.eritrea.food",
+        "global.10B.countries.eswatini.food",
+        "global.10B.countries.ethiopia.food",
+        "global.10B.countries.gabon.food",
+        "global.10B.countries.gambia-the.food",
+        "global.10B.countries.ghana.food",
+        "global.10B.countries.guinea.food",
+        "global.10B.countries.guinea-bissau.food",
+        "global.10B.countries.kenya.food",
+        "global.10B.countries.lesotho.food",
+        "global.10B.countries.liberia.food",
+        "global.10B.countries.libya.food",
+        "global.10B.countries.madagascar.food",
+        "global.10B.countries.malawi.food",
+        "global.10B.countries.mali.food",
+        "global.10B.countries.mauritania.food",
+        "global.10B.countries.mauritius.food",
+        "global.10B.countries.morocco.food",
+        "global.10B.countries.mozambique.food",
+        "global.10B.countries.namibia.food",
+        "global.10B.countries.niger.food",
+        "global.10B.countries.nigeria.food",
+        "global.10B.countries.rwanda.food",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.food",
+        "global.10B.countries.sao-tome-and-principe.food",
+        "global.10B.countries.senegal.food",
+        "global.10B.countries.seychelles.food",
+        "global.10B.countries.sierra-leone.food",
+        "global.10B.countries.somalia.food",
+        "global.10B.countries.south-africa.food",
+        "global.10B.countries.south-sudan.food",
+        "global.10B.countries.sudan.food",
+        "global.10B.countries.tanzania.food",
+        "global.10B.countries.togo.food",
+        "global.10B.countries.tunisia.food",
+        "global.10B.countries.uganda.food",
+        "global.10B.countries.zambia.food",
+        "global.10B.countries.zimbabwe.food"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

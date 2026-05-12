@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.energy",
+  "name": "Americas — Energy access",
+  "kind": "sector_economic",
+  "blurb": "Region-level energy access for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country energy models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "energy-country-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "energy-region-mean",
+      "kind": "scalar",
+      "description": "Mean energy score across the region."
+    },
+    {
+      "name": "energy-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Energy access"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.energy",
+      "kind": "consumes_from",
+      "note": "Country-level energy for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.energy",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

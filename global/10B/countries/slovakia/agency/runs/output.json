@@ -1,0 +1,56 @@
+{
+  "country": "Slovakia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8215,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.87
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    }
+  ],
+  "embedding": [
+    0.8215,
+    0.83333,
+    0.85,
+    0.85,
+    0.64419,
+    -0.28829,
+    -0.84158,
+    -0.25682,
+    -0.98962,
+    -0.5555,
+    -0.31334,
+    -0.3554,
+    -0.52059,
+    -0.30459,
+    -0.11705,
+    -0.66979
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

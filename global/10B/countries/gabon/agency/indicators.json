@@ -1,0 +1,39 @@
+{
+  "country": "Gabon",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Gabonese Democratic Party or PDG Restoration of Republican Values or RVThe Democrats or LDPaul Mba Abessole",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "74% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state owns and operates 2 TV stations and 2 radio broadcast stations; a few private radio and TV stations; transmissions of at least 2 international broadcasters are accessible; satellite service subscriptions are available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

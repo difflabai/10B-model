@@ -1,0 +1,56 @@
+{
+  "country": "Zimbabwe",
+  "category": "meaning",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.67,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: National holiday",
+      "score": 0.55
+    },
+    {
+      "field": "Government: National anthem",
+      "score": null
+    },
+    {
+      "field": "Government: National symbol(s)",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Citizenship - citizenship by birth",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.67,
+    0.83333,
+    0.55,
+    0.65,
+    -0.06758,
+    0.00407,
+    -0.61056,
+    0.7557,
+    -0.53295,
+    -0.95331,
+    0.54638,
+    -0.90298,
+    -0.51711,
+    0.31081,
+    -0.94546,
+    -0.71609
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

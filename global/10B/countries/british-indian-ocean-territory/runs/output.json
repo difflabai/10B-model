@@ -1,0 +1,47 @@
+{
+  "country": "british-indian-ocean-territory",
+  "category_scores": {
+    "agency": 0.75,
+    "belonging": null,
+    "communications": 0.7,
+    "education": null,
+    "energy": null,
+    "environment": 0.3,
+    "food": 0.375,
+    "governance": 0.625,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.2,
+    "safety": 0.55,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.5333,
+  "tier_scores": {
+    "subsistence": 0.5562,
+    "development": 0.45,
+    "agency": 0.5583
+  },
+  "country_embedding": [
+    0.32,
+    0.17472,
+    0.31333,
+    0.13667,
+    -0.13471,
+    0.14872,
+    -0.09802,
+    -0.07621,
+    -0.19426,
+    0.01578,
+    0.04779,
+    -0.14212,
+    0.03813,
+    -0.06514,
+    0.00916,
+    0.24775
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in British Indian Ocean Territory, the three needs areas with the largest gaps are: mobility (0.20), environment (0.30), food (0.38).\nThe three strongest areas are: agency (0.75), communications (0.70), water (0.65).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

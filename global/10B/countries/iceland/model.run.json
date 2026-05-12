@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.iceland",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Iceland"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.iceland.food",
+        "global.10B.countries.iceland.water",
+        "global.10B.countries.iceland.shelter",
+        "global.10B.countries.iceland.health",
+        "global.10B.countries.iceland.safety",
+        "global.10B.countries.iceland.education",
+        "global.10B.countries.iceland.work",
+        "global.10B.countries.iceland.energy",
+        "global.10B.countries.iceland.mobility",
+        "global.10B.countries.iceland.communications",
+        "global.10B.countries.iceland.governance",
+        "global.10B.countries.iceland.environment",
+        "global.10B.countries.iceland.belonging",
+        "global.10B.countries.iceland.meaning",
+        "global.10B.countries.iceland.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

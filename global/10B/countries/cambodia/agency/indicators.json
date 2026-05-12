@@ -1,0 +1,39 @@
+{
+  "country": "Cambodia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Candlelight Party or CPCambodian People's Party or CPP Khmer Will Party or KWP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "57% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "mixture of state-owned, joint public-private, and privately owned broadcast media; 27 TV broadcast stations with most operating on multiple channels, including 1 state-operated station broadcasting from multiple locations, 11 stations either jointly operated or privately owned with some broadcasting from several locations; multi-channel cable and satellite systems are available (2019); 84 radio broadcast stations - 1 state-owned broadcaster with multiple stations and a large mixture of public and private broadcasters; one international broadcaster is available (2019) as well as one Chinese joint venture television station with the Ministry of Interior; several television and radio operators broadcast online only (often via Facebook) (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

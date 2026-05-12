@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.samoa.shelter",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Samoa"
+    },
+    "category": {
+      "value": "shelter"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "shelter"
+    }
+  },
+  "output": "./runs/output.json"
+}

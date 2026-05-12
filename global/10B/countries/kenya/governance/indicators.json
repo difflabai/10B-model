@@ -1,0 +1,44 @@
+{
+  "country": "Kenya",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law, Islamic law, and customary law; judicial review in the new Supreme Court established by the new constitution",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "current constitution passed by referendum on 4 August 2010",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President William RUTO (since 13 September 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, ATMIS, AU, C, CD, COMESA, EAC, EADB, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICCT, ICRM, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, OPCW, PCA, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNISFA, UNMIL, UNMISS, UNOOSA, UNSOM, UNWTO, UPU, WCO, WHO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

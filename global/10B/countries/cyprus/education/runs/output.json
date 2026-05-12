@@ -1,0 +1,52 @@
+{
+  "country": "Cyprus",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8348,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9628
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.836
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.83476,
+    1.0,
+    0.9628,
+    0.836,
+    0.52612,
+    -0.73581,
+    -0.46105,
+    0.29042,
+    -0.82748,
+    0.06484,
+    0.02193,
+    0.27068,
+    0.74252,
+    -0.84997,
+    -0.90646,
+    -0.52569
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

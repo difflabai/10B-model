@@ -1,0 +1,52 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6404,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.7212
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6404,
+    0.6,
+    0.65,
+    0.7212,
+    0.24852,
+    -0.97501,
+    0.9173,
+    -0.05132,
+    0.97168,
+    -0.00529,
+    0.58651,
+    -0.86282,
+    -0.71212,
+    -0.34795,
+    -0.47881,
+    -0.33883
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.education",
+        "global.10B.countries.antarctica.education",
+        "global.10B.countries.canada.education",
+        "global.10B.countries.dhekelia.education",
+        "global.10B.countries.france.education",
+        "global.10B.countries.french-southern-and-antarctic-lands.education",
+        "global.10B.countries.greenland.education",
+        "global.10B.countries.heard-island-and-mcdonald-islands.education",
+        "global.10B.countries.russia.education",
+        "global.10B.countries.svalbard.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

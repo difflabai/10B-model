@@ -1,0 +1,52 @@
+{
+  "country": "Korea, North",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6862,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.97
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.68625,
+    0.8,
+    0.97,
+    0.575,
+    0.02599,
+    0.73712,
+    -0.66192,
+    0.23626,
+    -0.52938,
+    0.60275,
+    -0.98599,
+    0.5191,
+    -0.56121,
+    0.54189,
+    0.84317,
+    0.9646
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

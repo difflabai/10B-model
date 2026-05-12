@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.gambia-the",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Gambia, The"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.gambia-the.food",
+        "global.10B.countries.gambia-the.water",
+        "global.10B.countries.gambia-the.shelter",
+        "global.10B.countries.gambia-the.health",
+        "global.10B.countries.gambia-the.safety",
+        "global.10B.countries.gambia-the.education",
+        "global.10B.countries.gambia-the.work",
+        "global.10B.countries.gambia-the.energy",
+        "global.10B.countries.gambia-the.mobility",
+        "global.10B.countries.gambia-the.communications",
+        "global.10B.countries.gambia-the.governance",
+        "global.10B.countries.gambia-the.environment",
+        "global.10B.countries.gambia-the.belonging",
+        "global.10B.countries.gambia-the.meaning",
+        "global.10B.countries.gambia-the.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

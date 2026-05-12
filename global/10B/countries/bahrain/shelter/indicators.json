@@ -1,0 +1,34 @@
+{
+  "country": "Bahrain",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "89.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "709,000 MANAMA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "smallest population of the Gulf States, but urbanization rate exceeds 90%; largest settlement concentration is found on the far northern end of the island in and around Manamah and Al Muharraq",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "arid; mild, pleasant winters; very hot, humid summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "arid; mild, pleasant winters; very hot, humid summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

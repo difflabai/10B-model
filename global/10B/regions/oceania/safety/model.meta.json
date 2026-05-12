@@ -1,0 +1,303 @@
+{
+  "id": "global.10B.regions.oceania.safety",
+  "name": "Oceania — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "Region-level safety and protection from violence for Oceania, aggregated across 47 countries.",
+  "mechanism": "Aggregates the per-country safety models for the 47 Oceania countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-region-mean",
+      "kind": "scalar",
+      "description": "Mean safety score across the region."
+    },
+    {
+      "name": "safety-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B.regions.oceania",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.safety",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

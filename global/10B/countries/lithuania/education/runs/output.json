@@ -1,0 +1,52 @@
+{
+  "country": "Lithuania",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.771,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9676
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6125
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.77102,
+    1.0,
+    0.9676,
+    0.6125,
+    -0.47524,
+    0.12987,
+    -0.96979,
+    -0.93899,
+    0.93127,
+    0.74191,
+    0.09648,
+    0.46777,
+    -0.67462,
+    -0.59145,
+    0.41579,
+    -0.33883
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

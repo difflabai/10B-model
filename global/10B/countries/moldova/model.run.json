@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.moldova",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Moldova"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.moldova.food",
+        "global.10B.countries.moldova.water",
+        "global.10B.countries.moldova.shelter",
+        "global.10B.countries.moldova.health",
+        "global.10B.countries.moldova.safety",
+        "global.10B.countries.moldova.education",
+        "global.10B.countries.moldova.work",
+        "global.10B.countries.moldova.energy",
+        "global.10B.countries.moldova.mobility",
+        "global.10B.countries.moldova.communications",
+        "global.10B.countries.moldova.governance",
+        "global.10B.countries.moldova.environment",
+        "global.10B.countries.moldova.belonging",
+        "global.10B.countries.moldova.meaning",
+        "global.10B.countries.moldova.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

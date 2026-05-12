@@ -1,0 +1,72 @@
+{
+  "country": "Switzerland",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.6511,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5221
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5944
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6844
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5852
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.552
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6706
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.65109,
+    0.8,
+    0.5221,
+    0.5944,
+    -0.61532,
+    0.51656,
+    -0.74276,
+    -0.38192,
+    -0.96735,
+    0.00865,
+    -0.24038,
+    -0.44204,
+    0.45336,
+    0.22924,
+    0.61852,
+    -0.36239
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

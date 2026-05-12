@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "work"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.work",
+        "global.10B.countries.antigua-and-barbuda.work",
+        "global.10B.countries.argentina.work",
+        "global.10B.countries.aruba.work",
+        "global.10B.countries.bahamas-the.work",
+        "global.10B.countries.barbados.work",
+        "global.10B.countries.belize.work",
+        "global.10B.countries.bermuda.work",
+        "global.10B.countries.bolivia.work",
+        "global.10B.countries.brazil.work",
+        "global.10B.countries.british-virgin-islands.work",
+        "global.10B.countries.cayman-islands.work",
+        "global.10B.countries.cuba.work",
+        "global.10B.countries.curacao.work",
+        "global.10B.countries.dominica.work",
+        "global.10B.countries.dominican-republic.work",
+        "global.10B.countries.falkland-islands-islas-malvinas.work",
+        "global.10B.countries.grenada.work",
+        "global.10B.countries.guyana.work",
+        "global.10B.countries.haiti.work",
+        "global.10B.countries.jamaica.work",
+        "global.10B.countries.montserrat.work",
+        "global.10B.countries.navassa-island.work",
+        "global.10B.countries.paraguay.work",
+        "global.10B.countries.puerto-rico.work",
+        "global.10B.countries.saint-barthelemy.work",
+        "global.10B.countries.saint-kitts-and-nevis.work",
+        "global.10B.countries.saint-lucia.work",
+        "global.10B.countries.saint-martin.work",
+        "global.10B.countries.saint-pierre-and-miquelon.work",
+        "global.10B.countries.saint-vincent-and-the-grenadines.work",
+        "global.10B.countries.sint-maarten.work",
+        "global.10B.countries.suriname.work",
+        "global.10B.countries.trinidad-and-tobago.work",
+        "global.10B.countries.turks-and-caicos-islands.work",
+        "global.10B.countries.uruguay.work",
+        "global.10B.countries.venezuela.work",
+        "global.10B.countries.virgin-islands.work"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

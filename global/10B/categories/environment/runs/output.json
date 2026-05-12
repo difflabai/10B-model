@@ -1,0 +1,25 @@
+{
+  "category": "environment",
+  "countries_total": 257,
+  "countries_with_data": 248,
+  "countries_covered": 248,
+  "skipped_countries": [
+    "akrotiri",
+    "baker-island",
+    "dhekelia",
+    "howland-island",
+    "jarvis-island",
+    "johnston-atoll",
+    "kingman-reef",
+    "midway-islands",
+    "palmyra-atoll"
+  ],
+  "coverage_ratio": 0.965,
+  "world_mean": 0.5001,
+  "world_median": 0.5195,
+  "world_min": 0.3,
+  "world_max": 0.7399,
+  "world_p10": 0.4,
+  "world_p90": 0.584,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

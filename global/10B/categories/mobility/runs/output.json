@@ -1,0 +1,28 @@
+{
+  "category": "mobility",
+  "countries_total": 257,
+  "countries_with_data": 245,
+  "countries_covered": 245,
+  "skipped_countries": [
+    "akrotiri",
+    "ashmore-and-cartier-islands",
+    "bouvet-island",
+    "clipperton-island",
+    "coral-sea-islands",
+    "dhekelia",
+    "gaza-strip",
+    "jan-mayen",
+    "navassa-island",
+    "paracel-islands",
+    "pitcairn-islands",
+    "spratly-islands"
+  ],
+  "coverage_ratio": 0.9533,
+  "world_mean": 0.4433,
+  "world_median": 0.4335,
+  "world_min": 0.2,
+  "world_max": 0.8423,
+  "world_p10": 0.2317,
+  "world_p90": 0.641,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

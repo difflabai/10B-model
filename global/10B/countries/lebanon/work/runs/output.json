@@ -1,0 +1,60 @@
+{
+  "country": "Lebanon",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.4556,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.5825
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.4925
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.05
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.5029
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.45558,
+    0.71429,
+    0.5825,
+    0.4925,
+    -0.77136,
+    -0.45794,
+    0.2257,
+    -0.18917,
+    0.71359,
+    -0.09523,
+    -0.86337,
+    -0.74694,
+    0.48653,
+    0.87567,
+    0.27083,
+    0.05147
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

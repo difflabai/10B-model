@@ -1,0 +1,39 @@
+{
+  "country": "Chile",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Approve Dignity (Apruebo Dignidad) coalition or AD (included PC, FA, and FREVS); note - dissolved 2023Broad Front Coalition (Frente Amplio) or FA (includes RD, CS, and Comunes)Chile We Can Do More (Chile Podemos  Más) or ChP+ (coalition includes EVOPOLI, PRI, RN, UDI)Christian Democratic Party or PDCCommon Sense Party or SCCommons (Comunes)Communist Party of Chile or PCChDemocratic Revolution or RDDemocrats or PDEquality Party or PIGreen Ecological Party or PEV (dissolved 7 February 2022)Green Popular Alliance or AVPHumanist Action Party or PAHHumanist Party or PHIndependent Democratic Union or UDILiberal Party (Partido Liberal de Chile) or PLNational Renewal or RNNew Social Pact or NPS (includes PDC, PL, PPD, PRSD, PS)Party for Democracy or PPDParty of the People or PDGPolitical Evolution or EVOPOLIPopular Party or PPProgressive Homeland Party or PRORadical Party or PRRepublican Party or PLRSocial Christian Party or PSCSocial Convergence or CSSocial Green Regionalist Federation or FREVSSocialist Party or PSYellow Movement for Chile or AMAR",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national and local terrestrial TV channels, coupled with extensive cable TV networks; the state-owned Television Nacional de Chile (TVN) network is self-financed through commercial advertising revenues and is not under direct government control; large number of privately owned TV stations; about 250 radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.6% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

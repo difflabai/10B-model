@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.safety",
+  "name": "Europe — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "Region-level safety and protection from violence for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country safety models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-region-mean",
+      "kind": "scalar",
+      "description": "Mean safety score across the region."
+    },
+    {
+      "name": "safety-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.safety",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

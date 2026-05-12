@@ -1,0 +1,56 @@
+{
+  "country": "Cameroon",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7085,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.4843
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.508
+    }
+  ],
+  "embedding": [
+    0.70846,
+    0.83333,
+    0.85,
+    0.85,
+    -0.16722,
+    0.5982,
+    0.42171,
+    -0.43084,
+    -0.9426,
+    -0.02022,
+    -0.42516,
+    0.82293,
+    -0.60302,
+    -0.81079,
+    -0.89453,
+    -0.08382
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

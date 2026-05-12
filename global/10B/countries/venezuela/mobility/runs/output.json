@@ -1,0 +1,72 @@
+{
+  "country": "Venezuela",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5664,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5308
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7893
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7256
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.757
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2712
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.507
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.56636,
+    0.8,
+    0.5308,
+    0.7893,
+    0.17974,
+    -0.68612,
+    -0.47201,
+    -0.24514,
+    -0.68478,
+    0.1162,
+    -0.86423,
+    0.58718,
+    -0.80499,
+    -0.04668,
+    -0.50869,
+    -0.65588
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

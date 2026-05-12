@@ -1,0 +1,34 @@
+{
+  "country": "El Salvador",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "sugarcane, maize, milk, chicken, sorghum, beans, oranges, coconuts, eggs, mangoes/guavas (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "74.7% (2018 est.)agricultural land: arable land: 33.1% (2018 est.)agricultural land: permanent crops: 10.9% (2018 est.)agricultural land: permanent pasture: 30.7% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "4.6% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "6,628,702",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

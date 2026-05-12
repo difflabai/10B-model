@@ -1,0 +1,34 @@
+{
+  "country": "Canada",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "81.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "6.372 million Toronto, 4.308 million Montreal, 2.657 million Vancouver, 1.640 million Calgary, 1.544 million Edmonton, 1.437 million OTTAWA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "vast majority of Canadians are positioned in a discontinuous band within approximately 300 km of the southern border with the United States; the most populated province is Ontario, followed by Quebec and British Columbia",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from temperate in south to subarctic and arctic in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from temperate in south to subarctic and arctic in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Chad",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Chadian National Army (Armee Nationale du Tchad, ANT): Land Forces (l'Armee de Terre, AdT), Chadian Air Force (l'Armee de l'Air Tchadienne, AAT), General Direction of the Security Services of State Institutions (Direction Generale des Services de Securite des Institutions de l'Etat, GDSSIE); National Gendarmerie; Ministry of Public Security and Immigration: National Nomadic Guard of Chad (GNNT) (2023)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.9% of GDP (2023 est.)2.6% of GDP (2022 est.)2.5% of GDP (2021 est.)2.9% of GDP (2020 est.)2% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "694,569 (Sudan) (includes refugees since 15 April 2023), 26,692 (Cameroon) (2023); 134,015 (Central African Republic), 21,381 (Nigeria) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

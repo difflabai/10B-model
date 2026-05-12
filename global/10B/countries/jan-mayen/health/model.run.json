@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.jan-mayen.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Jan Mayen"
+    },
+    "category": {
+      "value": "health"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "health"
+    }
+  },
+  "output": "./runs/output.json"
+}

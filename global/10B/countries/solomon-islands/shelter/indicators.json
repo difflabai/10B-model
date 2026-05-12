@@ -1,0 +1,34 @@
+{
+  "country": "Solomon Islands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "26% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "82,000 HONIARA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population lives along the coastal regions; about one in five live in urban areas, and of these some two-thirds reside in Honiara, the largest town and chief port",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical monsoon; few temperature and weather extremes",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical monsoon; few temperature and weather extremes",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

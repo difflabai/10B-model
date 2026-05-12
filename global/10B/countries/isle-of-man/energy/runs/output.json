@@ -1,0 +1,84 @@
+{
+  "country": "Isle of Man",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.07692307692307693,
+  "indicators_scored": 1,
+  "indicators_total": 13,
+  "composite_score": 0.97,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": null
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.97,
+    0.07692,
+    0.97,
+    0.0,
+    0.89557,
+    0.11022,
+    -0.30666,
+    -0.27153,
+    0.29323,
+    -0.35567,
+    -0.57513,
+    -0.70321,
+    -0.9841,
+    -0.71496,
+    0.98996,
+    -0.46307
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

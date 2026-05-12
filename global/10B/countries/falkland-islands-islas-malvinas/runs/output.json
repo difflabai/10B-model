@@ -1,0 +1,47 @@
+{
+  "country": "falkland-islands-islas-malvinas",
+  "category_scores": {
+    "agency": 0.775,
+    "belonging": 0.65,
+    "communications": 0.7545,
+    "education": 0.65,
+    "energy": 0.5541,
+    "environment": 0.3,
+    "food": 0.5692,
+    "governance": 0.675,
+    "health": 0.7671,
+    "meaning": 0.6,
+    "mobility": 0.3667,
+    "safety": 0.55,
+    "shelter": 0.6528,
+    "water": 0.75,
+    "work": 0.829
+  },
+  "country_score": 0.6296,
+  "tier_scores": {
+    "subsistence": 0.6578,
+    "development": 0.6309,
+    "agency": 0.6
+  },
+  "country_embedding": [
+    0.62956,
+    0.56728,
+    0.68034,
+    0.44781,
+    0.15847,
+    0.18062,
+    0.34104,
+    0.03004,
+    -0.0601,
+    -0.3991,
+    0.06049,
+    0.0538,
+    0.22498,
+    -0.12205,
+    0.01463,
+    -0.12362
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Falkland Islands Islas Malvinas, the three needs areas with the largest gaps are: environment (0.30), mobility (0.37), safety (0.55).\nThe three strongest areas are: work (0.83), agency (0.78), health (0.77).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

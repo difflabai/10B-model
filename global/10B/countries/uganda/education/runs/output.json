@@ -1,0 +1,52 @@
+{
+  "country": "Uganda",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6366,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7217
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.438
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.63656,
+    0.6,
+    0.7217,
+    0.438,
+    -0.13512,
+    0.3464,
+    0.72515,
+    -0.41704,
+    -0.47445,
+    0.30346,
+    0.06792,
+    -0.43243,
+    0.80121,
+    0.12526,
+    0.88382,
+    0.85678
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

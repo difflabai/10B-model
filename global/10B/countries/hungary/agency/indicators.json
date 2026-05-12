@@ -1,0 +1,39 @@
+{
+  "country": "Hungary",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age, 16 if married and marriage is registered in Hungary; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Christian Democratic People's Party or KDNPDemocratic Coalition or DKDialogue for Hungary or PárbeszédFidesz-Hungarian Civic Alliance or FideszHungarian Socialist Party or MSZPJobbik - Conservatives or JobbikLMP-Hungary's Green Party or LMPMi Hazank (Our Homeland Movement) or MHMMomentum Movement or MomentumMovement for a Better Hungary or JobbikNational Self-Government of Germans in Hungary or MNOÖOn the People's Side or A Nép PártjánOur Homeland Movement or Mi HazánkTISZA – Respect and Freedom Party or TISZA",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "91% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "mixed system of state-supported public service broadcast media and private broadcasters; the 5 publicly owned TV channels and the 2 main privately owned TV stations are the major national broadcasters; a large number of special interest channels; highly developed market for satellite and cable TV services with about two-thirds of viewers utilizing their services; 4 state-supported public-service radio networks; a large number of local stations including commercial, public service, nonprofit, and community radio stations; digital transition completed at the end of 2013; government-linked businesses have greatly consolidated ownership in broadcast and print media (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.8% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

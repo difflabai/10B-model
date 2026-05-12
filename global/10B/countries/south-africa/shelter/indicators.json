@@ -1,0 +1,34 @@
+{
+  "country": "South Africa",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "68.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "10.316 million Johannesburg (includes Ekurhuleni), 4.890 million Cape Town (legislative capital), 3.228 million Durban, 2.818 million PRETORIA (administrative capital), 1.296 million Port Elizabeth, 934,000 West Rand (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the population concentrated along the southern and southeastern coast, and inland around Pretoria; the eastern half of the country is more densely populated than the west as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly semiarid; subtropical along east coast; sunny days, cool nights",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly semiarid; subtropical along east coast; sunny days, cool nights",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

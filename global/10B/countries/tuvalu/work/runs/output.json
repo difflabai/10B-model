@@ -1,0 +1,60 @@
+{
+  "country": "Tuvalu",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.5714285714285714,
+  "indicators_scored": 4,
+  "indicators_total": 7,
+  "composite_score": 0.6344,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.42
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.7925
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.775
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.63437,
+    0.57143,
+    0.42,
+    0.7925,
+    -0.62628,
+    0.8277,
+    -0.6856,
+    -0.4548,
+    0.82791,
+    -0.62231,
+    0.47051,
+    0.08028,
+    -0.95355,
+    0.67236,
+    -0.71139,
+    0.11846
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

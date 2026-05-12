@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.health",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "health"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.health",
+        "global.10B.countries.angola.health",
+        "global.10B.countries.benin.health",
+        "global.10B.countries.botswana.health",
+        "global.10B.countries.bouvet-island.health",
+        "global.10B.countries.british-indian-ocean-territory.health",
+        "global.10B.countries.burkina-faso.health",
+        "global.10B.countries.burundi.health",
+        "global.10B.countries.cabo-verde.health",
+        "global.10B.countries.cameroon.health",
+        "global.10B.countries.central-african-republic.health",
+        "global.10B.countries.chad.health",
+        "global.10B.countries.comoros.health",
+        "global.10B.countries.congo-democratic-republic-of-the.health",
+        "global.10B.countries.congo-republic-of-the.health",
+        "global.10B.countries.djibouti.health",
+        "global.10B.countries.egypt.health",
+        "global.10B.countries.equatorial-guinea.health",
+        "global.10B.countries.eritrea.health",
+        "global.10B.countries.eswatini.health",
+        "global.10B.countries.ethiopia.health",
+        "global.10B.countries.gabon.health",
+        "global.10B.countries.gambia-the.health",
+        "global.10B.countries.ghana.health",
+        "global.10B.countries.guinea.health",
+        "global.10B.countries.guinea-bissau.health",
+        "global.10B.countries.kenya.health",
+        "global.10B.countries.lesotho.health",
+        "global.10B.countries.liberia.health",
+        "global.10B.countries.libya.health",
+        "global.10B.countries.madagascar.health",
+        "global.10B.countries.malawi.health",
+        "global.10B.countries.mali.health",
+        "global.10B.countries.mauritania.health",
+        "global.10B.countries.mauritius.health",
+        "global.10B.countries.morocco.health",
+        "global.10B.countries.mozambique.health",
+        "global.10B.countries.namibia.health",
+        "global.10B.countries.niger.health",
+        "global.10B.countries.nigeria.health",
+        "global.10B.countries.rwanda.health",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.health",
+        "global.10B.countries.sao-tome-and-principe.health",
+        "global.10B.countries.senegal.health",
+        "global.10B.countries.seychelles.health",
+        "global.10B.countries.sierra-leone.health",
+        "global.10B.countries.somalia.health",
+        "global.10B.countries.south-africa.health",
+        "global.10B.countries.south-sudan.health",
+        "global.10B.countries.sudan.health",
+        "global.10B.countries.tanzania.health",
+        "global.10B.countries.togo.health",
+        "global.10B.countries.tunisia.health",
+        "global.10B.countries.uganda.health",
+        "global.10B.countries.zambia.health",
+        "global.10B.countries.zimbabwe.health"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

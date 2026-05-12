@@ -1,0 +1,34 @@
+{
+  "country": "Bhutan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "44.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "203,000 THIMPHU (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies; tropical in southern plains; cool winters and hot summers in central valleys; severe winters and cool summers in Himalayas",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies; tropical in southern plains; cool winters and hot summers in central valleys; severe winters and cool summers in Himalayas",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Bolivia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "71.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.936 million LA PAZ (capital), 1.820 million Santa Cruz, 1.400 million Cochabamba (2022); 278,000 Sucre (constitutional capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a high altitude plain in the west between two cordillera of the Andes, known as the Altiplano, is the focal area for most of the population; a dense settlement pattern is also found in and around the city of Santa Cruz, located on the eastern side of the Andes",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies with altitude; humid and tropical to cold and semiarid",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies with altitude; humid and tropical to cold and semiarid",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

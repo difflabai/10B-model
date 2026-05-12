@@ -1,0 +1,27 @@
+{
+  "category": "water",
+  "countries_total": 257,
+  "countries_with_data": 246,
+  "countries_covered": 246,
+  "skipped_countries": [
+    "akrotiri",
+    "baker-island",
+    "dhekelia",
+    "french-southern-and-antarctic-lands",
+    "howland-island",
+    "jarvis-island",
+    "johnston-atoll",
+    "kingman-reef",
+    "midway-islands",
+    "palmyra-atoll",
+    "saint-helena-ascension-and-tristan-da-cunha"
+  ],
+  "coverage_ratio": 0.9572,
+  "world_mean": 0.668,
+  "world_median": 0.65,
+  "world_min": 0.55,
+  "world_max": 0.85,
+  "world_p10": 0.6167,
+  "world_p90": 0.75,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

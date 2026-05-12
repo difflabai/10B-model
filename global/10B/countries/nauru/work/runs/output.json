@@ -1,0 +1,60 @@
+{
+  "country": "Nauru",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.6045,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.5875
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.5295
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6965
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.6045,
+    0.42857,
+    0.5875,
+    0.5295,
+    -0.43157,
+    -0.91937,
+    -0.79617,
+    -0.2152,
+    0.44137,
+    0.5903,
+    0.92441,
+    -0.06667,
+    -0.39596,
+    -0.46801,
+    0.53066,
+    -0.25774
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

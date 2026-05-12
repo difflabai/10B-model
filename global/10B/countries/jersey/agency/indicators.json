@@ -1,0 +1,39 @@
+{
+  "country": "Jersey",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Better Way or BW (group of independent candidates)Jersey Alliance or JA Jersey Liberal Conservatives or JLC Progress Party or PP Reform Jersey or RJ",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "93% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple UK terrestrial TV broadcasts are received via a transmitter in Jersey; satellite packages available; BBC Radio Jersey and 1 other radio station operating",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

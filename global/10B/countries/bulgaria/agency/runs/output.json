@@ -1,0 +1,56 @@
+{
+  "country": "Bulgaria",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7725,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.8
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6125
+    }
+  ],
+  "embedding": [
+    0.7725,
+    0.83333,
+    0.85,
+    0.85,
+    0.88983,
+    -0.68579,
+    -0.51699,
+    0.22817,
+    -0.82931,
+    0.1866,
+    -0.13472,
+    0.13906,
+    0.86123,
+    0.8819,
+    0.17165,
+    -0.7579
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

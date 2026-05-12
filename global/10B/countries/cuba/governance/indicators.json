@@ -1,0 +1,44 @@
+{
+  "country": "Cuba",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "communist state",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on Spanish civil code",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest drafted 14 July 2018, approved by the National Assembly 22 December 2018, approved by referendum 24 February 2019",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Miguel DIAZ-CANEL Bermudez (since 19 April 2018)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ACS, ALBA, AOSIS, CABEI, CELAC, EAEU (observer), FAO, G-77, IAEA, ICAO, ICC (national committees), ICRM, IFAD, IFRCS, IHO, ILO, IMO, IMSO, Interpol, IOC, IOM (observer), IPU, ISO, ITSO, ITU, LAES, LAIA, NAM, OAS (excluded from formal participation since 1962), OPANAL, OPCW, PCA, Petrocaribe, PIF (partner), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,71 @@
+{
+  "modelId": "global.10B.regions.asia",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan",
+        "global.10B.countries.ashmore-and-cartier-islands",
+        "global.10B.countries.bahrain",
+        "global.10B.countries.bangladesh",
+        "global.10B.countries.bhutan",
+        "global.10B.countries.brunei",
+        "global.10B.countries.burma",
+        "global.10B.countries.cambodia",
+        "global.10B.countries.china",
+        "global.10B.countries.christmas-island",
+        "global.10B.countries.cocos-keeling-islands",
+        "global.10B.countries.gaza-strip",
+        "global.10B.countries.hong-kong",
+        "global.10B.countries.india",
+        "global.10B.countries.indonesia",
+        "global.10B.countries.iran",
+        "global.10B.countries.iraq",
+        "global.10B.countries.israel",
+        "global.10B.countries.japan",
+        "global.10B.countries.jordan",
+        "global.10B.countries.korea-north",
+        "global.10B.countries.korea-south",
+        "global.10B.countries.kuwait",
+        "global.10B.countries.kyrgyzstan",
+        "global.10B.countries.laos",
+        "global.10B.countries.lebanon",
+        "global.10B.countries.macau",
+        "global.10B.countries.malaysia",
+        "global.10B.countries.maldives",
+        "global.10B.countries.mongolia",
+        "global.10B.countries.nepal",
+        "global.10B.countries.oman",
+        "global.10B.countries.pakistan",
+        "global.10B.countries.paracel-islands",
+        "global.10B.countries.philippines",
+        "global.10B.countries.qatar",
+        "global.10B.countries.saudi-arabia",
+        "global.10B.countries.singapore",
+        "global.10B.countries.spratly-islands",
+        "global.10B.countries.sri-lanka",
+        "global.10B.countries.syria",
+        "global.10B.countries.taiwan",
+        "global.10B.countries.tajikistan",
+        "global.10B.countries.thailand",
+        "global.10B.countries.timor-leste",
+        "global.10B.countries.turkmenistan",
+        "global.10B.countries.united-arab-emirates",
+        "global.10B.countries.uzbekistan",
+        "global.10B.countries.vietnam",
+        "global.10B.countries.west-bank",
+        "global.10B.countries.yemen"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

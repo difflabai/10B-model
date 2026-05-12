@@ -1,0 +1,34 @@
+{
+  "country": "Iran",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "77.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "9.500 million TEHRAN (capital), 3.368 million Mashhad, 2.258 million Esfahan, 1.721 million Shiraz, 1.661 million Tabriz, 1.594 million Karaj (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population is concentrated in the north, northwest, and west, reflecting the position of the Zagros and Elburz Mountains; the vast dry areas in the center and eastern parts of the country, around the deserts of the Dasht-e Kavir and Dasht-e Lut, have a much lower population density",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly arid or semiarid, subtropical along Caspian coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly arid or semiarid, subtropical along Caspian coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

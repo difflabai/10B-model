@@ -1,0 +1,39 @@
+{
+  "country": "United Kingdom",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance Party or APNI (Northern Ireland) Conservative and Unionist Party Democratic Unionist Party or DUP (Northern Ireland) Green Party of England and Wales or Greens Labor (Labour) Party Liberal Democrats (Lib Dems)Party of Wales (Plaid Cymru) Reform UK Scottish National Party or SNP Sinn Fein (Northern Ireland) Social Democratic and Labor Party or SDLP (Northern Ireland) Traditional Unionist Voice or TUV UK Independence Party or UKIP Ulster Unionist Party or UUP (Northern Ireland) Workers Party of Great Britian",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "95% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "public service broadcaster, British Broadcasting Corporation (BBC), is the largest broadcasting corporation in the world; BBC operates multiple TV networks with regional and local TV service; a mixed system of public and commercial TV broadcasters along with satellite and cable systems provide access to hundreds of TV stations throughout the world; BBC operates multiple national, regional, and local radio networks with multiple transmission sites; a large number of commercial radio stations, as well as satellite radio services are available (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

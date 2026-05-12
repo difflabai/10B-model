@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.west-bank",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "West Bank"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.west-bank.food",
+        "global.10B.countries.west-bank.water",
+        "global.10B.countries.west-bank.shelter",
+        "global.10B.countries.west-bank.health",
+        "global.10B.countries.west-bank.safety",
+        "global.10B.countries.west-bank.education",
+        "global.10B.countries.west-bank.work",
+        "global.10B.countries.west-bank.energy",
+        "global.10B.countries.west-bank.mobility",
+        "global.10B.countries.west-bank.communications",
+        "global.10B.countries.west-bank.governance",
+        "global.10B.countries.west-bank.environment",
+        "global.10B.countries.west-bank.belonging",
+        "global.10B.countries.west-bank.meaning",
+        "global.10B.countries.west-bank.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

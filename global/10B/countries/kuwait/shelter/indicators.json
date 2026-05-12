@@ -1,0 +1,34 @@
+{
+  "country": "Kuwait",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.298 million KUWAIT (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "densest settlement is along the Persian Gulf, particularly in Kuwait City and on Bubiyan Island; significant population threads extend south and west along highways that radiate from the capital, particularly in the southern half of the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "dry desert; intensely hot summers; short, cool winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "dry desert; intensely hot summers; short, cool winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

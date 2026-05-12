@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.angola",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Angola"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.angola.food",
+        "global.10B.countries.angola.water",
+        "global.10B.countries.angola.shelter",
+        "global.10B.countries.angola.health",
+        "global.10B.countries.angola.safety",
+        "global.10B.countries.angola.education",
+        "global.10B.countries.angola.work",
+        "global.10B.countries.angola.energy",
+        "global.10B.countries.angola.mobility",
+        "global.10B.countries.angola.communications",
+        "global.10B.countries.angola.governance",
+        "global.10B.countries.angola.environment",
+        "global.10B.countries.angola.belonging",
+        "global.10B.countries.angola.meaning",
+        "global.10B.countries.angola.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

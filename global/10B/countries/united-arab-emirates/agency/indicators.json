@@ -1,0 +1,39 @@
+{
+  "country": "United Arab Emirates",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "limited; note - rulers of the seven emirates each select a proportion of voters for the Federal National Council (FNC) that together account for about 12 percent of Emirati citizens",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none; political parties are banned; all candidates run as independents",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "except for the many organizations now operating in media free zones in Abu Dhabi and Dubai, most TV and radio stations remain government-owned; widespread use of satellite dishes provides access to pan-Arab and other international broadcasts; restrictions since June 2017 on some satellite channels and websites originating from or otherwise linked to Qatar, but in early 2023 Abu Dhabi unblocked several sites, including Al Jazeera (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

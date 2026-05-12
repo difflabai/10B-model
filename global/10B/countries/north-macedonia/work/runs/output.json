@@ -1,0 +1,60 @@
+{
+  "country": "North Macedonia",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6178,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7188
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.657
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5474
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.4576
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.564
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.73
+    }
+  ],
+  "embedding": [
+    0.61783,
+    1.0,
+    0.7188,
+    0.657,
+    0.27913,
+    0.93014,
+    -0.38412,
+    -0.42238,
+    0.17659,
+    0.14827,
+    0.83883,
+    0.55193,
+    0.39861,
+    0.67245,
+    0.35311,
+    -0.66925
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

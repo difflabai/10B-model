@@ -1,0 +1,202 @@
+{
+  "id": "global.10B.regions.polar",
+  "name": "Polar / extra-territorial — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Polar / extra-territorial aggregating 10 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 10 country needs profiles for Polar / extra-territorial into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Polar / extra-territorial countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: svalbard"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

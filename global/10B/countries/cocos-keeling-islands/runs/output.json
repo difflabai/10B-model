@@ -1,0 +1,47 @@
+{
+  "country": "cocos-keeling-islands",
+  "category_scores": {
+    "agency": 0.5085,
+    "belonging": 0.625,
+    "communications": 0.5968,
+    "education": 0.7,
+    "energy": null,
+    "environment": 0.3,
+    "food": 0.4333,
+    "governance": 0.6167,
+    "health": null,
+    "meaning": 0.65,
+    "mobility": 0.2875,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.5471,
+  "tier_scores": {
+    "subsistence": 0.5778,
+    "development": 0.5281,
+    "agency": 0.54
+  },
+  "country_embedding": [
+    0.40119,
+    0.36681,
+    0.37227,
+    0.35,
+    0.16393,
+    -0.08878,
+    -0.06507,
+    -0.04921,
+    0.21005,
+    0.09811,
+    -0.10548,
+    0.32342,
+    0.01899,
+    -0.12476,
+    0.15147,
+    -0.07889
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cocos Keeling Islands, the three needs areas with the largest gaps are: mobility (0.29), environment (0.30), food (0.43).\nThe three strongest areas are: education (0.70), water (0.65), shelter (0.65).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

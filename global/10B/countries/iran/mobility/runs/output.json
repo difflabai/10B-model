@@ -1,0 +1,72 @@
+{
+  "country": "Iran",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.6241,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.6157
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.7927
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7162
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.7267
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5656
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5732
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6506
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.62407,
+    1.0,
+    0.6157,
+    0.7927,
+    -0.59683,
+    -0.41439,
+    -0.95737,
+    0.63464,
+    -0.44701,
+    -0.90347,
+    0.76532,
+    -0.64282,
+    0.74917,
+    0.61215,
+    0.7818,
+    0.992
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

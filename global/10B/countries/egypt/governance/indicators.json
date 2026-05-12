@@ -1,0 +1,44 @@
+{
+  "country": "Egypt",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system based on Napoleonic civil and penal law, Islamic religious law, and vestiges of colonial-era laws; judicial review of the constitutionality of laws by the Supreme Constitutional Court",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest approved by a constitutional committee in December 2013, approved by referendum held on 14-15 January 2014, ratified by interim president on 19 January 2014",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Abdel Fattah EL-SISI (since 8 June 2014)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ABEDA, AfDB, AFESD, AMF, AU, BRICS, BSEC (observer), CAEU, CD, CICA, COMESA, D-8, EBRD, FAO, G-15, G-24, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, LAS, LCBC (observer), MIGA, MINURSO, MONUSCO, NAM, OAPEC, OAS (observer), OIC, OIF, OSCE (partner), PCA, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

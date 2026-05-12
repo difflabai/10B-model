@@ -1,0 +1,79 @@
+{
+  "modelId": "global.10B.regions.africa.communications",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "category": {
+      "value": "communications"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria.communications",
+        "global.10B.countries.angola.communications",
+        "global.10B.countries.benin.communications",
+        "global.10B.countries.botswana.communications",
+        "global.10B.countries.bouvet-island.communications",
+        "global.10B.countries.british-indian-ocean-territory.communications",
+        "global.10B.countries.burkina-faso.communications",
+        "global.10B.countries.burundi.communications",
+        "global.10B.countries.cabo-verde.communications",
+        "global.10B.countries.cameroon.communications",
+        "global.10B.countries.central-african-republic.communications",
+        "global.10B.countries.chad.communications",
+        "global.10B.countries.comoros.communications",
+        "global.10B.countries.congo-democratic-republic-of-the.communications",
+        "global.10B.countries.congo-republic-of-the.communications",
+        "global.10B.countries.djibouti.communications",
+        "global.10B.countries.egypt.communications",
+        "global.10B.countries.equatorial-guinea.communications",
+        "global.10B.countries.eritrea.communications",
+        "global.10B.countries.eswatini.communications",
+        "global.10B.countries.ethiopia.communications",
+        "global.10B.countries.gabon.communications",
+        "global.10B.countries.gambia-the.communications",
+        "global.10B.countries.ghana.communications",
+        "global.10B.countries.guinea.communications",
+        "global.10B.countries.guinea-bissau.communications",
+        "global.10B.countries.kenya.communications",
+        "global.10B.countries.lesotho.communications",
+        "global.10B.countries.liberia.communications",
+        "global.10B.countries.libya.communications",
+        "global.10B.countries.madagascar.communications",
+        "global.10B.countries.malawi.communications",
+        "global.10B.countries.mali.communications",
+        "global.10B.countries.mauritania.communications",
+        "global.10B.countries.mauritius.communications",
+        "global.10B.countries.morocco.communications",
+        "global.10B.countries.mozambique.communications",
+        "global.10B.countries.namibia.communications",
+        "global.10B.countries.niger.communications",
+        "global.10B.countries.nigeria.communications",
+        "global.10B.countries.rwanda.communications",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.communications",
+        "global.10B.countries.sao-tome-and-principe.communications",
+        "global.10B.countries.senegal.communications",
+        "global.10B.countries.seychelles.communications",
+        "global.10B.countries.sierra-leone.communications",
+        "global.10B.countries.somalia.communications",
+        "global.10B.countries.south-africa.communications",
+        "global.10B.countries.south-sudan.communications",
+        "global.10B.countries.sudan.communications",
+        "global.10B.countries.tanzania.communications",
+        "global.10B.countries.togo.communications",
+        "global.10B.countries.tunisia.communications",
+        "global.10B.countries.uganda.communications",
+        "global.10B.countries.zambia.communications",
+        "global.10B.countries.zimbabwe.communications"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

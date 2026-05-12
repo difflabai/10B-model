@@ -1,0 +1,44 @@
+{
+  "country": "Bermuda",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$98,000 (2023 est.)$98,100 (2022 est.)$92,300 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "-0.09% (2023 est.)6.43% (2022 est.)5.42% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "1.9% (2017 est.)1.4% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "33,480 (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "7% (2017 est.)7% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

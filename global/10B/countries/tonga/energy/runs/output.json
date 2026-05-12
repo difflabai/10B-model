@@ -1,0 +1,84 @@
+{
+  "country": "Tonga",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6153846153846154,
+  "indicators_scored": 8,
+  "indicators_total": 13,
+  "composite_score": 0.5519,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.2275
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.6075
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.56
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.55188,
+    0.61538,
+    0.97,
+    0.55,
+    0.94977,
+    -0.15923,
+    0.53957,
+    0.71466,
+    0.87616,
+    -0.51153,
+    0.96078,
+    -0.70431,
+    -0.78888,
+    -0.4743,
+    0.21257,
+    -0.92148
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

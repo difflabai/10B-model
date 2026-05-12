@@ -1,0 +1,47 @@
+{
+  "country": "san-marino",
+  "category_scores": {
+    "agency": 0.7472,
+    "belonging": 0.594,
+    "communications": 0.7045,
+    "education": 0.691,
+    "energy": 0.97,
+    "environment": 0.4965,
+    "food": 0.531,
+    "governance": 0.7571,
+    "health": 0.8073,
+    "meaning": 0.59,
+    "mobility": 0.25,
+    "safety": 0.75,
+    "shelter": 0.6,
+    "water": 0.65,
+    "work": 0.8554
+  },
+  "country_score": 0.6663,
+  "tier_scores": {
+    "subsistence": 0.6677,
+    "development": 0.6942,
+    "agency": 0.637
+  },
+  "country_embedding": [
+    0.66626,
+    0.66418,
+    0.71625,
+    0.50341,
+    -0.01402,
+    -0.02207,
+    0.13353,
+    0.1497,
+    -0.13371,
+    -0.02192,
+    -0.07179,
+    -0.01162,
+    -0.03849,
+    -0.05008,
+    0.05024,
+    -0.08886
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in San Marino, the three needs areas with the largest gaps are: mobility (0.25), environment (0.50), food (0.53).\nThe three strongest areas are: energy (0.97), work (0.86), health (0.81).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

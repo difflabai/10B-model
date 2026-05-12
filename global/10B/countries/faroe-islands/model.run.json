@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.faroe-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Faroe Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.faroe-islands.food",
+        "global.10B.countries.faroe-islands.water",
+        "global.10B.countries.faroe-islands.shelter",
+        "global.10B.countries.faroe-islands.health",
+        "global.10B.countries.faroe-islands.safety",
+        "global.10B.countries.faroe-islands.education",
+        "global.10B.countries.faroe-islands.work",
+        "global.10B.countries.faroe-islands.energy",
+        "global.10B.countries.faroe-islands.mobility",
+        "global.10B.countries.faroe-islands.communications",
+        "global.10B.countries.faroe-islands.governance",
+        "global.10B.countries.faroe-islands.environment",
+        "global.10B.countries.faroe-islands.belonging",
+        "global.10B.countries.faroe-islands.meaning",
+        "global.10B.countries.faroe-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Germany",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; age 16 for some state and municipal elections",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance '90/Greens Alternative for Germany or AfD Christian Democratic Union or CDU Christian Social Union or CSU Free Democratic Party or FDP Free Voters The Left or Die Linke Social Democratic Party or SPD",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "92% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mixture of publicly operated and privately owned TV and radio stations; 70 national and regional public broadcasters compete with nearly 400 privately owned national and regional TV stations; more than 90% of households have cable or satellite TV; hundreds of radio stations including multiple national radio networks, regional radio networks, and a large number of local radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

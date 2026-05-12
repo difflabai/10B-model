@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.egypt",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Egypt"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.egypt.food",
+        "global.10B.countries.egypt.water",
+        "global.10B.countries.egypt.shelter",
+        "global.10B.countries.egypt.health",
+        "global.10B.countries.egypt.safety",
+        "global.10B.countries.egypt.education",
+        "global.10B.countries.egypt.work",
+        "global.10B.countries.egypt.energy",
+        "global.10B.countries.egypt.mobility",
+        "global.10B.countries.egypt.communications",
+        "global.10B.countries.egypt.governance",
+        "global.10B.countries.egypt.environment",
+        "global.10B.countries.egypt.belonging",
+        "global.10B.countries.egypt.meaning",
+        "global.10B.countries.egypt.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

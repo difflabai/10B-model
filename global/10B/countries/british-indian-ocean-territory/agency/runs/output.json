@@ -1,0 +1,56 @@
+{
+  "country": "British Indian Ocean Territory",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.16666666666666666,
+  "indicators_scored": 1,
+  "indicators_total": 6,
+  "composite_score": 0.75,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75,
+    0.16667,
+    0.75,
+    0.0,
+    -0.32653,
+    -0.17623,
+    0.28911,
+    -0.37032,
+    0.55657,
+    -0.56555,
+    0.76535,
+    -0.31237,
+    0.0385,
+    0.80078,
+    -0.59347,
+    0.95398
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

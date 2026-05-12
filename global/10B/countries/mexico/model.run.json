@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.mexico",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Mexico"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.mexico.food",
+        "global.10B.countries.mexico.water",
+        "global.10B.countries.mexico.shelter",
+        "global.10B.countries.mexico.health",
+        "global.10B.countries.mexico.safety",
+        "global.10B.countries.mexico.education",
+        "global.10B.countries.mexico.work",
+        "global.10B.countries.mexico.energy",
+        "global.10B.countries.mexico.mobility",
+        "global.10B.countries.mexico.communications",
+        "global.10B.countries.mexico.governance",
+        "global.10B.countries.mexico.environment",
+        "global.10B.countries.mexico.belonging",
+        "global.10B.countries.mexico.meaning",
+        "global.10B.countries.mexico.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

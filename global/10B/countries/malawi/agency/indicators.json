@@ -1,0 +1,39 @@
+{
+  "country": "Malawi",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Progressive Party or DPP Malawi Congress Party or MCP People's Party or PP United Democratic Front or UDFUnited Transformation Movement or UTM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "18% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "radio is the main broadcast medium; privately owned Zodiak radio has the widest national broadcasting reach, followed by state-run radio; numerous private and community radio stations broadcast in cities and towns around the country; the largest TV network is government-owned, but at least 4 private TV networks broadcast in urban areas; relays of multiple international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

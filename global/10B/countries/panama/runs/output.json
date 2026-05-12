@@ -1,0 +1,47 @@
+{
+  "country": "panama",
+  "category_scores": {
+    "agency": 0.7583,
+    "belonging": 0.7524,
+    "communications": 0.7023,
+    "education": 0.7687,
+    "energy": 0.6769,
+    "environment": 0.5738,
+    "food": 0.698,
+    "governance": 0.7286,
+    "health": 0.7113,
+    "meaning": 0.67,
+    "mobility": 0.4671,
+    "safety": 0.6322,
+    "shelter": 0.6871,
+    "water": 0.6,
+    "work": 0.7204
+  },
+  "country_score": 0.6765,
+  "tier_scores": {
+    "subsistence": 0.6657,
+    "development": 0.6671,
+    "agency": 0.6966
+  },
+  "country_embedding": [
+    0.67647,
+    0.85265,
+    0.75415,
+    0.70045,
+    0.07217,
+    -0.12292,
+    -0.09149,
+    0.22794,
+    -0.09498,
+    -0.00195,
+    -0.08929,
+    -0.07678,
+    0.02591,
+    -0.05656,
+    0.07092,
+    0.12341
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Panama, the three needs areas with the largest gaps are: mobility (0.47), environment (0.57), water (0.60).\nThe three strongest areas are: education (0.77), agency (0.76), belonging (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

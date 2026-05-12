@@ -1,0 +1,47 @@
+{
+  "country": "bosnia-and-herzegovina",
+  "category_scores": {
+    "agency": 0.845,
+    "belonging": 0.6254,
+    "communications": 0.7242,
+    "education": 0.7868,
+    "energy": 0.5426,
+    "environment": 0.5229,
+    "food": 0.7388,
+    "governance": 0.7571,
+    "health": 0.7483,
+    "meaning": 0.67,
+    "mobility": 0.382,
+    "safety": 0.6783,
+    "shelter": 0.6461,
+    "water": 0.7,
+    "work": 0.6454
+  },
+  "country_score": 0.6675,
+  "tier_scores": {
+    "subsistence": 0.7023,
+    "development": 0.6162,
+    "agency": 0.6841
+  },
+  "country_embedding": [
+    0.66754,
+    0.79954,
+    0.71559,
+    0.67613,
+    -0.2122,
+    -0.09252,
+    0.07608,
+    -0.10814,
+    -0.06302,
+    -0.03343,
+    -0.21437,
+    0.03558,
+    -0.09727,
+    -0.00763,
+    0.22559,
+    -0.14805
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bosnia And Herzegovina, the three needs areas with the largest gaps are: mobility (0.38), environment (0.52), energy (0.54).\nThe three strongest areas are: agency (0.84), education (0.79), governance (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

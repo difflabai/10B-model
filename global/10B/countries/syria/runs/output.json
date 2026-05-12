@@ -1,0 +1,47 @@
+{
+  "country": "syria",
+  "category_scores": {
+    "agency": 0.7033,
+    "belonging": 0.7131,
+    "communications": 0.6339,
+    "education": 0.662,
+    "energy": 0.5686,
+    "environment": 0.4493,
+    "food": 0.5946,
+    "governance": 0.6857,
+    "health": 0.612,
+    "meaning": 0.67,
+    "mobility": 0.4773,
+    "safety": 0.4954,
+    "shelter": 0.702,
+    "water": 0.7167,
+    "work": 0.4722
+  },
+  "country_score": 0.6104,
+  "tier_scores": {
+    "subsistence": 0.6241,
+    "development": 0.5628,
+    "agency": 0.6443
+  },
+  "country_embedding": [
+    0.61041,
+    0.82462,
+    0.65209,
+    0.61934,
+    -0.10381,
+    0.07825,
+    -0.14044,
+    -0.12202,
+    0.04959,
+    0.02855,
+    -0.31527,
+    -0.09518,
+    0.15279,
+    0.07857,
+    0.11974,
+    0.13215
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Syria, the three needs areas with the largest gaps are: environment (0.45), work (0.47), mobility (0.48).\nThe three strongest areas are: water (0.72), belonging (0.71), agency (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

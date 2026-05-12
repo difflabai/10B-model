@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.san-marino.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "San Marino"
+    },
+    "category": {
+      "value": "work"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "work"
+    }
+  },
+  "output": "./runs/output.json"
+}

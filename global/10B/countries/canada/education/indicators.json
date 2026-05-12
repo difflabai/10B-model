@@ -1,0 +1,34 @@
+{
+  "country": "Canada",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.2% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "17 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official) 87.1%, French (official) 29.1%, Chinese languages 4.2%, Spanish 3.2%, Punjabi 2.6%, Arabic 2.4%, Tagalog 2.3%, Italian 1.5% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "The World Factbook, the indispensable source for basic information. (English)The World Factbook, une source indispensable d'informations de base. (French)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

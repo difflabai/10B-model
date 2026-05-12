@@ -1,0 +1,34 @@
+{
+  "country": "Rwanda",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "17.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.248 million KIGALI (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "one of Africa's most densely populated countries; large concentrations tend to be in the central regions and along the shore of Lake Kivu in the west as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; two rainy seasons (February to April, November to January); mild in mountains with frost and snow possible",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; two rainy seasons (February to April, November to January); mild in mountains with frost and snow possible",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

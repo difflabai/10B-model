@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.belonging",
+        "global.10B.countries.andorra.belonging",
+        "global.10B.countries.armenia.belonging",
+        "global.10B.countries.austria.belonging",
+        "global.10B.countries.azerbaijan.belonging",
+        "global.10B.countries.belarus.belonging",
+        "global.10B.countries.belgium.belonging",
+        "global.10B.countries.bosnia-and-herzegovina.belonging",
+        "global.10B.countries.bulgaria.belonging",
+        "global.10B.countries.croatia.belonging",
+        "global.10B.countries.cyprus.belonging",
+        "global.10B.countries.czechia.belonging",
+        "global.10B.countries.denmark.belonging",
+        "global.10B.countries.estonia.belonging",
+        "global.10B.countries.faroe-islands.belonging",
+        "global.10B.countries.finland.belonging",
+        "global.10B.countries.georgia.belonging",
+        "global.10B.countries.germany.belonging",
+        "global.10B.countries.gibraltar.belonging",
+        "global.10B.countries.greece.belonging",
+        "global.10B.countries.guernsey.belonging",
+        "global.10B.countries.holy-see-vatican-city.belonging",
+        "global.10B.countries.hungary.belonging",
+        "global.10B.countries.iceland.belonging",
+        "global.10B.countries.ireland.belonging",
+        "global.10B.countries.isle-of-man.belonging",
+        "global.10B.countries.italy.belonging",
+        "global.10B.countries.jan-mayen.belonging",
+        "global.10B.countries.jersey.belonging",
+        "global.10B.countries.kazakhstan.belonging",
+        "global.10B.countries.kosovo.belonging",
+        "global.10B.countries.latvia.belonging",
+        "global.10B.countries.liechtenstein.belonging",
+        "global.10B.countries.lithuania.belonging",
+        "global.10B.countries.luxembourg.belonging",
+        "global.10B.countries.malta.belonging",
+        "global.10B.countries.moldova.belonging",
+        "global.10B.countries.monaco.belonging",
+        "global.10B.countries.montenegro.belonging",
+        "global.10B.countries.netherlands.belonging",
+        "global.10B.countries.north-macedonia.belonging",
+        "global.10B.countries.norway.belonging",
+        "global.10B.countries.poland.belonging",
+        "global.10B.countries.portugal.belonging",
+        "global.10B.countries.romania.belonging",
+        "global.10B.countries.san-marino.belonging",
+        "global.10B.countries.serbia.belonging",
+        "global.10B.countries.slovakia.belonging",
+        "global.10B.countries.slovenia.belonging",
+        "global.10B.countries.spain.belonging",
+        "global.10B.countries.sweden.belonging",
+        "global.10B.countries.switzerland.belonging",
+        "global.10B.countries.turkey-turkiye.belonging",
+        "global.10B.countries.ukraine.belonging",
+        "global.10B.countries.united-kingdom.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

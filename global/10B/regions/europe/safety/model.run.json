@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.safety",
+        "global.10B.countries.andorra.safety",
+        "global.10B.countries.armenia.safety",
+        "global.10B.countries.austria.safety",
+        "global.10B.countries.azerbaijan.safety",
+        "global.10B.countries.belarus.safety",
+        "global.10B.countries.belgium.safety",
+        "global.10B.countries.bosnia-and-herzegovina.safety",
+        "global.10B.countries.bulgaria.safety",
+        "global.10B.countries.croatia.safety",
+        "global.10B.countries.cyprus.safety",
+        "global.10B.countries.czechia.safety",
+        "global.10B.countries.denmark.safety",
+        "global.10B.countries.estonia.safety",
+        "global.10B.countries.faroe-islands.safety",
+        "global.10B.countries.finland.safety",
+        "global.10B.countries.georgia.safety",
+        "global.10B.countries.germany.safety",
+        "global.10B.countries.gibraltar.safety",
+        "global.10B.countries.greece.safety",
+        "global.10B.countries.guernsey.safety",
+        "global.10B.countries.holy-see-vatican-city.safety",
+        "global.10B.countries.hungary.safety",
+        "global.10B.countries.iceland.safety",
+        "global.10B.countries.ireland.safety",
+        "global.10B.countries.isle-of-man.safety",
+        "global.10B.countries.italy.safety",
+        "global.10B.countries.jan-mayen.safety",
+        "global.10B.countries.jersey.safety",
+        "global.10B.countries.kazakhstan.safety",
+        "global.10B.countries.kosovo.safety",
+        "global.10B.countries.latvia.safety",
+        "global.10B.countries.liechtenstein.safety",
+        "global.10B.countries.lithuania.safety",
+        "global.10B.countries.luxembourg.safety",
+        "global.10B.countries.malta.safety",
+        "global.10B.countries.moldova.safety",
+        "global.10B.countries.monaco.safety",
+        "global.10B.countries.montenegro.safety",
+        "global.10B.countries.netherlands.safety",
+        "global.10B.countries.north-macedonia.safety",
+        "global.10B.countries.norway.safety",
+        "global.10B.countries.poland.safety",
+        "global.10B.countries.portugal.safety",
+        "global.10B.countries.romania.safety",
+        "global.10B.countries.san-marino.safety",
+        "global.10B.countries.serbia.safety",
+        "global.10B.countries.slovakia.safety",
+        "global.10B.countries.slovenia.safety",
+        "global.10B.countries.spain.safety",
+        "global.10B.countries.sweden.safety",
+        "global.10B.countries.switzerland.safety",
+        "global.10B.countries.turkey-turkiye.safety",
+        "global.10B.countries.ukraine.safety",
+        "global.10B.countries.united-kingdom.safety"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

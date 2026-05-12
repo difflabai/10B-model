@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.virgin-islands.education",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Virgin Islands"
+    },
+    "category": {
+      "value": "education"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "education"
+    }
+  },
+  "output": "./runs/output.json"
+}

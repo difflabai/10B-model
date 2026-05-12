@@ -1,0 +1,39 @@
+{
+  "country": "Colombia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Military Forces of Colombia (Fuerzas Militares de Colombia): National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, ARC; includes Coast Guard and marines), Colombian Air Force (Fuerza Aerea de Colombia, FAC); Colombian National Police (PNC) (2024)note: the PNC is a civilian force that is under the jurisdiction of the Ministry of Defense",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.9% of GDP (2023 est.)3% of GDP (2022 est.)3% of GDP (2021 est.)3% of GDP (2020 est.)3.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "2,875,743 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

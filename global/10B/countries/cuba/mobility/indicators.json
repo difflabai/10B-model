@@ -1,0 +1,59 @@
+{
+  "country": "Cuba",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "60,000 km (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "20,000 km (2001)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "40,000 km (2001)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "123 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "4 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "41 km gas, 230 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "240 km (2011) (almost all navigable inland waterways are near the mouths of rivers)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "8,367 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "560,754 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "17.76 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

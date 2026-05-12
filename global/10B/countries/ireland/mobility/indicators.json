@@ -1,0 +1,59 @@
+{
+  "country": "Ireland",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "102,227 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "100 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "5 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "2,427 km gas (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "956 km (2010) (pleasure craft only)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,688 km (2020) 53 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1.676 million (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "168.71 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

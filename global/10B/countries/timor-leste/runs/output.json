@@ -1,0 +1,47 @@
+{
+  "country": "timor-leste",
+  "category_scores": {
+    "agency": 0.6892,
+    "belonging": 0.6455,
+    "communications": 0.714,
+    "education": 0.6607,
+    "energy": 0.6079,
+    "environment": 0.5441,
+    "food": 0.6388,
+    "governance": 0.7286,
+    "health": 0.5103,
+    "meaning": 0.65,
+    "mobility": 0.3753,
+    "safety": 0.7117,
+    "shelter": 0.6,
+    "water": 0.65,
+    "work": 0.5363
+  },
+  "country_score": 0.6175,
+  "tier_scores": {
+    "subsistence": 0.6222,
+    "development": 0.5788,
+    "agency": 0.6515
+  },
+  "country_embedding": [
+    0.61749,
+    0.7706,
+    0.64727,
+    0.56347,
+    -0.04109,
+    0.13512,
+    0.10299,
+    0.09319,
+    -0.0267,
+    0.20155,
+    0.03335,
+    -0.01394,
+    -0.13765,
+    0.25699,
+    -0.08616,
+    -0.00108
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Timor Leste, the three needs areas with the largest gaps are: mobility (0.38), health (0.51), work (0.54).\nThe three strongest areas are: governance (0.73), communications (0.71), safety (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

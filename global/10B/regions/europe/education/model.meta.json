@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.education",
+  "name": "Europe — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "Region-level education and learning for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country education models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-region-mean",
+      "kind": "scalar",
+      "description": "Mean education score across the region."
+    },
+    {
+      "name": "education-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.education",
+      "kind": "consumes_from",
+      "note": "Country-level education for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.education",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

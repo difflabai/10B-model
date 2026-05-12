@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.safety",
+        "global.10B.countries.antigua-and-barbuda.safety",
+        "global.10B.countries.argentina.safety",
+        "global.10B.countries.aruba.safety",
+        "global.10B.countries.bahamas-the.safety",
+        "global.10B.countries.barbados.safety",
+        "global.10B.countries.belize.safety",
+        "global.10B.countries.bermuda.safety",
+        "global.10B.countries.bolivia.safety",
+        "global.10B.countries.brazil.safety",
+        "global.10B.countries.british-virgin-islands.safety",
+        "global.10B.countries.cayman-islands.safety",
+        "global.10B.countries.cuba.safety",
+        "global.10B.countries.curacao.safety",
+        "global.10B.countries.dominica.safety",
+        "global.10B.countries.dominican-republic.safety",
+        "global.10B.countries.falkland-islands-islas-malvinas.safety",
+        "global.10B.countries.grenada.safety",
+        "global.10B.countries.guyana.safety",
+        "global.10B.countries.haiti.safety",
+        "global.10B.countries.jamaica.safety",
+        "global.10B.countries.montserrat.safety",
+        "global.10B.countries.navassa-island.safety",
+        "global.10B.countries.paraguay.safety",
+        "global.10B.countries.puerto-rico.safety",
+        "global.10B.countries.saint-barthelemy.safety",
+        "global.10B.countries.saint-kitts-and-nevis.safety",
+        "global.10B.countries.saint-lucia.safety",
+        "global.10B.countries.saint-martin.safety",
+        "global.10B.countries.saint-pierre-and-miquelon.safety",
+        "global.10B.countries.saint-vincent-and-the-grenadines.safety",
+        "global.10B.countries.sint-maarten.safety",
+        "global.10B.countries.suriname.safety",
+        "global.10B.countries.trinidad-and-tobago.safety",
+        "global.10B.countries.turks-and-caicos-islands.safety",
+        "global.10B.countries.uruguay.safety",
+        "global.10B.countries.venezuela.safety",
+        "global.10B.countries.virgin-islands.safety"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

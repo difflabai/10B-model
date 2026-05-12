@@ -1,0 +1,44 @@
+{
+  "country": "Curacao",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "problems in waste management that threaten environmental sustainability on the island include pollution of marine areas from domestic sewage, inadequate sewage treatment facilities, industrial effluents and agricultural runoff, the mismanagement of toxic substances, and ineffective regulations; the refinery in Sint Anna Bay, at the eastern edge of Willemstad’s large natural harbor, processes heavy crude oil from Venezuela; it has caused significant environmental damage to the surrounding area because of neglect and a lack of strict environmental controls; the release of noxious fumes and potentially hazardous particles causes schools downwind to regularly close",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "5.39 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "24,704 tons (2013 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

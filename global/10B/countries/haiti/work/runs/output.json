@@ -1,0 +1,60 @@
+{
+  "country": "Haiti",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.3344,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.275
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.407
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.1631
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.4114
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.1
+    }
+  ],
+  "embedding": [
+    0.33441,
+    0.85714,
+    0.275,
+    0.407,
+    -0.17916,
+    0.0352,
+    0.29302,
+    0.411,
+    -0.11827,
+    0.62918,
+    -0.48885,
+    -0.03499,
+    0.76626,
+    0.30614,
+    -0.78524,
+    0.31963
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

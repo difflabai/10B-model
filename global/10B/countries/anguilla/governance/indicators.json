@@ -1,0 +1,44 @@
+{
+  "country": "Anguilla",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (House of Assembly); self-governing overseas territory of the UK",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law based on the English model",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest 1 April 1982",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor Julia CROUCH (since 11 September 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Caricom (associate), CDB, Interpol (subbureau), OECS, UNESCO (associate), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

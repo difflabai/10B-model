@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.venezuela.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Venezuela"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "meaning"
+    }
+  },
+  "output": "./runs/output.json"
+}

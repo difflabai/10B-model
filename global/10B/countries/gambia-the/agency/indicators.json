@@ -1,0 +1,39 @@
+{
+  "country": "Gambia, The",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Patriotic Reorientation and Construction or APRC Gambia Democratic Congress or GDC Gambia Moral Congress or GMC National People's Party or NPP People's Progressive Party or PPP United Democratic Party or UDP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "54% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-run TV-channel; one privately-owned TV-station; 1 Online TV-station; three state-owned radio station and 31 privately owned radio stations; eight community radio stations; transmissions of multiple international broadcasters are available, some via shortwave radio; cable and satellite TV subscription services are obtainable in some parts of the country  (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.8% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

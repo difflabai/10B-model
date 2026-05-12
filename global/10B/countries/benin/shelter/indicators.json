@@ -1,0 +1,34 @@
+{
+  "country": "Benin",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "50.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "285,000 PORTO-NOVO (capital) (2018); 1.253 million Abomey-Calavi, 722,000 COTONOU (seat of government) (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the population is primarily located in the south, with the highest concentration of people residing in and around the cities on the Atlantic coast; most of the north remains sparsely populated with higher concentrations of residents in the west as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid in south; semiarid in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid in south; semiarid in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

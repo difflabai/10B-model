@@ -1,0 +1,44 @@
+{
+  "country": "Vietnam",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "communist party-led state",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system; note - the civil code of 2005 reflects a European-style civil law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest adopted 28 November 2013, effective 1 January 2014",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Luong CUONG (since 21 Oct 2024)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, APEC, ARF, ASEAN, CICA, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

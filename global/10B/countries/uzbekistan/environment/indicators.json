@@ -1,0 +1,44 @@
+{
+  "country": "Uzbekistan",
+  "category": "environment",
+  "label": "Environmental sustainability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Environment: Environment - current issues",
+      "value": "shrinkage of the Aral Sea has resulted in growing concentrations of chemical pesticides and natural salts; these substances are then blown from the increasingly exposed lake bed and contribute to desertification and respiratory health problems; water pollution from industrial wastes and the heavy use of fertilizers and pesticides is the cause of many human health disorders; increasing soil salination; soil contamination from buried nuclear processing and agricultural chemicals, including DDT",
+      "present": true
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Ozone Layer Protection, Wetlands",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "value": "40.98 micrograms per cubic meter (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "value": "91.81 megatons (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "value": "96.16 megatons (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "value": "7.7% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "value": "4 million tons (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

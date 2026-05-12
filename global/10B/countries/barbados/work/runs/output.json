@@ -1,0 +1,60 @@
+{
+  "country": "Barbados",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6646,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6836
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.8045
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5323
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.6525
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.66459,
+    0.71429,
+    0.6836,
+    0.8045,
+    -0.07546,
+    0.92209,
+    -0.60998,
+    -0.95511,
+    0.11894,
+    0.98651,
+    -0.90826,
+    -0.4819,
+    -0.51113,
+    -0.67752,
+    0.25765,
+    0.92853
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

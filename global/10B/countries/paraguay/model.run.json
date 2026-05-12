@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.paraguay",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Paraguay"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.paraguay.food",
+        "global.10B.countries.paraguay.water",
+        "global.10B.countries.paraguay.shelter",
+        "global.10B.countries.paraguay.health",
+        "global.10B.countries.paraguay.safety",
+        "global.10B.countries.paraguay.education",
+        "global.10B.countries.paraguay.work",
+        "global.10B.countries.paraguay.energy",
+        "global.10B.countries.paraguay.mobility",
+        "global.10B.countries.paraguay.communications",
+        "global.10B.countries.paraguay.governance",
+        "global.10B.countries.paraguay.environment",
+        "global.10B.countries.paraguay.belonging",
+        "global.10B.countries.paraguay.meaning",
+        "global.10B.countries.paraguay.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

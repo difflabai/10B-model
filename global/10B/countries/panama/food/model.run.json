@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.panama.food",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Panama"
+    },
+    "category": {
+      "value": "food"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "food"
+    }
+  },
+  "output": "./runs/output.json"
+}

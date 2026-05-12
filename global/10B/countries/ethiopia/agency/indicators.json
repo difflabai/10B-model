@@ -1,0 +1,39 @@
+{
+  "country": "Ethiopia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Ethiopian Citizens for Social Justice and Democracy or EZEMA   Gedeo People's Democratic PartyIndependentKucha People Democratic Party National Movement of Amhara or NAMAProsperity Party or PP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "19% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "10 public/state broadcasters; 9 public/state radio stations; 13 commercial FM radio stations; 18 commercial TV stations; 45 community radio stations; 5 community TV stations (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.5% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

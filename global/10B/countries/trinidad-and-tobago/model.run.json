@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.trinidad-and-tobago",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Trinidad and Tobago"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.trinidad-and-tobago.food",
+        "global.10B.countries.trinidad-and-tobago.water",
+        "global.10B.countries.trinidad-and-tobago.shelter",
+        "global.10B.countries.trinidad-and-tobago.health",
+        "global.10B.countries.trinidad-and-tobago.safety",
+        "global.10B.countries.trinidad-and-tobago.education",
+        "global.10B.countries.trinidad-and-tobago.work",
+        "global.10B.countries.trinidad-and-tobago.energy",
+        "global.10B.countries.trinidad-and-tobago.mobility",
+        "global.10B.countries.trinidad-and-tobago.communications",
+        "global.10B.countries.trinidad-and-tobago.governance",
+        "global.10B.countries.trinidad-and-tobago.environment",
+        "global.10B.countries.trinidad-and-tobago.belonging",
+        "global.10B.countries.trinidad-and-tobago.meaning",
+        "global.10B.countries.trinidad-and-tobago.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

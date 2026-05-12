@@ -1,0 +1,72 @@
+{
+  "country": "Guinea",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.4316,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.4651
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2438
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4667
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5856
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3104
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.43164,
+    0.7,
+    0.4651,
+    0.2438,
+    -0.00209,
+    -0.95215,
+    -0.83352,
+    -0.46386,
+    -0.79351,
+    -0.45162,
+    -0.30816,
+    0.99655,
+    0.40758,
+    -0.51189,
+    0.40816,
+    0.51089
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

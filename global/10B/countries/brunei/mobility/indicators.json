@@ -1,0 +1,59 @@
+{
+  "country": "Brunei",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "2,976 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "2,559 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "417 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "2 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "14 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "33 km condensate, 86 km condensate/gas, 628 km gas, 492 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "209 km (2012) (navigable by craft drawing less than 1.2 m; the Belait, Brunei, and Tutong Rivers are major transport links)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "1,234,455 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "129.35 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

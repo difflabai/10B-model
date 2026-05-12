@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.cayman-islands.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Cayman Islands"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "meaning"
+    }
+  },
+  "output": "./runs/output.json"
+}

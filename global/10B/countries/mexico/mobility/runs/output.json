@@ -1,0 +1,72 @@
+{
+  "country": "Mexico",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.7636,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.8068
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.7592
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.9038
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8825
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6567
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6726
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8049
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.76364,
+    1.0,
+    0.8068,
+    0.7592,
+    -0.20156,
+    0.09612,
+    -0.79123,
+    0.3547,
+    0.81463,
+    -0.20275,
+    -0.23406,
+    -0.54095,
+    0.06453,
+    0.50985,
+    0.08806,
+    -0.20681
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

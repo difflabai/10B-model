@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.zambia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Zambia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.zambia.food",
+        "global.10B.countries.zambia.water",
+        "global.10B.countries.zambia.shelter",
+        "global.10B.countries.zambia.health",
+        "global.10B.countries.zambia.safety",
+        "global.10B.countries.zambia.education",
+        "global.10B.countries.zambia.work",
+        "global.10B.countries.zambia.energy",
+        "global.10B.countries.zambia.mobility",
+        "global.10B.countries.zambia.communications",
+        "global.10B.countries.zambia.governance",
+        "global.10B.countries.zambia.environment",
+        "global.10B.countries.zambia.belonging",
+        "global.10B.countries.zambia.meaning",
+        "global.10B.countries.zambia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

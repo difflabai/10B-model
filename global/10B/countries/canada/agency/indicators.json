@@ -1,0 +1,39 @@
+{
+  "country": "Canada",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Bloc QuebecoisConservative Party of Canada or CPCGreen PartyLiberal PartyNew Democratic Party or NDPPeople's Party of Canada",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 public TV broadcasting networks, 1 in English and 1 in French, each with a large number of network affiliates; several private-commercial networks also with multiple network affiliates; overall, about 150 TV stations; multi-channel satellite and cable systems provide access to a wide range of stations including US stations; mix of public and commercial radio broadcasters with the Canadian Broadcasting Corporation (CBC), the public radio broadcaster, operating 4 radio networks, Radio Canada International, and radio services to indigenous populations in the north; roughly 1,119 licensed radio stations (2016)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

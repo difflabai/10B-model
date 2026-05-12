@@ -1,0 +1,44 @@
+{
+  "country": "Armenia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1915, 1978; latest adopted 5 July 1995",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Vahagn KHACHATURYAN (since 13 March 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, BSEC, CD, CE, CIS, CSTO, EAEC (observer), EAEU, EAPC, EBRD, FAO, GCTU, IAEA, IBRD, ICAO, ICC, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, MIGA, NAM (observer), OAS (observer), OIF, OPCW, OSCE, PFP, UN, UNCTAD, UNESCO, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

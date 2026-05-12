@@ -1,0 +1,84 @@
+{
+  "country": "Nepal",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7692307692307693,
+  "indicators_scored": 10,
+  "indicators_total": 13,
+  "composite_score": 0.6407,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.8221
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9309
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.8944
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.356
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.404
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.95
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": null
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64074,
+    0.76923,
+    0.8221,
+    0.9309,
+    0.35625,
+    0.67318,
+    -0.82879,
+    -0.98206,
+    0.70105,
+    0.8233,
+    0.12724,
+    -0.89404,
+    0.4963,
+    0.36941,
+    -0.41778,
+    0.96927
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

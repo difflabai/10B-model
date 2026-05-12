@@ -1,0 +1,59 @@
+{
+  "country": "Zambia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "67,671 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "10,150 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "57,520 km (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "119 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "4 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "771 km oil (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "2,250 km (2010) (includes Lake Tanganyika and the Zambezi and Luapula Rivers)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,126 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "8,904 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "75.08 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

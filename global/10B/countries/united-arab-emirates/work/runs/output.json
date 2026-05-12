@@ -1,0 +1,60 @@
+{
+  "country": "United Arab Emirates",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.8416,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9186
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.781
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.9315
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.9145
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.854
+    }
+  ],
+  "embedding": [
+    0.84161,
+    0.85714,
+    0.9186,
+    0.781,
+    -0.64819,
+    0.20653,
+    -0.42632,
+    0.0165,
+    0.20589,
+    0.8508,
+    -0.39971,
+    -0.61035,
+    0.2835,
+    0.98096,
+    0.78207,
+    0.50051
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Oman",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal; note - members of the military and security forces by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none; note - organized political parties are legally banned in Oman, and loyalties tend to form around tribal affiliations",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "95% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-run TV broadcaster; TV stations transmitting from Saudi Arabia, the UAE, Iran, and Yemen available via satellite TV; state-run radio operates multiple stations; first private radio station began operating in 2007 and several additional stations now operating (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.4% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

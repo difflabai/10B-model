@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.french-polynesia.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "French Polynesia"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "environment"
+    }
+  },
+  "output": "./runs/output.json"
+}

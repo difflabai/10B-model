@@ -1,0 +1,39 @@
+{
+  "country": "Nigeria",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Accord Party or ACC Africa Democratic Congress or ADC  All Progressives Congress or APC All Progressives Grand Alliance or APGA Labor Party or LP New Nigeria People’s Party or NNPP Peoples Democratic Party or PDP Young Progressive Party or YPP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "35% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "nearly 70 federal government-controlled national and regional TV stations; all 36 states operate TV stations; several private TV stations operational; cable and satellite TV subscription services are available; network of federal government-controlled national, regional, and state radio stations; roughly 40 state government-owned radio stations typically carry their own programs except for news broadcasts; about 20 private radio stations; transmissions of international broadcasters are available; digital broadcasting migration process completed in three states in 2018 (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "0.5% of GDP (2013)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

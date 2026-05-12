@@ -1,0 +1,47 @@
+{
+  "country": "djibouti",
+  "category_scores": {
+    "agency": 0.7354,
+    "belonging": 0.7116,
+    "communications": 0.589,
+    "education": 0.5108,
+    "energy": 0.4421,
+    "environment": 0.4541,
+    "food": 0.6737,
+    "governance": 0.7143,
+    "health": 0.4233,
+    "meaning": 0.63,
+    "mobility": 0.3443,
+    "safety": 0.5694,
+    "shelter": 0.6289,
+    "water": 0.6,
+    "work": 0.6111
+  },
+  "country_score": 0.5759,
+  "tier_scores": {
+    "subsistence": 0.5791,
+    "development": 0.4995,
+    "agency": 0.6491
+  },
+  "country_embedding": [
+    0.57587,
+    0.78615,
+    0.5767,
+    0.62635,
+    0.08375,
+    0.05912,
+    -0.28705,
+    0.16454,
+    0.09238,
+    -0.06677,
+    -0.15011,
+    0.11034,
+    0.06689,
+    -0.02105,
+    -0.04739,
+    0.08934
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Djibouti, the three needs areas with the largest gaps are: mobility (0.34), health (0.42), energy (0.44).\nThe three strongest areas are: agency (0.74), governance (0.71), belonging (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

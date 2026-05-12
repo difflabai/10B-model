@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Helena, Ascension, and Tristan da Cunha"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "governance"
+    }
+  },
+  "output": "./runs/output.json"
+}

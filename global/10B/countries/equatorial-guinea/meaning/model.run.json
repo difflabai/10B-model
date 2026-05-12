@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.equatorial-guinea.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Equatorial Guinea"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "meaning"
+    }
+  },
+  "output": "./runs/output.json"
+}

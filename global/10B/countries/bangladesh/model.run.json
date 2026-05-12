@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bangladesh",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bangladesh"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bangladesh.food",
+        "global.10B.countries.bangladesh.water",
+        "global.10B.countries.bangladesh.shelter",
+        "global.10B.countries.bangladesh.health",
+        "global.10B.countries.bangladesh.safety",
+        "global.10B.countries.bangladesh.education",
+        "global.10B.countries.bangladesh.work",
+        "global.10B.countries.bangladesh.energy",
+        "global.10B.countries.bangladesh.mobility",
+        "global.10B.countries.bangladesh.communications",
+        "global.10B.countries.bangladesh.governance",
+        "global.10B.countries.bangladesh.environment",
+        "global.10B.countries.bangladesh.belonging",
+        "global.10B.countries.bangladesh.meaning",
+        "global.10B.countries.bangladesh.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

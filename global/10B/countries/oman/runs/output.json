@@ -1,0 +1,47 @@
+{
+  "country": "oman",
+  "category_scores": {
+    "agency": 0.8175,
+    "belonging": 0.6739,
+    "communications": 0.7048,
+    "education": 0.7887,
+    "energy": 0.5063,
+    "environment": 0.4217,
+    "food": 0.5847,
+    "governance": 0.6571,
+    "health": 0.6483,
+    "meaning": 0.65,
+    "mobility": 0.5316,
+    "safety": 0.5139,
+    "shelter": 0.6441,
+    "water": 0.65,
+    "work": 0.783
+  },
+  "country_score": 0.6384,
+  "tier_scores": {
+    "subsistence": 0.6082,
+    "development": 0.6629,
+    "agency": 0.644
+  },
+  "country_embedding": [
+    0.63838,
+    0.80352,
+    0.70761,
+    0.55897,
+    -0.02874,
+    0.10202,
+    0.10123,
+    0.04703,
+    0.08046,
+    0.12725,
+    0.05299,
+    -0.21625,
+    0.00996,
+    -0.05589,
+    0.34905,
+    -0.23326
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Oman, the three needs areas with the largest gaps are: environment (0.42), energy (0.51), safety (0.51).\nThe three strongest areas are: agency (0.82), education (0.79), work (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

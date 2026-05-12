@@ -1,0 +1,47 @@
+{
+  "country": "lesotho",
+  "category_scores": {
+    "agency": 0.782,
+    "belonging": 0.6664,
+    "communications": 0.6945,
+    "education": 0.7487,
+    "energy": 0.5652,
+    "environment": 0.4625,
+    "food": 0.6075,
+    "governance": 0.7143,
+    "health": 0.4535,
+    "meaning": 0.63,
+    "mobility": 0.38,
+    "safety": 0.675,
+    "shelter": 0.6215,
+    "water": 0.65,
+    "work": 0.464
+  },
+  "country_score": 0.6077,
+  "tier_scores": {
+    "subsistence": 0.6015,
+    "development": 0.5705,
+    "agency": 0.651
+  },
+  "country_embedding": [
+    0.60768,
+    0.81795,
+    0.52398,
+    0.65387,
+    0.2342,
+    0.0551,
+    0.04151,
+    0.1343,
+    0.11098,
+    0.18432,
+    -0.28809,
+    0.1841,
+    0.04528,
+    0.08758,
+    0.0845,
+    0.18039
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Lesotho, the three needs areas with the largest gaps are: mobility (0.38), health (0.45), environment (0.46).\nThe three strongest areas are: agency (0.78), education (0.75), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

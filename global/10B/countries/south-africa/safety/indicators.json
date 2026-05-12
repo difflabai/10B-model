@@ -1,0 +1,39 @@
+{
+  "country": "South Africa",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "South African National Defense Force (SANDF): South African Army (includes Reserve Force), South African Navy (SAN), South African Air Force (SAAF), South African Military Health ServicesMinistry of Police: South African Police Service (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "0.7% of GDP (2023 est.)0.8% of GDP (2022 est.)0.9% of GDP (2021 est.)1.1% of GDP (2020 est.)1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,132 (Democratic Republic of the Congo) (refugees and asylum seekers) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

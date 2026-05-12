@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.navassa-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Navassa Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.navassa-island.food",
+        "global.10B.countries.navassa-island.water",
+        "global.10B.countries.navassa-island.shelter",
+        "global.10B.countries.navassa-island.health",
+        "global.10B.countries.navassa-island.safety",
+        "global.10B.countries.navassa-island.education",
+        "global.10B.countries.navassa-island.work",
+        "global.10B.countries.navassa-island.energy",
+        "global.10B.countries.navassa-island.mobility",
+        "global.10B.countries.navassa-island.communications",
+        "global.10B.countries.navassa-island.governance",
+        "global.10B.countries.navassa-island.environment",
+        "global.10B.countries.navassa-island.belonging",
+        "global.10B.countries.navassa-island.meaning",
+        "global.10B.countries.navassa-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

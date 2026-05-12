@@ -1,0 +1,39 @@
+{
+  "country": "Cyprus",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "91% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "mixture of state and privately run TV and radio services; the public broadcaster operates 2 TV channels and 4 radio stations; 6 private TV broadcasters, satellite and cable TV services including telecasts from Greece and Turkey, and a number of private radio stations are available; in areas administered by Turkish Cypriots, there are 2 public TV stations, 4 public radio stations, and 7 privately owned TV and 21 radio broadcast stations plus 6 radio and 4 TV channels of local universities, plus 1 radio station of military, security forces and 1 radio station of civil defense cooperation, as well as relay stations from Turkey (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Senegal",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "16,665 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "6,126 km (includes 241 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "10,539 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "19 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "43 km gas, 8 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,000 km (2012) (primarily on the Senegal, Saloum, and Casamance Rivers)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "906 km (2017) (713 km operational in 2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "21,038 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "40,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

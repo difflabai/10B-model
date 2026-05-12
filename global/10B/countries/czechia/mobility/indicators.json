@@ -1,0 +1,59 @@
+{
+  "country": "Czechia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "129,418 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "243 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "82 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "7,160 km gas, 675 km oil, 94 km refined products (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "664 km (2010) (principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "9,548 km (2020) 3,242 km electrified",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "5,727,200 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "25.23 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

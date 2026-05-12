@@ -1,0 +1,44 @@
+{
+  "country": "Isle of Man",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Tynwald)",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of the UK apply where applicable and include Manx statutes",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "development of the Isle of Man constitution dates to at least the 14th century",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Lord of Mann King CHARLES III (since 8 September 2022); represented by Lieutenant Governor Sir John LORIMER (since 29 September 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.congo-democratic-republic-of-the.water",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Congo, Democratic Republic of the"
+    },
+    "category": {
+      "value": "water"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "water"
+    }
+  },
+  "output": "./runs/output.json"
+}

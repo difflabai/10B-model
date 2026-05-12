@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.yemen",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Yemen"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.yemen.food",
+        "global.10B.countries.yemen.water",
+        "global.10B.countries.yemen.shelter",
+        "global.10B.countries.yemen.health",
+        "global.10B.countries.yemen.safety",
+        "global.10B.countries.yemen.education",
+        "global.10B.countries.yemen.work",
+        "global.10B.countries.yemen.energy",
+        "global.10B.countries.yemen.mobility",
+        "global.10B.countries.yemen.communications",
+        "global.10B.countries.yemen.governance",
+        "global.10B.countries.yemen.environment",
+        "global.10B.countries.yemen.belonging",
+        "global.10B.countries.yemen.meaning",
+        "global.10B.countries.yemen.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "iceland",
+  "category_scores": {
+    "agency": 0.9004,
+    "belonging": 0.6921,
+    "communications": 0.7611,
+    "education": 0.844,
+    "energy": 0.6741,
+    "environment": 0.5122,
+    "food": 0.6712,
+    "governance": 0.7286,
+    "health": 0.8322,
+    "meaning": 0.63,
+    "mobility": 0.4335,
+    "safety": 0.75,
+    "shelter": 0.6385,
+    "water": 0.65,
+    "work": 0.7918
+  },
+  "country_score": 0.7006,
+  "tier_scores": {
+    "subsistence": 0.7084,
+    "development": 0.7009,
+    "agency": 0.6927
+  },
+  "country_embedding": [
+    0.70065,
+    0.73897,
+    0.72501,
+    0.62006,
+    -0.2299,
+    0.12969,
+    -0.05226,
+    -0.30151,
+    -0.0373,
+    -0.12201,
+    0.04148,
+    -0.18884,
+    0.20314,
+    -0.03422,
+    0.1098,
+    -0.01225
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Iceland, the three needs areas with the largest gaps are: mobility (0.43), environment (0.51), meaning (0.63).\nThe three strongest areas are: agency (0.90), education (0.84), health (0.83).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

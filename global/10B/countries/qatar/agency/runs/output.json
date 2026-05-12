@@ -1,0 +1,56 @@
+{
+  "country": "Qatar",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7416,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.55
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.508
+    }
+  ],
+  "embedding": [
+    0.7416,
+    0.83333,
+    0.85,
+    0.55,
+    0.54858,
+    -0.88238,
+    -0.28173,
+    0.10027,
+    -0.86807,
+    -0.04012,
+    -0.03151,
+    0.15785,
+    0.09389,
+    -0.33028,
+    -0.88058,
+    -0.45483
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.2,
+  "indicators_scored": 1,
+  "indicators_total": 5,
+  "composite_score": 0.55,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.55,
+    0.2,
+    0.55,
+    0.0,
+    -0.60113,
+    0.93088,
+    0.07698,
+    0.14095,
+    -0.01506,
+    0.83902,
+    -0.49911,
+    0.94076,
+    0.87143,
+    0.80807,
+    -0.78164,
+    -0.02858
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

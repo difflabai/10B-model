@@ -1,0 +1,44 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "French, Portuguese, Caribbean, Afro-Caribbean",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Roman Catholic, Protestant, Jehovah's Witnesses",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "French (primary), English",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the populace concentrated in and around the capital of Gustavia, but scattered settlements exist around the island periphery",
+      "present": true
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": "-1 migrant(s)/1,000 population (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": "1.64 children born/woman (2024 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

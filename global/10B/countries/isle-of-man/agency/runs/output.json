@@ -1,0 +1,56 @@
+{
+  "country": "Isle of Man",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.7833,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": null
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.78333,
+    0.5,
+    0.85,
+    0.75,
+    -0.59261,
+    0.56341,
+    0.11455,
+    0.37203,
+    0.57461,
+    0.51522,
+    0.00383,
+    0.98676,
+    0.58987,
+    0.12261,
+    -0.25957,
+    -0.87341
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

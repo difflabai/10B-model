@@ -1,0 +1,39 @@
+{
+  "country": "Puerto Rico",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - island residents are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Citizens' Victory Movement (Movimiento Victoria Ciudadana) or MVCDemocratic Party of Puerto RicoNew Progressive Party or PNP (pro-US statehood)Popular Democratic Party or PPD (pro-commonwealth)Project Dignity (Projecto Dignidad) or PDPuerto Rican Independence Party or PIP (pro-independence)Republican Party of Puerto Rico",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "more than 30 TV stations operating; cable TV subscription services are available; roughly 125 radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

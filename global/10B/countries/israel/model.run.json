@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.israel",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Israel"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.israel.food",
+        "global.10B.countries.israel.water",
+        "global.10B.countries.israel.shelter",
+        "global.10B.countries.israel.health",
+        "global.10B.countries.israel.safety",
+        "global.10B.countries.israel.education",
+        "global.10B.countries.israel.work",
+        "global.10B.countries.israel.energy",
+        "global.10B.countries.israel.mobility",
+        "global.10B.countries.israel.communications",
+        "global.10B.countries.israel.governance",
+        "global.10B.countries.israel.environment",
+        "global.10B.countries.israel.belonging",
+        "global.10B.countries.israel.meaning",
+        "global.10B.countries.israel.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

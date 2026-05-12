@@ -1,0 +1,39 @@
+{
+  "country": "Spain",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Asturias Forum or FAC Basque Country Unite (Euskal Herria Bildu) or EH Bildu (coalition of 4 Basque pro-independence parties)Basque Nationalist Party or PNV or EAJ Canarian Coalition or CC (coalition of 5 parties)Ciudadanos Party (Citizens Party) or Cs Compromis - Compromise Coalition Navarrese People's Union or UPN Together for Catalonia or Junts People's Party or PP Republican Left of Catalonia or ERC Spanish Socialist Workers Party or PSOE Teruel Existe or TE Unidas (Unite) or Sumar (electoral coalition formed in March 2022) (formerly Unidas Podemos or UP)Vox or VOX",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "95% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a mixture of both publicly operated and privately owned TV and radio stations; overall, hundreds of TV channels are available including national, regional, local, public, and international channels; satellite and cable TV systems available; multiple national radio networks, a large number of regional radio networks, and a larger number of local radio stations; overall, hundreds of radio stations  (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

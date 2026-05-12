@@ -1,0 +1,39 @@
+{
+  "country": "Comoros",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Convention for the Renewal of the Comoros or CRCJuwa Party (Parti Juwa) or PJOrange Party (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "27% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "national state-owned TV station and a TV station run by Anjouan regional government; national state-owned radio; regional governments on the islands of Grande Comore and Anjouan each operate a radio station; a few independent and small community radio stations operate on the islands of Grande Comore and Moheli, and these two islands have access to Mayotte Radio and French TV",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.6% of GDP (2015 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Switzerland",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.8187,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.9125
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.85
+    }
+  ],
+  "embedding": [
+    0.81875,
+    0.8,
+    0.7625,
+    0.9125,
+    0.18572,
+    0.51388,
+    0.14922,
+    0.25515,
+    -0.12026,
+    0.50362,
+    -0.89673,
+    -0.88974,
+    -0.00655,
+    -0.28945,
+    0.91992,
+    -0.86871
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

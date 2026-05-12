@@ -1,0 +1,47 @@
+{
+  "country": "sweden",
+  "category_scores": {
+    "agency": 0.8804,
+    "belonging": 0.6793,
+    "communications": 0.7451,
+    "education": 0.788,
+    "energy": 0.6737,
+    "environment": 0.6104,
+    "food": 0.55,
+    "governance": 0.7571,
+    "health": 0.8064,
+    "meaning": 0.63,
+    "mobility": 0.6019,
+    "safety": 0.57,
+    "shelter": 0.6688,
+    "water": 0.65,
+    "work": 0.681
+  },
+  "country_score": 0.6861,
+  "tier_scores": {
+    "subsistence": 0.649,
+    "development": 0.6979,
+    "agency": 0.7114
+  },
+  "country_embedding": [
+    0.68614,
+    0.81197,
+    0.74495,
+    0.6363,
+    0.12536,
+    0.00054,
+    0.13112,
+    0.20457,
+    -0.36884,
+    0.08773,
+    0.03369,
+    0.13546,
+    0.14651,
+    0.13342,
+    0.08593,
+    0.21125
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Sweden, the three needs areas with the largest gaps are: food (0.55), safety (0.57), mobility (0.60).\nThe three strongest areas are: agency (0.88), health (0.81), education (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

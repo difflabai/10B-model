@@ -1,0 +1,59 @@
+{
+  "country": "Ecuador",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "43,950 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "8,895 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "35,055 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "310 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "28 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "485 km extra heavy crude, 123 km gas, 2,131 km oil, 1,526 km refined products (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,500 km (2012) (most inaccessible)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "965 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "5,365,261 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "64.2 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

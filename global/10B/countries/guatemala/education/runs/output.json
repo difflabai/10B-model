@@ -1,0 +1,52 @@
+{
+  "country": "Guatemala",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.6682,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7718
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.494
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.66817,
+    1.0,
+    0.7718,
+    0.494,
+    0.21144,
+    -0.20354,
+    -0.06844,
+    -0.9465,
+    0.03197,
+    -0.79937,
+    -0.45187,
+    -0.49178,
+    0.45534,
+    -0.53429,
+    -0.00713,
+    -0.10249
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

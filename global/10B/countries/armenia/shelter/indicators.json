@@ -1,0 +1,34 @@
+{
+  "country": "Armenia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "63.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.095 million YEREVAN (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is located in the northern half of the country; the capital of Yerevan is home to more than five times as many people as Gyumri, the second largest city in the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "highland continental, hot summers, cold winters",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "highland continental, hot summers, cold winters",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

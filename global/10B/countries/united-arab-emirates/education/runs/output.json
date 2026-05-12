@@ -1,0 +1,52 @@
+{
+  "country": "United Arab Emirates",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7644,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9472
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76444,
+    1.0,
+    0.9472,
+    0.6,
+    -0.26409,
+    -0.14446,
+    -0.91272,
+    0.36849,
+    -0.39648,
+    0.11547,
+    -0.94345,
+    0.19472,
+    -0.72644,
+    0.983,
+    -0.16335,
+    0.89081
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

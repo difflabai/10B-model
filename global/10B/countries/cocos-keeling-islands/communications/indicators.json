@@ -1,0 +1,64 @@
+{
+  "country": "Cocos (Keeling) Islands",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "13.4% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "telephone service is part of the Australian network; an operational local mobile-cellular network available; wireless Internet connectivity available",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "local area code - 08",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "international code - 61 8; telephone, telex, and facsimile communications with Australia and elsewhere via satellite; satellite earth station - 1 (Intelsat)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 local radio station staffed by community volunteers; satellite broadcasts of several Australian radio and TV stations available (2017)",
+      "present": true
+    }
+  ],
+  "coverage": 0.45454545454545453
+}

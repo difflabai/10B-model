@@ -1,0 +1,56 @@
+{
+  "country": "Zambia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.677,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.36
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.575
+    }
+  ],
+  "embedding": [
+    0.677,
+    0.83333,
+    0.85,
+    0.75,
+    0.81051,
+    -0.31298,
+    0.57302,
+    0.24273,
+    -0.69683,
+    -0.67471,
+    0.22582,
+    0.04759,
+    0.96918,
+    -0.34166,
+    -0.87213,
+    -0.55547
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

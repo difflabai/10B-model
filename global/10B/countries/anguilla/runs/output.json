@@ -1,0 +1,47 @@
+{
+  "country": "anguilla",
+  "category_scores": {
+    "agency": 0.7357,
+    "belonging": 0.6796,
+    "communications": 0.7387,
+    "education": 0.5813,
+    "energy": 0.97,
+    "environment": 0.6389,
+    "food": 0.5625,
+    "governance": 0.675,
+    "health": 0.8612,
+    "meaning": 0.6,
+    "mobility": 0.2875,
+    "safety": null,
+    "shelter": 0.6375,
+    "water": 0.65,
+    "work": 0.915
+  },
+  "country_score": 0.6809,
+  "tier_scores": {
+    "subsistence": 0.6778,
+    "development": 0.6985,
+    "agency": 0.6658
+  },
+  "country_embedding": [
+    0.63552,
+    0.53973,
+    0.65363,
+    0.41805,
+    -0.01695,
+    -0.10154,
+    -0.15145,
+    -0.03006,
+    -0.22516,
+    0.12814,
+    0.17666,
+    0.04721,
+    -0.25917,
+    0.26328,
+    -0.0283,
+    -0.08487
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Anguilla, the three needs areas with the largest gaps are: mobility (0.29), food (0.56), education (0.58).\nThe three strongest areas are: energy (0.97), work (0.92), health (0.86).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

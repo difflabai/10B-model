@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.timor-leste",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Timor-Leste"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.timor-leste.food",
+        "global.10B.countries.timor-leste.water",
+        "global.10B.countries.timor-leste.shelter",
+        "global.10B.countries.timor-leste.health",
+        "global.10B.countries.timor-leste.safety",
+        "global.10B.countries.timor-leste.education",
+        "global.10B.countries.timor-leste.work",
+        "global.10B.countries.timor-leste.energy",
+        "global.10B.countries.timor-leste.mobility",
+        "global.10B.countries.timor-leste.communications",
+        "global.10B.countries.timor-leste.governance",
+        "global.10B.countries.timor-leste.environment",
+        "global.10B.countries.timor-leste.belonging",
+        "global.10B.countries.timor-leste.meaning",
+        "global.10B.countries.timor-leste.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Monaco",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system influenced by French legal tradition",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1911 (suspended 1959); latest adopted 17 December 1962",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Prince ALBERT II (since 6 April 2005)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "CD, CE, FAO, IAEA, ICAO, ICC (national committees), ICRM, IFRCS, IHO, IMO, IMSO, Interpol, IOC, IPU, ITSO, ITU, OAS (observer), OIF, OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WHO, WIPO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.suriname",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Suriname"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.suriname.food",
+        "global.10B.countries.suriname.water",
+        "global.10B.countries.suriname.shelter",
+        "global.10B.countries.suriname.health",
+        "global.10B.countries.suriname.safety",
+        "global.10B.countries.suriname.education",
+        "global.10B.countries.suriname.work",
+        "global.10B.countries.suriname.energy",
+        "global.10B.countries.suriname.mobility",
+        "global.10B.countries.suriname.communications",
+        "global.10B.countries.suriname.governance",
+        "global.10B.countries.suriname.environment",
+        "global.10B.countries.suriname.belonging",
+        "global.10B.countries.suriname.meaning",
+        "global.10B.countries.suriname.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,60 @@
+{
+  "country": "Jarvis Island",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 0.0,
+  "indicators_scored": 0,
+  "indicators_total": 7,
+  "composite_score": null,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": null
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.8407,
+    0.50576,
+    -0.14421,
+    -0.09191,
+    -0.33596,
+    -0.68307,
+    -0.85742,
+    -0.78628,
+    -0.88815,
+    -0.44027,
+    0.06838,
+    -0.81811
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

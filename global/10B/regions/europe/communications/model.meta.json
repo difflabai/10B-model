@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.communications",
+  "name": "Europe — Communications and connectivity",
+  "kind": "sector_economic",
+  "blurb": "Region-level communications and connectivity for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country communications models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "communications-country-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "communications-region-mean",
+      "kind": "scalar",
+      "description": "Mean communications score across the region."
+    },
+    {
+      "name": "communications-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Communications and connectivity"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.communications",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

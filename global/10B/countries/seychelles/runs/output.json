@@ -1,0 +1,47 @@
+{
+  "country": "seychelles",
+  "category_scores": {
+    "agency": 0.8165,
+    "belonging": 0.6899,
+    "communications": 0.7182,
+    "education": 0.8177,
+    "energy": 0.5488,
+    "environment": 0.5667,
+    "food": 0.6125,
+    "governance": 0.7143,
+    "health": 0.7112,
+    "meaning": 0.67,
+    "mobility": 0.3597,
+    "safety": 0.7217,
+    "shelter": 0.6782,
+    "water": 0.75,
+    "work": 0.7255
+  },
+  "country_score": 0.6734,
+  "tier_scores": {
+    "subsistence": 0.6947,
+    "development": 0.634,
+    "agency": 0.6915
+  },
+  "country_embedding": [
+    0.67338,
+    0.79214,
+    0.72101,
+    0.5716,
+    0.11812,
+    0.09874,
+    -0.00906,
+    0.09884,
+    0.02762,
+    0.19015,
+    0.06917,
+    0.08752,
+    0.13218,
+    -0.14539,
+    0.03951,
+    0.06818
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Seychelles, the three needs areas with the largest gaps are: mobility (0.36), energy (0.55), environment (0.57).\nThe three strongest areas are: education (0.82), agency (0.82), water (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

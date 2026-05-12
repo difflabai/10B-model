@@ -1,0 +1,56 @@
+{
+  "country": "Switzerland",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8665,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7625
+    }
+  ],
+  "embedding": [
+    0.8665,
+    0.83333,
+    0.85,
+    0.92,
+    -0.65481,
+    0.25454,
+    0.16503,
+    -0.74258,
+    -0.02803,
+    0.26601,
+    -0.74209,
+    0.84305,
+    -0.88339,
+    0.56509,
+    0.7127,
+    -0.69055
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

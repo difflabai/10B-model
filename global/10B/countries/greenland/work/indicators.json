@@ -1,0 +1,44 @@
+{
+  "country": "Greenland",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$68,100 (2021 est.)$67,600 (2020 est.)$67,600 (2019 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "1.29% (2021 est.)0.19% (2020 est.)2.83% (2019 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "0.3% (January 2017 est.)1.2% (January 2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "26,840 (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "9.1% (2015 est.)10.3% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "16.2% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "33.9 (2015 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

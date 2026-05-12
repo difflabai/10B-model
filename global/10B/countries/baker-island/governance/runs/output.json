@@ -1,0 +1,60 @@
+{
+  "country": "Baker Island",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": null
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": null
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": null
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.14286,
+    0.65,
+    0.0,
+    0.8891,
+    0.57449,
+    0.54507,
+    -0.51128,
+    0.79812,
+    0.53384,
+    -0.73764,
+    0.04045,
+    0.60131,
+    -0.46047,
+    0.48464,
+    0.77325
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

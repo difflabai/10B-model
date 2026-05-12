@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.food",
+  "name": "Asia — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "Region-level food and nutrition for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country food models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-region-mean",
+      "kind": "scalar",
+      "description": "Mean food score across the region."
+    },
+    {
+      "name": "food-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.food",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

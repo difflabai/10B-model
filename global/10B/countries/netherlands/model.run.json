@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.netherlands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Netherlands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.netherlands.food",
+        "global.10B.countries.netherlands.water",
+        "global.10B.countries.netherlands.shelter",
+        "global.10B.countries.netherlands.health",
+        "global.10B.countries.netherlands.safety",
+        "global.10B.countries.netherlands.education",
+        "global.10B.countries.netherlands.work",
+        "global.10B.countries.netherlands.energy",
+        "global.10B.countries.netherlands.mobility",
+        "global.10B.countries.netherlands.communications",
+        "global.10B.countries.netherlands.governance",
+        "global.10B.countries.netherlands.environment",
+        "global.10B.countries.netherlands.belonging",
+        "global.10B.countries.netherlands.meaning",
+        "global.10B.countries.netherlands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

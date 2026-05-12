@@ -1,0 +1,59 @@
+{
+  "country": "Nigeria",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "195,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "60,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "135,000 km (2019)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "47 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "15 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "124 km condensate, 4,045 km gas, 164 km liquid petroleum gas, 4,441 km oil, 3,940 km refined products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "8,600 km (2011) (Niger and Benue Rivers and smaller rivers and creeks)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "3,798 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "8,169,192 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "19.42 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

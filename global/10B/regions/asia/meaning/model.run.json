@@ -1,0 +1,74 @@
+{
+  "modelId": "global.10B.regions.asia.meaning",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "asia"
+    },
+    "category": {
+      "value": "meaning"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.afghanistan.meaning",
+        "global.10B.countries.ashmore-and-cartier-islands.meaning",
+        "global.10B.countries.bahrain.meaning",
+        "global.10B.countries.bangladesh.meaning",
+        "global.10B.countries.bhutan.meaning",
+        "global.10B.countries.brunei.meaning",
+        "global.10B.countries.burma.meaning",
+        "global.10B.countries.cambodia.meaning",
+        "global.10B.countries.china.meaning",
+        "global.10B.countries.christmas-island.meaning",
+        "global.10B.countries.cocos-keeling-islands.meaning",
+        "global.10B.countries.gaza-strip.meaning",
+        "global.10B.countries.hong-kong.meaning",
+        "global.10B.countries.india.meaning",
+        "global.10B.countries.indonesia.meaning",
+        "global.10B.countries.iran.meaning",
+        "global.10B.countries.iraq.meaning",
+        "global.10B.countries.israel.meaning",
+        "global.10B.countries.japan.meaning",
+        "global.10B.countries.jordan.meaning",
+        "global.10B.countries.korea-north.meaning",
+        "global.10B.countries.korea-south.meaning",
+        "global.10B.countries.kuwait.meaning",
+        "global.10B.countries.kyrgyzstan.meaning",
+        "global.10B.countries.laos.meaning",
+        "global.10B.countries.lebanon.meaning",
+        "global.10B.countries.macau.meaning",
+        "global.10B.countries.malaysia.meaning",
+        "global.10B.countries.maldives.meaning",
+        "global.10B.countries.mongolia.meaning",
+        "global.10B.countries.nepal.meaning",
+        "global.10B.countries.oman.meaning",
+        "global.10B.countries.pakistan.meaning",
+        "global.10B.countries.paracel-islands.meaning",
+        "global.10B.countries.philippines.meaning",
+        "global.10B.countries.qatar.meaning",
+        "global.10B.countries.saudi-arabia.meaning",
+        "global.10B.countries.singapore.meaning",
+        "global.10B.countries.spratly-islands.meaning",
+        "global.10B.countries.sri-lanka.meaning",
+        "global.10B.countries.syria.meaning",
+        "global.10B.countries.taiwan.meaning",
+        "global.10B.countries.tajikistan.meaning",
+        "global.10B.countries.thailand.meaning",
+        "global.10B.countries.timor-leste.meaning",
+        "global.10B.countries.turkmenistan.meaning",
+        "global.10B.countries.united-arab-emirates.meaning",
+        "global.10B.countries.uzbekistan.meaning",
+        "global.10B.countries.vietnam.meaning",
+        "global.10B.countries.west-bank.meaning",
+        "global.10B.countries.yemen.meaning"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Zambia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "46.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.181 million LUSAKA (capital), 763,000 Kitwe (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "one of the highest levels of urbanization in Africa; high density in the central area, particularly around the cities of Lusaka, Ndola, Kitwe, and Mufulira as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; modified by altitude; rainy season (October to April)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; modified by altitude; rainy season (October to April)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

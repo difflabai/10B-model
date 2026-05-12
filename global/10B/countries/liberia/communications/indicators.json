@@ -1,0 +1,64 @@
+{
+  "country": "Liberia",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "32 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "1.65 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "6,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "30% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "15,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Liberia has a telecom market which is mainly based on mobile networks; this is due to the civil war which destroyed much of the fixed-line infrastructure; to facilitate LTC Mobile’s market entry, the government in January 2022 set in train amendments to telecom legislation; internet services are available from a number of wireless ISPs as well as the mobile operators; the high cost and limited bandwidth of connections means that internet access is expensive and rates are very low; additional bandwidth is available from an international submarine cable but considerable investment is still needed in domestic fixed-line infrastructure before end-users can make full use of the cable (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 1 per 100; mobile-cellular subscriptions are 32 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 231; landing point for the ACE submarine cable linking 20 West African countries and Europe; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "8 private and 1 government-owned TV station; satellite TV service available; 1 state-owned radio station; approximately 20 independent radio stations broadcasting in Monrovia, with approximately 80 more local stations operating in other areas; transmissions of 4 international (including the British Broadcasting Corporation and Radio France Internationale) broadcasters are available (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

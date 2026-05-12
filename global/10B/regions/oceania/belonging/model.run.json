@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.belonging",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "belonging"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.belonging",
+        "global.10B.countries.australia.belonging",
+        "global.10B.countries.baker-island.belonging",
+        "global.10B.countries.chile.belonging",
+        "global.10B.countries.clipperton-island.belonging",
+        "global.10B.countries.colombia.belonging",
+        "global.10B.countries.cook-islands.belonging",
+        "global.10B.countries.coral-sea-islands.belonging",
+        "global.10B.countries.costa-rica.belonging",
+        "global.10B.countries.ecuador.belonging",
+        "global.10B.countries.el-salvador.belonging",
+        "global.10B.countries.fiji.belonging",
+        "global.10B.countries.french-polynesia.belonging",
+        "global.10B.countries.guam.belonging",
+        "global.10B.countries.guatemala.belonging",
+        "global.10B.countries.honduras.belonging",
+        "global.10B.countries.howland-island.belonging",
+        "global.10B.countries.jarvis-island.belonging",
+        "global.10B.countries.johnston-atoll.belonging",
+        "global.10B.countries.kingman-reef.belonging",
+        "global.10B.countries.kiribati.belonging",
+        "global.10B.countries.marshall-islands.belonging",
+        "global.10B.countries.mexico.belonging",
+        "global.10B.countries.micronesia-federated-states-of.belonging",
+        "global.10B.countries.midway-islands.belonging",
+        "global.10B.countries.nauru.belonging",
+        "global.10B.countries.new-caledonia.belonging",
+        "global.10B.countries.new-zealand.belonging",
+        "global.10B.countries.nicaragua.belonging",
+        "global.10B.countries.niue.belonging",
+        "global.10B.countries.norfolk-island.belonging",
+        "global.10B.countries.northern-mariana-islands.belonging",
+        "global.10B.countries.palau.belonging",
+        "global.10B.countries.palmyra-atoll.belonging",
+        "global.10B.countries.panama.belonging",
+        "global.10B.countries.papua-new-guinea.belonging",
+        "global.10B.countries.peru.belonging",
+        "global.10B.countries.pitcairn-islands.belonging",
+        "global.10B.countries.samoa.belonging",
+        "global.10B.countries.solomon-islands.belonging",
+        "global.10B.countries.tokelau.belonging",
+        "global.10B.countries.tonga.belonging",
+        "global.10B.countries.tuvalu.belonging",
+        "global.10B.countries.united-states.belonging",
+        "global.10B.countries.vanuatu.belonging",
+        "global.10B.countries.wake-island.belonging",
+        "global.10B.countries.wallis-and-futuna.belonging"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "united-kingdom",
+  "category_scores": {
+    "agency": 0.86,
+    "belonging": 0.7003,
+    "communications": 0.7661,
+    "education": 0.7542,
+    "energy": 0.6785,
+    "environment": 0.5279,
+    "food": 0.6309,
+    "governance": 0.7286,
+    "health": 0.7911,
+    "meaning": 0.65,
+    "mobility": 0.7761,
+    "safety": 0.5989,
+    "shelter": 0.7229,
+    "water": 0.75,
+    "work": 0.7023
+  },
+  "country_score": 0.7092,
+  "tier_scores": {
+    "subsistence": 0.6988,
+    "development": 0.7354,
+    "agency": 0.6934
+  },
+  "country_embedding": [
+    0.70919,
+    0.82222,
+    0.76637,
+    0.71161,
+    0.12495,
+    -0.10055,
+    -0.0877,
+    -0.19389,
+    0.0723,
+    0.0472,
+    -0.06015,
+    0.23293,
+    -0.13902,
+    -0.0729,
+    -0.1908,
+    -0.03138
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in United Kingdom, the three needs areas with the largest gaps are: environment (0.53), safety (0.60), food (0.63).\nThe three strongest areas are: agency (0.86), health (0.79), mobility (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

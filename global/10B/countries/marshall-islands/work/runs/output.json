@@ -1,0 +1,60 @@
+{
+  "country": "Marshall Islands",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6344,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.445
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.3276
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.85
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.8595
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.69
+    }
+  ],
+  "embedding": [
+    0.63443,
+    0.71429,
+    0.445,
+    0.3276,
+    0.70132,
+    0.96612,
+    -0.57406,
+    -0.15599,
+    -0.49645,
+    -0.00093,
+    0.91925,
+    -0.33361,
+    -0.53204,
+    0.93411,
+    0.89972,
+    0.35387
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

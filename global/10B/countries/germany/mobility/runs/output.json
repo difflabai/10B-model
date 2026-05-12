@@ -1,0 +1,72 @@
+{
+  "country": "Germany",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.8175,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.811
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.8525
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.864
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8735
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7577
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.7792
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8199
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.81753,
+    0.9,
+    0.811,
+    0.8525,
+    0.48815,
+    0.17671,
+    0.15749,
+    -0.20406,
+    0.55056,
+    0.0587,
+    -0.17955,
+    0.35338,
+    -0.20122,
+    0.03175,
+    -0.77115,
+    0.69528
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.croatia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Croatia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.croatia.food",
+        "global.10B.countries.croatia.water",
+        "global.10B.countries.croatia.shelter",
+        "global.10B.countries.croatia.health",
+        "global.10B.countries.croatia.safety",
+        "global.10B.countries.croatia.education",
+        "global.10B.countries.croatia.work",
+        "global.10B.countries.croatia.energy",
+        "global.10B.countries.croatia.mobility",
+        "global.10B.countries.croatia.communications",
+        "global.10B.countries.croatia.governance",
+        "global.10B.countries.croatia.environment",
+        "global.10B.countries.croatia.belonging",
+        "global.10B.countries.croatia.meaning",
+        "global.10B.countries.croatia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

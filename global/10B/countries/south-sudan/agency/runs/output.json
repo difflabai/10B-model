@@ -1,0 +1,56 @@
+{
+  "country": "South Sudan",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.578,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.17
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.27
+    }
+  ],
+  "embedding": [
+    0.578,
+    0.83333,
+    0.85,
+    0.85,
+    0.26226,
+    0.12798,
+    -0.00856,
+    0.01363,
+    0.77639,
+    0.14965,
+    0.99911,
+    -0.78167,
+    0.4088,
+    0.51916,
+    -0.4302,
+    0.93039
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Bahamas, The",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7684,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.94
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    }
+  ],
+  "embedding": [
+    0.7684,
+    0.83333,
+    0.85,
+    0.75,
+    -0.64211,
+    0.93625,
+    0.88965,
+    0.17787,
+    -0.04588,
+    0.11724,
+    -0.70904,
+    -0.54321,
+    -0.18068,
+    -0.01466,
+    -0.91632,
+    0.65039
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

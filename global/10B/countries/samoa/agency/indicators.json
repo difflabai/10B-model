@@ -1,0 +1,39 @@
+{
+  "country": "Samoa",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Fa'atuatua i le Atua Samoa ua Tasi or FAST Human Rights Protection Party or HRPP Tautua Samoa Party or TSP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned TV station privatized in 2008; 4 privately owned television broadcast stations; about a half-dozen privately owned radio stations and one state-owned radio station; TV and radio broadcasts of several stations from American Samoa are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.8% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

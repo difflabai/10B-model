@@ -1,0 +1,39 @@
+{
+  "country": "Greece",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Coalition of the Radical Left-Progressive Alliance or SYRIZA-PS Communist Party of Greece or KKE Course of FreedomDemocratic Patriotic Movement-Victory or NIKIGreek SolutionNew Democracy or NDPASOK - Movement for Change or PASOK-KINALSpartans",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "broadcast media dominated by the private sector; roughly 150 private TV channels, about 10 of which broadcast nationwide; 1 government-owned terrestrial TV channel with national coverage; 3 privately owned satellite channels; multi-channel satellite and cable TV services available; upwards of 1,500 radio stations, all of them privately owned; government-owned broadcaster has 2 national radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.4% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

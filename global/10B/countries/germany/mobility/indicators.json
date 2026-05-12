@@ -1,0 +1,59 @@
+{
+  "country": "Germany",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "830,000 km 830,000 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "830,000 km (2022) (includes 13,155 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "838 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "388 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "37 km condensate, 26,985 km gas, 2,400 km oil, 4,479 km refined products, 8 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "7,300 km (2022) (Rhine River carries most goods; Main-Danube Canal links North Sea and Black Sea)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "39,379 km (2020) 20,942 km electrified15 km 0.900-mm gauge, 24 km 0.750-mm gauge (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "109,796,202 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "7,969,860,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

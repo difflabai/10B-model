@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.holy-see-vatican-city.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Holy See (Vatican City)"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "safety"
+    }
+  },
+  "output": "./runs/output.json"
+}

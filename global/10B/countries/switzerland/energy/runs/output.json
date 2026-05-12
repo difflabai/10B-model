@@ -1,0 +1,84 @@
+{
+  "country": "Switzerland",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6589,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.944
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.5375
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.412
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8375
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.847
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.65
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.65891,
+    0.84615,
+    0.97,
+    0.55,
+    0.04689,
+    0.50518,
+    0.88782,
+    0.79086,
+    0.63101,
+    0.47344,
+    -0.03621,
+    0.19371,
+    -0.24584,
+    0.98236,
+    0.89383,
+    0.4566
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

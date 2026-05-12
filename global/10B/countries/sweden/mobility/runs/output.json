@@ -1,0 +1,72 @@
+{
+  "country": "Sweden",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 6,
+  "indicators_total": 10,
+  "composite_score": 0.6019,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5986
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7229
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5316
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.619
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5894
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.60191,
+    0.6,
+    0.5986,
+    0.7229,
+    0.09996,
+    0.40401,
+    0.45296,
+    0.23848,
+    0.51119,
+    -0.83041,
+    0.49816,
+    -0.22133,
+    0.93539,
+    -0.99271,
+    0.22084,
+    0.42443
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

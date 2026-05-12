@@ -1,0 +1,34 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "coconuts, tropical fruits, root vegetables, vegetables, eggs, pulses, sweet potatoes, watermelons, cucumbers/gherkins, tomatoes (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "23.1% (2018 est.)agricultural land: arable land: 19.2% (2018 est.)agricultural land: permanent crops: 0.4% (2018 est.)agricultural land: permanent pasture: 3.5% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "1.4% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "55,133",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

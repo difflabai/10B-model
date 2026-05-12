@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.environment",
+  "name": "Asia — Environmental sustainability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level environmental sustainability for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country environment models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "environment-country-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "environment-region-mean",
+      "kind": "scalar",
+      "description": "Mean environment score across the region."
+    },
+    {
+      "name": "environment-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Environmental sustainability"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.environment",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.equatorial-guinea",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Equatorial Guinea"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.equatorial-guinea.food",
+        "global.10B.countries.equatorial-guinea.water",
+        "global.10B.countries.equatorial-guinea.shelter",
+        "global.10B.countries.equatorial-guinea.health",
+        "global.10B.countries.equatorial-guinea.safety",
+        "global.10B.countries.equatorial-guinea.education",
+        "global.10B.countries.equatorial-guinea.work",
+        "global.10B.countries.equatorial-guinea.energy",
+        "global.10B.countries.equatorial-guinea.mobility",
+        "global.10B.countries.equatorial-guinea.communications",
+        "global.10B.countries.equatorial-guinea.governance",
+        "global.10B.countries.equatorial-guinea.environment",
+        "global.10B.countries.equatorial-guinea.belonging",
+        "global.10B.countries.equatorial-guinea.meaning",
+        "global.10B.countries.equatorial-guinea.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

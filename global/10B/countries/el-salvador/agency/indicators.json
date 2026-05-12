@@ -1,0 +1,39 @@
+{
+  "country": "El Salvador",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Christian Democratic Party or PDCFarabundo Marti National Liberation Front or FMLNGreat Alliance for National Unity or GANANational Coalition Party or PCNNationalist Republican Alliance or ARENANew Ideas (Nuevas Ideas) or NIOur Time (Nuestro Tiempo) or NTVamos or V",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "63% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "multiple privately owned national terrestrial TV networks, supplemented by cable TV networks that carry international channels; hundreds of commercial radio broadcast stations and two known government-owned radio broadcast station; transition to digital transmission to begin in 2018 along with adaptation of the Japanese-Brazilian Digital Standard (ISDB-T) (2022)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

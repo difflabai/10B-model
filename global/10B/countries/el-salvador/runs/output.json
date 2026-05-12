@@ -1,0 +1,47 @@
+{
+  "country": "el-salvador",
+  "category_scores": {
+    "agency": 0.7444,
+    "belonging": 0.6704,
+    "communications": 0.6866,
+    "education": 0.7029,
+    "energy": 0.6858,
+    "environment": 0.483,
+    "food": 0.7089,
+    "governance": 0.7286,
+    "health": 0.6817,
+    "meaning": 0.63,
+    "mobility": 0.3946,
+    "safety": 0.705,
+    "shelter": 0.6821,
+    "water": 0.65,
+    "work": 0.6831
+  },
+  "country_score": 0.6558,
+  "tier_scores": {
+    "subsistence": 0.6855,
+    "development": 0.6306,
+    "agency": 0.6513
+  },
+  "country_embedding": [
+    0.65579,
+    0.82171,
+    0.69151,
+    0.59933,
+    0.04656,
+    0.06283,
+    -0.04304,
+    0.10207,
+    -0.13058,
+    0.15763,
+    -0.19688,
+    0.01917,
+    -0.11976,
+    0.06866,
+    -0.17348,
+    -0.1543
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in El Salvador, the three needs areas with the largest gaps are: mobility (0.39), environment (0.48), meaning (0.63).\nThe three strongest areas are: agency (0.74), governance (0.73), food (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

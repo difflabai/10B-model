@@ -1,0 +1,64 @@
+{
+  "country": "Algeria",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "109 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "51.5 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "14 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "6.324 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "71% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "12 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "5.54 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Algeria has a steadily developing telecom infrastructure with growth encouraged by supportive regulatory measures and by government policies aimed at delivering serviceable internet connections across the country; mobile broadband is largely based on 3G and LTE, and the data rates are also low in global terms; LTE is available in all provinces, investment is required from the mobile network operators (MNOs) to improve the quality of service; the state has previously been hesitant to commit to 5G, instead encouraging the MNOs to undertake upgrades to LTE infrastructure before investing in commercial 5G services; in March 2022, the state is in the process of freeing up the requisite spectrum to enable the MNOs to launch 5G services sometime this year; fixed internet speeds remain slow (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "a limited network of fixed-lines with a teledensity of slightly less than 12 telephones per 100 persons has been offset by the rapid increase in mobile-cellular subscribership; mobile-cellular teledensity was approximately 106 telephones per 100 persons in 2020 (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 213; ALPAL-2 is a submarine telecommunications cable system in the Mediterranean Sea linking Algeria and the Spanish Balearic island of Majorca; ORVAL is a submarine cable to Spain; landing points for the TE North/TGN-Eurasia/SEACOM/SeaMeWe-4 fiber-optic submarine cable system that provides links to Europe, the Middle East, and Asia; MED cable connecting Algeria with France; microwave radio relay to Italy, France, Spain, Morocco, and Tunisia; Algeria part of the 4,500 Km terrestrial Trans Sahara Backbone network which connects to other fiber networks in the region; Alcomstat-1 satellite offering  telemedicine network (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Radio Algerienne is the state-run radio broadcast, whereas the National Company of Television (Entreprise Nationale de Télévision (ENTV)) is the primary state-run public broadcasting TV station (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

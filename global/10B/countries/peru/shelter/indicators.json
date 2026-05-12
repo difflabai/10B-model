@@ -1,0 +1,34 @@
+{
+  "country": "Peru",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "78.9% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "11.204 million LIMA (capital), 959,000 Arequipa, 904,000 Trujillo (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "approximately one-third of the population resides along the desert coastal belt in the west, with a strong focus on the capital city of Lima; the Andean highlands, or sierra, which is strongly identified with the country's Amerindian population, contains roughly half of the overall population; the eastern slopes of the Andes, and adjoining rainforest, are sparsely populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

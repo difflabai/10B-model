@@ -1,0 +1,47 @@
+{
+  "country": "heard-island-and-mcdonald-islands",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.375,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.4132,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.4897,
+  "tier_scores": {
+    "subsistence": 0.4917,
+    "development": 0.4132,
+    "agency": 0.525
+  },
+  "country_embedding": [
+    0.19588,
+    0.09016,
+    0.18421,
+    0.03667,
+    0.03055,
+    -0.23591,
+    0.03624,
+    0.31919,
+    0.26963,
+    -0.06103,
+    0.04379,
+    -0.0149,
+    0.0902,
+    0.30157,
+    0.00599,
+    -0.22762
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Heard Island And Mcdonald Islands, the three needs areas with the largest gaps are: food (0.38), environment (0.40), mobility (0.41).\nThe three strongest areas are: governance (0.65), water (0.55), shelter (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

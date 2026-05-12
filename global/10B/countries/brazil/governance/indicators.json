@@ -1,0 +1,44 @@
+{
+  "country": "Brazil",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "federal presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law; note - a new civil law code was enacted in 2002 replacing the 1916 code",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest ratified 5 October 1988",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "voluntary between 16 to 18 years of age, over 70, and if illiterate; compulsory between 18 to 70 years of age; note - military conscripts by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Luiz Inácio LULA da Silva (since 1 January 2023)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AfDB (nonregional member), BIS, BRICS, CAN (associate), CD, CELAC, CPLP, FAO, FATF, G-15, G-20, G-24, G-5, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, LAS (observer), Mercosur, MIGA, MINURSO, MINUSTAH, MONUSCO, NAM (observer), NSG, OAS, OECD (enhanced engagement), OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, UNISFA, UNIFIL, Union Latina, UNISFA, UNITAR, UNMIL, UNMISS, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

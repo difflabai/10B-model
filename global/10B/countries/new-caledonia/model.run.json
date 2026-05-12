@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.new-caledonia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "New Caledonia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.new-caledonia.food",
+        "global.10B.countries.new-caledonia.water",
+        "global.10B.countries.new-caledonia.shelter",
+        "global.10B.countries.new-caledonia.health",
+        "global.10B.countries.new-caledonia.safety",
+        "global.10B.countries.new-caledonia.education",
+        "global.10B.countries.new-caledonia.work",
+        "global.10B.countries.new-caledonia.energy",
+        "global.10B.countries.new-caledonia.mobility",
+        "global.10B.countries.new-caledonia.communications",
+        "global.10B.countries.new-caledonia.governance",
+        "global.10B.countries.new-caledonia.environment",
+        "global.10B.countries.new-caledonia.belonging",
+        "global.10B.countries.new-caledonia.meaning",
+        "global.10B.countries.new-caledonia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

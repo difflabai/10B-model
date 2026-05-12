@@ -1,0 +1,44 @@
+{
+  "country": "British Virgin Islands",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$34,200 (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "2% (2017 est.)1.9% (2016 est.)1.8% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "4.2% (2022 est.)2.8% (2021 est.)0.4% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "2.9% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5714285714285714
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Maldives",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Maldives National Defense Force (MNDF): the MNDF has combined force structure with seven services divided into Combat and Maneuver Forces (Coast Guard, Marine Corps, and Fire and Rescue Service) and Support Services (Service Corps, Defense Intelligence Service, Medical Corps, Adjutant General's Corps); there is also a separate Special Forces command and a Special Protection Service (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "not available",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

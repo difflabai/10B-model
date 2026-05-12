@@ -1,0 +1,39 @@
+{
+  "country": "Tonga",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Party of the Friendly Islands or DPFI or PTOA Tonga People's Party (Paati ʻa e Kakai ʻo Tonga) or PAK or TPPI",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "58% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 state-owned TV station and 3 privately owned TV stations; satellite and cable TV services are available; 1 state-owned and 5 privately owned radio stations; Radio Australia broadcasts available via satellite (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

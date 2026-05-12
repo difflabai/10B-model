@@ -1,0 +1,52 @@
+{
+  "country": "Belarus",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8013,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9688
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.7
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.80126,
+    1.0,
+    0.9688,
+    0.7,
+    0.82586,
+    0.95544,
+    -0.76922,
+    0.87372,
+    0.18019,
+    -0.52624,
+    -0.54919,
+    0.33745,
+    0.39297,
+    -0.12862,
+    0.31319,
+    -0.1165
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "brunei",
+  "category_scores": {
+    "agency": 0.7725,
+    "belonging": 0.6754,
+    "communications": 0.7268,
+    "education": 0.7607,
+    "energy": 0.5367,
+    "environment": 0.594,
+    "food": 0.5325,
+    "governance": 0.6714,
+    "health": 0.6725,
+    "meaning": 0.65,
+    "mobility": 0.4119,
+    "safety": 0.725,
+    "shelter": 0.6534,
+    "water": 0.55,
+    "work": 0.7668
+  },
+  "country_score": 0.6466,
+  "tier_scores": {
+    "subsistence": 0.6267,
+    "development": 0.6406,
+    "agency": 0.6727
+  },
+  "country_embedding": [
+    0.64664,
+    0.7895,
+    0.69877,
+    0.54521,
+    -0.03249,
+    -0.10867,
+    -0.00212,
+    -0.06403,
+    0.25148,
+    -0.07292,
+    -0.09312,
+    -0.218,
+    0.03887,
+    0.22129,
+    -0.05673,
+    0.0956
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Brunei, the three needs areas with the largest gaps are: mobility (0.41), food (0.53), energy (0.54).\nThe three strongest areas are: agency (0.77), work (0.77), education (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

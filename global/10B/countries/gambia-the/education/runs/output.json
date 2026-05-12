@@ -1,0 +1,52 @@
+{
+  "country": "Gambia, The",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.5285,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.4834
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.52846,
+    0.6,
+    0.4834,
+    0.452,
+    -0.00404,
+    0.80899,
+    -0.18642,
+    -0.39394,
+    -0.34453,
+    0.78506,
+    0.64797,
+    -0.52282,
+    -0.23296,
+    0.9939,
+    -0.68295,
+    -0.52483
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

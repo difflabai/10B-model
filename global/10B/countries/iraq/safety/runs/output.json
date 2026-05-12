@@ -1,0 +1,56 @@
+{
+  "country": "Iraq",
+  "category": "safety",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.64,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "score": 0.92
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "score": 0.6
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "score": null
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "score": null
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.64,
+    0.5,
+    0.92,
+    0.6,
+    -0.91257,
+    -0.16573,
+    -0.97928,
+    0.15731,
+    -0.53234,
+    0.35079,
+    0.2748,
+    0.76162,
+    -0.29299,
+    -0.2462,
+    0.45327,
+    -0.43825
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Czechia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7966,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.958
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.7966,
+    1.0,
+    0.958,
+    0.75,
+    -0.59298,
+    -0.76336,
+    0.94543,
+    -0.1505,
+    -0.57082,
+    -0.53265,
+    -0.63009,
+    -0.44686,
+    0.957,
+    -0.07976,
+    -0.61157,
+    -0.74115
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

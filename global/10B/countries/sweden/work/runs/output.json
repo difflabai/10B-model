@@ -1,0 +1,60 @@
+{
+  "country": "Sweden",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.681,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.9054
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.4845
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.5757
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.6705
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.678
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.803
+    }
+  ],
+  "embedding": [
+    0.68103,
+    1.0,
+    0.9054,
+    0.4845,
+    0.166,
+    -0.56817,
+    -0.38485,
+    0.63067,
+    -0.95691,
+    0.9931,
+    -0.08544,
+    -0.73571,
+    -0.95312,
+    -0.62707,
+    -0.08498,
+    0.07424
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

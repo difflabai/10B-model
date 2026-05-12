@@ -1,0 +1,60 @@
+{
+  "country": "Bouvet Island",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": null
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": null
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": null
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.14286,
+    0.65,
+    0.0,
+    -0.31398,
+    0.36757,
+    0.77795,
+    -0.32522,
+    0.97144,
+    0.83569,
+    0.45031,
+    0.43502,
+    0.18312,
+    -0.84323,
+    -0.77688,
+    -0.23235
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

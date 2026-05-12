@@ -1,0 +1,72 @@
+{
+  "country": "Mauritania",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.3987,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2689
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.2537
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4917
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.576
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2884
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.3347
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.39871,
+    0.8,
+    0.2689,
+    0.2537,
+    0.70724,
+    0.88644,
+    -0.65933,
+    0.3164,
+    0.73635,
+    0.10958,
+    0.82135,
+    -0.06813,
+    -0.27559,
+    0.67614,
+    -0.53317,
+    -0.83301
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

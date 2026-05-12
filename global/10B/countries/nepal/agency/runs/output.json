@@ -1,0 +1,56 @@
+{
+  "country": "Nepal",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7446,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5357
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6375
+    }
+  ],
+  "embedding": [
+    0.74464,
+    0.83333,
+    0.85,
+    0.85,
+    0.22347,
+    -0.11388,
+    -0.87494,
+    0.72622,
+    0.61218,
+    -0.07707,
+    0.81143,
+    -0.09749,
+    -0.70733,
+    -0.61373,
+    -0.08498,
+    0.35439
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

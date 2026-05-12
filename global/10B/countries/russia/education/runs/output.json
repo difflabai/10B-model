@@ -1,0 +1,52 @@
+{
+  "country": "Russia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7633,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9664
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.875
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76328,
+    1.0,
+    0.9664,
+    0.575,
+    -0.51772,
+    0.06468,
+    -0.82596,
+    -0.77407,
+    -0.9107,
+    -0.29821,
+    0.07985,
+    0.62417,
+    0.80481,
+    -0.56841,
+    0.62887,
+    0.54687
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

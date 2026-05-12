@@ -1,0 +1,47 @@
+{
+  "country": "wake-island",
+  "category_scores": {
+    "agency": 0.65,
+    "belonging": null,
+    "communications": 0.7,
+    "education": null,
+    "energy": 0.64,
+    "environment": 0.4,
+    "food": 0.375,
+    "governance": 0.55,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.2,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.5128,
+  "tier_scores": {
+    "subsistence": 0.4917,
+    "development": 0.5133,
+    "agency": 0.5333
+  },
+  "country_embedding": [
+    0.30767,
+    0.12878,
+    0.32133,
+    0.11667,
+    -0.07879,
+    0.28849,
+    -0.13142,
+    -0.15238,
+    0.05911,
+    -0.10142,
+    -0.24457,
+    0.08851,
+    -0.22482,
+    -0.06879,
+    -0.11334,
+    -0.38501
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Wake Island, the three needs areas with the largest gaps are: mobility (0.20), food (0.38), environment (0.40).\nThe three strongest areas are: communications (0.70), agency (0.65), energy (0.64).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

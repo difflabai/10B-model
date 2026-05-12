@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.water",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "water"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.water",
+        "global.10B.countries.andorra.water",
+        "global.10B.countries.armenia.water",
+        "global.10B.countries.austria.water",
+        "global.10B.countries.azerbaijan.water",
+        "global.10B.countries.belarus.water",
+        "global.10B.countries.belgium.water",
+        "global.10B.countries.bosnia-and-herzegovina.water",
+        "global.10B.countries.bulgaria.water",
+        "global.10B.countries.croatia.water",
+        "global.10B.countries.cyprus.water",
+        "global.10B.countries.czechia.water",
+        "global.10B.countries.denmark.water",
+        "global.10B.countries.estonia.water",
+        "global.10B.countries.faroe-islands.water",
+        "global.10B.countries.finland.water",
+        "global.10B.countries.georgia.water",
+        "global.10B.countries.germany.water",
+        "global.10B.countries.gibraltar.water",
+        "global.10B.countries.greece.water",
+        "global.10B.countries.guernsey.water",
+        "global.10B.countries.holy-see-vatican-city.water",
+        "global.10B.countries.hungary.water",
+        "global.10B.countries.iceland.water",
+        "global.10B.countries.ireland.water",
+        "global.10B.countries.isle-of-man.water",
+        "global.10B.countries.italy.water",
+        "global.10B.countries.jan-mayen.water",
+        "global.10B.countries.jersey.water",
+        "global.10B.countries.kazakhstan.water",
+        "global.10B.countries.kosovo.water",
+        "global.10B.countries.latvia.water",
+        "global.10B.countries.liechtenstein.water",
+        "global.10B.countries.lithuania.water",
+        "global.10B.countries.luxembourg.water",
+        "global.10B.countries.malta.water",
+        "global.10B.countries.moldova.water",
+        "global.10B.countries.monaco.water",
+        "global.10B.countries.montenegro.water",
+        "global.10B.countries.netherlands.water",
+        "global.10B.countries.north-macedonia.water",
+        "global.10B.countries.norway.water",
+        "global.10B.countries.poland.water",
+        "global.10B.countries.portugal.water",
+        "global.10B.countries.romania.water",
+        "global.10B.countries.san-marino.water",
+        "global.10B.countries.serbia.water",
+        "global.10B.countries.slovakia.water",
+        "global.10B.countries.slovenia.water",
+        "global.10B.countries.spain.water",
+        "global.10B.countries.sweden.water",
+        "global.10B.countries.switzerland.water",
+        "global.10B.countries.turkey-turkiye.water",
+        "global.10B.countries.ukraine.water",
+        "global.10B.countries.united-kingdom.water"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

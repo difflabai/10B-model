@@ -1,0 +1,52 @@
+{
+  "country": "Bhutan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.723,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.6272
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.89
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.72304,
+    0.8,
+    0.6272,
+    0.89,
+    0.61038,
+    0.892,
+    -0.90356,
+    0.03612,
+    -0.59841,
+    0.62625,
+    -0.23244,
+    -0.17766,
+    -0.60998,
+    0.84012,
+    0.19963,
+    0.66152
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

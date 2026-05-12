@@ -1,0 +1,60 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.7571,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.7732
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.678
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.82
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75707,
+    0.42857,
+    0.7732,
+    0.678,
+    -0.59899,
+    0.02449,
+    -0.08348,
+    0.39782,
+    0.71026,
+    0.71838,
+    0.23949,
+    -0.33199,
+    0.06075,
+    0.34871,
+    0.90381,
+    0.85031
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

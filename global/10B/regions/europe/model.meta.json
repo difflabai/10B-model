@@ -1,0 +1,427 @@
+{
+  "id": "global.10B.regions.europe",
+  "name": "Europe — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Europe aggregating 55 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 55 country needs profiles for Europe into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Europe countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Europe countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Europe countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Europe countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Europe countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Europe countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Europe countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Europe countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Europe countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Europe countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Europe countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Europe countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Europe countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Europe countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

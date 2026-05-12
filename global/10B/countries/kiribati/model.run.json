@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kiribati",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kiribati"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kiribati.food",
+        "global.10B.countries.kiribati.water",
+        "global.10B.countries.kiribati.shelter",
+        "global.10B.countries.kiribati.health",
+        "global.10B.countries.kiribati.safety",
+        "global.10B.countries.kiribati.education",
+        "global.10B.countries.kiribati.work",
+        "global.10B.countries.kiribati.energy",
+        "global.10B.countries.kiribati.mobility",
+        "global.10B.countries.kiribati.communications",
+        "global.10B.countries.kiribati.governance",
+        "global.10B.countries.kiribati.environment",
+        "global.10B.countries.kiribati.belonging",
+        "global.10B.countries.kiribati.meaning",
+        "global.10B.countries.kiribati.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

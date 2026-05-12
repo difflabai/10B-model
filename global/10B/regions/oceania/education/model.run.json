@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.education",
+        "global.10B.countries.australia.education",
+        "global.10B.countries.baker-island.education",
+        "global.10B.countries.chile.education",
+        "global.10B.countries.clipperton-island.education",
+        "global.10B.countries.colombia.education",
+        "global.10B.countries.cook-islands.education",
+        "global.10B.countries.coral-sea-islands.education",
+        "global.10B.countries.costa-rica.education",
+        "global.10B.countries.ecuador.education",
+        "global.10B.countries.el-salvador.education",
+        "global.10B.countries.fiji.education",
+        "global.10B.countries.french-polynesia.education",
+        "global.10B.countries.guam.education",
+        "global.10B.countries.guatemala.education",
+        "global.10B.countries.honduras.education",
+        "global.10B.countries.howland-island.education",
+        "global.10B.countries.jarvis-island.education",
+        "global.10B.countries.johnston-atoll.education",
+        "global.10B.countries.kingman-reef.education",
+        "global.10B.countries.kiribati.education",
+        "global.10B.countries.marshall-islands.education",
+        "global.10B.countries.mexico.education",
+        "global.10B.countries.micronesia-federated-states-of.education",
+        "global.10B.countries.midway-islands.education",
+        "global.10B.countries.nauru.education",
+        "global.10B.countries.new-caledonia.education",
+        "global.10B.countries.new-zealand.education",
+        "global.10B.countries.nicaragua.education",
+        "global.10B.countries.niue.education",
+        "global.10B.countries.norfolk-island.education",
+        "global.10B.countries.northern-mariana-islands.education",
+        "global.10B.countries.palau.education",
+        "global.10B.countries.palmyra-atoll.education",
+        "global.10B.countries.panama.education",
+        "global.10B.countries.papua-new-guinea.education",
+        "global.10B.countries.peru.education",
+        "global.10B.countries.pitcairn-islands.education",
+        "global.10B.countries.samoa.education",
+        "global.10B.countries.solomon-islands.education",
+        "global.10B.countries.tokelau.education",
+        "global.10B.countries.tonga.education",
+        "global.10B.countries.tuvalu.education",
+        "global.10B.countries.united-states.education",
+        "global.10B.countries.vanuatu.education",
+        "global.10B.countries.wake-island.education",
+        "global.10B.countries.wallis-and-futuna.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "West Bank",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6899,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6696
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.68987,
+    0.8,
+    0.6696,
+    0.75,
+    0.62945,
+    -0.70455,
+    0.67807,
+    -0.60626,
+    -0.81393,
+    -0.40145,
+    0.31319,
+    0.25237,
+    0.40606,
+    -0.94589,
+    -0.85293,
+    0.63925
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

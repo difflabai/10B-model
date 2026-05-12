@@ -1,0 +1,44 @@
+{
+  "country": "Afghanistan",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "theocratic; the United States does not recognize the Taliban Government",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the Taliban is implementing its own interpretation of Islamic law, which is partially based on the Hanifi school of Islamic jurisprudence and have enforced strict punishments; before the Taliban takeover, Afghanistan had a mixed legal system of civil, customary, and Islamic law (2021)",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest ratified in 2004, but not currently enforced by the Taliban",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Taliban Leader HAYBATULLAH Akhundzada (since 15 August 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; formerly accepted ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Afghanistan is a member of the following organizations but Taliban representatives do not participate: ADB, CICA, CP, ECO, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, OSCE (partner), SAARC, SACEP, SCO (dialogue member), UN, UNAMA, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

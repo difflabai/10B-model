@@ -1,0 +1,39 @@
+{
+  "country": "Iraq",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Euphrates river mouth (shared with Turkey[s], Syria, and Iran) - 3,596 km; Tigris river mouth (shared with Turkey[s], Syria, and Iran) - 1,950 km; the Tigris and Euphrates join to form the Shatt al Arab",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Indian Ocean drainage: (Persian Gulf) Tigris and Euphrates (918,044 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly desert; mild to cool winters with dry, hot, cloudless summers; northern mountainous regions along Iranian and Turkish borders experience cold winters with occasionally heavy snows that melt in early spring, sometimes causing extensive flooding in central and southern Iraq",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

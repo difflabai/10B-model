@@ -1,0 +1,44 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "a commonwealth in political union with and under the sovereignty of the US; republican form of government with separate executive, legislative, and judicial branches",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "the laws of the US apply, except for customs and some aspects of taxation",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "partially effective 9 January 1978 (Constitution of the Commonwealth of the Northern Mariana Islands); fully effective 4 November 1986 (Covenant Agreement)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - indigenous inhabitants are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph R. BIDEN Jr. (since 20 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "PIF (observer), SPC, UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

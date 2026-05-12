@@ -1,0 +1,44 @@
+{
+  "country": "Tokelau",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy under a constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law system of New Zealand",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "many previous; latest effective 1 January 1949 (Tokelau Islands Act 1948)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor-General of New Zealand Dame Cindy KIRO (since 21 September 2021); New Zealand is represented by Administrator Don HIGGINS (since June 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "PIF (associate member), SPC, UNESCO (associate), UPU",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

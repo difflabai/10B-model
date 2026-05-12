@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.environment",
+        "global.10B.countries.antarctica.environment",
+        "global.10B.countries.canada.environment",
+        "global.10B.countries.dhekelia.environment",
+        "global.10B.countries.france.environment",
+        "global.10B.countries.french-southern-and-antarctic-lands.environment",
+        "global.10B.countries.greenland.environment",
+        "global.10B.countries.heard-island-and-mcdonald-islands.environment",
+        "global.10B.countries.russia.environment",
+        "global.10B.countries.svalbard.environment"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

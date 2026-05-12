@@ -1,0 +1,60 @@
+{
+  "country": "Italy",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.5723,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.7195
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": null
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.664
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.57225,
+    0.85714,
+    0.4,
+    0.85,
+    -0.82077,
+    0.80923,
+    0.63635,
+    -0.22417,
+    -0.8526,
+    -0.88623,
+    -0.95688,
+    -0.55764,
+    -0.12364,
+    -0.70416,
+    0.68725,
+    -0.76895
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

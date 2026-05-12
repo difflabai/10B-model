@@ -1,0 +1,34 @@
+{
+  "country": "Venezuela",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "88.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.972 million CARACAS (capital), 2.368 million Maracaibo, 1.983 million Valencia, 1.254 million Barquisimeto, 1.243 million Maracay, 964,000 Ciudad Guayana (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is concentrated in the northern and western highlands along an eastern spur at the northern end of the Andes, an area that includes the capital of Caracas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid; more moderate in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid; more moderate in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

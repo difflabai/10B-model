@@ -1,0 +1,47 @@
+{
+  "country": "afghanistan",
+  "category_scores": {
+    "agency": 0.6492,
+    "belonging": 0.6667,
+    "communications": 0.6643,
+    "education": 0.5535,
+    "energy": 0.6825,
+    "environment": 0.3997,
+    "food": 0.5504,
+    "governance": 0.6714,
+    "health": 0.3714,
+    "meaning": 0.67,
+    "mobility": 0.4957,
+    "safety": 0.575,
+    "shelter": 0.6157,
+    "water": 0.7,
+    "work": 0.5174
+  },
+  "country_score": 0.5855,
+  "tier_scores": {
+    "subsistence": 0.5625,
+    "development": 0.5827,
+    "agency": 0.6114
+  },
+  "country_embedding": [
+    0.58553,
+    0.88176,
+    0.51535,
+    0.63511,
+    0.05396,
+    -0.20572,
+    -0.32912,
+    0.06441,
+    0.08612,
+    -0.08229,
+    -0.1554,
+    -0.07218,
+    0.2601,
+    -0.04736,
+    0.07762,
+    0.04969
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Afghanistan, the three needs areas with the largest gaps are: health (0.37), environment (0.40), mobility (0.50).\nThe three strongest areas are: water (0.70), energy (0.68), governance (0.67).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

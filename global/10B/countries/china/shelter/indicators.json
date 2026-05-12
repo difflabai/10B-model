@@ -1,0 +1,34 @@
+{
+  "country": "China",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "64.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "29.211 million Shanghai, 21.766 million BEIJING (capital), 17.341 million Chongqing, 14.284 million Guangzhou, 14.239 million Tianjin, 13.073 million Shenzhen (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "overwhelming majority of the population is found in the eastern half of the country; the west, with its vast mountainous and desert areas, remains sparsely populated; though ranked first in the world in total population, overall density is less than that of many other countries in Asia and Europe; high population density is found along the Yangtze and Yellow River valleys, the Xi Jiang River delta, the Sichuan Basin (around Chengdu), in and around Beijing, and the industrial area around Shenyang",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "extremely diverse; tropical in south to subarctic in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "extremely diverse; tropical in south to subarctic in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

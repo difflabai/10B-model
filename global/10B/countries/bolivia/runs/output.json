@@ -1,0 +1,47 @@
+{
+  "country": "bolivia",
+  "category_scores": {
+    "agency": 0.8066,
+    "belonging": 0.7671,
+    "communications": 0.6668,
+    "education": 0.8325,
+    "energy": 0.6317,
+    "environment": 0.5361,
+    "food": 0.6816,
+    "governance": 0.7429,
+    "health": 0.6015,
+    "meaning": 0.67,
+    "mobility": 0.5291,
+    "safety": 0.6033,
+    "shelter": 0.7113,
+    "water": 0.6167,
+    "work": 0.6667
+  },
+  "country_score": 0.6709,
+  "tier_scores": {
+    "subsistence": 0.6429,
+    "development": 0.6654,
+    "agency": 0.7045
+  },
+  "country_embedding": [
+    0.67092,
+    0.87043,
+    0.6952,
+    0.70981,
+    -0.319,
+    0.01697,
+    0.27705,
+    0.07559,
+    -0.10191,
+    -0.15743,
+    0.12903,
+    0.20586,
+    -0.18226,
+    0.0398,
+    -0.05408,
+    0.41208
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bolivia, the three needs areas with the largest gaps are: mobility (0.53), environment (0.54), health (0.60).\nThe three strongest areas are: education (0.83), agency (0.81), belonging (0.77).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

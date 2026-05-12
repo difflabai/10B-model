@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.italy",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Italy"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.italy.food",
+        "global.10B.countries.italy.water",
+        "global.10B.countries.italy.shelter",
+        "global.10B.countries.italy.health",
+        "global.10B.countries.italy.safety",
+        "global.10B.countries.italy.education",
+        "global.10B.countries.italy.work",
+        "global.10B.countries.italy.energy",
+        "global.10B.countries.italy.mobility",
+        "global.10B.countries.italy.communications",
+        "global.10B.countries.italy.governance",
+        "global.10B.countries.italy.environment",
+        "global.10B.countries.italy.belonging",
+        "global.10B.countries.italy.meaning",
+        "global.10B.countries.italy.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

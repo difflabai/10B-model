@@ -1,0 +1,59 @@
+{
+  "country": "Malaysia",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "144,403 km (excludes local roads)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "116,169 km (includes 1,821 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "28,234 km (2010)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "102 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "24 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "354 km condensate, 6,439 km gas, 155 km liquid petroleum gas, 1,937 km oil, 43 km oil/gas/water, 114 km refined products, 26 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "7,200 km (2011) (Peninsular Malaysia 3,200 km; Sabah 1,500 km; Sarawak 2,500 km)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,851 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "60,481,772 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,404,410,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

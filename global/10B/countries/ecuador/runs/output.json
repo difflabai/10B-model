@@ -1,0 +1,47 @@
+{
+  "country": "ecuador",
+  "category_scores": {
+    "agency": 0.752,
+    "belonging": 0.7379,
+    "communications": 0.6964,
+    "education": 0.7619,
+    "energy": 0.6018,
+    "environment": 0.5523,
+    "food": 0.6888,
+    "governance": 0.7286,
+    "health": 0.6734,
+    "meaning": 0.67,
+    "mobility": 0.5122,
+    "safety": 0.6056,
+    "shelter": 0.6832,
+    "water": 0.65,
+    "work": 0.6846
+  },
+  "country_score": 0.6666,
+  "tier_scores": {
+    "subsistence": 0.6602,
+    "development": 0.6514,
+    "agency": 0.6882
+  },
+  "country_embedding": [
+    0.66656,
+    0.85128,
+    0.715,
+    0.63754,
+    -0.05404,
+    -0.07597,
+    -0.00763,
+    -0.1027,
+    0.27457,
+    -0.13566,
+    0.01228,
+    0.00932,
+    -0.14956,
+    -0.21515,
+    0.0119,
+    0.17125
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Ecuador, the three needs areas with the largest gaps are: mobility (0.51), environment (0.55), energy (0.60).\nThe three strongest areas are: education (0.76), agency (0.75), belonging (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Cabo Verde",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "African Party for Independence of Cabo Verde or PAICV Democratic and Independent Cabo Verdean Union or UCID Democratic Christian Party or PDC Democratic Renewal Party or PRD Movement for Democracy or MPD Party for Democratic Convergence or PCD Party of Work and Solidarity or PTS Social Democratic Party or PSD",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "72% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run TV and radio broadcast network plus a growing number of private broadcasters; Portuguese public TV and radio services for Africa are available; transmissions of a few international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

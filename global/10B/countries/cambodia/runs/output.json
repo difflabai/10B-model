@@ -1,0 +1,47 @@
+{
+  "country": "cambodia",
+  "category_scores": {
+    "agency": 0.6879,
+    "belonging": 0.6867,
+    "communications": 0.6884,
+    "education": 0.6682,
+    "energy": 0.6417,
+    "environment": 0.5535,
+    "food": 0.6627,
+    "governance": 0.7286,
+    "health": 0.555,
+    "meaning": 0.61,
+    "mobility": 0.5031,
+    "safety": 0.705,
+    "shelter": 0.6635,
+    "water": 0.6833,
+    "work": 0.7499
+  },
+  "country_score": 0.6525,
+  "tier_scores": {
+    "subsistence": 0.6539,
+    "development": 0.6503,
+    "agency": 0.6533
+  },
+  "country_embedding": [
+    0.6525,
+    0.838,
+    0.66149,
+    0.6655,
+    -0.17098,
+    0.07642,
+    -0.0678,
+    0.11178,
+    -0.08436,
+    0.28756,
+    -0.08381,
+    -0.015,
+    0.16911,
+    0.07954,
+    0.26267,
+    -0.23506
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cambodia, the three needs areas with the largest gaps are: mobility (0.50), environment (0.55), health (0.56).\nThe three strongest areas are: work (0.75), governance (0.73), safety (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

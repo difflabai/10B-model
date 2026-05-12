@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.agency",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "agency"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.agency",
+        "global.10B.countries.andorra.agency",
+        "global.10B.countries.armenia.agency",
+        "global.10B.countries.austria.agency",
+        "global.10B.countries.azerbaijan.agency",
+        "global.10B.countries.belarus.agency",
+        "global.10B.countries.belgium.agency",
+        "global.10B.countries.bosnia-and-herzegovina.agency",
+        "global.10B.countries.bulgaria.agency",
+        "global.10B.countries.croatia.agency",
+        "global.10B.countries.cyprus.agency",
+        "global.10B.countries.czechia.agency",
+        "global.10B.countries.denmark.agency",
+        "global.10B.countries.estonia.agency",
+        "global.10B.countries.faroe-islands.agency",
+        "global.10B.countries.finland.agency",
+        "global.10B.countries.georgia.agency",
+        "global.10B.countries.germany.agency",
+        "global.10B.countries.gibraltar.agency",
+        "global.10B.countries.greece.agency",
+        "global.10B.countries.guernsey.agency",
+        "global.10B.countries.holy-see-vatican-city.agency",
+        "global.10B.countries.hungary.agency",
+        "global.10B.countries.iceland.agency",
+        "global.10B.countries.ireland.agency",
+        "global.10B.countries.isle-of-man.agency",
+        "global.10B.countries.italy.agency",
+        "global.10B.countries.jan-mayen.agency",
+        "global.10B.countries.jersey.agency",
+        "global.10B.countries.kazakhstan.agency",
+        "global.10B.countries.kosovo.agency",
+        "global.10B.countries.latvia.agency",
+        "global.10B.countries.liechtenstein.agency",
+        "global.10B.countries.lithuania.agency",
+        "global.10B.countries.luxembourg.agency",
+        "global.10B.countries.malta.agency",
+        "global.10B.countries.moldova.agency",
+        "global.10B.countries.monaco.agency",
+        "global.10B.countries.montenegro.agency",
+        "global.10B.countries.netherlands.agency",
+        "global.10B.countries.north-macedonia.agency",
+        "global.10B.countries.norway.agency",
+        "global.10B.countries.poland.agency",
+        "global.10B.countries.portugal.agency",
+        "global.10B.countries.romania.agency",
+        "global.10B.countries.san-marino.agency",
+        "global.10B.countries.serbia.agency",
+        "global.10B.countries.slovakia.agency",
+        "global.10B.countries.slovenia.agency",
+        "global.10B.countries.spain.agency",
+        "global.10B.countries.sweden.agency",
+        "global.10B.countries.switzerland.agency",
+        "global.10B.countries.turkey-turkiye.agency",
+        "global.10B.countries.ukraine.agency",
+        "global.10B.countries.united-kingdom.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

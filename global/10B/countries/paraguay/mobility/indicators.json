@@ -1,0 +1,59 @@
+{
+  "country": "Paraguay",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "78,811 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "8,573 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "70,238 km (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "83 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "27 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "3,100 km (2012) (primarily on the Paraguay and Paraná River systems)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "30 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "560,631 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1.97 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.9
+}

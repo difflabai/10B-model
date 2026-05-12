@@ -1,0 +1,56 @@
+{
+  "country": "Kosovo",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.8633,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.89
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.86333,
+    0.5,
+    0.85,
+    0.85,
+    0.56658,
+    0.9248,
+    -0.33886,
+    -0.8544,
+    0.66787,
+    -0.11226,
+    -0.13094,
+    0.71218,
+    0.38479,
+    0.56469,
+    0.78265,
+    0.57263
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

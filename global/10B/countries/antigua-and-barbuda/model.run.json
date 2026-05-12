@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.antigua-and-barbuda",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Antigua and Barbuda"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.antigua-and-barbuda.food",
+        "global.10B.countries.antigua-and-barbuda.water",
+        "global.10B.countries.antigua-and-barbuda.shelter",
+        "global.10B.countries.antigua-and-barbuda.health",
+        "global.10B.countries.antigua-and-barbuda.safety",
+        "global.10B.countries.antigua-and-barbuda.education",
+        "global.10B.countries.antigua-and-barbuda.work",
+        "global.10B.countries.antigua-and-barbuda.energy",
+        "global.10B.countries.antigua-and-barbuda.mobility",
+        "global.10B.countries.antigua-and-barbuda.communications",
+        "global.10B.countries.antigua-and-barbuda.governance",
+        "global.10B.countries.antigua-and-barbuda.environment",
+        "global.10B.countries.antigua-and-barbuda.belonging",
+        "global.10B.countries.antigua-and-barbuda.meaning",
+        "global.10B.countries.antigua-and-barbuda.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

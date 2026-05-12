@@ -1,0 +1,64 @@
+{
+  "country": "Guinea",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "102 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "13.8 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "0 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "34% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "1,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "the number of mobile subscribers grew strongly while revenue also increased steadily; fixed broadband services are still very limited and expensive, though there have been some positive developments in recent years; the landing of the first international submarine cable in 2012, and the setting up of an IXP in mid-2013, increased the bandwidth available to the ISPs, and helped reduce the cost of internet services for end-users; a National Backbone Network was completed in mid-2020, connecting administrative centers across the country; almost all internet connections are made via mobile networks; GSM services account for a dwindling proportion of connections, in line with the greater reach of services based on 3G and LTE (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity is less than 1 per 100 persons; mobile-cellular subscribership is just over 105 per 100 persons (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 224; ACE submarine cable connecting Guinea with 20 landing points in Western and South Africa and Europe; satellite earth station - 1 Intelsat (Atlantic Ocean (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Government maintains control over broadcast media; single state-run TV station; state-run radio broadcast station also operates several stations in rural areas; a dozen private television stations; a steadily increasing number of privately owned radio stations, nearly all in Conakry, and about a dozen community radio stations; foreign TV programming available via satellite and cable subscription services  (2022)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

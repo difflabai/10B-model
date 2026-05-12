@@ -1,0 +1,56 @@
+{
+  "country": "Nigeria",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.61,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.4
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.2
+    }
+  ],
+  "embedding": [
+    0.61,
+    0.83333,
+    0.85,
+    0.75,
+    -0.83011,
+    0.30721,
+    -0.21877,
+    0.57159,
+    -0.01695,
+    0.35598,
+    0.22918,
+    -0.01015,
+    -0.57806,
+    -0.57531,
+    -0.61514,
+    0.64544
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

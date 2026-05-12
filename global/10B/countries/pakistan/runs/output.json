@@ -1,0 +1,47 @@
+{
+  "country": "pakistan",
+  "category_scores": {
+    "agency": 0.6932,
+    "belonging": 0.685,
+    "communications": 0.6183,
+    "education": 0.5637,
+    "energy": 0.611,
+    "environment": 0.4266,
+    "food": 0.5733,
+    "governance": 0.7429,
+    "health": 0.4444,
+    "meaning": 0.69,
+    "mobility": 0.6039,
+    "safety": 0.5833,
+    "shelter": 0.6592,
+    "water": 0.7167,
+    "work": 0.5594
+  },
+  "country_score": 0.6114,
+  "tier_scores": {
+    "subsistence": 0.5954,
+    "development": 0.5913,
+    "agency": 0.6475
+  },
+  "country_embedding": [
+    0.61139,
+    0.89556,
+    0.63697,
+    0.68599,
+    0.06206,
+    0.0953,
+    -0.14283,
+    0.03755,
+    0.01155,
+    0.12058,
+    0.27027,
+    0.05076,
+    0.01197,
+    -0.19022,
+    -0.12873,
+    0.11107
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Pakistan, the three needs areas with the largest gaps are: environment (0.43), health (0.44), work (0.56).\nThe three strongest areas are: governance (0.74), water (0.72), agency (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

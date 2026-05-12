@@ -1,0 +1,39 @@
+{
+  "country": "Slovakia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance-Szovetseg or A-SChristian Union or KÚCivic Conservative Party or OKSDemocratsDirection-Social Democracy or Smer-SSDFor the People or Za LudiFreedom and Solidarity or SaSLife National Party or Život–NS (formerly Christian Democracy - Life and Prosperity - Alliance for Slovkia)New Majority or NOVAOrdinary People and Independent Personalities - New Majority or OLaNO-NOVAPeople's Party Our Slovakia or LSNSProgressive Slovakia or PSRepublicSlovak National Party or SNSVoice - Social Democracy or Hlas-SDWe Are Family or Sme-Rodina (formerly Party of Citizens of Slovakia)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned public broadcaster, Radio and Television of Slovakia (RTVS), operates 2 national TV stations and multiple national and regional radio networks; roughly 50 privately owned TV stations operating nationally, regionally, and locally; about 40% of households are connected to multi-channel cable or satellite TV; 32 privately owned radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Portugal",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.5098,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.2626
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7067
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6978
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.463
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3985
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6002
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.50984,
+    0.8,
+    0.2626,
+    0.7067,
+    0.1982,
+    0.04671,
+    -0.23574,
+    -0.04131,
+    0.6997,
+    -0.47893,
+    -0.59963,
+    -0.25765,
+    -0.41381,
+    0.40368,
+    -0.39745,
+    0.8576
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,342 @@
+{
+  "id": "global.10B.regions.americas",
+  "name": "Americas — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Americas aggregating 38 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 38 country needs profiles for Americas into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Americas countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Americas countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Americas countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Americas countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Americas countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Americas countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Americas countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Americas countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Americas countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Americas countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Americas countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Americas countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Americas countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Americas countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

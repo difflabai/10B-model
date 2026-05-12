@@ -1,0 +1,39 @@
+{
+  "country": "Fiji",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Fiji First Fiji Labor Party or FLP Freedom Alliance (formerly Fiji United Freedom Party or FUFP)National Federation Party or NFP People's Alliance Peoples Democratic Party or PDP Social Democratic Liberal Party or SODELPA Unity Fiji",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Fiji TV, a publicly traded company, operates a free-to-air channel; Digicel Fiji operates the Sky Fiji and Sky Pacific multi-channel pay-TV services; state-owned commercial company, Fiji Broadcasting Corporation, Ltd, operates 6 radio stations - 2 public broadcasters and 4 commercial broadcasters with multiple repeaters; 5 radio stations with repeaters operated by Communications Fiji, Ltd; transmissions of multiple international broadcasters are available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

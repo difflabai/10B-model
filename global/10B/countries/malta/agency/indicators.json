@@ -1,0 +1,39 @@
+{
+  "country": "Malta",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age (16 in local council elections); universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "AD+PD or ADPD (formed from the merger of Democratic Alternative or AD and Democratic Party (Partit Demokratiku) or PD)Labor Party (Partit Laburista) or PL Nationalist Party (Partit Nazzjonalista) or PN",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "92% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 publicly owned TV stations, Television Malta broadcasting nationally plus an educational channel; several privately owned national television stations, 2 of which are owned by political parties; Italian and British broadcast programs are available; multi-channel cable and satellite TV services are available; publicly owned radio broadcaster operates 3 stations; roughly 20 commercial radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

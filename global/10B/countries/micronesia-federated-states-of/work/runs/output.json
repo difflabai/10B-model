@@ -1,0 +1,60 @@
+{
+  "country": "Micronesia, Federated States of",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.5186,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.3312
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.539
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6856
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.51863,
+    0.42857,
+    0.3312,
+    0.539,
+    0.05608,
+    0.98306,
+    0.22399,
+    -0.8197,
+    -0.70327,
+    -0.58608,
+    -0.01775,
+    0.4117,
+    0.34063,
+    -0.53033,
+    -0.10576,
+    0.3778
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

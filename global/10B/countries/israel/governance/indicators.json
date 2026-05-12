@@ -1,0 +1,44 @@
+{
+  "country": "Israel",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law, British Mandate regulations, and Jewish, Christian, and Muslim religious laws",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "no formal constitution; some functions of a constitution are filled by the Declaration of Establishment (1948), the Basic Laws, and the Law of Return (as amended)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; 17 years of age for municipal elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Isaac HERZOG (since 7 July 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; withdrew acceptance of ICCt jurisdiction in 2002",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "BIS, BSEC (observer), CE (observer), CERN, CICA, EBRD, FAO, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OECD, OPCW (signatory), OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, SELEC (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

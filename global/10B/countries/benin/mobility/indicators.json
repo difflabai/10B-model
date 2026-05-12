@@ -1,0 +1,59 @@
+{
+  "country": "Benin",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "16,000 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "10 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "134 km gas",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "150 km (2011) (seasonal navigation on River Niger along northern border)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "438 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "112,392 (2015)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "805,347 (2015) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.7
+}

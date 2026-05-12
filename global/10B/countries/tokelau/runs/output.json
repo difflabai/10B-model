@@ -1,0 +1,47 @@
+{
+  "country": "tokelau",
+  "category_scores": {
+    "agency": 0.6892,
+    "belonging": 0.687,
+    "communications": 0.6881,
+    "education": 0.75,
+    "energy": null,
+    "environment": 0.3,
+    "food": 0.6917,
+    "governance": 0.7083,
+    "health": 0.55,
+    "meaning": 0.7,
+    "mobility": 0.2,
+    "safety": null,
+    "shelter": 0.5667,
+    "water": 0.65,
+    "work": 0.6771
+  },
+  "country_score": 0.6045,
+  "tier_scores": {
+    "subsistence": 0.6146,
+    "development": 0.5788,
+    "agency": 0.6169
+  },
+  "country_embedding": [
+    0.52387,
+    0.42211,
+    0.52901,
+    0.36389,
+    -0.02226,
+    -0.20507,
+    0.14476,
+    -0.14221,
+    -0.07775,
+    -0.07658,
+    -0.03849,
+    -0.24353,
+    -0.03694,
+    -0.16905,
+    0.15033,
+    0.10452
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Tokelau, the three needs areas with the largest gaps are: mobility (0.20), environment (0.30), health (0.55).\nThe three strongest areas are: education (0.75), governance (0.71), meaning (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

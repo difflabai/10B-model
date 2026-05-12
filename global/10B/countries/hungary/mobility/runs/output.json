@@ -1,0 +1,72 @@
+{
+  "country": "Hungary",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.7,
+  "indicators_scored": 7,
+  "indicators_total": 10,
+  "composite_score": 0.641,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.611
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.702
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5711
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5999
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5679
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.6851
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.64098,
+    0.7,
+    0.611,
+    0.702,
+    -0.91177,
+    0.11662,
+    0.07088,
+    0.30108,
+    0.08717,
+    0.92953,
+    -0.49584,
+    -0.34423,
+    -0.29982,
+    0.4974,
+    -0.65454,
+    -0.91809
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

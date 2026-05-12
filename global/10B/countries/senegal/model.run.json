@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.senegal",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Senegal"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.senegal.food",
+        "global.10B.countries.senegal.water",
+        "global.10B.countries.senegal.shelter",
+        "global.10B.countries.senegal.health",
+        "global.10B.countries.senegal.safety",
+        "global.10B.countries.senegal.education",
+        "global.10B.countries.senegal.work",
+        "global.10B.countries.senegal.energy",
+        "global.10B.countries.senegal.mobility",
+        "global.10B.countries.senegal.communications",
+        "global.10B.countries.senegal.governance",
+        "global.10B.countries.senegal.environment",
+        "global.10B.countries.senegal.belonging",
+        "global.10B.countries.senegal.meaning",
+        "global.10B.countries.senegal.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

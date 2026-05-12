@@ -1,0 +1,39 @@
+{
+  "country": "Cuba",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "16 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Cuban Communist Party or PCC",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "73% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government owns and controls all broadcast media: eight national TV channels (Cubavision, Cubavision Plus, Tele Rebelde, Multivision, Educational Channel 1 and 2, Canal Clave, Canal Habana), two international channels (Cubavision Internacional and Canal Caribe), multiple regional TV stations, 7 national radio networks, and multiple regional stations; the Cuban Government beams over the Radio-TV Marti signal; although private ownership of electronic media is prohibited, several online independent news sites exist; those that are not openly critical of the government are often tolerated; the others are blocked by the government; there are no independent TV channels, but several outlets have created strong audiovisual content (El Toque, for example); a community of young Youtubers is also growing, mostly with channels about sports, technology and fashion; Christian denominations are creating original video content to distribute via social media (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

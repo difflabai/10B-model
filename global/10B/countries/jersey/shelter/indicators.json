@@ -1,0 +1,34 @@
+{
+  "country": "Jersey",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "31.2% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "34,000 SAINT HELIER (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "fairly even distribution; no notable trends",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; mild winters and cool summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; mild winters and cool summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

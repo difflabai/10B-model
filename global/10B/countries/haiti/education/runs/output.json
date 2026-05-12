@@ -1,0 +1,52 @@
+{
+  "country": "Haiti",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.519,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.5198
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.256
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.51896,
+    0.8,
+    0.5198,
+    0.256,
+    -0.00932,
+    0.57931,
+    0.12679,
+    -0.89932,
+    0.34691,
+    -0.26677,
+    -0.71209,
+    0.63207,
+    -0.84567,
+    -0.40169,
+    -0.34725,
+    -0.31987
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

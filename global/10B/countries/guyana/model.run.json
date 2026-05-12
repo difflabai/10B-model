@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.guyana",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Guyana"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.guyana.food",
+        "global.10B.countries.guyana.water",
+        "global.10B.countries.guyana.shelter",
+        "global.10B.countries.guyana.health",
+        "global.10B.countries.guyana.safety",
+        "global.10B.countries.guyana.education",
+        "global.10B.countries.guyana.work",
+        "global.10B.countries.guyana.energy",
+        "global.10B.countries.guyana.mobility",
+        "global.10B.countries.guyana.communications",
+        "global.10B.countries.guyana.governance",
+        "global.10B.countries.guyana.environment",
+        "global.10B.countries.guyana.belonging",
+        "global.10B.countries.guyana.meaning",
+        "global.10B.countries.guyana.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

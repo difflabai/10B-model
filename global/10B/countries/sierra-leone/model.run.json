@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.sierra-leone",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sierra Leone"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.sierra-leone.food",
+        "global.10B.countries.sierra-leone.water",
+        "global.10B.countries.sierra-leone.shelter",
+        "global.10B.countries.sierra-leone.health",
+        "global.10B.countries.sierra-leone.safety",
+        "global.10B.countries.sierra-leone.education",
+        "global.10B.countries.sierra-leone.work",
+        "global.10B.countries.sierra-leone.energy",
+        "global.10B.countries.sierra-leone.mobility",
+        "global.10B.countries.sierra-leone.communications",
+        "global.10B.countries.sierra-leone.governance",
+        "global.10B.countries.sierra-leone.environment",
+        "global.10B.countries.sierra-leone.belonging",
+        "global.10B.countries.sierra-leone.meaning",
+        "global.10B.countries.sierra-leone.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.falkland-islands-islas-malvinas.work",
+  "engine": "monte-carlo",
+  "inputs": {
+    "country": {
+      "value": "Falkland Islands (Islas Malvinas)"
+    },
+    "category": {
+      "value": "work"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "monte-carlo",
+      "category": "work"
+    }
+  },
+  "output": "./runs/output.json"
+}

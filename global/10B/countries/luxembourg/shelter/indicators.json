@@ -1,0 +1,34 @@
+{
+  "country": "Luxembourg",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "92.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "120,000 LUXEMBOURG (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most people live in the south, on or near the border with France",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "modified continental with mild winters, cool summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "modified continental with mild winters, cool summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

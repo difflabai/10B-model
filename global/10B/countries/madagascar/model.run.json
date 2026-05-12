@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.madagascar",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Madagascar"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.madagascar.food",
+        "global.10B.countries.madagascar.water",
+        "global.10B.countries.madagascar.shelter",
+        "global.10B.countries.madagascar.health",
+        "global.10B.countries.madagascar.safety",
+        "global.10B.countries.madagascar.education",
+        "global.10B.countries.madagascar.work",
+        "global.10B.countries.madagascar.energy",
+        "global.10B.countries.madagascar.mobility",
+        "global.10B.countries.madagascar.communications",
+        "global.10B.countries.madagascar.governance",
+        "global.10B.countries.madagascar.environment",
+        "global.10B.countries.madagascar.belonging",
+        "global.10B.countries.madagascar.meaning",
+        "global.10B.countries.madagascar.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

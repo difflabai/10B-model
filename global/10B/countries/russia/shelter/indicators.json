@@ -1,0 +1,34 @@
+{
+  "country": "Russia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "75.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "12.680 million MOSCOW (capital), 5.561 million Saint Petersburg, 1.695 million Novosibirsk, 1.528 million Yekaterinburg, 1.292 million Kazan, 1.251 million Nizhniy Novgorod (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population is heavily concentrated in the westernmost fifth of the country extending from the Baltic Sea, south to the Caspian Sea, and eastward parallel to the Kazakh border; elsewhere, sizeable pockets are isolated and generally found in the south",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "ranges from steppes in the south through humid continental in much of European Russia; subarctic in Siberia to tundra climate in the polar north; winters vary from cool along Black Sea coast to frigid in Siberia; summers vary from warm in the steppes to cool along Arctic coast",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "ranges from steppes in the south through humid continental in much of European Russia; subarctic in Siberia to tundra climate in the polar north; winters vary from cool along Black Sea coast to frigid in Siberia; summers vary from warm in the steppes to cool along Arctic coast",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

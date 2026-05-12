@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.water",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "water"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.water",
+        "global.10B.countries.antarctica.water",
+        "global.10B.countries.canada.water",
+        "global.10B.countries.dhekelia.water",
+        "global.10B.countries.france.water",
+        "global.10B.countries.french-southern-and-antarctic-lands.water",
+        "global.10B.countries.greenland.water",
+        "global.10B.countries.heard-island-and-mcdonald-islands.water",
+        "global.10B.countries.russia.water",
+        "global.10B.countries.svalbard.water"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

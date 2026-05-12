@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.education",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "education"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.education",
+        "global.10B.countries.andorra.education",
+        "global.10B.countries.armenia.education",
+        "global.10B.countries.austria.education",
+        "global.10B.countries.azerbaijan.education",
+        "global.10B.countries.belarus.education",
+        "global.10B.countries.belgium.education",
+        "global.10B.countries.bosnia-and-herzegovina.education",
+        "global.10B.countries.bulgaria.education",
+        "global.10B.countries.croatia.education",
+        "global.10B.countries.cyprus.education",
+        "global.10B.countries.czechia.education",
+        "global.10B.countries.denmark.education",
+        "global.10B.countries.estonia.education",
+        "global.10B.countries.faroe-islands.education",
+        "global.10B.countries.finland.education",
+        "global.10B.countries.georgia.education",
+        "global.10B.countries.germany.education",
+        "global.10B.countries.gibraltar.education",
+        "global.10B.countries.greece.education",
+        "global.10B.countries.guernsey.education",
+        "global.10B.countries.holy-see-vatican-city.education",
+        "global.10B.countries.hungary.education",
+        "global.10B.countries.iceland.education",
+        "global.10B.countries.ireland.education",
+        "global.10B.countries.isle-of-man.education",
+        "global.10B.countries.italy.education",
+        "global.10B.countries.jan-mayen.education",
+        "global.10B.countries.jersey.education",
+        "global.10B.countries.kazakhstan.education",
+        "global.10B.countries.kosovo.education",
+        "global.10B.countries.latvia.education",
+        "global.10B.countries.liechtenstein.education",
+        "global.10B.countries.lithuania.education",
+        "global.10B.countries.luxembourg.education",
+        "global.10B.countries.malta.education",
+        "global.10B.countries.moldova.education",
+        "global.10B.countries.monaco.education",
+        "global.10B.countries.montenegro.education",
+        "global.10B.countries.netherlands.education",
+        "global.10B.countries.north-macedonia.education",
+        "global.10B.countries.norway.education",
+        "global.10B.countries.poland.education",
+        "global.10B.countries.portugal.education",
+        "global.10B.countries.romania.education",
+        "global.10B.countries.san-marino.education",
+        "global.10B.countries.serbia.education",
+        "global.10B.countries.slovakia.education",
+        "global.10B.countries.slovenia.education",
+        "global.10B.countries.spain.education",
+        "global.10B.countries.sweden.education",
+        "global.10B.countries.switzerland.education",
+        "global.10B.countries.turkey-turkiye.education",
+        "global.10B.countries.ukraine.education",
+        "global.10B.countries.united-kingdom.education"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

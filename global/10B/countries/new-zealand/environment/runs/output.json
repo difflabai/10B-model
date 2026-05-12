@@ -1,0 +1,60 @@
+{
+  "country": "New Zealand",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.5677,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.8598
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.664
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.56768,
+    1.0,
+    0.4,
+    0.85,
+    -0.1512,
+    0.57424,
+    -0.35256,
+    0.4576,
+    0.38167,
+    -0.20079,
+    0.38943,
+    -0.26824,
+    0.38183,
+    -0.49447,
+    -0.16844,
+    0.75537
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

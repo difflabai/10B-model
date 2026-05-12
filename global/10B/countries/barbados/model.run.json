@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.barbados",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Barbados"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.barbados.food",
+        "global.10B.countries.barbados.water",
+        "global.10B.countries.barbados.shelter",
+        "global.10B.countries.barbados.health",
+        "global.10B.countries.barbados.safety",
+        "global.10B.countries.barbados.education",
+        "global.10B.countries.barbados.work",
+        "global.10B.countries.barbados.energy",
+        "global.10B.countries.barbados.mobility",
+        "global.10B.countries.barbados.communications",
+        "global.10B.countries.barbados.governance",
+        "global.10B.countries.barbados.environment",
+        "global.10B.countries.barbados.belonging",
+        "global.10B.countries.barbados.meaning",
+        "global.10B.countries.barbados.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

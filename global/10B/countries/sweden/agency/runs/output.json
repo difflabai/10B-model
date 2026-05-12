@@ -1,0 +1,56 @@
+{
+  "country": "Sweden",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8804,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.902
+    }
+  ],
+  "embedding": [
+    0.8804,
+    0.83333,
+    0.85,
+    0.85,
+    0.45147,
+    -0.55108,
+    0.21068,
+    0.53985,
+    -0.6347,
+    -0.89596,
+    -0.62783,
+    0.58209,
+    0.67956,
+    0.73297,
+    0.30477,
+    -0.01564
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Sri Lanka",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "92.3%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.9% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "14 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Sinhala (official) 87%, Tamil (official) 28.5%, English 23.8% (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

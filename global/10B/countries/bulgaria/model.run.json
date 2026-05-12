@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.bulgaria",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Bulgaria"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.bulgaria.food",
+        "global.10B.countries.bulgaria.water",
+        "global.10B.countries.bulgaria.shelter",
+        "global.10B.countries.bulgaria.health",
+        "global.10B.countries.bulgaria.safety",
+        "global.10B.countries.bulgaria.education",
+        "global.10B.countries.bulgaria.work",
+        "global.10B.countries.bulgaria.energy",
+        "global.10B.countries.bulgaria.mobility",
+        "global.10B.countries.bulgaria.communications",
+        "global.10B.countries.bulgaria.governance",
+        "global.10B.countries.bulgaria.environment",
+        "global.10B.countries.bulgaria.belonging",
+        "global.10B.countries.bulgaria.meaning",
+        "global.10B.countries.bulgaria.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Greenland",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democrats Party (Demokraatit) or D Fellowship Party (Atassut) or A Forward Party (Siumut) or S Inuit Community (Inuit Ataqatigiit) or IA Signpost Party (Naleraq) or N (formerly Partii Naleraq)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "69% (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Greenland Broadcasting Company provides public radio and TV services throughout the island with a broadcast station and a series of repeaters; a few private local TV and radio stations; Danish public radio rebroadcasts are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "10.2% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

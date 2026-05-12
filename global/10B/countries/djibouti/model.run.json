@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.djibouti",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Djibouti"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.djibouti.food",
+        "global.10B.countries.djibouti.water",
+        "global.10B.countries.djibouti.shelter",
+        "global.10B.countries.djibouti.health",
+        "global.10B.countries.djibouti.safety",
+        "global.10B.countries.djibouti.education",
+        "global.10B.countries.djibouti.work",
+        "global.10B.countries.djibouti.energy",
+        "global.10B.countries.djibouti.mobility",
+        "global.10B.countries.djibouti.communications",
+        "global.10B.countries.djibouti.governance",
+        "global.10B.countries.djibouti.environment",
+        "global.10B.countries.djibouti.belonging",
+        "global.10B.countries.djibouti.meaning",
+        "global.10B.countries.djibouti.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

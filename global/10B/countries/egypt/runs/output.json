@@ -1,0 +1,47 @@
+{
+  "country": "egypt",
+  "category_scores": {
+    "agency": 0.7369,
+    "belonging": 0.6888,
+    "communications": 0.682,
+    "education": 0.6526,
+    "energy": 0.5163,
+    "environment": 0.4091,
+    "food": 0.563,
+    "governance": 0.7571,
+    "health": 0.6012,
+    "meaning": 0.63,
+    "mobility": 0.5775,
+    "safety": 0.5944,
+    "shelter": 0.6651,
+    "water": 0.65,
+    "work": 0.5971
+  },
+  "country_score": 0.6214,
+  "tier_scores": {
+    "subsistence": 0.6147,
+    "development": 0.6051,
+    "agency": 0.6444
+  },
+  "country_embedding": [
+    0.62141,
+    0.88462,
+    0.67695,
+    0.638,
+    -0.31161,
+    -0.00126,
+    -0.19371,
+    -0.14446,
+    0.00145,
+    -0.01491,
+    -0.09601,
+    -0.01925,
+    0.05869,
+    -0.12821,
+    -0.00635,
+    0.07906
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Egypt, the three needs areas with the largest gaps are: environment (0.41), energy (0.52), food (0.56).\nThe three strongest areas are: governance (0.76), agency (0.74), belonging (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

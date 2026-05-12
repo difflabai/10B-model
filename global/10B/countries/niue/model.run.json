@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.niue",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Niue"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.niue.food",
+        "global.10B.countries.niue.water",
+        "global.10B.countries.niue.shelter",
+        "global.10B.countries.niue.health",
+        "global.10B.countries.niue.safety",
+        "global.10B.countries.niue.education",
+        "global.10B.countries.niue.work",
+        "global.10B.countries.niue.energy",
+        "global.10B.countries.niue.mobility",
+        "global.10B.countries.niue.communications",
+        "global.10B.countries.niue.governance",
+        "global.10B.countries.niue.environment",
+        "global.10B.countries.niue.belonging",
+        "global.10B.countries.niue.meaning",
+        "global.10B.countries.niue.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

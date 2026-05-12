@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.seychelles",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Seychelles"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.seychelles.food",
+        "global.10B.countries.seychelles.water",
+        "global.10B.countries.seychelles.shelter",
+        "global.10B.countries.seychelles.health",
+        "global.10B.countries.seychelles.safety",
+        "global.10B.countries.seychelles.education",
+        "global.10B.countries.seychelles.work",
+        "global.10B.countries.seychelles.energy",
+        "global.10B.countries.seychelles.mobility",
+        "global.10B.countries.seychelles.communications",
+        "global.10B.countries.seychelles.governance",
+        "global.10B.countries.seychelles.environment",
+        "global.10B.countries.seychelles.belonging",
+        "global.10B.countries.seychelles.meaning",
+        "global.10B.countries.seychelles.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

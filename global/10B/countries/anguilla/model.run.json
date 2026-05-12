@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.anguilla",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Anguilla"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.anguilla.food",
+        "global.10B.countries.anguilla.water",
+        "global.10B.countries.anguilla.shelter",
+        "global.10B.countries.anguilla.health",
+        "global.10B.countries.anguilla.safety",
+        "global.10B.countries.anguilla.education",
+        "global.10B.countries.anguilla.work",
+        "global.10B.countries.anguilla.energy",
+        "global.10B.countries.anguilla.mobility",
+        "global.10B.countries.anguilla.communications",
+        "global.10B.countries.anguilla.governance",
+        "global.10B.countries.anguilla.environment",
+        "global.10B.countries.anguilla.belonging",
+        "global.10B.countries.anguilla.meaning",
+        "global.10B.countries.anguilla.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.serbia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Serbia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.serbia.food",
+        "global.10B.countries.serbia.water",
+        "global.10B.countries.serbia.shelter",
+        "global.10B.countries.serbia.health",
+        "global.10B.countries.serbia.safety",
+        "global.10B.countries.serbia.education",
+        "global.10B.countries.serbia.work",
+        "global.10B.countries.serbia.energy",
+        "global.10B.countries.serbia.mobility",
+        "global.10B.countries.serbia.communications",
+        "global.10B.countries.serbia.governance",
+        "global.10B.countries.serbia.environment",
+        "global.10B.countries.serbia.belonging",
+        "global.10B.countries.serbia.meaning",
+        "global.10B.countries.serbia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

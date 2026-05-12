@@ -1,0 +1,60 @@
+{
+  "country": "Costa Rica",
+  "category": "environment",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.573,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Environment - current issues",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Environment - international agreements - party to",
+      "score": 0.85
+    },
+    {
+      "field": "Environment: Air pollutants - particulate matter emissions",
+      "score": 0.7075
+    },
+    {
+      "field": "Environment: Air pollutants - carbon dioxide emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Air pollutants - methane emissions",
+      "score": 0.4
+    },
+    {
+      "field": "Environment: Land use - forest",
+      "score": 0.8538
+    },
+    {
+      "field": "Environment: Waste and recycling - municipal solid waste generated annually",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.57304,
+    1.0,
+    0.4,
+    0.85,
+    -0.20665,
+    0.79181,
+    -0.78521,
+    0.07402,
+    -0.19426,
+    -0.42327,
+    0.2253,
+    0.21346,
+    0.08003,
+    0.03462,
+    -0.52517,
+    0.64123
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

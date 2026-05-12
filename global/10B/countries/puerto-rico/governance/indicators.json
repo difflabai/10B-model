@@ -1,0 +1,44 @@
+{
+  "country": "Puerto Rico",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches; note - reference Puerto Rican Federal Relations Act, 2 March 1917, as amended by Public Law 600, 3 July 1950",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the Spanish civil code and within the framework of the US federal system",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1900 (Organic Act, or Foraker Act); latest ratified by referendum 3 March 1952, approved 3 July 1952, effective 25 July 1952",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; note - island residents are US citizens but do not vote in US presidential elections",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph R. BIDEN Jr. (since 20 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AOSIS (observer), Caricom (observer), Interpol (subbureau), IOC, UNWTO (associate), UPU, WFTU (NGOs)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

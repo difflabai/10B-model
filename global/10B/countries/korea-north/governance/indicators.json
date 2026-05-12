@@ -1,0 +1,44 @@
+{
+  "country": "Korea, North",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "dictatorship, single-party communist state",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the Prussian model; system influenced by Japanese traditions and Communist legal theory",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1948, 1972; latest adopted 1998 (during KIM Jong-il era)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal and compulsory",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "State Affairs Commission President KIM Jong Un (since 17 December 2011)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ARF, FAO, G-77, ICAO, ICRM, IFAD, IFRCS, IHO, IMO, IMSO, IOC, IPU, ISO, ITSO, ITU, NAM, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WFTU (NGOs), WHO, WIPO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

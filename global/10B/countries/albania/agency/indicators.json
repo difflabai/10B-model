@@ -1,0 +1,39 @@
+{
+  "country": "Albania",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Change (electoral coalition led by PD)Democratic Party or PD Party for Justice, Integration and Unity or PDIU (part of the Alliance for Change)Social Democratic Party or PSDFreedom Party of Albania or PL (formerly the Socialist Movement for Integration or LSI)Socialist Party or PS",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "83% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Albania has more than 65 TV stations, including several that broadcast nationally; Albanian TV broadcasts are also available to Albanian-speaking populations in neighboring countries; many viewers have access to Italian and Greek TV broadcasts via terrestrial reception; Albania's TV stations have begun a government-mandated conversion from analog to digital broadcast; the government has pledged to provide analog-to-digital converters to low-income families affected by this decision; cable TV service is available; 2 public radio networks and roughly 78 private radio stations; several international broadcasters are available (2024)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

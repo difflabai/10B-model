@@ -1,0 +1,34 @@
+{
+  "country": "Fiji",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "58.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "178,000 SUVA (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "approximately 70% of the population lives on the island of Viti Levu; roughly half of the population lives in urban areas",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine; only slight seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine; only slight seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

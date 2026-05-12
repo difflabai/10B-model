@@ -1,0 +1,34 @@
+{
+  "country": "Tokelau",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Tokelauan 88.1% (a Polynesian language), English 48.6%, Samoan 26.7%, Tuvaluan 11.2%, Kiribati 1.5%, other 2.8%, none 2.8%, unspecified 0.8% (2016 ests.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.2
+}

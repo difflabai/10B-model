@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.ghana",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Ghana"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.ghana.food",
+        "global.10B.countries.ghana.water",
+        "global.10B.countries.ghana.shelter",
+        "global.10B.countries.ghana.health",
+        "global.10B.countries.ghana.safety",
+        "global.10B.countries.ghana.education",
+        "global.10B.countries.ghana.work",
+        "global.10B.countries.ghana.energy",
+        "global.10B.countries.ghana.mobility",
+        "global.10B.countries.ghana.communications",
+        "global.10B.countries.ghana.governance",
+        "global.10B.countries.ghana.environment",
+        "global.10B.countries.ghana.belonging",
+        "global.10B.countries.ghana.meaning",
+        "global.10B.countries.ghana.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

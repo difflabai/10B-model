@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.sweden",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Sweden"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.sweden.food",
+        "global.10B.countries.sweden.water",
+        "global.10B.countries.sweden.shelter",
+        "global.10B.countries.sweden.health",
+        "global.10B.countries.sweden.safety",
+        "global.10B.countries.sweden.education",
+        "global.10B.countries.sweden.work",
+        "global.10B.countries.sweden.energy",
+        "global.10B.countries.sweden.mobility",
+        "global.10B.countries.sweden.communications",
+        "global.10B.countries.sweden.governance",
+        "global.10B.countries.sweden.environment",
+        "global.10B.countries.sweden.belonging",
+        "global.10B.countries.sweden.meaning",
+        "global.10B.countries.sweden.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

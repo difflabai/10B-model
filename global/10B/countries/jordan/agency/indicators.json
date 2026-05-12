@@ -1,0 +1,39 @@
+{
+  "country": "Jordan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "'AzemBlessed Land PartyBuilding and Labor CoalitionEradah Party Growth PartyIslamic Action Front or IAFJordanian al-Ansar PartyJordanian al-Ghad PartyJordanian Arab Socialist Ba'ath Party or JASBP Jordanian Civil Democratic PartyJordanian Communist Party or JCPJordanian Equality PartyJordanian Democratic People's Party or HASDJordanian Democratic Popular Unity Party or JDPUP/WihdaJordanian Democratic Unionist PartyJordanian Flame PartyJordanian Future and Life PartyJordanian Model PartyJordanian National Integration PartyJordanian National Loyalty PartyJordanian Reform and Renewal Party or HassadJordanian Shura Party Jordanian Social Democratic Party or JSDPJustice and Reform Party or JRP Labor PartyNational Charter PartyNational Coalition Party National Constitutional PartyNational Current Party or NCPNational Islamic PartyNational UnionNationalist Movement Party or HsqNew Path Party Progress Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "90% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "radio and TV dominated by the government-owned Jordan Radio and Television Corporation (JRTV) that operates a main network, a sports network, a film network, and a satellite channel; first independent TV broadcaster aired in 2007; international satellite TV and Israeli and Syrian TV broadcasts are available; roughly 30 radio stations with JRTV operating the main government-owned station; transmissions of multiple international radio broadcasters are available",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

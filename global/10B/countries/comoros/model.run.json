@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.comoros",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Comoros"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.comoros.food",
+        "global.10B.countries.comoros.water",
+        "global.10B.countries.comoros.shelter",
+        "global.10B.countries.comoros.health",
+        "global.10B.countries.comoros.safety",
+        "global.10B.countries.comoros.education",
+        "global.10B.countries.comoros.work",
+        "global.10B.countries.comoros.energy",
+        "global.10B.countries.comoros.mobility",
+        "global.10B.countries.comoros.communications",
+        "global.10B.countries.comoros.governance",
+        "global.10B.countries.comoros.environment",
+        "global.10B.countries.comoros.belonging",
+        "global.10B.countries.comoros.meaning",
+        "global.10B.countries.comoros.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

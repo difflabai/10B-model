@@ -1,0 +1,59 @@
+{
+  "country": "Vietnam",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "195,468 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "148,338 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "47,130 km (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "42 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "25 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "72 km condensate, 398 km condensate/gas, 955 km gas, 128 km oil, 33 km oil/gas/water, 206 km refined products, 13 km water (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "47,130 km (2011) (30,831 km weight under 50 tons)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "2,600 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "47,049,671 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "481.37 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

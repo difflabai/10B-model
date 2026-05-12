@@ -1,0 +1,39 @@
+{
+  "country": "Uzbekistan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of Uzbekistan: Army, Air and Air Defense Forces; National Guard Ministry of Internal Affairs: Internal Security Troops, Border Guards, police (2023)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.8% of GDP (2019 est.)2.9% of GDP (2018 est.)2.7% of GDP (2017 est.)2.5% of GDP (2016 est.)2.5% of GDP (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "13,031 (Afghanistan) (mid-year 2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

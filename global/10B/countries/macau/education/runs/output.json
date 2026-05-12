@@ -1,0 +1,52 @@
+{
+  "country": "Macau",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8266,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9352
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.848
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.82664,
+    1.0,
+    0.9352,
+    0.848,
+    -0.44668,
+    0.61181,
+    -0.74969,
+    0.69613,
+    0.60085,
+    0.24111,
+    -0.74624,
+    0.9014,
+    0.79809,
+    0.03331,
+    0.55541,
+    0.31383
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

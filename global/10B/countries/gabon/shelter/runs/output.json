@@ -1,0 +1,52 @@
+{
+  "country": "Gabon",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6165,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.616
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.6165,
+    1.0,
+    0.616,
+    0.55,
+    0.04094,
+    0.81118,
+    0.38305,
+    0.00539,
+    -0.8949,
+    -0.29656,
+    -0.65686,
+    -0.22161,
+    -0.23339,
+    0.35702,
+    -0.53811,
+    0.4678
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

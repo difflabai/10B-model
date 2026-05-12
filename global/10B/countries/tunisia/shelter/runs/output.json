@@ -1,0 +1,52 @@
+{
+  "country": "Tunisia",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.662,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.698
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.75
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.662,
+    1.0,
+    0.698,
+    0.55,
+    -0.28844,
+    -0.83319,
+    -0.08727,
+    -0.85284,
+    0.11791,
+    -0.1581,
+    0.19817,
+    -0.34957,
+    -0.31279,
+    -0.86197,
+    -0.87622,
+    0.20375
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

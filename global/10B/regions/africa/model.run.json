@@ -1,0 +1,76 @@
+{
+  "modelId": "global.10B.regions.africa",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "africa"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.algeria",
+        "global.10B.countries.angola",
+        "global.10B.countries.benin",
+        "global.10B.countries.botswana",
+        "global.10B.countries.bouvet-island",
+        "global.10B.countries.british-indian-ocean-territory",
+        "global.10B.countries.burkina-faso",
+        "global.10B.countries.burundi",
+        "global.10B.countries.cabo-verde",
+        "global.10B.countries.cameroon",
+        "global.10B.countries.central-african-republic",
+        "global.10B.countries.chad",
+        "global.10B.countries.comoros",
+        "global.10B.countries.congo-democratic-republic-of-the",
+        "global.10B.countries.congo-republic-of-the",
+        "global.10B.countries.djibouti",
+        "global.10B.countries.egypt",
+        "global.10B.countries.equatorial-guinea",
+        "global.10B.countries.eritrea",
+        "global.10B.countries.eswatini",
+        "global.10B.countries.ethiopia",
+        "global.10B.countries.gabon",
+        "global.10B.countries.gambia-the",
+        "global.10B.countries.ghana",
+        "global.10B.countries.guinea",
+        "global.10B.countries.guinea-bissau",
+        "global.10B.countries.kenya",
+        "global.10B.countries.lesotho",
+        "global.10B.countries.liberia",
+        "global.10B.countries.libya",
+        "global.10B.countries.madagascar",
+        "global.10B.countries.malawi",
+        "global.10B.countries.mali",
+        "global.10B.countries.mauritania",
+        "global.10B.countries.mauritius",
+        "global.10B.countries.morocco",
+        "global.10B.countries.mozambique",
+        "global.10B.countries.namibia",
+        "global.10B.countries.niger",
+        "global.10B.countries.nigeria",
+        "global.10B.countries.rwanda",
+        "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha",
+        "global.10B.countries.sao-tome-and-principe",
+        "global.10B.countries.senegal",
+        "global.10B.countries.seychelles",
+        "global.10B.countries.sierra-leone",
+        "global.10B.countries.somalia",
+        "global.10B.countries.south-africa",
+        "global.10B.countries.south-sudan",
+        "global.10B.countries.sudan",
+        "global.10B.countries.tanzania",
+        "global.10B.countries.togo",
+        "global.10B.countries.tunisia",
+        "global.10B.countries.uganda",
+        "global.10B.countries.zambia",
+        "global.10B.countries.zimbabwe"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

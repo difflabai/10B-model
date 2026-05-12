@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.wallis-and-futuna",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Wallis and Futuna"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.wallis-and-futuna.food",
+        "global.10B.countries.wallis-and-futuna.water",
+        "global.10B.countries.wallis-and-futuna.shelter",
+        "global.10B.countries.wallis-and-futuna.health",
+        "global.10B.countries.wallis-and-futuna.safety",
+        "global.10B.countries.wallis-and-futuna.education",
+        "global.10B.countries.wallis-and-futuna.work",
+        "global.10B.countries.wallis-and-futuna.energy",
+        "global.10B.countries.wallis-and-futuna.mobility",
+        "global.10B.countries.wallis-and-futuna.communications",
+        "global.10B.countries.wallis-and-futuna.governance",
+        "global.10B.countries.wallis-and-futuna.environment",
+        "global.10B.countries.wallis-and-futuna.belonging",
+        "global.10B.countries.wallis-and-futuna.meaning",
+        "global.10B.countries.wallis-and-futuna.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

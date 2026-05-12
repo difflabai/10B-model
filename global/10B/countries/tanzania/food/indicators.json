@@ -1,0 +1,34 @@
+{
+  "country": "Tanzania",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": "due to localized shortfalls in staple food production - about 592,000 people are estimated to be in need of humanitarian assistance between May and September 2022, mainly located in northeastern regions, reflecting crop losses during the October–December “Vuli” 2021 and March–May “Masika” 2022 seasons due to poor rains; high food prices are also constraining households’ economic access to food (2022)",
+      "present": true
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "maize, cassava, sweet potatoes, bananas, milk, sugarcane, rice, vegetables, beans, sunflower seeds (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "43.7% (2018 est.)agricultural land: arable land: 14.3% (2018 est.)agricultural land: permanent crops: 2.3% (2018 est.)agricultural land: permanent pasture: 27.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "23.7% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "67,462,121",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,52 @@
+{
+  "country": "San Marino",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.6,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": null
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6,
+    0.8,
+    0.6,
+    0.55,
+    0.7702,
+    -0.06151,
+    0.43331,
+    0.93997,
+    -0.7637,
+    0.95035,
+    -0.08363,
+    0.90039,
+    -0.41039,
+    0.30553,
+    -0.35805,
+    -0.57955
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

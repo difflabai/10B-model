@@ -1,0 +1,34 @@
+{
+  "country": "Christmas Island",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "majority of the population lives on the northern tip of the island",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical with a wet season (December to April) and dry season; heat and humidity moderated by trade winds",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical with a wet season (December to April) and dry season; heat and humidity moderated by trade winds",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

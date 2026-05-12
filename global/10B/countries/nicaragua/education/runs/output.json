@@ -1,0 +1,52 @@
+{
+  "country": "Nicaragua",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7128,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7637
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.71279,
+    0.8,
+    0.7637,
+    0.6875,
+    0.29454,
+    -0.33266,
+    0.52093,
+    -0.35735,
+    -0.75015,
+    0.82626,
+    0.03346,
+    0.30809,
+    -0.59445,
+    -0.98471,
+    -0.04768,
+    -0.03798
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

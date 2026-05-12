@@ -1,0 +1,47 @@
+{
+  "country": "austria",
+  "category_scores": {
+    "agency": 0.83,
+    "belonging": 0.695,
+    "communications": 0.7389,
+    "education": 0.7812,
+    "energy": 0.6522,
+    "environment": 0.5799,
+    "food": 0.6806,
+    "governance": 0.7429,
+    "health": 0.8259,
+    "meaning": 0.67,
+    "mobility": 0.5594,
+    "safety": 0.5944,
+    "shelter": 0.6787,
+    "water": 0.7167,
+    "work": 0.6989
+  },
+  "country_score": 0.6963,
+  "tier_scores": {
+    "subsistence": 0.6993,
+    "development": 0.6861,
+    "agency": 0.7036
+  },
+  "country_embedding": [
+    0.69632,
+    0.84239,
+    0.7541,
+    0.67839,
+    -0.15879,
+    -0.00591,
+    -0.12481,
+    -0.08722,
+    0.12865,
+    0.0153,
+    0.10887,
+    0.06972,
+    -0.13912,
+    0.03414,
+    -0.21042,
+    -0.0047
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Austria, the three needs areas with the largest gaps are: mobility (0.56), environment (0.58), safety (0.59).\nThe three strongest areas are: agency (0.83), health (0.83), education (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

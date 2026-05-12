@@ -1,0 +1,60 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.6454,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6908
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.671
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6611
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.5374
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.662
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.64539,
+    0.85714,
+    0.6908,
+    0.671,
+    -0.80331,
+    -0.58227,
+    0.68835,
+    -0.3052,
+    -0.77435,
+    0.17269,
+    -0.39199,
+    0.37133,
+    0.36376,
+    0.57971,
+    0.84338,
+    0.76703
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

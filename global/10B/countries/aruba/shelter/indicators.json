@@ -1,0 +1,34 @@
+{
+  "country": "Aruba",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "44.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "30,000 ORANJESTAD (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most residents live in or around Oranjestad and San Nicolaas; most settlements tend to be located on the less mountainous western side of the island",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical marine; little seasonal temperature variation",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical marine; little seasonal temperature variation",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

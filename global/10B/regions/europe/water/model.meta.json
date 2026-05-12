@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.water",
+  "name": "Europe — Water and sanitation",
+  "kind": "sector_economic",
+  "blurb": "Region-level water and sanitation for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country water models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "water-country-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "water-region-mean",
+      "kind": "scalar",
+      "description": "Mean water score across the region."
+    },
+    {
+      "name": "water-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Water and sanitation"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.water",
+      "kind": "consumes_from",
+      "note": "Country-level water for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.water",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.antigua-and-barbuda.food",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Antigua and Barbuda"
+    },
+    "category": {
+      "value": "food"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "food"
+    }
+  },
+  "output": "./runs/output.json"
+}

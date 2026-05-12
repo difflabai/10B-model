@@ -1,0 +1,72 @@
+{
+  "country": "Tunisia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.4625,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.3918
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.381
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4611
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.5316
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3769
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.52
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.4625,
+    0.9,
+    0.3918,
+    0.381,
+    0.73852,
+    -0.24935,
+    0.23207,
+    -0.85904,
+    -0.71856,
+    0.03114,
+    -0.62426,
+    0.33303,
+    -0.53579,
+    -0.10484,
+    0.13127,
+    -0.93799
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

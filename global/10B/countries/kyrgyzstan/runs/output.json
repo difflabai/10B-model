@@ -1,0 +1,47 @@
+{
+  "country": "kyrgyzstan",
+  "category_scores": {
+    "agency": 0.8184,
+    "belonging": 0.6882,
+    "communications": 0.6659,
+    "education": 0.8014,
+    "energy": 0.7495,
+    "environment": 0.4317,
+    "food": 0.6997,
+    "governance": 0.7571,
+    "health": 0.6179,
+    "meaning": 0.63,
+    "mobility": 0.4713,
+    "safety": 0.725,
+    "shelter": 0.6588,
+    "water": 0.725,
+    "work": 0.6562
+  },
+  "country_score": 0.6731,
+  "tier_scores": {
+    "subsistence": 0.6853,
+    "development": 0.6689,
+    "agency": 0.6651
+  },
+  "country_embedding": [
+    0.67308,
+    0.86171,
+    0.69166,
+    0.71091,
+    -0.05244,
+    0.10245,
+    0.06883,
+    0.27975,
+    0.23118,
+    0.09529,
+    0.11388,
+    0.17483,
+    0.01432,
+    -0.01777,
+    0.04737,
+    0.27847
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Kyrgyzstan, the three needs areas with the largest gaps are: environment (0.43), mobility (0.47), health (0.62).\nThe three strongest areas are: agency (0.82), education (0.80), governance (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

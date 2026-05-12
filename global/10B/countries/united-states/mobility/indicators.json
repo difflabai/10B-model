@@ -1,0 +1,59 @@
+{
+  "country": "United States",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "6,586,610 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "4,304,715 km (includes 76,334 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "2,281,895 km (2012)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "15,873 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "7,914 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "1,984,321 km natural gas, 240,711 km petroleum products (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "41,009 km (2012) (19,312 km used for commerce; Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, is shared with Canada)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "293,564.2 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "889.022 million (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "42,985,300,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

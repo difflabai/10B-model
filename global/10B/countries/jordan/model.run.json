@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.jordan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Jordan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.jordan.food",
+        "global.10B.countries.jordan.water",
+        "global.10B.countries.jordan.shelter",
+        "global.10B.countries.jordan.health",
+        "global.10B.countries.jordan.safety",
+        "global.10B.countries.jordan.education",
+        "global.10B.countries.jordan.work",
+        "global.10B.countries.jordan.energy",
+        "global.10B.countries.jordan.mobility",
+        "global.10B.countries.jordan.communications",
+        "global.10B.countries.jordan.governance",
+        "global.10B.countries.jordan.environment",
+        "global.10B.countries.jordan.belonging",
+        "global.10B.countries.jordan.meaning",
+        "global.10B.countries.jordan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

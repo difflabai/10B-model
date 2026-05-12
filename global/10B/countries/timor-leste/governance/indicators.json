@@ -1,0 +1,44 @@
+{
+  "country": "Timor-Leste",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the Portuguese model; note - penal and civil law codes to replace the Indonesian codes were passed by Parliament and promulgated in 2009 and 2011, respectively",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "drafted 2001, approved 22 March 2002, entered into force 20 May 2002",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "17 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President José RAMOS-HORTA (since 20 May 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ADB, AOSIS, ARF, ASEAN (observer), CPLP, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITU, MIGA, NAM, OPCW, PIF (observer), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WHO, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

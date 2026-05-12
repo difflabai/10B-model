@@ -1,0 +1,72 @@
+{
+  "country": "Italy",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.6407,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.6192
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.8191
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6344
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.6398
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.663
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.64071,
+    0.8,
+    0.6192,
+    0.8191,
+    0.73654,
+    0.56194,
+    -0.89807,
+    -0.83294,
+    -0.28923,
+    -0.30867,
+    -0.88952,
+    -0.75143,
+    -0.15297,
+    0.94018,
+    -0.58312,
+    0.48367
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

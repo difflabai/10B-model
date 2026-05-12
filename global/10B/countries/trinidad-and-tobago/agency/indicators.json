@@ -1,0 +1,39 @@
+{
+  "country": "Trinidad and Tobago",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "People's National Movement or PNMUnited National Congress or UNCTobago People’s Party or Tobago",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "80% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "6 free-to-air TV networks, 2 of which are state-owned; 24 subscription providers (cable and satellite); over 36 radio frequencies (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

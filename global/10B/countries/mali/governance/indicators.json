@@ -1,0 +1,44 @@
+{
+  "country": "Mali",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "semi-presidential republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "civil law system based on the French civil law model and influenced by customary law; judicial review of legislative acts in the Constitutional Court",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest drafted 13 October 2022 and submitted to Transition President Assimi GOITA; final draft completed 1 March 2023; referendum held on 18 June 2023 and approved; referendum results validated by Constitutional Court on 22 July 2023; note - the new constitution includes provisions for the extension of presidential and military powers and the creation of a \"senate\"",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Transition President Assimi GOITA (since 7 June 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, AfDB, AU (suspended), CD, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSCA, MONUSCO, NAM, OIC, OPCW, UN, UNCTAD, UNDP, UNESCO, UNFPA, UNHCR, UNIDO, UNOPS, UN Women, UNWTO, UPU, WADB (regional), WAEMU, World Bank Group, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

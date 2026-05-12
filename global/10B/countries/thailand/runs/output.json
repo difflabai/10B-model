@@ -1,0 +1,47 @@
+{
+  "country": "thailand",
+  "category_scores": {
+    "agency": 0.7916,
+    "belonging": 0.6944,
+    "communications": 0.7067,
+    "education": 0.7289,
+    "energy": 0.6063,
+    "environment": 0.5182,
+    "food": 0.7189,
+    "governance": 0.7429,
+    "health": 0.7339,
+    "meaning": 0.67,
+    "mobility": 0.669,
+    "safety": 0.6078,
+    "shelter": 0.7238,
+    "water": 0.675,
+    "work": 0.7757
+  },
+  "country_score": 0.6909,
+  "tier_scores": {
+    "subsistence": 0.6919,
+    "development": 0.6973,
+    "agency": 0.6834
+  },
+  "country_embedding": [
+    0.69087,
+    0.87709,
+    0.74265,
+    0.70289,
+    0.09906,
+    -0.11915,
+    0.01591,
+    0.22682,
+    0.00234,
+    0.18177,
+    0.20215,
+    -0.00483,
+    0.01265,
+    0.1529,
+    -0.10249,
+    -0.17371
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Thailand, the three needs areas with the largest gaps are: environment (0.52), energy (0.61), safety (0.61).\nThe three strongest areas are: agency (0.79), work (0.78), governance (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

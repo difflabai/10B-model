@@ -1,0 +1,402 @@
+{
+  "id": "global.10B.countries.israel",
+  "name": "Israel — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Country-level rollup for **Israel** spanning all 15 needs categories, feeding the global.10B macro-space model. Average indicator coverage: 83%.",
+  "mechanism": "Aggregates the 15 per-category models for Israel into a single country needs embedding and a set of tier-level (subsistence / development / agency) satisfaction averages.\n\nEach category model contributes a satisfaction score and a category embedding; the rollup concatenates the embeddings, weights category contributions by indicator coverage, and emits a country-level vector along with a plain-text summary suitable for consumption by a personal agent helping the user navigate community building and economic transition.",
+  "components": [
+    {
+      "id": "cat-food",
+      "name": "Food and nutrition feed",
+      "role": "Consumes global.10B.countries.israel.food",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-water",
+      "name": "Water and sanitation feed",
+      "role": "Consumes global.10B.countries.israel.water",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-shelter",
+      "name": "Shelter and habitat feed",
+      "role": "Consumes global.10B.countries.israel.shelter",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-health",
+      "name": "Health and longevity feed",
+      "role": "Consumes global.10B.countries.israel.health",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-safety",
+      "name": "Safety and protection from violence feed",
+      "role": "Consumes global.10B.countries.israel.safety",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-education",
+      "name": "Education and learning feed",
+      "role": "Consumes global.10B.countries.israel.education",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-work",
+      "name": "Work and economic capability feed",
+      "role": "Consumes global.10B.countries.israel.work",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-energy",
+      "name": "Energy access feed",
+      "role": "Consumes global.10B.countries.israel.energy",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-mobility",
+      "name": "Mobility and transportation feed",
+      "role": "Consumes global.10B.countries.israel.mobility",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-communications",
+      "name": "Communications and connectivity feed",
+      "role": "Consumes global.10B.countries.israel.communications",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-governance",
+      "name": "Governance and rule of law feed",
+      "role": "Consumes global.10B.countries.israel.governance",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-environment",
+      "name": "Environmental sustainability feed",
+      "role": "Consumes global.10B.countries.israel.environment",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-belonging",
+      "name": "Belonging and social cohesion feed",
+      "role": "Consumes global.10B.countries.israel.belonging",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-meaning",
+      "name": "Meaning, identity, and culture feed",
+      "role": "Consumes global.10B.countries.israel.meaning",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    },
+    {
+      "id": "cat-agency",
+      "name": "Agency and self-determination feed",
+      "role": "Consumes global.10B.countries.israel.agency",
+      "crate_path": null,
+      "key_symbols": [
+        "aggregate_category"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-score",
+      "kind": "scalar",
+      "description": "Food and nutrition satisfaction score for Israel."
+    },
+    {
+      "name": "water-score",
+      "kind": "scalar",
+      "description": "Water and sanitation satisfaction score for Israel."
+    },
+    {
+      "name": "shelter-score",
+      "kind": "scalar",
+      "description": "Shelter and habitat satisfaction score for Israel."
+    },
+    {
+      "name": "health-score",
+      "kind": "scalar",
+      "description": "Health and longevity satisfaction score for Israel."
+    },
+    {
+      "name": "safety-score",
+      "kind": "scalar",
+      "description": "Safety and protection from violence satisfaction score for Israel."
+    },
+    {
+      "name": "education-score",
+      "kind": "scalar",
+      "description": "Education and learning satisfaction score for Israel."
+    },
+    {
+      "name": "work-score",
+      "kind": "scalar",
+      "description": "Work and economic capability satisfaction score for Israel."
+    },
+    {
+      "name": "energy-score",
+      "kind": "scalar",
+      "description": "Energy access satisfaction score for Israel."
+    },
+    {
+      "name": "mobility-score",
+      "kind": "scalar",
+      "description": "Mobility and transportation satisfaction score for Israel."
+    },
+    {
+      "name": "communications-score",
+      "kind": "scalar",
+      "description": "Communications and connectivity satisfaction score for Israel."
+    },
+    {
+      "name": "governance-score",
+      "kind": "scalar",
+      "description": "Governance and rule of law satisfaction score for Israel."
+    },
+    {
+      "name": "environment-score",
+      "kind": "scalar",
+      "description": "Environmental sustainability satisfaction score for Israel."
+    },
+    {
+      "name": "belonging-score",
+      "kind": "scalar",
+      "description": "Belonging and social cohesion satisfaction score for Israel."
+    },
+    {
+      "name": "meaning-score",
+      "kind": "scalar",
+      "description": "Meaning, identity, and culture satisfaction score for Israel."
+    },
+    {
+      "name": "agency-score",
+      "kind": "scalar",
+      "description": "Agency and self-determination satisfaction score for Israel."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "country-needs-vector",
+      "kind": "embedding",
+      "description": "Country-level needs embedding spanning all 15 categories."
+    },
+    {
+      "name": "tier-scores",
+      "kind": "vector",
+      "description": "Per-tier (subsistence / development / agency) satisfaction averages."
+    },
+    {
+      "name": "country-summary",
+      "kind": "report",
+      "description": "Plain-text summary of needs gaps and strengths used by personal agents."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "country",
+      "value": "Israel"
+    },
+    {
+      "key": "category-count",
+      "value": "15"
+    },
+    {
+      "key": "average-coverage",
+      "value": "0.83",
+      "description": "Mean indicator coverage across categories."
+    },
+    {
+      "key": "food-coverage",
+      "value": "0.80"
+    },
+    {
+      "key": "water-coverage",
+      "value": "0.33"
+    },
+    {
+      "key": "shelter-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "health-coverage",
+      "value": "0.80"
+    },
+    {
+      "key": "safety-coverage",
+      "value": "0.50"
+    },
+    {
+      "key": "education-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "work-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "energy-coverage",
+      "value": "0.62"
+    },
+    {
+      "key": "mobility-coverage",
+      "value": "0.80"
+    },
+    {
+      "key": "communications-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "governance-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "environment-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "belonging-coverage",
+      "value": "1.00"
+    },
+    {
+      "key": "meaning-coverage",
+      "value": "0.83"
+    },
+    {
+      "key": "agency-coverage",
+      "value": "0.83"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    },
+    {
+      "label": "CIA World Factbook",
+      "kind": "url",
+      "location": "https://www.cia.gov/the-world-factbook/"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.israel.food",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Food and nutrition"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.water",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Water and sanitation"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.shelter",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Shelter and habitat"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.health",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Health and longevity"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.safety",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Safety and protection from violence"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.education",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Education and learning"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.work",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Work and economic capability"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.energy",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Energy access"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Mobility and transportation"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.communications",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Communications and connectivity"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.governance",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Governance and rule of law"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.environment",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Environmental sustainability"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.belonging",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Belonging and social cohesion"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.meaning",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Meaning, identity, and culture"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.agency",
+      "kind": "consumes_from",
+      "note": "Per-country, per-category model: Agency and self-determination"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Kosovo",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "218,782 PRISTINA (capital) (2020)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population clusters exist throughout the country, the largest being in the east in and around the capital of Pristina",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "influenced by continental air masses resulting in relatively cold winters with heavy snowfall and hot, dry summers and autumns; Mediterranean and alpine influences create regional variation; maximum rainfall between October and December",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "influenced by continental air masses resulting in relatively cold winters with heavy snowfall and hot, dry summers and autumns; Mediterranean and alpine influences create regional variation; maximum rainfall between October and December",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

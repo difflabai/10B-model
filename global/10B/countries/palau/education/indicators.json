@@ -1,0 +1,34 @@
+{
+  "country": "Palau",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "96.6%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.8% of GDP (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "17 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Palauan (official on most islands) 65.2%, other Micronesian 1.9%, English (official) 19.1%, Filipino 9.9%, Chinese 1.2%, other 2.8% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}

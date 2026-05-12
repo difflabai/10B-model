@@ -1,0 +1,39 @@
+{
+  "country": "India",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Aam Aadmi Party or AAPAll India Trinamool Congress or AITCBahujan Samaj Party or BSPBharatiya Janata Party or BJPBiju Janata Dal or BJDCommunist Party of India-Marxist or CPI(M)Dravida Munnetra KhazhagamIndian National Congress or INCNationalist Congress Party or NCPRashtriya Janata Dal or RJDSamajwadi Party or SPShiromani Akali Dal or SADShiv Sena or SSTelegana Rashtra Samithi or TRSTelugu Desam Party or TDPYSR Congress or YSRCP or YCP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "43% (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Doordarshan, India's public TV network, has a monopoly on terrestrial broadcasting and operates about 20 national, regional, and local services; a large and increasing number of privately owned TV stations are distributed by cable and satellite service providers; in 2020, 130 million households paid for cable and satellite television across India and as of 2018, cable and satellite TV offered over 850 TV channels; government controls AM radio with All India Radio operating domestic and external networks; news broadcasts via radio are limited to the All India Radio Network; since 2000, privately owned FM stations have been permitted and their numbers have increased rapidly (2020)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.5% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

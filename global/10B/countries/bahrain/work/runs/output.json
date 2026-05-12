@@ -1,0 +1,60 @@
+{
+  "country": "Bahrain",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.8186,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.8913
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.748
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.8535
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.95
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.81856,
+    0.71429,
+    0.8913,
+    0.748,
+    -0.63949,
+    -0.12239,
+    0.67449,
+    -0.8692,
+    -0.91095,
+    0.75448,
+    0.53512,
+    0.96268,
+    -0.04726,
+    0.66332,
+    -0.75366,
+    -0.71884
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

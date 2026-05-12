@@ -1,0 +1,34 @@
+{
+  "country": "United States",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "83.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "18.937 million New York-Newark, 12.534 million Los Angeles-Long Beach-Santa Ana, 8.937 million Chicago, 6.707 million Houston, 6.574 million Dallas-Fort Worth, 5.490 million WASHINGTON, D.C. (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "large urban clusters are spread throughout the eastern half of the US (particularly the Great Lakes area, northeast, east, and southeast) and the western tier states; mountainous areas, principally the Rocky Mountains and Appalachian chain, deserts in the southwest, the dense boreal forests in the extreme north, and the central prarie states are less densely populated; Alaska's population is concentrated along its southern coast - with particular emphasis on the city of Anchorage - and Hawaii's is centered on the island of Oahu",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

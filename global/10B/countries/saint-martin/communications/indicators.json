@@ -1,0 +1,64 @@
+{
+  "country": "Saint Martin",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "196 (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "68,840 (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "48.5% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "fully integrated access; good interisland and international connections; broadband access; expanded FttP (Fiber to the Home) and LTE markets; regulatory development; telecom sector contributes greatly to the overall GDP; telecom sector is a growth area (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "direct dial capability with both fixed and wireless systems (2018)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 590; landing points for the SMPR-1, Southern Caribbean Fiber and the Saba, Statia Cable System submarine cables providing connectivity to numerous Caribbean islands (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "1 local TV station; access to about 20 radio stations, including RFO Guadeloupe radio broadcasts via repeater",
+      "present": true
+    }
+  ],
+  "coverage": 0.6363636363636364
+}

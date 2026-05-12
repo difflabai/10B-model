@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.governance",
+        "global.10B.countries.andorra.governance",
+        "global.10B.countries.armenia.governance",
+        "global.10B.countries.austria.governance",
+        "global.10B.countries.azerbaijan.governance",
+        "global.10B.countries.belarus.governance",
+        "global.10B.countries.belgium.governance",
+        "global.10B.countries.bosnia-and-herzegovina.governance",
+        "global.10B.countries.bulgaria.governance",
+        "global.10B.countries.croatia.governance",
+        "global.10B.countries.cyprus.governance",
+        "global.10B.countries.czechia.governance",
+        "global.10B.countries.denmark.governance",
+        "global.10B.countries.estonia.governance",
+        "global.10B.countries.faroe-islands.governance",
+        "global.10B.countries.finland.governance",
+        "global.10B.countries.georgia.governance",
+        "global.10B.countries.germany.governance",
+        "global.10B.countries.gibraltar.governance",
+        "global.10B.countries.greece.governance",
+        "global.10B.countries.guernsey.governance",
+        "global.10B.countries.holy-see-vatican-city.governance",
+        "global.10B.countries.hungary.governance",
+        "global.10B.countries.iceland.governance",
+        "global.10B.countries.ireland.governance",
+        "global.10B.countries.isle-of-man.governance",
+        "global.10B.countries.italy.governance",
+        "global.10B.countries.jan-mayen.governance",
+        "global.10B.countries.jersey.governance",
+        "global.10B.countries.kazakhstan.governance",
+        "global.10B.countries.kosovo.governance",
+        "global.10B.countries.latvia.governance",
+        "global.10B.countries.liechtenstein.governance",
+        "global.10B.countries.lithuania.governance",
+        "global.10B.countries.luxembourg.governance",
+        "global.10B.countries.malta.governance",
+        "global.10B.countries.moldova.governance",
+        "global.10B.countries.monaco.governance",
+        "global.10B.countries.montenegro.governance",
+        "global.10B.countries.netherlands.governance",
+        "global.10B.countries.north-macedonia.governance",
+        "global.10B.countries.norway.governance",
+        "global.10B.countries.poland.governance",
+        "global.10B.countries.portugal.governance",
+        "global.10B.countries.romania.governance",
+        "global.10B.countries.san-marino.governance",
+        "global.10B.countries.serbia.governance",
+        "global.10B.countries.slovakia.governance",
+        "global.10B.countries.slovenia.governance",
+        "global.10B.countries.spain.governance",
+        "global.10B.countries.sweden.governance",
+        "global.10B.countries.switzerland.governance",
+        "global.10B.countries.turkey-turkiye.governance",
+        "global.10B.countries.ukraine.governance",
+        "global.10B.countries.united-kingdom.governance"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

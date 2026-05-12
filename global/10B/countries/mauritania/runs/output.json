@@ -1,0 +1,47 @@
+{
+  "country": "mauritania",
+  "category_scores": {
+    "agency": 0.6861,
+    "belonging": 0.6992,
+    "communications": 0.6885,
+    "education": 0.5495,
+    "energy": 0.5464,
+    "environment": 0.4153,
+    "food": 0.6801,
+    "governance": 0.7286,
+    "health": 0.4469,
+    "meaning": 0.59,
+    "mobility": 0.3987,
+    "safety": 0.5944,
+    "shelter": 0.6773,
+    "water": 0.6167,
+    "work": 0.6322
+  },
+  "country_score": 0.5967,
+  "tier_scores": {
+    "subsistence": 0.6031,
+    "development": 0.5631,
+    "agency": 0.6238
+  },
+  "country_embedding": [
+    0.59665,
+    0.85573,
+    0.61339,
+    0.63453,
+    -0.21881,
+    0.04808,
+    -0.28973,
+    0.13148,
+    -0.01295,
+    -0.16581,
+    0.06145,
+    0.12319,
+    -0.07515,
+    0.16397,
+    0.04983,
+    -0.15656
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Mauritania, the three needs areas with the largest gaps are: mobility (0.40), environment (0.42), health (0.45).\nThe three strongest areas are: governance (0.73), belonging (0.70), communications (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

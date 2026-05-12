@@ -1,0 +1,47 @@
+{
+  "country": "norfolk-island",
+  "category_scores": {
+    "agency": 0.6631,
+    "belonging": 0.7,
+    "communications": 0.6405,
+    "education": 0.75,
+    "energy": null,
+    "environment": 0.4006,
+    "food": 0.6133,
+    "governance": 0.6667,
+    "health": null,
+    "meaning": 0.675,
+    "mobility": 0.2875,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.6088,
+  "tier_scores": {
+    "subsistence": 0.6378,
+    "development": 0.5593,
+    "agency": 0.6211
+  },
+  "country_embedding": [
+    0.44644,
+    0.36459,
+    0.43349,
+    0.35608,
+    -0.11391,
+    -0.11059,
+    -0.06712,
+    -0.12384,
+    0.15535,
+    -0.12072,
+    -0.12524,
+    0.05811,
+    0.14216,
+    -0.07137,
+    0.00889,
+    -0.09327
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Norfolk Island, the three needs areas with the largest gaps are: mobility (0.29), environment (0.40), food (0.61).\nThe three strongest areas are: education (0.75), belonging (0.70), meaning (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

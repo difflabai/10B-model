@@ -1,0 +1,47 @@
+{
+  "country": "saint-martin",
+  "category_scores": {
+    "agency": 0.6932,
+    "belonging": 0.6617,
+    "communications": 0.689,
+    "education": 0.75,
+    "energy": 0.97,
+    "environment": 0.4,
+    "food": 0.55,
+    "governance": 0.6583,
+    "health": 0.8371,
+    "meaning": 0.7,
+    "mobility": 0.2,
+    "safety": 0.65,
+    "shelter": 0.75,
+    "water": 0.75,
+    "work": 0.845
+  },
+  "country_score": 0.6736,
+  "tier_scores": {
+    "subsistence": 0.7074,
+    "development": 0.6908,
+    "agency": 0.6226
+  },
+  "country_embedding": [
+    0.67362,
+    0.41485,
+    0.72243,
+    0.38238,
+    -0.22913,
+    -0.12649,
+    0.00154,
+    0.06526,
+    0.39835,
+    -0.15827,
+    -0.09194,
+    0.05638,
+    -0.04223,
+    0.09966,
+    -0.06969,
+    -0.12531
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Saint Martin, the three needs areas with the largest gaps are: mobility (0.20), environment (0.40), food (0.55).\nThe three strongest areas are: energy (0.97), work (0.84), health (0.84).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

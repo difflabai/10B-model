@@ -1,0 +1,39 @@
+{
+  "country": "Djibouti",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Front for Restoration of Unity and Democracy (Front pour la Restauration de l'Unite Democratique) or FRUDNational Democratic Party or PNDPeople's Rally for Progress or RPPPeoples Social Democratic Party or PPSDUnion for Democracy and Justice or UDJUnion for the Presidential Majority coalition or UMPUnion of Reform Partisans or UPR",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "65% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned Radiodiffusion-Television de Djibouti operates the sole terrestrial TV station, as well as the only 2 domestic radio networks; no private TV or radio stations; transmissions of several international broadcasters are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.6% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

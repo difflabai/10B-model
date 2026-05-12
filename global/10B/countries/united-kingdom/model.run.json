@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.united-kingdom",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "United Kingdom"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.united-kingdom.food",
+        "global.10B.countries.united-kingdom.water",
+        "global.10B.countries.united-kingdom.shelter",
+        "global.10B.countries.united-kingdom.health",
+        "global.10B.countries.united-kingdom.safety",
+        "global.10B.countries.united-kingdom.education",
+        "global.10B.countries.united-kingdom.work",
+        "global.10B.countries.united-kingdom.energy",
+        "global.10B.countries.united-kingdom.mobility",
+        "global.10B.countries.united-kingdom.communications",
+        "global.10B.countries.united-kingdom.governance",
+        "global.10B.countries.united-kingdom.environment",
+        "global.10B.countries.united-kingdom.belonging",
+        "global.10B.countries.united-kingdom.meaning",
+        "global.10B.countries.united-kingdom.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Vietnam",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.6181,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.597
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.7139
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5389
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6556
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.8904
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4031
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.7819
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.61808,
+    1.0,
+    0.597,
+    0.7139,
+    0.89258,
+    0.65597,
+    -0.12496,
+    -0.74569,
+    -0.6892,
+    0.62942,
+    -0.63116,
+    0.52584,
+    -0.9819,
+    0.44485,
+    0.05657,
+    -0.07393
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Qatar",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "political parties are banned",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "100% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "TV and radio broadcast licensing and access to local media markets are state controlled; home of the satellite TV channel Al-Jazeera, which was originally owned and financed by the Qatari government but has evolved to independent corporate status; Al-Jazeera claims editorial independence in broadcasting; local radio transmissions include state, private, and international broadcasters on FM frequencies in Doha; in August 2013, Qatar's satellite company Es'hailSat launched its first communications satellite Es'hail 1 (manufactured in the US), which entered commercial service in December 2013 to provide improved television broadcasting capability and expand availability of voice and Internet; Es'hailSat launched its second commercial satellite in 2018 with aid of SpaceX (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.2% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

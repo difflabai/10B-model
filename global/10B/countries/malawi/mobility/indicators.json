@@ -1,0 +1,59 @@
+{
+  "country": "Malawi",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "15,451 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "4,038 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "11,413 km (2022)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "28 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "700 km (2010) (on Lake Nyasa [Lake Malawi] and Shire River)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "767 km (2014)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "10,545 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "10,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.meaning",
+  "name": "Europe — Meaning, identity, and culture",
+  "kind": "sector_economic",
+  "blurb": "Region-level meaning, identity, and culture for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country meaning models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "meaning-country-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "meaning-region-mean",
+      "kind": "scalar",
+      "description": "Mean meaning score across the region."
+    },
+    {
+      "name": "meaning-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Meaning, identity, and culture"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.meaning",
+      "kind": "consumes_from",
+      "note": "Country-level meaning for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.meaning",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

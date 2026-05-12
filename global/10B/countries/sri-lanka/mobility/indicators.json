@@ -1,0 +1,59 @@
+{
+  "country": "Sri Lanka",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "114,093 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "16,977 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "97,116 km (2010)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "18 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "1 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "7 km refined products",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "160 km (2012) (primarily on rivers in southwest)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "1,562 km (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "5,882,376 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "436.2 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

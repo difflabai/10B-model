@@ -1,0 +1,60 @@
+{
+  "country": "Turks and Caicos Islands",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8571428571428571,
+  "indicators_scored": 6,
+  "indicators_total": 7,
+  "composite_score": 0.7083,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": 0.8
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": 0.65
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.70833,
+    0.85714,
+    0.8,
+    0.65,
+    0.17269,
+    0.97336,
+    0.59387,
+    -0.86084,
+    -0.48577,
+    -0.25643,
+    -0.65881,
+    0.93906,
+    0.68808,
+    0.91592,
+    -0.72747,
+    0.53271
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

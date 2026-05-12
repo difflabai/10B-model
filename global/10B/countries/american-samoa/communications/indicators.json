@@ -1,0 +1,64 @@
+{
+  "country": "American Samoa",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "4 (2009 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "2,250 (2009 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "20 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "10,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "40.3% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "American Samoa Telecommunications Authority, ASTCA, supplies telecommunication services to the residents of the American Samoan islands, a territory of the United States, which are found in a remote area of the Pacific Ocean; the primary system between the islands consists of fiber-optic cables and satellite connections; over Independence Day weekend 2021, the undersea fiber-optic cable linking the Tutuila and Manu’a Islands failed, completely stranding the Manu’a Islands from all telecommunication services; telecommunication services were restored to the people of Manu’a islands through microwave link between Tutuila to the Manu’a Islands; the link is now providing a steady 1Gbps backhaul most of the time of the year with 600Mbps at four 9’s availability, over this extremely long distance (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "nearly 22 per 100 fixed-line tele density (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 1-684; landing points for the ASH, Southern Cross NEXT and Hawaiki  providing connectivity to New Zealand, Australia, American Samoa, Hawaii, California, and SAS connecting American Samoa with Samoa; satellite earth station - 1 (Intelsat-Pacific Ocean) (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "3 TV stations; multi-channel pay TV services are available; about a dozen radio stations, some of which are repeater stations",
+      "present": true
+    }
+  ],
+  "coverage": 0.8181818181818182
+}

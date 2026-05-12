@@ -1,0 +1,47 @@
+{
+  "country": "bouvet-island",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.3,
+    "food": 0.375,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.485,
+  "tier_scores": {
+    "subsistence": 0.4917,
+    "development": null,
+    "agency": 0.475
+  },
+  "country_embedding": [
+    0.16167,
+    0.09302,
+    0.15667,
+    0.05,
+    -0.06709,
+    -0.00555,
+    -0.05632,
+    0.00543,
+    -0.03341,
+    0.12766,
+    0.18201,
+    -0.00878,
+    -0.12888,
+    -0.01342,
+    0.07267,
+    -0.08085
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Bouvet Island, the three needs areas with the largest gaps are: environment (0.30), food (0.38), shelter (0.55).\nThe three strongest areas are: governance (0.65), water (0.55), shelter (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

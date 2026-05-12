@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.turkey-turkiye",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Turkey (Turkiye)"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.turkey-turkiye.food",
+        "global.10B.countries.turkey-turkiye.water",
+        "global.10B.countries.turkey-turkiye.shelter",
+        "global.10B.countries.turkey-turkiye.health",
+        "global.10B.countries.turkey-turkiye.safety",
+        "global.10B.countries.turkey-turkiye.education",
+        "global.10B.countries.turkey-turkiye.work",
+        "global.10B.countries.turkey-turkiye.energy",
+        "global.10B.countries.turkey-turkiye.mobility",
+        "global.10B.countries.turkey-turkiye.communications",
+        "global.10B.countries.turkey-turkiye.governance",
+        "global.10B.countries.turkey-turkiye.environment",
+        "global.10B.countries.turkey-turkiye.belonging",
+        "global.10B.countries.turkey-turkiye.meaning",
+        "global.10B.countries.turkey-turkiye.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

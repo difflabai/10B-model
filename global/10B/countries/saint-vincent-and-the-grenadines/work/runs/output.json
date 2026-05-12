@@ -1,0 +1,60 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.6508,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6764
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.901
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7367
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.2899
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65079,
+    0.71429,
+    0.6764,
+    0.901,
+    0.90436,
+    -0.92871,
+    0.45376,
+    -0.33449,
+    0.69732,
+    0.09572,
+    -0.40169,
+    0.7243,
+    0.36983,
+    0.45977,
+    -0.05931,
+    0.40764
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

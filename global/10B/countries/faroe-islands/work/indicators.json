@@ -1,0 +1,44 @@
+{
+  "country": "Faroe Islands",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$70,400 (2023 est.)$69,300 (2022 est.)$67,800 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "2.49% (2023 est.)3.56% (2022 est.)5.76% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "-0.3% (2016)-1.7% (2015)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "27,540 (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "2.2% (2017 est.)3.4% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "10% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

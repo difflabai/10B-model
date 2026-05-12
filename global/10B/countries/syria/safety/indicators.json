@@ -1,0 +1,39 @@
+{
+  "country": "Syria",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "as of early 2025, the interim authorities in Syria had established a ministry of defense and was seeking to unify the dozens of armed factions operating in Syria under a single, state-linked army and police force (2025)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "6.5% of GDP (2019 est.)6.7% of GDP (2018 est.)6.8% of GDP (2017 est.)6.9% of GDP (2016 est.)7.2% of GDP (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "580,000 (Palestinian Refugees) (2022); 11,121 (Iraq) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

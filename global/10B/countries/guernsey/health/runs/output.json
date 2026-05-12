@@ -1,0 +1,92 @@
+{
+  "country": "Guernsey",
+  "category": "health",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 6,
+  "indicators_total": 15,
+  "composite_score": 0.9168,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Life expectancy at birth - total population",
+      "score": 0.9187
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - male",
+      "score": 0.8686
+    },
+    {
+      "field": "People and Society: Life expectancy at birth - female",
+      "score": 0.9513
+    },
+    {
+      "field": "People and Society: Infant mortality rate - total",
+      "score": 0.918
+    },
+    {
+      "field": "People and Society: Infant mortality rate - male",
+      "score": 0.902
+    },
+    {
+      "field": "People and Society: Infant mortality rate - female",
+      "score": 0.942
+    },
+    {
+      "field": "People and Society: Maternal mortality ratio",
+      "score": null
+    },
+    {
+      "field": "People and Society: Physicians density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Hospital bed density",
+      "score": null
+    },
+    {
+      "field": "People and Society: Major infectious diseases - degree of risk",
+      "score": null
+    },
+    {
+      "field": "People and Society: Obesity - adult prevalence rate",
+      "score": null
+    },
+    {
+      "field": "People and Society: Tobacco use - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Children under the age of 5 years underweight",
+      "score": null
+    },
+    {
+      "field": "People and Society: Currently married women (ages 15-49)",
+      "score": null
+    },
+    {
+      "field": "People and Society: Current health expenditure",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.91676,
+    0.4,
+    0.9187,
+    0.8686,
+    -0.76678,
+    -0.94586,
+    -0.4573,
+    -0.47311,
+    0.26397,
+    -0.68444,
+    0.18352,
+    0.05473,
+    -0.63632,
+    0.7471,
+    0.28527,
+    0.34752
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

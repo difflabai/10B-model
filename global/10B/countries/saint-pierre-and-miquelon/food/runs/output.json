@@ -1,0 +1,52 @@
+{
+  "country": "Saint Pierre and Miquelon",
+  "category": "food",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6,
+  "indicators_scored": 3,
+  "indicators_total": 5,
+  "composite_score": 0.5247,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "score": null
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "score": 0.374
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "score": null
+    },
+    {
+      "field": "People and Society: Population - total",
+      "score": 0.55
+    }
+  ],
+  "embedding": [
+    0.52467,
+    0.6,
+    0.65,
+    0.374,
+    -0.14498,
+    0.26503,
+    -0.97342,
+    -0.88351,
+    0.91113,
+    0.26763,
+    0.13042,
+    -0.51836,
+    0.53906,
+    0.23177,
+    0.18917,
+    0.18972
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

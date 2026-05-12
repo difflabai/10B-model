@@ -1,0 +1,34 @@
+{
+  "country": "Chad",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "24.4% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.592 million N'DJAMENA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the population is unevenly distributed due to contrasts in climate and physical geography; the highest density is found in the southwest, particularly around Lake Chad and points south; the dry Saharan zone to the north is the least densely populated as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical in south, desert in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical in south, desert in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

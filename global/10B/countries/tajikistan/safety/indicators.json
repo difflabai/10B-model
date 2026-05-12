@@ -1,0 +1,39 @@
+{
+  "country": "Tajikistan",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of the Republic of Tajikistan: Land Forces, Mobile Forces, Air and Air Defense Forces; National GuardMinistry of Internal Affairs: Internal Troops (reserves for Armed Forces in wartime), policeState Committee on National Security: Border Guard Forces (2023)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1.2% of GDP (2023 est.)1.1% of GDP (2022 est.)1.2% of GDP (2021 est.)1% of GDP (2020 est.)2.1% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "6,775 (Afghanistan) (mid-year 2021)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

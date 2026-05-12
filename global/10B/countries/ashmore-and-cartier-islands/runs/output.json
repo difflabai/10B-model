@@ -1,0 +1,47 @@
+{
+  "country": "ashmore-and-cartier-islands",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.375,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": null,
+    "safety": null,
+    "shelter": 0.55,
+    "water": 0.55,
+    "work": null
+  },
+  "country_score": 0.505,
+  "tier_scores": {
+    "subsistence": 0.4917,
+    "development": null,
+    "agency": 0.525
+  },
+  "country_embedding": [
+    0.16833,
+    0.08349,
+    0.15667,
+    0.03667,
+    -0.06815,
+    -0.10714,
+    -0.06895,
+    -0.12931,
+    -0.23532,
+    0.07289,
+    0.13312,
+    -0.01665,
+    -0.00406,
+    -0.12976,
+    -0.25912,
+    -0.15933
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Ashmore And Cartier Islands, the three needs areas with the largest gaps are: food (0.38), environment (0.40), shelter (0.55).\nThe three strongest areas are: governance (0.65), water (0.55), shelter (0.55).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

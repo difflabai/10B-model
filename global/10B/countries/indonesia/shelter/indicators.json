@@ -1,0 +1,34 @@
+{
+  "country": "Indonesia",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "58.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "11.249 million JAKARTA (capital), 3.729 million Bekasi, 3.044 million Surabaya, 3.041 million Depok, 2.674 million Bandung, 2.514 million Tangerang (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "major concentration on the island of Java, which is considered one of the most densely populated places on earth; of the outer islands (those surrounding Java and Bali), Sumatra contains some of the most significant clusters, particularly in the south near the Selat Sunda, and along the northeastern coast near Medan; the cities of Makasar (Sulawesi), Banjarmasin (Kalimantan) are also heavily populated",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; hot, humid; more moderate in highlands",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; hot, humid; more moderate in highlands",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

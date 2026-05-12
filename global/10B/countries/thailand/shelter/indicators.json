@@ -1,0 +1,34 @@
+{
+  "country": "Thailand",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "53.6% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "11.070 million BANGKOK (capital), 1.454 Chon Buri, 1.359 million Samut Prakan, 1.213 million Chiang Mai, 1.005 million Songkla, 1.001 million Nothaburi (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "highest population density is found in and around Bangkok; significant population clusters found througout large parts of the country, particularly north and northeast of Bangkok and in the extreme southern region of the country",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; rainy, warm, cloudy southwest monsoon (mid-May to September); dry, cool northeast monsoon (November to mid-March); southern isthmus always hot and humid",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; rainy, warm, cloudy southwest monsoon (mid-May to September); dry, cool northeast monsoon (November to mid-March); southern isthmus always hot and humid",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

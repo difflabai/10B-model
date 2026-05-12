@@ -1,0 +1,44 @@
+{
+  "country": "Brunei",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "absolute monarchy or sultanate",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system based on English common law and Islamic law; note - in April 2019, the full sharia penal codes came into force and apply to Muslims and partly to non-Muslims in parallel with present common law codes",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "drafted 1954 to 1959, signed 29 September 1959; note - some constitutional provisions suspended since 1962 under a State of Emergency, others suspended since independence in 1984",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age for village elections; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Sultan and Prime Minister Sir HASSANAL Bolkiah (since 5 October 1967)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICC",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ADB, APEC, ARF, ASEAN, C, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, ISO (correspondent), ITSO, ITU, NAM, OIC, OPCW, UN, UNCTAD, UNESCO, UNIFIL, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

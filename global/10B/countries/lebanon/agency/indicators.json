@@ -1,0 +1,39 @@
+{
+  "country": "Lebanon",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; authorized for all men and women regardless of religion; excludes persons convicted of felonies and other crimes or those imprisoned; excludes all military and security service personnel regardless of rank",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Al-Ahbash (Association of Islamic Charitable Projects) or AICPAmal Movement (\"Hope Movement\")Azm MovementBa’th Arab Socialist Party of LebanonFree Patriotic Movement or FPMFuture Movement Bloc or FMHizballahIslamic Action Front or IAFKata'ib PartyLebanese Democratic PartyLebanese Forces or LFMarada MovementProgressive Socialist Party or PSPSocial Democrat Hunshaqian PartySyrian Social Nationalist Party or SSNPTashnaq or Armenian Revolutionary Federation",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "90% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "7 TV stations, 1 of which is state owned; more than 30 radio stations, 1 of which is state owned; satellite and cable TV services available; transmissions of at least 2 international broadcasters are accessible through partner stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

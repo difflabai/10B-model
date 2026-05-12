@@ -1,0 +1,84 @@
+{
+  "country": "Guatemala",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9230769230769231,
+  "indicators_scored": 12,
+  "indicators_total": 13,
+  "composite_score": 0.6719,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.9547
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": 0.9309
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": 0.9484
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.724
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.372
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.504
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.7788
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.8
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.6719,
+    0.92308,
+    0.9547,
+    0.9309,
+    0.14598,
+    0.45052,
+    -0.85217,
+    0.22518,
+    -0.18099,
+    -0.68972,
+    -0.87576,
+    0.71563,
+    -0.6986,
+    0.66345,
+    -0.77423,
+    0.49786
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "country": "Samoa",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "99.1%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.8% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Samoan (Polynesian) (official) 91.1%, Samoan/English 6.7%, English (official) 0.5%, other 0.2%, unspecified 1.6% (2006 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

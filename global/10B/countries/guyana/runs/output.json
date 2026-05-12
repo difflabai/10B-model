@@ -1,0 +1,47 @@
+{
+  "country": "guyana",
+  "category_scores": {
+    "agency": 0.795,
+    "belonging": 0.6907,
+    "communications": 0.6903,
+    "education": 0.709,
+    "energy": 0.5771,
+    "environment": 0.5808,
+    "food": 0.592,
+    "governance": 0.7143,
+    "health": 0.5837,
+    "meaning": 0.65,
+    "mobility": 0.4072,
+    "safety": 0.5767,
+    "shelter": 0.6162,
+    "water": 0.65,
+    "work": 0.7662
+  },
+  "country_score": 0.6399,
+  "tier_scores": {
+    "subsistence": 0.6037,
+    "development": 0.63,
+    "agency": 0.6862
+  },
+  "country_embedding": [
+    0.63995,
+    0.79668,
+    0.68282,
+    0.64024,
+    -0.0814,
+    -0.09364,
+    -0.20243,
+    0.06747,
+    0.07558,
+    0.25551,
+    -0.13629,
+    0.03008,
+    -0.34525,
+    0.19579,
+    0.01508,
+    0.12183
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Guyana, the three needs areas with the largest gaps are: mobility (0.41), safety (0.58), energy (0.58).\nThe three strongest areas are: agency (0.80), work (0.77), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

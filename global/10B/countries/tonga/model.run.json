@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.tonga",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tonga"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.tonga.food",
+        "global.10B.countries.tonga.water",
+        "global.10B.countries.tonga.shelter",
+        "global.10B.countries.tonga.health",
+        "global.10B.countries.tonga.safety",
+        "global.10B.countries.tonga.education",
+        "global.10B.countries.tonga.work",
+        "global.10B.countries.tonga.energy",
+        "global.10B.countries.tonga.mobility",
+        "global.10B.countries.tonga.communications",
+        "global.10B.countries.tonga.governance",
+        "global.10B.countries.tonga.environment",
+        "global.10B.countries.tonga.belonging",
+        "global.10B.countries.tonga.meaning",
+        "global.10B.countries.tonga.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

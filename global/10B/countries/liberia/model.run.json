@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.liberia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Liberia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.liberia.food",
+        "global.10B.countries.liberia.water",
+        "global.10B.countries.liberia.shelter",
+        "global.10B.countries.liberia.health",
+        "global.10B.countries.liberia.safety",
+        "global.10B.countries.liberia.education",
+        "global.10B.countries.liberia.work",
+        "global.10B.countries.liberia.energy",
+        "global.10B.countries.liberia.mobility",
+        "global.10B.countries.liberia.communications",
+        "global.10B.countries.liberia.governance",
+        "global.10B.countries.liberia.environment",
+        "global.10B.countries.liberia.belonging",
+        "global.10B.countries.liberia.meaning",
+        "global.10B.countries.liberia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

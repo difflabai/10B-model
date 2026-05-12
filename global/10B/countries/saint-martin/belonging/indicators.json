@@ -1,0 +1,44 @@
+{
+  "country": "Saint Martin",
+  "category": "belonging",
+  "label": "Belonging and social cohesion",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "value": "Creole (Mulatto), Black, Guadeloupe Mestizo (French-East Asian), White, East Indian, other",
+      "present": true
+    },
+    {
+      "field": "People and Society: Religions",
+      "value": "Roman Catholic, Jehovah's Witness, Protestant, Hindu",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "French (official), Dutch, English, Guadeloupian Creole, Haitian Creole, Italian, Martiniquan Creole, Papiamento (dialect of Netherlands Antilles), Spanish",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is found along the coast, with a largest concentrations around the capital Marigot, Orleans, and Grand-Case",
+      "present": true
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "value": "-6.2 migrant(s)/1,000 population (2024 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "value": "1.8 children born/woman (2024 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

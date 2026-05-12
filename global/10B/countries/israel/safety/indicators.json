@@ -1,0 +1,39 @@
+{
+  "country": "Israel",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Israel Defense Forces (IDF): Ground Forces, Israel Naval Force (IN, includes commandos), Israel Air Force (IAF, includes air defense) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "4.5% of GDP (2023 est.)4.5% of GDP (2022 est.)5% of GDP (2021 est.)5% of GDP (2020 est.)5.2% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "12,181 (Eritrea), 5,061 (Ukraine) (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

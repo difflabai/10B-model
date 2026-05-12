@@ -1,0 +1,47 @@
+{
+  "country": "niue",
+  "category_scores": {
+    "agency": 0.7365,
+    "belonging": 0.67,
+    "communications": 0.7637,
+    "education": 0.75,
+    "energy": 0.45,
+    "environment": 0.7399,
+    "food": 0.6191,
+    "governance": 0.7083,
+    "health": 0.5167,
+    "meaning": 0.7,
+    "mobility": 0.2875,
+    "safety": 0.65,
+    "shelter": 0.6193,
+    "water": 0.65,
+    "work": 0.5525
+  },
+  "country_score": 0.6276,
+  "tier_scores": {
+    "subsistence": 0.611,
+    "development": 0.5607,
+    "agency": 0.7109
+  },
+  "country_embedding": [
+    0.62757,
+    0.48711,
+    0.61532,
+    0.42938,
+    -0.1829,
+    -0.12278,
+    -0.18699,
+    0.09871,
+    -0.19897,
+    -0.15838,
+    -0.16061,
+    -0.05326,
+    -0.09155,
+    -0.28631,
+    -0.06388,
+    -0.11855
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Niue, the three needs areas with the largest gaps are: mobility (0.29), energy (0.45), health (0.52).\nThe three strongest areas are: communications (0.76), education (0.75), environment (0.74).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

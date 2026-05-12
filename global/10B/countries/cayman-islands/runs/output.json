@@ -1,0 +1,47 @@
+{
+  "country": "cayman-islands",
+  "category_scores": {
+    "agency": 0.6828,
+    "belonging": 0.6984,
+    "communications": 0.748,
+    "education": 0.6536,
+    "energy": 0.5206,
+    "environment": 0.5143,
+    "food": 0.5248,
+    "governance": 0.7083,
+    "health": 0.8015,
+    "meaning": 0.675,
+    "mobility": 0.2781,
+    "safety": 0.65,
+    "shelter": 0.6125,
+    "water": 0.65,
+    "work": 0.6899
+  },
+  "country_score": 0.6272,
+  "tier_scores": {
+    "subsistence": 0.6478,
+    "development": 0.578,
+    "agency": 0.6558
+  },
+  "country_embedding": [
+    0.62718,
+    0.64256,
+    0.7261,
+    0.48583,
+    0.24966,
+    -0.21337,
+    0.03866,
+    -0.19782,
+    -0.05883,
+    0.15173,
+    0.13207,
+    0.2262,
+    -0.1612,
+    -0.00188,
+    -0.0241,
+    -0.06017
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cayman Islands, the three needs areas with the largest gaps are: mobility (0.28), environment (0.51), energy (0.52).\nThe three strongest areas are: health (0.80), communications (0.75), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "country": "french-polynesia",
+  "category_scores": {
+    "agency": 0.7707,
+    "belonging": 0.6539,
+    "communications": 0.7173,
+    "education": 0.7,
+    "energy": 0.5811,
+    "environment": 0.4968,
+    "food": 0.6238,
+    "governance": 0.6917,
+    "health": 0.8034,
+    "meaning": 0.65,
+    "mobility": 0.3877,
+    "safety": 0.55,
+    "shelter": 0.6311,
+    "water": 0.55,
+    "work": 0.7001
+  },
+  "country_score": 0.6338,
+  "tier_scores": {
+    "subsistence": 0.6317,
+    "development": 0.6172,
+    "agency": 0.6526
+  },
+  "country_embedding": [
+    0.63384,
+    0.63277,
+    0.66745,
+    0.51588,
+    -0.13508,
+    -0.04822,
+    0.20434,
+    -0.10626,
+    0.11064,
+    -0.16592,
+    -0.28286,
+    0.15645,
+    0.4008,
+    0.13146,
+    -0.21347,
+    0.01089
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in French Polynesia, the three needs areas with the largest gaps are: mobility (0.39), environment (0.50), safety (0.55).\nThe three strongest areas are: health (0.80), agency (0.77), communications (0.72).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

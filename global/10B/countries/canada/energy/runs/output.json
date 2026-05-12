@@ -1,0 +1,84 @@
+{
+  "country": "Canada",
+  "category": "energy",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8461538461538461,
+  "indicators_scored": 11,
+  "indicators_total": 13,
+  "composite_score": 0.6315,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Energy: Electricity access - electrification - total population",
+      "score": 0.97
+    },
+    {
+      "field": "Energy: Electricity access - electrification - urban areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity access - electrification - rural areas",
+      "score": null
+    },
+    {
+      "field": "Energy: Electricity - installed generating capacity",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity - consumption",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Electricity generation sources - fossil fuels",
+      "score": 0.8353
+    },
+    {
+      "field": "Energy: Electricity generation sources - solar",
+      "score": 0.336
+    },
+    {
+      "field": "Energy: Electricity generation sources - wind",
+      "score": 0.6167
+    },
+    {
+      "field": "Energy: Electricity generation sources - hydroelectricity",
+      "score": 0.8787
+    },
+    {
+      "field": "Energy: Electricity generation sources - nuclear",
+      "score": 0.7145
+    },
+    {
+      "field": "Energy: Electricity generation sources - biomass and waste",
+      "score": 0.545
+    },
+    {
+      "field": "Energy: Energy consumption per capita",
+      "score": 0.55
+    },
+    {
+      "field": "Energy: Carbon dioxide emissions",
+      "score": 0.4
+    }
+  ],
+  "embedding": [
+    0.63148,
+    0.84615,
+    0.97,
+    0.55,
+    0.84091,
+    -0.02644,
+    -0.30694,
+    -0.39663,
+    -0.88299,
+    -0.30095,
+    -0.43279,
+    0.37951,
+    -0.31682,
+    0.858,
+    0.05147,
+    -0.16326
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

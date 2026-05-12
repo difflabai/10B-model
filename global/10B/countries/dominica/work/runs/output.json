@@ -1,0 +1,60 @@
+{
+  "country": "Dominica",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.42857142857142855,
+  "indicators_scored": 3,
+  "indicators_total": 7,
+  "composite_score": 0.7563,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.6692
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.8355
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7642
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": null
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": null
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75629,
+    0.42857,
+    0.6692,
+    0.8355,
+    -0.57876,
+    0.73974,
+    0.0605,
+    -0.70385,
+    -0.03548,
+    -0.38347,
+    -0.10842,
+    0.25423,
+    -0.54058,
+    -0.65457,
+    -0.65222,
+    -0.89581
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

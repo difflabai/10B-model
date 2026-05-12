@@ -1,0 +1,39 @@
+{
+  "country": "Venezuela",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes marines, Coast Guard), Bolivarian Military Aviation (Aviacion Militar Bolivariana, AMB; includes a joint-service Aerospace Defense Command (Comando de Defensa Aeroespacial Integral, CODAI), Bolivarian Militia (Milicia Bolivariana), Bolivarian National Guard (Guardia Nacional Bolivaria, GNB)Ministry of Interior, Justice, and Peace: Bolivarian National Police (Policía Nacional Bolivariana, PNB) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "5.2% of GDP (2019 est.)4.4% of GDP (2018 est.)2.9% of GDP (2017 est.)2.2% of GDP (2016 est.)1.8% of GDP (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "39,185 (Colombia) (mid-year 2022)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

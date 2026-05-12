@@ -1,0 +1,72 @@
+{
+  "country": "Netherlands",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.6859,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5594
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.5472
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8322
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7541
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4309
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.7632
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.68588,
+    0.8,
+    0.5594,
+    0.5472,
+    -0.21123,
+    -0.42248,
+    0.84936,
+    -0.68368,
+    0.62191,
+    -0.64685,
+    -0.36345,
+    0.64971,
+    -0.16841,
+    -0.47637,
+    0.93106,
+    0.53536
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

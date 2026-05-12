@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.malaysia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Malaysia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.malaysia.food",
+        "global.10B.countries.malaysia.water",
+        "global.10B.countries.malaysia.shelter",
+        "global.10B.countries.malaysia.health",
+        "global.10B.countries.malaysia.safety",
+        "global.10B.countries.malaysia.education",
+        "global.10B.countries.malaysia.work",
+        "global.10B.countries.malaysia.energy",
+        "global.10B.countries.malaysia.mobility",
+        "global.10B.countries.malaysia.communications",
+        "global.10B.countries.malaysia.governance",
+        "global.10B.countries.malaysia.environment",
+        "global.10B.countries.malaysia.belonging",
+        "global.10B.countries.malaysia.meaning",
+        "global.10B.countries.malaysia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

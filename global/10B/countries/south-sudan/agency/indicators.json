@@ -1,0 +1,39 @@
+{
+  "country": "South Sudan",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Change or DCDemocratic Forum or DFLabour Party or LPSSSouth Sudan Opposition Alliance or SSOASudan African National Union or SANUSudan People's Liberation Movement or SPLMSudan People’s Liberation Movement-In Opposition or SPLM-IOUnited Democratic Salvation Front or UDSF    United South Sudan African Party or USSAPUnited South Sudan Party or USSP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "12% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "a single TV channel and a radio station are controlled by the government; several community and commercial FM stations are operational, mostly sponsored by outside aid donors; some foreign radio broadcasts are available (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.5% of GDP (2016 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,56 @@
+{
+  "country": "United Arab Emirates",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.72,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.55
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.95
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6
+    }
+  ],
+  "embedding": [
+    0.72,
+    0.83333,
+    0.55,
+    0.65,
+    0.02342,
+    -0.30486,
+    0.60174,
+    -0.21831,
+    0.23278,
+    -0.7051,
+    0.61834,
+    -0.00163,
+    -0.25762,
+    0.20821,
+    0.99728,
+    0.80917
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

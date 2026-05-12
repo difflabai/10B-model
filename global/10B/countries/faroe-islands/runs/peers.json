@@ -1,0 +1,86 @@
+{
+  "country": "faroe-islands",
+  "cluster_id": 5,
+  "cluster_label": "avg 0.64; strongest in [agency, health, work], weakest in [mobility, environment, energy]",
+  "nearest_peers": [
+    {
+      "country": "aruba",
+      "distance": 0.1843
+    },
+    {
+      "country": "macau",
+      "distance": 0.2139
+    },
+    {
+      "country": "malta",
+      "distance": 0.2321
+    },
+    {
+      "country": "bahrain",
+      "distance": 0.2457
+    },
+    {
+      "country": "new-caledonia",
+      "distance": 0.2567
+    },
+    {
+      "country": "kuwait",
+      "distance": 0.2582
+    },
+    {
+      "country": "iceland",
+      "distance": 0.2686
+    },
+    {
+      "country": "cyprus",
+      "distance": 0.2713
+    },
+    {
+      "country": "falkland-islands-islas-malvinas",
+      "distance": 0.2733
+    },
+    {
+      "country": "israel",
+      "distance": 0.2871
+    }
+  ],
+  "most_different": [
+    {
+      "country": "haiti",
+      "distance": 0.7241
+    },
+    {
+      "country": "chad",
+      "distance": 0.738
+    },
+    {
+      "country": "central-african-republic",
+      "distance": 0.7523
+    },
+    {
+      "country": "somalia",
+      "distance": 0.7588
+    },
+    {
+      "country": "south-sudan",
+      "distance": 0.7823
+    }
+  ],
+  "cluster_peers": [
+    "aruba",
+    "bermuda",
+    "cayman-islands",
+    "dominica",
+    "gibraltar",
+    "guam",
+    "macau",
+    "maldives",
+    "malta",
+    "montserrat",
+    "new-caledonia",
+    "saint-kitts-and-nevis",
+    "saint-lucia",
+    "virgin-islands"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

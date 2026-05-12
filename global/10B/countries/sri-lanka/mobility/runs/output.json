@@ -1,0 +1,72 @@
+{
+  "country": "Sri Lanka",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.4586,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5427
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.4535
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4722
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.448
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3395
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5299
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.45858,
+    1.0,
+    0.5427,
+    0.4535,
+    0.42248,
+    0.09932,
+    -0.47857,
+    0.99368,
+    -0.2911,
+    0.85711,
+    -0.50024,
+    -0.42763,
+    0.33352,
+    0.69046,
+    0.84707,
+    0.09883
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

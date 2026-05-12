@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.saint-lucia",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Saint Lucia"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.saint-lucia.food",
+        "global.10B.countries.saint-lucia.water",
+        "global.10B.countries.saint-lucia.shelter",
+        "global.10B.countries.saint-lucia.health",
+        "global.10B.countries.saint-lucia.safety",
+        "global.10B.countries.saint-lucia.education",
+        "global.10B.countries.saint-lucia.work",
+        "global.10B.countries.saint-lucia.energy",
+        "global.10B.countries.saint-lucia.mobility",
+        "global.10B.countries.saint-lucia.communications",
+        "global.10B.countries.saint-lucia.governance",
+        "global.10B.countries.saint-lucia.environment",
+        "global.10B.countries.saint-lucia.belonging",
+        "global.10B.countries.saint-lucia.meaning",
+        "global.10B.countries.saint-lucia.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

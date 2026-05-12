@@ -1,0 +1,60 @@
+{
+  "country": "Ashmore and Cartier Islands",
+  "category": "governance",
+  "engine": "closed-form",
+  "indicator_coverage": 0.14285714285714285,
+  "indicators_scored": 1,
+  "indicators_total": 7,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Government type",
+      "score": null
+    },
+    {
+      "field": "Government: Legal system",
+      "score": 0.65
+    },
+    {
+      "field": "Government: Constitution - history",
+      "score": null
+    },
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "score": null
+    },
+    {
+      "field": "Government: International law organization participation",
+      "score": null
+    },
+    {
+      "field": "Government: International organization participation",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.14286,
+    0.65,
+    0.0,
+    -0.20259,
+    0.58926,
+    -0.90405,
+    0.9443,
+    -0.01857,
+    0.52444,
+    -0.00746,
+    0.50512,
+    -0.10695,
+    0.39803,
+    -0.27297,
+    -0.50014
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

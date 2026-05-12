@@ -1,0 +1,60 @@
+{
+  "country": "Seychelles",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.7255,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.766
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.758
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.85
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.55
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.9
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.4964
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.758
+    }
+  ],
+  "embedding": [
+    0.72549,
+    1.0,
+    0.766,
+    0.758,
+    0.10686,
+    0.06365,
+    0.9758,
+    0.30788,
+    -0.48782,
+    -0.58782,
+    -0.60494,
+    0.18077,
+    0.78088,
+    0.71987,
+    0.95236,
+    0.6665
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

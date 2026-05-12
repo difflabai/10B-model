@@ -1,0 +1,58 @@
+{
+  "modelId": "global.10B.regions.americas",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla",
+        "global.10B.countries.antigua-and-barbuda",
+        "global.10B.countries.argentina",
+        "global.10B.countries.aruba",
+        "global.10B.countries.bahamas-the",
+        "global.10B.countries.barbados",
+        "global.10B.countries.belize",
+        "global.10B.countries.bermuda",
+        "global.10B.countries.bolivia",
+        "global.10B.countries.brazil",
+        "global.10B.countries.british-virgin-islands",
+        "global.10B.countries.cayman-islands",
+        "global.10B.countries.cuba",
+        "global.10B.countries.curacao",
+        "global.10B.countries.dominica",
+        "global.10B.countries.dominican-republic",
+        "global.10B.countries.falkland-islands-islas-malvinas",
+        "global.10B.countries.grenada",
+        "global.10B.countries.guyana",
+        "global.10B.countries.haiti",
+        "global.10B.countries.jamaica",
+        "global.10B.countries.montserrat",
+        "global.10B.countries.navassa-island",
+        "global.10B.countries.paraguay",
+        "global.10B.countries.puerto-rico",
+        "global.10B.countries.saint-barthelemy",
+        "global.10B.countries.saint-kitts-and-nevis",
+        "global.10B.countries.saint-lucia",
+        "global.10B.countries.saint-martin",
+        "global.10B.countries.saint-pierre-and-miquelon",
+        "global.10B.countries.saint-vincent-and-the-grenadines",
+        "global.10B.countries.sint-maarten",
+        "global.10B.countries.suriname",
+        "global.10B.countries.trinidad-and-tobago",
+        "global.10B.countries.turks-and-caicos-islands",
+        "global.10B.countries.uruguay",
+        "global.10B.countries.venezuela",
+        "global.10B.countries.virgin-islands"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

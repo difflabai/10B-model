@@ -1,0 +1,60 @@
+{
+  "country": "Saint Helena, Ascension, and Tristan da Cunha",
+  "category": "belonging",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.6579,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Ethnic groups",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Religions",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Net migration rate",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Total fertility rate",
+      "score": 0.605
+    }
+  ],
+  "embedding": [
+    0.65786,
+    1.0,
+    0.65,
+    0.75,
+    -0.97736,
+    0.5426,
+    0.32259,
+    -0.12029,
+    0.10796,
+    -0.47826,
+    0.64138,
+    -0.76147,
+    0.00597,
+    -0.56829,
+    -0.36953,
+    0.90271
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,387 @@
+{
+  "id": "global.10B.regions.oceania",
+  "name": "Oceania — needs rollup",
+  "kind": "sector_economic",
+  "blurb": "Regional rollup for Oceania aggregating 47 country needs profiles into a 15-category satisfaction vector.",
+  "mechanism": "Aggregates 47 country needs profiles for Oceania into a region-level satisfaction vector across all 15 categories. The aggregation is a population-weighted mean (weights from the country's reported population). This sits between the per-country rollups and the global 10B model in the dependency graph.",
+  "components": [
+    {
+      "id": "classifier",
+      "name": "Region classifier",
+      "role": "Maps countries to UN-geoscheme regions.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "aggregator",
+      "name": "Region aggregator",
+      "role": "Population-weighted mean across countries.",
+      "crate_path": null,
+      "key_symbols": []
+    },
+    {
+      "id": "ranker",
+      "name": "Country ranker",
+      "role": "Ranks countries within the region by category satisfaction.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-region-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Oceania countries."
+    },
+    {
+      "name": "water-region-scores",
+      "kind": "scalar-list",
+      "description": "water scores across Oceania countries."
+    },
+    {
+      "name": "shelter-region-scores",
+      "kind": "scalar-list",
+      "description": "shelter scores across Oceania countries."
+    },
+    {
+      "name": "health-region-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Oceania countries."
+    },
+    {
+      "name": "safety-region-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Oceania countries."
+    },
+    {
+      "name": "education-region-scores",
+      "kind": "scalar-list",
+      "description": "education scores across Oceania countries."
+    },
+    {
+      "name": "work-region-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Oceania countries."
+    },
+    {
+      "name": "energy-region-scores",
+      "kind": "scalar-list",
+      "description": "energy scores across Oceania countries."
+    },
+    {
+      "name": "mobility-region-scores",
+      "kind": "scalar-list",
+      "description": "mobility scores across Oceania countries."
+    },
+    {
+      "name": "communications-region-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Oceania countries."
+    },
+    {
+      "name": "governance-region-scores",
+      "kind": "scalar-list",
+      "description": "governance scores across Oceania countries."
+    },
+    {
+      "name": "environment-region-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Oceania countries."
+    },
+    {
+      "name": "belonging-region-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Oceania countries."
+    },
+    {
+      "name": "meaning-region-scores",
+      "kind": "scalar-list",
+      "description": "meaning scores across Oceania countries."
+    },
+    {
+      "name": "agency-region-scores",
+      "kind": "scalar-list",
+      "description": "agency scores across Oceania countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "region-needs-vector",
+      "kind": "vector",
+      "description": "Region-level satisfaction vector across categories."
+    },
+    {
+      "name": "region-ranking",
+      "kind": "ranking",
+      "description": "Within-region ranking on each category."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Oceania"
+    },
+    {
+      "key": "country-count",
+      "value": "47"
+    },
+    {
+      "key": "categories",
+      "value": "food, water, shelter, health, safety, education, work, energy, mobility, communications, governance, environment, belonging, meaning, agency"
+    }
+  ],
+  "references": [
+    {
+      "label": "UN geoscheme",
+      "kind": "url",
+      "location": "https://unstats.un.org/unsd/methodology/m49/"
+    },
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.american-samoa",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: american-samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.australia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: australia"
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: baker-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.chile",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: chile"
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: clipperton-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: colombia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: cook-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: coral-sea-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: costa-rica"
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: ecuador"
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: el-salvador"
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: fiji"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: french-polynesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.guam",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guam"
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: guatemala"
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: honduras"
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: howland-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: jarvis-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: johnston-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kingman-reef"
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: kiribati"
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: marshall-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: mexico"
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: micronesia-federated-states-of"
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: midway-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: nauru"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: new-caledonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: new-zealand"
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: nicaragua"
+    },
+    {
+      "target_model_id": "global.10B.countries.niue",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: niue"
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: norfolk-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: northern-mariana-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.palau",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: palau"
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: palmyra-atoll"
+    },
+    {
+      "target_model_id": "global.10B.countries.panama",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: panama"
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: papua-new-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.peru",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: peru"
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: pitcairn-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: samoa"
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: solomon-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tokelau"
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tonga"
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: tuvalu"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: united-states"
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: vanuatu"
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: wake-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna",
+      "kind": "consumes_from",
+      "note": "Per-country rollup: wallis-and-futuna"
+    },
+    {
+      "target_model_id": "global.10B",
+      "kind": "consumes_from",
+      "note": "Top-level 10B model rolls regions up into the global view."
+    }
+  ]
+}

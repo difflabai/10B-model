@@ -1,0 +1,56 @@
+{
+  "country": "Serbia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.6666666666666666,
+  "indicators_scored": 4,
+  "indicators_total": 6,
+  "composite_score": 0.7956,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5625
+    }
+  ],
+  "embedding": [
+    0.79563,
+    0.66667,
+    0.85,
+    0.92,
+    -0.88312,
+    -0.04509,
+    -0.15828,
+    0.66085,
+    0.54195,
+    0.02513,
+    -0.28795,
+    -0.52895,
+    0.84182,
+    -0.6116,
+    -0.80694,
+    0.95599
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Peru",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Armed Forces of Peru (Fuerzas Armadas del Perú or FAP): Peruvian Army (Ejercito del Peru), Peruvian Navy (Marina de Guerra del Peru, MGP, includes naval infantry and Coast Guard), Air Force of Peru (Fuerza Aerea del Peru, FAP)Ministry of the Interior (Ministerio del Interior): Peruvian National Police (Policía Nacional del Perú, PNP) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "1% of GDP (2023 est.)1.1% of GDP (2022 est.)1.1% of GDP (2021 est.)1.2% of GDP (2020 est.)1.2% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "1,542,004 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

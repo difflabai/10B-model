@@ -1,0 +1,44 @@
+{
+  "country": "Northern Mariana Islands",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$24,500 (2016 est.)$18,400 (2015 est.)$16,600 (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "16.64% (2022 est.)4.97% (2021 est.)-29.68% (2020 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "0.3% (2016 est.)0.1% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.42857142857142855
+}

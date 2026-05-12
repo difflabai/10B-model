@@ -1,0 +1,56 @@
+{
+  "country": "Gaza Strip",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.5,
+  "indicators_scored": 3,
+  "indicators_total": 6,
+  "composite_score": 0.765,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": null
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": null
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.87
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.775
+    }
+  ],
+  "embedding": [
+    0.765,
+    0.5,
+    0.87,
+    0.65,
+    -0.12834,
+    0.41949,
+    -0.00694,
+    0.34749,
+    0.95657,
+    -0.84533,
+    0.81717,
+    0.40853,
+    0.7453,
+    -0.87912,
+    -0.84692,
+    -0.4753
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

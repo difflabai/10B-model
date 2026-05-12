@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.afghanistan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Afghanistan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.afghanistan.food",
+        "global.10B.countries.afghanistan.water",
+        "global.10B.countries.afghanistan.shelter",
+        "global.10B.countries.afghanistan.health",
+        "global.10B.countries.afghanistan.safety",
+        "global.10B.countries.afghanistan.education",
+        "global.10B.countries.afghanistan.work",
+        "global.10B.countries.afghanistan.energy",
+        "global.10B.countries.afghanistan.mobility",
+        "global.10B.countries.afghanistan.communications",
+        "global.10B.countries.afghanistan.governance",
+        "global.10B.countries.afghanistan.environment",
+        "global.10B.countries.afghanistan.belonging",
+        "global.10B.countries.afghanistan.meaning",
+        "global.10B.countries.afghanistan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

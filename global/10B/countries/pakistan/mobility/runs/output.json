@@ -1,0 +1,72 @@
+{
+  "country": "Pakistan",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.6039,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.6428
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.7758
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7036
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6811
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5959
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.536
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.3
+    }
+  ],
+  "embedding": [
+    0.6039,
+    0.9,
+    0.6428,
+    0.7758,
+    0.13021,
+    -0.33681,
+    0.05623,
+    0.0381,
+    0.21587,
+    0.23861,
+    0.72546,
+    -0.65945,
+    0.91501,
+    -0.02254,
+    0.25347,
+    0.03877
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

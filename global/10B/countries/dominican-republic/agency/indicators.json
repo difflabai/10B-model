@@ -1,0 +1,39 @@
+{
+  "country": "Dominican Republic",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal and compulsory; married persons regardless of age can vote; note - members of the armed forces and national police by law cannot vote",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Democracy or APDBroad Front (Frente Amplio)Country Alliance or APDominican Liberation Party or PLDDominican Revolutionary Party or PRDDominicans For Change or DXCIndependent Revolutionary Party or PRIInstitutional Social Democratic Bloc or BISLiberal Reformist Party or PRL (formerly the Liberal Party of the Dominican Republic or PLRD)Modern Revolutionary Party or PRMNational Progressive Front or FNPPeople's First Party or PPGPeople's Force or FPSocial Christian Reformist Party or PRSC",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "84% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "combination of state-owned and privately owned broadcast media; 1 state-owned TV network and a number of private TV networks; networks operate repeaters to extend signals throughout country; combination of state-owned and privately owned radio stations with more than 300 radio stations operating (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

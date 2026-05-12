@@ -1,0 +1,39 @@
+{
+  "country": "Ukraine",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Dunay (Danube) (shared with Germany [s], Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Moldova, and Romania [m]) - 2,888 km; Dnipro (Dnieper) river mouth (shared with Russia [s] and Belarus) - 2,287 km; Dnister (Dniester) river source and mouth (shared with Moldova) - 1,411 km; Vistula (shared with Poland [s/m] and Belarus) - 1,213 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: (Black Sea) Danube (795,656 sq km), Don (458,694 sq km), Dnieper (533,966 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate continental; Mediterranean only on the southern Crimean coast; precipitation disproportionately distributed, highest in west and north, lesser in east and southeast; winters vary from cool along the Black Sea to cold farther inland; warm summers across the greater part of the country, hot in the south",
+      "present": true
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

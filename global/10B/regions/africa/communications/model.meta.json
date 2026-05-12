@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.communications",
+  "name": "Africa — Communications and connectivity",
+  "kind": "sector_economic",
+  "blurb": "Region-level communications and connectivity for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country communications models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "communications-country-scores",
+      "kind": "scalar-list",
+      "description": "communications scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "communications-region-mean",
+      "kind": "scalar",
+      "description": "Mean communications score across the region."
+    },
+    {
+      "name": "communications-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Communications and connectivity"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.communications",
+      "kind": "consumes_from",
+      "note": "Country-level communications for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.communications",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

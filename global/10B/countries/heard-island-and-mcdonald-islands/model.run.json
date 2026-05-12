@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.heard-island-and-mcdonald-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Heard Island and McDonald Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.heard-island-and-mcdonald-islands.food",
+        "global.10B.countries.heard-island-and-mcdonald-islands.water",
+        "global.10B.countries.heard-island-and-mcdonald-islands.shelter",
+        "global.10B.countries.heard-island-and-mcdonald-islands.health",
+        "global.10B.countries.heard-island-and-mcdonald-islands.safety",
+        "global.10B.countries.heard-island-and-mcdonald-islands.education",
+        "global.10B.countries.heard-island-and-mcdonald-islands.work",
+        "global.10B.countries.heard-island-and-mcdonald-islands.energy",
+        "global.10B.countries.heard-island-and-mcdonald-islands.mobility",
+        "global.10B.countries.heard-island-and-mcdonald-islands.communications",
+        "global.10B.countries.heard-island-and-mcdonald-islands.governance",
+        "global.10B.countries.heard-island-and-mcdonald-islands.environment",
+        "global.10B.countries.heard-island-and-mcdonald-islands.belonging",
+        "global.10B.countries.heard-island-and-mcdonald-islands.meaning",
+        "global.10B.countries.heard-island-and-mcdonald-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

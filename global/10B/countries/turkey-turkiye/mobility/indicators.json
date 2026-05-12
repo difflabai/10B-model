@@ -1,0 +1,59 @@
+{
+  "country": "Turkey (Turkiye)",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "68,526 km (2023)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "24,082 km (2018) (includes 2,159 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "43,251 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "115 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "213 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "14,666 km gas, 3,293 km oil (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,200 km (2010)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "11,497 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "115,595,495 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "5,949,210,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

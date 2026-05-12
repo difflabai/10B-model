@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.norfolk-island",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Norfolk Island"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.norfolk-island.food",
+        "global.10B.countries.norfolk-island.water",
+        "global.10B.countries.norfolk-island.shelter",
+        "global.10B.countries.norfolk-island.health",
+        "global.10B.countries.norfolk-island.safety",
+        "global.10B.countries.norfolk-island.education",
+        "global.10B.countries.norfolk-island.work",
+        "global.10B.countries.norfolk-island.energy",
+        "global.10B.countries.norfolk-island.mobility",
+        "global.10B.countries.norfolk-island.communications",
+        "global.10B.countries.norfolk-island.governance",
+        "global.10B.countries.norfolk-island.environment",
+        "global.10B.countries.norfolk-island.belonging",
+        "global.10B.countries.norfolk-island.meaning",
+        "global.10B.countries.norfolk-island.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Uruguay",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8075,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.9
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    }
+  ],
+  "embedding": [
+    0.8075,
+    0.83333,
+    0.85,
+    0.85,
+    -0.59814,
+    0.8725,
+    0.45995,
+    0.25212,
+    -0.9541,
+    0.21172,
+    -0.58444,
+    0.84091,
+    0.86621,
+    0.39474,
+    -0.96115,
+    -0.58239
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

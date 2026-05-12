@@ -1,0 +1,56 @@
+{
+  "country": "Bangladesh",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6594,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.4929
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.354
+    }
+  ],
+  "embedding": [
+    0.65937,
+    0.83333,
+    0.85,
+    0.75,
+    -0.48037,
+    -0.90637,
+    0.57879,
+    -0.23574,
+    -0.44521,
+    -0.56567,
+    0.01485,
+    0.56609,
+    0.92322,
+    -0.32467,
+    0.81936,
+    0.6058
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

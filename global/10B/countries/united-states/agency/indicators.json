@@ -1,0 +1,39 @@
+{
+  "country": "United States",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic PartyGreen PartyLibertarian PartyRepublican Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "97% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "4 major terrestrial TV networks with affiliate stations throughout the country, plus cable and satellite networks, independent stations, and a limited public broadcasting sector that is largely supported by private grants; overall, thousands of TV stations broadcasting; multiple national radio networks with many affiliate stations; while most stations are commercial, National Public Radio (NPR) has a network of some 900 member stations; satellite radio available; in total, over 15,000 radio stations operating (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.1% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

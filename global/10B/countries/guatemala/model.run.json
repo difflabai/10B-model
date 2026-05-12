@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.guatemala",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Guatemala"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.guatemala.food",
+        "global.10B.countries.guatemala.water",
+        "global.10B.countries.guatemala.shelter",
+        "global.10B.countries.guatemala.health",
+        "global.10B.countries.guatemala.safety",
+        "global.10B.countries.guatemala.education",
+        "global.10B.countries.guatemala.work",
+        "global.10B.countries.guatemala.energy",
+        "global.10B.countries.guatemala.mobility",
+        "global.10B.countries.guatemala.communications",
+        "global.10B.countries.guatemala.governance",
+        "global.10B.countries.guatemala.environment",
+        "global.10B.countries.guatemala.belonging",
+        "global.10B.countries.guatemala.meaning",
+        "global.10B.countries.guatemala.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

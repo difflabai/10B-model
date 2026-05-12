@@ -1,0 +1,44 @@
+{
+  "country": "Jamaica",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "common law system based on the English model",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous (preindependence); latest drafted 1961-62, submitted to British Parliament 24 July 1962, entered into force 6 August 1962 (at independence)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King CHARLES III (since 8 September 2022); represented by Governor General Sir Patrick L. ALLEN (since 26 February 2009)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-15, G-77, IADB, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, ISO, ITSO, ITU, LAES, MIGA, NAM, OAS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UNITAR, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

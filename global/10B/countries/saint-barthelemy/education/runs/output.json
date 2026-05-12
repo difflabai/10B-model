@@ -1,0 +1,52 @@
+{
+  "country": "Saint Barthelemy",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.4,
+  "indicators_scored": 2,
+  "indicators_total": 5,
+  "composite_score": 0.65,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": null
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": null
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.65,
+    0.4,
+    0.55,
+    0.75,
+    -0.68054,
+    -0.61053,
+    -0.58584,
+    -0.98956,
+    -0.13637,
+    -0.92856,
+    -0.6965,
+    -0.29415,
+    -0.5035,
+    -0.97467,
+    0.96188,
+    0.86368
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

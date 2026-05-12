@@ -1,0 +1,118 @@
+{
+  "id": "global.10B.regions.polar.belonging",
+  "name": "Polar / extra-territorial — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "Region-level belonging and social cohesion for Polar / extra-territorial, aggregated across 10 countries.",
+  "mechanism": "Aggregates the per-country belonging models for the 10 Polar / extra-territorial countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Polar / extra-territorial countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-region-mean",
+      "kind": "scalar",
+      "description": "Mean belonging score across the region."
+    },
+    {
+      "name": "belonging-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Polar / extra-territorial"
+    },
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "country-count",
+      "value": "10"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.akrotiri.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for akrotiri"
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for antarctica"
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for canada"
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for dhekelia"
+    },
+    {
+      "target_model_id": "global.10B.countries.france.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for france"
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for french-southern-and-antarctic-lands"
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for greenland"
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for heard-island-and-mcdonald-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for russia"
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for svalbard"
+    },
+    {
+      "target_model_id": "global.10B.regions.polar",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.belonging",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

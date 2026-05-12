@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.mobility",
+  "name": "World — Mobility and transportation",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **mobility and transportation** across 257 countries — the cross-country slice of the 10B model along the mobility dimension.",
+  "mechanism": "Aggregates the per-country mobility models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the mobility dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Mobility and transportation world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Mobility and transportation country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Mobility and transportation macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "mobility-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for mobility and transportation."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mobility-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for mobility and transportation."
+    },
+    {
+      "name": "mobility-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on mobility and transportation."
+    },
+    {
+      "name": "mobility-macro-embedding",
+      "kind": "embedding",
+      "description": "Mobility and transportation contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Mobility and transportation"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "MaxNeef:participation, SDG-9",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.mobility",
+      "kind": "consumes_from",
+      "note": "Per-country mobility model."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.antarctica",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Antarctica"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.antarctica.food",
+        "global.10B.countries.antarctica.water",
+        "global.10B.countries.antarctica.shelter",
+        "global.10B.countries.antarctica.health",
+        "global.10B.countries.antarctica.safety",
+        "global.10B.countries.antarctica.education",
+        "global.10B.countries.antarctica.work",
+        "global.10B.countries.antarctica.energy",
+        "global.10B.countries.antarctica.mobility",
+        "global.10B.countries.antarctica.communications",
+        "global.10B.countries.antarctica.governance",
+        "global.10B.countries.antarctica.environment",
+        "global.10B.countries.antarctica.belonging",
+        "global.10B.countries.antarctica.meaning",
+        "global.10B.countries.antarctica.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

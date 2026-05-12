@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.liechtenstein",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Liechtenstein"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.liechtenstein.food",
+        "global.10B.countries.liechtenstein.water",
+        "global.10B.countries.liechtenstein.shelter",
+        "global.10B.countries.liechtenstein.health",
+        "global.10B.countries.liechtenstein.safety",
+        "global.10B.countries.liechtenstein.education",
+        "global.10B.countries.liechtenstein.work",
+        "global.10B.countries.liechtenstein.energy",
+        "global.10B.countries.liechtenstein.mobility",
+        "global.10B.countries.liechtenstein.communications",
+        "global.10B.countries.liechtenstein.governance",
+        "global.10B.countries.liechtenstein.environment",
+        "global.10B.countries.liechtenstein.belonging",
+        "global.10B.countries.liechtenstein.meaning",
+        "global.10B.countries.liechtenstein.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

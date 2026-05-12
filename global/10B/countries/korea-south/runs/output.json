@@ -1,0 +1,47 @@
+{
+  "country": "korea-south",
+  "category_scores": {
+    "agency": 0.82,
+    "belonging": 0.6397,
+    "communications": 0.7798,
+    "education": 0.7536,
+    "energy": 0.553,
+    "environment": 0.557,
+    "food": 0.6209,
+    "governance": 0.7714,
+    "health": 0.862,
+    "meaning": 0.59,
+    "mobility": 0.6823,
+    "safety": 0.685,
+    "shelter": 0.726,
+    "water": 0.65,
+    "work": 0.7572
+  },
+  "country_score": 0.6965,
+  "tier_scores": {
+    "subsistence": 0.7088,
+    "development": 0.7052,
+    "agency": 0.6756
+  },
+  "country_embedding": [
+    0.69652,
+    0.8453,
+    0.74183,
+    0.62147,
+    -0.18068,
+    -0.04032,
+    0.13055,
+    -0.1108,
+    -0.1765,
+    -0.01971,
+    -0.10459,
+    -0.17176,
+    0.20156,
+    -0.33666,
+    -0.34076,
+    0.11332
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Korea South, the three needs areas with the largest gaps are: energy (0.55), environment (0.56), meaning (0.59).\nThe three strongest areas are: health (0.86), agency (0.82), communications (0.78).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

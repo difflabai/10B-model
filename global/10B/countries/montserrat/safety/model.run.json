@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.montserrat.safety",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Montserrat"
+    },
+    "category": {
+      "value": "safety"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "safety"
+    }
+  },
+  "output": "./runs/output.json"
+}

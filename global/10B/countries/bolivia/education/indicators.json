@@ -1,0 +1,34 @@
+{
+  "country": "Bolivia",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "92.5%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "9.8% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Spanish (official) 68.1%, Quechua (official) 17.2%, Aymara (official) 10.5%, Guarani (official) 0.6%, other 1.5%, unspecified 2.1%; note - Spanish and all Indigenous languages are official (2012 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": "La Libreta Informativa del Mundo, la fuente indispensable de información básica. (Spanish)The World Factbook, the indispensable source for basic information.",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

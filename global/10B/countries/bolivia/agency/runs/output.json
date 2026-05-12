@@ -1,0 +1,56 @@
+{
+  "country": "Bolivia",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.8066,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.7329
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.80657,
+    0.83333,
+    0.85,
+    0.75,
+    0.2961,
+    0.81888,
+    0.686,
+    0.30813,
+    0.24749,
+    0.09014,
+    -0.50631,
+    0.64105,
+    -0.49795,
+    -0.11342,
+    0.13057,
+    0.99649
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

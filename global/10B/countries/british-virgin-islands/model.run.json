@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.british-virgin-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "British Virgin Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.british-virgin-islands.food",
+        "global.10B.countries.british-virgin-islands.water",
+        "global.10B.countries.british-virgin-islands.shelter",
+        "global.10B.countries.british-virgin-islands.health",
+        "global.10B.countries.british-virgin-islands.safety",
+        "global.10B.countries.british-virgin-islands.education",
+        "global.10B.countries.british-virgin-islands.work",
+        "global.10B.countries.british-virgin-islands.energy",
+        "global.10B.countries.british-virgin-islands.mobility",
+        "global.10B.countries.british-virgin-islands.communications",
+        "global.10B.countries.british-virgin-islands.governance",
+        "global.10B.countries.british-virgin-islands.environment",
+        "global.10B.countries.british-virgin-islands.belonging",
+        "global.10B.countries.british-virgin-islands.meaning",
+        "global.10B.countries.british-virgin-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

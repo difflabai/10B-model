@@ -1,0 +1,39 @@
+{
+  "country": "Russia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "A Just Russia or SRZPCivic Platform or GPCommunist Party of the Russian Federation or KPRFLiberal Democratic Party of Russia or LDPRNew People NLParty of Growth PRRodinaUnited Russia ER",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "92% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "13 national TV stations with the federal government owning 1 and holding a controlling interest in a second; state-owned Gazprom maintains a controlling interest in 2 of the national channels; government-affiliated Bank Rossiya owns controlling interest in a fourth and fifth, while a sixth national channel is owned by the Moscow city administration; the Russian Orthodox Church and the Russian military, respectively, own 2 additional national channels; roughly 3,300 national, regional, and local TV stations with over two-thirds completely or partially controlled by the federal or local governments; satellite TV services are available; 2 state-run national radio networks with a third majority-owned by Gazprom; roughly 2,400 public and commercial radio stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

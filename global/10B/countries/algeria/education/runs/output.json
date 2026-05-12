@@ -1,0 +1,52 @@
+{
+  "country": "Algeria",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7849,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.7497
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.89
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": null
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.78492,
+    0.8,
+    0.7497,
+    0.89,
+    0.22896,
+    -0.25615,
+    -0.18807,
+    -0.06505,
+    -0.05028,
+    -0.36242,
+    0.55636,
+    0.88327,
+    0.68936,
+    -0.45745,
+    0.52483,
+    0.66796
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

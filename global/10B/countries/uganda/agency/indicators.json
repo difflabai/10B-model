@@ -1,0 +1,39 @@
+{
+  "country": "Uganda",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Party or DPForum for Democratic Change or FDCJustice Forum or JEEMANational Resistance Movement or NRMNational Unity PlatformPeople's Progressive Party or PPPUganda People's Congress or UPC",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "10% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "public broadcaster, Uganda Broadcasting Corporation (UBC), operates radio and TV networks; 31 Free-To-Air (FTA) TV stations, 2 digital terrestrial TV stations, 3 cable TV stations, and 5 digital satellite TV stations; 258 operational FM stations",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.7% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

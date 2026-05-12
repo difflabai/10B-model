@@ -1,0 +1,47 @@
+{
+  "country": "cyprus",
+  "category_scores": {
+    "agency": 0.8615,
+    "belonging": 0.6689,
+    "communications": 0.7625,
+    "education": 0.8348,
+    "energy": 0.56,
+    "environment": 0.5273,
+    "food": 0.587,
+    "governance": 0.7429,
+    "health": 0.7038,
+    "meaning": 0.67,
+    "mobility": 0.4206,
+    "safety": 0.61,
+    "shelter": 0.635,
+    "water": 0.65,
+    "work": 0.759
+  },
+  "country_score": 0.6662,
+  "tier_scores": {
+    "subsistence": 0.6372,
+    "development": 0.6674,
+    "agency": 0.6941
+  },
+  "country_embedding": [
+    0.66622,
+    0.79727,
+    0.73665,
+    0.62546,
+    0.2202,
+    0.2547,
+    -0.17273,
+    -0.25977,
+    -0.00606,
+    0.08109,
+    0.20129,
+    0.07317,
+    0.01517,
+    -0.24473,
+    0.02155,
+    -0.20927
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Cyprus, the three needs areas with the largest gaps are: mobility (0.42), environment (0.53), energy (0.56).\nThe three strongest areas are: agency (0.86), education (0.83), communications (0.76).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

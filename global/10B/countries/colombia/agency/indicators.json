@@ -1,0 +1,39 @@
+{
+  "country": "Colombia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alternative Democratic Pole or PDACitizens Option (Opcion Ciudadana) or OC (formerly known as the National Integration Party or PIN)The Commons (formerly People's Alternative Revolutionary Force or FARC)Conservative Party or PCDemocratic Center Party or CDFair and Free Colombia (Colombia Justa Libres)Green Alliance Historic Pact for Colombia or PHxC (coalition composed of several left-leaning political parties and social movements)Humane ColombiaIndependent Movement of Absolute Renovation or MIRALeague of Anti-Corruption Rulers or LIGALiberal Party or PLPeople's Alternative Revolutionary Force or FARCRadical Change or CRTeam for Colombia - also known as the Experience Coalition or Coalition of the Regions (coalition composed of center-right and right-wing parties)Union Party for the People or U PartyWe Believe Colombia or CREEMOS",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "73% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "combination of state-owned and privately owned broadcast media provide service; more than 500 radio stations and many national, regional, and local TV stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

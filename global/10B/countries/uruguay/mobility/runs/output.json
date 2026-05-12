@@ -1,0 +1,72 @@
+{
+  "country": "Uruguay",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.4877,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5185
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.3114
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.6
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4263
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.5989
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.3463
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": null
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.48768,
+    0.8,
+    0.5185,
+    0.3114,
+    -0.74804,
+    0.50237,
+    0.24147,
+    0.17986,
+    0.20433,
+    0.60839,
+    -0.61498,
+    0.62319,
+    -0.30126,
+    0.17562,
+    0.72552,
+    0.22893
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

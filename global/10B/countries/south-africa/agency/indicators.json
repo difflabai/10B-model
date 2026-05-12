@@ -1,0 +1,39 @@
+{
+  "country": "South Africa",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "African Christian Democratic Party or ACDP African Independent Congress or AIC African National Congress or ANC African People's Convention or APC Agang SA Congress of the People or COPE Democratic Alliance or DA Economic Freedom Fighters or EFF Freedom Front Plus or FF+ GOOD Inkatha Freedom Party or IFP National Freedom Party or NFP Pan-Africanist Congress of Azania or PAC United Christian Democratic Party or UCDP United Democratic Movement or UDM",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "75% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the South African Broadcasting Corporation (SABC) operates 6 free-to-air TV stations; e.tv, a private station, is accessible to more than half the population; multiple subscription TV services provide a mix of local and international channels; well-developed mix of public and private radio stations at the national, regional, and local levels; the SABC radio network, state-owned and controlled but nominally independent, operates 18 stations, one for each of the 11 official languages, 4 community stations, and 3 commercial stations; more than 100 community-based stations extend coverage to rural areas",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.6% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

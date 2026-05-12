@@ -1,0 +1,44 @@
+{
+  "country": "Holy See (Vatican City)",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "ecclesiastical elective monarchy; self-described as an \"absolute monarchy\"",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "religious legal system based on canon (religious) law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1929, 2000; latest issued by Pope FRANCIS 13 May 2023, effective 7 June 2023 (Fundamental Law of Vatican City State, the main governing document of the Vatican's civil entities); the Roman Curia is the administrative apparatus – the departments and ministries – used by the pontiff in governing the church; note - Pope Francis in October 2013, instituted a 9-member Council of Cardinal Advisers to reform the Roman Curia to include writing a new constitution; in June 2018, Pope Francis approved the Council of Cardinals' first draft of the new apostolic constitution, Predicate Evangelium (Preach the Gospel); it became effective 5 June 2022, replacing Pastor Bonus, the previous governing document of the Roman Curia",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "election of the pope is limited to cardinals less than 80 years old",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "Pope FRANCIS (since 13 March 2013)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "CE (observer), IAEA, Interpol, IOM, ITSO, ITU, ITUC (NGOs), OAS (observer), OPCW, OSCE, Schengen Convention (de facto member), UN (observer), UNCTAD, UNHCR, UNWTO (observer), UPU, WIPO, WTO (observer)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

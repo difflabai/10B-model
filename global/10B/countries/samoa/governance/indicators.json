@@ -1,0 +1,44 @@
+{
+  "country": "Samoa",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of English common law and customary law; judicial review of legislative acts with respect to fundamental rights of the citizen",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous (preindependence); latest 1 January 1962",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "21 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "TUIMALEALI'IFANO Va’aletoa Sualauvi II (since 21 July 2017)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ACP, ADB, AOSIS, C, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IPU, ITU, ITUC (NGOs), MIGA, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UPU, WCO, WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

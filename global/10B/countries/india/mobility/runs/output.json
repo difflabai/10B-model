@@ -1,0 +1,72 @@
+{
+  "country": "India",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 8,
+  "indicators_total": 10,
+  "composite_score": 0.8423,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.95
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": null
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7469
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.8595
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.7817
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.8624
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.838
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.84231,
+    0.8,
+    0.95,
+    0.7469,
+    0.87207,
+    -0.67706,
+    -0.26799,
+    -0.89639,
+    0.84558,
+    -0.13845,
+    -0.24211,
+    0.94397,
+    -0.89154,
+    -0.28948,
+    0.35995,
+    0.98474
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

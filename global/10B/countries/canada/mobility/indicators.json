@@ -1,0 +1,59 @@
+{
+  "country": "Canada",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "1,042,300 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "415,600 km (includes 17,000 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "626,700 km (2011)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "1,425 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "481 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "840,000 km oil and gas (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "636 km (2011) (Saint Lawrence Seaway of 3,769 km, including the Saint Lawrence River of 3,058 km, shared with United States)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "49,422 km (2021) note: 129 km electrified (2021)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "89.38 million (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "3,434,070,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

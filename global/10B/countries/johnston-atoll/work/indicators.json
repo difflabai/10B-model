@@ -1,0 +1,44 @@
+{
+  "country": "Johnston Atoll",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.0
+}

@@ -1,0 +1,39 @@
+{
+  "country": "Monaco",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Monegasque National Union (includes Horizon Monaco, Primo!, Union Monegasque)Horizon Monaco Priorite Monaco or Primo! Union Monegasque",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "98% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "TV Monte-Carlo operates a TV network; cable TV available; Radio Monte-Carlo has extensive radio networks in France and Italy with French-language broadcasts to France beginning in the 1960s and Italian-language broadcasts to Italy beginning in the 1970s; other radio stations include Riviera Radio and Radio Monaco",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "1.2% of GDP (2019 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

@@ -1,0 +1,44 @@
+{
+  "country": "Gaza Strip",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$5,300 (2023 est.)$5,800 (2022 est.)$5,700 (2021 est.)note: data in 2021 dollars; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "-5.41% (2023 est.)4.08% (2022 est.)7.01% (2021 est.)note: annual GDP % growth based on constant local currency; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "5.87% (2023 est.)3.74% (2022 est.)1.24% (2021 est.)note: annual % change based on consumer prices; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "1.391 million (2022 est.)note: number of people ages 15 or older who are employed or seeking work; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "24.42% (2022 est.)26.39% (2021 est.)25.9% (2020 est.)note: % of labor force seeking employment; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": "29.2% (2016 est.)note: % of population with income below national poverty line; entry includes West Bank and Gaza Strip",
+      "present": true
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": "33.7 (2016 est.)note: index (0-100) of income distribution; higher values represent greater inequality; entry includes West Bank and Gaza Strip",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

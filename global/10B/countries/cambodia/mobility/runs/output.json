@@ -1,0 +1,72 @@
+{
+  "country": "Cambodia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.5031,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5079
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.4231
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.4583
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.4
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": null
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.6922
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.2832
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5025
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.7111
+    }
+  ],
+  "embedding": [
+    0.50315,
+    0.9,
+    0.5079,
+    0.4231,
+    -0.57427,
+    -0.69174,
+    0.85321,
+    -0.18712,
+    -0.93433,
+    0.56332,
+    -0.09905,
+    -0.0602,
+    0.64535,
+    -0.07341,
+    0.91748,
+    -0.08617
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

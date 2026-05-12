@@ -1,0 +1,59 @@
+{
+  "country": "Mexico",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "704,884 km",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": "175,526 km (includes 10,845 km of expressways)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": "529,358 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "1,485 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "460 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "17,210 km natural gas (2022), 9,757 km oil (2017), 10,237 km refined products (2020)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "2,900 km (2012) (navigable rivers and coastal canals mostly connected with ports on the country's east coast)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "23,389 km (2017)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "64,569,640 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "1,090,380,000 (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

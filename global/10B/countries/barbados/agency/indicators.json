@@ -1,0 +1,39 @@
+{
+  "country": "Barbados",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance Party for Progress or APPBarbados Labor Party or BLPDemocratic Labor Party or DLP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "76% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government-owned Caribbean Broadcasting Corporation (CBC) operates the lone terrestrial TV station; CBC also operates a multi-channel cable TV subscription service; roughly a dozen radio stations, consisting of a CBC-operated network operating alongside privately owned radio stations (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.5% of GDP (2021 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

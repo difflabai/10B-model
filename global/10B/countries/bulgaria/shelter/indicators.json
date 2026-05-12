@@ -1,0 +1,34 @@
+{
+  "country": "Bulgaria",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "76.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.288 million SOFIA (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout most of the country, with urban areas attracting larger populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperate; cold, damp winters; hot, dry summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperate; cold, damp winters; hot, dry summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

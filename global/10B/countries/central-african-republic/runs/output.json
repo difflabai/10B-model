@@ -1,0 +1,47 @@
+{
+  "country": "central-african-republic",
+  "category_scores": {
+    "agency": 0.557,
+    "belonging": 0.6636,
+    "communications": 0.6577,
+    "education": 0.4103,
+    "energy": 0.4939,
+    "environment": 0.5113,
+    "food": 0.5324,
+    "governance": 0.7429,
+    "health": 0.3659,
+    "meaning": 0.63,
+    "mobility": 0.3998,
+    "safety": 0.61,
+    "shelter": 0.6405,
+    "water": 0.6833,
+    "work": 0.5142
+  },
+  "country_score": 0.5609,
+  "tier_scores": {
+    "subsistence": 0.5664,
+    "development": 0.4952,
+    "agency": 0.621
+  },
+  "country_embedding": [
+    0.56086,
+    0.81949,
+    0.50825,
+    0.50344,
+    0.0419,
+    0.01941,
+    -0.01399,
+    -0.13989,
+    -0.06466,
+    -0.10764,
+    0.22456,
+    -0.02806,
+    -0.04266,
+    -0.36061,
+    -0.06977,
+    0.01564
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Central African Republic, the three needs areas with the largest gaps are: health (0.37), mobility (0.40), education (0.41).\nThe three strongest areas are: governance (0.74), water (0.68), belonging (0.66).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

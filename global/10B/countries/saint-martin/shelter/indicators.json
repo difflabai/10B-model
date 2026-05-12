@@ -1,0 +1,34 @@
+{
+  "country": "Saint Martin",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "most of the population is found along the coast, with a largest concentrations around the capital Marigot, Orleans, and Grand-Case",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "temperature averages 27-29 degrees Celsius all year long; low humidity, gentle trade winds, brief, intense rain showers; hurricane season stretches from July to November",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "temperature averages 27-29 degrees Celsius all year long; low humidity, gentle trade winds, brief, intense rain showers; hurricane season stretches from July to November",
+      "present": true
+    }
+  ],
+  "coverage": 0.6
+}

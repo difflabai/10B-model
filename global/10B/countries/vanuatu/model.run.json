@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.vanuatu",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Vanuatu"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.vanuatu.food",
+        "global.10B.countries.vanuatu.water",
+        "global.10B.countries.vanuatu.shelter",
+        "global.10B.countries.vanuatu.health",
+        "global.10B.countries.vanuatu.safety",
+        "global.10B.countries.vanuatu.education",
+        "global.10B.countries.vanuatu.work",
+        "global.10B.countries.vanuatu.energy",
+        "global.10B.countries.vanuatu.mobility",
+        "global.10B.countries.vanuatu.communications",
+        "global.10B.countries.vanuatu.governance",
+        "global.10B.countries.vanuatu.environment",
+        "global.10B.countries.vanuatu.belonging",
+        "global.10B.countries.vanuatu.meaning",
+        "global.10B.countries.vanuatu.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

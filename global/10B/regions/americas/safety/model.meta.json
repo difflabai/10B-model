@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.safety",
+  "name": "Americas — Safety and protection from violence",
+  "kind": "sector_economic",
+  "blurb": "Region-level safety and protection from violence for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country safety models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "safety-country-scores",
+      "kind": "scalar-list",
+      "description": "safety scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "safety-region-mean",
+      "kind": "scalar",
+      "description": "Mean safety score across the region."
+    },
+    {
+      "name": "safety-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Safety and protection from violence"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.safety",
+      "kind": "consumes_from",
+      "note": "Country-level safety for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.safety",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

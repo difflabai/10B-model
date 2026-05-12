@@ -1,0 +1,47 @@
+{
+  "country": "west-bank",
+  "category_scores": {
+    "agency": 0.7983,
+    "belonging": 0.6563,
+    "communications": 0.6377,
+    "education": 0.768,
+    "energy": 0.5905,
+    "environment": 0.3778,
+    "food": 0.7074,
+    "governance": null,
+    "health": 0.6661,
+    "meaning": 0.7,
+    "mobility": 0.275,
+    "safety": 0.625,
+    "shelter": 0.6899,
+    "water": 0.7,
+    "work": 0.4972
+  },
+  "country_score": 0.6207,
+  "tier_scores": {
+    "subsistence": 0.6777,
+    "development": 0.5537,
+    "agency": 0.6331
+  },
+  "country_embedding": [
+    0.57929,
+    0.62955,
+    0.62717,
+    0.55645,
+    0.0786,
+    -0.12618,
+    -0.18403,
+    -0.29746,
+    -0.00888,
+    0.02865,
+    0.16548,
+    -0.00264,
+    -0.03491,
+    -0.02278,
+    -0.18428,
+    0.16114
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in West Bank, the three needs areas with the largest gaps are: mobility (0.28), environment (0.38), work (0.50).\nThe three strongest areas are: agency (0.80), education (0.77), food (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

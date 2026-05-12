@@ -1,0 +1,39 @@
+{
+  "country": "Algeria",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Algerian National Front or FNAAlgerian Popular Movement or MPAAlgeria's Hope Rally or TAJDignity or El KaramaEl-InfitahEl Mostakbal (Future Front)Ennour El Djazairi Party (Algerian Radiance Party) or PEDEquity and Proclamation Party or PEPIslamic Renaissance Movement or Ennahda MovementJustice and Development Front or FJDMovement for National Reform or El IslahMovement of Society for Peace or MSPNational Construction Movement or El-Bina (Harakat El-Binaa El-Watani)National Democratic Rally (Rassemblement National Democratique) or RNDNational Front for Social Justice or FNJSNational Liberation Front or FLNNational Militancy Front or FMNNational Party for Solidarity and Development or PNSDNational Republican Alliance or ANRNew Dawn Party (El-Fajr El-Jadid)New Generation (Jil Jadid)Oath of 1954 or Ahd 54Party of Justice and Liberty or PLJRally for Culture and Democracy or RCDSocialist Forces Front or FFSUnion for Change and Progress or UCPUnion of Democratic and Social Forces or UFDSVanguard of Liberties (Talaie El Hurriyet)Workers Party or PTYouth Party or PJ",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "71% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Radio Algerienne is the state-run radio broadcast, whereas the National Company of Television (Entreprise Nationale de Télévision (ENTV)) is the primary state-run public broadcasting TV station (2024)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

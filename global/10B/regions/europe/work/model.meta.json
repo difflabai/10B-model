@@ -1,0 +1,343 @@
+{
+  "id": "global.10B.regions.europe.work",
+  "name": "Europe — Work and economic capability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level work and economic capability for Europe, aggregated across 55 countries.",
+  "mechanism": "Aggregates the per-country work models for the 55 Europe countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "work-country-scores",
+      "kind": "scalar-list",
+      "description": "work scores across Europe countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "work-region-mean",
+      "kind": "scalar",
+      "description": "Mean work score across the region."
+    },
+    {
+      "name": "work-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Europe"
+    },
+    {
+      "key": "category",
+      "value": "Work and economic capability"
+    },
+    {
+      "key": "country-count",
+      "value": "55"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.albania.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for albania"
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for andorra"
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for armenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for austria"
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for azerbaijan"
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for belarus"
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for belgium"
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bosnia-and-herzegovina"
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for bulgaria"
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for croatia"
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for cyprus"
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for czechia"
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for denmark"
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for estonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for faroe-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for finland"
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for georgia"
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for germany"
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for gibraltar"
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for greece"
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for guernsey"
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for holy-see-vatican-city"
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for hungary"
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for iceland"
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ireland"
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for isle-of-man"
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for italy"
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for jan-mayen"
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for jersey"
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kazakhstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for kosovo"
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for latvia"
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for liechtenstein"
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for lithuania"
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for luxembourg"
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for malta"
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for moldova"
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for monaco"
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for montenegro"
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for netherlands"
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for north-macedonia"
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for norway"
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for poland"
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for portugal"
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for romania"
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for san-marino"
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for serbia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for slovakia"
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for slovenia"
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for spain"
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for sweden"
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for switzerland"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for turkey-turkiye"
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for ukraine"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.work",
+      "kind": "consumes_from",
+      "note": "Country-level work for united-kingdom"
+    },
+    {
+      "target_model_id": "global.10B.regions.europe",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.work",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

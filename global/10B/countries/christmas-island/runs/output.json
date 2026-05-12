@@ -1,0 +1,47 @@
+{
+  "country": "christmas-island",
+  "category_scores": {
+    "agency": 0.634,
+    "belonging": 0.7,
+    "communications": 0.7572,
+    "education": 0.75,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.375,
+    "governance": 0.6167,
+    "health": null,
+    "meaning": 0.675,
+    "mobility": 0.28,
+    "safety": null,
+    "shelter": 0.65,
+    "water": 0.65,
+    "work": null
+  },
+  "country_score": 0.5898,
+  "tier_scores": {
+    "subsistence": 0.5583,
+    "development": 0.5957,
+    "agency": 0.6051
+  },
+  "country_embedding": [
+    0.43252,
+    0.3484,
+    0.4024,
+    0.31667,
+    0.07778,
+    0.24745,
+    0.15427,
+    0.13149,
+    0.0928,
+    0.04861,
+    -0.14654,
+    -0.09357,
+    0.00818,
+    0.02072,
+    -0.16703,
+    -0.25647
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Christmas Island, the three needs areas with the largest gaps are: mobility (0.28), food (0.38), environment (0.40).\nThe three strongest areas are: communications (0.76), education (0.75), belonging (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

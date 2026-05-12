@@ -1,0 +1,323 @@
+{
+  "id": "global.10B.regions.asia.health",
+  "name": "Asia — Health and longevity",
+  "kind": "forecast_harness",
+  "blurb": "Region-level health and longevity for Asia, aggregated across 51 countries.",
+  "mechanism": "Aggregates the per-country health models for the 51 Asia countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "health-country-scores",
+      "kind": "scalar-list",
+      "description": "health scores across Asia countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "health-region-mean",
+      "kind": "scalar",
+      "description": "Mean health score across the region."
+    },
+    {
+      "name": "health-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Asia"
+    },
+    {
+      "key": "category",
+      "value": "Health and longevity"
+    },
+    {
+      "key": "country-count",
+      "value": "51"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for afghanistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for ashmore-and-cartier-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bahrain"
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bangladesh"
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for bhutan"
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for brunei"
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for burma"
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cambodia"
+    },
+    {
+      "target_model_id": "global.10B.countries.china.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for china"
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for christmas-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for cocos-keeling-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for gaza-strip"
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for hong-kong"
+    },
+    {
+      "target_model_id": "global.10B.countries.india.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for india"
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for indonesia"
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for iran"
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for iraq"
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for israel"
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for japan"
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for jordan"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for korea-north"
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for korea-south"
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kuwait"
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for kyrgyzstan"
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for laos"
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for lebanon"
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for macau"
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for malaysia"
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for maldives"
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for mongolia"
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for nepal"
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for oman"
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for pakistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for paracel-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for philippines"
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for qatar"
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for saudi-arabia"
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for singapore"
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for spratly-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for sri-lanka"
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for syria"
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for taiwan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for tajikistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for thailand"
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for timor-leste"
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for turkmenistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for united-arab-emirates"
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for uzbekistan"
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for vietnam"
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for west-bank"
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.health",
+      "kind": "consumes_from",
+      "note": "Country-level health for yemen"
+    },
+    {
+      "target_model_id": "global.10B.regions.asia",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.health",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

@@ -1,0 +1,1369 @@
+{
+  "id": "global.10B.categories.education",
+  "name": "World — Education and learning",
+  "kind": "sector_economic",
+  "blurb": "World rollup for **education and learning** across 257 countries — the cross-country slice of the 10B model along the education dimension.",
+  "mechanism": "Aggregates the per-country education models into a population-weighted world mean, a country-level ranking with confidence intervals, and a macro-space embedding feeding the unsupervised dynamics model.\n\nThis is the supervised trajectory's primary anchor for the education dimension: holdout datasets of sociodemographic characteristics are predicted via the per-country models and validated against the world mean and ranking produced here.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Education and learning world aggregator",
+      "role": "Aggregates per-country category scores by population-weighted mean.",
+      "crate_path": null,
+      "key_symbols": [
+        "population_weighted_mean"
+      ]
+    },
+    {
+      "id": "ranker",
+      "name": "Education and learning country ranker",
+      "role": "Ranks countries by category satisfaction with confidence intervals.",
+      "crate_path": null,
+      "key_symbols": [
+        "rank_with_ci"
+      ]
+    },
+    {
+      "id": "macro-embedder",
+      "name": "Education and learning macro-embedder",
+      "role": "Produces a 16-dim global category embedding for the unsupervised macro-space.",
+      "crate_path": null,
+      "key_symbols": [
+        "embed_macro"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "education-country-scores",
+      "kind": "scalar-list",
+      "description": "Per-country satisfaction scores for education and learning."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "education-world-mean",
+      "kind": "scalar",
+      "description": "Population-weighted world mean for education and learning."
+    },
+    {
+      "name": "education-country-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking on education and learning."
+    },
+    {
+      "name": "education-macro-embedding",
+      "kind": "embedding",
+      "description": "Education and learning contribution to the global 10B macro-space embedding."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "category",
+      "value": "Education and learning"
+    },
+    {
+      "key": "countries-covered",
+      "value": "257"
+    },
+    {
+      "key": "frameworks",
+      "value": "MaxNeef:understanding, DoyalGough:autonomy, SDG-4",
+      "description": "Theoretical frameworks the category draws from."
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.afghanistan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.akrotiri.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.albania.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.algeria.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.american-samoa.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.andorra.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.anguilla.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antarctica.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.armenia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ashmore-and-cartier-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.australia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.austria.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.azerbaijan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bahrain.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.baker-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bangladesh.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belarus.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belgium.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bhutan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bosnia-and-herzegovina.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.brunei.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.bulgaria.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burma.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cambodia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.canada.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.chile.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.christmas-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.clipperton-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cocos-keeling-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.colombia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cook-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.coral-sea-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.costa-rica.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.croatia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.cyprus.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.czechia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.denmark.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dhekelia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ecuador.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.el-salvador.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.estonia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.faroe-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.fiji.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.finland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.france.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-polynesia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.french-southern-and-antarctic-lands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gaza-strip.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.georgia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.germany.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.gibraltar.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greece.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.greenland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guam.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guatemala.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guernsey.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.heard-island-and-mcdonald-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.holy-see-vatican-city.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.honduras.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hong-kong.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.howland-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.hungary.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iceland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.india.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.indonesia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iran.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.iraq.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ireland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.isle-of-man.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.israel.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.italy.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jan-mayen.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.japan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jarvis-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jersey.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.johnston-atoll.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.jordan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kazakhstan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kingman-reef.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kiribati.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-north.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.korea-south.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kosovo.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kuwait.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.kyrgyzstan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.laos.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.latvia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lebanon.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.liechtenstein.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.lithuania.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.luxembourg.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.macau.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malaysia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.maldives.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.malta.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.marshall-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mexico.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.micronesia-federated-states-of.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.midway-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.moldova.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.monaco.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mongolia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montenegro.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nauru.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nepal.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.netherlands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-caledonia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.new-zealand.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nicaragua.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.niue.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norfolk-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.north-macedonia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.northern-mariana-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.norway.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.oman.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pakistan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palau.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.palmyra-atoll.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.panama.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.papua-new-guinea.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paracel-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.peru.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.philippines.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.pitcairn-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.poland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.portugal.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.qatar.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.romania.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.russia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.samoa.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.san-marino.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.saudi-arabia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.serbia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.singapore.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovakia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.slovenia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.solomon-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spain.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.spratly-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sri-lanka.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.svalbard.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.sweden.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.switzerland.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.syria.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.taiwan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tajikistan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.thailand.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.timor-leste.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tokelau.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tonga.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkey-turkiye.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turkmenistan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.tuvalu.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.ukraine.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-arab-emirates.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-kingdom.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.uzbekistan.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vanuatu.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.vietnam.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wake-island.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.wallis-and-futuna.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.west-bank.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.yemen.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.education",
+      "kind": "consumes_from",
+      "note": "Per-country education model."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "country": "Indonesia",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 10,
+  "indicators_total": 10,
+  "composite_score": 0.7499,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.7977
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.8069
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7918
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6544
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.75
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": 0.8053
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.5711
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.8217
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.74989,
+    1.0,
+    0.7977,
+    0.8069,
+    0.84601,
+    -0.31719,
+    -0.40749,
+    0.99741,
+    -0.46847,
+    -0.96777,
+    0.18853,
+    0.07045,
+    -0.59963,
+    -0.36205,
+    0.20421,
+    0.45721
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

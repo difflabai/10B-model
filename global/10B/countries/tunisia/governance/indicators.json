@@ -1,0 +1,44 @@
+{
+  "country": "Tunisia",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary republic",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of civil law, based on the French civil code and Islamic (sharia) law; some judicial review of legislative acts in the Supreme Court in joint session",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "several previous; latest - draft published by the president 30 June 2022, approved by referendum 25 July 2022, and adopted 27 July 2022",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal except for active government security forces (including the police and the military), people with mental disabilities, people who have served more than three months in prison (criminal cases only), and people given a suspended sentence of more than six months",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Kais SAIED (since 23 October 2019)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": "has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction",
+      "present": true
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "ABEDA, AfDB, AFESD, AIIB, AMF, AMU, AU, BSEC (observer), CAEU, CD, EBRD, FAO, G-11, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MONUSCO, NAM, OAS (observer), OIC, OIF, OPCW, OSCE (partner), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

@@ -1,0 +1,47 @@
+{
+  "country": "maldives",
+  "category_scores": {
+    "agency": 0.8016,
+    "belonging": 0.615,
+    "communications": 0.6807,
+    "education": 0.8095,
+    "energy": 0.521,
+    "environment": 0.4789,
+    "food": 0.6803,
+    "governance": 0.7143,
+    "health": 0.6448,
+    "meaning": 0.61,
+    "mobility": 0.3352,
+    "safety": 0.85,
+    "shelter": 0.6392,
+    "water": 0.65,
+    "work": 0.8027
+  },
+  "country_score": 0.6555,
+  "tier_scores": {
+    "subsistence": 0.6929,
+    "development": 0.6298,
+    "agency": 0.644
+  },
+  "country_embedding": [
+    0.65554,
+    0.78325,
+    0.71273,
+    0.54491,
+    -0.13784,
+    0.01813,
+    0.12429,
+    -0.06193,
+    0.03241,
+    -0.06147,
+    -0.04897,
+    -0.05472,
+    -0.16494,
+    -0.00877,
+    0.02701,
+    -0.36337
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Maldives, the three needs areas with the largest gaps are: mobility (0.34), environment (0.48), energy (0.52).\nThe three strongest areas are: safety (0.85), education (0.81), work (0.80).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

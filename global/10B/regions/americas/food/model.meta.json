@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.food",
+  "name": "Americas — Food and nutrition",
+  "kind": "sector_economic",
+  "blurb": "Region-level food and nutrition for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country food models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "food-country-scores",
+      "kind": "scalar-list",
+      "description": "food scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "food-region-mean",
+      "kind": "scalar",
+      "description": "Mean food score across the region."
+    },
+    {
+      "name": "food-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Food and nutrition"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.food",
+      "kind": "consumes_from",
+      "note": "Country-level food for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.food",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

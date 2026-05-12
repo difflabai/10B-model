@@ -1,0 +1,39 @@
+{
+  "country": "Palau",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "none",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "37.2% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no broadcast TV stations; a cable TV network covers the major islands and provides access to 4 local cable stations, rebroadcasts (on a delayed basis) of a number of US stations, as well as access to a number of real-time satellite TV channels; about a half dozen radio stations (1 government-owned) (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "6.8% of GDP (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

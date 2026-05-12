@@ -1,0 +1,34 @@
+{
+  "country": "Slovenia",
+  "category": "food",
+  "label": "Food and nutrition",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Food insecurity - severe localized food insecurity",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Agricultural products",
+      "value": "milk, maize, wheat, barley, grapes, chicken, potatoes, beef, apples, pork (2023)note: top ten agricultural products based on tonnage",
+      "present": true
+    },
+    {
+      "field": "Environment: Land use - agricultural land",
+      "value": "22.8% (2018 est.)agricultural land: arable land: 8.4% (2018 est.)agricultural land: permanent crops: 1.3% (2018 est.)agricultural land: permanent pasture: 13.1% (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: GDP - composition, by sector of origin - agriculture",
+      "value": "1.5% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population - total",
+      "value": "2,097,893",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

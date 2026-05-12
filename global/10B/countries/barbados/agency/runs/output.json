@@ -1,0 +1,56 @@
+{
+  "country": "Barbados",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.774,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.65
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.76
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.86
+    }
+  ],
+  "embedding": [
+    0.774,
+    0.83333,
+    0.85,
+    0.65,
+    -0.83398,
+    -0.95541,
+    0.17302,
+    0.77832,
+    -0.88156,
+    -0.06175,
+    0.87869,
+    0.61083,
+    -0.74636,
+    0.84607,
+    -0.74774,
+    0.32564
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

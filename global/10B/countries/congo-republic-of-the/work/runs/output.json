@@ -1,0 +1,60 @@
+{
+  "country": "Congo, Republic of the",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 0.7142857142857143,
+  "indicators_scored": 5,
+  "indicators_total": 7,
+  "composite_score": 0.5458,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.43
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.641
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.7583
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.2495
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": null
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.54577,
+    0.71429,
+    0.43,
+    0.641,
+    -0.78729,
+    0.35546,
+    -0.58233,
+    0.394,
+    -0.12566,
+    0.95315,
+    0.21413,
+    -0.93799,
+    0.36178,
+    0.55248,
+    0.63659,
+    0.51437
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

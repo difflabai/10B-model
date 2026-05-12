@@ -1,0 +1,64 @@
+{
+  "country": "Niger",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "56 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "14.2 million (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "58,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "17% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2022 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "14,000 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Niger is one of the largest countries in West Africa but also one of the poorest in the world; as with many African markets, a lack of fixed telecoms infrastructure has led to growth in mobile services; Niger’s mobile penetration is modest compared to other countries in the region, while fixed broadband penetration is negligible; recent international investment to complete the Trans-Saharan Dorsal optical fiber (SDR) network has extended the reach of fiber infrastructure in the country, and also increased international capacity; new cables linking the country with Chad and Burkina Faso have extended Niger’s connectivity with international cable infrastructure (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line less than 1 per 100 persons and mobile-cellular at nearly 56 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 227; satellite earth stations - 2 Intelsat (1 Atlantic Ocean and 1 Indian Ocean)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run TV station; 3 private TV stations provide a mix of local and foreign programming; state-run radio has only radio station with national coverage; about 30 private radio stations operate locally; as many as 100 community radio stations broadcast; transmissions of multiple international broadcasters are available",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

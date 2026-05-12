@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.macau",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Macau"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.macau.food",
+        "global.10B.countries.macau.water",
+        "global.10B.countries.macau.shelter",
+        "global.10B.countries.macau.health",
+        "global.10B.countries.macau.safety",
+        "global.10B.countries.macau.education",
+        "global.10B.countries.macau.work",
+        "global.10B.countries.macau.energy",
+        "global.10B.countries.macau.mobility",
+        "global.10B.countries.macau.communications",
+        "global.10B.countries.macau.governance",
+        "global.10B.countries.macau.environment",
+        "global.10B.countries.macau.belonging",
+        "global.10B.countries.macau.meaning",
+        "global.10B.countries.macau.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

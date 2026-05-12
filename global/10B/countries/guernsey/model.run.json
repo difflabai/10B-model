@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.guernsey",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Guernsey"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.guernsey.food",
+        "global.10B.countries.guernsey.water",
+        "global.10B.countries.guernsey.shelter",
+        "global.10B.countries.guernsey.health",
+        "global.10B.countries.guernsey.safety",
+        "global.10B.countries.guernsey.education",
+        "global.10B.countries.guernsey.work",
+        "global.10B.countries.guernsey.energy",
+        "global.10B.countries.guernsey.mobility",
+        "global.10B.countries.guernsey.communications",
+        "global.10B.countries.guernsey.governance",
+        "global.10B.countries.guernsey.environment",
+        "global.10B.countries.guernsey.belonging",
+        "global.10B.countries.guernsey.meaning",
+        "global.10B.countries.guernsey.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

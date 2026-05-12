@@ -1,0 +1,34 @@
+{
+  "country": "Vietnam",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "39.5% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "9.321 million Ho Chi Minh City, 5.253 million HANOI (capital), 1.865 million Can Tho, 1.423 million Hai Phong, 1.221 million Da Nang, 1.111 million Bien Hoa (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "though it has one of the highest population densities in the world, the population is not evenly dispersed; clustering is heaviest along the South China Sea and Gulf of Tonkin, with the Mekong Delta (in the south) and the Red River Valley (in the north) having the largest concentrations of people",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical in south; monsoonal in north with hot, rainy season (May to September) and warm, dry season (October to March)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical in south; monsoonal in north with hot, rainy season (May to September) and warm, dry season (October to March)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

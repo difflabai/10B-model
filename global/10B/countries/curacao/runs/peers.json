@@ -1,0 +1,80 @@
+{
+  "country": "curacao",
+  "cluster_id": 0,
+  "cluster_label": "avg 0.67; strongest in [energy, work, health], weakest in [mobility, environment, food]",
+  "nearest_peers": [
+    {
+      "country": "saint-martin",
+      "distance": 0.2096
+    },
+    {
+      "country": "sint-maarten",
+      "distance": 0.2375
+    },
+    {
+      "country": "san-marino",
+      "distance": 0.3256
+    },
+    {
+      "country": "andorra",
+      "distance": 0.3297
+    },
+    {
+      "country": "liechtenstein",
+      "distance": 0.3638
+    },
+    {
+      "country": "faroe-islands",
+      "distance": 0.3742
+    },
+    {
+      "country": "aruba",
+      "distance": 0.3746
+    },
+    {
+      "country": "palau",
+      "distance": 0.3996
+    },
+    {
+      "country": "tajikistan",
+      "distance": 0.4299
+    },
+    {
+      "country": "macau",
+      "distance": 0.4393
+    }
+  ],
+  "most_different": [
+    {
+      "country": "niger",
+      "distance": 0.8957
+    },
+    {
+      "country": "central-african-republic",
+      "distance": 0.9031
+    },
+    {
+      "country": "haiti",
+      "distance": 0.9153
+    },
+    {
+      "country": "chad",
+      "distance": 0.9637
+    },
+    {
+      "country": "south-sudan",
+      "distance": 0.9749
+    }
+  ],
+  "cluster_peers": [
+    "andorra",
+    "liechtenstein",
+    "monaco",
+    "palau",
+    "saint-martin",
+    "san-marino",
+    "sint-maarten",
+    "tuvalu"
+  ],
+  "scored_with": "scripts/10b/dynamics.py v0.1.0"
+}

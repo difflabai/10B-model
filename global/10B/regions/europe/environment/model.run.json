@@ -1,0 +1,78 @@
+{
+  "modelId": "global.10B.regions.europe.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "europe"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.albania.environment",
+        "global.10B.countries.andorra.environment",
+        "global.10B.countries.armenia.environment",
+        "global.10B.countries.austria.environment",
+        "global.10B.countries.azerbaijan.environment",
+        "global.10B.countries.belarus.environment",
+        "global.10B.countries.belgium.environment",
+        "global.10B.countries.bosnia-and-herzegovina.environment",
+        "global.10B.countries.bulgaria.environment",
+        "global.10B.countries.croatia.environment",
+        "global.10B.countries.cyprus.environment",
+        "global.10B.countries.czechia.environment",
+        "global.10B.countries.denmark.environment",
+        "global.10B.countries.estonia.environment",
+        "global.10B.countries.faroe-islands.environment",
+        "global.10B.countries.finland.environment",
+        "global.10B.countries.georgia.environment",
+        "global.10B.countries.germany.environment",
+        "global.10B.countries.gibraltar.environment",
+        "global.10B.countries.greece.environment",
+        "global.10B.countries.guernsey.environment",
+        "global.10B.countries.holy-see-vatican-city.environment",
+        "global.10B.countries.hungary.environment",
+        "global.10B.countries.iceland.environment",
+        "global.10B.countries.ireland.environment",
+        "global.10B.countries.isle-of-man.environment",
+        "global.10B.countries.italy.environment",
+        "global.10B.countries.jan-mayen.environment",
+        "global.10B.countries.jersey.environment",
+        "global.10B.countries.kazakhstan.environment",
+        "global.10B.countries.kosovo.environment",
+        "global.10B.countries.latvia.environment",
+        "global.10B.countries.liechtenstein.environment",
+        "global.10B.countries.lithuania.environment",
+        "global.10B.countries.luxembourg.environment",
+        "global.10B.countries.malta.environment",
+        "global.10B.countries.moldova.environment",
+        "global.10B.countries.monaco.environment",
+        "global.10B.countries.montenegro.environment",
+        "global.10B.countries.netherlands.environment",
+        "global.10B.countries.north-macedonia.environment",
+        "global.10B.countries.norway.environment",
+        "global.10B.countries.poland.environment",
+        "global.10B.countries.portugal.environment",
+        "global.10B.countries.romania.environment",
+        "global.10B.countries.san-marino.environment",
+        "global.10B.countries.serbia.environment",
+        "global.10B.countries.slovakia.environment",
+        "global.10B.countries.slovenia.environment",
+        "global.10B.countries.spain.environment",
+        "global.10B.countries.sweden.environment",
+        "global.10B.countries.switzerland.environment",
+        "global.10B.countries.turkey-turkiye.environment",
+        "global.10B.countries.ukraine.environment",
+        "global.10B.countries.united-kingdom.environment"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

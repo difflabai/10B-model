@@ -1,0 +1,47 @@
+{
+  "country": "american-samoa",
+  "category_scores": {
+    "agency": 0.6506,
+    "belonging": 0.63,
+    "communications": 0.6192,
+    "education": 0.75,
+    "energy": 0.4443,
+    "environment": 0.5713,
+    "food": 0.611,
+    "governance": 0.6667,
+    "health": 0.7047,
+    "meaning": 0.675,
+    "mobility": 0.2278,
+    "safety": null,
+    "shelter": 0.6437,
+    "water": 0.75,
+    "work": 0.6447
+  },
+  "country_score": 0.6135,
+  "tier_scores": {
+    "subsistence": 0.6774,
+    "development": 0.5372,
+    "agency": 0.6387
+  },
+  "country_embedding": [
+    0.5726,
+    0.51738,
+    0.54061,
+    0.48909,
+    -0.04086,
+    0.16453,
+    0.05087,
+    0.05127,
+    -0.39165,
+    -0.05833,
+    0.11825,
+    -0.00163,
+    -0.0129,
+    0.12405,
+    0.00735,
+    -0.28209
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in American Samoa, the three needs areas with the largest gaps are: mobility (0.23), energy (0.44), environment (0.57).\nThe three strongest areas are: water (0.75), education (0.75), health (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

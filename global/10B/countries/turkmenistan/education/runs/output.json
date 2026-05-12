@@ -1,0 +1,52 @@
+{
+  "country": "Turkmenistan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7171,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9664
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.494
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.71708,
+    1.0,
+    0.9664,
+    0.494,
+    0.85901,
+    0.40758,
+    -0.97949,
+    -0.42428,
+    0.16085,
+    0.48681,
+    -0.70541,
+    0.18325,
+    0.41677,
+    0.5538,
+    0.12779,
+    -0.27123
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

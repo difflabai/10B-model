@@ -1,0 +1,39 @@
+{
+  "country": "Bulgaria",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Bulgarian Armed Forces (aka Bulgarian Army): Land Forces, Air Force, NavyMinistry of Interior: General Directorate National Police (GDNP), General Directorate Border Police (GDBP), General Directorate for Combating Organized Crime (GDCOC), Fire Safety and Civil Protection General Directorate, Special Unit for Combating Terrorism (SOBT) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "2.2% of GDP (2024 est.)1.9% of GDP (2023)1.6% of GDP (2022)1.6% of GDP (2021)1.6% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "22,226 (Syria) (mid-year 2022); 72,775 (Ukraine) (as of 8 March 2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,59 @@
+{
+  "country": "Uzbekistan",
+  "category": "mobility",
+  "label": "Mobility and transportation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Transportation: Roadways - total",
+      "value": "225,500 km (2013)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transportation: Airports",
+      "value": "74 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Heliports",
+      "value": "3 (2024)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "value": "13,700 km gas, 944 km oil (2016)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Waterways",
+      "value": "1,100 km (2012)",
+      "present": true
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "value": "4,642 km (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "value": "3,056,558 (2018)",
+      "present": true
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "value": "89.43 million (2018) mt-km",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

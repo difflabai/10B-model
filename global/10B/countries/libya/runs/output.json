@@ -1,0 +1,47 @@
+{
+  "country": "libya",
+  "category_scores": {
+    "agency": 0.8267,
+    "belonging": 0.7003,
+    "communications": 0.6885,
+    "education": 0.7873,
+    "energy": 0.541,
+    "environment": 0.4327,
+    "food": 0.5192,
+    "governance": 0.6857,
+    "health": 0.6597,
+    "meaning": 0.65,
+    "mobility": 0.5339,
+    "safety": 0.66,
+    "shelter": 0.6759,
+    "water": 0.65,
+    "work": 0.6789
+  },
+  "country_score": 0.646,
+  "tier_scores": {
+    "subsistence": 0.633,
+    "development": 0.6459,
+    "agency": 0.6591
+  },
+  "country_embedding": [
+    0.64598,
+    0.74352,
+    0.62459,
+    0.71133,
+    -0.2859,
+    -0.08189,
+    0.02777,
+    -0.21013,
+    -0.33819,
+    -0.10745,
+    -0.01961,
+    0.3037,
+    0.10633,
+    0.03274,
+    0.02959,
+    0.36532
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Libya, the three needs areas with the largest gaps are: environment (0.43), food (0.52), mobility (0.53).\nThe three strongest areas are: agency (0.83), education (0.79), belonging (0.70).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

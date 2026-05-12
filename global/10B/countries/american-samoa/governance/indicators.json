@@ -1,0 +1,44 @@
+{
+  "country": "American Samoa",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "unincorporated, unorganized Territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "mixed legal system of US common law and customary law",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "adopted 17 October 1960; revised 1 July 1967",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "President Joseph R. BIDEN Jr. (since 20 January 2021)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "AOSIS (observer), Interpol (subbureau), IOC, PIF (observer), SPC",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

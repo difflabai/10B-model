@@ -1,0 +1,47 @@
+{
+  "country": "kingman-reef",
+  "category_scores": {
+    "agency": null,
+    "belonging": null,
+    "communications": null,
+    "education": null,
+    "energy": 0.4,
+    "environment": null,
+    "food": 0.55,
+    "governance": 0.65,
+    "health": null,
+    "meaning": null,
+    "mobility": 0.2278,
+    "safety": null,
+    "shelter": null,
+    "water": null,
+    "work": null
+  },
+  "country_score": 0.457,
+  "tier_scores": {
+    "subsistence": 0.55,
+    "development": 0.3139,
+    "agency": 0.65
+  },
+  "country_embedding": [
+    0.12185,
+    0.03465,
+    0.12185,
+    0.0,
+    0.06558,
+    -0.04205,
+    -0.13091,
+    -0.1875,
+    0.07053,
+    -0.24702,
+    -0.00577,
+    -0.24312,
+    0.02281,
+    -0.12226,
+    -0.0455,
+    0.01187
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Kingman Reef, the three needs areas with the largest gaps are: mobility (0.23), energy (0.40), food (0.55).\nThe three strongest areas are: governance (0.65), food (0.55), energy (0.40).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

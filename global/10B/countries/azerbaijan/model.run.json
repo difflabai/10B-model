@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.azerbaijan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Azerbaijan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.azerbaijan.food",
+        "global.10B.countries.azerbaijan.water",
+        "global.10B.countries.azerbaijan.shelter",
+        "global.10B.countries.azerbaijan.health",
+        "global.10B.countries.azerbaijan.safety",
+        "global.10B.countries.azerbaijan.education",
+        "global.10B.countries.azerbaijan.work",
+        "global.10B.countries.azerbaijan.energy",
+        "global.10B.countries.azerbaijan.mobility",
+        "global.10B.countries.azerbaijan.communications",
+        "global.10B.countries.azerbaijan.governance",
+        "global.10B.countries.azerbaijan.environment",
+        "global.10B.countries.azerbaijan.belonging",
+        "global.10B.countries.azerbaijan.meaning",
+        "global.10B.countries.azerbaijan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

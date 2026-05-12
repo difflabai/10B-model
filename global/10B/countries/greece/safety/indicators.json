@@ -1,0 +1,39 @@
+{
+  "country": "Greece",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Hellenic Armed Forces: Hellenic Army (Ellinikos Stratos, ES; includes National Guard), Hellenic Navy (Elliniko Polemiko Navtiko, EPN), Hellenic Air Force (Elliniki Polemiki Aeroporia, EPA; includes air defense) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.1% of GDP (2024 est.)3.1% of GDP (2023)3.9% of GDP (2022)3.7% of GDP (2021)2.9% of GDP (2020)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "41,594 (Syria), 33,549 (Afghanistan), 14,228 (Iraq), 6,366 (West Bank and Gaza) (mid-year 2022); 27,365 (Ukraine) (as of 31 December 2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Armenia",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7289,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9676
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.452
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.72892,
+    1.0,
+    0.9676,
+    0.452,
+    -0.0399,
+    -0.84414,
+    -0.35409,
+    0.32778,
+    0.79474,
+    0.24123,
+    -0.76052,
+    0.02455,
+    -0.63659,
+    0.20705,
+    -0.82751,
+    0.39974
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

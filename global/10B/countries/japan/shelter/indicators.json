@@ -1,0 +1,34 @@
+{
+  "country": "Japan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "92% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "37.194 million TOKYO (capital), 19.013 million Osaka, 9.569 million Nagoya, 5.490 million Kitakyushu-Fukuoka, 2.937 million Shizuoka-Hamamatsu, 2.666 million Sapporo (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "all primary and secondary regions of high population density lie on the coast; one-third of the population resides in and around Tokyo on the central plain (Kanto Plain)",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "varies from tropical in south to cool temperate in north",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "varies from tropical in south to cool temperate in north",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

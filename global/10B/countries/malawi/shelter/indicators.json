@@ -1,0 +1,34 @@
+{
+  "country": "Malawi",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "18.3% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "1.276 million LILONGWE (capital), 1.031 million Blantyre-Limbe (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population density is highest south of Lake Nyasa as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "sub-tropical; rainy season (November to May); dry season (May to November)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "sub-tropical; rainy season (November to May); dry season (May to November)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

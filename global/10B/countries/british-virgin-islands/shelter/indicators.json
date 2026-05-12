@@ -1,0 +1,34 @@
+{
+  "country": "British Virgin Islands",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "49.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "15,000 ROAD TOWN (capital) (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "a fairly even distribution throughout the inhabited islands, with the largest islands of Tortola, Anegada, Virgin Gorda, and Jost Van Dyke having the largest populations",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "subtropical; humid; temperatures moderated by trade winds",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical; humid; temperatures moderated by trade winds",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

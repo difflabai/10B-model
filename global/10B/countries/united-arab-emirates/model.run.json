@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.united-arab-emirates",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "United Arab Emirates"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.united-arab-emirates.food",
+        "global.10B.countries.united-arab-emirates.water",
+        "global.10B.countries.united-arab-emirates.shelter",
+        "global.10B.countries.united-arab-emirates.health",
+        "global.10B.countries.united-arab-emirates.safety",
+        "global.10B.countries.united-arab-emirates.education",
+        "global.10B.countries.united-arab-emirates.work",
+        "global.10B.countries.united-arab-emirates.energy",
+        "global.10B.countries.united-arab-emirates.mobility",
+        "global.10B.countries.united-arab-emirates.communications",
+        "global.10B.countries.united-arab-emirates.governance",
+        "global.10B.countries.united-arab-emirates.environment",
+        "global.10B.countries.united-arab-emirates.belonging",
+        "global.10B.countries.united-arab-emirates.meaning",
+        "global.10B.countries.united-arab-emirates.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

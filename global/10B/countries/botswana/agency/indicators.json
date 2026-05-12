@@ -1,0 +1,39 @@
+{
+  "country": "Botswana",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance of Progressives or AP Botswana Congress Party or BCP Botswana Democratic Party or BDP Botswana National Front or BNF [Duma BOKO]Botswana Patriotic Front or BPF Botswana Peoples Party or BPP Botswana Republic Party or BRP Umbrella for Democratic Change or UDC (various times the coalition has included the BPP, BCP, BNF and other parties)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "77% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "2 TV stations - 1 state-owned and 1 privately owned; privately owned satellite TV subscription service is available; 2 state-owned national radio stations; 4 privately owned radio stations broadcast locally (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "8.7% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

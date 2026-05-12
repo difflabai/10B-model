@@ -1,0 +1,34 @@
+{
+  "country": "Lithuania",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "68.7% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "541,000 VILNIUS (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "fairly even population distribution throughout the country, but somewhat greater concentrations in the southern cities of Vilnius and Kaunas, and the western port of Klaipeda",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "transitional, between maritime and continental; wet, moderate winters and summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "transitional, between maritime and continental; wet, moderate winters and summers",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

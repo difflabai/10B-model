@@ -1,0 +1,34 @@
+{
+  "country": "Angola",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "71.1%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "2.4% of GDP (2020 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "Portuguese 71.2% (official), Umbundu 23%, Kikongo 8.2%, Kimbundu 7.8%, Chokwe 6.5%, Nhaneca 3.4%, Nganguela 3.1%, Fiote 2.4%, Kwanhama 2.3%, Muhumbi 2.1%, Luvale 1%, other 3.6%  (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6
+}

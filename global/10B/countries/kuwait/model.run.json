@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kuwait",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kuwait"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kuwait.food",
+        "global.10B.countries.kuwait.water",
+        "global.10B.countries.kuwait.shelter",
+        "global.10B.countries.kuwait.health",
+        "global.10B.countries.kuwait.safety",
+        "global.10B.countries.kuwait.education",
+        "global.10B.countries.kuwait.work",
+        "global.10B.countries.kuwait.energy",
+        "global.10B.countries.kuwait.mobility",
+        "global.10B.countries.kuwait.communications",
+        "global.10B.countries.kuwait.governance",
+        "global.10B.countries.kuwait.environment",
+        "global.10B.countries.kuwait.belonging",
+        "global.10B.countries.kuwait.meaning",
+        "global.10B.countries.kuwait.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

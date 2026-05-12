@@ -1,0 +1,348 @@
+{
+  "id": "global.10B.regions.africa.belonging",
+  "name": "Africa — Belonging and social cohesion",
+  "kind": "sector_economic",
+  "blurb": "Region-level belonging and social cohesion for Africa, aggregated across 56 countries.",
+  "mechanism": "Aggregates the per-country belonging models for the 56 Africa countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "belonging-country-scores",
+      "kind": "scalar-list",
+      "description": "belonging scores across Africa countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "belonging-region-mean",
+      "kind": "scalar",
+      "description": "Mean belonging score across the region."
+    },
+    {
+      "name": "belonging-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Africa"
+    },
+    {
+      "key": "category",
+      "value": "Belonging and social cohesion"
+    },
+    {
+      "key": "country-count",
+      "value": "56"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.algeria.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for algeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.angola.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for angola"
+    },
+    {
+      "target_model_id": "global.10B.countries.benin.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for benin"
+    },
+    {
+      "target_model_id": "global.10B.countries.botswana.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for botswana"
+    },
+    {
+      "target_model_id": "global.10B.countries.bouvet-island.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for bouvet-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-indian-ocean-territory.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for british-indian-ocean-territory"
+    },
+    {
+      "target_model_id": "global.10B.countries.burkina-faso.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for burkina-faso"
+    },
+    {
+      "target_model_id": "global.10B.countries.burundi.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for burundi"
+    },
+    {
+      "target_model_id": "global.10B.countries.cabo-verde.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cabo-verde"
+    },
+    {
+      "target_model_id": "global.10B.countries.cameroon.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for cameroon"
+    },
+    {
+      "target_model_id": "global.10B.countries.central-african-republic.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for central-african-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.chad.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for chad"
+    },
+    {
+      "target_model_id": "global.10B.countries.comoros.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for comoros"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-democratic-republic-of-the.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for congo-democratic-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.congo-republic-of-the.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for congo-republic-of-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.djibouti.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for djibouti"
+    },
+    {
+      "target_model_id": "global.10B.countries.egypt.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for egypt"
+    },
+    {
+      "target_model_id": "global.10B.countries.equatorial-guinea.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for equatorial-guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eritrea.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for eritrea"
+    },
+    {
+      "target_model_id": "global.10B.countries.eswatini.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for eswatini"
+    },
+    {
+      "target_model_id": "global.10B.countries.ethiopia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for ethiopia"
+    },
+    {
+      "target_model_id": "global.10B.countries.gabon.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for gabon"
+    },
+    {
+      "target_model_id": "global.10B.countries.gambia-the.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for gambia-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.ghana.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for ghana"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for guinea"
+    },
+    {
+      "target_model_id": "global.10B.countries.guinea-bissau.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for guinea-bissau"
+    },
+    {
+      "target_model_id": "global.10B.countries.kenya.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for kenya"
+    },
+    {
+      "target_model_id": "global.10B.countries.lesotho.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for lesotho"
+    },
+    {
+      "target_model_id": "global.10B.countries.liberia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for liberia"
+    },
+    {
+      "target_model_id": "global.10B.countries.libya.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for libya"
+    },
+    {
+      "target_model_id": "global.10B.countries.madagascar.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for madagascar"
+    },
+    {
+      "target_model_id": "global.10B.countries.malawi.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for malawi"
+    },
+    {
+      "target_model_id": "global.10B.countries.mali.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for mali"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritania.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for mauritania"
+    },
+    {
+      "target_model_id": "global.10B.countries.mauritius.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for mauritius"
+    },
+    {
+      "target_model_id": "global.10B.countries.morocco.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for morocco"
+    },
+    {
+      "target_model_id": "global.10B.countries.mozambique.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for mozambique"
+    },
+    {
+      "target_model_id": "global.10B.countries.namibia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for namibia"
+    },
+    {
+      "target_model_id": "global.10B.countries.niger.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for niger"
+    },
+    {
+      "target_model_id": "global.10B.countries.nigeria.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for nigeria"
+    },
+    {
+      "target_model_id": "global.10B.countries.rwanda.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for rwanda"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for saint-helena-ascension-and-tristan-da-cunha"
+    },
+    {
+      "target_model_id": "global.10B.countries.sao-tome-and-principe.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sao-tome-and-principe"
+    },
+    {
+      "target_model_id": "global.10B.countries.senegal.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for senegal"
+    },
+    {
+      "target_model_id": "global.10B.countries.seychelles.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for seychelles"
+    },
+    {
+      "target_model_id": "global.10B.countries.sierra-leone.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sierra-leone"
+    },
+    {
+      "target_model_id": "global.10B.countries.somalia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for somalia"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-africa.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for south-africa"
+    },
+    {
+      "target_model_id": "global.10B.countries.south-sudan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for south-sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.sudan.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for sudan"
+    },
+    {
+      "target_model_id": "global.10B.countries.tanzania.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for tanzania"
+    },
+    {
+      "target_model_id": "global.10B.countries.togo.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for togo"
+    },
+    {
+      "target_model_id": "global.10B.countries.tunisia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for tunisia"
+    },
+    {
+      "target_model_id": "global.10B.countries.uganda.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for uganda"
+    },
+    {
+      "target_model_id": "global.10B.countries.zambia.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for zambia"
+    },
+    {
+      "target_model_id": "global.10B.countries.zimbabwe.belonging",
+      "kind": "consumes_from",
+      "note": "Country-level belonging for zimbabwe"
+    },
+    {
+      "target_model_id": "global.10B.regions.africa",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.belonging",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

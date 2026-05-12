@@ -1,0 +1,34 @@
+{
+  "country": "Taiwan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "80.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4.504 million New Taipei City, 2.754 million TAIPEI (capital), 2.319 million Taoyuan, 1.553 million Kaohsiung, 1.369 million Taichung, 863,000 Tainan (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "distribution exhibits a peripheral coastal settlement pattern, with the largest populations on the north and west coasts",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "tropical; marine; rainy season during southwest monsoon (June to August); persistent and extensive cloudiness all year",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "tropical; marine; rainy season during southwest monsoon (June to August); persistent and extensive cloudiness all year",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

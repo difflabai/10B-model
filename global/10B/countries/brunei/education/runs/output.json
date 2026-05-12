@@ -1,0 +1,52 @@
+{
+  "country": "Brunei",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7607,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9412
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6625
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.76074,
+    1.0,
+    0.9412,
+    0.6625,
+    -0.31542,
+    0.14952,
+    -0.71456,
+    -0.14873,
+    -0.14263,
+    -0.23366,
+    0.93774,
+    -0.54607,
+    -0.19094,
+    0.4153,
+    0.18871,
+    -0.53381
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

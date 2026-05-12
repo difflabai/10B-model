@@ -1,0 +1,72 @@
+{
+  "country": "New Zealand",
+  "category": "mobility",
+  "engine": "closed-form",
+  "indicator_coverage": 0.9,
+  "indicators_scored": 9,
+  "indicators_total": 10,
+  "composite_score": 0.6405,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Transportation: Roadways - total",
+      "score": 0.5293
+    },
+    {
+      "field": "Transportation: Roadways - paved",
+      "score": 0.5693
+    },
+    {
+      "field": "Transportation: Roadways - unpaved",
+      "score": 0.55
+    },
+    {
+      "field": "Transportation: Airports",
+      "score": 0.7227
+    },
+    {
+      "field": "Transportation: Heliports",
+      "score": 0.6967
+    },
+    {
+      "field": "Transportation: Pipelines",
+      "score": 0.65
+    },
+    {
+      "field": "Transportation: Waterways",
+      "score": null
+    },
+    {
+      "field": "Transportation: Railways - total",
+      "score": 0.4966
+    },
+    {
+      "field": "Transportation: National air transport system - annual passenger traffic on registered air carriers",
+      "score": 0.5995
+    },
+    {
+      "field": "Transportation: National air transport system - annual freight traffic on registered air carriers",
+      "score": 0.95
+    }
+  ],
+  "embedding": [
+    0.64046,
+    0.9,
+    0.5293,
+    0.5693,
+    0.48956,
+    0.4175,
+    -0.06282,
+    0.71032,
+    -0.08492,
+    -0.00502,
+    0.06661,
+    -0.70074,
+    -0.16771,
+    -0.66619,
+    0.31743,
+    0.48495
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

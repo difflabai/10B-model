@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.lithuania",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Lithuania"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.lithuania.food",
+        "global.10B.countries.lithuania.water",
+        "global.10B.countries.lithuania.shelter",
+        "global.10B.countries.lithuania.health",
+        "global.10B.countries.lithuania.safety",
+        "global.10B.countries.lithuania.education",
+        "global.10B.countries.lithuania.work",
+        "global.10B.countries.lithuania.energy",
+        "global.10B.countries.lithuania.mobility",
+        "global.10B.countries.lithuania.communications",
+        "global.10B.countries.lithuania.governance",
+        "global.10B.countries.lithuania.environment",
+        "global.10B.countries.lithuania.belonging",
+        "global.10B.countries.lithuania.meaning",
+        "global.10B.countries.lithuania.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

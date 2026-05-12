@@ -1,0 +1,34 @@
+{
+  "country": "Morocco",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "65.1% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "3.893 million Casablanca, 1.959 million RABAT (capital), 1.290 million Fes, 1.314 million Tangier, 1.050 million Marrakech, 979,000 Agadir (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "the highest population density is found along the Atlantic and Mediterranean coasts; a number of densely populated agglomerations are found scattered through the Atlas Mountains as shown in this population distribution map",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "Mediterranean in the north, becoming more extreme in the interior; in the south, hot, dry desert; rain is rare; cold offshore air currents produce fog and heavy dew",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "Mediterranean in the north, becoming more extreme in the interior; in the south, hot, dry desert; rain is rare; cold offshore air currents produce fog and heavy dew",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

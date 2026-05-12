@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.vietnam",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Vietnam"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.vietnam.food",
+        "global.10B.countries.vietnam.water",
+        "global.10B.countries.vietnam.shelter",
+        "global.10B.countries.vietnam.health",
+        "global.10B.countries.vietnam.safety",
+        "global.10B.countries.vietnam.education",
+        "global.10B.countries.vietnam.work",
+        "global.10B.countries.vietnam.energy",
+        "global.10B.countries.vietnam.mobility",
+        "global.10B.countries.vietnam.communications",
+        "global.10B.countries.vietnam.governance",
+        "global.10B.countries.vietnam.environment",
+        "global.10B.countries.vietnam.belonging",
+        "global.10B.countries.vietnam.meaning",
+        "global.10B.countries.vietnam.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

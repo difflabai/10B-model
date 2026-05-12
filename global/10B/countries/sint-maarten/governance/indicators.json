@@ -1,0 +1,44 @@
+{
+  "country": "Sint Maarten",
+  "category": "governance",
+  "label": "Governance and rule of law",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Government type",
+      "value": "parliamentary democracy under a constitutional monarchy",
+      "present": true
+    },
+    {
+      "field": "Government: Legal system",
+      "value": "based on Dutch civil law system with some English common law influence",
+      "present": true
+    },
+    {
+      "field": "Government: Constitution - history",
+      "value": "previous 1947, 1955; latest adopted 21 July 2010, entered into force 10 October 2010 (regulates governance of Sint Maarten but is subordinate to the Charter for the Kingdom of the Netherlands)",
+      "present": true
+    },
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Executive branch - chief of state",
+      "value": "King WILLEM-ALEXANDER of the Netherlands (since 30 April 2013); represented by Governor Ajamu G. BALY (since 10 October 2022)",
+      "present": true
+    },
+    {
+      "field": "Government: International law organization participation",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: International organization participation",
+      "value": "Caricom (observer), ILO, Interpol, UNESCO (associate), UPU, WMO",
+      "present": true
+    }
+  ],
+  "coverage": 0.8571428571428571
+}

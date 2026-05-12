@@ -1,0 +1,39 @@
+{
+  "country": "Norway",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Center Party or Sp Christian Democratic Party or KrF Conservative Party or H Green Party or MDG Labor Party or Ap Liberal Party or VPatient Focus or PF Progress Party or FrP Red Party or R Socialist Left Party or SV",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "99% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-owned public radio-TV broadcaster operates 3 nationwide TV stations, 3 nationwide radio stations, and 16 regional radio stations; roughly a dozen privately owned TV stations broadcast nationally and roughly another 25 local TV stations broadcasting; nearly 75% of households have access to multi-channel cable or satellite TV; 2 privately owned radio stations broadcast nationwide and another 240 stations operate locally; Norway is the first country in the world to phase out FM radio in favor of Digital Audio Broadcasting (DAB), a process scheduled for completion in late 2017 (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.9% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

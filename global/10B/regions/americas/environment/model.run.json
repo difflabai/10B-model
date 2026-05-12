@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.environment",
+  "engine": "monte-carlo",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "environment"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.environment",
+        "global.10B.countries.antigua-and-barbuda.environment",
+        "global.10B.countries.argentina.environment",
+        "global.10B.countries.aruba.environment",
+        "global.10B.countries.bahamas-the.environment",
+        "global.10B.countries.barbados.environment",
+        "global.10B.countries.belize.environment",
+        "global.10B.countries.bermuda.environment",
+        "global.10B.countries.bolivia.environment",
+        "global.10B.countries.brazil.environment",
+        "global.10B.countries.british-virgin-islands.environment",
+        "global.10B.countries.cayman-islands.environment",
+        "global.10B.countries.cuba.environment",
+        "global.10B.countries.curacao.environment",
+        "global.10B.countries.dominica.environment",
+        "global.10B.countries.dominican-republic.environment",
+        "global.10B.countries.falkland-islands-islas-malvinas.environment",
+        "global.10B.countries.grenada.environment",
+        "global.10B.countries.guyana.environment",
+        "global.10B.countries.haiti.environment",
+        "global.10B.countries.jamaica.environment",
+        "global.10B.countries.montserrat.environment",
+        "global.10B.countries.navassa-island.environment",
+        "global.10B.countries.paraguay.environment",
+        "global.10B.countries.puerto-rico.environment",
+        "global.10B.countries.saint-barthelemy.environment",
+        "global.10B.countries.saint-kitts-and-nevis.environment",
+        "global.10B.countries.saint-lucia.environment",
+        "global.10B.countries.saint-martin.environment",
+        "global.10B.countries.saint-pierre-and-miquelon.environment",
+        "global.10B.countries.saint-vincent-and-the-grenadines.environment",
+        "global.10B.countries.sint-maarten.environment",
+        "global.10B.countries.suriname.environment",
+        "global.10B.countries.trinidad-and-tobago.environment",
+        "global.10B.countries.turks-and-caicos-islands.environment",
+        "global.10B.countries.uruguay.environment",
+        "global.10B.countries.venezuela.environment",
+        "global.10B.countries.virgin-islands.environment"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Philippines",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7451,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9256
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.725
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.74512,
+    1.0,
+    0.9256,
+    0.575,
+    0.09444,
+    -0.29216,
+    -0.26635,
+    -0.18599,
+    0.07723,
+    -0.00252,
+    0.28865,
+    0.94824,
+    -0.79461,
+    0.50878,
+    -0.50506,
+    0.84674
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

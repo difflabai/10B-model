@@ -1,0 +1,39 @@
+{
+  "country": "Somalia",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Somali National Armed Forces (SNAF; aka Somali National Defense Force): Land Forces (Somali National Army or SNA), Somali Navy, Somali Air ForceMinistry of Internal Security: Somali National Police (SNP, includes Coast Guard and a commando unit known as Harmacad or Cheetah) National Security and Intelligence Agency (includes a commando/counterterrorism unit) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "6% of GDP (2021 est.)6% of GDP (2020 est.)5.6% of GDP (2019 est.)6% of GDP (2018 est.)5.9% of GDP (2017 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "23,364 (Ethiopia), 9,969 (Yemen) (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

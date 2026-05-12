@@ -1,0 +1,64 @@
+{
+  "country": "Wallis and Futuna",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "0 (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "0 (2018)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "26 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "3,000 (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "45.8% (2021 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "2G widespread; bandwidth is limited; mobile subscriber numbers are higher than fixed-line and better suited for islands; good mobile coverage in the capital cities and also reasonable coverage across more remote atolls; recent international interest in infrastructure development; increase in demand for mobile broadband as mobile services serve as primary source for Internet access; broadband satellite launched in 2019 to improve costs and capability (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "fixed-line teledensity 26 per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 681; landing point for the Tui-Samoa submarine cable network connecting Wallis & Futuna, Samoa and Fiji (2020)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the publicly owned French Overseas Network (RFO), which broadcasts to France's overseas departments, collectivities, and territories, is carried on the RFO Wallis and Fortuna TV and radio stations (2019)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8181818181818182
+}

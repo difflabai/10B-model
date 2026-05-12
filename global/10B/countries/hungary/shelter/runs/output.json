@@ -1,0 +1,52 @@
+{
+  "country": "Hungary",
+  "category": "shelter",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.6346,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "score": 0.6884
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "score": 0.55
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "score": 0.65
+    },
+    {
+      "field": "Environment: Climate",
+      "score": null
+    },
+    {
+      "field": "Geography: Climate",
+      "score": 0.65
+    }
+  ],
+  "embedding": [
+    0.6346,
+    1.0,
+    0.6884,
+    0.55,
+    0.21947,
+    -0.16646,
+    -0.24529,
+    -0.64266,
+    -0.51192,
+    -0.13399,
+    -0.97827,
+    -0.25347,
+    -0.54278,
+    -0.02773,
+    -0.75686,
+    -0.22469
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

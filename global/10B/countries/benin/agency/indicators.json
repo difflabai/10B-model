@@ -1,0 +1,39 @@
+{
+  "country": "Benin",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "African Movement for Development and Progress or MADEP Benin Renaissance or RB Cowrie Force for an Emerging Benin or FCBE Democratic Renewal Party or PRD Progressive Union for Renewal Republican Bloc Sun Alliance or AS The Democrats Union Makes the Nation or UN (includes PRD, MADEP)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "34% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "state-run Office de Radiodiffusion et de Television du Benin (ORTB) operates a TV station providing a wide broadcast reach; several privately owned TV stations broadcast from Cotonou; satellite TV subscription service is available; state-owned radio, under ORTB control, includes a national station supplemented by a number of regional stations; substantial number of privately owned radio broadcast stations; transmissions of a few international broadcasters are available on FM in Cotonou (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

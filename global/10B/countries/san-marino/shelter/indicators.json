@@ -1,0 +1,34 @@
+{
+  "country": "San Marino",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "97.8% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "4,000 SAN MARINO (2018)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "Mediterranean; mild to cool winters; warm, sunny summers",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "Mediterranean; mild to cool winters; warm, sunny summers",
+      "present": true
+    }
+  ],
+  "coverage": 0.8
+}

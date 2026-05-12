@@ -1,0 +1,47 @@
+{
+  "country": "montserrat",
+  "category_scores": {
+    "agency": 0.7253,
+    "belonging": 0.6358,
+    "communications": 0.7104,
+    "education": 0.7125,
+    "energy": 0.5367,
+    "environment": 0.5,
+    "food": 0.6487,
+    "governance": 0.6917,
+    "health": 0.7053,
+    "meaning": 0.65,
+    "mobility": 0.2,
+    "safety": 0.75,
+    "shelter": 0.5667,
+    "water": 0.65,
+    "work": 0.6311
+  },
+  "country_score": 0.6209,
+  "tier_scores": {
+    "subsistence": 0.6641,
+    "development": 0.5581,
+    "agency": 0.6406
+  },
+  "country_embedding": [
+    0.62094,
+    0.5549,
+    0.64181,
+    0.54829,
+    0.07834,
+    -0.081,
+    0.06136,
+    -0.17864,
+    -0.09704,
+    -0.2716,
+    0.09751,
+    0.07808,
+    0.01232,
+    -0.1602,
+    0.08423,
+    0.00398
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Montserrat, the three needs areas with the largest gaps are: mobility (0.20), environment (0.50), energy (0.54).\nThe three strongest areas are: safety (0.75), agency (0.73), education (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

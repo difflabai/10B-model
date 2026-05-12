@@ -1,0 +1,39 @@
+{
+  "country": "Zambia",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Alliance for Democracy and Development or ADD Forum for Democracy and Development or FDD Movement for Multiparty Democracy or MMD Party of National Unity and Progress or PNUP Patriotic Front or PF United Party for National Development or UPND",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "31% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "according to the Independent Broadcast Authority, there are 137 radio stations and 47 television stations in Zambia; out of the 137 radio stations, 133 are private (categorized as either commercial or community radio stations), while 4 are public-owned; state-owned Zambia National Broadcasting Corporation (ZNBC) operates 2 television channels and 3 radio stations; ZNBC owns 75% shares in GoTV, 40% in MultiChoice, and 40% in TopStar Communications Company, all of which operate in-country (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "3.7% of GDP (2020)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

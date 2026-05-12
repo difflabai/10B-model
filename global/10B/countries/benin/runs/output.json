@@ -1,0 +1,47 @@
+{
+  "country": "benin",
+  "category_scores": {
+    "agency": 0.664,
+    "belonging": 0.6783,
+    "communications": 0.7166,
+    "education": 0.5452,
+    "energy": 0.4404,
+    "environment": 0.5218,
+    "food": 0.6339,
+    "governance": 0.7286,
+    "health": 0.4125,
+    "meaning": 0.65,
+    "mobility": 0.4264,
+    "safety": 0.6583,
+    "shelter": 0.6709,
+    "water": 0.65,
+    "work": 0.6822
+  },
+  "country_score": 0.6053,
+  "tier_scores": {
+    "subsistence": 0.6051,
+    "development": 0.5622,
+    "agency": 0.6485
+  },
+  "country_embedding": [
+    0.60527,
+    0.81282,
+    0.58523,
+    0.63941,
+    -0.15172,
+    0.10597,
+    0.07112,
+    0.05686,
+    -0.15521,
+    -0.10181,
+    -0.00637,
+    0.18202,
+    0.23827,
+    0.04666,
+    -0.26695,
+    -0.28296
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Benin, the three needs areas with the largest gaps are: health (0.41), mobility (0.43), energy (0.44).\nThe three strongest areas are: governance (0.73), communications (0.72), work (0.68).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

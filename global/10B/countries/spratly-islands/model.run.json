@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.spratly-islands",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Spratly Islands"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.spratly-islands.food",
+        "global.10B.countries.spratly-islands.water",
+        "global.10B.countries.spratly-islands.shelter",
+        "global.10B.countries.spratly-islands.health",
+        "global.10B.countries.spratly-islands.safety",
+        "global.10B.countries.spratly-islands.education",
+        "global.10B.countries.spratly-islands.work",
+        "global.10B.countries.spratly-islands.energy",
+        "global.10B.countries.spratly-islands.mobility",
+        "global.10B.countries.spratly-islands.communications",
+        "global.10B.countries.spratly-islands.governance",
+        "global.10B.countries.spratly-islands.environment",
+        "global.10B.countries.spratly-islands.belonging",
+        "global.10B.countries.spratly-islands.meaning",
+        "global.10B.countries.spratly-islands.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

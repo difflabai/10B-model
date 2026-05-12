@@ -1,0 +1,39 @@
+{
+  "country": "France",
+  "category": "water",
+  "label": "Water and sanitation",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Environment: Major rivers (by length in km)",
+      "value": "Rhin (Rhine)  (shared with Switzerland [s], Germany, and Netherlands [m]) - 1,233 km;  Loire - 1,012 km",
+      "present": true
+    },
+    {
+      "field": "Environment: Major lakes (area sq km) - salt water lake(s)",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Environment: Major watersheds (area sq km)",
+      "value": "Atlantic Ocean drainage: Loire (115,282 sq km), Seine (78,919 sq km), Rhine-Maas (198,735 sq km), (Adriatic Sea) Po (76,997 sq km), (Mediterranean Sea) Rhone (100,543 sq km)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Drinking water source - improved - urban",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Sanitation facility access - improved - total",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.3333333333333333
+}

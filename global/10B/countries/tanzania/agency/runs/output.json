@@ -1,0 +1,56 @@
+{
+  "country": "Tanzania",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6684,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.75
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.37
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.85
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.522
+    }
+  ],
+  "embedding": [
+    0.6684,
+    0.83333,
+    0.85,
+    0.75,
+    0.39022,
+    -0.28011,
+    -0.32351,
+    0.75726,
+    -0.58538,
+    -0.91409,
+    -0.80484,
+    0.95862,
+    -0.58093,
+    0.5559,
+    0.67776,
+    0.5205
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Spain",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.8181,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9532
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.6875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.95
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.81814,
+    1.0,
+    0.9532,
+    0.6875,
+    0.0042,
+    -0.0056,
+    0.11809,
+    0.56478,
+    -0.26351,
+    -0.44588,
+    0.95206,
+    -0.44125,
+    0.8204,
+    0.20436,
+    0.23848,
+    -0.82757
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

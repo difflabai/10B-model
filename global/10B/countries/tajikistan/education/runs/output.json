@@ -1,0 +1,52 @@
+{
+  "country": "Tajikistan",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 5,
+  "indicators_total": 5,
+  "composite_score": 0.7533,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.9676
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.824
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.575
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": 0.75
+    }
+  ],
+  "embedding": [
+    0.75332,
+    1.0,
+    0.9676,
+    0.824,
+    -0.14214,
+    0.11714,
+    0.38662,
+    0.32396,
+    -0.0833,
+    0.86511,
+    -0.36736,
+    -0.49383,
+    -0.79998,
+    0.6658,
+    -0.67984,
+    -0.76666
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

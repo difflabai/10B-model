@@ -1,0 +1,47 @@
+{
+  "country": "faroe-islands",
+  "category_scores": {
+    "agency": 0.8452,
+    "belonging": 0.6985,
+    "communications": 0.7291,
+    "education": 0.788,
+    "energy": 0.6791,
+    "environment": 0.3504,
+    "food": 0.5349,
+    "governance": 0.7417,
+    "health": 0.8009,
+    "meaning": 0.625,
+    "mobility": 0.3389,
+    "safety": 0.65,
+    "shelter": 0.64,
+    "water": 0.65,
+    "work": 0.7937
+  },
+  "country_score": 0.6577,
+  "tier_scores": {
+    "subsistence": 0.6552,
+    "development": 0.6658,
+    "agency": 0.6522
+  },
+  "country_embedding": [
+    0.65769,
+    0.67477,
+    0.72336,
+    0.51195,
+    -0.01117,
+    0.18372,
+    0.27302,
+    -0.20857,
+    0.05334,
+    0.10332,
+    0.08376,
+    -0.20542,
+    -0.12046,
+    0.16696,
+    0.04892,
+    -0.093
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Faroe Islands, the three needs areas with the largest gaps are: mobility (0.34), environment (0.35), food (0.53).\nThe three strongest areas are: agency (0.85), health (0.80), work (0.79).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

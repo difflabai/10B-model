@@ -1,0 +1,44 @@
+{
+  "country": "Andorra",
+  "category": "work",
+  "label": "Work and economic capability",
+  "engine": "monte-carlo",
+  "indicators": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "value": "$64,600 (2023 est.)$63,900 (2022 est.)$59,300 (2021 est.)note: data in 2021 dollars",
+      "present": true
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "value": "2.58% (2023 est.)9.56% (2022 est.)8.29% (2021 est.)note: annual GDP % growth based on constant local currency",
+      "present": true
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "value": "-0.9% (2015 est.)-0.1% (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Labor force",
+      "value": "39,750 (2016)",
+      "present": true
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "value": "3.7% (2016 est.)4.1% (2015 est.)",
+      "present": true
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.7142857142857143
+}

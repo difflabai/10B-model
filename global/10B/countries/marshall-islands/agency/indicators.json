@@ -1,0 +1,39 @@
+{
+  "country": "Marshall Islands",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "traditionally there have been no formally organized political parties; what has existed more closely resembles factions or interest groups because they do not have party headquarters, formal platforms, or party structures",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "73% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "no TV broadcast station; a cable network is available on Majuro with programming via videotape replay and satellite relays; 4 radio broadcast stations; American Armed Forces Radio and Television Service (AFRTS) provides satellite radio and television service to Kwajalein Atoll (2019)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "13.6% of GDP (2020 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

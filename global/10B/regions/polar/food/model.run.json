@@ -1,0 +1,33 @@
+{
+  "modelId": "global.10B.regions.polar.food",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "polar"
+    },
+    "category": {
+      "value": "food"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.akrotiri.food",
+        "global.10B.countries.antarctica.food",
+        "global.10B.countries.canada.food",
+        "global.10B.countries.dhekelia.food",
+        "global.10B.countries.france.food",
+        "global.10B.countries.french-southern-and-antarctic-lands.food",
+        "global.10B.countries.greenland.food",
+        "global.10B.countries.heard-island-and-mcdonald-islands.food",
+        "global.10B.countries.russia.food",
+        "global.10B.countries.svalbard.food"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

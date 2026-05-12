@@ -1,0 +1,47 @@
+{
+  "country": "somalia",
+  "category_scores": {
+    "agency": 0.616,
+    "belonging": 0.636,
+    "communications": 0.5583,
+    "education": 0.5333,
+    "energy": 0.453,
+    "environment": 0.4934,
+    "food": 0.6788,
+    "governance": 0.7143,
+    "health": 0.3174,
+    "meaning": 0.61,
+    "mobility": 0.3378,
+    "safety": 0.5333,
+    "shelter": 0.6941,
+    "water": 0.75,
+    "work": 0.526
+  },
+  "country_score": 0.5634,
+  "tier_scores": {
+    "subsistence": 0.5947,
+    "development": 0.4817,
+    "agency": 0.6139
+  },
+  "country_embedding": [
+    0.56345,
+    0.75128,
+    0.53821,
+    0.57515,
+    0.16127,
+    0.16069,
+    0.30895,
+    -0.40009,
+    0.04104,
+    0.08926,
+    -0.08567,
+    0.03221,
+    -0.04639,
+    0.04508,
+    0.16106,
+    -0.10234
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Somalia, the three needs areas with the largest gaps are: health (0.32), mobility (0.34), energy (0.45).\nThe three strongest areas are: water (0.75), governance (0.71), shelter (0.69).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

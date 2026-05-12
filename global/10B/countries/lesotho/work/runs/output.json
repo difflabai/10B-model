@@ -1,0 +1,60 @@
+{
+  "country": "Lesotho",
+  "category": "work",
+  "engine": "monte-carlo",
+  "indicator_coverage": 1.0,
+  "indicators_scored": 7,
+  "indicators_total": 7,
+  "composite_score": 0.464,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Economy: Real GDP per capita",
+      "score": 0.25
+    },
+    {
+      "field": "Economy: Real GDP growth rate",
+      "score": 0.633
+    },
+    {
+      "field": "Economy: Inflation rate (consumer prices)",
+      "score": 0.6531
+    },
+    {
+      "field": "Economy: Labor force",
+      "score": 0.65
+    },
+    {
+      "field": "Economy: Unemployment rate",
+      "score": 0.3562
+    },
+    {
+      "field": "Economy: Population below poverty line",
+      "score": 0.2036
+    },
+    {
+      "field": "Economy: Gini Index coefficient - distribution of family income",
+      "score": 0.502
+    }
+  ],
+  "embedding": [
+    0.46399,
+    1.0,
+    0.25,
+    0.633,
+    -0.02852,
+    0.75299,
+    0.3814,
+    -0.6994,
+    0.93845,
+    0.60314,
+    -0.13286,
+    0.23638,
+    -0.91598,
+    -0.92331,
+    -0.96637,
+    -0.31783
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

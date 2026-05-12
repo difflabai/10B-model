@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.kosovo",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Kosovo"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.kosovo.food",
+        "global.10B.countries.kosovo.water",
+        "global.10B.countries.kosovo.shelter",
+        "global.10B.countries.kosovo.health",
+        "global.10B.countries.kosovo.safety",
+        "global.10B.countries.kosovo.education",
+        "global.10B.countries.kosovo.work",
+        "global.10B.countries.kosovo.energy",
+        "global.10B.countries.kosovo.mobility",
+        "global.10B.countries.kosovo.communications",
+        "global.10B.countries.kosovo.governance",
+        "global.10B.countries.kosovo.environment",
+        "global.10B.countries.kosovo.belonging",
+        "global.10B.countries.kosovo.meaning",
+        "global.10B.countries.kosovo.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "food",
+  "countries_total": 257,
+  "countries_with_data": 255,
+  "countries_covered": 255,
+  "skipped_countries": [
+    "akrotiri",
+    "dhekelia"
+  ],
+  "coverage_ratio": 0.9922,
+  "world_mean": 0.6174,
+  "world_median": 0.6349,
+  "world_min": 0.2,
+  "world_max": 0.7418,
+  "world_p10": 0.5143,
+  "world_p90": 0.718,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

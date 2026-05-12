@@ -1,0 +1,61 @@
+{
+  "modelId": "global.10B.regions.americas.governance",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "americas"
+    },
+    "category": {
+      "value": "governance"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.anguilla.governance",
+        "global.10B.countries.antigua-and-barbuda.governance",
+        "global.10B.countries.argentina.governance",
+        "global.10B.countries.aruba.governance",
+        "global.10B.countries.bahamas-the.governance",
+        "global.10B.countries.barbados.governance",
+        "global.10B.countries.belize.governance",
+        "global.10B.countries.bermuda.governance",
+        "global.10B.countries.bolivia.governance",
+        "global.10B.countries.brazil.governance",
+        "global.10B.countries.british-virgin-islands.governance",
+        "global.10B.countries.cayman-islands.governance",
+        "global.10B.countries.cuba.governance",
+        "global.10B.countries.curacao.governance",
+        "global.10B.countries.dominica.governance",
+        "global.10B.countries.dominican-republic.governance",
+        "global.10B.countries.falkland-islands-islas-malvinas.governance",
+        "global.10B.countries.grenada.governance",
+        "global.10B.countries.guyana.governance",
+        "global.10B.countries.haiti.governance",
+        "global.10B.countries.jamaica.governance",
+        "global.10B.countries.montserrat.governance",
+        "global.10B.countries.navassa-island.governance",
+        "global.10B.countries.paraguay.governance",
+        "global.10B.countries.puerto-rico.governance",
+        "global.10B.countries.saint-barthelemy.governance",
+        "global.10B.countries.saint-kitts-and-nevis.governance",
+        "global.10B.countries.saint-lucia.governance",
+        "global.10B.countries.saint-martin.governance",
+        "global.10B.countries.saint-pierre-and-miquelon.governance",
+        "global.10B.countries.saint-vincent-and-the-grenadines.governance",
+        "global.10B.countries.sint-maarten.governance",
+        "global.10B.countries.suriname.governance",
+        "global.10B.countries.trinidad-and-tobago.governance",
+        "global.10B.countries.turks-and-caicos-islands.governance",
+        "global.10B.countries.uruguay.governance",
+        "global.10B.countries.venezuela.governance",
+        "global.10B.countries.virgin-islands.governance"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

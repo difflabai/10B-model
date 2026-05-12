@@ -1,0 +1,39 @@
+{
+  "country": "Sint Maarten",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Democratic Party or DPNational Alliance or NANational Opportunity Wealth or NOWParty for Progress or PFPSint Maarten Christian Party or SMCPUnified Resilient St Maarten Movement or URSMUnited People's Party or UPPUnited Sint Maarten Party or US Party",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "89.5% (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.5
+}

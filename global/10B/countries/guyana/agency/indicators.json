@@ -1,0 +1,39 @@
+{
+  "country": "Guyana",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "A New and United Guyana or ANUGA Partnership for National Unity or APNUAlliance for Change or AFCJustice for All PartyLiberty and Justice Party or LJPNational Independent Party or NIPPeople's Progressive Party/Civic or PPP/CThe New Movement or TNMThe United Force or TUFUnited Republican Party or URP",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "85% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "government-dominated broadcast media; the National Communications Network (NCN) TV is state-owned; a few private TV stations relay satellite services; the state owns and operates 2 radio stations broadcasting on multiple frequencies capable of reaching the entire country; government limits on licensing of new private radio stations has constrained competition in broadcast media",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.5% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.8333333333333334
+}

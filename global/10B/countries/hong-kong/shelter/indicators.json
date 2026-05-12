@@ -1,0 +1,34 @@
+{
+  "country": "Hong Kong",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "100% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "7.685 million Hong Kong (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population fairly evenly distributed",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "subtropical monsoon; cool and humid in winter, hot and rainy from spring through summer, warm and sunny in fall",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "subtropical monsoon; cool and humid in winter, hot and rainy from spring through summer, warm and sunny in fall",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

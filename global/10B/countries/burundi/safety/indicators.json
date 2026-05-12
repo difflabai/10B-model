@@ -1,0 +1,39 @@
+{
+  "country": "Burundi",
+  "category": "safety",
+  "label": "Safety and protection from violence",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Military and Security: Military and security forces",
+      "value": "Burundi National Defense Force (BNDF; Force de Defense Nationale du Burundi or FDNB) : Land Force (la Force Terrestre), the Navy Force (la Force de la Marine), the Air Force (la Force Aérienne) and Specialized Units (des Unités Spécialisées)Ministry of Interior, Community Development, and Public Security: Burundi National Police (Police Nationale du Burundi) (2024)",
+      "present": true
+    },
+    {
+      "field": "Military and Security: Military expenditures",
+      "value": "3.7% of GDP (2023 est.)2.8% of GDP (2022 est.)2% of GDP (2021 est.)2.1% of GDP (2020 est.)3% of GDP (2019 est.)",
+      "present": true
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - home based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Terrorism: Terrorist group(s) - foreign based",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Disputes - international",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)",
+      "value": "87,157 (Democratic Republic of the Congo) (refugees and asylum seekers) (2024)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

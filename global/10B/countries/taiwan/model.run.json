@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.taiwan",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Taiwan"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.taiwan.food",
+        "global.10B.countries.taiwan.water",
+        "global.10B.countries.taiwan.shelter",
+        "global.10B.countries.taiwan.health",
+        "global.10B.countries.taiwan.safety",
+        "global.10B.countries.taiwan.education",
+        "global.10B.countries.taiwan.work",
+        "global.10B.countries.taiwan.energy",
+        "global.10B.countries.taiwan.mobility",
+        "global.10B.countries.taiwan.communications",
+        "global.10B.countries.taiwan.governance",
+        "global.10B.countries.taiwan.environment",
+        "global.10B.countries.taiwan.belonging",
+        "global.10B.countries.taiwan.meaning",
+        "global.10B.countries.taiwan.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

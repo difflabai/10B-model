@@ -1,0 +1,52 @@
+{
+  "country": "Antigua and Barbuda",
+  "category": "education",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8,
+  "indicators_scored": 4,
+  "indicators_total": 5,
+  "composite_score": 0.7582,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "score": 0.958
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.5875
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "score": 0.8375
+    },
+    {
+      "field": "People and Society: Languages",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "score": null
+    }
+  ],
+  "embedding": [
+    0.75825,
+    0.8,
+    0.958,
+    0.5875,
+    0.43209,
+    0.50628,
+    0.56069,
+    -0.81854,
+    0.18746,
+    0.07439,
+    0.00145,
+    0.77182,
+    -0.94409,
+    0.64269,
+    -0.14015,
+    -0.11998
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

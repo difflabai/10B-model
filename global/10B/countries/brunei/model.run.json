@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.brunei",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Brunei"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.brunei.food",
+        "global.10B.countries.brunei.water",
+        "global.10B.countries.brunei.shelter",
+        "global.10B.countries.brunei.health",
+        "global.10B.countries.brunei.safety",
+        "global.10B.countries.brunei.education",
+        "global.10B.countries.brunei.work",
+        "global.10B.countries.brunei.energy",
+        "global.10B.countries.brunei.mobility",
+        "global.10B.countries.brunei.communications",
+        "global.10B.countries.brunei.governance",
+        "global.10B.countries.brunei.environment",
+        "global.10B.countries.brunei.belonging",
+        "global.10B.countries.brunei.meaning",
+        "global.10B.countries.brunei.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

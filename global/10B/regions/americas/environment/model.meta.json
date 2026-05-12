@@ -1,0 +1,258 @@
+{
+  "id": "global.10B.regions.americas.environment",
+  "name": "Americas — Environmental sustainability",
+  "kind": "forecast_harness",
+  "blurb": "Region-level environmental sustainability for Americas, aggregated across 38 countries.",
+  "mechanism": "Aggregates the per-country environment models for the 38 Americas countries into a single regional category score and a country ranking, feeding both the regional rollup and the cross-country category world rollup.",
+  "components": [
+    {
+      "id": "aggregator",
+      "name": "Country aggregator",
+      "role": "Region-internal aggregation.",
+      "crate_path": null,
+      "key_symbols": []
+    }
+  ],
+  "inputs": [
+    {
+      "name": "environment-country-scores",
+      "kind": "scalar-list",
+      "description": "environment scores across Americas countries."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "environment-region-mean",
+      "kind": "scalar",
+      "description": "Mean environment score across the region."
+    },
+    {
+      "name": "environment-region-ranking",
+      "kind": "ranking",
+      "description": "Country-level ranking within the region."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "region",
+      "value": "Americas"
+    },
+    {
+      "key": "category",
+      "value": "Environmental sustainability"
+    },
+    {
+      "key": "country-count",
+      "value": "38"
+    }
+  ],
+  "references": [
+    {
+      "label": "10B Needs Tree",
+      "kind": "spec",
+      "location": "global/10B/needs-tree.json"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "global.10B.countries.anguilla.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for anguilla"
+    },
+    {
+      "target_model_id": "global.10B.countries.antigua-and-barbuda.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for antigua-and-barbuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.argentina.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for argentina"
+    },
+    {
+      "target_model_id": "global.10B.countries.aruba.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for aruba"
+    },
+    {
+      "target_model_id": "global.10B.countries.bahamas-the.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bahamas-the"
+    },
+    {
+      "target_model_id": "global.10B.countries.barbados.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for barbados"
+    },
+    {
+      "target_model_id": "global.10B.countries.belize.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for belize"
+    },
+    {
+      "target_model_id": "global.10B.countries.bermuda.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bermuda"
+    },
+    {
+      "target_model_id": "global.10B.countries.bolivia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for bolivia"
+    },
+    {
+      "target_model_id": "global.10B.countries.brazil.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for brazil"
+    },
+    {
+      "target_model_id": "global.10B.countries.british-virgin-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for british-virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cayman-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cayman-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.cuba.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for cuba"
+    },
+    {
+      "target_model_id": "global.10B.countries.curacao.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for curacao"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominica.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for dominica"
+    },
+    {
+      "target_model_id": "global.10B.countries.dominican-republic.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for dominican-republic"
+    },
+    {
+      "target_model_id": "global.10B.countries.falkland-islands-islas-malvinas.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for falkland-islands-islas-malvinas"
+    },
+    {
+      "target_model_id": "global.10B.countries.grenada.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for grenada"
+    },
+    {
+      "target_model_id": "global.10B.countries.guyana.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for guyana"
+    },
+    {
+      "target_model_id": "global.10B.countries.haiti.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for haiti"
+    },
+    {
+      "target_model_id": "global.10B.countries.jamaica.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for jamaica"
+    },
+    {
+      "target_model_id": "global.10B.countries.montserrat.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for montserrat"
+    },
+    {
+      "target_model_id": "global.10B.countries.navassa-island.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for navassa-island"
+    },
+    {
+      "target_model_id": "global.10B.countries.paraguay.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for paraguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.puerto-rico.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for puerto-rico"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-barthelemy.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-barthelemy"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-kitts-and-nevis.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-kitts-and-nevis"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-lucia.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-lucia"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-martin.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-martin"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-pierre-and-miquelon.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-pierre-and-miquelon"
+    },
+    {
+      "target_model_id": "global.10B.countries.saint-vincent-and-the-grenadines.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for saint-vincent-and-the-grenadines"
+    },
+    {
+      "target_model_id": "global.10B.countries.sint-maarten.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for sint-maarten"
+    },
+    {
+      "target_model_id": "global.10B.countries.suriname.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for suriname"
+    },
+    {
+      "target_model_id": "global.10B.countries.trinidad-and-tobago.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for trinidad-and-tobago"
+    },
+    {
+      "target_model_id": "global.10B.countries.turks-and-caicos-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for turks-and-caicos-islands"
+    },
+    {
+      "target_model_id": "global.10B.countries.uruguay.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for uruguay"
+    },
+    {
+      "target_model_id": "global.10B.countries.venezuela.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for venezuela"
+    },
+    {
+      "target_model_id": "global.10B.countries.virgin-islands.environment",
+      "kind": "consumes_from",
+      "note": "Country-level environment for virgin-islands"
+    },
+    {
+      "target_model_id": "global.10B.regions.americas",
+      "kind": "consumes_from",
+      "note": "Parent region rollup."
+    },
+    {
+      "target_model_id": "global.10B.categories.environment",
+      "kind": "consumes_from",
+      "note": "Cross-country category rollup."
+    }
+  ]
+}

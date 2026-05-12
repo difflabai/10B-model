@@ -1,0 +1,39 @@
+{
+  "country": "West Bank",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "87% (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "the Palestinian Authority operates 1 TV and 1 radio station; about 20 private TV and 40 radio stations; both Jordanian TV and satellite TV are accessible",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "5.3% of GDP (2018 est.)",
+      "present": true
+    }
+  ],
+  "coverage": 0.5
+}

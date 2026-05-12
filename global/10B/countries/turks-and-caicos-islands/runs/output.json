@@ -1,0 +1,47 @@
+{
+  "country": "turks-and-caicos-islands",
+  "category_scores": {
+    "agency": 0.772,
+    "belonging": 0.6667,
+    "communications": 0.707,
+    "education": 0.555,
+    "energy": 0.6087,
+    "environment": 0.504,
+    "food": 0.4705,
+    "governance": 0.7083,
+    "health": 0.7761,
+    "meaning": 0.625,
+    "mobility": 0.3431,
+    "safety": null,
+    "shelter": 0.6383,
+    "water": 0.65,
+    "work": 0.6872
+  },
+  "country_score": 0.6223,
+  "tier_scores": {
+    "subsistence": 0.6337,
+    "development": 0.5802,
+    "agency": 0.6552
+  },
+  "country_embedding": [
+    0.5808,
+    0.61498,
+    0.63399,
+    0.4868,
+    -0.01586,
+    0.14887,
+    -0.13399,
+    0.07932,
+    -0.07138,
+    -0.17188,
+    -0.18515,
+    0.03687,
+    -0.39494,
+    -0.14051,
+    -0.12034,
+    -0.24261
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Turks And Caicos Islands, the three needs areas with the largest gaps are: mobility (0.34), food (0.47), environment (0.50).\nThe three strongest areas are: health (0.78), agency (0.77), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

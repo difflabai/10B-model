@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.laos",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Laos"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.laos.food",
+        "global.10B.countries.laos.water",
+        "global.10B.countries.laos.shelter",
+        "global.10B.countries.laos.health",
+        "global.10B.countries.laos.safety",
+        "global.10B.countries.laos.education",
+        "global.10B.countries.laos.work",
+        "global.10B.countries.laos.energy",
+        "global.10B.countries.laos.mobility",
+        "global.10B.countries.laos.communications",
+        "global.10B.countries.laos.governance",
+        "global.10B.countries.laos.environment",
+        "global.10B.countries.laos.belonging",
+        "global.10B.countries.laos.meaning",
+        "global.10B.countries.laos.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

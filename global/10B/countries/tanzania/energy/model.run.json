@@ -1,0 +1,25 @@
+{
+  "modelId": "global.10B.countries.tanzania.energy",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Tanzania"
+    },
+    "category": {
+      "value": "energy"
+    },
+    "indicators": {
+      "path": "./indicators.json"
+    },
+    "needs-tree": {
+      "path": "../../../needs-tree.json"
+    }
+  },
+  "spec": {
+    "inline": {
+      "engine": "closed-form",
+      "category": "energy"
+    }
+  },
+  "output": "./runs/output.json"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Paraguay",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.7304,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.85
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.78
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.65
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.522
+    }
+  ],
+  "embedding": [
+    0.7304,
+    0.83333,
+    0.85,
+    0.85,
+    0.16112,
+    -0.8291,
+    -0.20818,
+    0.24688,
+    0.10762,
+    -0.28261,
+    -0.15859,
+    0.25902,
+    -0.30053,
+    -0.21843,
+    -0.26046,
+    -0.76498
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

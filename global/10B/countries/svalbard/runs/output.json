@@ -1,0 +1,47 @@
+{
+  "country": "svalbard",
+  "category_scores": {
+    "agency": 0.7,
+    "belonging": 0.6339,
+    "communications": 0.75,
+    "education": 0.65,
+    "energy": null,
+    "environment": 0.4,
+    "food": 0.375,
+    "governance": 0.65,
+    "health": null,
+    "meaning": 0.55,
+    "mobility": 0.2,
+    "safety": 0.55,
+    "shelter": 0.75,
+    "water": 0.75,
+    "work": null
+  },
+  "country_score": 0.5799,
+  "tier_scores": {
+    "subsistence": 0.6062,
+    "development": 0.5333,
+    "agency": 0.5868
+  },
+  "country_embedding": [
+    0.46393,
+    0.26551,
+    0.44333,
+    0.33,
+    -0.2173,
+    -0.02037,
+    0.06647,
+    0.09914,
+    -0.02892,
+    -0.19068,
+    0.16033,
+    0.10269,
+    0.38084,
+    -0.00439,
+    0.06745,
+    0.0695
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Svalbard, the three needs areas with the largest gaps are: mobility (0.20), food (0.38), environment (0.40).\nThe three strongest areas are: water (0.75), shelter (0.75), communications (0.75).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

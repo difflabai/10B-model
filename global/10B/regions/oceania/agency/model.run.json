@@ -1,0 +1,70 @@
+{
+  "modelId": "global.10B.regions.oceania.agency",
+  "engine": "closed-form",
+  "inputs": {
+    "region": {
+      "value": "oceania"
+    },
+    "category": {
+      "value": "agency"
+    },
+    "country-models": {
+      "list": [
+        "global.10B.countries.american-samoa.agency",
+        "global.10B.countries.australia.agency",
+        "global.10B.countries.baker-island.agency",
+        "global.10B.countries.chile.agency",
+        "global.10B.countries.clipperton-island.agency",
+        "global.10B.countries.colombia.agency",
+        "global.10B.countries.cook-islands.agency",
+        "global.10B.countries.coral-sea-islands.agency",
+        "global.10B.countries.costa-rica.agency",
+        "global.10B.countries.ecuador.agency",
+        "global.10B.countries.el-salvador.agency",
+        "global.10B.countries.fiji.agency",
+        "global.10B.countries.french-polynesia.agency",
+        "global.10B.countries.guam.agency",
+        "global.10B.countries.guatemala.agency",
+        "global.10B.countries.honduras.agency",
+        "global.10B.countries.howland-island.agency",
+        "global.10B.countries.jarvis-island.agency",
+        "global.10B.countries.johnston-atoll.agency",
+        "global.10B.countries.kingman-reef.agency",
+        "global.10B.countries.kiribati.agency",
+        "global.10B.countries.marshall-islands.agency",
+        "global.10B.countries.mexico.agency",
+        "global.10B.countries.micronesia-federated-states-of.agency",
+        "global.10B.countries.midway-islands.agency",
+        "global.10B.countries.nauru.agency",
+        "global.10B.countries.new-caledonia.agency",
+        "global.10B.countries.new-zealand.agency",
+        "global.10B.countries.nicaragua.agency",
+        "global.10B.countries.niue.agency",
+        "global.10B.countries.norfolk-island.agency",
+        "global.10B.countries.northern-mariana-islands.agency",
+        "global.10B.countries.palau.agency",
+        "global.10B.countries.palmyra-atoll.agency",
+        "global.10B.countries.panama.agency",
+        "global.10B.countries.papua-new-guinea.agency",
+        "global.10B.countries.peru.agency",
+        "global.10B.countries.pitcairn-islands.agency",
+        "global.10B.countries.samoa.agency",
+        "global.10B.countries.solomon-islands.agency",
+        "global.10B.countries.tokelau.agency",
+        "global.10B.countries.tonga.agency",
+        "global.10B.countries.tuvalu.agency",
+        "global.10B.countries.united-states.agency",
+        "global.10B.countries.vanuatu.agency",
+        "global.10B.countries.wake-island.agency",
+        "global.10B.countries.wallis-and-futuna.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "region-category",
+      "weights": "population"
+    }
+  },
+  "output": "./runs/output.json"
+}

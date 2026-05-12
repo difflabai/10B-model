@@ -1,0 +1,39 @@
+{
+  "country": "Gibraltar",
+  "category": "agency",
+  "label": "Agency and self-determination",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Government: Suffrage",
+      "value": "18 years of age; universal; and British citizens with six months residence or more",
+      "present": true
+    },
+    {
+      "field": "Government: Legislative branch",
+      "value": null,
+      "present": false
+    },
+    {
+      "field": "Government: Political parties",
+      "value": "Gibraltar Liberal Party or Liberal Party of Gibraltar or LPG Gibraltar Social Democrats or GSD Gibraltar Socialist Labor Party or GSLP GSLP-Liberal Alliance Together Gibraltar or TG",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "94% (2016 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "Gibraltar Broadcasting Corporation (GBC) provides TV and radio broadcasting services via 1 TV station and 4 radio stations; British Forces Broadcasting Service (BFBS) operates 1 radio station; broadcasts from Spanish radio and TV stations are accessible",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.6666666666666666
+}

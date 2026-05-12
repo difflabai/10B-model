@@ -1,0 +1,56 @@
+{
+  "country": "Sri Lanka",
+  "category": "agency",
+  "engine": "closed-form",
+  "indicator_coverage": 0.8333333333333334,
+  "indicators_scored": 5,
+  "indicators_total": 6,
+  "composite_score": 0.6763,
+  "score_kind": "scalar_in_unit_interval",
+  "contributions": [
+    {
+      "field": "Government: Suffrage",
+      "score": 0.85
+    },
+    {
+      "field": "Government: Legislative branch",
+      "score": null
+    },
+    {
+      "field": "Government: Political parties",
+      "score": 0.92
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "score": 0.5357
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "score": 0.75
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "score": 0.326
+    }
+  ],
+  "embedding": [
+    0.67634,
+    0.83333,
+    0.85,
+    0.92,
+    0.62835,
+    0.98666,
+    0.54699,
+    -0.29039,
+    -0.10188,
+    -0.32329,
+    0.87338,
+    -0.54794,
+    0.92325,
+    0.79794,
+    -0.77792,
+    0.93805
+  ],
+  "embedding_dim": 16,
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

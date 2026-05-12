@@ -1,0 +1,35 @@
+{
+  "modelId": "global.10B.countries.philippines",
+  "engine": "closed-form",
+  "inputs": {
+    "country": {
+      "value": "Philippines"
+    },
+    "category-models": {
+      "list": [
+        "global.10B.countries.philippines.food",
+        "global.10B.countries.philippines.water",
+        "global.10B.countries.philippines.shelter",
+        "global.10B.countries.philippines.health",
+        "global.10B.countries.philippines.safety",
+        "global.10B.countries.philippines.education",
+        "global.10B.countries.philippines.work",
+        "global.10B.countries.philippines.energy",
+        "global.10B.countries.philippines.mobility",
+        "global.10B.countries.philippines.communications",
+        "global.10B.countries.philippines.governance",
+        "global.10B.countries.philippines.environment",
+        "global.10B.countries.philippines.belonging",
+        "global.10B.countries.philippines.meaning",
+        "global.10B.countries.philippines.agency"
+      ]
+    }
+  },
+  "spec": {
+    "inline": {
+      "rollup": "country",
+      "weights": "indicator-coverage"
+    }
+  },
+  "output": "./runs/output.json"
+}

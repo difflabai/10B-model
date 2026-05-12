@@ -1,0 +1,47 @@
+{
+  "country": "tuvalu",
+  "category_scores": {
+    "agency": 0.765,
+    "belonging": 0.6469,
+    "communications": 0.6317,
+    "education": 0.65,
+    "energy": 0.8623,
+    "environment": 0.5625,
+    "food": 0.6753,
+    "governance": 0.7143,
+    "health": 0.5385,
+    "meaning": 0.63,
+    "mobility": 0.2,
+    "safety": 0.65,
+    "shelter": 0.6343,
+    "water": 0.65,
+    "work": 0.6344
+  },
+  "country_score": 0.6297,
+  "tier_scores": {
+    "subsistence": 0.6296,
+    "development": 0.5957,
+    "agency": 0.6637
+  },
+  "country_embedding": [
+    0.62968,
+    0.64305,
+    0.62849,
+    0.51833,
+    -0.16523,
+    0.06701,
+    -0.05745,
+    -0.18892,
+    -0.1721,
+    -0.00072,
+    -0.13535,
+    -0.07915,
+    -0.16094,
+    0.08362,
+    0.00202,
+    -0.08613
+  ],
+  "embedding_dim": 16,
+  "summary": "For someone in Tuvalu, the three needs areas with the largest gaps are: mobility (0.20), health (0.54), environment (0.56).\nThe three strongest areas are: energy (0.86), agency (0.77), governance (0.71).\nPersonal-agent suggestions: focus community-building energy on weakest categories; leverage strongest categories as sources of economic value to bring to the community.",
+  "scored_with": "scripts/10b/scorer.py v0.1.0"
+}

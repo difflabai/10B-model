@@ -1,0 +1,34 @@
+{
+  "country": "Jordan",
+  "category": "shelter",
+  "label": "Shelter and habitat",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Urbanization - urban population",
+      "value": "92% of total population (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Major urban areas - population",
+      "value": "2.232 million AMMAN (capital) (2023)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Population distribution",
+      "value": "population heavily concentrated in the west, and particularly the northwest, in and around the capital of Amman; a sizeable, but smaller population is located in the southwest along the shore of the Gulf of Aqaba",
+      "present": true
+    },
+    {
+      "field": "Environment: Climate",
+      "value": "mostly arid desert; rainy season in west (November to April)",
+      "present": true
+    },
+    {
+      "field": "Geography: Climate",
+      "value": "mostly arid desert; rainy season in west (November to April)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

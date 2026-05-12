@@ -1,0 +1,64 @@
+{
+  "country": "Angola",
+  "category": "communications",
+  "label": "Communications and connectivity",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants",
+      "value": "67 (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - mobile cellular - total subscriptions",
+      "value": "25.7 million (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Telephones - fixed lines - total subscriptions",
+      "value": "87,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Internet users - percent of population",
+      "value": "39% (2022 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants",
+      "value": "(2023 est.) less than 1",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadband - fixed subscriptions - total",
+      "value": "137,000 (2023 est.)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - general assessment",
+      "value": "Angola’s telecom sector in recent years has benefited from political stability, which has encouraged foreign investment in the sector; the government and regulator have also set in train mechanisms to open up the telecom sector to new competitors, mobile services were launched in April 2022; the MNOs were slow to develop LTE services, instead relying on their GSM and 3G network capabilities; there has been slow progress in LTE network development, with only a small proportion of the country covered by network infrastructure; the Ministry of Telecommunications in early 2021 set up a 5G hub to assess 5G user cases; the regulator in November 2021 granted licenses to various companies offering 5G services, with spectrum in the 3.3-3.7GHz range having been set aside for such services (2022)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - domestic",
+      "value": "less than one fixed-line per 100 persons; mobile-cellular teledensity about 44 telephones per 100 persons (2021)",
+      "present": true
+    },
+    {
+      "field": "Communications: Telecommunication systems - international",
+      "value": "country code - 244; landing points for the SAT-3/WASC, WACS, ACE and SACS fiber-optic submarine cable that provides connectivity to other countries in west Africa, Brazil, Europe and Asia; satellite earth stations - 29, Angosat-2 satellite expected by 2021 (2019)",
+      "present": true
+    },
+    {
+      "field": "Communications: Broadcast media",
+      "value": "State-owned media dominate the media landscape, the many privately owned newspapers that emerged following the advent of multiparty politics in 1992, only four still exist in print form, State-run Radio Nacional de Angola (RNA) is the only outlet to offer programs in indigenous languages such as Bantu, private stations operate in cities, including Catholic Radio Ecclesia, but RNA is the only broadcaster with near-national coverage (2023)",
+      "present": true
+    }
+  ],
+  "coverage": 1.0
+}

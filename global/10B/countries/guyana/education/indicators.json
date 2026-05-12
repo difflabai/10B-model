@@ -1,0 +1,34 @@
+{
+  "country": "Guyana",
+  "category": "education",
+  "label": "Education and learning",
+  "engine": "closed-form",
+  "indicators": [
+    {
+      "field": "People and Society: Literacy - total population",
+      "value": "88.8%",
+      "present": true
+    },
+    {
+      "field": "People and Society: Education expenditures",
+      "value": "4.5% of GDP (2018 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: School life expectancy (primary to tertiary education) - total",
+      "value": "11 years",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages",
+      "value": "English (official), Guyanese Creole, Amerindian languages (including Caribbean and Arawak languages), Indian languages (including Caribbean Hindustani, a dialect of Hindi), Chinese (2014 est.)",
+      "present": true
+    },
+    {
+      "field": "People and Society: Languages - major-language sample(s)",
+      "value": null,
+      "present": false
+    }
+  ],
+  "coverage": 0.8
+}
