@@ -144,17 +144,18 @@ files.
 
 ## Regenerating
 
-The full registry is generated end-to-end by the pipeline at
-[difflabai/business-world-models](https://github.com/difflabai/business-world-models)
-under `scripts/10b/`. From a `business-world-models` checkout:
+The full registry is generated end-to-end by the pipeline under
+[`../../scripts/10b/`](../../scripts/10b/) in this repo:
 
 ```bash
-# Point the pipeline at this model-nexus checkout
-BWM_LOCAL_ROOT=/path/to/model-nexus bash scripts/10b/pipeline.sh
+# From this repo's root — writes back into ./global/10B/
+bash scripts/10b/pipeline.sh
 ```
 
-If `model-nexus` is checked out as a sibling of `business-world-models`,
-the pipeline auto-discovers it and the env var can be omitted.
+Override the target with `$BWM_10B_ROOT` (a checkout of this repo) or
+`$BWM_LOCAL_ROOT` (the writable local registry of a downstream
+`bwm-server`) if you want a re-run to land somewhere else. See the
+top-level [README](../../README.md) for the full env-var contract.
 
 The pipeline is idempotent (~30s on a recent Mac):
 
