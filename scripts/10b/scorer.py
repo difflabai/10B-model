@@ -623,9 +623,13 @@ def main() -> int:
             "embedding": country_embedding,
         }
 
-    # Cross-country category rollups
+    # Cross-country category rollups. The category dir is created by
+    # generate.py; skip this section gracefully if scorer is run
+    # standalone before generate.py has been invoked — the macro-embedding
+    # rollup below can still proceed.
     cat_base = BASE / "categories"
-    for cat in cat_base.iterdir():
+    cat_iter = cat_base.iterdir() if cat_base.is_dir() else iter(())
+    for cat in cat_iter:
         if not cat.is_dir():
             continue
         scores = category_world.get(cat.name, [])

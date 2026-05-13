@@ -58,7 +58,7 @@ def main() -> int:
         return 1
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     payload = {
         "contents": [{"parts": [{"text": PROMPT}]}],
         "generationConfig": {
@@ -67,10 +67,16 @@ def main() -> int:
         },
     }
 
+    # Send the API key in the `x-goog-api-key` header rather than the
+    # URL query string — query params land in proxy / web-server logs
+    # and don't belong in shell history either.
     req = urllib.request.Request(
         url,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "x-goog-api-key": API_KEY,
+        },
         method="POST",
     )
     try:

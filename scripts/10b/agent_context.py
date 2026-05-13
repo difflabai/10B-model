@@ -49,7 +49,10 @@ def load_peers(slug: str) -> Dict[str, Any] | None:
 
 def category_world_means() -> Dict[str, float]:
     out: Dict[str, float] = {}
-    for cd in (BASE / "categories").iterdir():
+    cats_dir = BASE / "categories"
+    if not cats_dir.is_dir():
+        return out
+    for cd in cats_dir.iterdir():
         runp = cd / "runs" / "output.json"
         if runp.exists():
             d = json.loads(runp.read_text())

@@ -33,6 +33,11 @@ NEEDS_TREE = BASE / "needs-tree.json"
 
 def load_country_profiles() -> Tuple[List[str], List[str], List[List[float]]]:
     base = BASE / "countries"
+    if not base.is_dir():
+        raise SystemExit(
+            f"countries directory not found at {base}. "
+            "Run scripts/10b/scorer.py first to populate per-country runs."
+        )
     needs = json.loads(NEEDS_TREE.read_text())
     cats = list(needs["categories"].keys())
     countries: List[str] = []
@@ -110,7 +115,14 @@ def cluster_label(centroid: List[float], cats: List[str]) -> str:
 
 
 def main() -> int:
-    k = int(sys.argv[1]) if len(sys.argv) > 1 else 6
+    if len(sys.argv) > 1:
+        try:
+            k = int(sys.argv[1])
+        except ValueError:
+            print(f"Error: k must be an integer (got {sys.argv[1]!r})", file=sys.stderr)
+            return 1
+    else:
+        k = 6
     cats, countries, matrix = load_country_profiles()
     if not matrix:
         print("no country profiles; run scorer.py first")

@@ -64,9 +64,15 @@ def main() -> int:
     regions_dir = BASE / "regions"
     categories_dir = BASE / "categories"
 
-    country_count = sum(1 for p in countries_dir.iterdir() if p.is_dir())
-    region_count = sum(1 for p in regions_dir.iterdir() if p.is_dir())
-    category_count = sum(1 for p in categories_dir.iterdir() if p.is_dir())
+    # iterdir() fails if the dir is missing — possible when manifest.py is
+    # run before the dir-producing pipeline steps. Report zero in that case
+    # so the manifest still serialises and the user sees an honest count.
+    def _count_dirs(p: Path) -> int:
+        return sum(1 for child in p.iterdir() if child.is_dir()) if p.is_dir() else 0
+
+    country_count = _count_dirs(countries_dir)
+    region_count = _count_dirs(regions_dir)
+    category_count = _count_dirs(categories_dir)
 
     by_namespace: Dict[str, int] = {}
     for mid in ids:
