@@ -1,4 +1,4 @@
-"""Shared path resolution for the 10B pipeline scripts.
+"""Shared path resolution + naming helpers for the 10B pipeline scripts.
 
 The pipeline writes into the same repo it lives in — this is the
 `difflabai/10B-model` repo. Output lands at `<repo>/global/10B/` by
@@ -18,11 +18,16 @@ Default fallback order (first match wins):
   1. $BWM_10B_ROOT
   2. $BWM_LOCAL_ROOT
   3. <repo-root>/ (the directory two levels above this file)
+
+The naming helpers (`slugify`, `country_dot_id`) live here because
+country slugs are part of every output path — every script that
+writes a country file needs them in lock-step with `tenb_root()`.
 """
 
 from __future__ import annotations
 
 import os
+import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -75,3 +80,28 @@ def require_countries_json() -> Path:
             "See README.md for details."
         )
     return path
+
+
+_SLUG_NON_ALNUM = re.compile(r"[^a-z0-9]+")
+
+
+def slugify(name: str) -> str:
+    """Lowercase, ASCII-only, hyphen-separated slug. Used for every
+    directory name under `countries/`, region buckets, and category
+    rollups — keeping it in one place is what guarantees the slug a
+    write produces matches the slug a downstream read looks up.
+
+    Empty input maps to `"unknown"` so a typo doesn't silently produce
+    an empty path segment.
+    """
+    s = _SLUG_NON_ALNUM.sub("-", name.lower().strip()).strip("-")
+    return s or "unknown"
+
+
+def country_dot_id(name: str) -> str:
+    """Slug used as the trailing dot-segment of a country model id —
+    e.g. `India` → `india` for `global.10B.countries.india`. Equal to
+    `slugify` today; kept as its own name so call sites that mean
+    "country dot-id specifically" are searchable.
+    """
+    return slugify(name)

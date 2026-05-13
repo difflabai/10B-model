@@ -26,7 +26,12 @@ from typing import Any, Dict, List, Tuple
 
 import sys as _sys
 _sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import countries_json_path, require_countries_json, tenb_root  # noqa: E402
+from _paths import (  # noqa: E402
+    countries_json_path,
+    require_countries_json,
+    slugify,
+    tenb_root,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
@@ -202,11 +207,6 @@ def main() -> int:
     top_countries = [n for n, _ in pops[:30]]
 
     cc_count = 0
-
-    def slugify(name: str) -> str:
-        import re
-        s = re.sub(r"[^a-z0-9]+", "-", name.lower().strip()).strip("-")
-        return s or "unknown"
 
     for country in top_countries:
         slug = slugify(country)

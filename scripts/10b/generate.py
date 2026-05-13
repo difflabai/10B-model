@@ -29,7 +29,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
@@ -38,9 +37,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from _paths import (  # noqa: E402
     countries_json_path,
+    country_dot_id,
     registry_root,
     require_countries_json,
+    slugify,
     tenb_root,
+)
+from _schema import (  # noqa: E402
+    component,
+    dep,
+    io_spec,
+    parameter_row,
+    reference,
+    write_json,
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -49,17 +58,6 @@ COUNTRIES_JSON = countries_json_path()
 
 def _needs_tree_path() -> Path:
     return tenb_root() / "needs-tree.json"
-
-
-def slugify(name: str) -> str:
-    s = name.lower().strip()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = s.strip("-")
-    return s or "unknown"
-
-
-def country_dot_id(name: str) -> str:
-    return slugify(name)
 
 
 def safe_get(country: Dict[str, Any], key: str) -> str | None:
@@ -72,40 +70,6 @@ def safe_get(country: Dict[str, Any], key: str) -> str | None:
             return None
         return v
     return str(v)
-
-
-def write_json(path: Path, data: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
-
-
-def io_spec(name: str, kind: str, description: str) -> Dict[str, str]:
-    return {"name": name, "kind": kind, "description": description}
-
-
-def reference(label: str, kind: str, location: str) -> Dict[str, str]:
-    return {"label": label, "kind": kind, "location": location}
-
-
-def parameter_row(key: str, value: str, description: str | None = None) -> Dict[str, Any]:
-    row: Dict[str, Any] = {"key": key, "value": value}
-    if description is not None:
-        row["description"] = description
-    return row
-
-
-def component(
-    cid: str, name: str, role: str, key_symbols: List[str] | None = None
-) -> Dict[str, Any]:
-    return {
-        "id": cid,
-        "name": name,
-        "role": role,
-        "crate_path": None,
-        "key_symbols": key_symbols or [],
-    }
 
 
 def model_meta(

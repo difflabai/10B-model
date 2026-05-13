@@ -24,14 +24,26 @@ country → region → world.
 from __future__ import annotations
 
 import json
-import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
 import sys as _sys
 _sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import countries_json_path, require_countries_json, tenb_root  # noqa: E402
+from _paths import (  # noqa: E402
+    countries_json_path,
+    require_countries_json,
+    slugify,
+    tenb_root,
+)
+from _schema import (  # noqa: E402
+    component,
+    dep,
+    io_spec,
+    parameter_row,
+    reference,
+    write_json,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
@@ -48,11 +60,6 @@ REGION_LABELS = {
     "oceania": "Oceania",
     "polar": "Polar / extra-territorial",
 }
-
-
-def slugify(name: str) -> str:
-    s = re.sub(r"[^a-z0-9]+", "-", name.lower().strip()).strip("-")
-    return s or "unknown"
 
 
 def classify(country_name: str, country_data: Dict[str, Any]) -> str:
@@ -81,34 +88,6 @@ def classify(country_name: str, country_data: Dict[str, Any]) -> str:
     )):
         return "americas"
     return "polar"
-
-
-def io(name: str, kind: str, desc: str) -> Dict[str, str]:
-    return {"name": name, "kind": kind, "description": desc}
-
-
-def comp(cid: str, name: str, role: str, syms: List[str] | None = None) -> Dict[str, Any]:
-    return {"id": cid, "name": name, "role": role, "crate_path": None, "key_symbols": syms or []}
-
-
-def param(k: str, v: str, d: str | None = None) -> Dict[str, Any]:
-    o = {"key": k, "value": v}
-    if d is not None:
-        o["description"] = d
-    return o
-
-
-def ref(label: str, kind: str, location: str) -> Dict[str, str]:
-    return {"label": label, "kind": kind, "location": location}
-
-
-def dep(target: str, kind: str, note: str) -> Dict[str, Any]:
-    return {"target_model_id": target, "kind": kind, "note": note}
-
-
-def write(path: Path, doc: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def load_country_score(slug: str) -> Dict[str, Any] | None:
@@ -161,23 +140,23 @@ def main() -> int:
                 f"This sits between the per-country rollups and the global 10B model in the dependency graph."
             ),
             "components": [
-                comp("classifier", "Region classifier", "Maps countries to UN-geoscheme regions."),
-                comp("aggregator", "Region aggregator", "Population-weighted mean across countries."),
-                comp("ranker", "Country ranker", "Ranks countries within the region by category satisfaction."),
+                component("classifier", "Region classifier", "Maps countries to UN-geoscheme regions."),
+                component("aggregator", "Region aggregator", "Population-weighted mean across countries."),
+                component("ranker", "Country ranker", "Ranks countries within the region by category satisfaction."),
             ],
-            "inputs": [io(f"{c}-region-scores", "scalar-list", f"{c} scores across {REGION_LABELS[region]} countries.") for c in cats],
+            "inputs": [io_spec(f"{c}-region-scores", "scalar-list", f"{c} scores across {REGION_LABELS[region]} countries.") for c in cats],
             "outputs": [
-                io("region-needs-vector", "vector", "Region-level satisfaction vector across categories."),
-                io("region-ranking", "ranking", "Within-region ranking on each category."),
+                io_spec("region-needs-vector", "vector", "Region-level satisfaction vector across categories."),
+                io_spec("region-ranking", "ranking", "Within-region ranking on each category."),
             ],
             "parameters": [
-                param("region", REGION_LABELS[region]),
-                param("country-count", str(len(slugs))),
-                param("categories", ", ".join(cats)),
+                parameter_row("region", REGION_LABELS[region]),
+                parameter_row("country-count", str(len(slugs))),
+                parameter_row("categories", ", ".join(cats)),
             ],
             "references": [
-                ref("UN geoscheme", "url", "https://unstats.un.org/unsd/methodology/m49/"),
-                ref("10B Needs Tree", "spec", "global/10B/needs-tree.json"),
+                reference("UN geoscheme", "url", "https://unstats.un.org/unsd/methodology/m49/"),
+                reference("10B Needs Tree", "spec", "global/10B/needs-tree.json"),
             ],
             "depends_on": [
                 dep(f"global.10B.countries.{s}", "consumes_from", f"Per-country rollup: {s}")
@@ -197,8 +176,8 @@ def main() -> int:
             "spec": {"inline": {"rollup": "region", "weights": "population"}},
             "output": "./runs/output.json",
         }
-        write(rdir / "model.meta.json", meta)
-        write(rdir / "model.run.json", run)
+        write_json(rdir / "model.meta.json", meta)
+        write_json(rdir / "model.run.json", run)
         written_models += 1
 
         # Compute region rollup output
@@ -230,7 +209,7 @@ def main() -> int:
             )[:25],
             "scored_with": "scripts/10b/regions.py v0.1.0",
         }
-        write(rdir / "runs" / "output.json", run_out)
+        write_json(rdir / "runs" / "output.json", run_out)
         written_runs += 1
 
         # Per-region per-category sub-models
@@ -249,19 +228,19 @@ def main() -> int:
                     f"into a single regional category score and a country ranking, feeding both the regional "
                     f"rollup and the cross-country category world rollup."
                 ),
-                "components": [comp("aggregator", "Country aggregator", "Region-internal aggregation.")],
-                "inputs": [io(f"{c}-country-scores", "scalar-list", f"{c} scores across {REGION_LABELS[region]} countries.")],
+                "components": [component("aggregator", "Country aggregator", "Region-internal aggregation.")],
+                "inputs": [io_spec(f"{c}-country-scores", "scalar-list", f"{c} scores across {REGION_LABELS[region]} countries.")],
                 "outputs": [
-                    io(f"{c}-region-mean", "scalar", f"Mean {c} score across the region."),
-                    io(f"{c}-region-ranking", "ranking", "Country-level ranking within the region."),
+                    io_spec(f"{c}-region-mean", "scalar", f"Mean {c} score across the region."),
+                    io_spec(f"{c}-region-ranking", "ranking", "Country-level ranking within the region."),
                 ],
                 "parameters": [
-                    param("region", REGION_LABELS[region]),
-                    param("category", needs_tree["categories"][c]["label"]),
-                    param("country-count", str(len(slugs))),
+                    parameter_row("region", REGION_LABELS[region]),
+                    parameter_row("category", needs_tree["categories"][c]["label"]),
+                    parameter_row("country-count", str(len(slugs))),
                 ],
                 "references": [
-                    ref("10B Needs Tree", "spec", "global/10B/needs-tree.json"),
+                    reference("10B Needs Tree", "spec", "global/10B/needs-tree.json"),
                 ],
                 "depends_on": [
                     dep(f"global.10B.countries.{s}.{c}", "consumes_from", f"Country-level {c} for {s}")
@@ -283,8 +262,8 @@ def main() -> int:
                 "spec": {"inline": {"rollup": "region-category", "weights": "population"}},
                 "output": "./runs/output.json",
             }
-            write(cdir / "model.meta.json", cmeta)
-            write(cdir / "model.run.json", crun)
+            write_json(cdir / "model.meta.json", cmeta)
+            write_json(cdir / "model.run.json", crun)
             written_models += 1
 
             scores = per_cat.get(c, [])
@@ -301,7 +280,7 @@ def main() -> int:
                     "max": round(ss[-1], 4),
                     "scored_with": "scripts/10b/regions.py v0.1.0",
                 }
-                write(cdir / "runs" / "output.json", cout)
+                write_json(cdir / "runs" / "output.json", cout)
                 written_runs += 1
 
     # Update top-level macro-embedding output to include region-level rollups
@@ -310,7 +289,7 @@ def main() -> int:
         macro = json.loads(macro_path.read_text())
         macro["region_rollups"] = sorted(REGIONS)
         macro["country_to_region"] = classification
-        write(macro_path, macro)
+        write_json(macro_path, macro)
 
     summary = {
         "regions": REGIONS,
