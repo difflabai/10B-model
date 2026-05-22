@@ -2,15 +2,17 @@
 
 People not parameters. Modeling the needs of everyone on earth.
 
-This repository is the canonical, regeneratable home of the **10B macro
-model**: a 258-country × 15-category satisfaction matrix that flows into
+The **10B model**: is a 258-country × 15-category satisfaction matrix that flows into
 a single human-needs embedding plus three downstream heads
 (unsupervised dynamics, supervised trajectory, personal-agent surfaces).
 
-The committed data — every `model.meta.json`, `model.run.json`,
-`runs/output.json`, and forecast — lives under
-[`global/10B/`](./global/10B/). Read [the data README](./global/10B/README.md)
-for what the artefacts mean and how the pieces compose.
+`model.meta.json`, `model.run.json`,
+`runs/output.json`, and forecast — can be found under under
+[`global/10B/`](./global/10B/).  [the data README](./global/10B/README.md)
+describes the artefacts and how the pieces compose.
+
+## Status
+Draft
 
 ## Repository layout
 
@@ -26,7 +28,7 @@ for what the artefacts mean and how the pieces compose.
 └── scripts/10b/         # The Python pipeline that regenerates global/10B/
 ```
 
-## Regenerating the data
+## Regenerating the initial data
 
 The pipeline is idempotent — re-running on the same input produces the
 same output, byte-for-byte. To regenerate:
@@ -73,9 +75,8 @@ Resolution order is `BWM_10B_ROOT` → `BWM_LOCAL_ROOT` → repo root.
 
 ## Consumers
 
-The data here is the source-of-truth for any downstream system that
-wants a complete view of the global 10B model. One known consumer is
-the `business-world-models` admin server, which mounts this repo as a
+This data feeds into downstream systems that use the 10B model or submodels as inputs. For example
+the `business-world-models` admin server, mounts this repo as a
 read-only registry and lets users fork all-or-selected models into a
 writable local registry via its **Browse Repos** surface.
 
