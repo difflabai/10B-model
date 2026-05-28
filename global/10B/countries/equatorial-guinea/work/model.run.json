@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.equatorial-guinea.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Equatorial Guinea"

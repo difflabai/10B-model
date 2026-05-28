@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.french-southern-and-antarctic-lands",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "French Southern and Antarctic Lands"

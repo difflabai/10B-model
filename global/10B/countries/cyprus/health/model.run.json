@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.cyprus.health",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Cyprus"

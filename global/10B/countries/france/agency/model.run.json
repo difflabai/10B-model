@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.france.agency",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "France"

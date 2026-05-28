@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.montserrat.energy",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Montserrat"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.micronesia-federated-states-of.water",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Micronesia, Federated States of"

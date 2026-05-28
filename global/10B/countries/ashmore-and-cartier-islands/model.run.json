@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.ashmore-and-cartier-islands",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Ashmore and Cartier Islands"

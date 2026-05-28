@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.british-indian-ocean-territory.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "British Indian Ocean Territory"

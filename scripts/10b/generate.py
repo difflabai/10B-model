@@ -47,13 +47,19 @@ from _schema import (  # noqa: E402
     component,
     dep,
     io_spec,
+    model_run,
     parameter_row,
     reference,
     write_json,
 )
+from bmi.mmb import mmb_block_for  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 COUNTRIES_JSON = countries_json_path()
+
+# The US macro cells gain an FRB/US backing edge when FRB/US is installed.
+FRBUS_BACKED_COUNTRY_SLUGS = {"united-states"}
+US_MACRO_CATEGORIES = {"work", "mobility", "communications", "governance", "energy"}
 
 
 def _needs_tree_path() -> Path:
@@ -101,21 +107,8 @@ def model_meta(
     }
 
 
-def model_run(
-    *,
-    model_id: str,
-    engine: str,
-    inputs: Dict[str, Any] | None = None,
-    spec: Dict[str, Any] | None = None,
-    output: str = "./runs/output.json",
-) -> Dict[str, Any]:
-    return {
-        "modelId": model_id,
-        "engine": engine,
-        "inputs": inputs or {},
-        "spec": spec or {"inline": {}},
-        "output": output,
-    }
+# `model_run` now lives in `_schema` (shared by every generator) so the
+# BMI `bmi_class` pointer is emitted consistently. Imported above.
 
 
 def category_country_model(
@@ -230,6 +223,33 @@ def category_country_model(
         f"Frameworks: {', '.join(cat_def.get('frameworks', []))}."
     )
 
+    cell_deps = [
+        {
+            "target_model_id": "global.10B.needs-tree",
+            "kind": "depends_on",
+            "note": "Schema dependency on the 10B needs tree.",
+        },
+        {
+            "target_model_id": f"global.10B.categories.{cat_id}",
+            "kind": "consumes_from",
+            "note": "Cross-country category rollup that aggregates this model along with peers.",
+        },
+    ]
+    # When FRB/US is installed, the US macro cells consume it for a
+    # monetary-policy-responsive score. The edge is added only then, so a
+    # checkout without FRB/US regenerates byte-identically (cells fall back
+    # to factbook-only scoring).
+    if (
+        country_slug in FRBUS_BACKED_COUNTRY_SLUGS
+        and cat_id in US_MACRO_CATEGORIES
+        and os.environ.get("BWM_FRBUS_PCIM")
+    ):
+        cell_deps.append({
+            "target_model_id": "external.federalreserve.frbus",
+            "kind": "consumes_from",
+            "note": "Macro backing from FRB/US for the US economy.",
+        })
+
     meta = model_meta(
         model_id=model_id,
         name=f"{country_name} — {label}",
@@ -241,18 +261,7 @@ def category_country_model(
         outputs=outputs,
         parameters=parameters,
         references=refs,
-        depends_on=[
-            {
-                "target_model_id": "global.10B.needs-tree",
-                "kind": "depends_on",
-                "note": "Schema dependency on the 10B needs tree.",
-            },
-            {
-                "target_model_id": f"global.10B.categories.{cat_id}",
-                "kind": "consumes_from",
-                "note": "Cross-country category rollup that aggregates this model along with peers.",
-            },
-        ],
+        depends_on=cell_deps,
     )
 
     run = model_run(
@@ -383,6 +392,7 @@ def country_rollup_model(
     run = model_run(
         model_id=model_id,
         engine="closed-form",
+        mmb=mmb_block_for(model_id),
         inputs={
             "country": {"value": country_name},
             "category-models": {

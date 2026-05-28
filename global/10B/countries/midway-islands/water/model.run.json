@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.midway-islands.water",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Midway Islands"

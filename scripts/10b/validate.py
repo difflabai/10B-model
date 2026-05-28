@@ -7,7 +7,9 @@ and crates/bwm-server/src/registry/meta.rs).
 
 from __future__ import annotations
 
+import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
@@ -20,6 +22,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
 
 KIND_VALUES = {"forecast_harness", "sector_economic"}
+
+# A bmi_class pointer is "module.path:ClassName".
+BMI_CLASS_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_.]*:[A-Za-z_][A-Za-z0-9_]*$")
 REFKIND_VALUES = {"paper", "spec", "crate", "url"}
 RELKIND_VALUES = {
     "depends_on",
@@ -96,6 +101,49 @@ def errors_for_meta(path: Path, meta: Dict[str, Any]) -> List[str]:
     return errs
 
 
+def errors_for_run(path: Path, run: Dict[str, Any], *, import_check: bool = False) -> List[str]:
+    """Validate a `model.run.json`: it must carry a well-formed `bmi_class`
+    pointer. With `import_check`, the class is actually imported (the hard
+    check promoted in phase D); without it, only the shape is checked so
+    `validate.py` stays dependency-free on a plain checkout.
+    """
+    errs: List[str] = []
+    if "modelId" not in run:
+        errs.append("missing modelId")
+    bmi = run.get("bmi_class")
+    bmi_cls = None
+    if bmi is None:
+        errs.append("missing bmi_class")
+    elif not isinstance(bmi, str) or not BMI_CLASS_RE.match(bmi):
+        errs.append(f"invalid bmi_class shape: {bmi!r}; expected 'module:ClassName'")
+    elif import_check:
+        try:
+            from bmi.classmap import load_bmi
+
+            bmi_cls = load_bmi(bmi)
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"bmi_class not importable: {bmi!r} ({e})")
+
+    mmb = run.get("mmb")
+    if mmb is not None:
+        from bmi.mmb import mmb_block_errors
+
+        # Under import_check, also assert the node's outputs cover the five
+        # MMB common variables (resolved to canonical standard names).
+        out_names = None
+        if bmi_cls is not None:
+            try:
+                from bmi import standard_names as _sn
+
+                out_names = {
+                    _sn.resolve(n) for n in getattr(bmi_cls, "OUTPUT_VARS", ())
+                }
+            except Exception:  # noqa: BLE001
+                out_names = None
+        errs.extend(f"mmb: {e}" for e in mmb_block_errors(mmb, out_names))
+    return errs
+
+
 def errors_for_forecast(meta: Dict[str, Any]) -> List[str]:
     errs: List[str] = []
     for k in REQUIRED_FORECAST:
@@ -112,7 +160,68 @@ def errors_for_forecast(meta: Dict[str, Any]) -> List[str]:
     return errs
 
 
-def main() -> int:
+def validate_model_registry(base: Path, *, import_check: bool = False) -> List[str]:
+    """Validate the top-level model-registry.json: it must exist, its
+    `bmi_package` must import, and every submodel id it lists must have a
+    `model.meta.json` on disk. Returns a list of error strings.
+    """
+    errs: List[str] = []
+    try:
+        from bmi.model_registry import registry_path
+    except Exception as e:  # noqa: BLE001
+        return [f"cannot import bmi.model_registry: {e}"]
+
+    reg_path = registry_path()
+    if not reg_path.exists():
+        return [f"model-registry.json not found at {reg_path}"]
+    try:
+        reg = json.loads(reg_path.read_text())
+    except Exception as e:  # noqa: BLE001
+        return [f"model-registry.json parse error: {e}"]
+
+    for key in ("schema_version", "registry_kind", "id", "bmi_package",
+                "bmi_entrypoint", "submodels"):
+        if key not in reg:
+            errs.append(f"model-registry missing key: {key}")
+
+    submodels = reg.get("submodels", [])
+    known_ids = {
+        json.loads(p.read_text()).get("id")
+        for p in base.rglob("model.meta.json")
+    }
+    listed_ids = {s.get("id") for s in submodels}
+    missing = listed_ids - known_ids
+    if missing:
+        errs.append(
+            f"{len(missing)} registry submodel(s) have no model.meta.json: "
+            f"{sorted(m for m in missing if m)[:3]}"
+        )
+    not_listed = known_ids - listed_ids
+    if not_listed:
+        errs.append(
+            f"{len(not_listed)} on-disk model(s) absent from registry: "
+            f"{sorted(m for m in not_listed if m)[:3]}"
+        )
+
+    if import_check:
+        try:
+            import importlib
+
+            importlib.import_module(reg.get("bmi_package", ""))
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"bmi_package not importable: {reg.get('bmi_package')!r} ({e})")
+    return errs
+
+
+def main(argv: List[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="validate", description=__doc__)
+    parser.add_argument(
+        "--import-check",
+        action="store_true",
+        help="also import every bmi_class (requires the bmi package on path)",
+    )
+    args = parser.parse_args(argv)
+
     base = BASE
     if not base.exists():
         print(f"registry not generated at {base}")
@@ -138,6 +247,37 @@ def main() -> int:
         print(f"FAIL: {bad} of {len(meta_files)} meta files invalid")
         return 1
     print(f"OK: {len(meta_files)} meta files valid")
+
+    run_files = list(base.rglob("model.run.json"))
+    print(f"validating {len(run_files)} run files (bmi_class)")
+    rbad = 0
+    for f in run_files:
+        try:
+            run = json.loads(f.read_text())
+        except Exception as e:
+            print(f"  PARSE ERROR {f}: {e}")
+            rbad += 1
+            continue
+        errs = errors_for_run(f, run, import_check=args.import_check)
+        if errs:
+            rbad += 1
+            if rbad <= 5:
+                print(f"  ERR {f.relative_to(base)}:")
+                for e in errs[:5]:
+                    print(f"    - {e}")
+    if rbad:
+        print(f"FAIL: {rbad} of {len(run_files)} run files invalid")
+        return 1
+    print(f"OK: {len(run_files)} run files valid")
+
+    reg_errs = validate_model_registry(base, import_check=args.import_check)
+    if reg_errs:
+        print("validating model-registry.json")
+        for e in reg_errs[:10]:
+            print(f"  - {e}")
+        print(f"FAIL: model-registry.json invalid ({len(reg_errs)} error(s))")
+        return 1
+    print("OK: model-registry.json valid")
 
     fc_files = [
         p

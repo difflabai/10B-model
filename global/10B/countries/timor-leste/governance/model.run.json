@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.timor-leste.governance",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Timor-Leste"

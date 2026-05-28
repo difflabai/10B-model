@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.cocos-keeling-islands",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Cocos (Keeling) Islands"

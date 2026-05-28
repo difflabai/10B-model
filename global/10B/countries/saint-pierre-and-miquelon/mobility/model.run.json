@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-pierre-and-miquelon.mobility",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Saint Pierre and Miquelon"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.rwanda",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Rwanda"

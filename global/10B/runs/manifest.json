@@ -1,8 +1,9 @@
 {
   "registry": "global/10B",
   "schema": "global.10B.needs-tree",
-  "generated_at": "2026-05-09T03:59:08.870333Z",
-  "model_count": 4228,
+  "canonical_registry_path": "model-registry.json",
+  "generated_at": "2026-05-28T20:50:52.426285Z",
+  "model_count": 4229,
   "forecast_count": 466,
   "country_count": 257,
   "region_count": 6,
@@ -15,6 +16,7 @@
     "global.10B.personal-agent"
   ],
   "namespace_counts": {
+    "external.federalreserve.frbus": 1,
     "global.10B": 1,
     "global.10B.categories": 15,
     "global.10B.countries": 4112,

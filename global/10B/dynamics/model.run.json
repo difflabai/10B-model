@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.dynamics",
   "engine": "closed-form",
+  "bmi_class": "bmi.dynamics:DynamicsBmi",
   "inputs": {
     "country-profiles": {
       "glob": "../countries/*/runs/output.json"

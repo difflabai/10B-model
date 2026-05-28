@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.cabo-verde.communications",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Cabo Verde"

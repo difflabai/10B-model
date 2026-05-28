@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-helena-ascension-and-tristan-da-cunha",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Saint Helena, Ascension, and Tristan da Cunha"

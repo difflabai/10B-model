@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.congo-democratic-republic-of-the.mobility",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Congo, Democratic Republic of the"

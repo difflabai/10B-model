@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.zambia",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Zambia"

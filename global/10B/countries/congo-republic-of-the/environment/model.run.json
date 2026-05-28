@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.congo-republic-of-the.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Congo, Republic of the"

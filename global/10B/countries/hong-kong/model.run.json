@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.hong-kong",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Hong Kong"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.ashmore-and-cartier-islands.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Ashmore and Cartier Islands"

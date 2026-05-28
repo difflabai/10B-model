@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.falkland-islands-islas-malvinas.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Falkland Islands (Islas Malvinas)"

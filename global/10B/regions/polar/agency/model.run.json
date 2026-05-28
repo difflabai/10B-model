@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.regions.polar.agency",
   "engine": "closed-form",
+  "bmi_class": "bmi.regions:RegionRollupBmi",
   "inputs": {
     "region": {
       "value": "polar"

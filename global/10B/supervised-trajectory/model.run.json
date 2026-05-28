@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.supervised-trajectory",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.supervised:SupervisedBmi",
   "inputs": {
     "embedding": {
       "path": "../runs/macro-embedding.json"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.regions.oceania.meaning",
   "engine": "closed-form",
+  "bmi_class": "bmi.regions:RegionRollupBmi",
   "inputs": {
     "region": {
       "value": "oceania"

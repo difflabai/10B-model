@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.monaco.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Monaco"

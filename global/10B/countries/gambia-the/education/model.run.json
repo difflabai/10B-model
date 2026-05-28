@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.gambia-the.education",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Gambia, The"

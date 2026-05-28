@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.bouvet-island.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Bouvet Island"

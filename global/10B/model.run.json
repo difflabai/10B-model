@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.macro:MacroBmi",
   "inputs": {
     "country-rollups": {
       "list": [

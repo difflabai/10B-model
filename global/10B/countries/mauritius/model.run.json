@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.mauritius",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Mauritius"

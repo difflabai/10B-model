@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.heard-island-and-mcdonald-islands",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Heard Island and McDonald Islands"

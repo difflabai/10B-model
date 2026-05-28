@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.categories.meaning",
   "engine": "closed-form",
+  "bmi_class": "bmi.categories:CategoryWorldBmi",
   "inputs": {
     "category": {
       "value": "meaning"

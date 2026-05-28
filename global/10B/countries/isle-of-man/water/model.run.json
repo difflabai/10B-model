@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.isle-of-man.water",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Isle of Man"

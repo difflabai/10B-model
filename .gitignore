@@ -1,0 +1,11 @@
+# The CIA World Factbook dump consumed by the pipeline (not committed).
+countries.json
+
+# FRB/US (pyfrbus) is installed locally by the user and never committed.
+# 10B wraps it optionally; see scripts/10b/bmi/external/frbus.py.
+pyfrbus/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/

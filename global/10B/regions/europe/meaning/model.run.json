@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.regions.europe.meaning",
   "engine": "closed-form",
+  "bmi_class": "bmi.regions:RegionRollupBmi",
   "inputs": {
     "region": {
       "value": "europe"

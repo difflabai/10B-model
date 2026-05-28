@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.falkland-islands-islas-malvinas",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Falkland Islands (Islas Malvinas)"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.sao-tome-and-principe.shelter",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Sao Tome and Principe"

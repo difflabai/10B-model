@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-kitts-and-nevis.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Saint Kitts and Nevis"

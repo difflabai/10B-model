@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.sao-tome-and-principe",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Sao Tome and Principe"

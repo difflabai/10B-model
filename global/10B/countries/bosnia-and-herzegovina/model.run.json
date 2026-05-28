@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.bosnia-and-herzegovina",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Bosnia and Herzegovina"

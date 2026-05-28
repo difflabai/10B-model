@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.trinidad-and-tobago.shelter",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Trinidad and Tobago"

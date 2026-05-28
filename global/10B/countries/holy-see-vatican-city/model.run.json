@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.holy-see-vatican-city",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Holy See (Vatican City)"
