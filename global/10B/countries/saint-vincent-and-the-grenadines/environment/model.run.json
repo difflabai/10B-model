@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-vincent-and-the-grenadines.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Saint Vincent and the Grenadines"

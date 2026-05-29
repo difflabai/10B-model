@@ -1,0 +1,45 @@
+{
+  "modelId": "external.federalreserve.frbus",
+  "engine": "external-solver",
+  "bmi_class": "bmi.external.frbus:FrbusBmi",
+  "mmb": {
+    "capabilities": [
+      "TAYLOR_LWW",
+      "TAYLOR_INERTIAL",
+      "MC_TAYLOR_INERTIAL",
+      "TAYLOR_INTERCEPT",
+      "MODEL_SPECIFIC"
+    ],
+    "common_variables": {
+      "interest": "monetary_policy__short_rate_annualized",
+      "inflation": "consumer_prices__inflation_yoy_pct",
+      "inflationq": "consumer_prices__inflation_qoq_annualized",
+      "outputgap": "national_accounts__output_gap_pct",
+      "output": "national_accounts__output_level_index"
+    },
+    "policy_rule": {
+      "rule_id": "MODEL_SPECIFIC",
+      "msr": null
+    }
+  },
+  "inputs": {
+    "model-file": {
+      "env": "BWM_FRBUS_PCIM",
+      "default": "../../../../pyfrbus/data/model.xml"
+    },
+    "data-file": {
+      "env": "BWM_FRBUS_DATA",
+      "default": "../../../../pyfrbus/data/LONGBASE.TXT"
+    },
+    "frbus_blend_weight": {
+      "value": 0.5
+    }
+  },
+  "spec": {
+    "inline": {
+      "expectations": "VAR",
+      "horizon_quarters": 40
+    }
+  },
+  "output": "./runs/output.json"
+}

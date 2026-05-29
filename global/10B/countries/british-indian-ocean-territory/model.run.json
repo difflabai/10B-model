@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.british-indian-ocean-territory",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "British Indian Ocean Territory"

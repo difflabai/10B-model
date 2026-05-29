@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.turks-and-caicos-islands.health",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Turks and Caicos Islands"

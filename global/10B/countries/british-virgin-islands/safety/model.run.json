@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.british-virgin-islands.safety",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "British Virgin Islands"

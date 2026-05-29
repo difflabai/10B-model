@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.china",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "China"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.christmas-island",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Christmas Island"

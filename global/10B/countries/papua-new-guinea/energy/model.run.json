@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.papua-new-guinea.energy",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Papua New Guinea"

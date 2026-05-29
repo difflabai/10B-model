@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.regions.europe.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.regions:RegionRollupBmi",
   "inputs": {
     "region": {
       "value": "europe"

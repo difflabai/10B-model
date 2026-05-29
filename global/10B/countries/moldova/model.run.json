@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.moldova",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Moldova"

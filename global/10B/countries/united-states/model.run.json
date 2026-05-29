@@ -1,6 +1,27 @@
 {
   "modelId": "global.10B.countries.united-states",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:MmbCountryRollupBmi",
+  "mmb": {
+    "capabilities": [
+      "TAYLOR_LWW",
+      "TAYLOR_INERTIAL",
+      "MC_TAYLOR_INERTIAL",
+      "TAYLOR_INTERCEPT",
+      "MODEL_SPECIFIC"
+    ],
+    "common_variables": {
+      "interest": "monetary_policy__short_rate_annualized",
+      "inflation": "consumer_prices__inflation_yoy_pct",
+      "inflationq": "consumer_prices__inflation_qoq_annualized",
+      "outputgap": "national_accounts__output_gap_pct",
+      "output": "national_accounts__output_level_index"
+    },
+    "policy_rule": {
+      "rule_id": "MODEL_SPECIFIC",
+      "msr": null
+    }
+  },
   "inputs": {
     "country": {
       "value": "United States"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.panama.food",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Panama"

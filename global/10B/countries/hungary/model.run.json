@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.hungary",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Hungary"

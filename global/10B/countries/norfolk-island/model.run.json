@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.norfolk-island",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Norfolk Island"

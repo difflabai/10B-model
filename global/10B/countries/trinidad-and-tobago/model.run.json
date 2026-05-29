@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.trinidad-and-tobago",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Trinidad and Tobago"

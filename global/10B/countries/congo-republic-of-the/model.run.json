@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.congo-republic-of-the",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Congo, Republic of the"

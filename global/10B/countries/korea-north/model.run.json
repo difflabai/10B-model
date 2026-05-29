@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.korea-north",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Korea, North"

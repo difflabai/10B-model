@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.kiribati.environment",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Kiribati"

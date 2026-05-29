@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-kitts-and-nevis",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Saint Kitts and Nevis"

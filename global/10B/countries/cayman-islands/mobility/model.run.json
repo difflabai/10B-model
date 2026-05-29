@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.cayman-islands.mobility",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Cayman Islands"

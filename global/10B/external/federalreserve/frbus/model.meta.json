@@ -1,0 +1,112 @@
+{
+  "id": "external.federalreserve.frbus",
+  "name": "FRB/US — Federal Reserve macro model",
+  "kind": "sector_economic",
+  "blurb": "BMI + MMB wrapper around the Federal Reserve Board's FRB/US, a ~380-equation quarterly macroeconometric model of the US economy. Backs the US country rollup and the five US macro cells; exposes the five MMB common variables and a swappable monetary policy rule.",
+  "mechanism": "FRB/US is distributed by the Federal Reserve as the Python package `pyfrbus`, which 10B does not bundle. Install it locally (see https://www.federalreserve.gov/econres/us-models-package.htm) into `<repo>/pyfrbus/` or set `$BWM_FRBUS_PCIM`. The wrapper imports it lazily: introspection and the rest of the pipeline work without it. Lifecycle maps initialize→load model+LONGBASE, update→solve one quarter, update_until→solve to horizon. The five MMB common variables are sourced from native `rff`/`pic4`/`picxfe`/`xgap2`/`xgdp`; residual (`*_aerr`) inputs are the bottom-up entry point.",
+  "components": [
+    {
+      "id": "loader",
+      "name": "Model + data loader",
+      "role": "Loads the FRB/US model file and LONGBASE dataset.",
+      "crate_path": null,
+      "key_symbols": [
+        "initialize",
+        "load_data"
+      ]
+    },
+    {
+      "id": "solver",
+      "name": "FRB/US solver",
+      "role": "Solves the model forward quarter by quarter.",
+      "crate_path": null,
+      "key_symbols": [
+        "solve",
+        "mce_solve"
+      ]
+    },
+    {
+      "id": "policy",
+      "name": "Swappable policy rule",
+      "role": "Toggles the FRB/US monetary policy rule per MMB capability.",
+      "crate_path": null,
+      "key_symbols": [
+        "set_policy_rule"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "monetary-policy-shock",
+      "kind": "scalar",
+      "description": "Policy rule shock (FRB/US rffintay_aerr)."
+    },
+    {
+      "name": "fiscal-shock",
+      "kind": "scalar",
+      "description": "Discretionary fiscal shock (FRB/US egfo_aerr)."
+    },
+    {
+      "name": "oil-price",
+      "kind": "scalar",
+      "description": "Crude oil price overlay (poilr)."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "interest",
+      "kind": "scalar",
+      "description": "Federal funds rate (rff), annualised %."
+    },
+    {
+      "name": "inflation",
+      "kind": "scalar",
+      "description": "4-quarter inflation (pic4), %."
+    },
+    {
+      "name": "outputgap",
+      "kind": "scalar",
+      "description": "Output gap (xgap2), %."
+    },
+    {
+      "name": "output",
+      "kind": "scalar",
+      "description": "Real GDP index (xgdp)."
+    },
+    {
+      "name": "unemployment",
+      "kind": "scalar",
+      "description": "Unemployment rate (lur), %."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "expectations",
+      "value": "VAR",
+      "description": "Expectations mode: VAR (default) or MC."
+    },
+    {
+      "key": "equations",
+      "value": "~380",
+      "description": "Approximate equation count."
+    },
+    {
+      "key": "frequency",
+      "value": "quarterly",
+      "description": "Solution frequency."
+    }
+  ],
+  "references": [
+    {
+      "label": "FRB/US model package",
+      "kind": "url",
+      "location": "https://www.federalreserve.gov/econres/us-models-package.htm"
+    },
+    {
+      "label": "FRB/US in Python",
+      "kind": "url",
+      "location": "https://www.federalreserve.gov/econres/us-models-python.htm"
+    }
+  ],
+  "depends_on": []
+}

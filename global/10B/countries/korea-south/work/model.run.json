@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.korea-south.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Korea, South"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.tunisia",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Tunisia"

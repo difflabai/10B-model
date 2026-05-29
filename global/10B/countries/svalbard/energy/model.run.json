@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.svalbard.energy",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Svalbard"

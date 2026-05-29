@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.kosovo.education",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Kosovo"

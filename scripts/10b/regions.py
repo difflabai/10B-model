@@ -44,6 +44,7 @@ from _schema import (  # noqa: E402
     reference,
     write_json,
 )
+from bmi.classmap import bmi_class_for  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
@@ -169,6 +170,7 @@ def main() -> int:
         run = {
             "modelId": f"global.10B.regions.{region}",
             "engine": "closed-form",
+            "bmi_class": bmi_class_for(f"global.10B.regions.{region}"),
             "inputs": {
                 "region": {"value": region},
                 "country-models": {"list": [f"global.10B.countries.{s}" for s in slugs]},
@@ -254,6 +256,7 @@ def main() -> int:
             crun = {
                 "modelId": f"global.10B.regions.{region}.{c}",
                 "engine": needs_tree["categories"][c].get("engine", "closed-form"),
+                "bmi_class": bmi_class_for(f"global.10B.regions.{region}.{c}"),
                 "inputs": {
                     "region": {"value": region},
                     "category": {"value": c},

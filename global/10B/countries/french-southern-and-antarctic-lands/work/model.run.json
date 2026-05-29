@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.french-southern-and-antarctic-lands.work",
   "engine": "monte-carlo",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "French Southern and Antarctic Lands"

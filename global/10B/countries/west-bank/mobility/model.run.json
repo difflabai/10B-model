@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.west-bank.mobility",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "West Bank"

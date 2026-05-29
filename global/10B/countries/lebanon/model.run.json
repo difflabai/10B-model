@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.lebanon",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Lebanon"

@@ -72,6 +72,46 @@ def dep(target_model_id: str, kind: str, note: str) -> Dict[str, Any]:
     return {"target_model_id": target_model_id, "kind": kind, "note": note}
 
 
+def model_run(
+    *,
+    model_id: str,
+    engine: str,
+    inputs: Dict[str, Any] | None = None,
+    spec: Dict[str, Any] | None = None,
+    output: str = "./runs/output.json",
+    bmi_class: str | None = None,
+    mmb: Dict[str, Any] | None = None,
+) -> Dict[str, Any]:
+    """The single constructor for a `model.run.json` body, shared by every
+    generator. Carries the BMI dispatch pointer (`bmi_class`) alongside the
+    engine; when not supplied it is derived from the model id via
+    `bmi.classmap.bmi_class_for` so the field is always present and
+    consistent with the model-id → BMI-class mapping.
+
+    `bmi_class` is placed right after `engine` (both answer "how is this
+    model executed"), so a backfill of existing files and a fresh
+    generation produce byte-identical output. The optional `mmb` block (MMB
+    Modelbase-block compatibility) follows `bmi_class` when present.
+    """
+    if bmi_class is None:
+        # Lazy import keeps `_schema` light for callers that only need the
+        # meta constructors; `bmi.classmap` itself is dependency-light.
+        from bmi.classmap import bmi_class_for
+
+        bmi_class = bmi_class_for(model_id)
+    run: Dict[str, Any] = {
+        "modelId": model_id,
+        "engine": engine,
+        "bmi_class": bmi_class,
+    }
+    if mmb is not None:
+        run["mmb"] = mmb
+    run["inputs"] = inputs or {}
+    run["spec"] = spec or {"inline": {}}
+    run["output"] = output
+    return run
+
+
 def write_json(path: Path, data: Any) -> None:
     """Atomic-enough JSON write with `mkdir -p`, pretty-printed, UTF-8,
     trailing newline. The single point of truth for how every pipeline

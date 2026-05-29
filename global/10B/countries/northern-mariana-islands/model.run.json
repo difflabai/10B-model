@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.northern-mariana-islands",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Northern Mariana Islands"

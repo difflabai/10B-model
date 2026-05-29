@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.yemen.belonging",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Yemen"

@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.turkey-turkiye.belonging",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Turkey (Turkiye)"

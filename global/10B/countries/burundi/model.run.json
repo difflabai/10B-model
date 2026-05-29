@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.burundi",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Burundi"

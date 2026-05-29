@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.needs-tree",
   "engine": "closed-form",
+  "bmi_class": "bmi.schema:SchemaBmi",
   "inputs": {
     "schema": {
       "path": "../needs-tree.json"

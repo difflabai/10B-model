@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saint-lucia",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Saint Lucia"

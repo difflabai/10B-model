@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.saudi-arabia",
   "engine": "closed-form",
+  "bmi_class": "bmi.countries:CountryRollupBmi",
   "inputs": {
     "country": {
       "value": "Saudi Arabia"

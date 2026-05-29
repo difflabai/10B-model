@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.israel.water",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Israel"

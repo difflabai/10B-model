@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.categories.belonging",
   "engine": "closed-form",
+  "bmi_class": "bmi.categories:CategoryWorldBmi",
   "inputs": {
     "category": {
       "value": "belonging"

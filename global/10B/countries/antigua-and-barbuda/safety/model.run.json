@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.antigua-and-barbuda.safety",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Antigua and Barbuda"

@@ -24,7 +24,30 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
 
 
+def _canonical_registry_path() -> Path:
+    """Location of the top-level model-registry.json (repo root)."""
+    import sys as _s
+    _s.path.insert(0, str(Path(__file__).resolve().parent))
+    from bmi.model_registry import registry_path
+
+    return registry_path()
+
+
 def model_ids() -> List[str]:
+    """Model ids, sourced from the canonical model-registry.json when it
+    exists (so the manifest is a derived view of the registry), falling back
+    to a filesystem walk when it doesn't (e.g. manifest run standalone).
+    """
+    reg_path = _canonical_registry_path()
+    if reg_path.exists():
+        try:
+            reg = json.loads(reg_path.read_text())
+            ids = [s["id"] for s in reg.get("submodels", []) if "id" in s]
+            ids.sort()
+            if ids:
+                return ids
+        except Exception:
+            pass
     out: List[str] = []
     for meta in BASE.rglob("model.meta.json"):
         try:
@@ -82,6 +105,7 @@ def main() -> int:
     manifest = {
         "registry": "global/10B",
         "schema": "global.10B.needs-tree",
+        "canonical_registry_path": "model-registry.json",
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
         "model_count": len(ids),
         "forecast_count": len(forecasts),

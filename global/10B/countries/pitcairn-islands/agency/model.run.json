@@ -1,6 +1,7 @@
 {
   "modelId": "global.10B.countries.pitcairn-islands.agency",
   "engine": "closed-form",
+  "bmi_class": "bmi.cells:CellBmi",
   "inputs": {
     "country": {
       "value": "Pitcairn Islands"

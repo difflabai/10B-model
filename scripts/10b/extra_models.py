@@ -30,6 +30,7 @@ from _schema import (  # noqa: E402
     reference,
     write_json,
 )
+from bmi.classmap import bmi_class_for  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 BASE = tenb_root()
@@ -99,6 +100,7 @@ def macro_dynamics_model() -> None:
     run = {
         "modelId": "global.10B.dynamics",
         "engine": "closed-form",
+        "bmi_class": bmi_class_for("global.10B.dynamics"),
         "inputs": {
             "country-profiles": {"glob": "../countries/*/runs/output.json"},
             "needs-tree": {"path": "../needs-tree.json"},
@@ -158,6 +160,7 @@ def supervised_trajectory_model() -> None:
     run = {
         "modelId": "global.10B.supervised-trajectory",
         "engine": "monte-carlo",
+        "bmi_class": bmi_class_for("global.10B.supervised-trajectory"),
         "inputs": {
             "embedding": {"path": "../runs/macro-embedding.json"},
             "holdout-targets": {"value": [
@@ -227,6 +230,7 @@ def personal_agent_model() -> None:
     run = {
         "modelId": "global.10B.personal-agent",
         "engine": "closed-form",
+        "bmi_class": bmi_class_for("global.10B.personal-agent"),
         "inputs": {
             "embedding": {"path": "../runs/macro-embedding.json"},
             "dynamics": {"path": "../runs/macro-dynamics.json"},
