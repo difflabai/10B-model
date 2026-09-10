@@ -1,0 +1,125 @@
+{
+  "id": "layoff-trap",
+  "name": "AI Layoff Trap",
+  "kind": "sector_economic",
+  "blurb": "Falk & Tsoukalas closed-form Nash vs. cooperative automation rates per sector.",
+  "mechanism": "Each sector is modelled as N symmetric firms each choosing an automation rate α_i ∈ [0,1]. Sector demand D falls in the average automation rate, generating a negative externality between firms — automating cuts your costs but shrinks everyone's revenue.\n\nClosing the first-order conditions in α yields a single algebraic system: `n_star` solves for the symmetric Nash α, `coop_alpha` solves for the cooperative (joint-profit-maximising) α, and `wedge = nash_alpha − coop_alpha` measures how much firms over-automate at equilibrium. The model is purely analytical — no simulation, no Monte Carlo — so each forecast checkpoint is effectively a parameter refit and a closed-form re-solve.\n\nPer-sector inputs (N, marginal cost saving from automation, demand elasticity, outside-option wage) come from the cosmos seed via `extract_firm_params`, which projects company filings into the `FirmParams` shape the solver expects.",
+  "components": [
+    {
+      "id": "params",
+      "name": "FirmParams + cosmos extraction",
+      "role": "Pulls per-sector parameters from the cosmos seed.",
+      "crate_path": "crates/bwm-models-layoff-trap/src/params.rs",
+      "key_symbols": [
+        "FirmParams",
+        "extract_firm_params",
+        "FIRM_PARAM_KPI_NAMES"
+      ]
+    },
+    {
+      "id": "equilibrium",
+      "name": "Equilibrium solver",
+      "role": "Closed-form Nash and cooperative α; demand, profit, and welfare functions.",
+      "crate_path": "crates/bwm-models-layoff-trap/src/equilibrium.rs",
+      "key_symbols": [
+        "n_star",
+        "nash_alpha",
+        "coop_alpha",
+        "wedge",
+        "demand_d",
+        "per_firm_profit",
+        "deadweight_loss",
+        "EquilibriumOutputs"
+      ]
+    },
+    {
+      "id": "model",
+      "name": "SectorEconomicModel",
+      "role": "Wraps the solver behind the BWM `SectorEconomicModel` trait.",
+      "crate_path": "crates/bwm-models-layoff-trap/src/model.rs",
+      "key_symbols": [
+        "LayoffTrapModel"
+      ]
+    },
+    {
+      "id": "defaults",
+      "name": "Sector defaults",
+      "role": "Fallback parameter set when cosmos extraction is unavailable.",
+      "crate_path": "crates/bwm-models-layoff-trap/src/defaults.rs",
+      "key_symbols": [
+        "default_params",
+        "default_params_for_sector"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "FirmParams",
+      "kind": "harness_skill",
+      "description": "Per-sector tuple (N, cost saving, demand elasticity, outside-option wage)."
+    },
+    {
+      "name": "Cosmos seed",
+      "kind": "evidence_state",
+      "description": "Company-level filings the FirmParams extractor projects from."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "EquilibriumOutputs",
+      "kind": "prediction",
+      "description": "{ nash_alpha, coop_alpha, wedge, deadweight_loss, sector_profit }."
+    },
+    {
+      "name": "Per-firm profit & deadweight loss",
+      "kind": "prediction",
+      "description": "Welfare consequences of the gap between Nash and cooperative α."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "model_kind",
+      "value": "sector_economic / closed_form",
+      "description": "Pure analytical equilibrium — no simulation."
+    },
+    {
+      "key": "firms_per_sector",
+      "value": "extracted_per_sector",
+      "description": "Symmetric N firms; FirmParams come from the cosmos seed. Per-sector value resolved at run time."
+    },
+    {
+      "key": "outside_option_wage",
+      "value": "extracted_per_sector",
+      "description": "Reservation wage for displaced labour; sets the welfare floor. Per-sector value resolved at run time."
+    },
+    {
+      "key": "checkpoint_interval_hours",
+      "value": "168",
+      "description": "Default schedule (weekly)."
+    }
+  ],
+  "references": [
+    {
+      "label": "Falk & Tsoukalas — The AI Layoff Trap (arXiv:2603.20617, Mar 2026)",
+      "kind": "paper",
+      "location": "https://arxiv.org/abs/2603.20617"
+    },
+    {
+      "label": "Sector-economic-model Allium spec",
+      "kind": "spec",
+      "location": "specs/allium/sector-economic-model.allium"
+    },
+    {
+      "label": "bwm-models-layoff-trap",
+      "kind": "crate",
+      "location": "crates/bwm-models-layoff-trap"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "aifutures",
+      "kind": "consumes_from",
+      "note": "Sector α calibration uses AI Futures milestone predictions to anchor the timing of frontier-automation availability."
+    }
+  ]
+}

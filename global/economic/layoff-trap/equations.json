@@ -1,0 +1,33 @@
+{
+  "$comment": "Closed-form equilibrium of the AI Layoff Trap (Falk & Tsoukalas 2026, arXiv 2603.20617). Mirrors crates/bwm-models-layoff-trap/src/equilibrium.rs. n must be >= 1 — the n = 0 degenerate case is handled at the contract level by a separate run.",
+  "scalars": {
+    "w": "params.w",
+    "c": "params.c",
+    "L": "params.l",
+    "k": "params.k",
+    "lambda": "params.lambda",
+    "eta": "params.eta",
+    "A": "params.a",
+    "n": "n"
+  },
+  "equations": [
+    { "name": "s",        "expr": "w - c" },
+    { "name": "ell",      "expr": "lambda * (1 - eta) * w" },
+    { "name": "alpha_co", "expr": "if(k == 0, if(s > ell, 1, 0), clamp((s - ell) / k, 0, 1))" },
+    { "name": "alpha_ne", "expr": "if(k == 0, if(s > ell / n, 1, 0), clamp((s - ell / n) / k, 0, 1))" },
+    { "name": "wedge",    "expr": "alpha_ne - alpha_co" },
+    { "name": "demand",   "expr": "A + lambda * w * L * n * (1 - (1 - eta) * alpha_ne)" },
+    { "name": "pi0",      "expr": "A / n + (lambda - 1) * w * L" },
+    { "name": "per_firm_profit_ne", "expr": "pi0 + L * (s * alpha_ne - ell * alpha_ne - (k / 2) * alpha_ne * alpha_ne)" },
+    { "name": "per_firm_profit_co", "expr": "pi0 + L * (s * alpha_co - ell * alpha_co - (k / 2) * alpha_co * alpha_co)" },
+    { "name": "sector_profit_ne",   "expr": "n * per_firm_profit_ne" },
+    { "name": "sector_profit_co",   "expr": "n * per_firm_profit_co" },
+    { "name": "surplus_loss",       "expr": "n * L * k / 2 * wedge * wedge" }
+  ],
+  "outputs": [
+    "s", "ell", "alpha_co", "alpha_ne", "wedge", "demand",
+    "per_firm_profit_ne", "per_firm_profit_co",
+    "sector_profit_ne", "sector_profit_co",
+    "surplus_loss"
+  ]
+}

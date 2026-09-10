@@ -1,0 +1,11 @@
+{
+  "$comment": "Layoff-trap fallback params from bwm-models-layoff-trap::defaults::default_params_fallback. Calibrated off Falk & Tsoukalas (2026) Figure 2.",
+  "sector": "default",
+  "c": 0.30,
+  "w": 1.00,
+  "l": 1,
+  "k": 1,
+  "lambda": 0.5,
+  "eta": 0.30,
+  "a": 10
+}

@@ -1,0 +1,49 @@
+{
+  "id": "aifutures.sar.nikola",
+  "label": "AI Futures · Nikola · SAR",
+  "task_family": "aifutures-milestone",
+  "tags": [
+    "aifutures-milestone",
+    "scenario:nikola",
+    "milestone:sar"
+  ],
+  "prompt": "Nikola Jurkovic's scenario. Superhuman AI Researcher — automates frontier ML R&D.\n\nWhat year does scenario `nikola` reach the SAR milestone, given the AI Futures harness?",
+  "resolution_criteria": "Resolves on first credible third-party report (METR / OpenAI evals / academic consensus) that the SAR milestone has been reached under the conditions of scenario `nikola`.",
+  "expected_resolution_at": "2032-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "numeric",
+    "unit": "years_ce",
+    "min": "2026",
+    "max": "2075",
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": []
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Scaling-law extrapolation past 1e28 FLOPs",
+      "disposition": "provisional",
+      "note": "Held provisional pending replication on >1e28 runs."
+    },
+    {
+      "label": "Algorithmic progress factor",
+      "disposition": "committed",
+      "note": "Frozen at AI Futures prior."
+    },
+    {
+      "label": "Compute-supply shock",
+      "disposition": "deferred",
+      "note": "Modelled separately by the geopolitics sub-question."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

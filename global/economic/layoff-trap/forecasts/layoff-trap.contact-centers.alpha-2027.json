@@ -1,0 +1,51 @@
+{
+  "id": "layoff-trap.contact-centers.alpha-2027",
+  "label": "Layoff Trap · Contact centers · Nash α (2027)",
+  "task_family": "layoff-trap-sector",
+  "tags": [
+    "layoff-trap-sector",
+    "sector:contact-centers",
+    "horizon:2027"
+  ],
+  "prompt": "BPO + in-house contact-center voice/text agent automation.\n\nWhat automation rate α will firms in Contact centers reach by end of 2027 under the Nash equilibrium of the Falk–Tsoukalas closed-form model?",
+  "resolution_criteria": "Resolves to BLS automation-share figure (industry table) reported for 2027-Q4, mapped onto the model's α parameter via the `extract_firm_params` calibration.",
+  "expected_resolution_at": "2028-01-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "numeric",
+    "unit": "alpha (share automated)",
+    "min": "0",
+    "max": "1",
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": [
+      "bls_release"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Symmetric-firms assumption",
+      "disposition": "committed",
+      "note": "Firms in a sector treated as symmetric (closed-form requires it)."
+    },
+    {
+      "label": "Demand elasticity",
+      "disposition": "provisional",
+      "note": "Sector-specific elasticity extracted from cosmos seed; refresh when filings update."
+    },
+    {
+      "label": "Cross-sector spillovers",
+      "disposition": "deferred",
+      "note": "Out of scope for the closed-form single-sector solver."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}
