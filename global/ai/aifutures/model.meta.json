@@ -1,0 +1,141 @@
+{
+  "id": "aifutures",
+  "name": "AI Futures Model",
+  "kind": "forecast_harness",
+  "blurb": "Lifland/Halstead/Kastner/Kokotajlo (Dec 2025) milestone + takeoff harness, instanced as a BWM forecast.",
+  "mechanism": "The AI Futures Model dates three capability milestones — SAR, SIAR, and ASI — under five named author scenarios plus an aggregate (`atc`). Each (scenario, milestone) pair is its own forecast question; the harness updates them weekly and aggregates across scenarios via the `AggregatorTransport`.\n\nPer checkpoint the harness invokes a Python Monte Carlo engine (the AI Futures takeoff simulator) bundled at bootstrap time, feeds it the current evidence state, and writes back a typed numeric `Prediction` with 50 / 80 / 95% intervals. Skill frontmatter declares which `HarnessComponent`s the worker may touch — `factors`, `evidence`, `uncertainty`, or `simulation` — so audits can attribute every revision to a component.\n\nAggregation: the `atc` scenario is not run by an SDK worker; it's computed deterministically by `AggregatorTransport` from the current per-scenario predictions, so the aggregate is always self-consistent with its inputs.",
+  "components": [
+    {
+      "id": "questions",
+      "name": "Question generator",
+      "role": "Builds the (scenario × milestone) and takeoff-parameter sub-question families.",
+      "crate_path": "crates/bwm-models-aifutures/src/questions.rs",
+      "key_symbols": [
+        "aifutures_milestone_family",
+        "aifutures_takeoff_family",
+        "aifutures_parameter_family",
+        "MILESTONES",
+        "NAMED_SCENARIOS"
+      ]
+    },
+    {
+      "id": "bootstrap",
+      "name": "Harness bootstrap",
+      "role": "Writes initial harness skills + question files into the VFS, idempotent on content hash.",
+      "crate_path": "crates/bwm-models-aifutures/src/bootstrap.rs",
+      "key_symbols": [
+        "bootstrap",
+        "BootstrapOutcome"
+      ]
+    },
+    {
+      "id": "simulation",
+      "name": "Monte Carlo simulator",
+      "role": "Thin Rust binding around the Python takeoff engine; runs as a subprocess each checkpoint.",
+      "crate_path": "crates/bwm-models-aifutures/src/simulation.rs",
+      "key_symbols": [
+        "run_simulation",
+        "SimulationInputs",
+        "SimulationOutput"
+      ]
+    },
+    {
+      "id": "aggregator",
+      "name": "ATC aggregator transport",
+      "role": "Replaces an SDK worker for the `atc` scenario; deterministically combines sibling scenarios' current predictions.",
+      "crate_path": "crates/bwm-forecast-runner/src/aggregator.rs",
+      "key_symbols": [
+        "AggregatorTransport",
+        "AtcRule"
+      ]
+    },
+    {
+      "id": "reproduce",
+      "name": "Frozen-parameters reproducibility",
+      "role": "Used by the eval crate's `replay::aifutures_frozen` reproducibility check.",
+      "crate_path": "crates/bwm-models-aifutures/src/reproduce.rs",
+      "key_symbols": [
+        "run_frozen"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "Question files",
+      "kind": "question",
+      "description": "Per (scenario, milestone) sub-question, written by `bootstrap`."
+    },
+    {
+      "name": "Evidence state",
+      "kind": "evidence_state",
+      "description": "Curated facts the harness has gathered, refreshed each checkpoint."
+    },
+    {
+      "name": "Frozen takeoff parameters",
+      "kind": "harness_skill",
+      "description": "AI Futures' published parameter set, embedded in the harness skill bundle."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Numeric predictions",
+      "kind": "prediction",
+      "description": "Per checkpoint: posterior mean year + 50/80/95% intervals."
+    },
+    {
+      "name": "Checkpoint notes",
+      "kind": "checkpoint_note",
+      "description": "Narrative explaining how the prediction moved."
+    },
+    {
+      "name": "Revision records",
+      "kind": "revision_record",
+      "description": "Provenance: which evidence revisions affected which posterior."
+    },
+    {
+      "name": "ATC aggregate",
+      "kind": "prediction",
+      "description": "Computed by `AggregatorTransport`; consistent with sibling scenarios."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "scenarios",
+      "value": "eli, nikola, daniel, jonas, romeo, atc",
+      "description": "Named-author scenarios plus the ATC aggregate."
+    },
+    {
+      "key": "milestones",
+      "value": "sar, siar, asi",
+      "description": "Capability checkpoints the model dates (canonical: SAR — Superhuman AI Researcher; SIAR — Superhuman Improver of AI R&D; ASI — Artificial Superintelligence)."
+    },
+    {
+      "key": "checkpoint_interval_hours",
+      "value": "168",
+      "description": "Default schedule (weekly)."
+    },
+    {
+      "key": "aggregator_rule",
+      "value": "atc_median",
+      "description": "How the ATC scenario combines sibling predictions (see `AtcRule`)."
+    }
+  ],
+  "references": [
+    {
+      "label": "Lifland, Halstead, Kastner & Kokotajlo — AI Futures (Dec 2025)",
+      "kind": "paper",
+      "location": "https://ai-futures.org/2025-12"
+    },
+    {
+      "label": "Forecast harness Allium spec",
+      "kind": "spec",
+      "location": "specs/allium/forecast-harness.allium"
+    },
+    {
+      "label": "bwm-models-aifutures",
+      "kind": "crate",
+      "location": "crates/bwm-models-aifutures"
+    }
+  ],
+  "depends_on": []
+}

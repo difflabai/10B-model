@@ -1,0 +1,5 @@
+{
+  "$comment": "Manifest for the bwm-engine-monte-carlo runner. The entry script unwraps the {inputs, iterations} envelope and forwards the inputs to simulation.py, which keeps the historical content-hashed stdin shape and so does not need to change.",
+  "entry": "engine_entry.py",
+  "interpreter": "python3"
+}

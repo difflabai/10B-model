@@ -1,0 +1,25 @@
+{
+  "$comment": "Default AI Futures run: Daniel scenario, AC milestone, 10k samples, deterministic seed. Per-author / per-milestone variants live in sibling model.run.json files under runs/.",
+  "modelId": "global.ai.aifutures",
+  "engine": "monte-carlo",
+  "inputs": {
+    "scenario":   { "value": "daniel" },
+    "milestone":  { "value": "ac" },
+    "parameters": {
+      "value": {
+        "present_year": 2026.33,
+        "metr_hrs_doubling_months": 7.0,
+        "ac_threshold_doublings": 9.0,
+        "rd_uplift_pre_ac": 1.4,
+        "rd_uplift_post_ac": 8.0,
+        "b": 1.0,
+        "compute_growth_rate": 0.4,
+        "taste_only_singularity": false
+      }
+    },
+    "seed":       { "value": 42 }
+  },
+  "spec":       { "path": "/global/ai/aifutures/harness/aifutures-milestone/simulation" },
+  "iterations": 10000,
+  "output":     "/global/ai/aifutures/runs/daniel/ac/prediction.json"
+}

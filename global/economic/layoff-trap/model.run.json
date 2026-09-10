@@ -1,0 +1,11 @@
+{
+  "$comment": "Default run: information-technology sector, N=7 firms. Override `inputs.params.path` and `inputs.n.value` per sector / firm count, or copy this file next to a sector-specific params file and re-point `output`.",
+  "modelId": "global.economic.layoff-trap",
+  "engine": "closed-form",
+  "inputs": {
+    "params": { "path": "/global/economic/layoff-trap/params/information-technology.json" },
+    "n":      { "value": 7 }
+  },
+  "spec":   { "path": "/global/economic/layoff-trap/equations.json" },
+  "output": "/global/economic/layoff-trap/runs/information-technology-n7/equilibrium.json"
+}
