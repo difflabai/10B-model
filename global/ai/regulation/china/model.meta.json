@@ -130,6 +130,16 @@
       "target_model_id": "ai-regulation-us",
       "kind": "depends_on",
       "note": "China's licensed_import_ratio is set by US BIS policy; a change to the US trade slot is a rebinding here."
+    },
+    {
+      "target_model_id": "global.10B.countries.china",
+      "kind": "depends_on",
+      "note": "Jurisdiction anchor: this model is the AI regulatory environment of the China node in the 10B country tree."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.governance",
+      "kind": "depends_on",
+      "note": "The China governance cell is the 10B needs-category this regime sits under; the link is declared here because global/10B is generated and must not be hand-edited."
     }
   ]
 }
