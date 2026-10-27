@@ -1,0 +1,185 @@
+{
+  "$comment": "AI regulatory-environment model, shared by every jurisdiction under /global/ai/regulation/. One graph, many bindings: a jurisdiction is a params file, never a different equation set, so the US and China outputs are commensurable. Six instrument slots (frontier, highrisk, filing, content, data, trade) each carry coverage x cost_share x p_in_force x p_enforced. All burden outputs are shares of in-scope annual AI revenue for the reference firm. compute_access is bound by min, not a smooth surrogate: supply above demand is slack, not extra access. See ../README.md.",
+  "scalars": {
+    "frontier_cov": "params.instruments.frontier.coverage",
+    "frontier_cost": "params.instruments.frontier.cost_share",
+    "frontier_force": "params.instruments.frontier.p_in_force",
+    "frontier_enf": "params.instruments.frontier.p_enforced",
+    "highrisk_cov": "params.instruments.highrisk.coverage",
+    "highrisk_cost": "params.instruments.highrisk.cost_share",
+    "highrisk_force": "params.instruments.highrisk.p_in_force",
+    "highrisk_enf": "params.instruments.highrisk.p_enforced",
+    "filing_cov": "params.instruments.filing.coverage",
+    "filing_cost": "params.instruments.filing.cost_share",
+    "filing_force": "params.instruments.filing.p_in_force",
+    "filing_enf": "params.instruments.filing.p_enforced",
+    "content_cov": "params.instruments.content.coverage",
+    "content_cost": "params.instruments.content.cost_share",
+    "content_force": "params.instruments.content.p_in_force",
+    "content_enf": "params.instruments.content.p_enforced",
+    "data_cov": "params.instruments.data.coverage",
+    "data_cost": "params.instruments.data.cost_share",
+    "data_force": "params.instruments.data.p_in_force",
+    "data_enf": "params.instruments.data.p_enforced",
+    "trade_cov": "params.instruments.trade.coverage",
+    "trade_cost": "params.instruments.trade.cost_share",
+    "trade_force": "params.instruments.trade.p_in_force",
+    "trade_enf": "params.instruments.trade.p_enforced",
+    "regimes": "params.fragmentation.regimes",
+    "regime_fixed_musd": "params.fragmentation.fixed_cost_per_regime_musd",
+    "ref_revenue_musd": "params.reference_firm.annual_ai_revenue_musd",
+    "gate_delay_months": "params.ex_ante_gate.delay_months",
+    "obsolescence": "params.ex_ante_gate.obsolescence_per_year",
+    "subsidy_share": "params.state_support.subsidy_share",
+    "compute_domestic": "params.compute.domestic_supply_ratio",
+    "compute_licensed": "params.compute.licensed_import_ratio",
+    "compute_realized": "params.compute.import_realization",
+    "compute_grey": "params.compute.grey_channel_ratio"
+  },
+  "equations": [
+    {
+      "name": "stake_frontier",
+      "expr": "frontier_cov * frontier_cost"
+    },
+    {
+      "name": "burden_frontier",
+      "expr": "stake_frontier * frontier_force * frontier_enf"
+    },
+    {
+      "name": "contested_frontier",
+      "expr": "stake_frontier * 4 * frontier_force * (1 - frontier_force)"
+    },
+    {
+      "name": "stake_highrisk",
+      "expr": "highrisk_cov * highrisk_cost"
+    },
+    {
+      "name": "burden_highrisk",
+      "expr": "stake_highrisk * highrisk_force * highrisk_enf"
+    },
+    {
+      "name": "contested_highrisk",
+      "expr": "stake_highrisk * 4 * highrisk_force * (1 - highrisk_force)"
+    },
+    {
+      "name": "stake_filing",
+      "expr": "filing_cov * filing_cost"
+    },
+    {
+      "name": "burden_filing",
+      "expr": "stake_filing * filing_force * filing_enf"
+    },
+    {
+      "name": "contested_filing",
+      "expr": "stake_filing * 4 * filing_force * (1 - filing_force)"
+    },
+    {
+      "name": "stake_content",
+      "expr": "content_cov * content_cost"
+    },
+    {
+      "name": "burden_content",
+      "expr": "stake_content * content_force * content_enf"
+    },
+    {
+      "name": "contested_content",
+      "expr": "stake_content * 4 * content_force * (1 - content_force)"
+    },
+    {
+      "name": "stake_data",
+      "expr": "data_cov * data_cost"
+    },
+    {
+      "name": "burden_data",
+      "expr": "stake_data * data_force * data_enf"
+    },
+    {
+      "name": "contested_data",
+      "expr": "stake_data * 4 * data_force * (1 - data_force)"
+    },
+    {
+      "name": "stake_trade",
+      "expr": "trade_cov * trade_cost"
+    },
+    {
+      "name": "burden_trade",
+      "expr": "stake_trade * trade_force * trade_enf"
+    },
+    {
+      "name": "contested_trade",
+      "expr": "stake_trade * 4 * trade_force * (1 - trade_force)"
+    },
+    {
+      "name": "stake_total",
+      "expr": "stake_frontier + stake_highrisk + stake_filing + stake_content + stake_data + stake_trade"
+    },
+    {
+      "name": "stake_in_force",
+      "expr": "stake_frontier * frontier_force + stake_highrisk * highrisk_force + stake_filing * filing_force + stake_content * content_force + stake_data * data_force + stake_trade * trade_force"
+    },
+    {
+      "name": "variable_burden",
+      "expr": "burden_frontier + burden_highrisk + burden_filing + burden_content + burden_data + burden_trade"
+    },
+    {
+      "name": "fixed_burden",
+      "expr": "regimes * regime_fixed_musd / ref_revenue_musd"
+    },
+    {
+      "name": "gate_delay_effective_months",
+      "expr": "gate_delay_months * filing_cov * filing_force * filing_enf"
+    },
+    {
+      "name": "delay_burden",
+      "expr": "gate_delay_effective_months / 12 * obsolescence"
+    },
+    {
+      "name": "gross_burden",
+      "expr": "variable_burden + fixed_burden + delay_burden"
+    },
+    {
+      "name": "net_burden",
+      "expr": "gross_burden - subsidy_share"
+    },
+    {
+      "name": "contested_share",
+      "expr": "(contested_frontier + contested_highrisk + contested_filing + contested_content + contested_data + contested_trade) / max(stake_total, 0.000001)"
+    },
+    {
+      "name": "enforcement_gap",
+      "expr": "(stake_in_force - variable_burden) / max(stake_in_force, 0.000001)"
+    },
+    {
+      "name": "compute_supply_ratio",
+      "expr": "compute_domestic + compute_licensed * compute_realized + compute_grey"
+    },
+    {
+      "name": "compute_access",
+      "expr": "min(1, compute_supply_ratio)"
+    },
+    {
+      "name": "compute_gap",
+      "expr": "1 - compute_access"
+    }
+  ],
+  "outputs": [
+    "burden_frontier",
+    "burden_highrisk",
+    "burden_filing",
+    "burden_content",
+    "burden_data",
+    "burden_trade",
+    "stake_total",
+    "variable_burden",
+    "fixed_burden",
+    "gate_delay_effective_months",
+    "delay_burden",
+    "gross_burden",
+    "net_burden",
+    "contested_share",
+    "enforcement_gap",
+    "compute_supply_ratio",
+    "compute_access",
+    "compute_gap"
+  ]
+}

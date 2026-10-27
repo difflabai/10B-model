@@ -1,0 +1,145 @@
+{
+  "id": "ai-regulation-china",
+  "name": "AI Regulatory Environment — China",
+  "kind": "sector_economic",
+  "blurb": "Expected AI compliance burden, launch-gate delay and compute access under China's CAC-centred regime, Oct 2026.",
+  "mechanism": "China regulates AI ex ante and centrally. Public-facing generative AI must complete CAC filing — security self-assessment, test-question banks, keyword filtering, refusal-rate checks — before launch (1,112 services filed by Aug 2026), and all AI-generated content carries mandatory explicit and implicit labels (Labeling Measures + GB 45438-2025, Sept 2025). Use-specific duties come from the algorithm-recommendation provisions, the July 2026 anthropomorphic-interaction measures and PIPL; data from PIPL/DSL/the 2025 network-data regulations and the 2026 Cybersecurity Law amendment. Frontier-risk governance is soft law (AI Safety Governance Framework 2.0). There is no comprehensive AI Law yet.\n\nTwo things dominate. First, the gate: launch delay, not compliance spend, is the largest cost — ~2.8 expected months, worth ≈ 12% of a product-year at the assumed 0.5/yr obsolescence. That leaf is the model's most sensitive assumption. Second, compute: domestic accelerators cover ~55% of demand; the US now licenses H200-class exports case-by-case, but Beijing blocks them at customs, so compute_access ≈ 0.67. The import-thaw scenario shows ~56% of the gap closing when only Beijing's realisation rate moves — much of China's compute gap is self-imposed industrial policy.\n\nBaseline: gross burden ≈ 15.8%, net ≈ 11.8% after state support; contested share ≈ 19% — higher expected cost than the US, but far more of it settled and priceable.",
+  "components": [
+    {
+      "id": "equations",
+      "name": "Shared regulatory-burden graph",
+      "role": "One closed-form graph for every jurisdiction; a jurisdiction is a leaf binding, never a different equation set.",
+      "crate_path": "global/ai/regulation/equations.json",
+      "key_symbols": [
+        "burden_frontier",
+        "burden_highrisk",
+        "burden_filing",
+        "burden_content",
+        "burden_data",
+        "burden_trade",
+        "gross_burden",
+        "net_burden",
+        "contested_share",
+        "compute_access"
+      ]
+    },
+    {
+      "id": "instruments",
+      "name": "Instrument catalogue",
+      "role": "Every law, regulation, standard and executive action the slots aggregate, with status, effective date, source and catalogue confidence.",
+      "crate_path": "global/ai/regulation/instruments.json",
+      "key_symbols": []
+    },
+    {
+      "id": "params",
+      "name": "China bindings",
+      "role": "Baseline plus counterfactual scenario bindings; each leaf carries its basis inline.",
+      "crate_path": "global/ai/regulation/china/params/",
+      "key_symbols": [
+        "baseline",
+        "import-thaw",
+        "ai-law"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "params",
+      "kind": "harness_skill",
+      "description": "China instrument slots (coverage, cost_share, p_in_force, p_enforced), fragmentation, ex-ante gate, state support, compute supply."
+    },
+    {
+      "name": "instrument catalogue",
+      "kind": "evidence_state",
+      "description": "instruments.json — the sourced instrument list each slot aggregates."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "burden_<slot>",
+      "kind": "prediction",
+      "description": "Expected annual compliance cost per instrument slot, as a share of in-scope AI revenue: coverage × cost_share × p_in_force × p_enforced."
+    },
+    {
+      "name": "gross_burden / net_burden",
+      "kind": "prediction",
+      "description": "variable + fixed (patchwork) + ex-ante delay burden; net subtracts state support. Shares of the reference firm's annual AI revenue."
+    },
+    {
+      "name": "gate_delay_effective_months",
+      "kind": "prediction",
+      "description": "Expected launch delay imposed by ex-ante filing/approval, weighted by the gate's coverage and enforcement."
+    },
+    {
+      "name": "contested_share",
+      "kind": "prediction",
+      "description": "Share of the regulatory cost at stake whose legal status is contested (4·p·(1−p) weighting: 1 at a coin flip, 0 when settled). The uncertainty a firm cannot price."
+    },
+    {
+      "name": "enforcement_gap",
+      "kind": "prediction",
+      "description": "Share of in-force obligations that are not enforced in expectation — law on the books an operator can currently underweight."
+    },
+    {
+      "name": "compute_access / compute_gap",
+      "kind": "prediction",
+      "description": "min(1, domestic + licensed × realised + grey) frontier-compute supply against demand. A binding min, not a smooth surrogate."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "model_kind",
+      "value": "sector_economic / closed_form",
+      "description": "Pure analytical expectation over instrument slots; no simulation."
+    },
+    {
+      "key": "as_of",
+      "value": "2026-10-27",
+      "description": "Instrument status date."
+    },
+    {
+      "key": "calibration",
+      "value": "authored_priors",
+      "description": "Every leaf is a sourced judgement, not a fit. Advisory until graded against filing-time and compliance-cost actuals."
+    },
+    {
+      "key": "checkpoint_interval_hours",
+      "value": "1440",
+      "description": "Every ~60 days, aligned with CAC filing batches."
+    }
+  ],
+  "references": [
+    {
+      "label": "Instrument catalogue",
+      "kind": "spec",
+      "location": "/global/ai/regulation/instruments.json"
+    },
+    {
+      "label": "Model README",
+      "kind": "spec",
+      "location": "/global/ai/regulation/README.md"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "ai-regulation-us",
+      "kind": "shares_component",
+      "note": "Same equations.json; outputs are commensurable by construction."
+    },
+    {
+      "target_model_id": "ai-regulation-us",
+      "kind": "depends_on",
+      "note": "China's licensed_import_ratio is set by US BIS policy; a change to the US trade slot is a rebinding here."
+    },
+    {
+      "target_model_id": "global.10B.countries.china",
+      "kind": "depends_on",
+      "note": "Jurisdiction anchor: this model is the AI regulatory environment of the China node in the 10B country tree."
+    },
+    {
+      "target_model_id": "global.10B.countries.china.governance",
+      "kind": "depends_on",
+      "note": "The China governance cell is the 10B needs-category this regime sits under; the link is declared here because global/10B is generated and must not be hand-edited."
+    }
+  ]
+}

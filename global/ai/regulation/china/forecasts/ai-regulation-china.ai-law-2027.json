@@ -1,0 +1,46 @@
+{
+  "id": "ai-regulation-china.ai-law-2027",
+  "label": "China AI regulation · Comprehensive AI Law adopted (2027)",
+  "task_family": "ai-regulation-event",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:cn",
+    "horizon:2027"
+  ],
+  "prompt": "Will the NPC or its Standing Committee adopt a comprehensive Artificial Intelligence Law by 31 December 2027?\n\nResolving yes rebinds the China model to params/ai-law.json.",
+  "resolution_criteria": "Resolves YES on NPC/NPCSC adoption of a law titled as a general AI law (人工智能法). Amendments to existing laws (e.g. the Cybersecurity Law) or CAC measures do not count.",
+  "expected_resolution_at": "2027-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "binary",
+    "unit": null,
+    "min": null,
+    "max": null,
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 1440,
+    "triggers": [
+      "npcsc_session"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Legislative plan",
+      "disposition": "committed",
+      "note": "Listed on State Council legislative work plans since 2023 without a draft reaching first reading."
+    },
+    {
+      "label": "Piecemeal path",
+      "disposition": "provisional",
+      "note": "Beijing has preferred targeted measures plus the 2026 CSL amendment; a general law may stay deferred."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

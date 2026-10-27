@@ -1,0 +1,106 @@
+{
+  "$comment": "China counterfactual: Beijing lifts the informal block on licensed H200-class imports. Only import_realization moves, which isolates how much of China's compute gap is self-imposed rather than US-imposed.",
+  "jurisdiction": "CN",
+  "scenario": "import-thaw",
+  "as_of": "2026-10-27",
+  "instruments": {
+    "frontier": {
+      "coverage": 0.6,
+      "cost_share": 0.004,
+      "p_in_force": 0.6,
+      "p_enforced": 0.5,
+      "instruments": [
+        "cn.tc260.safety-framework-2",
+        "cn.tc260.genai-security-standards"
+      ],
+      "basis": "Frontier-risk governance is mostly soft law: the AI Safety Governance Framework 2.0 and TC260 security standards. Recommended, not mandatory, hence p_in_force 0.6; they are nonetheless read into the filing review."
+    },
+    "highrisk": {
+      "coverage": 0.4,
+      "cost_share": 0.012,
+      "p_in_force": 0.9,
+      "p_enforced": 0.6,
+      "instruments": [
+        "cn.cac.algorithm-recommendation",
+        "cn.cac.anthropomorphic-interaction",
+        "cn.pipl.art24",
+        "cn.minors-online-protection"
+      ],
+      "basis": "Use-specific duties: algorithm-recommendation provisions, the anthropomorphic AI interaction measures in force since 2026-07-15, PIPL Art. 24 automated-decision rights, minors protections."
+    },
+    "filing": {
+      "coverage": 0.85,
+      "cost_share": 0.015,
+      "p_in_force": 0.98,
+      "p_enforced": 0.85,
+      "instruments": [
+        "cn.cac.genai-interim-measures",
+        "cn.cac.algorithm-registry",
+        "cn.cac.security-assessment"
+      ],
+      "basis": "The defining feature: public-facing generative AI must pass CAC filing (security self-assessment, test-question banks, keyword filtering, refusal-rate checks) before launch. 1,112 services filed and 731 apps/features registered by 2026-08-31; batches every ~2 months."
+    },
+    "content": {
+      "coverage": 0.85,
+      "cost_share": 0.02,
+      "p_in_force": 0.98,
+      "p_enforced": 0.8,
+      "instruments": [
+        "cn.cac.labeling-measures",
+        "cn.gb45438-2025",
+        "cn.cac.deep-synthesis"
+      ],
+      "basis": "Mandatory explicit + implicit labeling of AI-generated content (Labeling Measures and GB 45438-2025, both from 2025-09-01), deep-synthesis provisions, and content controls aligned to core socialist values. The highest-cost slot because content moderation is continuous, not one-off."
+    },
+    "data": {
+      "coverage": 0.8,
+      "cost_share": 0.01,
+      "p_in_force": 0.95,
+      "p_enforced": 0.6,
+      "instruments": [
+        "cn.pipl",
+        "cn.dsl",
+        "cn.network-data-security-regs",
+        "cn.cross-border-data-rules",
+        "cn.csl-2026-amendment"
+      ],
+      "basis": "PIPL, Data Security Law, Network Data Security Management Regulations (2025), the relaxed 2024 cross-border data-flow rules, and the Cybersecurity Law amendment effective 2026-01-01 that adds AI provisions."
+    },
+    "trade": {
+      "coverage": 0.2,
+      "cost_share": 0.02,
+      "p_in_force": 0.9,
+      "p_enforced": 0.7,
+      "instruments": [
+        "cn.mofcom.tech-export-catalogue",
+        "cn.mofcom.rare-earth-controls"
+      ],
+      "basis": "China's own outbound controls as borne by Chinese AI firms selling abroad: the technology-export catalogue (covers recommendation algorithms) and dual-use/rare-earth regimes. Inbound chip restrictions are modelled in compute, not here."
+    }
+  },
+  "fragmentation": {
+    "regimes": 4,
+    "fixed_cost_per_regime_musd": 0.3,
+    "basis": "Regulation is centralised in CAC with MIIT/MOST/SAMR co-signers; local AI promotion regulations (Shanghai, Shenzhen) add light layers. Few regimes, each heavy."
+  },
+  "reference_firm": {
+    "annual_ai_revenue_musd": 200,
+    "basis": "Same reference firm as the US binding, so fixed_burden is comparable."
+  },
+  "ex_ante_gate": {
+    "delay_months": 4,
+    "obsolescence_per_year": 0.5,
+    "basis": "CAC filing typically takes several months from submission to listing; 4 is a central estimate. Same obsolescence as the US binding."
+  },
+  "state_support": {
+    "subsidy_share": 0.04,
+    "basis": "Compute vouchers, local-government AI funds, the national AI industry investment fund (2025), and the AI+ action plan's procurement pull. Larger than the US offset, which is what lets net_burden understate the filing regime's friction."
+  },
+  "compute": {
+    "domestic_supply_ratio": 0.55,
+    "licensed_import_ratio": 0.25,
+    "import_realization": 0.9,
+    "grey_channel_ratio": 0.08,
+    "basis": "Domestic accelerators (Ascend, Cambricon, Hygon, Kunlunxin, Moore Threads, MetaX) cover ~55% of demand. The January 2026 BIS rule licenses H200-class imports case-by-case (~25% of demand), but Beijing has blocked H200s at customs and steered buyers domestic, so ~15% of licensed volume lands. Grey channels (transshipment, offshore cloud) add ~8%."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ai-regulation-us.colorado-enforced-2027",
+  "label": "US AI regulation · Colorado AI Act enforced (mid-2027)",
+  "task_family": "ai-regulation-event",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:us",
+    "slot:highrisk",
+    "horizon:2027"
+  ],
+  "prompt": "Will the Colorado Attorney General be enforcing SB 24-205 (or a successor high-risk AI statute) against private developers or deployers by 30 June 2027?",
+  "resolution_criteria": "Resolves YES if, by the date, the AG has finalised implementing rules and no court order or stipulation bars enforcement. Resolves NO if the law is repealed, replaced by a statute without high-risk duties, or still suspended.",
+  "expected_resolution_at": "2027-06-30T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "binary",
+    "unit": null,
+    "min": null,
+    "max": null,
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": [
+      "co_ag_rulemaking",
+      "court_ruling"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Enforcement stipulation",
+      "disposition": "committed",
+      "note": "April 2026 joint motion: no enforcement until interpretive rulemaking completes."
+    },
+    {
+      "label": "Replacement framework",
+      "disposition": "provisional",
+      "note": "Polis workgroup framework agreed; bill status after the 2026 session unverified."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

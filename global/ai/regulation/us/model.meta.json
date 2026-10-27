@@ -1,0 +1,144 @@
+{
+  "id": "ai-regulation-us",
+  "name": "AI Regulatory Environment — United States",
+  "kind": "sector_economic",
+  "blurb": "Expected AI compliance burden, legal uncertainty and compute access under the US federal-state regime, Oct 2026.",
+  "mechanism": "The US regime is permissive at the federal level and fragmented below it. There is no general AI statute and no ex-ante gate outside sectoral pre-market review (FDA). Obligations come from state law — California's frontier transparency act (SB 53), New York's RAISE Act, Colorado's high-risk AI Act, Illinois and NYC employment rules, Texas TRAIGA, California's provenance and companion-chatbot statutes — plus federal content (TAKE IT DOWN), data (state privacy laws, DOJ bulk-data rule) and outbound export controls (BIS).\n\nThe defining feature is that the state layer is legally contested. EO 14365 (Dec 2025) stood up a DOJ AI Litigation Task Force, ties BEAD funds to avoiding 'onerous' laws, and the US has intervened against Colorado; the bipartisan Great American AI Act draft would preempt state development laws for three years. The model carries this as p_in_force < 1 on the frontier and highrisk slots, which is why contested_share is roughly twice China's: US firms face less expected cost but more of it unpriceable.\n\nBaseline: gross burden ≈ 4.8% of in-scope AI revenue for a $200M reference firm, half of it the fixed cost of mapping ~12 regimes; contested share ≈ 36%. The federal-preemption scenario cuts gross burden ~40% (4.8% → 2.9%), mostly by collapsing the patchwork — preemption is a fixed-cost reform, not a variable-cost one, so it favours small firms disproportionately.",
+  "components": [
+    {
+      "id": "equations",
+      "name": "Shared regulatory-burden graph",
+      "role": "One closed-form graph for every jurisdiction; a jurisdiction is a leaf binding, never a different equation set.",
+      "crate_path": "global/ai/regulation/equations.json",
+      "key_symbols": [
+        "burden_frontier",
+        "burden_highrisk",
+        "burden_filing",
+        "burden_content",
+        "burden_data",
+        "burden_trade",
+        "gross_burden",
+        "net_burden",
+        "contested_share",
+        "compute_access"
+      ]
+    },
+    {
+      "id": "instruments",
+      "name": "Instrument catalogue",
+      "role": "Every law, regulation, standard and executive action the slots aggregate, with status, effective date, source and catalogue confidence.",
+      "crate_path": "global/ai/regulation/instruments.json",
+      "key_symbols": []
+    },
+    {
+      "id": "params",
+      "name": "United States bindings",
+      "role": "Baseline plus counterfactual scenario bindings; each leaf carries its basis inline.",
+      "crate_path": "global/ai/regulation/us/params/",
+      "key_symbols": [
+        "baseline",
+        "federal-preemption"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "params",
+      "kind": "harness_skill",
+      "description": "United States instrument slots (coverage, cost_share, p_in_force, p_enforced), fragmentation, ex-ante gate, state support, compute supply."
+    },
+    {
+      "name": "instrument catalogue",
+      "kind": "evidence_state",
+      "description": "instruments.json — the sourced instrument list each slot aggregates."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "burden_<slot>",
+      "kind": "prediction",
+      "description": "Expected annual compliance cost per instrument slot, as a share of in-scope AI revenue: coverage × cost_share × p_in_force × p_enforced."
+    },
+    {
+      "name": "gross_burden / net_burden",
+      "kind": "prediction",
+      "description": "variable + fixed (patchwork) + ex-ante delay burden; net subtracts state support. Shares of the reference firm's annual AI revenue."
+    },
+    {
+      "name": "gate_delay_effective_months",
+      "kind": "prediction",
+      "description": "Expected launch delay imposed by ex-ante filing/approval, weighted by the gate's coverage and enforcement."
+    },
+    {
+      "name": "contested_share",
+      "kind": "prediction",
+      "description": "Share of the regulatory cost at stake whose legal status is contested (4·p·(1−p) weighting: 1 at a coin flip, 0 when settled). The uncertainty a firm cannot price."
+    },
+    {
+      "name": "enforcement_gap",
+      "kind": "prediction",
+      "description": "Share of in-force obligations that are not enforced in expectation — law on the books an operator can currently underweight."
+    },
+    {
+      "name": "compute_access / compute_gap",
+      "kind": "prediction",
+      "description": "min(1, domestic + licensed × realised + grey) frontier-compute supply against demand. A binding min, not a smooth surrogate."
+    }
+  ],
+  "parameters": [
+    {
+      "key": "model_kind",
+      "value": "sector_economic / closed_form",
+      "description": "Pure analytical expectation over instrument slots; no simulation."
+    },
+    {
+      "key": "as_of",
+      "value": "2026-10-27",
+      "description": "Instrument status date."
+    },
+    {
+      "key": "calibration",
+      "value": "authored_priors",
+      "description": "Every leaf is a sourced judgement, not a fit. Advisory until graded against compliance-cost actuals."
+    },
+    {
+      "key": "checkpoint_interval_hours",
+      "value": "168",
+      "description": "Weekly; the preemption fight moves faster than the law."
+    }
+  ],
+  "references": [
+    {
+      "label": "Instrument catalogue",
+      "kind": "spec",
+      "location": "/global/ai/regulation/instruments.json"
+    },
+    {
+      "label": "Model README",
+      "kind": "spec",
+      "location": "/global/ai/regulation/README.md"
+    }
+  ],
+  "depends_on": [
+    {
+      "target_model_id": "ai-regulation-china",
+      "kind": "shares_component",
+      "note": "Same equations.json; outputs are commensurable by construction."
+    },
+    {
+      "target_model_id": "aifutures",
+      "kind": "consumes_from",
+      "note": "Frontier-slot coverage tracks how concentrated AI revenue is in frontier developers, which the AI Futures milestones condition."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states",
+      "kind": "depends_on",
+      "note": "Jurisdiction anchor: this model is the AI regulatory environment of the United States node in the 10B country tree."
+    },
+    {
+      "target_model_id": "global.10B.countries.united-states.governance",
+      "kind": "depends_on",
+      "note": "The United States governance cell is the 10B needs-category this regime sits under; the link is declared here because global/10B is generated and must not be hand-edited."
+    }
+  ]
+}

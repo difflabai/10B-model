@@ -1,0 +1,14 @@
+{
+  "$comment": "Default run: China baseline binding as of 2026-10-27. Scenarios rebind leaves, never the graph: point inputs.params.path at a sibling params file (params/import-thaw.json, params/ai-law.json) and re-point output.",
+  "modelId": "global.ai.regulation.china",
+  "engine": "closed-form",
+  "inputs": {
+    "params": {
+      "path": "/global/ai/regulation/china/params/baseline.json"
+    }
+  },
+  "spec": {
+    "path": "/global/ai/regulation/equations.json"
+  },
+  "output": "/global/ai/regulation/china/runs/baseline/regulatory-burden.json"
+}
