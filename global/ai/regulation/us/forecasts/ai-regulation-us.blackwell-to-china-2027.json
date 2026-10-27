@@ -1,0 +1,48 @@
+{
+  "id": "ai-regulation-us.blackwell-to-china-2027",
+  "label": "US AI regulation · Blackwell-class exports to China licensed (2027)",
+  "task_family": "ai-regulation-event",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:us",
+    "slot:trade",
+    "horizon:2027"
+  ],
+  "prompt": "Will BIS grant licences, or adopt a licensing policy, permitting exports of NVIDIA Blackwell-class (B200/B300 or a China-specific Blackwell derivative above the 3A090 threshold) accelerators to customers in China by 31 December 2027?",
+  "resolution_criteria": "Resolves YES on a Federal Register rule or credibly reported BIS licence approval covering Blackwell-class shipments to China. A statute barring such exports (e.g. AI OVERWATCH Act) resolves NO if enacted before any licence.",
+  "expected_resolution_at": "2027-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "binary",
+    "unit": null,
+    "min": null,
+    "max": null,
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": [
+      "bis_rule",
+      "federal_register"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "H200 precedent",
+      "disposition": "committed",
+      "note": "January 2026 case-by-case policy shows the executive will trade access for revenue share."
+    },
+    {
+      "label": "Congressional backstop",
+      "disposition": "provisional",
+      "note": "AI OVERWATCH Act passed committee 42-2; floor status unconfirmed."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

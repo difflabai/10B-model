@@ -1,0 +1,105 @@
+{
+  "$comment": "United States counterfactual: a federal statute (Obernolte-Trahan-style) preempts state AI development and high-risk laws. Rebinds leaves only: frontier and highrisk p_in_force fall, a single federal disclosure duty replaces the frontier layer, and the patchwork collapses to ~3 regimes. Child-safety and content laws are outside the preemption scope and are left unchanged.",
+  "jurisdiction": "US",
+  "scenario": "federal-preemption",
+  "as_of": "2026-10-27",
+  "instruments": {
+    "frontier": {
+      "coverage": 0.5,
+      "cost_share": 0.002,
+      "p_in_force": 0.9,
+      "p_enforced": 0.6,
+      "instruments": [
+        "us.ca.sb53",
+        "us.ny.raise"
+      ],
+      "basis": "Federal disclosure standard replaces SB 53/RAISE; lower cost, near-certain status."
+    },
+    "highrisk": {
+      "coverage": 0.25,
+      "cost_share": 0.02,
+      "p_in_force": 0.1,
+      "p_enforced": 0.4,
+      "instruments": [
+        "us.co.sb24-205",
+        "us.il.hb3773",
+        "us.nyc.ll144",
+        "us.tx.traiga",
+        "us.ca.ccpa-admt"
+      ],
+      "basis": "State consequential-decision laws preempted for development; residual civil-rights and sectoral law only."
+    },
+    "filing": {
+      "coverage": 0.03,
+      "cost_share": 0.01,
+      "p_in_force": 0.95,
+      "p_enforced": 0.9,
+      "instruments": [
+        "us.fda.aidsf"
+      ],
+      "basis": "The US has no general ex-ante gate. Only sectoral pre-market review (FDA AI-enabled device software, similar FAA/NHTSA paths) gates launch; coverage is that sliver of AI revenue."
+    },
+    "content": {
+      "coverage": 0.4,
+      "cost_share": 0.004,
+      "p_in_force": 0.85,
+      "p_enforced": 0.5,
+      "instruments": [
+        "us.fed.take-it-down",
+        "us.ca.sb942",
+        "us.ca.sb243",
+        "us.state.deepfake-election"
+      ],
+      "basis": "Takedown, provenance and companion-chatbot duties. TAKE IT DOWN Act notice-and-removal obligations apply to platforms; California provenance/disclosure and companion-chatbot statutes add state layers; the EO 14365 carve-out leaves child-safety laws outside the preemption push, so p_in_force is high."
+    },
+    "data": {
+      "coverage": 0.7,
+      "cost_share": 0.008,
+      "p_in_force": 0.95,
+      "p_enforced": 0.5,
+      "instruments": [
+        "us.state.privacy",
+        "us.ftc.s5",
+        "us.doj.bulk-data"
+      ],
+      "basis": "No federal privacy statute; ~20 state comprehensive privacy laws, FTC Section 5 enforcement on AI claims and data practices, and the DOJ bulk-sensitive-data rule restricting transfers to countries of concern."
+    },
+    "trade": {
+      "coverage": 0.3,
+      "cost_share": 0.06,
+      "p_in_force": 0.95,
+      "p_enforced": 0.7,
+      "instruments": [
+        "us.bis.ear-advanced-computing",
+        "us.bis.h200-case-by-case",
+        "us.bis.parent-hq-guidance"
+      ],
+      "basis": "Outbound export controls as borne by US AI firms: coverage is the chip/systems share of US AI revenue; cost_share is licensing overhead plus forgone China sales. Blackwell-class denied; H200/MI325X case-by-case since 2026-01-15 under a 50%-of-US-volume cap and a 25% Section 232 tariff; May 2026 guidance extends licensing to China-parented entities abroad."
+    }
+  },
+  "fragmentation": {
+    "regimes": 3,
+    "fixed_cost_per_regime_musd": 0.4,
+    "basis": "Distinct regimes a national deployer must map (federal + ~11 states with material AI-specific duties). Fixed legal/program cost per regime per year for the reference firm. The patchwork is the US cost driver the preemption fight is about."
+  },
+  "reference_firm": {
+    "annual_ai_revenue_musd": 200,
+    "basis": "Mid-size AI application/model firm; fixed costs are regressive, so a larger firm sees a smaller fixed_burden."
+  },
+  "ex_ante_gate": {
+    "delay_months": 6,
+    "obsolescence_per_year": 0.5,
+    "basis": "Sectoral pre-market review runs ~6 months. obsolescence_per_year is the share of a model/product's annual value lost to a year of delay in a market where frontier capability turns over roughly annually."
+  },
+  "state_support": {
+    "subsidy_share": 0.01,
+    "basis": "Federal support netted against burden: CHIPS-era incentives, federal compute access programs, permitting acceleration for data centres under the AI Action Plan. Small relative to revenue."
+  },
+  "compute": {
+    "domestic_supply_ratio": 1.0,
+    "licensed_import_ratio": 0.0,
+    "import_realization": 1.0,
+    "grey_channel_ratio": 0.0,
+    "basis": "US firms face no import licensing for frontier accelerators; access is bounded by supply chain, not regulation. Treated as fully accessible."
+  }
+}

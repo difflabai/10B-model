@@ -1,0 +1,46 @@
+{
+  "id": "ai-regulation-us.federal-preemption-2027",
+  "label": "US AI regulation · Federal preemption statute enacted (2027)",
+  "task_family": "ai-regulation-event",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:us",
+    "horizon:2027"
+  ],
+  "prompt": "Will Congress enact, and the President sign, a statute that expressly preempts state laws regulating the development of AI models by 31 December 2027?\n\nResolving yes rebinds the US model to params/federal-preemption.json.",
+  "resolution_criteria": "Resolves YES on publication in the Statutes at Large / congress.gov of an enacted law with an express preemption clause covering state AI development or high-risk-AI laws. Executive orders, agency rules and court injunctions do not count.",
+  "expected_resolution_at": "2027-12-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "binary",
+    "unit": null,
+    "min": null,
+    "max": null,
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 168,
+    "triggers": [
+      "congress_floor_vote"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Congress declined twice",
+      "disposition": "committed",
+      "note": "The OBBBA moratorium was stripped 99-1 (July 2025); a December 2025 NDAA attempt also failed."
+    },
+    {
+      "label": "Bipartisan draft",
+      "disposition": "provisional",
+      "note": "Obernolte-Trahan draft (June 2026) is the live vehicle; no floor vote yet."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

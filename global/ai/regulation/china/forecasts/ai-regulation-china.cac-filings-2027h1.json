@@ -1,0 +1,47 @@
+{
+  "id": "ai-regulation-china.cac-filings-2027h1",
+  "label": "China AI regulation · Cumulative CAC generative AI filings (mid-2027)",
+  "task_family": "ai-regulation-metric",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:cn",
+    "slot:filing",
+    "horizon:2027"
+  ],
+  "prompt": "How many generative AI services will have completed CAC filing (cumulative, excluding app/feature registrations) as of the CAC announcement covering 30 June 2027?",
+  "resolution_criteria": "Resolves to the cumulative filed-services count in the first CAC announcement whose cut-off is on or after 30 June 2027. Baseline: 1,112 as of 31 August 2026.",
+  "expected_resolution_at": "2027-08-31T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "numeric",
+    "unit": "services (cumulative)",
+    "min": "1112",
+    "max": "3000",
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 1440,
+    "triggers": [
+      "cac_filing_batch"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Batch cadence",
+      "disposition": "committed",
+      "note": "Batches every ~2 months; ~124 services in the Jul–Aug 2026 batch."
+    },
+    {
+      "label": "Coverage drift",
+      "disposition": "provisional",
+      "note": "On-device filings (first list July 2026) may be counted separately."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}

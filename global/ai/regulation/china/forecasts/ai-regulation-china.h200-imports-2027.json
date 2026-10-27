@@ -1,0 +1,48 @@
+{
+  "id": "ai-regulation-china.h200-imports-2027",
+  "label": "China AI regulation · H200 import block lifted (mid-2027)",
+  "task_family": "ai-regulation-event",
+  "tags": [
+    "ai-regulation",
+    "jurisdiction:cn",
+    "input:compute",
+    "horizon:2027"
+  ],
+  "prompt": "Will US-licensed NVIDIA H200 accelerators be clearing Chinese customs in commercial volume to mainland customers by 30 June 2027?\n\nResolving yes rebinds the China model to params/import-thaw.json.",
+  "resolution_criteria": "Resolves YES on credible reporting (company disclosure, customs data or two independent major outlets) of commercial-volume H200 deliveries to mainland Chinese customers. Isolated deliveries or offshore-cloud access do not count.",
+  "expected_resolution_at": "2027-06-30T23:59:59Z",
+  "last_checkpoint_at": null,
+  "next_checkpoint_at": null,
+  "current_summary": null,
+  "current_prediction": null,
+  "outcome_space": {
+    "kind": "binary",
+    "unit": null,
+    "min": null,
+    "max": null,
+    "categories": []
+  },
+  "schedule": {
+    "kind": "fixed",
+    "interval_hours": 336,
+    "triggers": [
+      "nvidia_earnings",
+      "mofcom_statement"
+    ]
+  },
+  "evidence": [],
+  "diagnostics": [
+    {
+      "label": "Customs block",
+      "disposition": "committed",
+      "note": "Early-2026 customs holds plus window guidance toward domestic chips."
+    },
+    {
+      "label": "Self-sufficiency push",
+      "disposition": "provisional",
+      "note": "Domestic accelerator capacity growth reduces Beijing's incentive to relent."
+    }
+  ],
+  "history": [],
+  "status": "pending"
+}
